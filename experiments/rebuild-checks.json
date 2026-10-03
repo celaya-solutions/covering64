@@ -1,0 +1,16 @@
+{
+  "scope": "fresh reconstructed-package validation; no new research searches",
+  "commands": [
+    "uv run ruff check .",
+    "uv run pytest",
+    "bash -n scripts/verify_drat.sh",
+    "uv run covering64 verify data/baselines/belic-1997.txt --expected-blocks 65",
+    "uv run python scripts/check_cover.py data/baselines/belic-1997.txt --expected-blocks 65"
+  ],
+  "tests_passed": 53,
+  "lint_passed": true,
+  "proof_helper_syntax_passed": true,
+  "both_witness_checkers_passed": true,
+  "global_problem_solved": false,
+  "original_raw_experiment_logs_recovered": false
+}

@@ -1,0 +1,42 @@
+Continue research in this covering64 repository. Locate the repository root from
+the current workspace; do not assume the extracted folder is at /workspace.
+
+Primary goal: find at most 64 distinct five-element subsets of {1,...,16} that
+cover all 560 triples. A separately checked unrestricted UNSAT proof at 64 would
+also be a mathematical result, establishing C(16,5,3)=65 with the known cover.
+
+Read AGENTS.md, README.md, docs/recovery.md and docs/evidence-policy.md. This
+package was reconstructed after a workspace reset; do not invent missing logs.
+The 65 benchmark is verified. Prior short searches found no 64 cover and no
+global proof. Timeouts and local infeasibility do not prove global nonexistence.
+
+Implement and run an adaptive loop combining unrestricted CP-SAT seeds,
+larger exact block exchanges, low-deficit neighborhood selection, equal-size
+exchanges for structurally different incumbents, randomized constructive
+restarts and proof-producing SAT when useful. Analyze each batch, adapt search
+choices, and increase justified budgets rather than repeating a stalled method.
+
+Use available CPU/memory safely and existing resources only. Do not create paid
+infrastructure. Record seeds, settings, code revisions, solver versions,
+resource use, source and witness hashes, complete logs and checkpoint state.
+Checkpoint frequently and preserve a concrete resume command. Treat the
+campaign's two-week gate as a strategy review instead of automatic termination.
+
+Preserve the full unrestricted problem: do not impose incumbent replication
+patterns or rotational symmetry. Every globally used reduction needs a
+completeness argument. Parallelize independent seeds within resource limits.
+
+On finding a cover with at most 64 blocks, stop modifying it, preserve its exact
+bytes, and run both the package checker and scripts/check_cover.py as separate
+processes. Confirm the actual block count and all 560 triples. A valid cover
+improves the upper bound; check current primary records before claiming novelty.
+
+For nonexistence, audit the unrestricted at-most 64 encoding and independently
+check a solver-produced proof. UNKNOWN, timeout, local infeasibility and an
+unchecked terminal UNSAT are not accepted winning results.
+
+Continue routine implementation decisions autonomously and provide concise
+progress updates. Do not contact researchers or publish claims. If a hard
+execution/resource limit stops work, save a complete checkpoint and resume
+command, report the unresolved outcome, and do not imply computation continues
+after the session ends. Start the next search batch now.

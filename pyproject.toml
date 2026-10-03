@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "covering64"
+version = "0.1.1"
+description = "Reproducible asymmetric search for a 64-block C(16,5,3) covering"
+requires-python = ">=3.11"
+dependencies = ["ortools>=9.14,<10", "python-sat>=1.8.dev13,<2"]
+
+[project.scripts]
+covering64 = "covering64.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.12,<1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
