@@ -1,0 +1,61 @@
+```text
+Document:    C(16,5,3) Continued Research Checkpoint
+Version:     v1.1.0
+Author:      Celaya Solutions
+Contact:     hello@celayasolutions.com
+Date:        2026-10-03
+SHA256:      202dfe6407ba459763cd5016d18bd5856cd9783b233dd7803b8deebcf904e2fe
+Chain:       n/a
+Tx:          [not anchored]
+License:     All Rights Reserved / Celaya Solutions
+```
+
+# Research continuation
+
+The goal is still open: no verified64-block C(16,5,3) cover has been found. The best unrestricted partial cover still covers557 of560 triples. The best point-essential regular candidate still covers552. No global nonexistence claim follows from these experiments.
+
+## Independently checked reductions
+
+The published four-class degree19 link classification is retained. For two degree19 points sharing six blocks, all576 second links reduce to270 ordered representatives. An independent incidence-graph audit and270 explicit relabelings confirm196 classes after swapping the anchors.
+
+Exact rational duals exclude four fixed32-block families. Every dual was replayed against all4368 possible added blocks with a standard-library checker. Independent exhaustive weighted trees exclude two more fixed families, using279 checked nodes. These are six local exclusions, leaving190 of the196 classes without such a certificate. They do not cover every degree19 configuration.
+
+In the full regular20 branch, triples occurring six or seven times are vertex-disjoint. Sevenfold triples have an exact seven-block form, and their distinct outside hubs imply4*n7+3*n6<=16. The earlier eight-hole seeds have n7=3,n6=2, so this pattern must change before they can become full covers.
+
+A sevenfold triple leaves three local families, each with13 quadruples on13 points and degree four at each point. A valid non-projective-plane local family was found. Two independent arithmetic enumerations show that no such family can omit both edges of the relevant two-edge star: all32235 possible Gram-matrix excess patterns have nonsquare determinant. In the point-essential branch, at least two local families must therefore omit complementary star edges.
+
+## Recorded searches
+
+- Four single-link runs of300 seconds,36 double-hub64 runs, and eight double-hub65 runs found no cover. The two fast double-hub negative results were subsequently checked by independent trees; all other negative solver outcomes in this batch are timeouts.
+- The regular CP model with aggregate bounds retained an eight-hole seed after600 seconds. Native SAT with those bounds timed out after600 seconds. These outcomes are inconclusive.
+- The first local search made41 attempts without changing a block. A second23-attempt run, with tie-breaking that favors new blocks, also kept its eight-hole seed.
+- Three normalized sevenfold-triple CP runs, each300 seconds, returned UNKNOWN. Their encodings, optional heavy-count flags, fixed block IDs, pair equations and archived models passed a separate audit, including byte-identical model rebuilds.
+- The longer-move heuristic still found no seven-hole qualifying state. It did find a ten-hole state satisfying the heavy-count inequality. All saved candidates were checked by both covering verifiers and a separate degree/pair/private-triple recount.
+
+## Local families and construction searches
+
+The local13-point classification is complete within its stated assumptions: thirteen distinct quadruples, every point of degree four, and missing pairs forming a matching. There are exactly three unmarked families, with zero, four, or six missing pairs. An independent direct enumerator found88 labelled families; a separate graph audit checked every isomorphism map. This is not a classification of all64-block covers.
+
+In the point-essential regular branch containing a sevenfold triple, a local family omitting a chosen spoke reduces to13 first-family representatives. All44,160 labelled families have explicit checked maps to these representatives. Each of the13 full-cover CP runs timed out at20 seconds. Their models were independently reconstructed; no nonexistence claim follows.
+
+Joint local-family and outside-block search improved from27 to14 missing triples. The next version adds exact four- and six-block trades with the projective-plane family and reached five missing triples. The best general partial still has three holes; the best point-essential regular partial still has eight. These are different search scopes.
+
+The five-hole structured state has four disjoint sevenfold triples and one disjoint sixfold triple, an impossible pattern for a full64 cover. A checked two-outside-block point swap gives a six-hole state passing the regular heavy-count restrictions. Both covering checkers agree, all point degrees remain20, and its first family normalizes to representative r4-005. Passing these restrictions does not establish extendability.
+
+The first-family wrapper validates every variable in a complete hint by fixing all variables in a cloned model. An explicit partial-search option removes only78 outside-pair lower bounds and one opposite-spoke condition. All13 default models remain byte-identical to their earlier versions. A27-hole strict run improved to25; a14-hole relaxed run retained14 after600 seconds. Adding residual-pair cuts retained14 after another300 seconds. Later pilots have separate frozen source/model records.
+
+## Further conditional obstructions
+
+Five vertex-disjoint triples, each covered at least six times, cannot include two sevenfold triples in a64-block cover. This argument does not assume regularity. All15 involved points must have degree at least20. The degree sum320 permits either all16 degrees20, or one involved point of degree21 and the remaining point of degree19. Each sevenfold triple forces a repeated outside point with three pair excesses. In either degree case, only one point can serve that role and it cannot serve twice. The full proof, independent degree/hub enumeration, and damage controls are under `experiments/2026-10-03/five-heavy-triples`.
+
+For each outside pair, count triples through it missed by all39 local blocks. Its required outside-block pair count is at least one third of that count, rounded up. At any point, the sum of these bounds cannot exceed four times its outside-block degree. The fixed local families of the14- and five-hole seeds require at least25 at the hub, whose available sum is24. Those particular three-family combinations must change; outside-block repair alone cannot complete them.
+
+The CP version excludes global holes from residual demand, so it remains valid for partial states. An independent checker reconstructed all364 new variables and1,105 new constraints, checked every auxiliary hint value, and rejected six damaged controls. Separate local packing cuts also passed independent audits; their120-second full-cover pilot timed out.
+
+## Audit correction and current direction
+
+A generic neighborhood repair produced another three-hole state. Its first profile summary mistakenly used a threshold of seven and omitted its sixfold triple. Root and an independent agent caught the error using direct counts and both covering checkers. The corrected state has the forbidden five-heavy-triple pattern and is not an eligible escape seed. The correction, original search records, and regression controls are retained.
+
+Continue construction from independently checked six-hole states while allowing local families to change. The general heavy-profile heuristic made2,500,339,392 proposals in600 seconds and retained a six-hole state passing its stated profile filter; it did not find a cover. Every saved improvement passed both covering checks and an independent profile recount. Sanitizers and separate predicate/move/rollback audits passed. Ongoing campaigns remain inconclusive until a complete candidate passes both covering checkers.
+
+Compact certificates, source snapshots, metadata, hashes and logs are under `experiments/2026-10-03`. Large raw solver models remain in ignored scratch directories. The branch remains isolated and has not been merged or pushed.

@@ -1,0 +1,295 @@
+{
+  "damaged-label": {
+    "package": {
+      "error": "block 1: labels must be between 1 and 16",
+      "valid": false
+    },
+    "sha256": "8974da72edd5f85f84b1ab062e3c9ef70fe4953b48cb4ac8acb9fc480c7bf095",
+    "standalone": {
+      "error": "block 65: labels must lie in 1..16",
+      "source_sha256": "8974da72edd5f85f84b1ab062e3c9ef70fe4953b48cb4ac8acb9fc480c7bf095",
+      "valid": false
+    },
+    "standalone_exit": 2
+  },
+  "deleted-block64": {
+    "package": {
+      "blocks": 64,
+      "canonical_sha256": "7b7d9bff100c5dc4582814ad8d179b66f1a284e79cacb4a85bac9f128a9b71c7",
+      "covered": 552,
+      "k": 5,
+      "multiplicities": {
+        "0": 8,
+        "1": 490,
+        "2": 55,
+        "3": 2,
+        "6": 1,
+        "7": 4
+      },
+      "pair_multiplicities": {
+        "4": 6,
+        "5": 83,
+        "6": 16,
+        "7": 15
+      },
+      "replication": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 19,
+        "9": 20,
+        "10": 20,
+        "11": 19,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 22,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          8,
+          9,
+          11
+        ],
+        [
+          8,
+          9,
+          12
+        ],
+        [
+          8,
+          9,
+          13
+        ],
+        [
+          8,
+          11,
+          12
+        ],
+        [
+          8,
+          12,
+          13
+        ],
+        [
+          9,
+          11,
+          13
+        ],
+        [
+          9,
+          12,
+          13
+        ],
+        [
+          11,
+          12,
+          13
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    "sha256": "7b7d9bff100c5dc4582814ad8d179b66f1a284e79cacb4a85bac9f128a9b71c7",
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "7b7d9bff100c5dc4582814ad8d179b66f1a284e79cacb4a85bac9f128a9b71c7",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 8,
+        "1": 490,
+        "2": 55,
+        "3": 2,
+        "6": 1,
+        "7": 4
+      },
+      "covered_subsets": 552,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 20,
+        "11": 19,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 22,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 19,
+        "9": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "7b7d9bff100c5dc4582814ad8d179b66f1a284e79cacb4a85bac9f128a9b71c7",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          8,
+          9,
+          11
+        ],
+        [
+          8,
+          9,
+          12
+        ],
+        [
+          8,
+          9,
+          13
+        ],
+        [
+          8,
+          11,
+          12
+        ],
+        [
+          8,
+          12,
+          13
+        ],
+        [
+          9,
+          11,
+          13
+        ],
+        [
+          9,
+          12,
+          13
+        ],
+        [
+          11,
+          12,
+          13
+        ]
+      ],
+      "uncovered_count": 8,
+      "valid": false
+    },
+    "standalone_exit": 1
+  },
+  "duplicate": {
+    "package": {
+      "error": "duplicate blocks are not allowed",
+      "valid": false
+    },
+    "sha256": "6e607f81ed414345541e4d5439004b2516494351d5d638ad27deec355eae4b40",
+    "standalone": {
+      "error": "block 2: duplicate block",
+      "source_sha256": "6e607f81ed414345541e4d5439004b2516494351d5d638ad27deec355eae4b40",
+      "valid": false
+    },
+    "standalone_exit": 2
+  },
+  "known65": {
+    "package": {
+      "blocks": 65,
+      "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "covered": 560,
+      "k": 5,
+      "multiplicities": {
+        "1": 497,
+        "2": 56,
+        "3": 2,
+        "7": 5
+      },
+      "pair_multiplicities": {
+        "5": 88,
+        "6": 14,
+        "7": 18
+      },
+      "replication": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 21,
+        "14": 20,
+        "15": 22,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 650,
+      "triples": 560,
+      "uncovered": [],
+      "v": 16,
+      "valid": true
+    },
+    "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+    "standalone": {
+      "blocks": 65,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "1": 497,
+        "2": 56,
+        "3": 2,
+        "7": 5
+      },
+      "covered_subsets": 560,
+      "covers_all_subsets": true,
+      "expected_blocks": 65,
+      "expected_subset_incidences": 650,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 21,
+        "14": 20,
+        "15": 22,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21
+      },
+      "required_subsets": 560,
+      "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "total_subset_incidences": 650,
+      "uncovered": [],
+      "uncovered_count": 0,
+      "valid": true
+    },
+    "standalone_exit": 0
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "balanced_types": true,
+  "block_variables": 4368,
+  "budget_seconds": 120.0,
+  "elapsed_seconds": 120.02269697189331,
+  "model_sha256": "b5b88e2e665fc2222ec93e18d04fc329ef0d2227734311fb6cbbc024089098da",
+  "nontransversal_triples": 112,
+  "ortools": "9.15.6755",
+  "pair_partition": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      15,
+      16
+    ]
+  ],
+  "python": "3.13.15",
+  "scope": "restricted eight-pair excess support; not an unrestricted reduction",
+  "seed": 640303,
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "source_sha256": "e4062cde82298eebda916300cfe6b7d40dc39e44d1c32339b4935056811d1ad7",
+  "started_unix": 1791066008.4063292,
+  "stats": "CpSolverResponse summary:\nstatus: UNKNOWN\nobjective: 0\nbest_bound: 0\nintegers: 1467\nbooleans: 1843\nconflicts: 165283\nbranches: 6240744\npropagations: 136666209\ninteger_propagations: 100344274\nrestarts: 110\nlp_iterations: 814287\nwalltime: 120.001\nusertime: 120.001\ndeterministic_time: 206.59\ngap_integral: 0\n",
+  "status": "UNKNOWN",
+  "transversal_triples": 448,
+  "workers": 1
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "name": "gordon",
+    "url": "https://dmgordon.org/covering-designs/",
+    "retrieved_utc": "2026-10-03T22:07:39.227993+00:00",
+    "status": 200,
+    "final_url": "https://dmgordon.org/covering-designs/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 9200,
+    "sha256": "a5cc2312afc8dedd17c52410c34d518396d0a42982b2af429c8dc54f9e7170e3"
+  },
+  {
+    "name": "ljcr",
+    "url": "https://ljcr.dmgordon.org/cover/show_cover.php?v=16&k=5&t=3",
+    "retrieved_utc": "2026-10-03T22:07:39.228258+00:00",
+    "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+  },
+  {
+    "name": "repository",
+    "url": "https://coveringrepository.com/",
+    "retrieved_utc": "2026-10-03T22:07:39.228316+00:00",
+    "status": 200,
+    "final_url": "https://coveringrepository.com/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 13771,
+    "sha256": "7942b6237e885a9b5c8268abebae8e0b9a960e2bbac368aaeab0eb1d611c55e8"
+  },
+  {
+    "name": "target",
+    "url": "https://coveringrepository.com/systems.aspx?v=16&k=5&t=3&m=3",
+    "retrieved_utc": "2026-10-03T22:07:39.228416+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "history",
+    "url": "https://coveringrepository.com/history.aspx?id=110841",
+    "retrieved_utc": "2026-10-03T22:07:39.228549+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "allston1988",
+    "url": "https://combinatorialpress.com/article/jcmcc/Volume%2004/vol-004-paper%2015.pdf",
+    "retrieved_utc": "2026-10-03T22:07:39.228652+00:00",
+    "status": 200,
+    "final_url": "https://combinatorialpress.com/article/jcmcc/Volume%2004/vol-004-paper%2015.pdf",
+    "content_type": "application/pdf",
+    "bytes": 753613,
+    "sha256": "dd229074b271c22475bae2993daa9cf089a988f3670237c742e22246dcb93e8d"
+  },
+  {
+    "name": "zenodo-metadata",
+    "url": "https://zenodo.org/api/records/19735294",
+    "retrieved_utc": "2026-10-03T22:09:09.698862+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "zenodo-concept",
+    "url": "https://zenodo.org/api/records/10779736",
+    "retrieved_utc": "2026-10-03T22:09:09.700680+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "repository-target-download",
+    "url": "https://coveringrepository.com/download_system.aspx?id=108633",
+    "retrieved_utc": "2026-10-03T22:09:09.702064+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "repository-link-download",
+    "url": "https://coveringrepository.com/download_system.aspx?id=104489",
+    "retrieved_utc": "2026-10-03T22:09:09.702997+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "repository-target-list",
+    "url": "https://coveringrepository.com/systems.aspx",
+    "retrieved_utc": "2026-10-03T22:09:09.703651+00:00",
+    "status": 200,
+    "final_url": "https://coveringrepository.com/systems.aspx",
+    "bytes": 186923,
+    "sha256": "b98cfb3ff676144ecbbafbf11df2b6a58a044d79820d64a7612bd28439c2196d"
+  },
+  {
+    "name": "repository-form-search",
+    "url": "https://coveringrepository.com/systems.aspx",
+    "method": "POST public search form",
+    "parameters": {
+      "v": 16,
+      "k": 5,
+      "t": 3,
+      "m": 3
+    },
+    "retrieved_utc": "2026-10-03T22:11:21.741195+00:00",
+    "status": 200,
+    "bytes": 32155,
+    "sha256": "97714ccfaa1f855c0f3489e191b160ada34347884b730cdc12008872926f6a2f"
+  }
+]

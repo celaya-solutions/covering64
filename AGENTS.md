@@ -67,3 +67,8 @@ no API key, $0).
 ## Research checkpoint 2026-10-03
 
 Checked six fixed32-block exclusions and new regular heavy-triple/spoke reductions; saved searches and independent audits. Goal64 remains open; continue local13-point family construction and classification, with scope in docs/research-continuation-2026-10-03.md.
+
+## Independent construction checkpoint 2026-10-03
+
+Saved three new routes, an independently replayed 16-case excess recipe and a checked 67-block minimum for the one-extension-per-line geometry recipe. Four single-worker pilots (420 seconds total) returned UNKNOWN; 267 tests and Ruff pass. See docs/independent-research-2026-10-03.md.
+Next bounded test: the remaining 15 recipe profiles; neither the recipe nor these timeouts settle general existence. Use nonnegative indices when mutating OR-Tools repeated fields: a negative-index damage control crashed the native binding, then passed after correction. Raw logs preserve source whitespace and remain unchanged.

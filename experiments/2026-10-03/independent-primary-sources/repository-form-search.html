@@ -1,0 +1,533 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" /><link href="main003.css" rel="stylesheet" /><title>
+	
+        Covering Repository - Coverings
+    
+</title>
+    <script type="text/javascript">
+        function activateInformationMenu() {
+            var informationLink = document.getElementById('liInformationItem');
+
+            if (informationLink) {
+                informationLink.classList.add('nav-link', 'active', 'dropdown-toggle');
+            }
+        }
+    </script>
+    
+    
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-173407395-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-173407395-1');
+</script>
+    
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8980749161915126" crossorigin="anonymous"></script>
+    <script>
+        function getCookie(name) {
+            var m = document.cookie.match('(^|; )' + name.replace(/([.$?*|{}()\[\]\\\/\+^])/g, '\\$1') + '=([^;]*)');
+            return m ? decodeURIComponent(m[2]) : null;
+        }
+
+        function exportWithLoader() {
+            var loader = document.getElementById('manualLoader');
+            if (loader) loader.classList.remove('d-none');
+
+            var token = Date.now().toString() + Math.random().toString(16).slice(2);
+            document.getElementById('cph_hfDownloadToken').value = token;
+
+            // manda la submit nel frame
+            var form = document.forms[0];
+            form.target = 'downloadFrame';
+
+            // polling cookie
+            var cookieName = 'csvDownload';
+            var start = Date.now();
+            var timer = setInterval(function () {
+                var v = getCookie(cookieName);
+                if (v === token) {
+                    clearInterval(timer);
+
+                    // hide loader
+                    if (loader) loader.classList.add('d-none');
+
+                    // ripristina target
+                    form.target = '';
+
+                    // pulisci cookie (best effort)
+                    document.cookie = cookieName + "=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+                }
+
+                // safety timeout (30s)
+                if (Date.now() - start > 30000) {
+                    clearInterval(timer);
+                    if (loader) loader.classList.add('d-none');
+                    form.target = '';
+                }
+            }, 250);
+
+            return true; // continua col postback
+        }
+    </script>
+
+</head>
+<body>
+    <form method="post" action="./systems.aspx" id="frmMain" class="form-inline">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['frmMain'];
+if (!theForm) {
+    theForm = document.frmMain;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZHJhCkvJ7utigy88hwtSTSnnRWRf_Z_I6FHjNAGsVnIg_s9ERYEMz0rJ5pIMwEK-aw2&amp;t=639190905332169432" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvqMskozPqvpABGRMSQmFHKk46CyjXrF07a5-AmwYWL2S2aMgBx9mgK58QUOFa6H4K5W6S1uyszx270_oPN02kmcrnZkSs5WWXNZ5f4n4iBQgOfdEh4dZvaoqYV2xOB8UhKih8HYUc39MsvbKSPrFnx01&amp;t=ffffffffbec1863d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dwY9oWetJoJoVpgL6Zq8OG019PhfNEXvayL3k1yN8BpwBSKOSasfBNayB9pbtFS0phqjR_XaXRYOCl0Zvd0BSIC-UvGQ1UlgONBBZr8WLy9GB14KHMnNSdiuKkt536YQ4Tz8nk_NNaDwJT3sUgK67alVwXOsg_BTPbZUzZsh2iw1&amp;t=ffffffffbec1863d" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2B6A2D07" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$scriptMngr', 'frmMain', ['tctl00$cph$pnl','cph_pnl'], [], ['ctl00$cph$btnExport','cph_btnExport'], 90, 'ctl00');
+//]]>
+</script>
+
+
+        <nav class="navbar navbar-expand-xl navbar-dark cr-navbar fixed-top">
+            <div class="container-fluid d-flex align-items-center">
+
+                <!-- SINISTRA: brand -->
+                <a class="navbar-brand navbar-brand-left" href="/default.aspx">
+                    <img src="/common/images/logo2.png" class="d-inline-block align-middle" alt="Covering Repository Logo" />
+                    Covering Repository
+                </a>
+
+                <!-- toggler (mobile) -->
+                <button class="navbar-toggler ml-auto" type="button"
+                    data-toggle="collapse" data-target="#navbarsDefault"
+                    aria-controls="navbarsDefault" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- CENTRO: menu, centrato sul container della pagina -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarsDefault">
+                    <div class="container px-0">
+                        <ul class="navbar-nav justify-content-center w-100">
+                            <li class="nav-item">
+                                <a href="/default.aspx" id="aHome" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/systems.aspx" id="aSystems" class="nav-link active">Coverings</a>
+                            </li>
+                            <li id="liLatestImprovmements" class="nav-item dropdown text-nowrap">
+                                <a href="#" id="liLatestImprovmementsItem" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Latest improvements</a>
+                                <div class="dropdown-menu" aria-labelledby="liLatestImprovmementsItem">
+                                    <a class="dropdown-item" href="/systems.aspx?li=1">(v,k,t,m) improvements</a>
+                                    <a class="dropdown-item" href="/systems.aspx?li=2">(v,k,t) improvements</a>
+                                    <a class="dropdown-item" href="/systems.aspx?li=3">(v,k,t,m) + (v,k,t) improvements</a>
+                                </div>
+                            </li>
+                            <li class="nav-item text-nowrap">
+                                <a href="/topcontributors.aspx" id="aTopContributors" class="nav-link">Top contributors</a>
+                            </li>
+                            <li id="liSubscribe" class="nav-item">
+                                <a href="/subscribe.aspx" id="aSubscribe" class="nav-link">Subscribe</a>
+                            </li>
+                            <li id="liLogin" class="nav-item text-nowrap">
+                                <a href="/login.aspx" id="aLogin" class="nav-link">Sign in</a>
+                            </li>
+                            <li id="liLostPassword" class="nav-item text-nowrap">
+                                <a href="/passwordlostrequest.aspx" id="aPasswordLost" class="nav-link">Lost password</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="/download.aspx" id="aDownload" class="nav-link">Download</a>
+                            </li>
+                            
+                                
+                            
+                            <li id="liInformation" class="nav-item dropdown text-nowrap">
+                                <a href="#" id="liInformationItem" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Information</a>
+                                <div class="dropdown-menu" aria-labelledby="liInformationItem">
+                                    <a class="dropdown-item" href="/about_sums.aspx">About sums & derived coverings</a>
+                                    <a class="dropdown-item" href="/cr_contact.aspx">Contact</a>
+                                    <a href="https://www.iubenda.com/privacy-policy/64592070" class="dropdown-item iubenda-nostyle no-brand iubenda-embed">Privacy Policy</a>
+                                    <script type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- DESTRA: spacer uguale alla sinistra (clone invisibile) -->
+                <span class="navbar-brand navbar-brand-spacer d-none d-xl-inline">
+                    <img src="/common/images/logo2.png" class="d-inline-block align-middle" alt="Covering Repository Logo" />
+                    Covering Repository
+                </span>
+
+            </div>
+        </nav>
+
+
+        <main role="main" class="container mb-5">
+            
+    <div id="cph_updProgress" style="display:none;">
+	
+            <div class="loader-overlay">
+                <div class="bg-white p-4 rounded shadow text-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="mt-2">Loading...</div>
+                </div>
+            </div>
+        
+</div>
+
+    <div id="manualLoader" class="loader-overlay d-none">
+        <div class="bg-white p-4 rounded shadow text-center">
+            <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+            <div class="mt-2">Preparing export...</div>
+        </div>
+    </div>
+
+    <iframe id="downloadFrame" name="downloadFrame" style="display: none;"></iframe>
+    <input type="hidden" name="ctl00$cph$hfDownloadToken" id="cph_hfDownloadToken" />
+
+    <div id="cph_pnl">
+	
+            
+
+            <script>
+                function clearLiFromUrlAndFormAction() {
+                    // pulisce barra indirizzi
+                    if (window.location.search.length > 0) {
+                        const cleanUrl = window.location.origin + window.location.pathname;
+                        window.history.replaceState({}, document.title, cleanUrl);
+                    }
+                    // pulisce action del form
+                    const f = document.forms[0];
+                    if (f) f.action = window.location.pathname;
+                }
+
+                function activateCoveringsMenuClientSide() {
+                    // IMPORTANTE: ClientIDMode="Static" su questi due nel master
+                    var latest = document.getElementById('liLatestImprovmementsItem');
+                    var systems = document.getElementById('aSystems');
+
+                    if (latest) latest.classList.remove('active');
+                    if (systems) systems.classList.add('active');
+                }
+            </script>
+
+            <div class="systems-filters">
+                <div class="form-row align-items-start justify-content-center mt-2">
+
+                    <div class="col-auto text-center">
+                        <label for="ddlV" class="mb-1">V</label>
+                        <select name="ctl00$cph$ddlV" id="ddlV" class="form-control form-control-sm">
+		<option value="0">--</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option selected="selected" value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+		<option value="26">26</option>
+		<option value="27">27</option>
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
+		<option value="32">32</option>
+		<option value="33">33</option>
+		<option value="34">34</option>
+		<option value="35">35</option>
+		<option value="36">36</option>
+		<option value="37">37</option>
+		<option value="38">38</option>
+		<option value="39">39</option>
+		<option value="40">40</option>
+		<option value="41">41</option>
+		<option value="42">42</option>
+		<option value="43">43</option>
+		<option value="44">44</option>
+		<option value="45">45</option>
+		<option value="46">46</option>
+		<option value="47">47</option>
+		<option value="48">48</option>
+		<option value="49">49</option>
+		<option value="50">50</option>
+		<option value="51">51</option>
+		<option value="52">52</option>
+		<option value="53">53</option>
+		<option value="54">54</option>
+		<option value="55">55</option>
+		<option value="56">56</option>
+		<option value="57">57</option>
+		<option value="58">58</option>
+		<option value="59">59</option>
+		<option value="60">60</option>
+		<option value="61">61</option>
+		<option value="62">62</option>
+		<option value="63">63</option>
+		<option value="64">64</option>
+		<option value="65">65</option>
+		<option value="66">66</option>
+		<option value="67">67</option>
+		<option value="68">68</option>
+		<option value="69">69</option>
+		<option value="70">70</option>
+		<option value="71">71</option>
+		<option value="72">72</option>
+		<option value="73">73</option>
+		<option value="74">74</option>
+		<option value="75">75</option>
+		<option value="76">76</option>
+		<option value="77">77</option>
+		<option value="78">78</option>
+		<option value="79">79</option>
+		<option value="80">80</option>
+		<option value="81">81</option>
+		<option value="82">82</option>
+		<option value="83">83</option>
+		<option value="84">84</option>
+		<option value="85">85</option>
+		<option value="86">86</option>
+		<option value="87">87</option>
+		<option value="88">88</option>
+		<option value="89">89</option>
+		<option value="90">90</option>
+		<option value="91">91</option>
+		<option value="92">92</option>
+		<option value="93">93</option>
+		<option value="94">94</option>
+		<option value="95">95</option>
+		<option value="96">96</option>
+		<option value="97">97</option>
+		<option value="98">98</option>
+		<option value="99">99</option>
+
+	</select>
+                    </div>
+
+                    <div class="col-auto text-center">
+                        <label for="ddlK" class="mb-1">K</label>
+                        <select name="ctl00$cph$ddlK" id="ddlK" class="form-control form-control-sm">
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option selected="selected" value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+		<option value="25">25</option>
+
+	</select>
+                    </div>
+
+                    <div class="col-auto text-center">
+                        <label for="ddlT" class="mb-1">T</label>
+                        <select name="ctl00$cph$ddlT" id="ddlT" class="form-control form-control-sm">
+		<option value="0">--</option>
+		<option value="2">2</option>
+		<option selected="selected" value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+
+	</select>
+                    </div>
+
+                    <div class="col-auto text-center">
+                        <label for="ddlM" class="mb-1">M</label>
+                        <select name="ctl00$cph$ddlM" id="ddlM" class="form-control form-control-sm">
+		<option value="0">--</option>
+		<option value="-1">exclude</option>
+		<option value="2">2</option>
+		<option selected="selected" value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+
+	</select>
+                    </div>
+
+                    <div class="col-auto">
+                        <label for="txtA" class="mb-1 text-center d-block">
+                            Author/Coauthor(s)/Notes
+                        </label>
+                        <input name="ctl00$cph$txtA" type="text" id="txtA" class="form-control form-control-sm" style="width: 220px" />
+                    </div>
+
+                    <div class="col-auto">
+                        <label for="txtDate" class="mb-1 text-center d-block">
+                            From Date
+                        </label>
+                        <input name="ctl00$cph$txtDate" type="date" id="txtDate" class="form-control form-control-sm" style="width: 160px" />
+                    </div>
+
+                    <div class="col-auto">
+                        <label class="mb-1 d-block invisible">Actions</label>
+                        <div class="d-flex">
+                            <input type="submit" name="ctl00$cph$btnSearch" value="Search" id="cph_btnSearch" class="btn btn-primary btn-sm mr-4 cr-blue-btn" />
+
+                            <input type="submit" name="ctl00$cph$btnClear" value="Clear" id="cph_btnClear" class="btn btn-outline-secondary btn-sm mr-2" />
+
+                            <input type="submit" name="ctl00$cph$btnExport" value="v,k,t,m,b to csv" onclick="return exportWithLoader();" id="cph_btnExport" class="btn btn-outline-secondary btn-sm" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="mt-3">
+                
+                
+                
+                <div>
+		<table class="table table-bordered table-sm align-content-sm-between p-1" cellspacing="0" id="cph_grdSystems" style="width:100%;border-collapse:collapse;">
+			<tr class="thead-light">
+				<th class="text-center align-middle" scope="col" style="font-weight:bold;">V</th><th class="text-center align-middle" scope="col" style="font-weight:bold;">K</th><th class="text-center align-middle" scope="col" style="font-weight:bold;">T</th><th class="text-center align-middle" scope="col" style="font-weight:bold;">M</th><th class="text-center align-middle" scope="col" style="font-weight:bold;">Blocks</th><th class="text-center align-middle" scope="col" style="font-size:Small;font-weight:bold;">Lower<br/>bound</th><th class="text-center align-middle" scope="col" style="font-weight:bold;white-space:nowrap;">Author</th><th class="text-center align-middle" scope="col" style="font-weight:bold;width:100%;white-space:nowrap;">Coauthor(s)/Notes</th><th class="text-center align-middle" scope="col" style="font-weight:bold;">Date</th><th class="text-center align-middle" scope="col" style="font-weight:bold;">Inverse</th><th scope="col">&nbsp;</th><th scope="col">&nbsp;</th>
+			</tr><tr>
+				<td ColSpan="13" style="background-color:#dee2e6;font-weight:bold;padding-left: 9px !important;">v, 05, 03, 03</td>
+			</tr><tr>
+				<td class="text-center align-middle">16</td><td class="text-center align-middle">05</td><td class="text-center align-middle">03</td><td class="text-center align-middle">03</td><td class="text-center align-middle">65</td><td class="text-center align-middle" style="font-size:Small;">
+                                61
+                            </td><td class="align-middle" style="white-space:nowrap;">
+                                Known design, view notes ->
+                            </td><td class="align-middle">
+                                
+                                <span class="sm">Creator: Rade Belic<br />Source: Dan Gordon Covering Repository<br />Repository: <a target='_blank' href='https://dmgordo.github.io/'>https://dmgordo.github.io/</a></span>
+                            </td><td class="align-middle cell-sm">06/08/1997</td><td class="text-center align-middle" style="white-space:nowrap;">
+                                <a href='/systems.aspx?k=11&t=11&m=13'><span class='sm'>16,11,11,13</span></a>
+                            </td><td class="align-middle" style="white-space:nowrap;">
+                                <a id="cph_grdSystems_hypDownload_0" class="btn btn-sm small-button-text w-100 cr-green-btn" href="download_system.aspx?id=108633" target="_blank">Download <sup>FREE</sup></a>
+                            </td><td class="align-middle">
+                                <a id="cph_grdSystems_hypHistory_0" href="history.aspx?id=110841" target="_blank"><img id="cph_grdSystems_imgClock_0" src="common/images/icons/28x28/history.png" align="absmiddle" /></a>
+                            </td>
+			</tr>
+		</table>
+	</div>
+            </div>
+        
+</div>
+
+        </main>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+clearLiFromUrlAndFormAction(); activateCoveringsMenuClientSide();Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":"cph_pnl","displayAfter":200,"dynamicLayout":true}, null, null, $get("cph_updProgress"));
+});
+//]]>
+</script>
+</form>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function pageLoad() {
+            $('[data-toggle="tooltip"]').tooltip()
+        }
+    </script>
+    <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = { "lang": "en", "siteId": 1413991, "cookiePolicyId": 64592070, "banner": { "applyStyles": false } }; </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cookie_solution/safemode/iubenda_cs.js" charset="UTF-8" async></script>
+
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a44f4845eeaf815f',t:'MTc5MTA2NTQ4Mw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"84f34d7d7c54452b9cf0c93300f21198","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

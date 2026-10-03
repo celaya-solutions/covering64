@@ -1,0 +1,343 @@
+{
+  "base_commit": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "branch": "codex/independent-geometry-20261003",
+  "document_canonicalization": "LF UTF-8 body after header, leading blank lines removed, trailing newline retained",
+  "files": {
+    "docs/independent-construction-ideas.md": {
+      "bytes": 12411,
+      "sha256": "3ffc2d871454991a3ee80c51bd83064dc34aeaba894ad15982e90524798bae70"
+    },
+    "docs/independent-excess-ideas.md": {
+      "bytes": 13900,
+      "sha256": "d8cc7deb427246da573972912c73ad02a5880ad07bf517492612d18a7fdb892b"
+    },
+    "docs/independent-research-2026-10-03.md": {
+      "bytes": 10063,
+      "sha256": "53ff1559ff2def91a06cef43e7c25431df81d8fea30b83e0cfdd63b4efbe2865"
+    },
+    "docs/independent-skeptical-review.md": {
+      "bytes": 16197,
+      "sha256": "be054455fbce6bbda69bd08510ca4d33b68969b75c7e05ce6c53b632d02fd546"
+    },
+    "experiments/2026-10-03/independent-geometry/.gitignore": {
+      "bytes": 89,
+      "sha256": "e162203eb9721cc3a55617c1c118375c1a124edf9cdca7f417519eed8ed0f208"
+    },
+    "experiments/2026-10-03/independent-geometry/__pycache__/check_inversive.cpython-313.pyc": {
+      "bytes": 13367,
+      "sha256": "f83c55dbf502b7c61f4792dc064d35cdeb41ec584d968f18b3fcd72c21cc267f"
+    },
+    "experiments/2026-10-03/independent-geometry/baseline-pytest.log": {
+      "bytes": 3876,
+      "sha256": "2a3a85658743a0c391a1742010b781d1c5870559f3bed906808eca1833b832fb"
+    },
+    "experiments/2026-10-03/independent-geometry/check_inversive.py": {
+      "bytes": 7298,
+      "sha256": "0165d296898385d0f43905a7cd0c1b6cee733364a315e607ed996acaefdb2ab5"
+    },
+    "experiments/2026-10-03/independent-geometry/check_other_models.py": {
+      "bytes": 3392,
+      "sha256": "e2c030de335937155a96515ed2f5b88001c80bbbca75204a97aaad6f5e1d7820"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-free-console.log": {
+      "bytes": 99,
+      "sha256": "64cda9aa8663cb02d88698f92c32fcf65e885626ef285892a2c855febabce285"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-free/model.pbtxt": {
+      "bytes": 1253418,
+      "sha256": "90db2e061b9f8f5c1cf189fe06d401e70dd2c4688f09fdee3627892eec63e5ec"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-free/result.json": {
+      "bytes": 2661,
+      "sha256": "3e32ba8fee23a3076ef58d4b4946bed6f891d1df751605634b46100c38863d2f"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-free/solver.log": {
+      "bytes": 12170,
+      "sha256": "8ec30011678f6bb1b346952790ed615ad368ea47b21fc4e885ca9aa5d2545d9a"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-profile-0-console.log": {
+      "bytes": 94,
+      "sha256": "3930b0993210cea5e90791eeb45d7636ff2b4addd138fa2589d065772690dcf0"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-profile-0/excess.json": {
+      "bytes": 2428,
+      "sha256": "4428e3a62f44a9259c25deb1e2af379794a96d88d079beabe9399ae2d26048d1"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-profile-0/model.pbtxt": {
+      "bytes": 1253418,
+      "sha256": "0a9aef5c3acfebd780d6a372150d439b966b56a97f8faa9a290d7dc0605ea78c"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-profile-0/result.json": {
+      "bytes": 2750,
+      "sha256": "7aef8dfa0da7ea06e4ae67284ce1fa125e4e9168a6710d85bf9becee1bd9997f"
+    },
+    "experiments/2026-10-03/independent-geometry/clebsch-profile-0/solver.log": {
+      "bytes": 9551,
+      "sha256": "6061b2128efe24e2d172aaaddae098a39e1db31f8bc952f43e7490bd49a11521"
+    },
+    "experiments/2026-10-03/independent-geometry/final-pytest.log": {
+      "bytes": 3670,
+      "sha256": "7875062088d23e64a2099f63bf57158e50c816e5fea01de64dc3b2219c9eb49b"
+    },
+    "experiments/2026-10-03/independent-geometry/final-ruff.log": {
+      "bytes": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    "experiments/2026-10-03/independent-geometry/independent-audit-seed-profiles.json": {
+      "bytes": 51821,
+      "sha256": "4e5ccb1563991e106f2a40e9c8160059eb48d44930bc53d7d4607d44fca208d5"
+    },
+    "experiments/2026-10-03/independent-geometry/independent-model-audit.json": {
+      "bytes": 3254,
+      "sha256": "d2aec01138d3af2a36dd9f134b3d6d4d3b15d28019b34527ff5e6138382fa989"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-67-control.txt": {
+      "bytes": 812,
+      "sha256": "324c7663feca4a67924f381065735eaa8307ea3ce20a0c477f47b7a111881502"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-67-verifiers.json": {
+      "bytes": 1878,
+      "sha256": "5c974a20dccfd88d52d846bc4ba56a0d8358a19b9a113232cca56b862e08c3a8"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-audit.json": {
+      "bytes": 2104,
+      "sha256": "39c7949dc28b0a67df2d88cb7b4d2d18a19be2887a1384faa18a1573744c11d9"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool-console.log": {
+      "bytes": 77,
+      "sha256": "57c496ac041e2040c9bf2619fa4de28a9dde796a1485eab738b8a8bbbceb40ff"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool/domain.json": {
+      "bytes": 4088,
+      "sha256": "204c2be35ee0fdcd4a8167e78f96155decb629c50b3d7bd48aa62663b417ef13"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool/domain_source.py.gz": {
+      "bytes": 2478,
+      "sha256": "06e72955d3151f80e863991cd2d8824c650c79fd2536eeee736986d44f12aaad"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool/model.pbtxt": {
+      "bytes": 1017975,
+      "sha256": "019e38641a7bfca612c7432262d8e0724928979344ab05318e8ae49be1ec6826"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool/result.json": {
+      "bytes": 1112,
+      "sha256": "0f05babe11d451331fb3f988178b716237f67273b251d502e878e083b4b0f41d"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool/solver.log": {
+      "bytes": 8191,
+      "sha256": "3502650d1d41c73b750084058262fc7f55af37d93cea78ade258f89c5281e8d1"
+    },
+    "experiments/2026-10-03/independent-geometry/inversive-pool/source.py.gz": {
+      "bytes": 2302,
+      "sha256": "5d22056d1e7a4e6ff2817e37e3641ab0dc1f9857cff3f2c5da3325caecfaa310"
+    },
+    "experiments/2026-10-03/independent-geometry/other-model-audit.json": {
+      "bytes": 632,
+      "sha256": "5a2436f6daacedccba0e6b953b03588e91ebf9c9c05f1c087dfa8eaff9149476"
+    },
+    "experiments/2026-10-03/independent-geometry/other-session-checkpoint-readonly.md": {
+      "bytes": 8058,
+      "sha256": "bd1db82af9b60030904eca5f485b7a8ffa55782fdaaf1d856870fb5676fd17ce"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-balanced-console.log": {
+      "bytes": 101,
+      "sha256": "d809963daec8f7c2a8fa669e938f6cc30fd2bd3df2c6e9e39b5eaa0fcf77b57e"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-balanced/model.pbtxt": {
+      "bytes": 691937,
+      "sha256": "b5b88e2e665fc2222ec93e18d04fc329ef0d2227734311fb6cbbc024089098da"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-balanced/result.json": {
+      "bytes": 1261,
+      "sha256": "f0ae90f31f44147ca00eb65b9adb5726bb68e1551e32bc56c022a63150b7733d"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-balanced/solver.log": {
+      "bytes": 9335,
+      "sha256": "1e237168a7ed82c330b22b50b4a781a80cbdfddc5a2edd7e05adf6a2ba5278c8"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-balanced/source.py.gz": {
+      "bytes": 2402,
+      "sha256": "09e64f4af4b43bb11463e06ab981daaa0c005e898a5ba96f534f99289647d4e0"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-model-audit-fixed.log": {
+      "bytes": 98,
+      "sha256": "e556513ec3bda8bcd93d4c2611fe94bc05e6ea16e6e3ca504753d251d552dfc6"
+    },
+    "experiments/2026-10-03/independent-geometry/paired-model-audit.log": {
+      "bytes": 6045,
+      "sha256": "6131006543dfe76f0a6d30253b0469eb4fbf58a61a1f8897b6d809e92f7435b8"
+    },
+    "experiments/2026-10-03/independent-geometry/profile-orbits/certificate.json": {
+      "bytes": 237947,
+      "sha256": "800d05d6d504d82260fd50e93cb854d9d47f2e2f52de017f634d80a0e7cd9f67"
+    },
+    "experiments/2026-10-03/independent-geometry/profile-orbits/enumerate.py": {
+      "bytes": 9674,
+      "sha256": "f726364a90234b1a42d4aa624bd668fc3a2f247eccc3269a987d70cc528af9b8"
+    },
+    "experiments/2026-10-03/independent-geometry/ruff-preflight.log": {
+      "bytes": 5169,
+      "sha256": "0eefeba59f998dfba6c1e1ef5d9513416c59958c90682ea5913f7a2db0499663"
+    },
+    "experiments/2026-10-03/independent-geometry/sources/clebsch.html": {
+      "bytes": 6578,
+      "sha256": "02f6854feaccc3123e773a3e8c7ff855206a4bb9061eb038a0801b677a2a692f"
+    },
+    "experiments/2026-10-03/independent-geometry/sources/independent_clebsch_profiles.py.gz": {
+      "bytes": 1958,
+      "sha256": "bf3bd150bf70beec1c964e181d49b6d76562d533e546a70cef1b12c23693f1b2"
+    },
+    "experiments/2026-10-03/independent-geometry/sources/independent_clebsch_search.py.gz": {
+      "bytes": 2361,
+      "sha256": "ed92fb0a06e45f061ad76224671709561c6ab80239074abd0e787506a0421c6d"
+    },
+    "experiments/2026-10-03/independent-geometry/uv-sync.log": {
+      "bytes": 1022,
+      "sha256": "4502e4dd7108fabbba849a6d3f729a9f4fae1c68e111eb855eaa0704ba0dd634"
+    },
+    "experiments/2026-10-03/independent-geometry/verifier-controls/damaged-label.txt": {
+      "bytes": 794,
+      "sha256": "8974da72edd5f85f84b1ab062e3c9ef70fe4953b48cb4ac8acb9fc480c7bf095"
+    },
+    "experiments/2026-10-03/independent-geometry/verifier-controls/deleted-block64.txt": {
+      "bytes": 780,
+      "sha256": "7b7d9bff100c5dc4582814ad8d179b66f1a284e79cacb4a85bac9f128a9b71c7"
+    },
+    "experiments/2026-10-03/independent-geometry/verifier-controls/duplicate.txt": {
+      "bytes": 803,
+      "sha256": "6e607f81ed414345541e4d5439004b2516494351d5d638ad27deec355eae4b40"
+    },
+    "experiments/2026-10-03/independent-geometry/verifier-controls/known65.txt": {
+      "bytes": 793,
+      "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f"
+    },
+    "experiments/2026-10-03/independent-geometry/verifier-controls/results.json": {
+      "bytes": 6052,
+      "sha256": "3751def28971911cb7cf2d742b425faea672c4eb2cc7ace23d84f0597622477a"
+    },
+    "experiments/2026-10-03/independent-primary-sources/.gitignore": {
+      "bytes": 130,
+      "sha256": "01820d3cdd3b2513e59ed0461a9d6a34da0a311432091c53916b5a41de924119"
+    },
+    "experiments/2026-10-03/independent-primary-sources/allston1988-p189.png": {
+      "bytes": 185039,
+      "sha256": "dd855e38c75d4ce4d5f06930604e5a3b83a6a294b717e608e7c0eb21ee0d84d3"
+    },
+    "experiments/2026-10-03/independent-primary-sources/allston1988-p204.png": {
+      "bytes": 102886,
+      "sha256": "126da5e326bce3b2af49590bc26189c615c619599ee19d493535dabea1eca82a"
+    },
+    "experiments/2026-10-03/independent-primary-sources/allston1988.pdf": {
+      "bytes": 753613,
+      "sha256": "dd229074b271c22475bae2993daa9cf089a988f3670237c742e22246dcb93e8d"
+    },
+    "experiments/2026-10-03/independent-primary-sources/allston1988.txt": {
+      "bytes": 18,
+      "sha256": "c6ff2e35abbf1a4ff38649cf74ab873b436afd8311dc0f42d3831b9aa5801198"
+    },
+    "experiments/2026-10-03/independent-primary-sources/gordon.html": {
+      "bytes": 9200,
+      "sha256": "a5cc2312afc8dedd17c52410c34d518396d0a42982b2af429c8dc54f9e7170e3"
+    },
+    "experiments/2026-10-03/independent-primary-sources/repository-form-search-extracted.txt": {
+      "bytes": 1182,
+      "sha256": "8bf792635615c463b97072325d44f4c5570e832e1cdf02e331f56fba39a4450d"
+    },
+    "experiments/2026-10-03/independent-primary-sources/repository-form-search.html": {
+      "bytes": 32155,
+      "sha256": "97714ccfaa1f855c0f3489e191b160ada34347884b730cdc12008872926f6a2f"
+    },
+    "experiments/2026-10-03/independent-primary-sources/repository-target-list.txt": {
+      "bytes": 186923,
+      "sha256": "b98cfb3ff676144ecbbafbf11df2b6a58a044d79820d64a7612bd28439c2196d"
+    },
+    "experiments/2026-10-03/independent-primary-sources/repository.html": {
+      "bytes": 13771,
+      "sha256": "7942b6237e885a9b5c8268abebae8e0b9a960e2bbac368aaeab0eb1d611c55e8"
+    },
+    "experiments/2026-10-03/independent-primary-sources/retrievals.json": {
+      "bytes": 3407,
+      "sha256": "2cc09fae9b73f66c77a577e0ebe436a61aea7b123739ee5495be5d9fd39c2feb"
+    },
+    "pyproject.toml": {
+      "bytes": 566,
+      "sha256": "f8be14b3364fad22e2f4cc8cd7d05bd953e3f2c14b5d37d6c2196e23455f9c60"
+    },
+    "scripts/check_cover.py": {
+      "bytes": 5785,
+      "sha256": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950"
+    },
+    "scripts/check_independent_clebsch.py": {
+      "bytes": 18117,
+      "sha256": "e18a4552bc805e162ccfae341fd85d2ae79749ff81e9f1063f9c1c0016539d12"
+    },
+    "scripts/check_independent_weighted_trees.py": {
+      "bytes": 9670,
+      "sha256": "2e5a6b2f2bd7f3cc9cccf8eb5ef7b754fe5ca5e3074dd5e29897f8c7fcc0bf1b"
+    },
+    "scripts/enumerate_link_hubs_independent.py": {
+      "bytes": 10345,
+      "sha256": "46b6bec9b49c5b4cffce13a561ce6205b482fc9938df6e7966194cda60728190"
+    },
+    "scripts/independent_clebsch_profiles.py": {
+      "bytes": 4646,
+      "sha256": "a31ed5c0a4a503007c6c744ccea9c583747280e18830607b41c763f062cbe2bb"
+    },
+    "scripts/independent_clebsch_search.py": {
+      "bytes": 6725,
+      "sha256": "ac7eb0810953f6e232e00349b81bc761e8aeefd18ee63d3f6478c919c494f7de"
+    },
+    "scripts/independent_core_six.py": {
+      "bytes": 13007,
+      "sha256": "feb3f36fe7708dfb0b611b3f40a250b5ea4b4084e603a26301bb134d22353a16"
+    },
+    "scripts/independent_inversive_search.py": {
+      "bytes": 6052,
+      "sha256": "b9c3269d5d18e30e75fcb2dcef71862e18f1f74ba65adb5b395904576a6639f3"
+    },
+    "scripts/independent_pair_partition.py": {
+      "bytes": 6200,
+      "sha256": "81b3463cac7c0c90ae23c715a37ba3c309c91079e1dc74884f7f8a702a02e5e0"
+    },
+    "src/covering64/core.py": {
+      "bytes": 5422,
+      "sha256": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb"
+    },
+    "tests/test_independent.py": {
+      "bytes": 3548,
+      "sha256": "ce25b666c92dfd10bba0ee9024c65eb39520571a3fb4925cb04c56f0abcddf32"
+    },
+    "tests/test_independent_clebsch.py": {
+      "bytes": 8502,
+      "sha256": "ea9104424275a91e19f43ab55cfd7cdb7ebe453af25d4487a035962bb8b0f40e"
+    },
+    "tests/test_independent_link_hubs.py": {
+      "bytes": 6002,
+      "sha256": "76735953d5a35a386ec68d0f3b004e8c0a4b7694d04dc462b04dcea965c37bb7"
+    },
+    "tests/test_independent_link_isomorphism.py": {
+      "bytes": 2039,
+      "sha256": "0003a0b4d0b4360516cb253e5612f1fe35beaed6e49c1800bbf10cdc6f65cdd6"
+    },
+    "tests/test_independent_pair_partition.py": {
+      "bytes": 3507,
+      "sha256": "8777e31273dbff44281f43bfe9305c0d0f5b69e86f53e02deec7883146ad8a49"
+    },
+    "tests/test_independent_weighted_trees.py": {
+      "bytes": 4666,
+      "sha256": "839046a0b77943c4efde211f2aefc0045cde951dc1f4264d074b8d4151d0d5ad"
+    },
+    "uv.lock": {
+      "bytes": 102447,
+      "sha256": "7c16c4cf38ece8bf42885d1bab9698ced20c0411036f43b2f21f1e8cb2c5e180"
+    }
+  },
+  "maximum_simultaneous_solver_workers": 1,
+  "python": "3.11.9",
+  "raw_models_and_primary_pdf_local_ignored": true,
+  "ruff": "passed",
+  "scope": "Independent restricted construction probes; no64-block cover found.",
+  "solver_budget_total_seconds": 420,
+  "tests_passed": 267,
+  "user_date": "2026-10-03"
+}
