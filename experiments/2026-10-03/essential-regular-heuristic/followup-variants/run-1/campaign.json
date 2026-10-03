@@ -1,0 +1,181 @@
+{
+  "document_header": {
+    "Document": "Essential Regular Follow-Up Variant 1",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "86c7905721ac5edb4e62f5edf4b833f02947899a13db73df89d8b07eef7bbfc6",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Bounded heuristic pilot from essential regular near-cover; failure is inconclusive",
+    "input_path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-1-h8-u0-p0.txt",
+    "input_sha256": "449bfd808e0536a6ffb82ee87df36d0ac736e9bb9ba1a8be2a630c421ea08903",
+    "command": [
+      "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+      "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-1-h8-u0-p0.txt",
+      "2026100321",
+      "60",
+      "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "events": [
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 0,
+        "proposals": 0,
+        "seconds": 0.000327125,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-0-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 8,
+        "unsupported": 0,
+        "pair_deficit": 0,
+        "proposals": 0,
+        "seconds": 0.0004215,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 7,
+        "unsupported": 1,
+        "pair_deficit": 0,
+        "proposals": 4318,
+        "seconds": 0.003559,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-h7-u1-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 1,
+        "proposals": 9960,
+        "seconds": 0.00705192,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-1-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 2,
+        "proposals": 23135,
+        "seconds": 0.0157698,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-2-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 3,
+        "proposals": 28400,
+        "seconds": 0.0192845,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-3-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 1,
+        "pair_deficit": 1,
+        "proposals": 42145,
+        "seconds": 0.0274235,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-h6-u1-p1.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 4,
+        "proposals": 9251967,
+        "seconds": 5.45154,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-4-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 5,
+        "proposals": 9256626,
+        "seconds": 5.4546,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-5-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 6,
+        "proposals": 9267333,
+        "seconds": 5.46052,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-variant-6-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 3,
+        "pair_deficit": 0,
+        "proposals": 22053592,
+        "seconds": 13.7253,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-h6-u3-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 5,
+        "unsupported": 4,
+        "pair_deficit": 0,
+        "proposals": 22053886,
+        "seconds": 13.7257,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-h5-u4-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 2,
+        "pair_deficit": 0,
+        "proposals": 26000091,
+        "seconds": 16.366,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321-h6-u2-p0.txt"
+      },
+      {
+        "event": "finish",
+        "seed": 2026100321,
+        "budget_seconds": 60,
+        "seconds": 60,
+        "proposals": 96496065,
+        "applied": 43452570,
+        "accepted": 59090,
+        "restarts": 48,
+        "snapshots": 6,
+        "essential_variants": 7,
+        "frontier": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            5,
+            4,
+            0
+          ],
+          [
+            6,
+            2,
+            0
+          ]
+        ],
+        "status": "INCONCLUSIVE"
+      }
+    ],
+    "source_sha256": "68859e5a913b69b839423f8992464fbd5608327599753a70e856915c79de485a",
+    "build_controls_path": "experiments/scratch/essential-regular-heuristic-20261003/diversity-build-controls.json"
+  }
+}

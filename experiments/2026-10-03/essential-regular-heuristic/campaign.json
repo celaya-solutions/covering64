@@ -1,0 +1,252 @@
+{
+  "document_header": {
+    "Document": "Point-Essential Regular Cover Heuristic Pilot",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "1bc0a7a4ff90ae3af4526917c5aca70f4b36337a3344d1be2b8f86a94e334a56",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Heuristic only; degree20 and distinct64 preserved, at most10 holes; no impossibility claim",
+    "command": [
+      "experiments/scratch/essential-regular-heuristic-20261003/search",
+      "experiments/scratch/essential-regular-heuristic-20261003/seed.txt",
+      "2026100317",
+      "300",
+      "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317"
+    ],
+    "exit": 0,
+    "events": [
+      {
+        "event": "frontier",
+        "holes": 5,
+        "unsupported": 4,
+        "pair_deficit": 0,
+        "proposals": 0,
+        "seconds": 8.9708e-05,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h5-u4-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 3,
+        "pair_deficit": 0,
+        "proposals": 176,
+        "seconds": 0.00039125,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h6-u3-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 7,
+        "unsupported": 2,
+        "pair_deficit": 0,
+        "proposals": 440,
+        "seconds": 0.000662708,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h7-u2-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 2,
+        "pair_deficit": 0,
+        "proposals": 9108,
+        "seconds": 0.00678596,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h6-u2-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 9,
+        "unsupported": 1,
+        "pair_deficit": 0,
+        "proposals": 16222,
+        "seconds": 0.0117605,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h9-u1-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 10,
+        "unsupported": 0,
+        "pair_deficit": 1,
+        "proposals": 43426,
+        "seconds": 0.0287681,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h10-u0-p1.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 8,
+        "unsupported": 1,
+        "pair_deficit": 1,
+        "proposals": 93742,
+        "seconds": 0.0612178,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u1-p1.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 7,
+        "unsupported": 1,
+        "pair_deficit": 0,
+        "proposals": 111623,
+        "seconds": 0.0728719,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h7-u1-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 1,
+        "pair_deficit": 1,
+        "proposals": 135656,
+        "seconds": 0.0874525,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h6-u1-p1.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 8,
+        "unsupported": 0,
+        "pair_deficit": 0,
+        "proposals": 210345,
+        "seconds": 0.133361,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt"
+      },
+      {
+        "event": "finish",
+        "seed": 2026100317,
+        "budget_seconds": 300,
+        "seconds": 300,
+        "proposals": 488138129,
+        "applied": 221108211,
+        "accepted": 336079,
+        "restarts": 244,
+        "snapshots": 10,
+        "frontier": [
+          [
+            5,
+            4,
+            0
+          ],
+          [
+            6,
+            2,
+            0
+          ],
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            8,
+            0,
+            0
+          ]
+        ],
+        "status": "INCONCLUSIVE"
+      }
+    ],
+    "stderr": "",
+    "build_and_controls": {
+      "source_sha256": "328652d0908cb0d747959f781b706a3b56fb0ee0a1d8db079ce484fa3fc5af79",
+      "source_revision": "fc29bee4f42fb73ae0a88139197e94490d4de8cf",
+      "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+      "compile_commands": [
+        [
+          "c++",
+          "-std=c++17",
+          "-O1",
+          "-g",
+          "-fsanitize=address,undefined",
+          "scripts/essential_regular_heuristic.cpp",
+          "-o",
+          "experiments/scratch/essential-regular-heuristic-20261003/search-sanitize"
+        ],
+        [
+          "c++",
+          "-std=c++17",
+          "-O3",
+          "-DNDEBUG",
+          "scripts/essential_regular_heuristic.cpp",
+          "-o",
+          "experiments/scratch/essential-regular-heuristic-20261003/search"
+        ]
+      ],
+      "checks": [
+        {
+          "command": [
+            "experiments/scratch/essential-regular-heuristic-20261003/search-sanitize",
+            "experiments/scratch/essential-regular-heuristic-20261003/seed.txt",
+            "2026100317",
+            "1",
+            "experiments/scratch/essential-regular-heuristic-20261003/sanitizer"
+          ],
+          "exit": 0,
+          "stdout": "{\"event\":\"frontier\",\"holes\":5,\"unsupported\":4,\"pair_deficit\":0,\"proposals\":0,\"seconds\":0.000246542,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h5-u4-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":6,\"unsupported\":3,\"pair_deficit\":0,\"proposals\":176,\"seconds\":0.00122237,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h6-u3-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":7,\"unsupported\":2,\"pair_deficit\":0,\"proposals\":440,\"seconds\":0.00274725,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h7-u2-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":6,\"unsupported\":2,\"pair_deficit\":0,\"proposals\":9108,\"seconds\":0.0410407,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h6-u2-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":9,\"unsupported\":1,\"pair_deficit\":0,\"proposals\":16222,\"seconds\":0.0689325,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h9-u1-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":10,\"unsupported\":0,\"pair_deficit\":1,\"proposals\":43426,\"seconds\":0.180016,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h10-u0-p1.txt\"}\n{\"event\":\"frontier\",\"holes\":8,\"unsupported\":1,\"pair_deficit\":1,\"proposals\":93742,\"seconds\":0.382748,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h8-u1-p1.txt\"}\n{\"event\":\"frontier\",\"holes\":7,\"unsupported\":1,\"pair_deficit\":0,\"proposals\":111623,\"seconds\":0.459351,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h7-u1-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":6,\"unsupported\":1,\"pair_deficit\":1,\"proposals\":135656,\"seconds\":0.554118,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h6-u1-p1.txt\"}\n{\"event\":\"frontier\",\"holes\":8,\"unsupported\":0,\"pair_deficit\":0,\"proposals\":210345,\"seconds\":0.851736,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/sanitizer-h8-u0-p0.txt\"}\n{\"event\":\"finish\",\"seed\":2026100317,\"budget_seconds\":1,\"seconds\":1.00002,\"proposals\":252506,\"applied\":132152,\"accepted\":593,\"restarts\":0,\"snapshots\":10,\"frontier\":[[5,4,0],[6,2,0],[7,1,0],[6,1,1],[8,0,0]],\"status\":\"INCONCLUSIVE\"}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "experiments/scratch/essential-regular-heuristic-20261003/search",
+            "experiments/scratch/essential-regular-heuristic-20261003/duplicate.txt",
+            "2026100317",
+            "0.01",
+            "experiments/scratch/essential-regular-heuristic-20261003/duplicate"
+          ],
+          "exit": -6,
+          "stdout": "",
+          "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: bad or duplicate block\n"
+        },
+        {
+          "command": [
+            "experiments/scratch/essential-regular-heuristic-20261003/search",
+            "experiments/scratch/essential-regular-heuristic-20261003/damaged.txt",
+            "2026100317",
+            "0.01",
+            "experiments/scratch/essential-regular-heuristic-20261003/damaged"
+          ],
+          "exit": -6,
+          "stdout": "",
+          "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: damaged label token\n"
+        },
+        {
+          "command": [
+            "experiments/scratch/essential-regular-heuristic-20261003/search",
+            "experiments/scratch/essential-regular-heuristic-20261003/malformed.txt",
+            "2026100317",
+            "0.01",
+            "experiments/scratch/essential-regular-heuristic-20261003/malformed"
+          ],
+          "exit": -6,
+          "stdout": "",
+          "stderr": "libc++abi: terminating due to uncaught exception of type std::runtime_error: invalid point label\n"
+        }
+      ],
+      "seed_sha256": "5ff829ba67651b53e188db9ce0763ab55fa809dd7863b4b3faf6175818afd3b1"
+    },
+    "energy_hole_weights": [
+      4,
+      3,
+      5,
+      4,
+      6,
+      3
+    ],
+    "energy_unsupported_weights": [
+      2,
+      5,
+      4,
+      8,
+      2,
+      10
+    ],
+    "energy_pair_deficit_weight": 6,
+    "phase_proposals": 1000000,
+    "restart_proposals": 2000000
+  }
+}

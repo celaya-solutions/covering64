@@ -1,0 +1,3542 @@
+{
+  "input_sha256": "bfca95755b84ead2d98e21cfe2abfae4bb4b549e520b89bb9d8a83ed442d137d",
+  "certificate_sha256": "dcebdc393cae4c19407d9d7becbdcfe0a7b97c14323fe5b7f445d2c7af1963d1",
+  "checker_sha256": "e0276c012c0b0e69ff8ab09f13029edae3ef7238812d26b8a4c46a7b302c7b24",
+  "checked_cases": 270,
+  "capacity_blocks_per_case": 4368,
+  "damage_controls_rejected": [
+    "duplicate_retained",
+    "changed_case_identity",
+    "missing_triple_removed",
+    "duplicate_weight",
+    "negative_weight",
+    "zero_denominator",
+    "noninteger_weight",
+    "capacity_exceeded",
+    "wrong_bound",
+    "wrong_exclusion",
+    "weight_on_covered",
+    "input_sha256",
+    "additional_budget",
+    "allowed_block_ids"
+  ],
+  "cases": [
+    {
+      "identifier": "shape-1-class-000",
+      "missing_count": 282,
+      "lower_bound": [
+        6242589,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-001",
+      "missing_count": 280,
+      "lower_bound": [
+        31039599,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-002",
+      "missing_count": 280,
+      "lower_bound": [
+        1553753,
+        50000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-003",
+      "missing_count": 276,
+      "lower_bound": [
+        6177627,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-004",
+      "missing_count": 274,
+      "lower_bound": [
+        1541667,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-005",
+      "missing_count": 274,
+      "lower_bound": [
+        30761843,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-006",
+      "missing_count": 306,
+      "lower_bound": [
+        16038801,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": true
+    },
+    {
+      "identifier": "shape-1-class-007",
+      "missing_count": 302,
+      "lower_bound": [
+        31945711,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-008",
+      "missing_count": 284,
+      "lower_bound": [
+        15670081,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-009",
+      "missing_count": 280,
+      "lower_bound": [
+        15580127,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-010",
+      "missing_count": 280,
+      "lower_bound": [
+        6199711,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-011",
+      "missing_count": 288,
+      "lower_bound": [
+        1980081,
+        62500
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-012",
+      "missing_count": 284,
+      "lower_bound": [
+        15691511,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-013",
+      "missing_count": 278,
+      "lower_bound": [
+        15478313,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-014",
+      "missing_count": 274,
+      "lower_bound": [
+        3840807,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-015",
+      "missing_count": 274,
+      "lower_bound": [
+        30624507,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-016",
+      "missing_count": 269,
+      "lower_bound": [
+        1218501,
+        40000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-017",
+      "missing_count": 267,
+      "lower_bound": [
+        30354533,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-018",
+      "missing_count": 267,
+      "lower_bound": [
+        30322867,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-019",
+      "missing_count": 270,
+      "lower_bound": [
+        15220791,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-020",
+      "missing_count": 268,
+      "lower_bound": [
+        7602579,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-021",
+      "missing_count": 268,
+      "lower_bound": [
+        30301961,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-022",
+      "missing_count": 276,
+      "lower_bound": [
+        1548567,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-023",
+      "missing_count": 272,
+      "lower_bound": [
+        30743939,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-024",
+      "missing_count": 270,
+      "lower_bound": [
+        30564887,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-025",
+      "missing_count": 268,
+      "lower_bound": [
+        30346079,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-026",
+      "missing_count": 268,
+      "lower_bound": [
+        30431947,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-027",
+      "missing_count": 282,
+      "lower_bound": [
+        6252911,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-028",
+      "missing_count": 278,
+      "lower_bound": [
+        31137487,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-029",
+      "missing_count": 273,
+      "lower_bound": [
+        6130989,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-030",
+      "missing_count": 271,
+      "lower_bound": [
+        30559141,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-031",
+      "missing_count": 271,
+      "lower_bound": [
+        3057447,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-032",
+      "missing_count": 272,
+      "lower_bound": [
+        15262889,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-033",
+      "missing_count": 270,
+      "lower_bound": [
+        30516767,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-034",
+      "missing_count": 270,
+      "lower_bound": [
+        30430357,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-035",
+      "missing_count": 270,
+      "lower_bound": [
+        6080647,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-036",
+      "missing_count": 268,
+      "lower_bound": [
+        15195457,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-037",
+      "missing_count": 268,
+      "lower_bound": [
+        151467,
+        5000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-038",
+      "missing_count": 273,
+      "lower_bound": [
+        6130989,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-039",
+      "missing_count": 269,
+      "lower_bound": [
+        15257783,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-040",
+      "missing_count": 269,
+      "lower_bound": [
+        6079643,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-041",
+      "missing_count": 272,
+      "lower_bound": [
+        15258573,
+        500000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-042",
+      "missing_count": 270,
+      "lower_bound": [
+        30413197,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-043",
+      "missing_count": 269,
+      "lower_bound": [
+        30407503,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-044",
+      "missing_count": 267,
+      "lower_bound": [
+        15160067,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-045",
+      "missing_count": 270,
+      "lower_bound": [
+        30564887,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-046",
+      "missing_count": 266,
+      "lower_bound": [
+        15192907,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-047",
+      "missing_count": 266,
+      "lower_bound": [
+        30329533,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-048",
+      "missing_count": 270,
+      "lower_bound": [
+        6116093,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-049",
+      "missing_count": 268,
+      "lower_bound": [
+        7639371,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-050",
+      "missing_count": 268,
+      "lower_bound": [
+        30461499,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-051",
+      "missing_count": 273,
+      "lower_bound": [
+        15335831,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-052",
+      "missing_count": 271,
+      "lower_bound": [
+        6113483,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-053",
+      "missing_count": 271,
+      "lower_bound": [
+        30558563,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-054",
+      "missing_count": 278,
+      "lower_bound": [
+        96691,
+        3125
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-055",
+      "missing_count": 274,
+      "lower_bound": [
+        3850689,
+        125000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-056",
+      "missing_count": 273,
+      "lower_bound": [
+        15419681,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-057",
+      "missing_count": 269,
+      "lower_bound": [
+        30533351,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-058",
+      "missing_count": 269,
+      "lower_bound": [
+        4899,
+        160
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-059",
+      "missing_count": 284,
+      "lower_bound": [
+        6284209,
+        200000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-060",
+      "missing_count": 280,
+      "lower_bound": [
+        7782649,
+        250000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-061",
+      "missing_count": 273,
+      "lower_bound": [
+        30695133,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-062",
+      "missing_count": 269,
+      "lower_bound": [
+        1521817,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-063",
+      "missing_count": 269,
+      "lower_bound": [
+        30556707,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-064",
+      "missing_count": 276,
+      "lower_bound": [
+        1918657,
+        62500
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-065",
+      "missing_count": 274,
+      "lower_bound": [
+        7654591,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-066",
+      "missing_count": 267,
+      "lower_bound": [
+        30443123,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-1-class-067",
+      "missing_count": 265,
+      "lower_bound": [
+        15148003,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-000",
+      "missing_count": 269,
+      "lower_bound": [
+        6079643,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-001",
+      "missing_count": 269,
+      "lower_bound": [
+        30370203,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-002",
+      "missing_count": 269,
+      "lower_bound": [
+        757607,
+        25000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-003",
+      "missing_count": 266,
+      "lower_bound": [
+        15192907,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-004",
+      "missing_count": 266,
+      "lower_bound": [
+        15161863,
+        500000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-005",
+      "missing_count": 266,
+      "lower_bound": [
+        15122469,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-006",
+      "missing_count": 269,
+      "lower_bound": [
+        15266679,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-007",
+      "missing_count": 267,
+      "lower_bound": [
+        30378247,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-008",
+      "missing_count": 267,
+      "lower_bound": [
+        30500581,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-009",
+      "missing_count": 274,
+      "lower_bound": [
+        3840807,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-010",
+      "missing_count": 272,
+      "lower_bound": [
+        15333759,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-011",
+      "missing_count": 272,
+      "lower_bound": [
+        30520999,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-012",
+      "missing_count": 269,
+      "lower_bound": [
+        30556707,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-013",
+      "missing_count": 267,
+      "lower_bound": [
+        15182291,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-014",
+      "missing_count": 267,
+      "lower_bound": [
+        476799,
+        15625
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-015",
+      "missing_count": 280,
+      "lower_bound": [
+        6199711,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-016",
+      "missing_count": 278,
+      "lower_bound": [
+        15470637,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-017",
+      "missing_count": 278,
+      "lower_bound": [
+        962173,
+        31250
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-018",
+      "missing_count": 270,
+      "lower_bound": [
+        30413197,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-019",
+      "missing_count": 270,
+      "lower_bound": [
+        30403321,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-020",
+      "missing_count": 270,
+      "lower_bound": [
+        30257669,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-021",
+      "missing_count": 268,
+      "lower_bound": [
+        151467,
+        5000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-022",
+      "missing_count": 268,
+      "lower_bound": [
+        3794977,
+        125000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-023",
+      "missing_count": 270,
+      "lower_bound": [
+        7584093,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-024",
+      "missing_count": 268,
+      "lower_bound": [
+        30346079,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-025",
+      "missing_count": 266,
+      "lower_bound": [
+        6040721,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-026",
+      "missing_count": 266,
+      "lower_bound": [
+        15122469,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-027",
+      "missing_count": 274,
+      "lower_bound": [
+        30761843,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-028",
+      "missing_count": 274,
+      "lower_bound": [
+        7676209,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-029",
+      "missing_count": 276,
+      "lower_bound": [
+        15417707,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-030",
+      "missing_count": 271,
+      "lower_bound": [
+        3057447,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-031",
+      "missing_count": 269,
+      "lower_bound": [
+        757607,
+        25000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-032",
+      "missing_count": 269,
+      "lower_bound": [
+        30461349,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-033",
+      "missing_count": 280,
+      "lower_bound": [
+        1553753,
+        50000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-034",
+      "missing_count": 280,
+      "lower_bound": [
+        1937323,
+        62500
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-035",
+      "missing_count": 282,
+      "lower_bound": [
+        779653,
+        25000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-036",
+      "missing_count": 267,
+      "lower_bound": [
+        15160067,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-037",
+      "missing_count": 267,
+      "lower_bound": [
+        3027891,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-038",
+      "missing_count": 267,
+      "lower_bound": [
+        15143133,
+        500000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-039",
+      "missing_count": 268,
+      "lower_bound": [
+        7602579,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-040",
+      "missing_count": 268,
+      "lower_bound": [
+        6085093,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-041",
+      "missing_count": 270,
+      "lower_bound": [
+        7605633,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-042",
+      "missing_count": 268,
+      "lower_bound": [
+        30431947,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-043",
+      "missing_count": 266,
+      "lower_bound": [
+        15161863,
+        500000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-044",
+      "missing_count": 266,
+      "lower_bound": [
+        3023257,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-045",
+      "missing_count": 271,
+      "lower_bound": [
+        6113483,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-046",
+      "missing_count": 271,
+      "lower_bound": [
+        3817217,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-047",
+      "missing_count": 273,
+      "lower_bound": [
+        30653021,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-048",
+      "missing_count": 265,
+      "lower_bound": [
+        15148003,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-049",
+      "missing_count": 265,
+      "lower_bound": [
+        6052993,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-050",
+      "missing_count": 265,
+      "lower_bound": [
+        30157253,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-051",
+      "missing_count": 267,
+      "lower_bound": [
+        30322867,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-052",
+      "missing_count": 267,
+      "lower_bound": [
+        7571619,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-053",
+      "missing_count": 269,
+      "lower_bound": [
+        7587661,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-054",
+      "missing_count": 274,
+      "lower_bound": [
+        7654591,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-055",
+      "missing_count": 274,
+      "lower_bound": [
+        7663527,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-056",
+      "missing_count": 274,
+      "lower_bound": [
+        3059623,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-057",
+      "missing_count": 270,
+      "lower_bound": [
+        30516767,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-058",
+      "missing_count": 270,
+      "lower_bound": [
+        15238111,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-059",
+      "missing_count": 272,
+      "lower_bound": [
+        1533563,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-060",
+      "missing_count": 271,
+      "lower_bound": [
+        30559141,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-061",
+      "missing_count": 269,
+      "lower_bound": [
+        6084007,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-062",
+      "missing_count": 269,
+      "lower_bound": [
+        30370203,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-063",
+      "missing_count": 268,
+      "lower_bound": [
+        7639371,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-064",
+      "missing_count": 268,
+      "lower_bound": [
+        15287779,
+        500000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-065",
+      "missing_count": 270,
+      "lower_bound": [
+        6104489,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-066",
+      "missing_count": 274,
+      "lower_bound": [
+        1541667,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-067",
+      "missing_count": 274,
+      "lower_bound": [
+        6170341,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-068",
+      "missing_count": 276,
+      "lower_bound": [
+        15417707,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-069",
+      "missing_count": 282,
+      "lower_bound": [
+        31124303,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-070",
+      "missing_count": 280,
+      "lower_bound": [
+        31039599,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-071",
+      "missing_count": 280,
+      "lower_bound": [
+        1937323,
+        62500
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-072",
+      "missing_count": 280,
+      "lower_bound": [
+        15580127,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-073",
+      "missing_count": 278,
+      "lower_bound": [
+        15470637,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-074",
+      "missing_count": 278,
+      "lower_bound": [
+        485067,
+        15625
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-075",
+      "missing_count": 306,
+      "lower_bound": [
+        4010809,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": true
+    },
+    {
+      "identifier": "shape-4-class-076",
+      "missing_count": 302,
+      "lower_bound": [
+        31945711,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-077",
+      "missing_count": 302,
+      "lower_bound": [
+        31925639,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-078",
+      "missing_count": 274,
+      "lower_bound": [
+        30624507,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-079",
+      "missing_count": 272,
+      "lower_bound": [
+        6076441,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-080",
+      "missing_count": 272,
+      "lower_bound": [
+        30520999,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-081",
+      "missing_count": 288,
+      "lower_bound": [
+        1257829,
+        40000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-082",
+      "missing_count": 284,
+      "lower_bound": [
+        15691511,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-083",
+      "missing_count": 284,
+      "lower_bound": [
+        31282149,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-084",
+      "missing_count": 267,
+      "lower_bound": [
+        30354533,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-085",
+      "missing_count": 267,
+      "lower_bound": [
+        30273,
+        1000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-086",
+      "missing_count": 269,
+      "lower_bound": [
+        7587661,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-087",
+      "missing_count": 270,
+      "lower_bound": [
+        7605633,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-088",
+      "missing_count": 268,
+      "lower_bound": [
+        30301961,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-089",
+      "missing_count": 268,
+      "lower_bound": [
+        7554993,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-090",
+      "missing_count": 269,
+      "lower_bound": [
+        15257783,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-091",
+      "missing_count": 269,
+      "lower_bound": [
+        30461349,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-092",
+      "missing_count": 269,
+      "lower_bound": [
+        6084007,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-093",
+      "missing_count": 282,
+      "lower_bound": [
+        6238011,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-094",
+      "missing_count": 278,
+      "lower_bound": [
+        31137487,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-095",
+      "missing_count": 278,
+      "lower_bound": [
+        31042517,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-096",
+      "missing_count": 266,
+      "lower_bound": [
+        30329533,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-097",
+      "missing_count": 266,
+      "lower_bound": [
+        3023257,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-098",
+      "missing_count": 266,
+      "lower_bound": [
+        6040721,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-099",
+      "missing_count": 276,
+      "lower_bound": [
+        30774441,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-100",
+      "missing_count": 272,
+      "lower_bound": [
+        30743939,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-101",
+      "missing_count": 272,
+      "lower_bound": [
+        3829403,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-102",
+      "missing_count": 270,
+      "lower_bound": [
+        30430357,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-103",
+      "missing_count": 270,
+      "lower_bound": [
+        15238111,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-104",
+      "missing_count": 272,
+      "lower_bound": [
+        30481277,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-105",
+      "missing_count": 270,
+      "lower_bound": [
+        30499511,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-106",
+      "missing_count": 268,
+      "lower_bound": [
+        15195457,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-107",
+      "missing_count": 268,
+      "lower_bound": [
+        3794977,
+        125000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-108",
+      "missing_count": 271,
+      "lower_bound": [
+        30558563,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-109",
+      "missing_count": 271,
+      "lower_bound": [
+        3817217,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-110",
+      "missing_count": 273,
+      "lower_bound": [
+        30608899,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-111",
+      "missing_count": 270,
+      "lower_bound": [
+        6104489,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-112",
+      "missing_count": 268,
+      "lower_bound": [
+        30461499,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-113",
+      "missing_count": 268,
+      "lower_bound": [
+        30386527,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-114",
+      "missing_count": 269,
+      "lower_bound": [
+        30618751,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-115",
+      "missing_count": 267,
+      "lower_bound": [
+        15212973,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-116",
+      "missing_count": 267,
+      "lower_bound": [
+        1525029,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-117",
+      "missing_count": 278,
+      "lower_bound": [
+        15423757,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-118",
+      "missing_count": 274,
+      "lower_bound": [
+        3850689,
+        125000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-119",
+      "missing_count": 274,
+      "lower_bound": [
+        15359513,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-120",
+      "missing_count": 269,
+      "lower_bound": [
+        1521817,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-121",
+      "missing_count": 267,
+      "lower_bound": [
+        15182291,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-122",
+      "missing_count": 267,
+      "lower_bound": [
+        3781393,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-123",
+      "missing_count": 284,
+      "lower_bound": [
+        31168639,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-124",
+      "missing_count": 280,
+      "lower_bound": [
+        7782649,
+        250000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-4-class-125",
+      "missing_count": 280,
+      "lower_bound": [
+        386377,
+        12500
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-000",
+      "missing_count": 306,
+      "lower_bound": [
+        32050669,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": true
+    },
+    {
+      "identifier": "shape-44-class-001",
+      "missing_count": 294,
+      "lower_bound": [
+        31859601,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-002",
+      "missing_count": 282,
+      "lower_bound": [
+        31203419,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-003",
+      "missing_count": 276,
+      "lower_bound": [
+        7722581,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-004",
+      "missing_count": 268,
+      "lower_bound": [
+        7661733,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-005",
+      "missing_count": 272,
+      "lower_bound": [
+        1534453,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-006",
+      "missing_count": 272,
+      "lower_bound": [
+        3856527,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-007",
+      "missing_count": 282,
+      "lower_bound": [
+        31148711,
+        1000000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-008",
+      "missing_count": 272,
+      "lower_bound": [
+        30811549,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-009",
+      "missing_count": 266,
+      "lower_bound": [
+        15158967,
+        500000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-010",
+      "missing_count": 267,
+      "lower_bound": [
+        15162183,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-011",
+      "missing_count": 265,
+      "lower_bound": [
+        15154619,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-012",
+      "missing_count": 268,
+      "lower_bound": [
+        30785817,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-013",
+      "missing_count": 265,
+      "lower_bound": [
+        7565481,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-014",
+      "missing_count": 268,
+      "lower_bound": [
+        15111927,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-015",
+      "missing_count": 263,
+      "lower_bound": [
+        6002879,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-016",
+      "missing_count": 272,
+      "lower_bound": [
+        30692093,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-017",
+      "missing_count": 264,
+      "lower_bound": [
+        7608207,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-018",
+      "missing_count": 276,
+      "lower_bound": [
+        30591611,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-019",
+      "missing_count": 274,
+      "lower_bound": [
+        30613489,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-020",
+      "missing_count": 282,
+      "lower_bound": [
+        311473,
+        10000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-021",
+      "missing_count": 270,
+      "lower_bound": [
+        30478261,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-022",
+      "missing_count": 270,
+      "lower_bound": [
+        30561729,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-023",
+      "missing_count": 266,
+      "lower_bound": [
+        15158967,
+        500000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-024",
+      "missing_count": 276,
+      "lower_bound": [
+        1924619,
+        62500
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-025",
+      "missing_count": 267,
+      "lower_bound": [
+        30328523,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-026",
+      "missing_count": 266,
+      "lower_bound": [
+        1506881,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-44-class-027",
+      "missing_count": 265,
+      "lower_bound": [
+        7565481,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-000",
+      "missing_count": 306,
+      "lower_bound": [
+        3229623,
+        100000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": true
+    },
+    {
+      "identifier": "shape-47-class-001",
+      "missing_count": 288,
+      "lower_bound": [
+        31619521,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-002",
+      "missing_count": 288,
+      "lower_bound": [
+        6318493,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-003",
+      "missing_count": 282,
+      "lower_bound": [
+        31195739,
+        1000000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-004",
+      "missing_count": 288,
+      "lower_bound": [
+        1580191,
+        50000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-005",
+      "missing_count": 282,
+      "lower_bound": [
+        3901541,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-006",
+      "missing_count": 288,
+      "lower_bound": [
+        6297137,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-007",
+      "missing_count": 274,
+      "lower_bound": [
+        7740269,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-008",
+      "missing_count": 279,
+      "lower_bound": [
+        6266237,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-009",
+      "missing_count": 275,
+      "lower_bound": [
+        15546147,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-010",
+      "missing_count": 282,
+      "lower_bound": [
+        15563989,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-011",
+      "missing_count": 276,
+      "lower_bound": [
+        31074841,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-012",
+      "missing_count": 279,
+      "lower_bound": [
+        6266237,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-013",
+      "missing_count": 275,
+      "lower_bound": [
+        15546147,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-014",
+      "missing_count": 288,
+      "lower_bound": [
+        6297137,
+        200000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-015",
+      "missing_count": 282,
+      "lower_bound": [
+        15563989,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-016",
+      "missing_count": 274,
+      "lower_bound": [
+        30961083,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-017",
+      "missing_count": 276,
+      "lower_bound": [
+        31074841,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-018",
+      "missing_count": 288,
+      "lower_bound": [
+        3949263,
+        125000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-019",
+      "missing_count": 282,
+      "lower_bound": [
+        971357,
+        31250
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-020",
+      "missing_count": 274,
+      "lower_bound": [
+        30996173,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-021",
+      "missing_count": 276,
+      "lower_bound": [
+        3110283,
+        100000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-022",
+      "missing_count": 282,
+      "lower_bound": [
+        7787407,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-023",
+      "missing_count": 272,
+      "lower_bound": [
+        120583,
+        4000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-024",
+      "missing_count": 270,
+      "lower_bound": [
+        7670719,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-025",
+      "missing_count": 266,
+      "lower_bound": [
+        381953,
+        12500
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-026",
+      "missing_count": 271,
+      "lower_bound": [
+        30489187,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-027",
+      "missing_count": 261,
+      "lower_bound": [
+        15078757,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-028",
+      "missing_count": 265,
+      "lower_bound": [
+        30507811,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-029",
+      "missing_count": 263,
+      "lower_bound": [
+        6047631,
+        200000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-030",
+      "missing_count": 271,
+      "lower_bound": [
+        7602503,
+        250000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-031",
+      "missing_count": 265,
+      "lower_bound": [
+        949431,
+        31250
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-032",
+      "missing_count": 264,
+      "lower_bound": [
+        15063297,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-033",
+      "missing_count": 260,
+      "lower_bound": [
+        30097381,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-034",
+      "missing_count": 261,
+      "lower_bound": [
+        1506439,
+        50000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-035",
+      "missing_count": 263,
+      "lower_bound": [
+        30194703,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-036",
+      "missing_count": 279,
+      "lower_bound": [
+        7694413,
+        250000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-037",
+      "missing_count": 265,
+      "lower_bound": [
+        379407,
+        12500
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-038",
+      "missing_count": 271,
+      "lower_bound": [
+        15202339,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-039",
+      "missing_count": 265,
+      "lower_bound": [
+        30463621,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-040",
+      "missing_count": 265,
+      "lower_bound": [
+        3799949,
+        125000
+      ],
+      "maximum_load": [
+        999997,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-041",
+      "missing_count": 263,
+      "lower_bound": [
+        1207621,
+        40000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-042",
+      "missing_count": 265,
+      "lower_bound": [
+        379407,
+        12500
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-043",
+      "missing_count": 263,
+      "lower_bound": [
+        15099259,
+        500000
+      ],
+      "maximum_load": [
+        999999,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-044",
+      "missing_count": 261,
+      "lower_bound": [
+        30169989,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-045",
+      "missing_count": 263,
+      "lower_bound": [
+        15152781,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-046",
+      "missing_count": 263,
+      "lower_bound": [
+        15095261,
+        500000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    },
+    {
+      "identifier": "shape-47-class-047",
+      "missing_count": 257,
+      "lower_bound": [
+        29542469,
+        1000000
+      ],
+      "maximum_load": [
+        999998,
+        1000000
+      ],
+      "excluded": false
+    }
+  ],
+  "excluded": [
+    "shape-1-class-006",
+    "shape-4-class-075",
+    "shape-44-class-000",
+    "shape-47-class-000"
+  ],
+  "scope": "Any completion retaining the prescribed32 blocks; not a global bound."
+}

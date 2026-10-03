@@ -1,0 +1,562 @@
+{
+  "document_header": {
+    "Document": "Essential Regular Heuristic Campaign Summary",
+    "Version": "v1.1.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "4b5515d6360731c3d8d6d5bb77b309b54ce665325db71cb8f3ef8b44516eb122",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Bounded heuristic searches only; failure is inconclusive; eight-hole state enumeration is not complete",
+    "runs": [
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/campaign.json",
+        "sha256": "388db4bdf90df49805d1e95068aceffc8d507d9484fa95d52dbb3391552bdc85",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100317,
+          "budget_seconds": 300,
+          "seconds": 300,
+          "proposals": 488138129,
+          "applied": 221108211,
+          "accepted": 336079,
+          "restarts": 244,
+          "snapshots": 10,
+          "frontier": [
+            [
+              5,
+              4,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              8,
+              0,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/search",
+          "experiments/scratch/essential-regular-heuristic-20261003/seed.txt",
+          "2026100317",
+          "300",
+          "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-campaign.json",
+        "sha256": "565df3caf6e2ab238e0340f50c713fc7b21de970718d40da4ec4cf9917841c79",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100318,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 104240878,
+          "applied": 47103147,
+          "accepted": 75970,
+          "restarts": 52,
+          "snapshots": 8,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt",
+          "2026100318",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/campaign.json",
+        "sha256": "e60e04a46b31f104b4d907c3cd61214a3781ce105d7a76d64c04012e4e5f073e",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100321,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 96496065,
+          "applied": 43452570,
+          "accepted": 59090,
+          "restarts": 48,
+          "snapshots": 6,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              5,
+              4,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-1-h8-u0-p0.txt",
+          "2026100321",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-1/search-2026100321"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-2/campaign.json",
+        "sha256": "5a16cd02fbf10844fc400821fe8fc22f294605b3f06f2352c5a7218cecf1b907",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100322,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 100791761,
+          "applied": 46759375,
+          "accepted": 87881,
+          "restarts": 50,
+          "snapshots": 6,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-2-h8-u0-p0.txt",
+          "2026100322",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-2/search-2026100322"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/campaign.json",
+        "sha256": "93efaa78d7feabfbe53845c3955b8d24daaf4e152de775cf85d16e2367b14686",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100323,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 110413536,
+          "applied": 49984636,
+          "accepted": 87792,
+          "restarts": 55,
+          "snapshots": 7,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-3-h8-u0-p0.txt",
+          "2026100323",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-4/campaign.json",
+        "sha256": "cd8456355e7aa8843281a9f3d72f82a39132920567874e9b88917a8d79306f15",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100324,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 105155967,
+          "applied": 47288826,
+          "accepted": 58494,
+          "restarts": 52,
+          "snapshots": 6,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              7,
+              1,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-4-h8-u0-p0.txt",
+          "2026100324",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-4/search-2026100324"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-5/campaign.json",
+        "sha256": "856c42640d7a0bd25748521633ce61f2dead5d29ae8d4a433db0877a604d676e",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100325,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 105467686,
+          "applied": 48192175,
+          "accepted": 93530,
+          "restarts": 52,
+          "snapshots": 6,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-5-h8-u0-p0.txt",
+          "2026100325",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-5/search-2026100325"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-6/campaign.json",
+        "sha256": "40a8fc4beb82498cf58460ab3906d5e1dde474970a6d0b2ab2156c0204ef4f51",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100326,
+          "budget_seconds": 60,
+          "seconds": 60,
+          "proposals": 103142967,
+          "applied": 46493781,
+          "accepted": 79183,
+          "restarts": 51,
+          "snapshots": 5,
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+          "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-6-h8-u0-p0.txt",
+          "2026100326",
+          "60",
+          "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-6/search-2026100326"
+        ]
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/campaign.json",
+        "sha256": "0069d9d378d5f1715d9f6dc77e81be4c351e5c97a4f577d5282ac37baf1a63d7",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100341,
+          "budget_seconds": 300,
+          "seconds": 300,
+          "proposals": 272495131,
+          "applied": 123787103,
+          "accepted": 284173,
+          "restarts": 136,
+          "snapshots": 7,
+          "reservoir_size": 64,
+          "reservoir_insertions": 181,
+          "reservoir_restarts": 110,
+          "long_cycle_rollback_audits": 5,
+          "final_path": "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/pilot-final-h8-u0-p0.txt",
+          "applied_by_size": [
+            0,
+            0,
+            100874276,
+            9409480,
+            2710087,
+            2703397,
+            2700376,
+            2698025,
+            2691462
+          ],
+          "accepted_by_size": [
+            0,
+            0,
+            284167,
+            5,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "essential_variants": 7,
+          "frontier": [
+            [
+              8,
+              0,
+              0
+            ],
+            [
+              7,
+              1,
+              0
+            ],
+            [
+              6,
+              1,
+              1
+            ],
+            [
+              6,
+              2,
+              0
+            ],
+            [
+              5,
+              4,
+              0
+            ]
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/search-v1.2",
+          "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt",
+          "2026100341",
+          "300",
+          "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/pilot"
+        ]
+      }
+    ],
+    "total_budget_seconds": 1020,
+    "total_proposals": 1486342120,
+    "sources": {
+      "source-v1.cpp": {
+        "path": "experiments/scratch/essential-regular-heuristic-20261003/source-v1.cpp",
+        "sha256": "328652d0908cb0d747959f781b706a3b56fb0ee0a1d8db079ce484fa3fc5af79"
+      },
+      "source-v1.1.cpp": {
+        "path": "experiments/scratch/essential-regular-heuristic-20261003/source-v1.1.cpp",
+        "sha256": "68859e5a913b69b839423f8992464fbd5608327599753a70e856915c79de485a"
+      },
+      "source-v1.2.cpp": {
+        "path": "experiments/scratch/essential-regular-heuristic-20261003/source-v1.2.cpp",
+        "sha256": "91245745dd7b52032c0b6352edef29096be16fd13c7c5b102d7d3bf72351d78e"
+      }
+    },
+    "current_source_sha256": "91245745dd7b52032c0b6352edef29096be16fd13c7c5b102d7d3bf72351d78e",
+    "candidate_count": 168,
+    "valid_covers": 0,
+    "distinct_essential_invariant_classes": 12,
+    "best_essential_pair_feasible_holes": 8,
+    "checker_source_sha256": "187b41c6e790fdf5d474d1397a7c7219212c40e3af2dfd939676ee4e460d98b7",
+    "focused_tests": {
+      "command": "uv run pytest tests/test_essential_cycle_controls.py tests/test_essential_candidate_checker.py -q",
+      "passed": 10
+    },
+    "sanitizer_checks": "AddressSanitizer and UndefinedBehaviorSanitizer passed for both source versions; malformed/duplicate/damaged controls rejected",
+    "candidate_audits": [
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/all-candidate-checks.json.gz",
+        "sha256": "4fd00e263834a02334909385467c6d589eb5eb2601610b462c6e3fb1315ed0c3",
+        "candidate_count": 118
+      },
+      {
+        "path": "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/candidate-checks.json.gz",
+        "sha256": "0df830590f623f28f3e7ed9ce02a90572a09f2db3893c8cd99eef804af1f7047",
+        "candidate_count": 50
+      }
+    ],
+    "original_candidate_checks_sha256": "4fd00e263834a02334909385467c6d589eb5eb2601610b462c6e3fb1315ed0c3",
+    "distinct_eight_hole_essential_invariant_classes": 7,
+    "full_tests": {
+      "command": "uv run pytest",
+      "passed": 212,
+      "warnings": 3,
+      "log": "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/pytest.log",
+      "log_sha256": "afab556d7959057c110dc5b21c9a1e5f5fb00a90032a827f1f0c4a66d7292a81"
+    },
+    "ruff": {
+      "command": "uv run ruff check .",
+      "exit": 0
+    },
+    "plateau_sanitizers": {
+      "asan_ubsan_exit": 0,
+      "stderr_empty": true,
+      "damage_controls": "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/sanitizer/damage-controls.json",
+      "damage_controls_sha256": "e50d79ad2da29d7da7ab455c261c142e31331629e587ab662cc76d25eddd1d21"
+    },
+    "previous_summary_sha256": "f5b1743d496431650b53085a8d4f5d988cda6bdf0dc648261d85ff19bf38827f"
+  }
+}

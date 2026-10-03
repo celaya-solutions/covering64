@@ -1,0 +1,25 @@
+{
+  "source_revision": "392342c95fe6d25bc2c58067d2f9f50be64be66f",
+  "checker_result": {
+    "cases": 2,
+    "certificate_sha256": "ec39536f433e97d28263cc189ba37d39a6574ebd8d295ed318b7e973e2962473",
+    "checker_source_sha256": "2e5a6b2f2bd7f3cc9cccf8eb5ef7b754fe5ca5e3074dd5e29897f8c7fcc0bf1b",
+    "nodes": 279,
+    "scope": "Only the explicit retained-block neighborhoods in the input; no global claim",
+    "status": "VERIFIED_LOCAL_NO_COMPLETION"
+  },
+  "source_input_sha256": "dcebdc393cae4c19407d9d7becbdcfe0a7b97c14323fe5b7f445d2c7af1963d1",
+  "commands": [
+    "uv run python experiments/scratch/prepare_double_hub_trees.py",
+    "uv run python scripts/independent_core_six.py experiments/scratch/double-hub-trees-20261003/input.json.gz experiments/scratch/double-hub-trees-20261003/weighted-trees.json.gz --seconds 20 --nodes 250000",
+    "uv run python scripts/check_independent_weighted_trees.py experiments/2026-10-03/double-hub-independent/input.json.gz experiments/2026-10-03/double-hub-independent/weighted-trees.json.gz"
+  ],
+  "files": {
+    "experiments/2026-10-03/double-hub-independent/input.json.gz": "cf855b6d3a367691fb9f49a0596f6b888b8bfd01c10fd453a3e1bd6ff89c641c",
+    "experiments/2026-10-03/double-hub-independent/weighted-trees.json.gz": "ec39536f433e97d28263cc189ba37d39a6574ebd8d295ed318b7e973e2962473",
+    "experiments/2026-10-03/double-hub-independent/prepare_input_snapshot.py": "8e1e69ced4a6ba7db5f83df0f24a8e66e9aca9558c73b3b8470addeef9a683ae",
+    "scripts/independent_core_six.py": "feb3f36fe7708dfb0b611b3f40a250b5ea4b4084e603a26301bb134d22353a16",
+    "scripts/check_independent_weighted_trees.py": "2e5a6b2f2bd7f3cc9cccf8eb5ef7b754fe5ca5e3074dd5e29897f8c7fcc0bf1b"
+  },
+  "scope": "Only two explicit retained32-block neighborhoods; no global claim"
+}

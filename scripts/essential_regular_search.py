@@ -1,9 +1,9 @@
 # Document:    Point-essential regular cover search
-# Version:     v1.0.0
+# Version:     v1.1.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      [pending]
+# SHA256:      3adc1999a004b57347fa7c9429e70f379665aa10132886ec4d66b980fb95c79b
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
@@ -84,6 +84,18 @@ def build_model(max_missing=0):
             >= 5
         )
     private = add_essential_constraints(universe, model, selected)
+    # For M tracked triples with I incidences, h holes and u private triples,
+    # I >= u +2*(M-h-u), hence u+2*h >=2*M-I. These are safe aggregates.
+    model.add(sum(private) + 2 * sum(holes) >= 480)
+    for point in range(1, 17):
+        tids = [t for t, triple in enumerate(universe.triples) if point in triple]
+        model.add(sum(private[t] + 2 * holes[t] for t in tids) >= 90)
+    for pair in combinations(range(1, 17), 2):
+        tids = [t for t, triple in enumerate(universe.triples) if set(pair) <= set(triple)]
+        incidence = sum(
+            selected[b] for b, block in enumerate(universe.blocks) if set(pair) <= set(block)
+        )
+        model.add(sum(private[t] + 2 * holes[t] for t in tids) + 3 * incidence >= 28)
     if max_missing:
         model.minimize(sum(holes))
     return universe, model, selected, holes, private
@@ -109,6 +121,10 @@ def main():
         transformed = {tuple(sorted(hint_mapping[p] for p in b)) for b in hint}
         for block, variable in zip(universe.blocks, selected):
             model.add_hint(variable, int(block in transformed))
+        hint_counts = Counter(t for block in transformed for t in combinations(block, 3))
+        for t, triple in enumerate(universe.triples):
+            model.add_hint(holes[t], int(hint_counts[triple] == 0))
+            model.add_hint(private[t], int(hint_counts[triple] == 1))
     args.output.mkdir(parents=True, exist_ok=True)
     model_path = args.output / "model.pbtxt"
     model.export_to_file(str(model_path))
@@ -132,6 +148,8 @@ def main():
         "hint_sha256": hashlib.sha256(args.hint.read_bytes()).hexdigest() if args.hint else None,
         "hint_mapping": hint_mapping,
         "repair_hint": False,
+        "private_count_aggregate_bounds": True,
+        "complete_auxiliary_hint": bool(args.hint),
     }
     (args.output / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
     solver = cp_model.CpSolver()

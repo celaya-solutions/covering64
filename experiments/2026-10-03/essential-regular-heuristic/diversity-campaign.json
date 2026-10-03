@@ -1,0 +1,234 @@
+{
+  "document_header": {
+    "Document": "Essential Regular Diversity Pilot",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "ffe99a7401415a102683968579f6f17ecbbd5688d1606e4e80966e611e5d2546",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Heuristic only; nonisomorphic fingerprints retain equal-score point-essential degree20 candidates",
+    "command": [
+      "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+      "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt",
+      "2026100318",
+      "60",
+      "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318"
+    ],
+    "exit": 0,
+    "events": [
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 0,
+        "proposals": 0,
+        "seconds": 0.000215375,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-0-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 8,
+        "unsupported": 0,
+        "pair_deficit": 0,
+        "proposals": 0,
+        "seconds": 0.000343875,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 7,
+        "unsupported": 1,
+        "pair_deficit": 0,
+        "proposals": 559,
+        "seconds": 0.00093425,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h7-u1-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 1,
+        "proposals": 6091,
+        "seconds": 0.00478275,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-1-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 1,
+        "pair_deficit": 1,
+        "proposals": 95915,
+        "seconds": 0.0565379,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h6-u1-p1.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 2,
+        "proposals": 395409,
+        "seconds": 0.238502,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-2-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 3,
+        "proposals": 397568,
+        "seconds": 0.240022,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-3-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 4,
+        "proposals": 3130242,
+        "seconds": 1.79961,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-4-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 5,
+        "proposals": 3132881,
+        "seconds": 1.80142,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-5-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 6,
+        "proposals": 3171877,
+        "seconds": 1.82368,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-6-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 3,
+        "pair_deficit": 0,
+        "proposals": 10019362,
+        "seconds": 5.72379,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h6-u3-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 2,
+        "pair_deficit": 0,
+        "proposals": 10022216,
+        "seconds": 5.72592,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h6-u2-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 5,
+        "unsupported": 5,
+        "pair_deficit": 1,
+        "proposals": 10029015,
+        "seconds": 5.73045,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h5-u5-p1.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 5,
+        "unsupported": 5,
+        "pair_deficit": 0,
+        "proposals": 10029366,
+        "seconds": 5.73077,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h5-u5-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 5,
+        "unsupported": 4,
+        "pair_deficit": 0,
+        "proposals": 10033841,
+        "seconds": 5.73388,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-h5-u4-p0.txt"
+      },
+      {
+        "event": "finish",
+        "seed": 2026100318,
+        "budget_seconds": 60,
+        "seconds": 60,
+        "proposals": 104240878,
+        "applied": 47103147,
+        "accepted": 75970,
+        "restarts": 52,
+        "snapshots": 8,
+        "essential_variants": 7,
+        "frontier": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            6,
+            2,
+            0
+          ],
+          [
+            5,
+            4,
+            0
+          ]
+        ],
+        "status": "INCONCLUSIVE"
+      }
+    ],
+    "stderr": "",
+    "build_and_controls": {
+      "source_sha256": "68859e5a913b69b839423f8992464fbd5608327599753a70e856915c79de485a",
+      "compile_commands": [
+        [
+          "c++",
+          "-std=c++17",
+          "-O1",
+          "-g",
+          "-fsanitize=address,undefined",
+          "scripts/essential_regular_heuristic.cpp",
+          "-o",
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitize"
+        ],
+        [
+          "c++",
+          "-std=c++17",
+          "-O3",
+          "-DNDEBUG",
+          "scripts/essential_regular_heuristic.cpp",
+          "-o",
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-search"
+        ]
+      ],
+      "control": {
+        "command": [
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitize",
+          "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt",
+          "2026100318",
+          "1",
+          "experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitizer"
+        ],
+        "exit": 0,
+        "stdout": "{\"event\":\"essential_variant\",\"holes\":8,\"variant\":0,\"proposals\":0,\"seconds\":0.000329583,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitizer-variant-0-h8-u0-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":8,\"unsupported\":0,\"pair_deficit\":0,\"proposals\":0,\"seconds\":0.000519542,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitizer-h8-u0-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":7,\"unsupported\":1,\"pair_deficit\":0,\"proposals\":559,\"seconds\":0.00209046,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitizer-h7-u1-p0.txt\"}\n{\"event\":\"essential_variant\",\"holes\":8,\"variant\":1,\"proposals\":6091,\"seconds\":0.0175252,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitizer-variant-1-h8-u0-p0.txt\"}\n{\"event\":\"frontier\",\"holes\":6,\"unsupported\":1,\"pair_deficit\":1,\"proposals\":95915,\"seconds\":0.24933,\"path\":\"experiments/scratch/essential-regular-heuristic-20261003/diversity-sanitizer-h6-u1-p1.txt\"}\n{\"event\":\"finish\",\"seed\":2026100318,\"budget_seconds\":1,\"seconds\":1.00002,\"proposals\":362004,\"applied\":178686,\"accepted\":657,\"restarts\":0,\"snapshots\":3,\"essential_variants\":2,\"frontier\":[[8,0,0],[7,1,0],[6,1,1]],\"status\":\"INCONCLUSIVE\"}\n",
+        "stderr": ""
+      },
+      "source_revision": "392342c95fe6d25bc2c58067d2f9f50be64be66f",
+      "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+      "seed_sha256": "593cf12a08e57f9dcd4c213ef28c56892ef4efb052f80a479303ba3b37751f4b"
+    }
+  }
+}

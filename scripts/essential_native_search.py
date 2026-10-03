@@ -1,9 +1,9 @@
 # Document:    Native SAT search for point-essential regular covers
-# Version:     v1.0.0
+# Version:     v1.1.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      [pending]
+# SHA256:      dd8d6fc76f051b58b26c509427c6b80cc2ef0f88bf3755c776628248505b25c1
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
@@ -70,7 +70,14 @@ def main():
         parser.error("seconds must be finite and positive")
     universe = Universe.build()
     model = native_model(universe, 64, branch="regular20", normalize=True)
-    add_essential_native(universe, model)
+    private = add_essential_native(universe, model)
+    # Exactly64 blocks give80 repeated triple incidences. Each regular point
+    # gives15 repeats among its105 triples. Every nonprivate triple uses>=1.
+    model["atmost"].append(([-flag for flag in private], 80))
+    for point in range(1, 17):
+        model["atmost"].append(
+            ([-private[t] for t, triple in enumerate(universe.triples) if point in triple], 15)
+        )
     args.output.mkdir(parents=True, exist_ok=True)
     serialized = json.dumps(model, separators=(",", ":")).encode()
     (args.output / "model.json.gz").write_bytes(gzip.compress(serialized, mtime=0))
@@ -91,6 +98,7 @@ def main():
         "variables": model["variables"],
         "clauses": len(model["clauses"]),
         "atmost_constraints": len(model["atmost"]),
+        "private_count_aggregate_bounds": True,
     }
     (args.output / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
     solver = make_solver(model)

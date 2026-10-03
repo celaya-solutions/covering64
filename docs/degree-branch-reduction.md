@@ -1,10 +1,10 @@
 ```text
 Document:    Complete Degree Branches for the C(16,5,3) Search
-Version:     v1.0.0
+Version:     v1.1.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      699c6817430ee56bc08b31db4b2ce979e7bf8426ed75689a98ff45dd1e097c04
+SHA256:      36de3e23ee2a893643fb3b96ec2ea7a11804e321d27f7e8fb18b860dca3db231
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -121,3 +121,20 @@ The optional positive-hole-budget mode searches partial covers in this family.
 It supplies possible starting states only. It has no completeness claim about
 all partial covers, and any zero-hole result still requires both full-cover
 verifiers. An unsuccessful run is not a proof against either complete branch.
+
+## Redundant private-triple count bounds
+
+For any collection of M tracked triples, let I count their block incidences,
+h their uncovered triples and u their private triples. Each of the other
+M-h-u triples has at least two incidences. Therefore
+
+    I >= u + 2(M-h-u), or u + 2h >= 2M-I.
+
+A regular20 family of64 blocks gives (M,I)=(560,640) globally and(105,120)
+at each point. For each pair with block multiplicity lambda, (M,I)=(14,3lambda).
+Thus the CP model may add u+2h>=480 globally, >=90 at each point, and
+u+2h+3lambda>=28 at each pair, using the corresponding indicators each time.
+The bounds remain valid for partial covers with exact cardinality and degrees.
+For full covers, the native model adds at most80 nonprivate triples globally
+and at most15 at each point. These aggregates are consequences of the exact
+coverage indicators; they impose no additional structural assumption.

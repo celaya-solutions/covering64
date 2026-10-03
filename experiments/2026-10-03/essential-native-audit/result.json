@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "essential_native_search.py": "28f3cfc988aa08dfa3c658e5063da0ed565ee568433c364385ed471d28e4baf8",
+    "native_sat_search.py": "8e89e9dfd118b09a07ebce0e67a995210d8f9a49c3830c1d726e81a57f506990"
+  },
+  "audit_sha256": "f1ac9358a8ccec135346f7939ca1ad21e0577caf6a0912816e0f2eb468db5b05",
+  "python_sat_version": "1.9.dev15",
+  "ortools_version": "9.15.6755",
+  "families_examined": 1024,
+  "full_cover_families": 388,
+  "point_essential_full_cover_families": 10,
+  "sat_direct_oracle_and_independent_cp_agree": true,
+  "wrong_private_flag_assumptions_rejected": 3880,
+  "small_variable_audit": {
+    "block_variables": 10,
+    "private_variables": 10,
+    "counter_calls": 20,
+    "auxiliary_variables": 40,
+    "maximum_variable": 60,
+    "all_auxiliary_ranges_disjoint_and_above_private": true
+  },
+  "actual_regular_model_variable_audit": {
+    "block_variables": 4368,
+    "private_variables": 560,
+    "counter_calls": 1120,
+    "auxiliary_variables": 128240,
+    "maximum_variable": 133168,
+    "all_auxiliary_ranges_disjoint_and_above_private": true
+  },
+  "actual_regular_model_all_bounds_match": true,
+  "normalization_trials": 128,
+  "normalization_seed": 2026100322,
+  "scope": "Independent encoding audit; no existence or nonexistence result for C(16,5,3)"
+}

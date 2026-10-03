@@ -1,0 +1,96 @@
+{
+  "command": [
+    "experiments/scratch/essential-regular-heuristic-20261003/search-v1.2",
+    "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt",
+    "2026100341",
+    "300",
+    "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/pilot"
+  ],
+  "rng_seed": 2026100341,
+  "budget_seconds": 300,
+  "source_revision": "392342c95fe6d25bc2c58067d2f9f50be64be66f",
+  "source_sha256": "91245745dd7b52032c0b6352edef29096be16fd13c7c5b102d7d3bf72351d78e",
+  "seed_sha256": "593cf12a08e57f9dcd4c213ef28c56892ef4efb052f80a479303ba3b37751f4b",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "started_utc": "2026-10-03T20:35:29.093114+00:00",
+  "search_processes": 1,
+  "scope": "Bounded local heuristic only; no infeasibility or completeness claim",
+  "changes": {
+    "cyclic_transfers": "5% proposals use4\u20138 distinct blocks;5% use3 blocks;5% exchange two points",
+    "reservoir": "At most64 point-essential pair-feasible states with<=10 holes; canonical block distance>=4; diversity-improving replacement when full;75% of restarts draw from reservoir",
+    "heavy_soft_penalty": "max(0,3*n6+4*n7-16)+8*sum(max(0,multiplicity-7)); phase weights0,2,4,6,10,16; no theorem asserted"
+  },
+  "exit": 0,
+  "wall_seconds": 300.00853520899545,
+  "finished_utc": "2026-10-03T20:40:29.107073+00:00",
+  "stdout_sha256": "8f9e61497db32898559a839c9edc168d0502442a3bce1674616a40a87c69b678",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "finish": {
+    "event": "finish",
+    "seed": 2026100341,
+    "budget_seconds": 300,
+    "seconds": 300,
+    "proposals": 272495131,
+    "applied": 123787103,
+    "accepted": 284173,
+    "restarts": 136,
+    "snapshots": 7,
+    "reservoir_size": 64,
+    "reservoir_insertions": 181,
+    "reservoir_restarts": 110,
+    "long_cycle_rollback_audits": 5,
+    "final_path": "experiments/2026-10-03/essential-regular-heuristic/plateau-2026100341/pilot-final-h8-u0-p0.txt",
+    "applied_by_size": [
+      0,
+      0,
+      100874276,
+      9409480,
+      2710087,
+      2703397,
+      2700376,
+      2698025,
+      2691462
+    ],
+    "accepted_by_size": [
+      0,
+      0,
+      284167,
+      5,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "essential_variants": 7,
+    "frontier": [
+      [
+        8,
+        0,
+        0
+      ],
+      [
+        7,
+        1,
+        0
+      ],
+      [
+        6,
+        1,
+        1
+      ],
+      [
+        6,
+        2,
+        0
+      ],
+      [
+        5,
+        4,
+        0
+      ]
+    ],
+    "status": "INCONCLUSIVE"
+  }
+}

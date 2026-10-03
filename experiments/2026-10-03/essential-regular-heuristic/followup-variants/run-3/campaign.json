@@ -1,0 +1,190 @@
+{
+  "document_header": {
+    "Document": "Essential Regular Follow-Up Variant 3",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "4ce93af048d08c7cca1962201334d6ca7480e35b0d75d87fc6e56df3f7cd719f",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Bounded heuristic pilot from essential regular near-cover; failure is inconclusive",
+    "input_path": "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-3-h8-u0-p0.txt",
+    "input_sha256": "9159aaadd86a3d2c2ba9911dd7fff07c5995931bee32161da816cfd6ff93cc9e",
+    "command": [
+      "experiments/scratch/essential-regular-heuristic-20261003/diversity-search",
+      "experiments/2026-10-03/essential-regular-heuristic/diversity-2026100318-variant-3-h8-u0-p0.txt",
+      "2026100323",
+      "60",
+      "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323"
+    ],
+    "exit": 0,
+    "stderr": "",
+    "events": [
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 0,
+        "proposals": 0,
+        "seconds": 0.00015725,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-0-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 8,
+        "unsupported": 0,
+        "pair_deficit": 0,
+        "proposals": 0,
+        "seconds": 0.000235792,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 1,
+        "proposals": 7849,
+        "seconds": 0.00574867,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-1-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 2,
+        "proposals": 9694,
+        "seconds": 0.00705692,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-2-h8-u0-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 7,
+        "unsupported": 1,
+        "pair_deficit": 0,
+        "proposals": 29047,
+        "seconds": 0.0183549,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h7-u1-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 1,
+        "pair_deficit": 1,
+        "proposals": 34513,
+        "seconds": 0.0217864,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h6-u1-p1.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 4,
+        "pair_deficit": 0,
+        "proposals": 181728,
+        "seconds": 0.106021,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h6-u4-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 3,
+        "pair_deficit": 0,
+        "proposals": 181899,
+        "seconds": 0.106249,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h6-u3-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 6,
+        "unsupported": 2,
+        "pair_deficit": 0,
+        "proposals": 182245,
+        "seconds": 0.106549,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h6-u2-p0.txt"
+      },
+      {
+        "event": "frontier",
+        "holes": 5,
+        "unsupported": 4,
+        "pair_deficit": 0,
+        "proposals": 186273,
+        "seconds": 0.10918,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-h5-u4-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 3,
+        "proposals": 1513964,
+        "seconds": 0.913479,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-3-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 4,
+        "proposals": 1514715,
+        "seconds": 0.914047,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-4-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 5,
+        "proposals": 1537929,
+        "seconds": 0.927582,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-5-h8-u0-p0.txt"
+      },
+      {
+        "event": "essential_variant",
+        "holes": 8,
+        "variant": 6,
+        "proposals": 2551021,
+        "seconds": 1.48403,
+        "path": "experiments/2026-10-03/essential-regular-heuristic/followup-variants/run-3/search-2026100323-variant-6-h8-u0-p0.txt"
+      },
+      {
+        "event": "finish",
+        "seed": 2026100323,
+        "budget_seconds": 60,
+        "seconds": 60,
+        "proposals": 110413536,
+        "applied": 49984636,
+        "accepted": 87792,
+        "restarts": 55,
+        "snapshots": 7,
+        "essential_variants": 7,
+        "frontier": [
+          [
+            8,
+            0,
+            0
+          ],
+          [
+            7,
+            1,
+            0
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            6,
+            2,
+            0
+          ],
+          [
+            5,
+            4,
+            0
+          ]
+        ],
+        "status": "INCONCLUSIVE"
+      }
+    ],
+    "source_sha256": "68859e5a913b69b839423f8992464fbd5608327599753a70e856915c79de485a",
+    "build_controls_path": "experiments/scratch/essential-regular-heuristic-20261003/diversity-build-controls.json"
+  }
+}

@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Independently rebuilt the published four degree-19 link classes (206 shapes, 114 links), and added the jointly complete point-essential regular branch. Goal64 is still open; resume essential regular and double-hub searches, with scopes and evidence in docs/degree-branch-reduction.md.
+Checked six fixed32-block exclusions and new regular heavy-triple/spoke reductions; saved searches and independent audits. Goal64 remains open; continue local13-point family construction and classification, with scope in docs/research-continuation-2026-10-03.md.
