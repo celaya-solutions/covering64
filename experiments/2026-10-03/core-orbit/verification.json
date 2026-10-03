@@ -1,0 +1,83 @@
+{
+  "schema": "core-orbit-verification-v1",
+  "checks": [
+    {
+      "valid_certificate": true,
+      "complete_obstruction": true,
+      "scope": "Only covers retaining the specified core subset; not unrestricted",
+      "removed_count": 3,
+      "representatives": 619,
+      "all_removal_sets_checked": 34220,
+      "subgroup_order": 60,
+      "additional_blocks_allowed": 7,
+      "minimum_exact_dual_bound": [
+        1864579,
+        250000
+      ],
+      "uncertified_representatives": [],
+      "maximum_core_blocks_in_any_64_cover": 56,
+      "certificate": "core-remove-3.json.gz",
+      "certificate_sha256": "ced63d0355ddd46ca8b446f9699fb464757c28b2a2c52acdcb064273aa289be5",
+      "certificate_bytes": 23607,
+      "generation": {
+        "started_utc": "2026-10-03T18:42:36.914983+00:00",
+        "source_revision": "d57346da01d6f8afbd65dee0981dddc97ceea27d",
+        "python_version": "3.13.15",
+        "ortools_version": "9.15.6755",
+        "solver": "GLOP; floating output converted to exact checked rational weights",
+        "sources": {
+          "build_core_orbit_certificates.py": "8a271337dfb8ed820bac4c810f26e07eeb198ff7f68cb8d67d34a8c0f70a4910",
+          "residual_lp.py": "a9a87a07d6887395ea96bc0bd3e528d04e84285f7dfe9fa9240fd0719065cbbf",
+          "check_core_orbit_certificate.py": "5537b41e4447421e951d4f65c7f6d9ab0b9d629d06f259fd39dc4faceaf8d429"
+        },
+        "elapsed_seconds": 4.879802208044566
+      },
+      "minimum_exact_margin": [
+        114579,
+        250000
+      ]
+    },
+    {
+      "valid_certificate": true,
+      "complete_obstruction": true,
+      "scope": "Only covers retaining the specified core subset; not unrestricted",
+      "removed_count": 4,
+      "representatives": 8337,
+      "all_removal_sets_checked": 487635,
+      "subgroup_order": 60,
+      "additional_blocks_allowed": 8,
+      "minimum_exact_dual_bound": [
+        2035711,
+        250000
+      ],
+      "uncertified_representatives": [],
+      "maximum_core_blocks_in_any_64_cover": 55,
+      "certificate": "core-remove-4.json.gz",
+      "certificate_sha256": "9997df71457bd6f4ca5567032cd026e3956d29235515acc330f05fddc6d9c298",
+      "certificate_bytes": 450567,
+      "generation": {
+        "started_utc": "2026-10-03T18:42:56.181535+00:00",
+        "source_revision": "d57346da01d6f8afbd65dee0981dddc97ceea27d",
+        "python_version": "3.13.15",
+        "ortools_version": "9.15.6755",
+        "solver": "GLOP; floating output converted to exact checked rational weights",
+        "sources": {
+          "build_core_orbit_certificates.py": "8a271337dfb8ed820bac4c810f26e07eeb198ff7f68cb8d67d34a8c0f70a4910",
+          "residual_lp.py": "a9a87a07d6887395ea96bc0bd3e528d04e84285f7dfe9fa9240fd0719065cbbf",
+          "check_core_orbit_certificate.py": "5537b41e4447421e951d4f65c7f6d9ab0b9d629d06f259fd39dc4faceaf8d429"
+        },
+        "elapsed_seconds": 80.50038904196117
+      },
+      "minimum_exact_margin": [
+        35711,
+        250000
+      ]
+    }
+  ],
+  "standalone_invocation": "python3 -I scripts/check_core_orbit_certificate.py CERTIFICATE",
+  "controls": {
+    "passed": 18,
+    "log": "experiments/scratch/core-orbit-20261003/rejection-controls.log"
+  },
+  "controls_source_sha256": "8bba9912d457908a8949d419638bb13538403afeb4db7b4acbacace877579c96"
+}

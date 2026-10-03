@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Added checked search tools, malformed-input controls, and a separately checked 1,831-case core obstruction certificate. The 64-block goal remains open; best coverage is 557/560. See docs/research-checkpoint-2026-10-03.md for scope and evidence. Resume the degree19/all20 split and LP-screened searches; the alternate web seeds share the old rigid core.
+Checked four-core-removal bound and 33 six-removal / 100 seven-removal neighborhoods are saved with independent replay trees. Global searches remain inconclusive; best64 still covers557/560. Resume the separate core-escape, cyclic-family and alternative-construction searches; see the research checkpoint report.

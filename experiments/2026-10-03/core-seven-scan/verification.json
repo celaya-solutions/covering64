@@ -1,0 +1,27 @@
+{
+  "valid_scan": true,
+  "removed_count": 7,
+  "verified_classes": 100,
+  "lp_uncertified": 100,
+  "all_sets_at_this_level_checked": false,
+  "scan_sha256": "ee3a8597e449e0ea4590b1eff0f03a2c7565aabfcf75154313dc01d26afdb98c",
+  "checker_sha256": "5cf0844d552b2e702af904bae2c0a27f043d6e8ce7343cf09d006d008572555c",
+  "source_hashes": {
+    "scripts/scan_core_extensions.py": "e31e7b838d8f3230bed961aba8236efab73f1d9017eab2806e348bff3edc0df5",
+    "scripts/reduce_core_candidates.py": "e88aba3213628eb3ce5801cdea2ea1994be80d989adb90382269ac5e8b2e4610"
+  },
+  "artifact_hashes": {
+    "dual-reduced-candidates.json.gz": "566a3d4a20ba7da6adc1627e67cef8bfe0f9f7ae24f711aa35ef711e1647f678",
+    "lp-candidates.json.gz": "9410ca265605a4a8a94552c1b1cf9a3d4746c5f930ec8727e0d4bc6d29bb222a",
+    "scan.json.gz": "ee3a8597e449e0ea4590b1eff0f03a2c7565aabfcf75154313dc01d26afdb98c"
+  },
+  "best_exact_reconstructed_dual": [
+    76,
+    7
+  ],
+  "eligible_pool_size_range": [
+    46,
+    137
+  ],
+  "exact_dual_eleven_cases": 30
+}

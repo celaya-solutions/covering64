@@ -91,3 +91,28 @@ def test_lp_screen_returns_independently_valid_dual_and_does_not_reject_equality
     feasible = lns.repair_neighborhood(
         universe, blocks, removed, 2, 2, exact=True, lp_screen=True)
     assert feasible["verification"]["valid"]
+
+
+def test_dual_load_pruning_and_exact_weighted_coverage():
+    universe = Universe.build(5, 3, 1)
+    certificate = {"weights": [[0, 1, 2], [1, 1, 2]], "lower_bound": [1, 1]}
+    allowed, upper, proof = lns.dual_restrictions(
+        universe, certificate, 1, list(range(len(universe.blocks))))
+    assert [universe.blocks[i] for i in allowed] == [(1, 2, 3), (1, 2, 4), (1, 2, 5)]
+    assert upper == {0: 1, 1: 1}
+    assert proof["slack"] == [0, 1]
+    assert proof["candidate_load_threshold"] == [1, 1]
+    damaged = {"weights": [[0, 2, 1]], "lower_bound": [2, 1]}
+    with pytest.raises(ValueError, match="capacity"):
+        lns.dual_restrictions(universe, damaged, 2, list(range(len(universe.blocks))))
+    with pytest.raises(ValueError, match="already covered"):
+        lns.dual_restrictions(universe, certificate, 1, list(range(len(universe.blocks))), {0})
+
+
+def test_exact_repair_still_works_with_dual_reductions():
+    universe = Universe.build(4, 2, 1)
+    blocks = [(1, 2), (3, 4)]
+    removed = [universe.blocks.index(block) for block in blocks]
+    result = lns.repair_neighborhood(universe, blocks, removed, 2, 2, exact=True, lp_prune=True)
+    assert result["verification"]["valid"]
+    assert result["lp_reduction"]["slack"] == [0, 1]

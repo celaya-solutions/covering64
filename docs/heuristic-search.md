@@ -1,10 +1,10 @@
 ```text
 Document:    Heuristic Search for a 64-Block Cover
-Version:     v1.1.0
+Version:     v1.2.1
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      8513cadba93e3cdb9e0a905ec6e71af9d36abbcc3551c4fa94c40a322e650510
+SHA256:      0f194a8101f2cb76e0b0539d6d81d211fa7f5e17b985e811920e378a5b63eb0e
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -51,7 +51,8 @@ iteration count between runs.
 | `multithreshold` | One-point, two-point and two-block moves, within best through best plus six missing triples. |
 | `hybrid` | Annealing with both one-point changes and coordinated point swaps between two blocks. |
 | `dispersion` | Annealing with a small secondary penalty for repeated coverage concentrated on the same triples. |
-| `regular` | Only two-block point swaps, preserving exactly 20 occurrences per point; input must already have those degrees. |
+| `regular`, `regularcold`, `regularthreshold` | Random two-block point swaps with standard cooling, lower-temperature cooling, or a bounded deficit allowance; every point stays at degree 20. |
+| `regulartabu`, `regularplain` | Evaluate directed paired point swaps around an uncovered triple, using changing or unit weights; every point stays at degree 20. |
 | `link` | Freeze exactly 19 blocks containing point 16 and search over the other 45 blocks on points 1 through 15. |
 | `escape`, `escapeplain` | Exclude a requested number of labeled seed-core blocks, using changing or unit weights respectively. |
 | `cap2`, `cap2weighted` | Require every triple multiplicity to remain at most two, using unit or changing weights respectively. |
@@ -89,19 +90,58 @@ triples are `(2,7,14)`, `(2,7,15)` and `(7,14,15)`.
   and `experiments/scratch/heuristic-deficit3-standalone.json`
 - Invalid-input controls: `experiments/scratch/heuristic-controls-v15.json`
 - Cross-check batch: `experiments/scratch/heuristic-all-candidate-checks.json`
-  records 154 snapshot pairs agreeing, with no valid 64-block cover.
+  records paired checks of saved snapshots, with no valid 64-block cover.
 - Campaign inventory: `experiments/scratch/heuristic-campaigns.json`
 
 The latest build passed seven malformed-input controls, four invalid restricted
 seed controls, a known 65-block positive control, an unwritable-path control, a
-graceful-stop control and a short cap2 search. These checks do not establish
-search completeness or witness existence.
+graceful-stop control and a short cap2 search. The added degree-20 modes each passed
+invalid-seed rejection and short valid-seed controls. A paired-tabu smoke run
+also passed AddressSanitizer and UndefinedBehaviorSanitizer without diagnostics.
+These checks do not establish search completeness or witness existence.
 
 The search remains open. No 64-block covering witness has been verified by
 these campaigns. No failure recorded here is an impossibility certificate.
 
+## Balanced seeds and plateau experiments
+
+A bounded beam of 1,000 states corrected the three excess point incidences in
+the first near-cover. The result has 64 distinct blocks, every point appearing
+exactly 20 times, and five missing triples. Both checkers agree.
+
+- Seed: `experiments/scratch/heuristic-balanced64-near3.txt`
+- SHA256: `e45263fed4645ece5a0316d260448c8b64f20357cf9d23dd13647f24ab04ea5f`
+- Generator and trace: `experiments/scratch/heuristic-balance.py` and
+  `experiments/scratch/heuristic-balanced64-near3.json`
+
+The experimental breadth-first search is saved separately in scratch, with
+its exact source versions and frozen C++ dependency. Its component observations
+are limited to their starting state, deficit ceiling, move set and optional
+pair bound. They are not bounds on the unrestricted covering number.
+
+| Starting family and move limits | Visited states | Proposals | Result |
+| --- | ---: | ---: | --- |
+| Degree 20; one-point pair swaps; at most 5 holes | 432 | 11,174,448 | Queue empty; best 5 holes |
+| Degree 20; one- or two-point pair swaps; at most 5 holes | 432 | 35,613,720 | Queue empty; best 5 holes |
+| Degree 20; one- or two-point pair swaps; at most 6 holes | 22,980 | 1,894,780,500 | Queue empty; best 5 holes |
+| Degree 20 and every pair covered at least 5 times; at most 7 holes | 11,700 | 963,908,820 | Queue empty; best 5 holes |
+
+None of those runs dropped states because of its configured memory cap.
+For five-element blocks, exchanging one or two exclusive points includes every
+two-block redistribution that preserves point degrees: exchanging the
+complementary exclusive subsets gives the same unordered pair of new blocks.
+This observation does not cover changes involving three or more blocks.
+The separate atomic-cycle experiment tests directed point cycles through three
+blocks and is also only a bounded search. Its corrected run made 2,537,905,975
+pair-and-cycle proposals over 240.009 seconds and remained at five holes. It
+preserved point degree 20 and required every pair to remain covered at least
+five times. The final snapshot-check batch contains 335 paired checker results,
+with no valid 64-block cover.
+
 ## Reproduction and source provenance
 
+The degree-20 extensions were developed after checkpoint `d57346d`. Exact
+source snapshots and hashes distinguish those runs from earlier binaries.
 The initial checkout revision was
 `582e7ba084e79ed1b7406aa0bc2196b28bab06d7`. The compiler was Apple clang 21.0.0
 `clang-2100.3.27.1`, with the optimization and warning flags shown above.

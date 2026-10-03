@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # Document:    Large Neighborhood Cover Search
-# Version:     v1.0.0
+# Version:     v1.1.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
@@ -46,9 +46,44 @@ def _dual_function():
     return module.residual_dual
 
 
+def dual_restrictions(universe, certificate, budget, candidates, deficient=None):
+    """Exactly certify load pruning and weighted-overlap bounds for full repairs.
+
+    For at most m additions, sum of selected block loads is at least B and
+    at most m. Each block deficit1-load and each weighted duplicate term
+    w_t*(coverage_t-1) is nonnegative and individually at most slack=m-B.
+    """
+    weights = {t: Fraction(n, d) for t, n, d in certificate["weights"]}
+    if (len(weights) != len(certificate["weights"])
+            or any(type(t) is not int or not 0 <= t < len(universe.triples) for t in weights)
+            or any(w < 0 for w in weights.values())):
+        raise ValueError("invalid dual weights")
+    if deficient is not None and not {t for t, w in weights.items() if w > 0} <= set(deficient):
+        raise ValueError("positive dual weight on an already covered triple")
+    bound = sum(weights.values(), Fraction(0))
+    if bound != Fraction(*certificate["lower_bound"]):
+        raise ValueError("dual bound does not equal its weight sum")
+    loads = [sum((weights.get(t, Fraction(0)) for t in coverage), Fraction(0))
+             for coverage in universe.coverage]
+    if any(load > 1 for load in loads):
+        raise ValueError("dual exceeds a block capacity")
+    slack = budget - bound
+    if slack < 0:
+        raise ValueError("dual already excludes this repair budget")
+    threshold = 1 - slack
+    allowed = [i for i in candidates if loads[i] >= threshold]
+    upper = {t: 1 + slack // weight for t, weight in weights.items() if weight > 0}
+    return allowed, upper, {
+        "slack": [slack.numerator, slack.denominator],
+        "candidate_load_threshold": [threshold.numerator, threshold.denominator],
+        "before_candidates": len(candidates), "after_candidates": len(allowed),
+        "candidate_ids": allowed, "weighted_coverage_upper_bounds": sorted(upper.items()),
+    }
+
+
 def repair_neighborhood(
     universe, incumbent, removed, target, seconds, seed=0, change=False, exact=False,
-    lp_screen=False,
+    lp_screen=False, lp_prune=False,
 ):
     """Optimize missing subsets after fixing all unremoved incumbent blocks.
 
@@ -72,7 +107,7 @@ def repair_neighborhood(
         raise ValueError("seconds must be finite and positive")
     if type(seed) is not int:
         raise ValueError("seed must be an integer")
-    if lp_screen and not exact:
+    if (lp_screen or lp_prune) and not exact:
         raise ValueError("LP screening only applies to exact zero-deficit repairs")
     retained = selected - set(removed)
     budget = target - len(retained)
@@ -85,7 +120,7 @@ def repair_neighborhood(
     deficient = [i for i, count in enumerate(counts) if not count]
     candidates = sorted({i for t in deficient for i in universe.containing[t]} - retained)
     certificate = None
-    if lp_screen:
+    if lp_screen or lp_prune:
         started = time.monotonic()
         certificate = _dual_function()(universe, sorted(retained))
         if Fraction(*certificate["lower_bound"]) > budget:
@@ -98,8 +133,15 @@ def repair_neighborhood(
                 "scope": "only this retained-block neighborhood; no global inference",
                 "exact": exact, "witness": None,
             }
+    reduction = None
+    upper = {}
+    if lp_prune:
+        candidates, upper, reduction = dual_restrictions(
+            universe, certificate, budget, candidates, deficient)
     model = cp_model.CpModel()
     variables = {i: model.NewBoolVar(f"block_{i}") for i in candidates}
+    for triple, limit in upper.items():
+        model.Add(sum(variables[i] for i in universe.containing[triple] if i in variables) <= limit)
     missing = {}
     for triple in deficient:
         missing[triple] = model.NewBoolVar(f"missing_{triple}")
@@ -144,6 +186,7 @@ def repair_neighborhood(
         "scope": "only this retained-block neighborhood; no global inference",
         "exact": exact,
         "lp_certificate": certificate,
+        "lp_reduction": reduction,
         "witness": None,
     }
     if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
@@ -197,13 +240,14 @@ def main(argv=None):
     parser.add_argument("--seed", type=int, default=640003)
     parser.add_argument("--exact", action="store_true")
     parser.add_argument("--lp-screen", action="store_true")
+    parser.add_argument("--lp-prune", action="store_true")
     args = parser.parse_args(argv)
     if any(not math.isfinite(x) or x <= 0 for x in (args.seconds, args.slice_seconds)):
         parser.error("time budgets must be finite and positive")
     if args.target <= 0:
         parser.error("target must be positive")
-    if args.lp_screen and not args.exact:
-        parser.error("--lp-screen requires --exact")
+    if (args.lp_screen or args.lp_prune) and not args.exact:
+        parser.error("--lp-screen and --lp-prune require --exact")
     sizes = [int(x) for x in args.sizes.split(",")]
     if not sizes or any(x <= 0 for x in sizes):
         parser.error("sizes must be positive")
@@ -220,7 +264,7 @@ def main(argv=None):
         current.pop(rng.choice([i for score, i in options if score == minimum]))
     args.output.mkdir(parents=True, exist_ok=True)
     (args.output / "source_snapshot.py").write_bytes(Path(__file__).read_bytes())
-    if args.lp_screen:
+    if args.lp_screen or args.lp_prune:
         (args.output / "lp_source_snapshot.py").write_bytes(
             Path(__file__).with_name("residual_lp.py").read_bytes())
     best = current[:]
@@ -231,9 +275,10 @@ def main(argv=None):
                 "target": args.target, "solver": ortools.__version__, "workers": 2,
                 "exact": args.exact,
                 "lp_screen": args.lp_screen,
+                "lp_prune": args.lp_prune,
                 "lp_source_sha256": hashlib.sha256(
                     Path(__file__).with_name("residual_lp.py").read_bytes()
-                ).hexdigest() if args.lp_screen else None,
+                ).hexdigest() if args.lp_screen or args.lp_prune else None,
                 "source_revision": subprocess.check_output(
                     ["git", "rev-parse", "HEAD"], text=True).strip(),
                 "source_sha256": hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
@@ -252,7 +297,7 @@ def main(argv=None):
             result = repair_neighborhood(universe, current, removed, args.target,
                                          min(args.slice_seconds, remaining),
                                          args.seed + attempt, change=True, exact=args.exact,
-                                         lp_screen=args.lp_screen)
+                                         lp_screen=args.lp_screen, lp_prune=args.lp_prune)
             result["attempt"] = attempt
             result["requested_seconds"] = min(args.slice_seconds, remaining)
             witness = result.pop("witness")

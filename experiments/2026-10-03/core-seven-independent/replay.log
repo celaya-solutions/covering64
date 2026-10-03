@@ -1,0 +1,13 @@
+Document:    Independent Seven-Removal Kernel Replay Log
+Version:     v1.0.0
+Author:      Celaya Solutions
+Contact:     hello@celayasolutions.com
+Date:        2026-10-03
+SHA256:      bdd1bbb15a633427959b004f04893846b17a9289bfb90172386668eb895f139f
+Chain:       n/a
+Tx:          [not anchored]
+License:     All Rights Reserved / Celaya Solutions
+
+Command: python3 scripts/check_independent_weighted_trees.py experiments/2026-10-03/core-seven-scan/dual-reduced-candidates.json.gz experiments/2026-10-03/core-seven-independent/weighted-trees.json.gz
+Exit: 0
+{"cases": 100, "certificate_sha256": "5f4d6127f7e2067996ed7dfb53d88039f11a80d99e0054cf0977829d7fbb87dc", "checker_source_sha256": "2e5a6b2f2bd7f3cc9cccf8eb5ef7b754fe5ca5e3074dd5e29897f8c7fcc0bf1b", "nodes": 491, "scope": "Only the explicit retained-block neighborhoods in the input; no global claim", "status": "VERIFIED_LOCAL_NO_COMPLETION"}

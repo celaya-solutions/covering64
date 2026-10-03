@@ -1,5 +1,5 @@
 // Document:    Weighted local search for C(16,5,3)
-// Version:     v1.0.0
+// Version:     v1.1.0
 // Author:      Celaya Solutions
 // Contact:     hello@celayasolutions.com
 // Date:        2026-10-03
@@ -98,7 +98,8 @@ int main(int argc,char **argv) {
   int target_count=argc>7?std::stoi(argv[7]):64;
   int core_distance=argc>8?std::stoi(argv[8]):4;
   if(target_count!=64&&target_count!=65)throw std::runtime_error("Block count must be 64 or 65");
-  if(!std::isfinite(budget)||budget<=0||restart_steps==0||(mode!="tabu"&&mode!="plain"&&mode!="point"&&mode!="link"&&mode!="escape"&&mode!="escapeplain"&&mode!="cap2"&&mode!="cap2weighted"&&mode!="anneal"&&mode!="threshold"&&mode!="multithreshold"&&mode!="hybrid"&&mode!="regular"&&mode!="dispersion"))throw std::runtime_error("Bad budget or mode");
+  bool regular_mode=mode=="regular"||mode=="regularcold"||mode=="regularthreshold"||mode=="regulartabu"||mode=="regularplain";
+  if(!std::isfinite(budget)||budget<=0||restart_steps==0||(!regular_mode&&mode!="tabu"&&mode!="plain"&&mode!="point"&&mode!="link"&&mode!="escape"&&mode!="escapeplain"&&mode!="cap2"&&mode!="cap2weighted"&&mode!="anneal"&&mode!="threshold"&&mode!="multithreshold"&&mode!="hybrid"&&mode!="dispersion"))throw std::runtime_error("Bad budget or mode");
   auto baseline=read_blocks(argv[1]);auto best=baseline;
   if(int(baseline.size())<target_count)throw std::runtime_error("Too few starting blocks");
   int movable_count=target_count;
@@ -129,7 +130,7 @@ int main(int argc,char **argv) {
       throw std::runtime_error("Fixed link does not cover all triples containing16");
     best=baseline;
   }
-  if(mode=="regular") {
+  if(regular_mode) {
     std::array<int,16> replication{};
     for(int b:baseline)for(int p=0;p<16;p++)if(blocks[b].mask&(1u<<p))replication[p]++;
     if(target_count!=64 || baseline.size()!=64 || std::any_of(replication.begin(),replication.end(),[](int n){return n!=20;}))
@@ -150,7 +151,7 @@ int main(int argc,char **argv) {
         int b;do b=randint(4368);while(s.selected[b]||core[b]);s.move(slot,b);retained_core--;
       }
     }
-    if(restarts%3==1 && mode!="regular" && !cap_mode) for(int j=0;j<2+int(restarts%11);j++){int b;do b=randint(4368);while(s.selected[b]||(escape_mode&&core[b])||(mode=="link"&&(blocks[b].mask&(1u<<15))));s.move(randint(movable_count),b);}
+    if(restarts%3==1 && !regular_mode && !cap_mode) for(int j=0;j<2+int(restarts%11);j++){int b;do b=randint(4368);while(s.selected[b]||(escape_mode&&core[b])||(mode=="link"&&(blocks[b].mask&(1u<<15))));s.move(randint(movable_count),b);}
     if(restarts%3==2 && mode=="anneal") for(int j=0;j<target_count;j++){int b;do b=randint(4368);while(s.selected[b]);s.move(j,b);}
     std::array<uint64_t,4368> tabu{};
     std::array<uint64_t,4368> protected_until{};
@@ -164,13 +165,49 @@ int main(int argc,char **argv) {
           throw std::runtime_error("Incremental coverage audit failed");
         if(cap_mode && std::any_of(s.count.begin(),s.count.end(),[](int n){return n>2;}))
           throw std::runtime_error("Multiplicity-cap invariant failed");
+        if(regular_mode) {
+          std::array<int,16> replication{};
+          for(int b:s.ids)for(int p=0;p<16;p++)if(blocks[b].mask&(1u<<p))replication[p]++;
+          if(std::any_of(replication.begin(),replication.end(),[](int n){return n!=20;}))throw std::runtime_error("Degree-twenty invariant failed");
+        }
         global=s.deficit;best=s.ids;save(prefix+"-best.txt",best);save(prefix+"-deficit-"+std::to_string(global)+".txt",best);
         std::cout<<"{\"event\":\"best\",\"deficit\":"<<global<<",\"seconds\":"<<elapsed()<<",\"iteration\":"<<iterations<<",\"restart\":"<<restarts<<"}"<<std::endl;
         if(global==0)return 0;
       }
       if(step>=restart_steps || ((step&4095)==0 && (elapsed()>=budget||stopped)))break;
       if(s.deficit<local){local=s.deficit;lastbest=step;}
-      if(mode=="regular" || (mode=="hybrid" && randint(2)==0) || (mode=="multithreshold" && randint(3)==0)) {
+      if(mode=="regulartabu"||mode=="regularplain") {
+        std::vector<int> uncovered;for(int t=0;t<560;t++)if(s.count[t]==0)uncovered.push_back(t);
+        unsigned target=triples[uncovered[randint(int(uncovered.size()))]];
+        int bestscore=std::numeric_limits<int>::max(),ties=0,ai=-1,bi=-1,an=-1,bn=-1,px=-1,py=-1;
+        std::array<int,560> changes{};std::array<int,40> touched{};
+        for(int i=0;i<target_count;i++) {
+          int a=s.ids[i];unsigned am=blocks[a].mask;
+          if(protected_until[a]>step||__builtin_popcount(am&target)!=2)continue;
+          unsigned incoming=target&~am;int y=__builtin_ctz(incoming);
+          for(int x=0;x<16;x++)if((am&~target)&(1u<<x)) {
+            unsigned outgoing=1u<<x;int na=bymask[am^outgoing^incoming];if(s.selected[na])continue;
+            for(int j=0;j<target_count;j++) {
+              int b=s.ids[j];unsigned bm=blocks[b].mask;
+              if(i==j||protected_until[b]>step||!(bm&incoming)||(bm&outgoing))continue;
+              int nb=bymask[bm^incoming^outgoing];if(s.selected[nb]||na==nb)continue;
+              int nt=0;
+              auto mark=[&](int id,int d){for(int t:blocks[id].triples){touched[nt++]=t;changes[t]+=d;}};
+              mark(a,-1);mark(b,-1);mark(na,1);mark(nb,1);
+              int score=0,raw=0;
+              for(int q=0;q<nt;q++){int t=touched[q];if(changes[t]){int d=(s.count[t]+changes[t]==0)-(s.count[t]==0);raw+=d;score+=s.weight[t]*d;changes[t]=0;}}
+              if(point_tabu[x][y]>step && s.deficit+raw>=global)continue;
+              if(score<bestscore){bestscore=score;ties=1;ai=i;bi=j;an=na;bn=nb;px=x;py=y;}
+              else if(score==bestscore && randint(++ties)==0){ai=i;bi=j;an=na;bn=nb;px=x;py=y;}
+            }
+          }
+        }
+        if(ai>=0){s.move(ai,an);s.move(bi,bn);protected_until[an]=protected_until[bn]=step+5;point_tabu[px][py]=point_tabu[py][px]=step+10+randint(3);}
+        if(mode=="regulartabu"&&step-lastbest>40&&step%8==0)for(int t=0;t<560;t++)if(s.count[t]==0)s.weight[t]++;
+        if(step%3000==2999)for(int &w:s.weight)w=1+(w-1)*3/4;
+        continue;
+      }
+      if(regular_mode || (mode=="hybrid" && randint(2)==0) || (mode=="multithreshold" && randint(3)==0)) {
         int i=randint(target_count),j=randint(target_count-1);if(j>=i)j++;
         int a=s.ids[i],b=s.ids[j]; unsigned am=blocks[a].mask,bm=blocks[b].mask;
         unsigned adiff=am&~bm,bdiff=bm&~am;
@@ -183,8 +220,8 @@ int main(int argc,char **argv) {
         auto apply=[&](int id,int dir){for(int t:blocks[id].triples){touched[nt++]=t;change[t]+=dir;}};
         apply(a,-1);apply(b,-1);apply(na,1);apply(nb,1);
         int delta=0;for(int k=0;k<nt;k++){int t=touched[k];if(change[t]){delta+=(s.count[t]+change[t]==0)-(s.count[t]==0);change[t]=0;}}
-        double phase=double(step%1000000)/1000000.;double temp=0.05+0.65*std::pow(1-phase,3);
-        bool accept=mode=="multithreshold" ? (delta<0||s.deficit+delta<=global+int(step/1000000)%7) :
+        double phase=double(step%1000000)/1000000.;double temp=mode=="regularcold" ? 0.015+0.185*std::pow(1-phase,3) : 0.05+0.65*std::pow(1-phase,3);
+        bool accept=(mode=="multithreshold"||mode=="regularthreshold") ? (delta<0||s.deficit+delta<=global+int(step/1000000)%(mode=="regularthreshold"?5:7)) :
           (delta<=0||std::generate_canonical<double,53>(rng)<std::exp(-delta/temp));
         if(accept){s.move(i,na);s.move(j,nb);}
         continue;

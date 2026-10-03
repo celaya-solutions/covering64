@@ -1,0 +1,141 @@
+{
+  "scan_check": {
+    "valid_scan": true,
+    "scope": "Only subgroup classes of the listed parent extensions",
+    "parent_count": 20,
+    "scanned_classes": 909,
+    "certified_impossible_classes": 908,
+    "lp_uncertified_candidates": [
+      {
+        "removed": [
+          1,
+          22,
+          23,
+          25,
+          29
+        ],
+        "lower_bound": [
+          2249997,
+          250000
+        ]
+      }
+    ],
+    "minimum_exact_dual": [
+      2249997,
+      250000
+    ],
+    "all_five_removals_checked": false
+  },
+  "triangle_check": {
+    "valid_certificate": true,
+    "complete_obstruction": true,
+    "scope": "Only covers containing the specified55 retained core blocks",
+    "removed": [
+      1,
+      22,
+      23,
+      25,
+      29
+    ],
+    "retained_core_blocks": 55,
+    "additional_blocks_allowed": 9,
+    "missing_triples": 55,
+    "positive_weight_triples": 30,
+    "exact_dual_bound": [
+      9,
+      1
+    ],
+    "all_possible_blocks_checked": 4368,
+    "tight_blocks": 50,
+    "special_blocks": [
+      [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      [
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
+      [
+        1,
+        3,
+        4,
+        6,
+        7
+      ]
+    ],
+    "triangle_checks": [
+      {
+        "pair": [
+          1,
+          2
+        ],
+        "required_triple": [
+          1,
+          2,
+          6
+        ],
+        "conflict_triple": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "pair": [
+          1,
+          3
+        ],
+        "required_triple": [
+          1,
+          4,
+          6
+        ],
+        "conflict_triple": [
+          1,
+          3,
+          4
+        ]
+      },
+      {
+        "pair": [
+          2,
+          3
+        ],
+        "required_triple": [
+          1,
+          6,
+          7
+        ],
+        "conflict_triple": [
+          1,
+          3,
+          7
+        ]
+      }
+    ],
+    "contradiction": "Coverage needs at least two special blocks; exact weighted coverage permits at most one"
+  },
+  "triangle_controls_passed": 11,
+  "source_hashes": {
+    "scripts/scan_core_five_removals.py": "ea2c85bafaf938eb54121d294f6cb2567b3caa66b7d17bd461e69672f199b82d",
+    "scripts/check_core_five_scan.py": "e4c475ba59562608726195d141767c0248209a0576b945e4035b59b188bfd17c",
+    "scripts/check_core_triangle_obstruction.py": "e21cba861e24ddffcd18b32fff90b291e4651ff9b5af01c2ade892e224739162",
+    "tests/test_core_triangle_obstruction.py": "4d7bfd1b1a176a73de48d2e05076e59626d93c36b27ab17501ca1f3452c63abf"
+  },
+  "artifact_hashes": {
+    "five-removal-scan.json.gz": "3eb38b31c61205c8f64ed82d03ed49a1a0f6e63f8cf1f1bd431cb6d4907a675f",
+    "lp-uncertified-candidates.json.gz": "e04bc9945afe995638b766debd0a28741994cc30401ed172a6cd6c2e9ff3b3ce",
+    "five-removal-triangle.json": "93c33975bc5a02d206996f830e609231abd83ce3dc9fb258f62cbbea228ca4d3",
+    "independent-kernel-tree.json": "16d0d598d5c0540875eca3ef011bde0b4cddff8ccc3238d5d226009fec179688",
+    "candidate-tight-dual.json": "32f8551030e41989fdfa561afa9c5934bcf00e935098ed98fad2f0fa71dc1334"
+  },
+  "all_909_scanned_classes_excluded": true,
+  "all_five_removal_sets_excluded": false
+}
