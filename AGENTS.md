@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Checked six fixed32-block exclusions and new regular heavy-triple/spoke reductions; saved searches and independent audits. Goal64 remains open; continue local13-point family construction and classification, with scope in docs/research-continuation-2026-10-03.md.
+Classified three local13-point families and audited first-family, heavy-triple and hub reductions; the checkpoint passes243 tests. Goal64 remains open; the active penalty campaign and later solver results continue beyond the checkpoint, with scope in docs/research-continuation-2026-10-03.md.

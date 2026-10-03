@@ -1,9 +1,9 @@
 # Document:    Audited Reduced Family Heuristic Campaign Runner
-# Version:     v1.2.1
+# Version:     v1.3.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      ab395aac0f442f3fc42efe2e2480af426a48548f37a51b25c76599b866411705
+# SHA256:      bed11125814181818d7f941fc7d0a417aeacc7dec2a8a86667a6768abdb29c6c
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
@@ -71,16 +71,21 @@ def main():
                 "progress_interval_seconds": 45,
                 "heavy_penalty_weight": args.heavy_penalty,
                 "family_penalty_weight": args.family_penalty,
-                "score": "holes + heavy_weight*(max(0,4*n7+3*n6-16) + "
-                         "5*sum(max(0,triple_multiplicity-7)) + forbidden_five_heavy) + "
+                "score_version": "1.3",
+                "score": "holes + heavy_weight*(old heavy penalty + heavy_overlap + "
+                         "repeated_point_excess + repeated_incidence_excess + "
+                         "endpoint_shape_distance + hub_inside_heavy + hub_collision + "
+                         "internal_pair_deficit + hub_internal_pair_excess + "
+                         "hub_cross_pair_deviation + refined_count_overflow + "
+                         "generic_pair_deficit) + "
                          "family_weight*sum(pair_row_overflow)",
-                "qualification": "Heavy: max multiplicity<=7, weighted heavy count<=16, "
-                                 "no five disjoint heavy triples with at least two of "
-                                 "multiplicity>=7. Scored filters: heavy "
-                                 "filters plus zero fixed-family pair-row overflow. Passing "
-                                 "these necessary checks does not prove completability",
-                "hub_diagnostics": "Sevenfold triple link degree shapes and repeated hubs are "
-                                   "logged separately; they do not affect scores or qualification"}
+                "qualification": "Heavy: all documented v1.3 heavy/hub and generic pair "
+                                 "penalties zero. Scored filters additionally require zero "
+                                 "fixed-family pair-row overflow. Passing these necessary "
+                                 "checks does not prove completion or completability",
+                "hub_diagnostics": "Legacy sevenfold diagnostic is retained separately. "
+                                   "Expanded heavy/hub necessities contribute to score and "
+                                   "qualification through their explicit penalty fields"}
     checks = []
     events = []
     start = time.monotonic()

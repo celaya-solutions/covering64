@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.1.0
+Version:     v1.2.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      8048d48538ff046905d8fb96415b135d08da49665e237580f0ab1d9a7a790df4
+SHA256:      4e68f1c097c294158f71ac1a35462b5c6f678db6eb56db94f95e99e8c1ca37eb
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -65,3 +65,40 @@ Continue construction from independently checked six-hole states while allowing 
 At this checkpoint, frozen source passes243 tests and Ruff after `uv sync --frozen`. The scored native campaign remains active outside this checkpoint's completed evidence; it has reached a13-hole state passing its scored heavy and family-row filters and its logged sevenfold-hub diagnostics. Those checks are necessary conditions, not a covering witness or an extendability proof.
 
 Compact certificates, source snapshots, metadata, hashes and logs are under `experiments/2026-10-03`. Large raw solver models remain in ignored scratch directories. The branch remains isolated and has not been merged or pushed.
+
+## Four-sevenfold branch and checked linear exclusions
+
+The full regular branch with four sevenfold triples reduces to two pair-count
+patterns. Each permits 1,476 of the 4,368 lexicographic block variables. The
+independent audit reconstructed both full models, their 400-variable double-triple
+extensions, and all saved exact fractional witnesses. Four 300-second full-branch
+CP searches returned UNKNOWN. Two specified order-four invariant subcases are
+excluded by independently checked parity certificates; they do not exhaust the
+branch's possible automorphisms or covers.
+
+The first seven-block heavy link has exactly 29,970 labeled forms and 129
+relabeling orbits per pair-count case. An independent enumerator checked every
+form, every group operation, and all 59,940 saved relabelings. Linear screens of
+all 258 representatives gave 100 independently checked exclusions: 27 cycle and
+73 matching representatives. The remaining 158 are numerically LP-feasible only.
+The complete proof scope, arithmetic, artifact paths and remaining cases are in
+`docs/four-seven-branch.md` and `four-seven-link-screens/`.
+
+The selected-heavy-hub repair retained its nine-hole hint. Native v1.3 now scores
+shared hubs, hubs inside heavy triples, repeated exact-six hubs, and pair deficits
+as soft penalties. Its two 600-second campaigns found no cover. The best saved
+state passing all of those scored necessary checks has 20 holes; this is not an
+improvement over the raw three-hole partial. Lower-hole states still fail known
+necessary conditions.
+
+A new six-hole partial has all holes through point12. Rebuilding only the20
+blocks through that point, while keeping the other44 and requiring every added
+block to contain12, needs at least22 additions by an independently checked
+43/2 dual bound. The broader repair through points6 and12 timed out after300
+seconds. Two feasible integer double-triple patterns also failed to yield a
+cover in bounded completion searches: one timed out, and one returned solver
+INFEASIBLE without an independently checked integer proof.
+
+The completed sources passed `uv sync --frozen`,273 tests and10 subtests, and
+Ruff. The three existing SWIG warnings remain. Primal inspection of the158
+remaining first-link LP cases is ongoing beyond this checkpoint. Goal64 is open.

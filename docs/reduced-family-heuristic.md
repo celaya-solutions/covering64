@@ -1,10 +1,10 @@
 ```
 Document:    Joint Reduced Multiplicity-Seven Family Search
-Version:     v1.2.1
+Version:     v1.3.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      d599bd715cf4ad5f00e2904813f3115f8c24ae1df4353a66ddf932357cdfb75b
+SHA256:      afe000ed72cb2a13f81e6d6724ebd11ce461fbd00466aa3b5dfa4a1f03fb3ad2
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -16,7 +16,11 @@ The completed v1.1 900-second trade campaign reduced the 14-hole starter to five
 
 The five-hole state fails necessary full-cover conditions: its fixed local families have hub pair-row lower bound 25 against budget 24, and its four sevenfold plus one sixfold triples have weighted count `4*4 + 3*1 = 19 > 16`. Three saved six-hole alternatives pass the heavy-count and scoped five-heavy filters, but they retain the same family-row overflow. Passing any listed subset of necessary checks does not prove that a state can be completed.
 
-The v1.2.1 soft-penalty campaign is in progress at this checkpoint. Its final status and all witnesses belong in `penalty-2026100363/metadata.json` and the independently checked event log; no outcome is claimed here before completion.
+Both v1.2.1 soft-penalty campaigns completed without a cover. The 900-second run with weights four/four retained six raw holes and reached thirteen holes passing its scored filters. The 600-second continuation with weights eight/twelve reached five raw holes, six heavy-qualified holes, and thirteen holes passing its scored filters. All 24 and 15 saved states, respectively, passed the independent metric audit and both cover-check consistency checks. The thirteen-hole states still fail broader hub necessities: a repeated hub belongs to a different heavy triple. The v1.3 score below includes those rules.
+
+The completed v1.3 campaign found five raw holes and twenty holes passing every expanded scored necessity. It did not find a cover. All 29 saved snapshots passed both cover-check consistency checks and the independent metric audit. This is a bounded search outcome in the normalized regular branch, not an impossibility result.
+
+A second 600-second v1.3 run started from that fully scored-qualified twenty-hole state, using the same frozen binary with weights six/four and a new random seed. It made no improvement. All ten saved snapshots passed the same dual-verifier and metric checks. Neither run establishes a minimum hole count, a lower bound for the covering number, or an unrestricted impossibility claim.
 
 # Frozen first pilot
 
@@ -55,6 +59,42 @@ The new campaign uses weights four and four, RNG seed 2026100363, one native pro
 Records are saved separately for the fewest raw holes, the fewest holes passing the heavy filters, and the fewest holes passing both scored filter sets. Records include rejected annealing proposals, so a newly observed candidate is preserved even when its score is worse. Restarts use the best score and a bounded reservoir within one score unit of it. Sevenfold link degree shapes and repeated hubs are logged as separate diagnostics. They are explicitly excluded from the score and from `passes_scored_filters`; that label does not mean all known full-cover necessities pass.
 
 An independent mathematical source review caught an overbroad five-heavy predicate in the initial v1.2.0 draft. It was corrected before any long run of that version. A real degree-20 control with one sevenfold and four disjoint sixfold triples now checks this boundary, and another real partial control with multiplicity eight checks the separate high-multiplicity penalty. The review also checked forward/reverse trade maps, embedding updates, score caching, pre-acceptance record capture, rollback, restarts, and hub diagnostics.
+
+# Expanded necessities in v1.3
+
+All the following conditions are necessary only for a full regular degree-20 cover. They are soft preferences in this constructive search, and zero penalty does not establish completion or completability. The v1.2.1 archives remain unchanged. Its older qualification labels keep their original, narrower meaning.
+
+The v1.3 heavy penalty retains every old term and adds these nonnegative integers, with coefficient one each:
+
+| Field | Exact graded term |
+| --- | --- |
+| `heavy_overlap` | Sum of intersection sizes over unordered pairs of triples of multiplicity at least six. |
+| `repeated_point_excess` | For each heavy triple, the positive part of its number of repeated outside points minus one. |
+| `repeated_incidence_excess` | Sum of positive endpoint-incidence excess above three for every repeated point of every heavy triple. |
+| `endpoint_shape_distance` | Minimum L1 distance from the sorted 13 endpoint incidences to the allowed shape below, for each exact-six or exact-seven triple. Above-seven triples contribute zero here because the separate multiplicity penalty handles them. |
+| `hub_inside_heavy` | Number of incidences where a repeated hub belongs to a heavy triple, counted for each hub-bearing triple and containing heavy triple. |
+| `hub_collision` | For each point, the positive part of the number of heavy triples using it as a repeated hub minus one. |
+| `internal_pair_deficit` | Sum of positive deficits below seven over each heavy triple's three internal pairs. |
+| `hub_internal_pair_excess` | Sum of positive excesses above seven over those internal pairs, but only for triples having at least one repeated hub. |
+| `hub_cross_pair_deviation` | Sum of absolute deviations from six over the three anchor/hub pairs, for every repeated hub of every heavy triple. |
+| `refined_count_overflow` | Positive part of `3*n6 + 4*n7 + h6 - 16`, where `h6` counts exact-six triples having at least one repeated hub. |
+| `generic_pair_deficit` | Sum of positive deficits below five over every full-label pair. |
+
+For exact six, the endpoint shapes are twelve singletons; one double plus ten singletons; or one triple plus nine singletons. Zeros pad each list to thirteen entries. Exact seven requires one double plus twelve singletons. Endpoint incidences count all points outside the heavy triple, including points 1, 2, and 3 when those are endpoints. In a full cover a heavy triple without a repeated hub may have an internal pair above seven; v1.3 deliberately does not penalize that through `hub_internal_pair_excess`. A repeated hub forces its three heavy internal pairs to seven and its three anchor/hub pairs to six, by the audited regular pair-excess argument.
+
+The score remains `holes + heavy_weight*heavy_penalty + family_weight*family_pair_row_overflow`. Both old and refined count overflows contribute; this is an explicit heuristic weighting choice. `passes_heavy_filters` now requires every v1.3 heavy/hub and generic pair term to vanish. `passes_scored_filters` additionally requires zero fixed-family row overflow. The older sevenfold diagnostics remain for comparison but no longer describe the full scored hub checks.
+
+Outside pair multiplicities are updated alongside triples and independently rebuilt during native state audits. Pairs through the fixed anchors have constant multiplicities seven, six, or five. Endpoint degrees are reconstructed from the current blocks. The independent Python auditor recounts full 16-point blocks, without using the native incremental state. It branches on metadata `score_version`, so historical v1.2.1 campaigns retain their original score definitions.
+
+The completed run used seed 2026100366, weights one/two, and 600 seconds, starting from the prior thirteen-hole scored-qualified witness. It made 230,489,810 outer proposals and 1,395,317,376 repair proposals, with 230 restarts and one saved diverse state. All 29 snapshots were dual-verified and independently metric-audited. The four-block and six-block trades were applied 8,386,882 and 1,890,612 times. No cover was found.
+
+The raw five-hole witness is `full-penalty-2026100366/search-improvement-24-h5.txt`, SHA256 `922c9a5424bff5c990dc482a1470acf120bc846c84297f9b1508658d4af1347f`. It has heavy penalty eighteen and family-row overflow one. The best score is eleven at the six-hole `search-score_improvement-25-h6.txt`: the remaining score penalties are one shared hub, one hub-cross pair deviation, one generic pair deficit, and one family-row overflow weighted two. Its six uncovered triples all contain point 12 and are exactly `{4,7} x {5,6,15}` joined to point 12. Both heavy triples `{5,8,11}` and `{9,13,16}` use hub 12; pair `{12,15}` has multiplicity four and hub-cross pair `{5,12}` has multiplicity five.
+
+The best state passing all scored necessities is `full-penalty-2026100366/search-qualifying_improvement-27-h20.txt`, SHA256 `3057f9f3e72e787d58bd585a0e3fe091af84f2bc2982088fc0a785012d0ffbb7`. The separate full screen also confirms every heavy/hub condition, zero generic/internal/hub-cross pair deficits, and zero family-row overflow. It has only the fixed sevenfold heavy triple and remains incomplete with twenty holes. A different twenty-hole witness, `search-heavy_qualifying_improvement-26-h20.txt`, passes the expanded heavy/pair filters but has family-row overflow one; it must not be described as passing all scored necessities. Full manifests, screen reports, and final metric audit are in `full-penalty-2026100366/`.
+
+The second run used seed 2026100367 and weights six/four, starting from that fully scored-qualified twenty-hole state. The same six-hole state that scored eleven under weights one/two would score twenty-eight under these weights, above the clean starter's score twenty. This changes the preferred restart state without rejecting imperfect intermediate proposals. The second 600-second run made 242,009,085 outer proposals, 1,369,268,928 repairs, and 242 restarts. It found no strict improvement or additional diverse near-best state. All ten snapshots were dual-verified and independently metric-audited. Four-block and six-block trades were applied 7,895,908 and 1,394,364 times. Its best raw, heavy-qualified, and fully scored-qualified counts all remain twenty, at the initial witness. Evidence is in `clean-penalty-2026100367/`. The starting state and random seed also differ between runs, so this is not a controlled measurement of the effect of weights alone.
+
+The preflight full suite passed 257 tests and ten subtests, with three existing dependency deprecation warnings; frozen dependency sync and Ruff also passed. The final ASan/UBSan binary, compiled from the exact frozen v1.3 source, made 95,968 proposals in one second, exercised all four move and rollback modes, and saved fourteen dual-verified and metric-audited snapshots without diagnostics. The independent auditor matched all 31 draft snapshots and 70 historical snapshot recounts, and a synthetic noncandidate overlap fixture verified that hub containment counts each containing heavy triple. Real partial controls exercise shared hubs, hubs inside heavy triples, exact-six repeated hubs, refined-count overflow, and pair deficits. The frozen native source SHA256 is `75dde29a73b6c5e2780d972425c69c817a59df1bfed317e3b3cef9e6a10887bd`.
 
 # Budget and evidence
 

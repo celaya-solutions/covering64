@@ -1,0 +1,102 @@
+{
+  "complete": true,
+  "model_sha256": "63d5960c2cd4881c7f58f587170913f7ba1fd49c060f500f44ac29d03345a7a9",
+  "base_model_sha256": "dbc6cae2d651f5fbb2f7d03074344147d664c18583c05a9c441cbfc45eb061b1",
+  "variables": 6480,
+  "constraints": 7534,
+  "added_variables": 52,
+  "added_rows": 280,
+  "all_original_proto_fields_preserved": true,
+  "rows_independently_reconstructed": 280,
+  "all_6480_hint_values_independently_derived": true,
+  "all_7534_constraints_evaluated": true,
+  "active_hub_hints": [
+    "selected_hub_0_4",
+    "selected_hub_457_12",
+    "selected_hub_480_15"
+  ],
+  "selected_triples": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      5,
+      11,
+      16
+    ],
+    [
+      7,
+      10,
+      13
+    ],
+    [
+      8,
+      9,
+      14
+    ]
+  ],
+  "truth_table_cases": 208,
+  "damaged_controls": [
+    {
+      "control": "missing row",
+      "rejected": true
+    },
+    {
+      "control": "wrong forward threshold",
+      "rejected": true
+    },
+    {
+      "control": "wrong complementary threshold",
+      "rejected": true
+    },
+    {
+      "control": "wrong sixfold cap",
+      "rejected": true
+    },
+    {
+      "control": "wrong sevenfold cap",
+      "rejected": true
+    },
+    {
+      "control": "wrong per-triple hub count",
+      "rejected": true
+    },
+    {
+      "control": "wrong packing bound",
+      "rejected": true
+    },
+    {
+      "control": "wrong complementary polarity",
+      "rejected": true
+    },
+    {
+      "control": "omit unselected heavy anchor from packing",
+      "rejected": true
+    },
+    {
+      "control": "wrong hub hint selected_hub_0_4",
+      "rejected": true
+    },
+    {
+      "control": "wrong hub hint selected_hub_0_5",
+      "rejected": true
+    }
+  ],
+  "candidate_sha256": "ffe4fd80e9080522d790154394f1e8f55ca3c7ae2e5da3ce48ea99ba20cc26f3",
+  "source_hashes": {
+    "first_family_hint_search.py": "07694f8db2e819555131651fd0f934db8b49c593da3d1ec470c5f97ce923011c",
+    "first_family_search.py": "44c740edc1c803b9befd81d9f3f385e60b65c98747b350211c89246b15ad571e",
+    "first_family_residual_cuts.py": "28fb3621b558b4122dc91d575dc38717a529b6d33cb41cc13029d946a87e1126",
+    "heavy_triple_search.py": "32a31c4f5b08643b75673bdbbd6b150357e8af49f794f140e02fd85cd36beffb",
+    "first_family_hub_cuts.py": "8262d1bf914e7c78eb188404d58de398d4060456099fd36059e45f4e0b7aca60",
+    "selected_heavy_hub_cuts.py": "1fc6496ac551091dea4b4c5d02b576d0cd7e57f2cc61fa383491b91fc6c151ab",
+    "assignment-audit.py": "afd4c8d1c61e0f957ac92785a7ba5f3cce868c089fa28d9f35c150e089d7e4c0",
+    "check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb"
+  },
+  "checker_sha256": "26c663a2131c61e14ce01c87543c6abb99c4ced12c6bba2663f2c04a00125a3d",
+  "utility_sha256": "9f12e5502bd5453d9eeac0ab64cf0800fc36fe9c394584cdf09712cc5c5c526b",
+  "scope": "Conditional selected-triple hub encoding; point packing includes every heavy anchor."
+}

@@ -1,14 +1,15 @@
 # Document:    Reduced Family Heuristic Controls
-# Version:     v1.2.1
+# Version:     v1.3.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      714f058cb3c4df4d0bce60f32fafddb59b965304b53d4f65885e81ace076be33
+# SHA256:      e28e9722cbbac6491c7445017fbd9534edc93a402ffade0c6400b3565fe090a5
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
 
 import json
+import runpy
 import shutil
 import subprocess
 from collections import Counter
@@ -19,6 +20,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 START = ROOT / "experiments/2026-10-03/reduced-family-heuristic/inputs/seed27.txt"
+AUDIT = runpy.run_path(str(START.parent.parent / "audit_campaign_metrics.py"))["recount"]
 
 
 def test_independent_reduced_starter_check():
@@ -36,6 +38,9 @@ def test_independent_reduced_starter_check():
 @pytest.mark.parametrize(("heavy_weight", "family_weight", "seed_name"), [
     (0, 0, "seed27.txt"), (1, 2, "seed27.txt"), (1, 2, "multiplicity8-control.txt"),
     (1, 2, "one-seven-four-six-control.txt"),
+    (1, 2, "hub-collision-control.txt"),
+    (1, 2, "../penalty-2026100363/search-qualifying_improvement-21-h13.txt"),
+    (1, 2, "../strong-penalty-2026100365/search-diverse-13-h13.txt"),
 ])
 def test_native_family_moves_and_rollbacks(tmp_path, heavy_weight, family_weight, seed_name):
     compiler = shutil.which("clang++")
@@ -60,7 +65,18 @@ def test_native_family_moves_and_rollbacks(tmp_path, heavy_weight, family_weight
     if seed_name == "one-seven-four-six-control.txt":
         assert events[0]["disjoint_five_heavy"] is True
         assert events[0]["forbidden_five_heavy"] is False
-        assert events[0]["passes_heavy_filters"] is True
+        assert events[0]["heavy_count_overflow"] == 0
+        assert events[0]["h6"] == 2
+        assert events[0]["refined_count_overflow"] == 2
+    if seed_name == "hub-collision-control.txt":
+        assert events[0]["hub_collision"] > 0
+    if seed_name.endswith("search-qualifying_improvement-21-h13.txt"):
+        assert events[0]["hub_inside_heavy"] > 0
+        assert events[0]["internal_pair_deficit"] > 0
+        assert events[0]["generic_pair_deficit"] > 0
+    if seed_name.endswith("search-diverse-13-h13.txt"):
+        assert events[0]["h6"] == 0
+        assert events[0]["hub_inside_heavy"] > 0
     finish = events[-1]
     assert finish["event"] == "finish"
     assert finish["rollback_audits"] == 4
@@ -102,6 +118,15 @@ def test_native_family_moves_and_rollbacks(tmp_path, heavy_weight, family_weight
         overflow = max(0, 4 * histogram[7] + 3 * histogram[6] - 16)
         excess = sum(max(0, n - 7) for n in triple_counts.values())
         penalty = overflow + 5 * excess + forbidden_five
+        _, independently_recounted = AUDIT(Path(event["path"]), score_version="1.3")
+        expanded_keys = ["heavy_overlap", "repeated_point_excess", "repeated_incidence_excess",
+                         "endpoint_shape_distance", "hub_inside_heavy", "hub_collision",
+                         "internal_pair_deficit", "hub_internal_pair_excess",
+                         "hub_cross_pair_deviation", "refined_count_overflow",
+                         "generic_pair_deficit"]
+        for key in ["h6", *expanded_keys]:
+            assert event[key] == independently_recounted[key]
+        penalty += sum(independently_recounted[key] for key in expanded_keys)
         assert event["n6"] == histogram[6] and event["n7"] == histogram[7]
         assert event["triples_above7"] == sum(n > 7 for n in triple_counts.values())
         assert event["max_triple_multiplicity"] == max(triple_counts.values())

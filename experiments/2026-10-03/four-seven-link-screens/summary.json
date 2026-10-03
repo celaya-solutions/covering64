@@ -1,0 +1,7583 @@
+{
+  "scope": "Only fixed first-link cases in the regular four-sevenfold branch",
+  "complete_records": 258,
+  "checked_exclusions": 100,
+  "results": [
+    {
+      "id": "cycle-000",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        33,
+        52,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 213,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-001",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        33,
+        53,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 231,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-002",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        33,
+        53,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 305,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 367,
+        "phase_one": true,
+        "objective": 0.10877109123795459
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1400796,
+        "box_max_numerator": 1292664,
+        "gap": [
+          27033,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "f867e1beffddeb1e9536d72c0bfad7eb13f0feb22de5f6e63f5897c8e0367e7b",
+        "weight_count": 1908,
+        "weights_sha256": "0b0d8861db67876922df3a6ebd1f149579aec425d2593be7c4635fa26367548a"
+      }
+    },
+    {
+      "id": "cycle-003",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        43,
+        64,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 354,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 373,
+        "phase_one": true,
+        "objective": 0.06930848387979649
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 954974,
+        "box_max_numerator": 886353,
+        "gap": [
+          68621,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "c6db9cd4956c3ecb2caaa38505badbed2ed78803aa9fe027068bec85c6e0a5bb",
+        "weight_count": 2059,
+        "weights_sha256": "2dc4cadb129189e906c2e19df5e88a3b7ec21926629e5081a94f9603f7591549"
+      }
+    },
+    {
+      "id": "cycle-004",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        45,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 199,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-005",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        46,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 236,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-006",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        46,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 212,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-007",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        46,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 344,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 419,
+        "phase_one": true,
+        "objective": 0.34016492688918964
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 386939,
+        "box_max_numerator": 47619,
+        "gap": [
+          8483,
+          25000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "cb647d6a932db9f9f03bba82ae2e77a61a893a884036ee0e834d4128ad26e3cc",
+        "weight_count": 1695,
+        "weights_sha256": "2ce0ca46bac2ea6ee3130af6b2077f6deeb5d887958fb054748748348bd43a39"
+      }
+    },
+    {
+      "id": "cycle-008",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        49,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 262,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-009",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        37,
+        42,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 282,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 296,
+        "phase_one": true,
+        "objective": 0.8333333333334162
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 833335,
+        "box_max_numerator": 1085,
+        "gap": [
+          3329,
+          4000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "954162b6f506a276449f227c9e4b931a25314960703b72611f5ca22661c2efc3",
+        "weight_count": 2244,
+        "weights_sha256": "fbccab441f583670d5a9074b57b91b20b24667d1816ce16b1d943cfc8e392e97"
+      }
+    },
+    {
+      "id": "cycle-010",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        37,
+        46,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 298,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 400,
+        "phase_one": true,
+        "objective": 0.8631070936112915
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1786036,
+        "box_max_numerator": 923694,
+        "gap": [
+          431171,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "2898ebfe420b858c97a04e0f38d7f40e69fdc858b3999f3318508ba680a9efa8",
+        "weight_count": 2646,
+        "weights_sha256": "5a0928f04b71981ba9cd83518c8158da87d56563e1aaa7c7d44704225950249d"
+      }
+    },
+    {
+      "id": "cycle-011",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        37,
+        49,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 299,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 333,
+        "phase_one": true,
+        "objective": 0.8333333333333535
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 833285,
+        "box_max_numerator": 718,
+        "gap": [
+          832567,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "828c3384aca1aba945c431bf38c7add894fb17e8fe29139c7813f1a7d6bcb796",
+        "weight_count": 2017,
+        "weights_sha256": "adf2aa83bd5d8e38368aee54cd1a5ea54f350ab0d78cf90ce480b2e80523a80e"
+      }
+    },
+    {
+      "id": "cycle-012",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        38,
+        42,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 304,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-013",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        38,
+        42,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 292,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-014",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        38,
+        42,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 324,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 371,
+        "phase_one": true,
+        "objective": 0.9735653067164599
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1841133,
+        "box_max_numerator": 868595,
+        "gap": [
+          486269,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "3ffb9581c9e427d11542ad1b4658244099ac549e59ff1b8e1d91e877fb2a5631",
+        "weight_count": 2312,
+        "weights_sha256": "967660a92e0f30a2aa54119442231feb73ebe7ed0816b0ea1dcd09f26e31a540"
+      }
+    },
+    {
+      "id": "cycle-015",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        38,
+        45,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 338,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-016",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        38,
+        47,
+        52,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 340,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 415,
+        "phase_one": true,
+        "objective": 0.15053049740330815
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 869567,
+        "box_max_numerator": 719847,
+        "gap": [
+          3743,
+          25000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "c9b6428174acf70a7958c46fbb2528ef52d0e2810d79a0edcb6820add2665110",
+        "weight_count": 1651,
+        "weights_sha256": "8a98731000d9748164c8701268cdd66178f71c63eb028f4e1cf3db0513822822"
+      }
+    },
+    {
+      "id": "cycle-017",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        38,
+        49,
+        52,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 235,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-018",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        41,
+        42,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 301,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 375,
+        "phase_one": true,
+        "objective": 0.293158978309057
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 379255,
+        "box_max_numerator": 86931,
+        "gap": [
+          73081,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "4b966e3fb82452576bf74897ed4f1a82aef2ed3857b0042f1893e072ebc75aa9",
+        "weight_count": 1964,
+        "weights_sha256": "c6e4d43f511a98a0c77bee8d068b05b7780eae726742e4eb556043a7b5fd4e55"
+      }
+    },
+    {
+      "id": "cycle-019",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        41,
+        45,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 269,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 349,
+        "phase_one": true,
+        "objective": 0.023605150214752624
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 23603,
+        "box_max_numerator": 801,
+        "gap": [
+          11401,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "cc9c1a3ebfafdae0072463d7ff036f8b970a1da66f0059cff203fc6e722473e2",
+        "weight_count": 2153,
+        "weights_sha256": "a9c953b68efaa0f8d805f1fd708f500e4fff182fe96c1abcf172fbbc9ad994ea"
+      }
+    },
+    {
+      "id": "cycle-020",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        1,
+        41,
+        46,
+        52,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 246,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-021",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        35,
+        64,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 168,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-022",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        37,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 194,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-023",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        38,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 177,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-024",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        38,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 158,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-025",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        38,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 235,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-026",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        41,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 194,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-027",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        28,
+        38,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 270,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-028",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        28,
+        41,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 255,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 326,
+        "phase_one": true,
+        "objective": 0.042553191489342335
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 42564,
+        "box_max_numerator": 905,
+        "gap": [
+          41659,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "23a640e4f25eede122196185add6d3cbe7a5140a8640c0cb96cdfe0e38446320",
+        "weight_count": 2288,
+        "weights_sha256": "8f4c7ebe2e228548ea5d3f38183330e7a278bd954dd71e863a6f2a414a72bf82"
+      }
+    },
+    {
+      "id": "cycle-029",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        29,
+        39,
+        52,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 236,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-030",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        3,
+        29,
+        41,
+        52,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 172,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-031",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        35,
+        64,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 200,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-032",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        37,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 216,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-033",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        38,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 221,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-034",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        38,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 190,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-035",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        38,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 265,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-036",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        41,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 220,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-037",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        36,
+        46,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 224,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-038",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        37,
+        46,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 247,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-039",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        44,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 282,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-040",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        45,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 197,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-041",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 202,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-042",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 201,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-043",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 323,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-044",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        49,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 238,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-045",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        41,
+        46,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 224,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-046",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        38,
+        43,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 310,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-047",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        38,
+        47,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 350,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 428,
+        "phase_one": true,
+        "objective": 0.09723739201963444
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 409033,
+        "box_max_numerator": 312367,
+        "gap": [
+          48333,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "8fcd70aa0672929f94d63d5ddb652b42458a504bac5c4eb4d86c4f5f5db6efc1",
+        "weight_count": 1713,
+        "weights_sha256": "143ac551539ce7d57fc9401b2d6737d0fe5e5014b67df8c8ccc231ccfb17a24f"
+      }
+    },
+    {
+      "id": "cycle-048",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        38,
+        49,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 221,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-049",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        41,
+        46,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 247,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-050",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        43,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 277,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-051",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        43,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 249,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-052",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        43,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 320,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 375,
+        "phase_one": true,
+        "objective": 0.8785714285713234
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 878618,
+        "box_max_numerator": 1116,
+        "gap": [
+          438751,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "ed14123f16e3dc83576120e27f2a9a462e383f25781ed2b5a8b2b78f3f15b95e",
+        "weight_count": 1679,
+        "weights_sha256": "6e4a210d41f81d289fcbab1c12edfcec9fc9e1a321b9de7d417772c8e7924885"
+      }
+    },
+    {
+      "id": "cycle-053",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        45,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 240,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-054",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        48,
+        58,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 292,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-055",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        49,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 230,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-056",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        41,
+        43,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 317,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-057",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        41,
+        45,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 215,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-058",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        41,
+        47,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 229,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-059",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        24,
+        34,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 216,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-060",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        24,
+        38,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 278,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-061",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        24,
+        41,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 262,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-062",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        35,
+        46,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 223,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-063",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        38,
+        43,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 280,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-064",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        38,
+        47,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 382,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 432,
+        "phase_one": true,
+        "objective": 0.01196011016257681
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 11949,
+        "box_max_numerator": 667,
+        "gap": [
+          5641,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "50b7d5d30580dc5955f964612f938beff6b453354deae0447419e4d03ac80af4",
+        "weight_count": 1977,
+        "weights_sha256": "ffb324d99a303a377b5ad44e686051d51199ecff1a5f1da163bfa90dd0558cd4"
+      }
+    },
+    {
+      "id": "cycle-065",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        38,
+        49,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 229,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-066",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        41,
+        46,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 206,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-067",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        29,
+        39,
+        42,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 360,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 408,
+        "phase_one": true,
+        "objective": 0.7697220135236248
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1594648,
+        "box_max_numerator": 825565,
+        "gap": [
+          769083,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "bd191cb66d02f39744f4fa58bfe89c37c7e6ee2ce47366ab76f2e665a31dec65",
+        "weight_count": 1893,
+        "weights_sha256": "ac1ed2ff62675cff5e4a87113cb3855369d3fd41cfa3fa295b47a5f59bfd912e"
+      }
+    },
+    {
+      "id": "cycle-068",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        7,
+        29,
+        41,
+        42,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 302,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-069",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        24,
+        34,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 215,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-070",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        24,
+        34,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 197,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-071",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        24,
+        34,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 362,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 495,
+        "phase_one": true,
+        "objective": 0.012527371592945702
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 118750,
+        "box_max_numerator": 106864,
+        "gap": [
+          5943,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "69d5b62259fabe7c990a242eca46a6024d070eaaf43d1711dc9c5a313b9cc0ca",
+        "weight_count": 2188,
+        "weights_sha256": "6d4aa7c5451e2f1220f4c1f3dbabbedb6297cdb388224c295ee827ee216f8f38"
+      }
+    },
+    {
+      "id": "cycle-072",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        24,
+        37,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 357,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 527,
+        "phase_one": true,
+        "objective": 0.01661509259276206
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 370864,
+        "box_max_numerator": 354890,
+        "gap": [
+          7987,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "2347057e53b7a850736b1f633312750115154205b18ba0805779d585a916816c",
+        "weight_count": 2076,
+        "weights_sha256": "201d31ab9a5ee137acc9022014845b1718bf3c032dd22c32768c086014bae4e5"
+      }
+    },
+    {
+      "id": "cycle-073",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        24,
+        39,
+        52,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 266,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-074",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        24,
+        41,
+        52,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 239,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-075",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        35,
+        47,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 210,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-076",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        35,
+        47,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 393,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 427,
+        "phase_one": true,
+        "objective": 0.0880766248703605
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 88068,
+        "box_max_numerator": 578,
+        "gap": [
+          8749,
+          100000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "0fe651833eb312358d6fa75e5d08466116b021b1d3b8fbc27c0e42f5bbfbc7ac",
+        "weight_count": 1955,
+        "weights_sha256": "778ae0feeb4e199a289bb8a8056e0eb4fd71bd6c171e3d58f35b6a4f11df8c04"
+      }
+    },
+    {
+      "id": "cycle-077",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        35,
+        49,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 217,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-078",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        37,
+        47,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 367,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 467,
+        "phase_one": true,
+        "objective": 0.10643518120263196
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 428979,
+        "box_max_numerator": 323073,
+        "gap": [
+          52953,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "9f22d61750ccb2134425e85be1cc0c0668a5b2828199eb1134286a6cc52137fd",
+        "weight_count": 1875,
+        "weights_sha256": "0808a8f3800ea640f4136ba4dabd49bd69a605e5997e356fe8df3dbf08d0515e"
+      }
+    },
+    {
+      "id": "cycle-079",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        39,
+        43,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 252,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-080",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        39,
+        43,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 357,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 427,
+        "phase_one": true,
+        "objective": 0.9154683220197518
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 915451,
+        "box_max_numerator": 820,
+        "gap": [
+          914631,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "98e137e0d35f08e439d3782b6a7df9127031bcee0c30e5e0e2304988e61eabd6",
+        "weight_count": 2077,
+        "weights_sha256": "b27c30784de265cc055c24d93a0e4b1fdcfd5513fed9a6777f382e58951507a3"
+      }
+    },
+    {
+      "id": "cycle-081",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        39,
+        48,
+        58,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 265,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-082",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        39,
+        49,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 197,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-083",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        25,
+        41,
+        47,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 197,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-084",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        8,
+        30,
+        40,
+        42,
+        58,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 326,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 342,
+        "phase_one": true,
+        "objective": 0.8592375366566729
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 859272,
+        "box_max_numerator": 1217,
+        "gap": [
+          171611,
+          200000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "e3ca786f45ad1e42cb0711f71cb0b0936e13de3170c412c6415b07ad21bc4ffa",
+        "weight_count": 2034,
+        "weights_sha256": "af73014d543d41c1a9ac2c204abac4845d67098e8e992a0d8c7b354e2f169172"
+      }
+    },
+    {
+      "id": "cycle-085",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        24,
+        34,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 199,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-086",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        24,
+        37,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 214,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-087",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        24,
+        38,
+        52,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 170,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-088",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        25,
+        35,
+        46,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 214,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-089",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        25,
+        37,
+        46,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 207,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-090",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        25,
+        38,
+        43,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 251,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-091",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        25,
+        38,
+        45,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 168,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-092",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        25,
+        38,
+        47,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 180,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-093",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        28,
+        38,
+        42,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 276,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-094",
+      "case": "cycle",
+      "fixed_ids": [
+        0,
+        11,
+        29,
+        39,
+        42,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 224,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-095",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        27,
+        38,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 189,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-096",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        28,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 176,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-097",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        39,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 179,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-098",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        39,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 185,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-099",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        39,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 241,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-100",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        41,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 187,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-101",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        39,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 219,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-102",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 198,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-103",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        19,
+        30,
+        40,
+        58,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 235,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 282,
+        "phase_one": true,
+        "objective": 0.5000000000000157
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 499990,
+        "box_max_numerator": 522,
+        "gap": [
+          124867,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "2a7152d01db695a1af1620f30ccc5ab49424eaa80daafbc941517d21b14d1f22",
+        "weight_count": 2145,
+        "weights_sha256": "7498ce746d5a4ee73f2563f319eed62b266f162225d3979ff11c6747b2e3240a"
+      }
+    },
+    {
+      "id": "cycle-104",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        4,
+        19,
+        30,
+        41,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 160,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-105",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        7,
+        15,
+        26,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 186,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-106",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        7,
+        15,
+        29,
+        39,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 234,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-107",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        7,
+        15,
+        29,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 191,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-108",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        11,
+        15,
+        26,
+        38,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 160,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-109",
+      "case": "cycle",
+      "fixed_ids": [
+        3,
+        11,
+        15,
+        29,
+        39,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 161,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-110",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        27,
+        38,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 206,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-111",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        39,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 233,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-112",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        39,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 205,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-113",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        39,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 246,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 281,
+        "phase_one": true,
+        "objective": 0.5714285714285536
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 571414,
+        "box_max_numerator": 762,
+        "gap": [
+          142663,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "04fd636658301d245864bdbc0152bdf66f752c32b0b4dac700dab798f482ada4",
+        "weight_count": 1647,
+        "weights_sha256": "0d7b224a5229338593d3d1d1641277b8ff70cbfa4fb4341163c7488d821d3301"
+      }
+    },
+    {
+      "id": "cycle-114",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        41,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 250,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-115",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        39,
+        48,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 190,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-116",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        39,
+        49,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 230,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-117",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        41,
+        47,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 246,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-118",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        18,
+        29,
+        39,
+        48,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 252,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 280,
+        "phase_one": true,
+        "objective": 0.5714285714286258
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 571468,
+        "box_max_numerator": 1144,
+        "gap": [
+          142581,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "9f326e67a978cd8db085ac8b39e7ff45c99efc94ffece6a5024c5fab3ef11e01",
+        "weight_count": 1534,
+        "weights_sha256": "8dabe51ce79a6121f3ac07540f920f0ffcc78eeaf4757a091b5ef8cc0f895176"
+      }
+    },
+    {
+      "id": "cycle-119",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        40,
+        44,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 216,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 325,
+        "phase_one": true,
+        "objective": 0.5999999999997516
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 599903,
+        "box_max_numerator": 190,
+        "gap": [
+          599713,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "b6843ebe41dcab8c1ae979d15aa34e20331689cf5c393dbc2b7ef12af3478cc6",
+        "weight_count": 1814,
+        "weights_sha256": "281593144e79d6cdb623cfc75aea8c17edb51c894315fd120a5ad7672652a6e6"
+      }
+    },
+    {
+      "id": "cycle-120",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        40,
+        49,
+        63
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 233,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 299,
+        "phase_one": true,
+        "objective": 0.27575442247757453
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 275740,
+        "box_max_numerator": 648,
+        "gap": [
+          68773,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "7d365d159daf33106a7bf21dad5654e51c1dbeffb10c8b03cdeff88e81895e36",
+        "weight_count": 1774,
+        "weights_sha256": "9965cd5ae4b5e400b66f8d7ce2fda76e37f3b0eec0eff2b91ae5ec902aed65e5"
+      }
+    },
+    {
+      "id": "cycle-121",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        41,
+        48,
+        63
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 235,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-122",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        14,
+        26,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 188,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-123",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        14,
+        29,
+        39,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 258,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-124",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        14,
+        29,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 210,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-125",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        39,
+        48,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 246,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-126",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        39,
+        49,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 210,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-127",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        41,
+        47,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 192,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "cycle-128",
+      "case": "cycle",
+      "fixed_ids": [
+        4,
+        7,
+        19,
+        30,
+        40,
+        43,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 241,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 320,
+        "phase_one": true,
+        "objective": 1.166666666666731
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1166684,
+        "box_max_numerator": 999,
+        "gap": [
+          233137,
+          200000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "1724bcc5aadc6c0100155cfe73df1e0a7ac1931dd9983963880939e2b07ce02b",
+        "weight_count": 2077,
+        "weights_sha256": "d60a24253ef2806a69a651bf301b7bd0320d3a1d580b46c437df83feca06394e"
+      }
+    },
+    {
+      "id": "matching-000",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        33,
+        52,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 259,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-001",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        33,
+        53,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 263,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 338,
+        "phase_one": true,
+        "objective": 0.16216216216218782
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 162144,
+        "box_max_numerator": 420,
+        "gap": [
+          40431,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "37c89e1b0dc63270c28ed36938c695b2e641944b3034efceba7e42540f9ef0eb",
+        "weight_count": 1434,
+        "weights_sha256": "479f7bb2b2f600c5361309cceb11899651878c13fc79d8d973d990889a721442"
+      }
+    },
+    {
+      "id": "matching-002",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        33,
+        53,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 311,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 386,
+        "phase_one": true,
+        "objective": 0.7793027318462978
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1883179,
+        "box_max_numerator": 1104560,
+        "gap": [
+          778619,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "8ef8c10aebcdf18b38341771754ad994f1c1164b73ea5a43da81b6c917c5cf38",
+        "weight_count": 2199,
+        "weights_sha256": "941ec31c89706ff9a40e4980caea665c19d14c497f1a4c69207789e4a7462a32"
+      }
+    },
+    {
+      "id": "matching-003",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        43,
+        64,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 329,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 428,
+        "phase_one": true,
+        "objective": 0.7955520055032582
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 910269,
+        "box_max_numerator": 115604,
+        "gap": [
+          158933,
+          200000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "02f605598f06935918272f273bcc6be24bcd33a2ee11ec1ee7ded63feb5ca284",
+        "weight_count": 2177,
+        "weights_sha256": "c007cb909623437aecf048a2b0a1d41e9417fd2d569b75392d1e52c95b98fafb"
+      }
+    },
+    {
+      "id": "matching-004",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        45,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 327,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 384,
+        "phase_one": true,
+        "objective": 0.052723129156852955
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 559672,
+        "box_max_numerator": 508009,
+        "gap": [
+          51663,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "d7f4c335728d8b9e980873c375e1e4eb63f64db2a1ec6e976104df69cb876105",
+        "weight_count": 2588,
+        "weights_sha256": "e68a588e23ef639979d8ac338092e5caff77b52e9d167c13f0cc5b6740816aa4"
+      }
+    },
+    {
+      "id": "matching-005",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        46,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 338,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 427,
+        "phase_one": true,
+        "objective": 0.2272518403049738
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2029665,
+        "box_max_numerator": 1802916,
+        "gap": [
+          226749,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "4d16233052376db0cad3372b158dfdc279bdce6d81a7eb1ac7bbd0e2416fc6b8",
+        "weight_count": 1385,
+        "weights_sha256": "23830abefced7fc38cec10b726d21aee6e3701d2ae9561566c665a17f1a73d65"
+      }
+    },
+    {
+      "id": "matching-006",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        46,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 307,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 372,
+        "phase_one": true,
+        "objective": 0.2225783418168179
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2719017,
+        "box_max_numerator": 2497076,
+        "gap": [
+          221941,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "afbab1783b4d2836c2150c6ffdb16822d96b86045f21b5a6b863ec560daffe84",
+        "weight_count": 2060,
+        "weights_sha256": "17894f54a0f681deb2cc0bde16ca8185263531c0a1f410e765cb3310c0d058a4"
+      }
+    },
+    {
+      "id": "matching-007",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        46,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 319,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 429,
+        "phase_one": true,
+        "objective": 1.4951497629848014
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1562376,
+        "box_max_numerator": 67864,
+        "gap": [
+          93407,
+          62500
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "837f2833f93674b8496d7d27d01cc26ffc8a95ec9353ddabad1e7716c118e03b",
+        "weight_count": 1520,
+        "weights_sha256": "d76ba5ba0066c8383f260ec3dd74582c538e9d38b8c1f9a1a9dddad896fcda05"
+      }
+    },
+    {
+      "id": "matching-008",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        34,
+        49,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 328,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 399,
+        "phase_one": true,
+        "objective": 0.41516345990879133
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 415193,
+        "box_max_numerator": 1075,
+        "gap": [
+          207059,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "3138d7e4af9e717ce640aec0a07eef9bd37fef2faef2c6c6891673a9a2bfbe37",
+        "weight_count": 2398,
+        "weights_sha256": "80d00a6464c7e0404436715a2734fd9304db1688522bdb4528079c6d8fc01893"
+      }
+    },
+    {
+      "id": "matching-009",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        37,
+        42,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 269,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 316,
+        "phase_one": true,
+        "objective": 0.8333333333335443
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1229963,
+        "box_max_numerator": 398626,
+        "gap": [
+          831337,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "fe5678d25659b522c593cd196500c08d7f9a9876c9e8521e03c0e437adc8d1c7",
+        "weight_count": 2110,
+        "weights_sha256": "71697a7ce290c9e6d247dc61a0877a658b8d4bd9ea52ee14b5ff082ecce0bf75"
+      }
+    },
+    {
+      "id": "matching-010",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        37,
+        46,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 315,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 385,
+        "phase_one": true,
+        "objective": 1.2708583091788301
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1960990,
+        "box_max_numerator": 691026,
+        "gap": [
+          317491,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "3ba6f2304a493074fbffcde528c339db990471e1a4e009049806cca88e4007fe",
+        "weight_count": 1901,
+        "weights_sha256": "8d7a7287962b445012694e88a2dc3923075ccfbc6ddebf90c9aa08cb9fc38c28"
+      }
+    },
+    {
+      "id": "matching-011",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        1,
+        37,
+        49,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 261,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 333,
+        "phase_one": true,
+        "objective": 0.8884892086332357
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1363279,
+        "box_max_numerator": 475495,
+        "gap": [
+          110973,
+          125000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "3e411c3901f122070aad69f3dd76755e9c0ab65cfb933688203d51f30c471482",
+        "weight_count": 1846,
+        "weights_sha256": "fd589f0b4bc8214e57cadf95042efe2e8da5e594decc23afab03be1f8a897492"
+      }
+    },
+    {
+      "id": "matching-012",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        35,
+        64,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 237,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-013",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        37,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 199,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-014",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        38,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 180,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-015",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        38,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 175,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-016",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        38,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 336,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 408,
+        "phase_one": true,
+        "objective": 0.21924586248098032
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 828496,
+        "box_max_numerator": 610258,
+        "gap": [
+          109119,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "b4be5c4396c9d43b26985feb40d5ff3c1698e546c041ff41c1c20e0cd2d8833a",
+        "weight_count": 2601,
+        "weights_sha256": "bb60ebb191b52a9a7202b45d57b250478f0bd43b202bab6afb1b56d67caca5eb"
+      }
+    },
+    {
+      "id": "matching-017",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        25,
+        41,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 298,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-018",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        3,
+        28,
+        41,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 269,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 317,
+        "phase_one": true,
+        "objective": 0.04444444444455242
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 622259,
+        "box_max_numerator": 579043,
+        "gap": [
+          2701,
+          62500
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "14e43505f53c8c5d882268c32047d55a7aba6d678583ef4565a0ceb54942f86e",
+        "weight_count": 1752,
+        "weights_sha256": "3844fa9ca723b66a88a387e50c17d8ddb129d3cdf4ae45279acb59275b3d34ab"
+      }
+    },
+    {
+      "id": "matching-019",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        35,
+        64,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 272,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-020",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        37,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 237,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-021",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        38,
+        58,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 208,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-022",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        38,
+        60,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 212,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-023",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        38,
+        60,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 338,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 418,
+        "phase_one": true,
+        "objective": 0.33099752951963324
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 906978,
+        "box_max_numerator": 576437,
+        "gap": [
+          330541,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "2e1bae1bf205e0d041434dca830cdb7be23ea4d4454ce8adf5a1c307e2e088f2",
+        "weight_count": 1692,
+        "weights_sha256": "db7f78e9b3b0101354c48405cf5c241c7ca654ba76c00e5c30044bbd4732a0a7"
+      }
+    },
+    {
+      "id": "matching-024",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        24,
+        41,
+        59,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 326,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 380,
+        "phase_one": true,
+        "objective": 0.15388797138649457
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 925651,
+        "box_max_numerator": 772531,
+        "gap": [
+          957,
+          6250
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "c198784ffe2ce5f621e2c39ae19c10aa5c81acc46ad8483c73dd88782598708c",
+        "weight_count": 2083,
+        "weights_sha256": "1177d38e0f783b2453520ce5aec53075febc940ada38459b4509f12ed6bebdf1"
+      }
+    },
+    {
+      "id": "matching-025",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        36,
+        46,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 336,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 385,
+        "phase_one": true,
+        "objective": 0.8676861702124471
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 867709,
+        "box_max_numerator": 1115,
+        "gap": [
+          433297,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "90f3042a3b5011560800c4d7a87f03895e834d6fbb3c87b9e1c20da1cfe6df4b",
+        "weight_count": 2116,
+        "weights_sha256": "e7f48ccad16a8a23b83fec129aff3833134497429259af998fb6da0f44e57102"
+      }
+    },
+    {
+      "id": "matching-026",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        37,
+        46,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 340,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 448,
+        "phase_one": true,
+        "objective": 0.038074148516890616
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1307992,
+        "box_max_numerator": 1270830,
+        "gap": [
+          18581,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "f69c4a9eee1d769b0c0ee36a990ae9c7cd626a287f5d594ee5108dcb3cf3d760",
+        "weight_count": 2062,
+        "weights_sha256": "0aae629f9dfdee72fc3bf6421646d8b4355e9e4401829b237553ab84870931d8"
+      }
+    },
+    {
+      "id": "matching-027",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        44,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 340,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 420,
+        "phase_one": true,
+        "objective": 0.2621854620219515
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 956393,
+        "box_max_numerator": 695210,
+        "gap": [
+          261183,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "fec4c6c81e0e30f0fee7512231c7b92d5b7af3d0ba563fd9a21a80d6c08c776f",
+        "weight_count": 2251,
+        "weights_sha256": "b7365cef92389304e3db23711009e7897748be66d79ab3f01237f69446afbd45"
+      }
+    },
+    {
+      "id": "matching-028",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        45,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 201,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-029",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 262,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-030",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 252,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-031",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 356,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 422,
+        "phase_one": true,
+        "objective": 1.1105933236905763
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1114874,
+        "box_max_numerator": 4926,
+        "gap": [
+          277487,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "220bd7edc153571fe709595956a0cc7b0867bef8a82491741f76e7e886f81320",
+        "weight_count": 2172,
+        "weights_sha256": "6906d58c3b5988f1cbb924933665dcacc08ba755d5c7eef064434db236bdeeb7"
+      }
+    },
+    {
+      "id": "matching-032",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        49,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 305,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-033",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        41,
+        46,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 346,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 462,
+        "phase_one": true,
+        "objective": 0.9411056075169735
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2163251,
+        "box_max_numerator": 1222583,
+        "gap": [
+          235167,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "f904423e62da86a8c7ace57f43bccec2ec1bb34dbd7c01a9ca4af31040cd984a",
+        "weight_count": 1876,
+        "weights_sha256": "78a6d7aeabb9a8c4c250d3e53875190cd6ecaaff28655c23d80cf377e8a4da65"
+      }
+    },
+    {
+      "id": "matching-034",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        38,
+        43,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 352,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 412,
+        "phase_one": true,
+        "objective": 0.057097268394280976
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2240410,
+        "box_max_numerator": 2184146,
+        "gap": [
+          7033,
+          125000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "335d625b0b6fdc9e2cd68d71b78a5fd30a2fee5148e65da7e0d3c9339380709a",
+        "weight_count": 2050,
+        "weights_sha256": "506c8a8439b92f2192f1a74f586f5205ff9cc83169029d7a3493fb5e8399c068"
+      }
+    },
+    {
+      "id": "matching-035",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        38,
+        47,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 332,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 407,
+        "phase_one": true,
+        "objective": 0.6467444201773874
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1423939,
+        "box_max_numerator": 777978,
+        "gap": [
+          645961,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "5eb68adeda5acc84061e5f94c4ad884ab7a1a69896f56208164cd191c789af31",
+        "weight_count": 1869,
+        "weights_sha256": "65056ca8ed8b00a0b1bab1adf18e68a53c642ae87cdbdc2a4d2373bbf06f27d0"
+      }
+    },
+    {
+      "id": "matching-036",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        38,
+        49,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 232,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-037",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        28,
+        41,
+        46,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 350,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 406,
+        "phase_one": true,
+        "objective": 0.14927085489119174
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1020417,
+        "box_max_numerator": 871862,
+        "gap": [
+          29711,
+          200000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "72817468c3fa3263803d8770514211c93e917b3c358fa323b8788af4c523b979",
+        "weight_count": 1938,
+        "weights_sha256": "fc646f8a8e9f12c2693adea8d27d4017cf42cc8840f3108f48b7af92850402de"
+      }
+    },
+    {
+      "id": "matching-038",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        43,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 349,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-039",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        43,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 253,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-040",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        43,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 295,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 391,
+        "phase_one": true,
+        "objective": 1.0768477388403026
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1086291,
+        "box_max_numerator": 10315,
+        "gap": [
+          134497,
+          125000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "bb73816044f943ff2537dccf632edabe81c08ac8336224830fbf3c2d3a2bc8b9",
+        "weight_count": 1963,
+        "weights_sha256": "c331b7031bd2d0faaf48066cb6f31de3d197b431f0b1cc6f32e7924a1e4df35e"
+      }
+    },
+    {
+      "id": "matching-041",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        45,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 313,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 401,
+        "phase_one": true,
+        "objective": 0.20797185537201535
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 207985,
+        "box_max_numerator": 996,
+        "gap": [
+          206989,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "f4cbc3b8c066387a3e38b4cc795cd53444a56b14da3df583fc9f47a47929fd9c",
+        "weight_count": 1893,
+        "weights_sha256": "ec465ca03dcf7bbb25e19854871067a313388ff2b4c3b7b08c3ecc764f62441b"
+      }
+    },
+    {
+      "id": "matching-042",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        48,
+        58,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 315,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 380,
+        "phase_one": true,
+        "objective": 0.3669924371142328
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 366959,
+        "box_max_numerator": 580,
+        "gap": [
+          366379,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "0451e1226314968d9d7af16cfc3a1bdca67d71e1a09f37b326740315250ee1e4",
+        "weight_count": 1712,
+        "weights_sha256": "d6704967753324c672a8ace5833f282fd1a310f1bf7e0dc46ef67d4d25331375"
+      }
+    },
+    {
+      "id": "matching-043",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        39,
+        49,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 216,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-044",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        41,
+        43,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 347,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 407,
+        "phase_one": true,
+        "objective": 0.51687541824823
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1662708,
+        "box_max_numerator": 1146726,
+        "gap": [
+          257991,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "519b14bbb5f4c0e036e58710209f5aa8b17e57bb0809315f7551e7237d44efb9",
+        "weight_count": 2033,
+        "weights_sha256": "73f19df152c1c1c20635fe70898332f1fc503882552c0a663ffeb311180a6df0"
+      }
+    },
+    {
+      "id": "matching-045",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        41,
+        45,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 236,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-046",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        4,
+        29,
+        41,
+        47,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 337,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 417,
+        "phase_one": true,
+        "objective": 0.06068834761877162
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1111043,
+        "box_max_numerator": 1050846,
+        "gap": [
+          60197,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "f1091fbac3e0ea9d8ad75906ba6ae7e0b80e86aa6e0f22b75f4b29a37530a284",
+        "weight_count": 2082,
+        "weights_sha256": "7153c99a22b9dc98f4af38dea16c17b146afcdff5d746ae8ec090ffdad5f44af"
+      }
+    },
+    {
+      "id": "matching-047",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        24,
+        34,
+        59,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 174,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-048",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        24,
+        38,
+        54,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 330,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 399,
+        "phase_one": true,
+        "objective": 0.04280656346170497
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 876533,
+        "box_max_numerator": 834528,
+        "gap": [
+          8401,
+          200000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "c77eb096d70c5a9a151ee670304b237ca303e99a1c1894d9533340db5f408fea",
+        "weight_count": 2105,
+        "weights_sha256": "95e7b539cb5150df432a62f81fddf033d8cf5dc5bd8eb4fa919f026eb98289da"
+      }
+    },
+    {
+      "id": "matching-049",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        24,
+        41,
+        53,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 300,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 345,
+        "phase_one": true,
+        "objective": 0.03244804978336635
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1157493,
+        "box_max_numerator": 1125905,
+        "gap": [
+          7897,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "f1f197d5dc2e7ff5ff771ec517871f34d38b841a884fb3ed5076105f877b14ca",
+        "weight_count": 1927,
+        "weights_sha256": "539beec2a229985a744ab8342cb1583457634e0197f87085cf725f2496985467"
+      }
+    },
+    {
+      "id": "matching-050",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        35,
+        46,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 330,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 389,
+        "phase_one": true,
+        "objective": 0.0020824036887328035
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2232642,
+        "box_max_numerator": 2231505,
+        "gap": [
+          1137,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "9259a8fd16b29d25dba84078cdd3787e628436edf45743889e7b42b00af4c705",
+        "weight_count": 2160,
+        "weights_sha256": "79bb49d5903723e155631e6b449a264299263f14c7f3495a79054d6f6c6d3434"
+      }
+    },
+    {
+      "id": "matching-051",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        38,
+        43,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 348,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-052",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        38,
+        47,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 329,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 403,
+        "phase_one": true,
+        "objective": 0.36747041177510875
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1988736,
+        "box_max_numerator": 1622311,
+        "gap": [
+          14657,
+          40000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "7ee04762e4c82551bdfbab4db4fe02212bcce6d4cd3a9a918d00c52279fb0685",
+        "weight_count": 1957,
+        "weights_sha256": "dd2e08a1ebf7d6903620c98d1d132da2f72b79d0f01b8bfad64cb14ec3f40d3c"
+      }
+    },
+    {
+      "id": "matching-053",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        38,
+        49,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 228,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-054",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        25,
+        41,
+        46,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 305,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 391,
+        "phase_one": true,
+        "objective": 0.07650671051811386
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1414216,
+        "box_max_numerator": 1338479,
+        "gap": [
+          75737,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "1981c08018b0bdc37128c8e6020d1f595ac806c53021782c7d4e4c7bffa84f08",
+        "weight_count": 2102,
+        "weights_sha256": "b6781d1122dc91c49da48187d04d4ea25ab81699d7cfe5ade7bf71d65dfb1f02"
+      }
+    },
+    {
+      "id": "matching-055",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        29,
+        39,
+        42,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 322,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 443,
+        "phase_one": true,
+        "objective": 0.8149982022247506
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 990569,
+        "box_max_numerator": 176390,
+        "gap": [
+          814179,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "45d7dc1027f31fdb489e3144789b6212e2b93bb7c9caca674945dedcfcc241cb",
+        "weight_count": 1727,
+        "weights_sha256": "5faf3955aaead032e376e4005d6aaf209b7ad8cd2185d4084f0742cba3cf4800"
+      }
+    },
+    {
+      "id": "matching-056",
+      "case": "matching",
+      "fixed_ids": [
+        0,
+        7,
+        29,
+        41,
+        42,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 342,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 410,
+        "phase_one": true,
+        "objective": 0.09665958859545287
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2087853,
+        "box_max_numerator": 1991840,
+        "gap": [
+          96013,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "3436dc0766c2c250b46f8819291529796f0661610e41083b7397493317077ed4",
+        "weight_count": 1807,
+        "weights_sha256": "98e612c2512f59d390a61fa1d5ba151f06b62b1fbb7f66f7b3882a8a5cb96c1d"
+      }
+    },
+    {
+      "id": "matching-057",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        27,
+        38,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 215,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-058",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        28,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 184,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-059",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        39,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 178,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-060",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        39,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 180,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-061",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        39,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 331,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 436,
+        "phase_one": true,
+        "objective": 0.18604651162789387
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1857784,
+        "box_max_numerator": 1672559,
+        "gap": [
+          7409,
+          40000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "37051353bf92a1b2d655e522cb270a8ccf61bfa1c42cbada3769dd32696a39d5",
+        "weight_count": 2130,
+        "weights_sha256": "a86a2a169aa24681753e48760a024fad25adfa1101c03080d7eb7bc587cd5219"
+      }
+    },
+    {
+      "id": "matching-062",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        16,
+        29,
+        41,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 256,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-063",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        39,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 261,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-064",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 201,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-065",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        19,
+        30,
+        40,
+        58,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 247,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 290,
+        "phase_one": true,
+        "objective": 0.5000000000000167
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 499991,
+        "box_max_numerator": 610,
+        "gap": [
+          499381,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "a74d5b91cdce03655846f68609a8f918e0bbb94b350982be6c8f37520bb9815f",
+        "weight_count": 1520,
+        "weights_sha256": "502ebe13f61e8653750f21fb2a12ea0dcfa7340ef84b9da84f8f0d23a9173a64"
+      }
+    },
+    {
+      "id": "matching-066",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        4,
+        19,
+        30,
+        41,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 203,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-067",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        7,
+        15,
+        26,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 172,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-068",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        7,
+        15,
+        29,
+        39,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 221,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-069",
+      "case": "matching",
+      "fixed_ids": [
+        3,
+        7,
+        15,
+        29,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 190,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-070",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        27,
+        38,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 354,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 384,
+        "phase_one": true,
+        "objective": 0.09907666233259582
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1464811,
+        "box_max_numerator": 1366285,
+        "gap": [
+          49263,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "47d202285759d973ed14eb4c300b193105dcda9f424ed23715aec6b0e61578e4",
+        "weight_count": 1842,
+        "weights_sha256": "71a8a46130a0da1c979529d5d145d0d1e292c6b43860b9d86c352a70b1066512"
+      }
+    },
+    {
+      "id": "matching-071",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        28,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 237,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-072",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        39,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 257,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-073",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        39,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 229,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-074",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        39,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 327,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 395,
+        "phase_one": true,
+        "objective": 1.1666666666667949
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1166683,
+        "box_max_numerator": 1045,
+        "gap": [
+          582819,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "c8550e1ba4a3c642aa849f290a5e208dce3cc502dfde38c66fb5d49e7035d005",
+        "weight_count": 1836,
+        "weights_sha256": "1914082971ed3d74b299cd5903583003c055285a30cf0560c161fa79b7c7b5c2"
+      }
+    },
+    {
+      "id": "matching-075",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        14,
+        29,
+        41,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 324,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 408,
+        "phase_one": true,
+        "objective": 0.4349989204125888
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1182159,
+        "box_max_numerator": 747671,
+        "gap": [
+          54311,
+          125000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "bdd84ed6b088f62cb0fb7a0cded15896139e86491cc10f24b608b1b70790ed4d",
+        "weight_count": 2100,
+        "weights_sha256": "284e75517b049aeecdedf2736be5ce232643ff0b2a61999edced28e34ff290db"
+      }
+    },
+    {
+      "id": "matching-076",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        28,
+        38,
+        47,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 351,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 418,
+        "phase_one": true,
+        "objective": 0.20294029331930763
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2097492,
+        "box_max_numerator": 1895398,
+        "gap": [
+          101047,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "eec5dcbc90f90f1c7c0bddb9b166d0dc48e4f3f75ece67531ff006772d0c48bb",
+        "weight_count": 2126,
+        "weights_sha256": "18ae3eebd3453217066f9b053e8a06ba0e2b2a197477d9cf20f3cbe26f5293bd"
+      }
+    },
+    {
+      "id": "matching-077",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        39,
+        45,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 290,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-078",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        39,
+        48,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 317,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 384,
+        "phase_one": true,
+        "objective": 0.01476416807776637
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 19406,
+        "box_max_numerator": 5558,
+        "gap": [
+          1731,
+          125000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "9d6e6905e83e80f7ac5c556cff52b42125cd28b020bd2e982f7da162ac1d5e6d",
+        "weight_count": 1960,
+        "weights_sha256": "a633f42bc6772c3ab787918d2e7f9926ed100f41c081d7d2d7a7ac974720d968"
+      }
+    },
+    {
+      "id": "matching-079",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        39,
+        49,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 295,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 411,
+        "phase_one": true,
+        "objective": 0.20533326986867007
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 262147,
+        "box_max_numerator": 57960,
+        "gap": [
+          204187,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "5b9d0cc79212b8155d24b69830151ce5396f949087e7f4af8a899f4df18e3aa1",
+        "weight_count": 1700,
+        "weights_sha256": "62c9dd19da7f08c85156a8f39eb0cf0ef0873f471dceeaffc19cc0db05758236"
+      }
+    },
+    {
+      "id": "matching-080",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        17,
+        29,
+        41,
+        47,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 341,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 438,
+        "phase_one": true,
+        "objective": 1.0176324399274639
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1096756,
+        "box_max_numerator": 79603,
+        "gap": [
+          1017153,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "aa40308e4d0b1457990fdae2fbea984b6875901d4991ea18379f7aa579ca1c32",
+        "weight_count": 2437,
+        "weights_sha256": "78d2093ba3b2319243c0496e9b723020a426d7f859fc8a6ff6eb96e8b2e63522"
+      }
+    },
+    {
+      "id": "matching-081",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        18,
+        29,
+        39,
+        44,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 301,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 354,
+        "phase_one": true,
+        "objective": 0.4217509793900055
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 614493,
+        "box_max_numerator": 193833,
+        "gap": [
+          21033,
+          50000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "efa40fa87a402bbec376eb698d2ae75a728d951dd4a6d10776e8bd165575aa3a",
+        "weight_count": 2640,
+        "weights_sha256": "80f0cc9ac1cc069582a213c0580e51e5c0cb54c28f8c173934412022517d388e"
+      }
+    },
+    {
+      "id": "matching-082",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        18,
+        29,
+        39,
+        48,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 328,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 406,
+        "phase_one": true,
+        "objective": 1.1928763831562315
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1202003,
+        "box_max_numerator": 9700,
+        "gap": [
+          1192303,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "18c647b9fcd61b6d833f3fef8d17835ffc58b682a6adeae5164c406f13daf118",
+        "weight_count": 1669,
+        "weights_sha256": "c826f936d990380db5dc916c8403f37e44978496e9c5479e30d253101a4f6925"
+      }
+    },
+    {
+      "id": "matching-083",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        18,
+        29,
+        39,
+        49,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 275,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-084",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        18,
+        29,
+        41,
+        47,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 300,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 408,
+        "phase_one": true,
+        "objective": 0.24036113673752413
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 533775,
+        "box_max_numerator": 294036,
+        "gap": [
+          239739,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "700f0029b124b3e5ed509b7a2c299812a5f78cf8312439a39615e16be18665b5",
+        "weight_count": 1686,
+        "weights_sha256": "4c1a4eb0cb40558bd76eb6081121407c5eda9d84f46be969511e55320547d9ed"
+      }
+    },
+    {
+      "id": "matching-085",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        40,
+        44,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 281,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 321,
+        "phase_one": true,
+        "objective": 0.500000000000772
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 499976,
+        "box_max_numerator": 742,
+        "gap": [
+          249617,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "a7862604dd3e9cc4a57854162cccae536825c180533e93d6c58d72370afd2be7",
+        "weight_count": 1262,
+        "weights_sha256": "c6b141a2a1beac9c6fedb0e1b8bb91187eeb3fd470597a484bda1e22e3754f5e"
+      }
+    },
+    {
+      "id": "matching-086",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        40,
+        45,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 281,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 348,
+        "phase_one": true,
+        "objective": 1.1823529411760996
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1182380,
+        "box_max_numerator": 985,
+        "gap": [
+          236279,
+          200000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "68fcdf48e5cfb4206f9a4b043ea646287b80673ad389e3bfff5efa693e949f01",
+        "weight_count": 1730,
+        "weights_sha256": "b02ccb084ec2a5296a1d048c558eee2dafc1b9f2da51bf6534c3565967a38b08"
+      }
+    },
+    {
+      "id": "matching-087",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        40,
+        49,
+        63
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 260,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 344,
+        "phase_one": true,
+        "objective": 0.3337595907929858
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 887009,
+        "box_max_numerator": 553933,
+        "gap": [
+          83269,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "9d767428989bcfe095556bff171c0a5c0a6132d92f8d35dbf670c15cf4f5c1bc",
+        "weight_count": 2357,
+        "weights_sha256": "84ab73a7cc3ce014646f4fe5553357d4e7f41de6bbbbc760055e6757c4a847c9"
+      }
+    },
+    {
+      "id": "matching-088",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        41,
+        44,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 331,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 438,
+        "phase_one": true,
+        "objective": 0.6761584032275609
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1295508,
+        "box_max_numerator": 619781,
+        "gap": [
+          675727,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "5fd552d037b2eee9941581e3e2de9211ccc15d8dced57592062061f363257128",
+        "weight_count": 1588,
+        "weights_sha256": "de31a512e683eeafe4f8e12bb9900e64ee4ed0d64434a276b241c8be36a19299"
+      }
+    },
+    {
+      "id": "matching-089",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        41,
+        45,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 294,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 386,
+        "phase_one": true,
+        "objective": 0.0019164464335422737
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 914892,
+        "box_max_numerator": 913713,
+        "gap": [
+          1179,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "66fed5e41659142bc467c21da11b07288a33c6012c006a517706be7c4e735aec",
+        "weight_count": 2131,
+        "weights_sha256": "c0cea993bf5d1df40595350516539ec27ffed1c4513d764222dca047e29a8d6c"
+      }
+    },
+    {
+      "id": "matching-090",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        5,
+        19,
+        30,
+        41,
+        48,
+        63
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 289,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 392,
+        "phase_one": true,
+        "objective": 0.2827813819279923
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1690667,
+        "box_max_numerator": 1408555,
+        "gap": [
+          4408,
+          15625
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "41f00b7e0848a1b879450aa007792abab9b112341116e48486c1926d0b7a164b",
+        "weight_count": 2551,
+        "weights_sha256": "58cdbb4eea8c1a2bc943b7b7329309cd191e00dd0ff72a043339d5b3b89c78f5"
+      }
+    },
+    {
+      "id": "matching-091",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        14,
+        26,
+        38,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 218,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-092",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        14,
+        29,
+        39,
+        61,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 313,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 422,
+        "phase_one": true,
+        "objective": 0.08217547489798382
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 131492,
+        "box_max_numerator": 49859,
+        "gap": [
+          81633,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "e59041e2591d33b58ab80e6b8ef3c2f62dd5659dd0dbe30cc1853d99ff7b8020",
+        "weight_count": 2056,
+        "weights_sha256": "733acbcdf424eb84c35ada36ec5b85edcdc2d4d30bb815b678487c2970e5c72f"
+      }
+    },
+    {
+      "id": "matching-093",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        14,
+        29,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 215,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-094",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        27,
+        38,
+        47,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 306,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 364,
+        "phase_one": true,
+        "objective": 0.021220159151388862
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 106369,
+        "box_max_numerator": 85808,
+        "gap": [
+          20561,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "19b4914beb34a789b610952e431eff6f2ed8b175ef44e9bdce6251650e0c4b88",
+        "weight_count": 2331,
+        "weights_sha256": "4014c8ac5f4ac06061b5f01a19e522ba932f948a801070c0b2a37c5fc50192c6"
+      }
+    },
+    {
+      "id": "matching-095",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        39,
+        44,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 296,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-096",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        39,
+        48,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 330,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 347,
+        "phase_one": true,
+        "objective": 0.3233236304318021
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 992750,
+        "box_max_numerator": 670196,
+        "gap": [
+          161277,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "5ff8eb781a05b053b78b04f3a660dbcc2473df68d41644483da46a3197717116",
+        "weight_count": 1876,
+        "weights_sha256": "e7188e959499945bea9bead5d5ec2b16a70b8fb4aacb758fad9532f2678904f6"
+      }
+    },
+    {
+      "id": "matching-097",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        39,
+        49,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 189,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-098",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        16,
+        29,
+        41,
+        47,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 400,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 446,
+        "phase_one": true,
+        "objective": 0.016080617292427823
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 126583,
+        "box_max_numerator": 111321,
+        "gap": [
+          7631,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "91f7fea6d2f88831dcf82cedf3ba10d0619e4a95818a86fcd8595b9a2f9bf763",
+        "weight_count": 2104,
+        "weights_sha256": "dc27759afd590e715cfdb1fbe96a144242006cfafdd3e42ad8a08a4393684ce0"
+      }
+    },
+    {
+      "id": "matching-099",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        19,
+        30,
+        40,
+        43,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 266,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 348,
+        "phase_one": true,
+        "objective": 1.1769825918760477
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1176954,
+        "box_max_numerator": 548,
+        "gap": [
+          588203,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "4786fb91adad51144d5d5ea3c63944a3630be7846c77282f5dbc30ad96676745",
+        "weight_count": 1722,
+        "weights_sha256": "04e44e8a4d2eac44e1a5b2ba981ad331e4ce0b220ce3a45c2d20d73155604da1"
+      }
+    },
+    {
+      "id": "matching-100",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        7,
+        19,
+        30,
+        41,
+        43,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 334,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 400,
+        "phase_one": true,
+        "objective": 0.037126837399707124
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1790900,
+        "box_max_numerator": 1754889,
+        "gap": [
+          36011,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "2fe7e70083a24f6fdf7b30b5cbf38c834f7b980ebe7bff99fc76ebb989468ff2",
+        "weight_count": 2184,
+        "weights_sha256": "b3edd53927d1e0c220bd1a5ed565bd20edeae50e3bddf646b260793597b30137"
+      }
+    },
+    {
+      "id": "matching-101",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        26,
+        36,
+        69,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 332,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 432,
+        "phase_one": true,
+        "objective": 0.047388861707993946
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1029980,
+        "box_max_numerator": 983549,
+        "gap": [
+          46431,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "8eb75e39ad0cec9b7d1ca5a03938ca2b314657d6cdc8c07bc4e9b296342b76d3",
+        "weight_count": 1757,
+        "weights_sha256": "a6985d2698957c15b3ec4c9bba82f7b6837983f7c4b786623bef12f30da8fd06"
+      }
+    },
+    {
+      "id": "matching-102",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        26,
+        37,
+        65,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 212,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-103",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        26,
+        39,
+        63,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 194,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-104",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        26,
+        39,
+        66,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 193,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-105",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        26,
+        39,
+        67,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 334,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 413,
+        "phase_one": true,
+        "objective": 0.29781399954306753
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1383433,
+        "box_max_numerator": 1086269,
+        "gap": [
+          74291,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "9ef9a4ec319c4116ffecb615b24f08e042c5a62100d0f5cdea30ad2cebb483a4",
+        "weight_count": 1383,
+        "weights_sha256": "88ce9d4be6509af1049f42b1de0f2de5048bd114cbfc812b227c7b423f27792d"
+      }
+    },
+    {
+      "id": "matching-106",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        26,
+        41,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 360,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 409,
+        "phase_one": true,
+        "objective": 0.16493088272199685
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 896972,
+        "box_max_numerator": 732691,
+        "gap": [
+          164281,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "a0260b6e63b31ae7919ffae07d9dfa63c29793c4c66248c5c4e88ef10952bea2",
+        "weight_count": 1405,
+        "weights_sha256": "5846c2e02b6136cb6403ed88219235f131c7e00a92ce3a4f939d15149e986157"
+      }
+    },
+    {
+      "id": "matching-107",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        14,
+        28,
+        41,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 228,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-108",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        27,
+        37,
+        47,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 307,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 386,
+        "phase_one": true,
+        "objective": 0.027762846027915122
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 41895,
+        "box_max_numerator": 14924,
+        "gap": [
+          26971,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "8073268d9eb346450cf7e7ea708988eb8f7620a1600e999ec35630c1803ed6de",
+        "weight_count": 2247,
+        "weights_sha256": "1127aa96d6599ad54b331f88270a4cddf77471ce3a4aa2cce01f78253c41de81"
+      }
+    },
+    {
+      "id": "matching-109",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        27,
+        39,
+        45,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 211,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-110",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        27,
+        39,
+        48,
+        71
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 259,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-111",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        27,
+        39,
+        49,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 332,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 389,
+        "phase_one": true,
+        "objective": 0.10763259570986083
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 116501,
+        "box_max_numerator": 9579,
+        "gap": [
+          53461,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "b18a53f305dc4e102a86372135d39ab15732ca6e1a07d73b628835c3d3ca817e",
+        "weight_count": 2158,
+        "weights_sha256": "2b79a424450a6249e8705b3fd7d8aaf82e991ac2907babec1363194ccb27c6ce"
+      }
+    },
+    {
+      "id": "matching-112",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        27,
+        41,
+        47,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 299,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 333,
+        "phase_one": true,
+        "objective": 0.966666666666772
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1248151,
+        "box_max_numerator": 282507,
+        "gap": [
+          241411,
+          250000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "327da3c16057ec3d49e3017ab673d4dfdf709072424096bae8a6c56eaa44fe25",
+        "weight_count": 2024,
+        "weights_sha256": "46f6b20ca7757031f355d99714b9ca7e8de92909df0ecf6480cdbec6a43df107"
+      }
+    },
+    {
+      "id": "matching-113",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        28,
+        39,
+        44,
+        77
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 295,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-114",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        28,
+        39,
+        48,
+        67
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 353,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 422,
+        "phase_one": true,
+        "objective": 0.4165739852112572
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1141648,
+        "box_max_numerator": 725789,
+        "gap": [
+          415859,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "675073860c5d430f7d62dadf8df30f26ee61293167724afca20b2ed17f709a63",
+        "weight_count": 2066,
+        "weights_sha256": "a21fdf0128590cd409d5fd34a8294df29501e8b86adf19f7a8ac08bd3af4a680"
+      }
+    },
+    {
+      "id": "matching-115",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        28,
+        39,
+        49,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 232,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-116",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        8,
+        16,
+        28,
+        41,
+        47,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 348,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 415,
+        "phase_one": true,
+        "objective": 0.02025687981383384
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 721727,
+        "box_max_numerator": 702191,
+        "gap": [
+          1221,
+          62500
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "72ff02e7c1a1a33d01649efe6f3b1937945ba3b49a56f0b1a89d583707da88cb",
+        "weight_count": 1926,
+        "weights_sha256": "f2071dd4c5119171a3ce9acf1cb29fde83381209b94811517e91fcbd2ce726cb"
+      }
+    },
+    {
+      "id": "matching-117",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        14,
+        26,
+        38,
+        65,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 332,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-118",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        14,
+        28,
+        38,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 221,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-119",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        14,
+        29,
+        39,
+        58,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 203,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-120",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        16,
+        27,
+        38,
+        47,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 318,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 464,
+        "phase_one": true,
+        "objective": 0.7909829207587885
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 2078545,
+        "box_max_numerator": 1288279,
+        "gap": [
+          395133,
+          500000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "a2e5609c654a45ab33f9f38a0f0c66a4d493ae9e40ce860e78136dbf87afcbc5",
+        "weight_count": 1774,
+        "weights_sha256": "1c7c1c48728a0685561363ca015e3185534de32eeb6aa7b3bb9c55a0a506171b"
+      }
+    },
+    {
+      "id": "matching-121",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        16,
+        28,
+        38,
+        47,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 337,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 445,
+        "phase_one": true,
+        "objective": 0.06445664455815459
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1818624,
+        "box_max_numerator": 1754647,
+        "gap": [
+          63977,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "ac1bcdcbcddc1c691acfeba234472606f12eab390d8f0435f387e72dca31f286",
+        "weight_count": 1850,
+        "weights_sha256": "92f2dd2f37e9b1f956a229874942b787aec15a0bb905d4c96271f7b7bb9d1bf1"
+      }
+    },
+    {
+      "id": "matching-122",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        16,
+        29,
+        39,
+        44,
+        70
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 327,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 398,
+        "phase_one": true,
+        "objective": 0.35327391901656857
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 908437,
+        "box_max_numerator": 556196,
+        "gap": [
+          352241,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "df2ac4c6469fe2e2151cc3e98bceebdb9fd7716f978caf861df797885d5af283",
+        "weight_count": 1876,
+        "weights_sha256": "932874dabb1b5957f4f870ac585b3c86d36b283d98624ffd9b6478e19e4341d7"
+      }
+    },
+    {
+      "id": "matching-123",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        16,
+        29,
+        39,
+        45,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 196,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-124",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        16,
+        29,
+        39,
+        48,
+        63
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 316,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 382,
+        "phase_one": true,
+        "objective": 0.00635256749616131
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 33581,
+        "box_max_numerator": 27788,
+        "gap": [
+          5793,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "6624fec44b27d689abb611b88d92dd08643084215baa44cfa81d3ddd14b9399d",
+        "weight_count": 1982,
+        "weights_sha256": "f4720a6f1fa2827d7df8965655ab37b3f782a7b0cac3fe0a18ef6550282d0b14"
+      }
+    },
+    {
+      "id": "matching-125",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        18,
+        29,
+        39,
+        43,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 316,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 400,
+        "phase_one": true,
+        "objective": 0.17741607324626885
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 1448582,
+        "box_max_numerator": 1271945,
+        "gap": [
+          176637,
+          1000000
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "b2b3be49c23441dac83fcdd2a2c2b3f8656fc98b6ba7da153f852905494a03dd",
+        "weight_count": 1904,
+        "weights_sha256": "109ca8d3be73615387e98c9017ba918aef774285916b7932d28b149c6239e0c0"
+      }
+    },
+    {
+      "id": "matching-126",
+      "case": "matching",
+      "fixed_ids": [
+        4,
+        11,
+        19,
+        30,
+        40,
+        43,
+        63
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": true,
+      "feasibility_lp": {
+        "status": 2,
+        "milliseconds": 264,
+        "phase_one": false
+      },
+      "phase_one_lp": {
+        "status": 0,
+        "milliseconds": 349,
+        "phase_one": true,
+        "objective": 0.5206349206351647
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "rhs_numerator": 920658,
+        "box_max_numerator": 401170,
+        "gap": [
+          8117,
+          15625
+        ],
+        "checked_columns": 4768,
+        "proves_infeasible": true,
+        "certificate_sha256": "73042e394a30140bc268d2c5d53289dcfc1d11ffcb2d52c5daa229439d41ac6e",
+        "weight_count": 1569,
+        "weights_sha256": "0a594455d5a164bacee1e674b84b810e1bf3461457555f4b43f4cc76fc3623fd"
+      }
+    },
+    {
+      "id": "matching-127",
+      "case": "matching",
+      "fixed_ids": [
+        7,
+        11,
+        14,
+        25,
+        38,
+        60,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 182,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    },
+    {
+      "id": "matching-128",
+      "case": "matching",
+      "fixed_ids": [
+        7,
+        11,
+        15,
+        26,
+        38,
+        47,
+        66
+      ],
+      "checked_rows": 4277,
+      "checked_columns": 4768,
+      "proves_infeasible": false,
+      "feasibility_lp": {
+        "status": 0,
+        "milliseconds": 254,
+        "phase_one": false,
+        "objective": 0.0
+      }
+    }
+  ]
+}

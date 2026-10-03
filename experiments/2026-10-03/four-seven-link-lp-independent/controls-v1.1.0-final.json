@@ -1,0 +1,303 @@
+{
+  "scope": "Toy algebraic controls only; none of these fixtures is a covering candidate.",
+  "source_sha256": "6767e8e7f626cd013c573b43173b234abd8767f29a8025ce7b9f2174a4d29fd4",
+  "controls_sha256": "30a84b22e6ab808b0888884ad8ae108570c40be75bfe283cb5afdf3311c1b0c4",
+  "checker_sha256": "8364457d2276db9b1f878c624a4f6653f4a5ddbad3b1646361016c126bb6cf0c",
+  "toys": [
+    {
+      "name": "feasible_box",
+      "lp": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": false,
+        "objective": 0.0,
+        "weights": [
+          0.0
+        ]
+      },
+      "phase": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": true,
+        "objective": 0.0,
+        "weights": [
+          0.0
+        ]
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "weights": [],
+        "rhs_numerator": 0,
+        "box_max_numerator": 0,
+        "gap": [
+          0,
+          1
+        ],
+        "checked_columns": 1,
+        "proves_infeasible": false
+      },
+      "independent": {
+        "gap": [
+          0,
+          1
+        ],
+        "proves_infeasible": false,
+        "rows": 1,
+        "columns": 1,
+        "nonzero_weights": 0
+      }
+    },
+    {
+      "name": "fractional_feasible_integer_impossible",
+      "lp": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": false,
+        "objective": 0.0,
+        "weights": [
+          0.0
+        ]
+      },
+      "phase": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": true,
+        "objective": 0.0,
+        "weights": [
+          0.0
+        ]
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "weights": [],
+        "rhs_numerator": 0,
+        "box_max_numerator": 0,
+        "gap": [
+          0,
+          1
+        ],
+        "checked_columns": 1,
+        "proves_infeasible": false
+      },
+      "independent": {
+        "gap": [
+          0,
+          1
+        ],
+        "proves_infeasible": false,
+        "rows": 1,
+        "columns": 1,
+        "nonzero_weights": 0
+      }
+    },
+    {
+      "name": "conflicting_rows",
+      "lp": {
+        "status": 2,
+        "milliseconds": 0,
+        "phase_one": false
+      },
+      "phase": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": true,
+        "objective": 1.0,
+        "weights": [
+          1.0,
+          -1.0
+        ]
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "weights": [
+          [
+            0,
+            1000000
+          ],
+          [
+            1,
+            -1000000
+          ]
+        ],
+        "rhs_numerator": 1000000,
+        "box_max_numerator": 0,
+        "gap": [
+          1,
+          1
+        ],
+        "checked_columns": 1,
+        "proves_infeasible": true
+      },
+      "independent": {
+        "gap": [
+          1,
+          1
+        ],
+        "proves_infeasible": true,
+        "rows": 2,
+        "columns": 1,
+        "nonzero_weights": 2
+      }
+    },
+    {
+      "name": "upper_box_violation",
+      "lp": {
+        "status": 2,
+        "milliseconds": 0,
+        "phase_one": false
+      },
+      "phase": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": true,
+        "objective": 1.0,
+        "weights": [
+          1.0
+        ]
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "weights": [
+          [
+            0,
+            1000000
+          ]
+        ],
+        "rhs_numerator": 3000000,
+        "box_max_numerator": 2000000,
+        "gap": [
+          1,
+          1
+        ],
+        "checked_columns": 1,
+        "proves_infeasible": true
+      },
+      "independent": {
+        "gap": [
+          1,
+          1
+        ],
+        "proves_infeasible": true,
+        "rows": 1,
+        "columns": 1,
+        "nonzero_weights": 1
+      }
+    },
+    {
+      "name": "lower_box_violation",
+      "lp": {
+        "status": 2,
+        "milliseconds": 0,
+        "phase_one": false
+      },
+      "phase": {
+        "status": 0,
+        "milliseconds": 0,
+        "phase_one": true,
+        "objective": 1.0,
+        "weights": [
+          -1.0
+        ]
+      },
+      "certificate": {
+        "denominator": 1000000,
+        "weights": [
+          [
+            0,
+            -1000000
+          ]
+        ],
+        "rhs_numerator": 1000000,
+        "box_max_numerator": 0,
+        "gap": [
+          1,
+          1
+        ],
+        "checked_columns": 1,
+        "proves_infeasible": true
+      },
+      "independent": {
+        "gap": [
+          1,
+          1
+        ],
+        "proves_infeasible": true,
+        "rows": 1,
+        "columns": 1,
+        "nonzero_weights": 1
+      }
+    }
+  ],
+  "damaged_controls": {
+    "denominator_-1": true,
+    "denominator_0": true,
+    "denominator_True": true,
+    "denominator_1.5": true,
+    "length": true,
+    "duplicate": true,
+    "negative_index": true,
+    "large_index": true,
+    "boolean_index": true,
+    "float_coefficient": true,
+    "boolean_coefficient": true,
+    "bad_interval": true,
+    "float_bound": true,
+    "boolean_bound": true,
+    "missing_weight": true,
+    "nan": true,
+    "infinity": true,
+    "weight_toward_infinity": true,
+    "soft_rows_[-1]": true,
+    "soft_rows_[2]": true,
+    "soft_rows_[True]": true,
+    "soft_rows_[0.5]": true,
+    "soft_rows_[1, 1]": true,
+    "soft_rows_without_phase_one": true,
+    "certificate_rhs": true,
+    "certificate_box": true,
+    "certificate_gap": true,
+    "certificate_claim": true,
+    "certificate_width": true,
+    "certificate_denominator": true,
+    "certificate_boolean_width": true,
+    "certificate_float_rhs": true,
+    "certificate_boolean_gap": true,
+    "certificate_duplicate_weight": true,
+    "certificate_wrong_weight": true
+  },
+  "partial_soft_phase": {
+    "lp": {
+      "status": 0,
+      "milliseconds": 0,
+      "phase_one": true,
+      "objective": 1.0,
+      "weights": [
+        -1.0,
+        1.0
+      ]
+    },
+    "certificate": {
+      "denominator": 1000000,
+      "weights": [
+        [
+          0,
+          -1000000
+        ],
+        [
+          1,
+          1000000
+        ]
+      ],
+      "rhs_numerator": 1000000,
+      "box_max_numerator": 0,
+      "gap": [
+        1,
+        1
+      ],
+      "checked_columns": 1,
+      "proves_infeasible": true
+    }
+  },
+  "known_feasible_rational_models": 100,
+  "random_seed": 2026100368
+}

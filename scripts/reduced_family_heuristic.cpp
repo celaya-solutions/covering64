@@ -1,9 +1,9 @@
 // Document:    Joint Reduced Multiplicity-Seven Family Heuristic
-// Version:     v1.2.1
+// Version:     v1.3.0
 // Author:      Celaya Solutions
 // Contact:     hello@celayasolutions.com
 // Date:        2026-10-03
-// SHA256:      5f368df446b7bf7c47bdad1f3a126342561278c7878949f622513e7ea47b03f1
+// SHA256:      03d447aebba525614229137fbda6488cde43d4157603db9fc3867fae576aed4c
 // Chain:       n/a
 // Tx:          [not anchored]
 // License:     All Rights Reserved / Celaya Solutions
@@ -45,7 +45,10 @@ const std::array<Mapping, 2> nearest_pg{{
 }};
 const std::array<std::pair<int, int>, 7> graph{{{0,1},{0,2},{3,4},{5,6},{7,8},{9,10},{11,12}}};
 std::array<std::vector<int>, 8192> triples;
+std::array<std::vector<int>, 8192> pairs;
 std::array<int, 8192> triple_rank;
+std::array<int, 8192> pair_rank;
+std::vector<Mask> pair_masks;
 std::vector<Mask> triple_masks;
 std::vector<Mask> graph_masks;
 std::mt19937_64 rng;
@@ -58,6 +61,11 @@ void require(bool value, const std::string& message) {
 
 void universe() {
     triple_rank.fill(-1);
+    pair_rank.fill(-1);
+    for (int a = 0; a < 13; ++a) for (int b = a + 1; b < 13; ++b) {
+        Mask mask = (1u << a) | (1u << b);
+        pair_rank[mask] = static_cast<int>(pair_masks.size()); pair_masks.push_back(mask);
+    }
     for (int a = 0; a < 13; ++a) for (int b = a + 1; b < 13; ++b)
         for (int c = b + 1; c < 13; ++c) {
             Mask mask = (1u << a) | (1u << b) | (1u << c);
@@ -69,6 +77,8 @@ void universe() {
         if (size != 4 && size != 5) continue;
         for (int t = 0; t < 286; ++t)
             if ((mask & triple_masks[t]) == triple_masks[t]) triples[mask].push_back(t);
+        for (int p = 0; p < 78; ++p)
+            if ((mask & pair_masks[p]) == pair_masks[p]) pairs[mask].push_back(p);
     }
     for (auto [a,b] : graph) graph_masks.push_back((1u << a) | (1u << b));
 }
@@ -123,6 +133,7 @@ struct State {
     std::array<Embedding, 3> embeddings;
     Outside outside;
     std::array<int, 286> counts{}, missing{}, position{};
+    std::array<int, 78> pair_counts{};
     std::array<bool, 8192> selected{};
     int holes = 286;
 
@@ -130,6 +141,7 @@ struct State {
           const std::array<Embedding, 3>& es) : families(fs), embeddings(es), outside(os) {
         std::iota(missing.begin(), missing.end(), 0);
         std::iota(position.begin(), position.end(), 0);
+        for (Mask edge : graph_masks) ++pair_counts[pair_rank[edge]];
         for (const Family& family : families) for (Mask block : family) add(block);
         for (Mask block : outside) {
             require(block < 8192 && __builtin_popcount(block) == 5 && !selected[block],
@@ -138,12 +150,14 @@ struct State {
         }
     }
     void add(Mask block) {
+        for (int p : pairs[block]) ++pair_counts[p];
         for (int t : triples[block]) if (counts[t]++ == 0) {
             int at = position[t], moved = missing[--holes];
             missing[at] = moved; position[moved] = at; position[t] = -1;
         }
     }
     void remove(Mask block) {
+        for (int p : pairs[block]) --pair_counts[p];
         for (int t : triples[block]) if (--counts[t] == 0) {
             position[t] = holes; missing[holes++] = t;
         }
@@ -162,7 +176,8 @@ struct State {
     }
     void audit() const {
         State rebuilt(families, outside, embeddings);
-        require(rebuilt.counts == counts && rebuilt.selected == selected && rebuilt.holes == holes,
+        require(rebuilt.counts == counts && rebuilt.pair_counts == pair_counts &&
+                rebuilt.selected == selected && rebuilt.holes == holes,
                 "incremental coverage mismatch");
         for (int t = 0; t < 286; ++t) {
             require(counts[t] >= 0, "negative coverage");
@@ -327,7 +342,7 @@ void prepare_trades() {
 
 std::vector<int> members(Mask mask) {
     std::vector<int> result;
-    for (int p = 0; p < 13; ++p) if (mask & (1u << p)) result.push_back(p);
+    while (mask) { result.push_back(__builtin_ctz(mask)); mask &= mask - 1; }
     return result;
 }
 
@@ -446,10 +461,46 @@ int row_overflow(const std::array<int, 13>& rows) {
 struct Profile {
     int n6 = 0, n7 = 1, above7 = 0, excess = 0, maximum = 7;
     bool disjoint_five = false, forbidden_five = false;
+    int h6 = 0, heavy_overlap = 0, repeated_point_excess = 0;
+    int repeated_incidence_excess = 0, endpoint_shape_distance = 0;
+    int hub_inside_heavy = 0, hub_collision = 0, internal_pair_deficit = 0;
+    int hub_internal_pair_excess = 0, hub_cross_pair_deviation = 0, generic_pair_deficit = 0;
     int overflow() const { return std::max(0, 3 * n6 + 4 * n7 - 16); }
-    int penalty() const { return overflow() + 5 * excess + static_cast<int>(forbidden_five); }
+    int refined_overflow() const { return std::max(0, 3 * n6 + 4 * n7 + h6 - 16); }
+    int penalty() const {
+        return overflow() + 5 * excess + static_cast<int>(forbidden_five) + heavy_overlap +
+            repeated_point_excess + repeated_incidence_excess + endpoint_shape_distance +
+            hub_inside_heavy + hub_collision + internal_pair_deficit + hub_internal_pair_excess +
+            hub_cross_pair_deviation + refined_overflow() + generic_pair_deficit;
+    }
     bool qualifies() const { return penalty() == 0; }
 };
+
+// Full-label pair counts: pairs touching the fixed anchors are invariant.
+int pair_count(const State& state, int a, int b) {
+    if (a > b) std::swap(a, b);
+    if (b < 3) return 7;
+    if (a < 3) return b == 3 ? 6 : 5;
+    return state.pair_counts[pair_rank[(1u << (a - 3)) | (1u << (b - 3))]];
+}
+
+int endpoint_distance(const std::array<int, 16>& degree, Mask triple, int count) {
+    if (count != 6 && count != 7) return 0; // Multiplicity excess is separately scored.
+    std::array<int, 13> shape{}; int at = 0;
+    for (int p = 0; p < 16; ++p) if (!(triple & (1u << p))) shape[at++] = degree[p];
+    std::sort(shape.begin(), shape.end());
+    const std::array<std::array<int, 13>, 3> six{{
+        {0,1,1,1,1,1,1,1,1,1,1,1,1},
+        {0,0,1,1,1,1,1,1,1,1,1,1,2},
+        {0,0,0,1,1,1,1,1,1,1,1,1,3}}};
+    const std::array<int, 13> seven{1,1,1,1,1,1,1,1,1,1,1,1,2};
+    auto distance = [&](const std::array<int, 13>& target) {
+        int value = 0; for (int p = 0; p < 13; ++p) value += std::abs(shape[p] - target[p]);
+        return value;
+    };
+    if (count == 7) return distance(seven);
+    return std::min({distance(six[0]), distance(six[1]), distance(six[2])});
+}
 
 Profile profile(const State& state) {
     Profile result; std::vector<Mask> heavy;
@@ -473,9 +524,52 @@ Profile profile(const State& state) {
                             state.counts[triple_rank[heavy[b]]] >= 7 ||
                             state.counts[triple_rank[heavy[c]]] >= 7 ||
                             state.counts[triple_rank[heavy[d]]] >= 7) {
-                            result.forbidden_five = true; return result;
+                            result.forbidden_five = true;
                         }
                     }
+    for (int count : state.pair_counts) result.generic_pair_deficit += std::max(0, 5 - count);
+    std::vector<Mask> full_heavy{7u};
+    for (Mask triple : heavy) full_heavy.push_back(triple << 3);
+    for (std::size_t i = 0; i < full_heavy.size(); ++i)
+        for (std::size_t j = i + 1; j < full_heavy.size(); ++j)
+            result.heavy_overlap += __builtin_popcount(full_heavy[i] & full_heavy[j]);
+    std::array<int, 16> hub_uses{};
+    for (Mask triple : full_heavy) {
+        std::array<int, 16> degree{};
+        int count = triple == 7u ? 7 : state.counts[triple_rank[triple >> 3]];
+        if (triple == 7u) {
+            for (Mask edge : graph_masks) for (int p : members(edge)) ++degree[p + 3];
+        } else {
+            Mask local = triple >> 3;
+            for (int slot = 0; slot < 3; ++slot) for (Mask block : state.families[slot])
+                if ((block & local) == local) {
+                    ++degree[slot];
+                    degree[__builtin_ctz(block & ~local) + 3]++;
+                }
+            for (Mask block : state.outside) if ((block & local) == local)
+                for (int p : members(block & ~local)) ++degree[p + 3];
+        }
+        std::vector<int> hubs;
+        for (int p = 0; p < 16; ++p) if (degree[p] > 1) {
+            hubs.push_back(p); ++hub_uses[p];
+            result.repeated_incidence_excess += std::max(0, degree[p] - 3);
+            for (Mask anchor : full_heavy) result.hub_inside_heavy += (anchor & (1u << p)) != 0;
+        }
+        result.h6 += count == 6 && !hubs.empty();
+        result.repeated_point_excess += std::max(0, static_cast<int>(hubs.size()) - 1);
+        result.endpoint_shape_distance += endpoint_distance(degree, triple, count);
+        auto anchors = members(triple);
+        for (int a = 0; a < 3; ++a) {
+            for (int b = a + 1; b < 3; ++b) {
+                int pair = pair_count(state, anchors[a], anchors[b]);
+                result.internal_pair_deficit += std::max(0, 7 - pair);
+                if (!hubs.empty()) result.hub_internal_pair_excess += std::max(0, pair - 7);
+            }
+            for (int hub : hubs)
+                result.hub_cross_pair_deviation += std::abs(pair_count(state, anchors[a], hub) - 6);
+        }
+    }
+    for (int n : hub_uses) result.hub_collision += std::max(0, n - 1);
     return result;
 }
 
@@ -500,6 +594,18 @@ void log_evaluation(const Evaluation& value) {
               << ",\"disjoint_five_heavy\":" << (value.heavy.disjoint_five ? "true" : "false")
               << ",\"forbidden_five_heavy\":" << (value.heavy.forbidden_five ? "true" : "false")
               << ",\"heavy_penalty\":" << value.heavy.penalty()
+              << ",\"h6\":" << value.heavy.h6
+              << ",\"heavy_overlap\":" << value.heavy.heavy_overlap
+              << ",\"repeated_point_excess\":" << value.heavy.repeated_point_excess
+              << ",\"repeated_incidence_excess\":" << value.heavy.repeated_incidence_excess
+              << ",\"endpoint_shape_distance\":" << value.heavy.endpoint_shape_distance
+              << ",\"hub_inside_heavy\":" << value.heavy.hub_inside_heavy
+              << ",\"hub_collision\":" << value.heavy.hub_collision
+              << ",\"internal_pair_deficit\":" << value.heavy.internal_pair_deficit
+              << ",\"hub_internal_pair_excess\":" << value.heavy.hub_internal_pair_excess
+              << ",\"hub_cross_pair_deviation\":" << value.heavy.hub_cross_pair_deviation
+              << ",\"refined_count_overflow\":" << value.heavy.refined_overflow()
+              << ",\"generic_pair_deficit\":" << value.heavy.generic_pair_deficit
               << ",\"passes_heavy_filters\":" << (value.heavy.qualifies() ? "true" : "false")
               << ",\"passes_scored_filters\":" << (value.qualifies() ? "true" : "false");
 }

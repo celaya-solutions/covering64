@@ -1,0 +1,58 @@
+{
+  "scope": "v1.3 frozen native heuristic validation; no cover or impossibility claim",
+  "source_revision": "bcf4fcc1b998d11227cd04145470f2ace79b71e2",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "macOS-27.0-arm64-arm-64bit",
+  "files": {
+    "experiments/scratch/reduced-family-heuristic-20261003/source-v1.3.cpp": "75dde29a73b6c5e2780d972425c69c817a59df1bfed317e3b3cef9e6a10887bd",
+    "experiments/scratch/reduced-family-heuristic-20261003/runner-v1.3.py": "139f51b97bd1df5fac07c53f28f652d5bdde9c4ff10e14174a2b660db54f2ebf",
+    "experiments/scratch/reduced-family-heuristic-20261003/tests-v1.3.py": "f391bab7b93fcd2d67be2b26916fd8e749510ab1ff949af1683aa9267df214ee",
+    "experiments/scratch/reduced-family-heuristic-20261003/checker-v1.3.py": "26401d2b375916422fbba9d084bb39704a74ad616010ace61060ecffe5dc5376",
+    "experiments/scratch/reduced-family-heuristic-20261003/auditor-v1.3.py": "830a28de0206bed4e8431a1ecddb132d5969366b380a59853297cc7715e342a5",
+    "experiments/scratch/reduced-family-heuristic-20261003/search-v1.3": "258122938636910c0cac84f7bd1f6297676468388652b522196dab16d1a4f46f",
+    "experiments/scratch/reduced-family-heuristic-20261003/search-sanitize-v1.3": "c71f5c2b074d654b74df966cc6c12f7726020604cf0e3cb3edef85f37bd8af20",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/full-tests.txt": "3a9f1964343f21f3481f3b8317ba9a4545aa84de686685def46ee8a91205ad1b",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/ruff.txt": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/focused-tests.txt": "5d25d0e8f75a7014cfe08f619d1749eaaddcde3e1d59a9c7ce91b63594c737a8",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/independent-metric-controls.json": "219c806e6ed1aaec927576f2e7b9edfbe083330f6fcf914eb857785a388f7a51",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/draft-checks.json.gz": "d5aea4e3eda242edadf5520cd386fec668af373454556365472514702ce04a12",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/draft-qualified-full-screen.json": "3d8a32a88fd54f0f1d70a049c071f66d32984b946e8983e1605595112fa221de",
+    "experiments/2026-10-03/reduced-family-heuristic/validation-v1.3/graft-build.txt": "51639919f3278ed725a3089213eff8b5d1aa0c420474b550ed47b9cf66e88bbd",
+    "experiments/2026-10-03/reduced-family-heuristic/v1.3-campaign-summary.json": "0a1ca5c0fb1c5f3649b47c411915a842a6bf12c9258a2ca6810d481101a416d0",
+    "docs/reduced-family-heuristic.md": "4afcd565661d9337aa356c7301bd9c039d9d6df84639b04d7c1860823f5926e8"
+  },
+  "compile_commands": [
+    "clang++ -std=c++17 -O3 -o experiments/scratch/reduced-family-heuristic-20261003/search-v1.3 experiments/scratch/reduced-family-heuristic-20261003/source-v1.3.cpp",
+    "clang++ -std=c++17 -O1 -g -fsanitize=address,undefined -fno-omit-frame-pointer -o experiments/scratch/reduced-family-heuristic-20261003/search-sanitize-v1.3 experiments/scratch/reduced-family-heuristic-20261003/source-v1.3.cpp"
+  ],
+  "checks": {
+    "uv sync --frozen": "passed;17packages",
+    "uv run pytest -q": "257passed;10subtests;3dependency deprecation warnings;92.15s",
+    "uv run ruff check .": "passed"
+  },
+  "sanitizer": "sanitizer-v1.3-final-2026100366",
+  "sanitizer_scope": "Final sanitizer binary compiled from exact frozen source. Earlier draft sanitizer preceded a comment-only SHA256 header refresh. Final run is authoritative for exact source provenance.",
+  "initial_focused_failure": "An h6 expectation for historical diverse13 was incorrectly inferred as1; both native and independent recount give0. Corrected fixture expectation and added explicit h6=2/refined_overflow=2 assertion on the real one-seven/four-six control. Full suite passed afterward.",
+  "header_hash_checks": {
+    "scripts/reduced_family_heuristic.cpp": {
+      "sha256": "03d447aebba525614229137fbda6488cde43d4157603db9fc3867fae576aed4c",
+      "canonicalization": "Body following header, omitting separator blank line"
+    },
+    "tests/test_reduced_family_heuristic.py": {
+      "sha256": "e28e9722cbbac6491c7445017fbd9534edc93a402ffade0c6400b3565fe090a5",
+      "canonicalization": "Body following header, omitting separator blank line"
+    },
+    "experiments/2026-10-03/reduced-family-heuristic/run_campaign.py": {
+      "sha256": "bed11125814181818d7f941fc7d0a417aeacc7dec2a8a86667a6768abdb29c6c",
+      "canonicalization": "Body following header, omitting separator blank line"
+    },
+    "experiments/2026-10-03/reduced-family-heuristic/audit_campaign_metrics.py": {
+      "sha256": "b1c557a198a21dd0ecdba15d716b6505b8b3be5f3333bffa8d1b48a5a7343cf3",
+      "canonicalization": "Body following header, including separator blank line"
+    },
+    "docs/reduced-family-heuristic.md": {
+      "sha256": "afe000ed72cb2a13f81e6d6724ebd11ce461fbd00466aa3b5dfa4a1f03fb3ad2",
+      "canonicalization": "Body following header, omitting separator blank line"
+    }
+  }
+}

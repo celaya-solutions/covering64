@@ -1,0 +1,1356 @@
+{
+  "profiles": [
+    {
+      "triple": [
+        1,
+        2,
+        3
+      ],
+      "multiplicity": 7,
+      "outside_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "outside_degrees": {
+        "4": 2,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1
+      },
+      "hubs": [
+        4
+      ]
+    }
+  ],
+  "n6": 0,
+  "n7": 1,
+  "h6": 0,
+  "refined_sum": 4,
+  "filters": {
+    "regular": true,
+    "maximum_seven": true,
+    "heavy_disjoint": true,
+    "link_shapes": true,
+    "distinct_hubs": true,
+    "hubs_outside_heavy": true,
+    "refined_count_bound": true
+  },
+  "passes_explicit_filters": true,
+  "uncovered": [
+    [
+      4,
+      5,
+      9
+    ],
+    [
+      4,
+      5,
+      13
+    ],
+    [
+      4,
+      6,
+      12
+    ],
+    [
+      4,
+      6,
+      13
+    ],
+    [
+      4,
+      7,
+      8
+    ],
+    [
+      4,
+      8,
+      16
+    ],
+    [
+      4,
+      9,
+      14
+    ],
+    [
+      4,
+      10,
+      14
+    ],
+    [
+      5,
+      8,
+      9
+    ],
+    [
+      5,
+      10,
+      15
+    ],
+    [
+      6,
+      8,
+      12
+    ],
+    [
+      6,
+      9,
+      14
+    ],
+    [
+      6,
+      10,
+      16
+    ],
+    [
+      6,
+      15,
+      16
+    ],
+    [
+      7,
+      8,
+      10
+    ],
+    [
+      8,
+      11,
+      12
+    ],
+    [
+      8,
+      12,
+      16
+    ],
+    [
+      9,
+      13,
+      15
+    ],
+    [
+      11,
+      12,
+      13
+    ],
+    [
+      11,
+      12,
+      14
+    ],
+    [
+      14,
+      15,
+      16
+    ]
+  ],
+  "complete": true,
+  "candidate": "experiments/2026-10-03/reduced-family-heuristic/full-penalty-2026100366/search-qualifying_improvement-22-h21.txt",
+  "candidate_sha256": "79770be9d14e6132f1ad3a65301698dab6a9242f4abbf92dc365b927e30ea2c9",
+  "package": {
+    "v": 16,
+    "k": 5,
+    "t": 3,
+    "valid": false,
+    "blocks": 64,
+    "triples": 560,
+    "covered": 539,
+    "uncovered": [
+      [
+        4,
+        5,
+        9
+      ],
+      [
+        4,
+        5,
+        13
+      ],
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        13
+      ],
+      [
+        4,
+        7,
+        8
+      ],
+      [
+        4,
+        8,
+        16
+      ],
+      [
+        4,
+        9,
+        14
+      ],
+      [
+        4,
+        10,
+        14
+      ],
+      [
+        5,
+        8,
+        9
+      ],
+      [
+        5,
+        10,
+        15
+      ],
+      [
+        6,
+        8,
+        12
+      ],
+      [
+        6,
+        9,
+        14
+      ],
+      [
+        6,
+        10,
+        16
+      ],
+      [
+        6,
+        15,
+        16
+      ],
+      [
+        7,
+        8,
+        10
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        8,
+        12,
+        16
+      ],
+      [
+        9,
+        13,
+        15
+      ],
+      [
+        11,
+        12,
+        13
+      ],
+      [
+        11,
+        12,
+        14
+      ],
+      [
+        14,
+        15,
+        16
+      ]
+    ],
+    "multiplicities": {
+      "0": 21,
+      "1": 452,
+      "2": 78,
+      "3": 7,
+      "4": 1,
+      "7": 1
+    },
+    "total_incidences": 640,
+    "replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "pair_multiplicities": {
+      "5": 86,
+      "6": 28,
+      "7": 6
+    },
+    "canonical_sha256": "79770be9d14e6132f1ad3a65301698dab6a9242f4abbf92dc365b927e30ea2c9"
+  },
+  "standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "79770be9d14e6132f1ad3a65301698dab6a9242f4abbf92dc365b927e30ea2c9",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 21,
+      "1": 452,
+      "2": 78,
+      "3": 7,
+      "4": 1,
+      "7": 1
+    },
+    "covered_subsets": 539,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "required_subsets": 560,
+    "source_sha256": "79770be9d14e6132f1ad3a65301698dab6a9242f4abbf92dc365b927e30ea2c9",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        4,
+        5,
+        9
+      ],
+      [
+        4,
+        5,
+        13
+      ],
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        13
+      ],
+      [
+        4,
+        7,
+        8
+      ],
+      [
+        4,
+        8,
+        16
+      ],
+      [
+        4,
+        9,
+        14
+      ],
+      [
+        4,
+        10,
+        14
+      ],
+      [
+        5,
+        8,
+        9
+      ],
+      [
+        5,
+        10,
+        15
+      ],
+      [
+        6,
+        8,
+        12
+      ],
+      [
+        6,
+        9,
+        14
+      ],
+      [
+        6,
+        10,
+        16
+      ],
+      [
+        6,
+        15,
+        16
+      ],
+      [
+        7,
+        8,
+        10
+      ],
+      [
+        8,
+        11,
+        12
+      ],
+      [
+        8,
+        12,
+        16
+      ],
+      [
+        9,
+        13,
+        15
+      ],
+      [
+        11,
+        12,
+        13
+      ],
+      [
+        11,
+        12,
+        14
+      ],
+      [
+        14,
+        15,
+        16
+      ]
+    ],
+    "uncovered_count": 21,
+    "valid": false
+  },
+  "pair_multiplicities": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "multiplicity": 7
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "multiplicity": 7
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        6
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        7
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        8
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        9
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        1,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "multiplicity": 7
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        6
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        8
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        9
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        2,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        6
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        7
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        8
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        9
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        3,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        6
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        4,
+        7
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        8
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        10
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        4,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        4,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        6
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        8
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        5,
+        9
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        11
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        5,
+        12
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        5,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        5,
+        16
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        6,
+        7
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        6,
+        8
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        6,
+        9
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        6,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        6,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        6,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        6,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        6,
+        14
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        6,
+        15
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        6,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        7,
+        8
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        7,
+        9
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        7,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        7,
+        11
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        7,
+        12
+      ],
+      "multiplicity": 7
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        7,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        7,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        7,
+        16
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        8,
+        9
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        8,
+        10
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        8,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        8,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        8,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        8,
+        14
+      ],
+      "multiplicity": 7
+    },
+    {
+      "pair": [
+        8,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        8,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        9,
+        10
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        9,
+        11
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        9,
+        12
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        9,
+        13
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        9,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        9,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        9,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        10,
+        11
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        10,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        10,
+        13
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        10,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        10,
+        15
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        10,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        11,
+        12
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        11,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        11,
+        15
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        11,
+        16
+      ],
+      "multiplicity": 7
+    },
+    {
+      "pair": [
+        12,
+        13
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        12,
+        14
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        12,
+        15
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        12,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        13,
+        14
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        13,
+        15
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        13,
+        16
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        14,
+        15
+      ],
+      "multiplicity": 6
+    },
+    {
+      "pair": [
+        14,
+        16
+      ],
+      "multiplicity": 5
+    },
+    {
+      "pair": [
+        15,
+        16
+      ],
+      "multiplicity": 5
+    }
+  ],
+  "pairs_below_five": [],
+  "heavy_internal_pair_deficits": [],
+  "repeated_hub_cross_pair_deficits": [],
+  "hubs_in_heavy_triples": [],
+  "local_family_pair_row_bounds": {
+    "4": 24,
+    "5": 24,
+    "6": 25,
+    "7": 24,
+    "8": 24,
+    "9": 24,
+    "10": 24,
+    "11": 25,
+    "12": 25,
+    "13": 24,
+    "14": 24,
+    "15": 25,
+    "16": 26
+  },
+  "local_family_pair_row_overflow": 0,
+  "passes_full_cover_pair_lower_bounds": true,
+  "checker_sha256": "96819f8b4b99a1ec5f451811a6e4a933ee622690acc50f0b8cd14a6ce18ed202",
+  "utility_sha256": "2dc1021f447ab72fb74823431c020916c70444b89548e25d735f090849530b8b",
+  "verifier_source_hashes": {
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950"
+  },
+  "scope": "Raw partial-candidate diagnostics; passing listed filters is not a cover or a completeness claim."
+}

@@ -1,0 +1,79 @@
+{
+  "valid": true,
+  "retained": 44,
+  "deficient_triples": 171,
+  "candidate_columns": 1365,
+  "positive_weights": 70,
+  "maximum_column_numerator": 54,
+  "numerator": 1161,
+  "denominator": 54,
+  "lower_bound": [
+    43,
+    2
+  ],
+  "addition_budget": 20,
+  "original_seed_missing": [
+    [
+      4,
+      5,
+      12
+    ],
+    [
+      4,
+      6,
+      12
+    ],
+    [
+      4,
+      12,
+      15
+    ],
+    [
+      5,
+      7,
+      12
+    ],
+    [
+      6,
+      7,
+      12
+    ],
+    [
+      7,
+      12,
+      15
+    ]
+  ],
+  "archive_sha256": "95413306da7f0230b562f8d513566643d8fd00477bfd79aff6816195c14b9c6b",
+  "checker_sha256": "f7f0141f29dc2cfb0d16029c9d5378ec837c3259a0ca41076c404a0ceb424d37",
+  "seed_sha256": "ecd5b6e0bab73c12d9581ea6f7a414b53006756813765fc8d774b840e03f388e",
+  "dual_sha256": "1c2fca6e21739fa94ef0586ad3f1ab530f93471ad3ee6156d422d150473f6566",
+  "damaged_controls": [
+    {
+      "control": "negative weight",
+      "rejected": true
+    },
+    {
+      "control": "overloaded column",
+      "rejected": true
+    },
+    {
+      "control": "duplicate weight",
+      "rejected": true
+    },
+    {
+      "control": "wrong bound",
+      "rejected": true
+    },
+    {
+      "control": "wrong budget",
+      "rejected": true
+    },
+    {
+      "control": "zero denominator",
+      "rejected": true
+    }
+  ],
+  "method": "Enumerate all 16-bit masks by population count; exact integer subset loads.",
+  "scope": "Retain the 44 seed blocks avoiding point 12, and require every added block to contain point 12. This excludes that repair neighborhood only, not every completion retaining those 44 blocks."
+}

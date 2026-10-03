@@ -1,0 +1,106 @@
+{
+  "scope": "Only the archived fixed-link branches; no cover or global bound claim.",
+  "checker_sha256": "c8a271493fdba33dc63c438172d074eef73207b933f0e787bad4b424e524b529",
+  "metadata_sha256": "2fb6811473df8a38f00d209706fb64e427084b65df0bb9e76fc582be6d87ad29",
+  "results_sha256": "48527c7c384c47b12ec1d42f2e307c830dd1b99cb107f68cfcc0614b291665d3",
+  "records": 10,
+  "excluded": 6,
+  "checks": [
+    {
+      "case": "cycle",
+      "id": "cycle-000",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-001",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-002",
+      "gap": [
+        27033,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 4277,
+      "columns": 4768,
+      "nonzero_weights": 1908
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-003",
+      "gap": [
+        68621,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 4277,
+      "columns": 4768,
+      "nonzero_weights": 2059
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-004",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-000",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-001",
+      "gap": [
+        40431,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 4277,
+      "columns": 4768,
+      "nonzero_weights": 1434
+    },
+    {
+      "case": "matching",
+      "id": "matching-002",
+      "gap": [
+        778619,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 4277,
+      "columns": 4768,
+      "nonzero_weights": 2199
+    },
+    {
+      "case": "matching",
+      "id": "matching-003",
+      "gap": [
+        158933,
+        200000
+      ],
+      "proves_infeasible": true,
+      "rows": 4277,
+      "columns": 4768,
+      "nonzero_weights": 2177
+    },
+    {
+      "case": "matching",
+      "id": "matching-004",
+      "gap": [
+        51663,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 4277,
+      "columns": 4768,
+      "nonzero_weights": 2588
+    }
+  ]
+}

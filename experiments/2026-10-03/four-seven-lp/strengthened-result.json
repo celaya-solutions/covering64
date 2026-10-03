@@ -1,0 +1,69 @@
+{
+  "cycle": {
+    "application": {
+      "case": "cycle",
+      "new_variables": 400,
+      "new_rows": 677,
+      "eligible_triples": 400,
+      "fixed_double_triples": 12,
+      "fixed_single_triples": 144,
+      "pair_rows": 120,
+      "scope": "Only normalized regular full four-sevenfold covers."
+    },
+    "numeric_lp": {
+      "status": 0,
+      "seconds": 0.15549612510949373,
+      "variables": 4768,
+      "rows": 4270,
+      "iterations": 700,
+      "solver_version": "Glop solver v9.15.6755",
+      "parameters": "primal_feasibility_tolerance: 1e-9\ndual_feasibility_tolerance: 1e-9\n",
+      "exact_rational_witness": false
+    },
+    "preserved_witness_exactly_extended": true,
+    "exact_rows_checked": 4270,
+    "exact_domains_checked": 4768,
+    "fixed_triples_checked": 156,
+    "double_values_checked": 400,
+    "double_value_sum": "44",
+    "damaged_auxiliary_rejected": true,
+    "model_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9",
+    "double_values_sha256": "a98962d9a2dec6dd73bc9dc6c7df0ba4e487058171960c34b528ffc13f103b10"
+  },
+  "matching": {
+    "application": {
+      "case": "matching",
+      "new_variables": 400,
+      "new_rows": 677,
+      "eligible_triples": 400,
+      "fixed_double_triples": 12,
+      "fixed_single_triples": 144,
+      "pair_rows": 120,
+      "scope": "Only normalized regular full four-sevenfold covers."
+    },
+    "numeric_lp": {
+      "status": 0,
+      "seconds": 0.1453309589996934,
+      "variables": 4768,
+      "rows": 4270,
+      "iterations": 691,
+      "solver_version": "Glop solver v9.15.6755",
+      "parameters": "primal_feasibility_tolerance: 1e-9\ndual_feasibility_tolerance: 1e-9\n",
+      "exact_rational_witness": false
+    },
+    "preserved_witness_exactly_extended": true,
+    "exact_rows_checked": 4270,
+    "exact_domains_checked": 4768,
+    "fixed_triples_checked": 156,
+    "double_values_checked": 400,
+    "double_value_sum": "44",
+    "damaged_auxiliary_rejected": true,
+    "model_sha256": "5f85a1cd9caa86742892e44c0632df0c99c0409bc3e69d0905e4924a08116b84",
+    "double_values_sha256": "b9365801f3d9ad25a51b5adde53799826e19c9df9529182aa8517fbaff2de05c"
+  },
+  "sources": {
+    "helper_sha256": "53bf585e992373b0c940fe61d9a111407f25f0c57c0f452572db886afd06bdaa",
+    "checker_sha256": "b790ed9a2ae2fb9887770ef76892228c564c7548ebc8a2979602e5096bba7ec0",
+    "integer_row_checker_sha256": "4d1ba598b8090513467018775e9eb217d2db73c6a186f30fac25624fb6175f03"
+  }
+}

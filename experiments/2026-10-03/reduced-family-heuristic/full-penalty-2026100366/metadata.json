@@ -1,0 +1,93 @@
+{
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/reduced-family-heuristic-20261003/search-v1.3",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/penalty-2026100363/search-qualifying_improvement-21-h13.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/pg.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/r4.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/r6.txt",
+    "2026100366",
+    "600.0",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/full-penalty-2026100366/search",
+    "1.0",
+    "2.0"
+  ],
+  "seed": 2026100366,
+  "budget_seconds": 600.0,
+  "search_processes": 1,
+  "source_hashes": {
+    "scripts/reduced_family_heuristic.cpp": "75dde29a73b6c5e2780d972425c69c817a59df1bfed317e3b3cef9e6a10887bd",
+    "scripts/verify_reduced_family_heuristic.py": "26401d2b375916422fbba9d084bb39704a74ad616010ace61060ecffe5dc5376",
+    "experiments/2026-10-03/reduced-family-heuristic/run_campaign.py": "139f51b97bd1df5fac07c53f28f652d5bdde9c4ff10e14174a2b660db54f2ebf"
+  },
+  "input_hashes": {
+    "search-qualifying_improvement-21-h13.txt": "95047e6f69ba507ccfee3c4cb0ccb809e78ed232d5178453d403e9b71293c765",
+    "pg.txt": "7c13d8393905a76cecf3299a8866ffad6cc7f916c8c995a062b371dc12c84136",
+    "r4.txt": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+    "r6.txt": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a"
+  },
+  "binary_sha256": "258122938636910c0cac84f7bd1f6297676468388652b522196dab16d1a4f46f",
+  "trade_artifact_sha256": "f88605772ee8165b8a1939aecb268599f590a6072fff2205b6d7c054ec52c114",
+  "source_revision": "bcf4fcc1b998d11227cd04145470f2ace79b71e2",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-03T23:08:27.166603+00:00",
+  "scope": "Bounded reduced-family heuristic; no impossibility claim",
+  "moves": "65% outside swaps;20% compatible family maps;5% fresh PG/r4/r6 families;10% four/six-block PG trades. Fresh families and trades each receive64 greedy targeted outside repair proposals",
+  "diversity": "At most8 additional states per hole count, within best score+1 when saved, with block-set distance at least4 from the live reservoir. Half of periodic restarts sample that bounded reservoir",
+  "progress_interval_seconds": 45,
+  "heavy_penalty_weight": 1.0,
+  "family_penalty_weight": 2.0,
+  "score_version": "1.3",
+  "score": "holes + heavy_weight*(old heavy penalty + heavy_overlap + repeated_point_excess + repeated_incidence_excess + endpoint_shape_distance + hub_inside_heavy + hub_collision + internal_pair_deficit + hub_internal_pair_excess + hub_cross_pair_deviation + refined_count_overflow + generic_pair_deficit) + family_weight*sum(pair_row_overflow)",
+  "qualification": "Heavy: all documented v1.3 heavy/hub and generic pair penalties zero. Scored filters additionally require zero fixed-family pair-row overflow. Passing these necessary checks does not prove completion or completability",
+  "hub_diagnostics": "Legacy sevenfold diagnostic is retained separately. Expanded heavy/hub necessities contribute to score and qualification through their explicit penalty fields",
+  "exit": 0,
+  "wall_seconds": 603.1617599170422,
+  "finish": {
+    "event": "finish",
+    "seed": 2026100366,
+    "budget_seconds": 600,
+    "seconds": 600,
+    "proposals": 230489810,
+    "best_holes": 5,
+    "best_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/full-penalty-2026100366/search-improvement-24-h5.txt",
+    "best_score": 11,
+    "best_score_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/full-penalty-2026100366/search-score_improvement-25-h6.txt",
+    "best_heavy_qualifying_holes": 20,
+    "best_heavy_qualifying_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/full-penalty-2026100366/search-heavy_qualifying_improvement-26-h20.txt",
+    "best_qualifying_holes": 20,
+    "best_qualifying_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/full-penalty-2026100366/search-qualifying_improvement-27-h20.txt",
+    "heavy_penalty_weight": 1,
+    "family_penalty_weight": 2,
+    "improvements": 2,
+    "restarts": 230,
+    "repair_proposals": 1395317376,
+    "repair_accepted": 70290566,
+    "rollback_audits": 4,
+    "pg_automorphisms": 5616,
+    "diverse_saved": 1,
+    "reservoir_size": 1,
+    "trades_by_size": [
+      8386882,
+      1890612
+    ],
+    "applied_by_mode": [
+      62587889,
+      40352250,
+      11524340,
+      10277494
+    ],
+    "accepted_by_mode": [
+      12691338,
+      4468982,
+      857389,
+      2833360
+    ],
+    "status": "INCONCLUSIVE"
+  },
+  "snapshot_count": 29,
+  "valid_covers": 0,
+  "candidate_checks_sha256": "f5a4846cdbfc62b157a02810b267fcee7473346db33a405357d01f3702ca9da8",
+  "stdout_sha256": "4f4e2d6ed00ea20f1da0fd2e01e715a4f4d8dccf100216bca539a847b96ae491",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

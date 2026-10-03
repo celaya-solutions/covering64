@@ -1,0 +1,28 @@
+{
+  "scope": "Damage controls on one actual positive fixed-link certificate; no builder/solver calls.",
+  "case": "cycle",
+  "id": "cycle-002",
+  "checked": {
+    "gap": [
+      27033,
+      250000
+    ],
+    "proves_infeasible": true,
+    "rows": 4277,
+    "columns": 4768,
+    "nonzero_weights": 1908
+  },
+  "damaged_controls": {
+    "rhs": true,
+    "box": true,
+    "gap": true,
+    "width": true,
+    "denominator": true,
+    "missing_weight": true,
+    "opposite_weight": true,
+    "duplicate_weight": true,
+    "float_rhs": true
+  },
+  "checker_sha256": "35099ca38db73c5d94709a07efba6d929b42562e738506f5d344a1499aa9ce63",
+  "results_sha256": "f96c156276584f72e6134aa2cd6a68cc81d1c0f1164f3cc205f240720cae4207"
+}

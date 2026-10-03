@@ -1,0 +1,53 @@
+.......F....                                                             [100%]
+=================================== FAILURES ===================================
+_ test_native_family_moves_and_rollbacks[1-2-../strong-penalty-2026100365/search-diverse-13-h13.txt] _
+
+tmp_path = PosixPath('/private/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/pytest-of-chriscelaya/pytest-836/test_native_family_moves_and_r6')
+heavy_weight = 1, family_weight = 2
+seed_name = '../strong-penalty-2026100365/search-diverse-13-h13.txt'
+
+    @pytest.mark.parametrize(("heavy_weight", "family_weight", "seed_name"), [
+        (0, 0, "seed27.txt"), (1, 2, "seed27.txt"), (1, 2, "multiplicity8-control.txt"),
+        (1, 2, "one-seven-four-six-control.txt"),
+        (1, 2, "hub-collision-control.txt"),
+        (1, 2, "../penalty-2026100363/search-qualifying_improvement-21-h13.txt"),
+        (1, 2, "../strong-penalty-2026100365/search-diverse-13-h13.txt"),
+    ])
+    def test_native_family_moves_and_rollbacks(tmp_path, heavy_weight, family_weight, seed_name):
+        compiler = shutil.which("clang++")
+        if compiler is None:
+            pytest.skip("C++ compiler unavailable")
+        binary = tmp_path / "search"
+        compiled = subprocess.run([compiler, "-std=c++17", "-O2", "-o", str(binary),
+                                   str(ROOT / "scripts/reduced_family_heuristic.cpp")],
+                                  capture_output=True, text=True)
+        assert compiled.returncode == 0, compiled.stderr
+        inputs = START.parent
+        command = [str(binary), str(inputs / seed_name), *(str(inputs / f"{kind}.txt")
+                   for kind in ["pg", "r4", "r6"]), "2026100361", "0.2", str(tmp_path / "control"),
+                   str(heavy_weight), str(family_weight)]
+        process = subprocess.run(command, capture_output=True, text=True)
+        assert process.returncode == 0, process.stderr
+        events = [json.loads(row) for row in process.stdout.splitlines()]
+        if seed_name == "multiplicity8-control.txt":
+            assert events[0]["max_triple_multiplicity"] == 8
+            assert events[0]["passes_heavy_filters"] is False
+            assert events[0]["heavy_penalty"] >= 5
+        if seed_name == "one-seven-four-six-control.txt":
+            assert events[0]["disjoint_five_heavy"] is True
+            assert events[0]["forbidden_five_heavy"] is False
+            assert events[0]["heavy_count_overflow"] == 0
+        if seed_name == "hub-collision-control.txt":
+            assert events[0]["hub_collision"] > 0
+        if seed_name.endswith("search-qualifying_improvement-21-h13.txt"):
+            assert events[0]["hub_inside_heavy"] > 0
+            assert events[0]["internal_pair_deficit"] > 0
+            assert events[0]["generic_pair_deficit"] > 0
+        if seed_name.endswith("search-diverse-13-h13.txt"):
+>           assert events[0]["h6"] == 1
+E           assert 0 == 1
+
+tests/test_reduced_family_heuristic.py:76: AssertionError
+=========================== short test summary info ============================
+FAILED tests/test_reduced_family_heuristic.py::test_native_family_moves_and_rollbacks[1-2-../strong-penalty-2026100365/search-diverse-13-h13.txt]
+1 failed, 11 passed in 31.51s

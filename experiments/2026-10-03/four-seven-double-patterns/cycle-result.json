@@ -1,0 +1,12 @@
+{
+  "status": "OPTIMAL",
+  "seconds": 0.045085,
+  "response_stats": "CpSolverResponse summary:\nstatus: OPTIMAL\nobjective: NA\nbest_bound: NA\nintegers: 172\nbooleans: 384\nconflicts: 209\nbranches: 6487\npropagations: 56352\ninteger_propagations: 17950\nrestarts: 4\nlp_iterations: 1455\nwalltime: 0.045085\nusertime: 0.045085\ndeterministic_time: 0.0371976\ngap_integral: 0\nsolution_fingerprint: 0x4b3885804e1c5ee5\n",
+  "integer_pattern_found": true,
+  "witness_sha256": "e67a43f18f3812480f1dede6b37fb33c70da70bf812563305b8a4d582cbfe196",
+  "checker_sha256": "a5a7fe136c2a3382cad4174c8ef8ac281c57cf2cee5f0d0112739ce921acf931",
+  "solver_log_sha256": "11bc0c05eb3b90ea6fdcb1d2c699baac555b3127b6b15ab9bf8a47e0fdedd01a",
+  "result_provenance": "Reconstructed from the saved solver log after the original post-solve checker failed its arithmetic identity. The corrected v1.0.1 checker separately verified this unchanged witness.",
+  "check_report_sha256": "39272e4e6197e3b51a8a13e4f1f0064cfca359f93833d509cfef169f993c51c5",
+  "scope": "Necessary integer double-triple system only; not a 64-block cover."
+}

@@ -1,0 +1,149 @@
+{
+  "complete": true,
+  "checker_sha256": "42f3ea836dca8d74ab841c4e99632cc3ea88c1bc41cdfe7a16726bbd06a7a682",
+  "source_snapshot_sha256": "2ec81082bfea604fe1ca9c25fbaa966b98c0edde43834e1600c093060556c2fa",
+  "archive_sha256": "3ea74028d4cb7c5bac4b48121acee05802c85f2ff5c417fecab8b0036cdb3dda",
+  "metadata_sha256": "70e596f5ccd3dc93a5441235761b1b6341de3b41546eab5c6ff21993b3413231",
+  "inclusion_exclusion_terms": [
+    62370,
+    -42525,
+    11340,
+    -1215
+  ],
+  "unfiltered_degree_patterns": 62370,
+  "cases": [
+    {
+      "case": "cycle",
+      "complete": true,
+      "labeled_families": 29970,
+      "independent_orbits": 129,
+      "explicit_maps_checked": 29970,
+      "group_order": 432,
+      "hub_stabilizer": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ]
+      ],
+      "pair_targets_checked_per_permutation": 120,
+      "orbit_size_counts": {
+        "18": 1,
+        "36": 5,
+        "54": 2,
+        "72": 4,
+        "108": 20,
+        "216": 68,
+        "432": 29
+      },
+      "damaged_controls": [
+        {
+          "control": "repeated endpoint",
+          "rejected": true
+        },
+        {
+          "control": "mapping moves first anchor group",
+          "rejected": true
+        },
+        {
+          "control": "missing family",
+          "rejected": true
+        },
+        {
+          "control": "duplicate family",
+          "rejected": true
+        },
+        {
+          "control": "missing orbit",
+          "rejected": true
+        },
+        {
+          "control": "valid permutation with wrong image",
+          "rejected": true
+        },
+        {
+          "control": "incorrect completeness count",
+          "rejected": true
+        },
+        {
+          "control": "incorrect size histogram",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "complete": true,
+      "labeled_families": 29970,
+      "independent_orbits": 129,
+      "explicit_maps_checked": 29970,
+      "group_order": 432,
+      "hub_stabilizer": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ]
+      ],
+      "pair_targets_checked_per_permutation": 120,
+      "orbit_size_counts": {
+        "18": 1,
+        "36": 5,
+        "54": 2,
+        "72": 4,
+        "108": 20,
+        "216": 68,
+        "432": 29
+      },
+      "damaged_controls": [
+        {
+          "control": "repeated endpoint",
+          "rejected": true
+        },
+        {
+          "control": "mapping moves first anchor group",
+          "rejected": true
+        },
+        {
+          "control": "missing family",
+          "rejected": true
+        },
+        {
+          "control": "duplicate family",
+          "rejected": true
+        },
+        {
+          "control": "missing orbit",
+          "rejected": true
+        },
+        {
+          "control": "valid permutation with wrong image",
+          "rejected": true
+        },
+        {
+          "control": "incorrect completeness count",
+          "rejected": true
+        },
+        {
+          "control": "incorrect size histogram",
+          "rejected": true
+        }
+      ]
+    }
+  ],
+  "scope": "Complete label quotient of first heavy links in the regular four-sevenfold branch. No cover invariance is assumed; no covering existence or nonexistence claim."
+}

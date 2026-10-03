@@ -1,0 +1,100 @@
+{
+  "complete": true,
+  "cases": {
+    "cycle": {
+      "complete": true,
+      "variables": 4768,
+      "constraints": 4270,
+      "added_variables": 400,
+      "added_rows": 677,
+      "full_prior_proto_preserved": true,
+      "all_677_rows_independently_reconstructed": true,
+      "all_4768_relaxed_variable_bounds_checked": true,
+      "all_4270_rows_checked_with_exact_fractions": true,
+      "all_400_double_values_independently_derived": true,
+      "fixed_single_triples": 144,
+      "fixed_double_triples": 12,
+      "zero_pair_rows": 12,
+      "double_weight": "44",
+      "integral_assignment": false,
+      "model_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9",
+      "witness_sha256": "6d108ec7e758a2e4664a85d6dc93bb561aa83c6827d3a40695d3abaabf478558",
+      "double_values_sha256": "a98962d9a2dec6dd73bc9dc6c7df0ba4e487058171960c34b528ffc13f103b10",
+      "damaged_controls": [
+        {
+          "control": "wrong double link",
+          "rejected": true
+        },
+        {
+          "control": "wrong fixed triple",
+          "rejected": true
+        },
+        {
+          "control": "wrong total doubles",
+          "rejected": true
+        },
+        {
+          "control": "wrong pair demand",
+          "rejected": true
+        },
+        {
+          "control": "missing pair row",
+          "rejected": true
+        },
+        {
+          "control": "corrupt fractional double",
+          "rejected": true
+        }
+      ]
+    },
+    "matching": {
+      "complete": true,
+      "variables": 4768,
+      "constraints": 4270,
+      "added_variables": 400,
+      "added_rows": 677,
+      "full_prior_proto_preserved": true,
+      "all_677_rows_independently_reconstructed": true,
+      "all_4768_relaxed_variable_bounds_checked": true,
+      "all_4270_rows_checked_with_exact_fractions": true,
+      "all_400_double_values_independently_derived": true,
+      "fixed_single_triples": 144,
+      "fixed_double_triples": 12,
+      "zero_pair_rows": 12,
+      "double_weight": "44",
+      "integral_assignment": false,
+      "model_sha256": "5f85a1cd9caa86742892e44c0632df0c99c0409bc3e69d0905e4924a08116b84",
+      "witness_sha256": "88c5191c35af541ec37dc44e95833c6fa905c3084a87201ddaf13f223cd4409f",
+      "double_values_sha256": "b9365801f3d9ad25a51b5adde53799826e19c9df9529182aa8517fbaff2de05c",
+      "damaged_controls": [
+        {
+          "control": "wrong double link",
+          "rejected": true
+        },
+        {
+          "control": "wrong fixed triple",
+          "rejected": true
+        },
+        {
+          "control": "wrong total doubles",
+          "rejected": true
+        },
+        {
+          "control": "wrong pair demand",
+          "rejected": true
+        },
+        {
+          "control": "missing pair row",
+          "rejected": true
+        },
+        {
+          "control": "corrupt fractional double",
+          "rejected": true
+        }
+      ]
+    }
+  },
+  "checker_sha256": "1bb9a2eb12725f0df7f284974679aa45f11cb55715926627c3d3f620fa8f68d5",
+  "independent_base_audit_sha256": "15f1722ea815c0138f6e2b5ebb6dea3a804b53d5127a443d5d82d1e9a469598e",
+  "scope": "Valid integer full-cover lift; exact fractional feasibility does not give an integer cover."
+}
