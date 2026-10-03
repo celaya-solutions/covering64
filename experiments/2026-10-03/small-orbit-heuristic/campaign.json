@@ -1,0 +1,420 @@
+{
+  "document_header": {
+    "Document": "Small Semiregular Orbit Tabu Pilot",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "45d37d197628c666c68cb369377b3193b31fc1d87e7d110255c5c546793f53cb",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Heuristic samples in four specified symmetry families; failure is inconclusive",
+    "build": {
+      "command": [
+        "c++",
+        "-std=c++17",
+        "-O3",
+        "-DNDEBUG",
+        "scripts/orbit_tabu_search.cpp",
+        "-o",
+        "experiments/scratch/orbit-tabu-20261003/orbit-tabu"
+      ],
+      "exit": 0,
+      "stderr": "",
+      "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+      "source_sha256": "4c571faae5e82a7d4bc59154e71d3f9dbc0d1e406f58e64ebaa0095cda233e80",
+      "source_revision": "d57346da01d6f8afbd65dee0981dddc97ceea27d"
+    },
+    "sanitizer_controls": {
+      "compile_command": [
+        "c++",
+        "-std=c++17",
+        "-O1",
+        "-g",
+        "-fsanitize=address,undefined",
+        "scripts/orbit_tabu_search.cpp",
+        "-o",
+        "experiments/scratch/orbit-tabu-20261003/orbit-tabu-sanitize"
+      ],
+      "checks": [
+        {
+          "command": [
+            "experiments/scratch/orbit-tabu-20261003/orbit-tabu-sanitize",
+            "C4",
+            "2026100304",
+            "0.25",
+            "experiments/scratch/orbit-tabu-20261003/C4-sanitizer"
+          ],
+          "exit": 0,
+          "stdout": "{\"event\":\"start\",\"family\":\"C4\",\"seed\":2026100304,\"seconds_budget\":0.25,\"block_orbits\":1092,\"triple_orbits\":140,\"selected_orbits\":16}\n{\"event\":\"best\",\"family\":\"C4\",\"deficit\":36,\"iterations\":0,\"seconds\":0.00217021,\"path\":\"experiments/scratch/orbit-tabu-20261003/C4-sanitizer-deficit-36.txt\"}\n{\"event\":\"best\",\"family\":\"C4\",\"deficit\":32,\"iterations\":2,\"seconds\":0.00334492,\"path\":\"experiments/scratch/orbit-tabu-20261003/C4-sanitizer-deficit-32.txt\"}\n{\"event\":\"best\",\"family\":\"C4\",\"deficit\":28,\"iterations\":11,\"seconds\":0.00754583,\"path\":\"experiments/scratch/orbit-tabu-20261003/C4-sanitizer-deficit-28.txt\"}\n{\"event\":\"best\",\"family\":\"C4\",\"deficit\":24,\"iterations\":93,\"seconds\":0.0435922,\"path\":\"experiments/scratch/orbit-tabu-20261003/C4-sanitizer-deficit-24.txt\"}\n{\"event\":\"best\",\"family\":\"C4\",\"deficit\":20,\"iterations\":501,\"seconds\":0.225487,\"path\":\"experiments/scratch/orbit-tabu-20261003/C4-sanitizer-deficit-20.txt\"}\n{\"event\":\"finish\",\"family\":\"C4\",\"seed\":2026100304,\"best_deficit\":20,\"iterations\":559,\"moves\":559,\"restarts\":1,\"seconds\":0.253743,\"status\":\"INCONCLUSIVE\"}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "experiments/scratch/orbit-tabu-20261003/orbit-tabu-sanitize",
+            "C8",
+            "2026100304",
+            "0.25",
+            "experiments/scratch/orbit-tabu-20261003/C8-sanitizer"
+          ],
+          "exit": 0,
+          "stdout": "{\"event\":\"start\",\"family\":\"C8\",\"seed\":2026100304,\"seconds_budget\":0.25,\"block_orbits\":546,\"triple_orbits\":70,\"selected_orbits\":8}\n{\"event\":\"best\",\"family\":\"C8\",\"deficit\":48,\"iterations\":0,\"seconds\":0.000871,\"path\":\"experiments/scratch/orbit-tabu-20261003/C8-sanitizer-deficit-48.txt\"}\n{\"event\":\"best\",\"family\":\"C8\",\"deficit\":32,\"iterations\":1,\"seconds\":0.00137492,\"path\":\"experiments/scratch/orbit-tabu-20261003/C8-sanitizer-deficit-32.txt\"}\n{\"event\":\"best\",\"family\":\"C8\",\"deficit\":24,\"iterations\":37,\"seconds\":0.0061635,\"path\":\"experiments/scratch/orbit-tabu-20261003/C8-sanitizer-deficit-24.txt\"}\n{\"event\":\"best\",\"family\":\"C8\",\"deficit\":16,\"iterations\":104,\"seconds\":0.0155213,\"path\":\"experiments/scratch/orbit-tabu-20261003/C8-sanitizer-deficit-16.txt\"}\n{\"event\":\"finish\",\"family\":\"C8\",\"seed\":2026100304,\"best_deficit\":16,\"iterations\":1967,\"moves\":1967,\"restarts\":1,\"seconds\":0.25066,\"status\":\"INCONCLUSIVE\"}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "experiments/scratch/orbit-tabu-20261003/orbit-tabu-sanitize",
+            "V4",
+            "2026100304",
+            "0.25",
+            "experiments/scratch/orbit-tabu-20261003/V4-sanitizer"
+          ],
+          "exit": 0,
+          "stdout": "{\"event\":\"start\",\"family\":\"V4\",\"seed\":2026100304,\"seconds_budget\":0.25,\"block_orbits\":1092,\"triple_orbits\":140,\"selected_orbits\":16}\n{\"event\":\"best\",\"family\":\"V4\",\"deficit\":44,\"iterations\":0,\"seconds\":0.00213783,\"path\":\"experiments/scratch/orbit-tabu-20261003/V4-sanitizer-deficit-44.txt\"}\n{\"event\":\"best\",\"family\":\"V4\",\"deficit\":40,\"iterations\":1,\"seconds\":0.00339029,\"path\":\"experiments/scratch/orbit-tabu-20261003/V4-sanitizer-deficit-40.txt\"}\n{\"event\":\"best\",\"family\":\"V4\",\"deficit\":36,\"iterations\":3,\"seconds\":0.00448104,\"path\":\"experiments/scratch/orbit-tabu-20261003/V4-sanitizer-deficit-36.txt\"}\n{\"event\":\"best\",\"family\":\"V4\",\"deficit\":32,\"iterations\":4,\"seconds\":0.00513767,\"path\":\"experiments/scratch/orbit-tabu-20261003/V4-sanitizer-deficit-32.txt\"}\n{\"event\":\"best\",\"family\":\"V4\",\"deficit\":28,\"iterations\":8,\"seconds\":0.00751908,\"path\":\"experiments/scratch/orbit-tabu-20261003/V4-sanitizer-deficit-28.txt\"}\n{\"event\":\"finish\",\"family\":\"V4\",\"seed\":2026100304,\"best_deficit\":28,\"iterations\":543,\"moves\":543,\"restarts\":1,\"seconds\":0.253238,\"status\":\"INCONCLUSIVE\"}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "experiments/scratch/orbit-tabu-20261003/orbit-tabu-sanitize",
+            "V8",
+            "2026100304",
+            "0.25",
+            "experiments/scratch/orbit-tabu-20261003/V8-sanitizer"
+          ],
+          "exit": 0,
+          "stdout": "{\"event\":\"start\",\"family\":\"V8\",\"seed\":2026100304,\"seconds_budget\":0.25,\"block_orbits\":546,\"triple_orbits\":70,\"selected_orbits\":8}\n{\"event\":\"best\",\"family\":\"V8\",\"deficit\":56,\"iterations\":0,\"seconds\":0.000880375,\"path\":\"experiments/scratch/orbit-tabu-20261003/V8-sanitizer-deficit-56.txt\"}\n{\"event\":\"best\",\"family\":\"V8\",\"deficit\":48,\"iterations\":1,\"seconds\":0.00152108,\"path\":\"experiments/scratch/orbit-tabu-20261003/V8-sanitizer-deficit-48.txt\"}\n{\"event\":\"best\",\"family\":\"V8\",\"deficit\":40,\"iterations\":4,\"seconds\":0.00231687,\"path\":\"experiments/scratch/orbit-tabu-20261003/V8-sanitizer-deficit-40.txt\"}\n{\"event\":\"best\",\"family\":\"V8\",\"deficit\":32,\"iterations\":14,\"seconds\":0.00423358,\"path\":\"experiments/scratch/orbit-tabu-20261003/V8-sanitizer-deficit-32.txt\"}\n{\"event\":\"best\",\"family\":\"V8\",\"deficit\":24,\"iterations\":283,\"seconds\":0.0391596,\"path\":\"experiments/scratch/orbit-tabu-20261003/V8-sanitizer-deficit-24.txt\"}\n{\"event\":\"finish\",\"family\":\"V8\",\"seed\":2026100304,\"best_deficit\":24,\"iterations\":1983,\"moves\":1983,\"restarts\":1,\"seconds\":0.251142,\"status\":\"INCONCLUSIVE\"}\n",
+          "stderr": ""
+        }
+      ]
+    },
+    "campaigns": [
+      {
+        "command": [
+          "experiments/scratch/orbit-tabu-20261003/orbit-tabu",
+          "C4",
+          "2026100304",
+          "15",
+          "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304"
+        ],
+        "exit": 0,
+        "events": [
+          {
+            "event": "start",
+            "family": "C4",
+            "seed": 2026100304,
+            "seconds_budget": 15,
+            "block_orbits": 1092,
+            "triple_orbits": 140,
+            "selected_orbits": 16
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 36,
+            "iterations": 0,
+            "seconds": 0.00097325,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-36.txt"
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 32,
+            "iterations": 2,
+            "seconds": 0.00172025,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-32.txt"
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 28,
+            "iterations": 11,
+            "seconds": 0.00375883,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-28.txt"
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 24,
+            "iterations": 93,
+            "seconds": 0.0196042,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-24.txt"
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 20,
+            "iterations": 501,
+            "seconds": 0.104876,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-20.txt"
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 16,
+            "iterations": 583,
+            "seconds": 0.121,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-16.txt"
+          },
+          {
+            "event": "best",
+            "family": "C4",
+            "deficit": 12,
+            "iterations": 1734,
+            "seconds": 0.347724,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C4-2026100304-deficit-12.txt"
+          },
+          {
+            "event": "finish",
+            "family": "C4",
+            "seed": 2026100304,
+            "best_deficit": 12,
+            "iterations": 75479,
+            "moves": 75479,
+            "restarts": 26,
+            "seconds": 15.0002,
+            "status": "INCONCLUSIVE"
+          }
+        ],
+        "stderr": ""
+      },
+      {
+        "command": [
+          "experiments/scratch/orbit-tabu-20261003/orbit-tabu",
+          "C8",
+          "2026100304",
+          "15",
+          "experiments/2026-10-03/small-orbit-heuristic/C8-2026100304"
+        ],
+        "exit": 0,
+        "events": [
+          {
+            "event": "start",
+            "family": "C8",
+            "seed": 2026100304,
+            "seconds_budget": 15,
+            "block_orbits": 546,
+            "triple_orbits": 70,
+            "selected_orbits": 8
+          },
+          {
+            "event": "best",
+            "family": "C8",
+            "deficit": 48,
+            "iterations": 0,
+            "seconds": 0.000422208,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C8-2026100304-deficit-48.txt"
+          },
+          {
+            "event": "best",
+            "family": "C8",
+            "deficit": 32,
+            "iterations": 1,
+            "seconds": 0.000825667,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C8-2026100304-deficit-32.txt"
+          },
+          {
+            "event": "best",
+            "family": "C8",
+            "deficit": 24,
+            "iterations": 37,
+            "seconds": 0.00383083,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C8-2026100304-deficit-24.txt"
+          },
+          {
+            "event": "best",
+            "family": "C8",
+            "deficit": 16,
+            "iterations": 104,
+            "seconds": 0.00836963,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/C8-2026100304-deficit-16.txt"
+          },
+          {
+            "event": "finish",
+            "family": "C8",
+            "seed": 2026100304,
+            "best_deficit": 16,
+            "iterations": 225431,
+            "moves": 225431,
+            "restarts": 76,
+            "seconds": 15.0008,
+            "status": "INCONCLUSIVE"
+          }
+        ],
+        "stderr": ""
+      },
+      {
+        "command": [
+          "experiments/scratch/orbit-tabu-20261003/orbit-tabu",
+          "V4",
+          "2026100304",
+          "15",
+          "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304"
+        ],
+        "exit": 0,
+        "events": [
+          {
+            "event": "start",
+            "family": "V4",
+            "seed": 2026100304,
+            "seconds_budget": 15,
+            "block_orbits": 1092,
+            "triple_orbits": 140,
+            "selected_orbits": 16
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 44,
+            "iterations": 0,
+            "seconds": 0.000773792,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-44.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 40,
+            "iterations": 1,
+            "seconds": 0.00116779,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-40.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 36,
+            "iterations": 3,
+            "seconds": 0.00177554,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-36.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 32,
+            "iterations": 4,
+            "seconds": 0.00223667,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-32.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 28,
+            "iterations": 8,
+            "seconds": 0.00337183,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-28.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 24,
+            "iterations": 676,
+            "seconds": 0.135422,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-24.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 20,
+            "iterations": 692,
+            "seconds": 0.138624,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-20.txt"
+          },
+          {
+            "event": "best",
+            "family": "V4",
+            "deficit": 16,
+            "iterations": 1788,
+            "seconds": 0.348716,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V4-2026100304-deficit-16.txt"
+          },
+          {
+            "event": "finish",
+            "family": "V4",
+            "seed": 2026100304,
+            "best_deficit": 16,
+            "iterations": 79983,
+            "moves": 79983,
+            "restarts": 27,
+            "seconds": 15.0031,
+            "status": "INCONCLUSIVE"
+          }
+        ],
+        "stderr": ""
+      },
+      {
+        "command": [
+          "experiments/scratch/orbit-tabu-20261003/orbit-tabu",
+          "V8",
+          "2026100304",
+          "15",
+          "experiments/2026-10-03/small-orbit-heuristic/V8-2026100304"
+        ],
+        "exit": 0,
+        "events": [
+          {
+            "event": "start",
+            "family": "V8",
+            "seed": 2026100304,
+            "seconds_budget": 15,
+            "block_orbits": 546,
+            "triple_orbits": 70,
+            "selected_orbits": 8
+          },
+          {
+            "event": "best",
+            "family": "V8",
+            "deficit": 56,
+            "iterations": 0,
+            "seconds": 0.00038625,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V8-2026100304-deficit-56.txt"
+          },
+          {
+            "event": "best",
+            "family": "V8",
+            "deficit": 48,
+            "iterations": 1,
+            "seconds": 0.000671,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V8-2026100304-deficit-48.txt"
+          },
+          {
+            "event": "best",
+            "family": "V8",
+            "deficit": 40,
+            "iterations": 4,
+            "seconds": 0.00107083,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V8-2026100304-deficit-40.txt"
+          },
+          {
+            "event": "best",
+            "family": "V8",
+            "deficit": 32,
+            "iterations": 14,
+            "seconds": 0.00177504,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V8-2026100304-deficit-32.txt"
+          },
+          {
+            "event": "best",
+            "family": "V8",
+            "deficit": 24,
+            "iterations": 283,
+            "seconds": 0.0186163,
+            "path": "experiments/2026-10-03/small-orbit-heuristic/V8-2026100304-deficit-24.txt"
+          },
+          {
+            "event": "finish",
+            "family": "V8",
+            "seed": 2026100304,
+            "best_deficit": 24,
+            "iterations": 241775,
+            "moves": 241775,
+            "restarts": 81,
+            "seconds": 15.0004,
+            "status": "INCONCLUSIVE"
+          }
+        ],
+        "stderr": ""
+      }
+    ]
+  }
+}

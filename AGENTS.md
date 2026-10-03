@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Checked four-core-removal bound and 33 six-removal / 100 seven-removal neighborhoods are saved with independent replay trees. Global searches remain inconclusive; best64 still covers557/560. Resume the separate core-escape, cyclic-family and alternative-construction searches; see the research checkpoint report.
+Independently rebuilt the published four degree-19 link classes (206 shapes, 114 links), and added the jointly complete point-essential regular branch. Goal64 is still open; resume essential regular and double-hub searches, with scopes and evidence in docs/degree-branch-reduction.md.

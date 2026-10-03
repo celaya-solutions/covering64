@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Research Checkpoint
-Version:     v1.2.0
+Version:     v1.3.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      461ed8c399e04bf2b83ada17620c145a42f0a49dd2aa34da1ca04738ae659636
+SHA256:      7977a56cf775bbbefb767a5182cc0bf511e07c1a03f67857dcc0e384eeeb2f1e
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -113,3 +113,34 @@ Evidence is in `core-six-independent`, `core-seven-independent`, and
 and raw logs stay in ignored scratch storage. New focused eight-removal scans,
 broader objective-based repairs, and smaller cyclic families are being explored
 separately from these completed results.
+
+## Recovered four-link classification and a stronger regular branch
+
+A new hub-graph enumeration reduced all normalized degree-19 links to206
+structural cases. A separate standard-library search exhausted31,989 nodes,
+and a third implementation replayed the complete trees. Exactly114 labeled
+links survive, forming four isomorphism classes. All114 links pass both cover
+verifiers at C(15,4,2). Two independent methods checked their relabeling maps.
+
+This recovers the published four-class theorem of Allston, Buskens and Stanton
+(1988), Theorem12, rather than establishing a new classification. Their designs
+B3, B4, D1 and D2 map to our hub classes47,44,4 and1. The first two had already
+been searched; the latter two supply new extension cases for this project.
+Both fresh target64 runs returned UNKNOWN after300seconds. The four fixed-link
+extension families together cover the degree-19 branch up to relabeling.
+
+The regular branch now also has a safe point-essential restriction: each
+selected block-point incidence must support a private triple. Otherwise an
+elementary point replacement gives a degree-19 cover, already included in the
+other branch. Separate exhaustive controls check the CP encoding and the
+relabeling normalization. A bounded partial-cover search returned UNKNOWN;
+full CP and native SAT searches are separate ongoing work. See
+`docs/degree-branch-reduction.md` for the complete derivations and scope.
+
+Other completed searches found no64 cover: twelve bounded cyclic-family CP
+runs returned UNKNOWN, four orbit tabu pilots remained incomplete, and a
+600-second broader repair search failed to improve on three missing triples.
+All near3 states in that repair wave retained the same60 core blocks. The155
+focused eight-removal kernels returned CP-SAT INFEASIBLE; their exact LP inputs
+and reductions were independently audited, but those solver statuses alone
+are not independently certified nonexistence results.

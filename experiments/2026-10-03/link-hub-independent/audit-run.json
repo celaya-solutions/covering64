@@ -1,0 +1,61 @@
+{
+  "document_header": {
+    "Document": "Independent Link Classification Audit Run",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "7de9f8faa2777bca04cef9d2f386f38278230f7e272aaacacbc177bc54aa2169",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "checks": [
+      {
+        "command": [
+          "python3",
+          "scripts/audit_link_hub_shapes.py",
+          "experiments/scratch/link-hub-shapes-20261003",
+          "experiments/2026-10-03/link-hub-independent/shape-audit.json.gz"
+        ],
+        "exit": 0,
+        "stdout": "{\"shape_count\": 206, \"a_class_count\": 8, \"labeled_a_graphs\": 1335, \"witness_count\": 4, \"output_sha256\": \"88c2df656a6e03a02bebf200d354c96cce70457a017de5fff14c0e83fc3a14de\"}\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python3",
+          "scripts/check_link_hub_trees.py",
+          "experiments/scratch/link-hub-shapes-20261003/metadata.json",
+          "experiments/scratch/link-hub-independent-dfs-20261003"
+        ],
+        "exit": 0,
+        "stdout": "{\"status\": \"VERIFIED_COMPLETE\", \"cases\": 206, \"nodes\": 31989, \"solutions\": 114, \"checker_source_sha256\": \"5f927f36be7de4a0a44c591e4f1ac44bd63c2aa0820cdb19941b0f07759d4211\", \"manifest_sha256\": \"ad16bc1afd0195e925a226e2f7626256f8424aca2626a548d195873d9c4671be\"}\n",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python3",
+          "scripts/audit_link_isomorphism.py",
+          "experiments/2026-10-03/link-hub-independent/audit-fixture.json.gz",
+          "experiments/2026-10-03/link-classification/classification.json",
+          "experiments/2026-10-03/link-hub-independent/isomorphism-audit.json.gz"
+        ],
+        "exit": 0,
+        "stdout": "{\"classes\": 4, \"automorphism_counts\": {\"1\": 48, \"4\": 8, \"44\": 4, \"47\": 384}, \"negative_cross_shape_checks\": 6, \"output_sha256\": \"08421bd24b783f105fdd6b08b61a9fea97dec1a1f2ecb5e79074fd68744e2af9\"}\n",
+        "stderr": ""
+      }
+    ],
+    "sources": {
+      "scripts/audit_link_hub_shapes.py": "77ff78bba68a498c0eea478328d5dd0a65c049703c482e5c0d3a762c2ee588b6",
+      "scripts/enumerate_link_hubs_independent.py": "46b6bec9b49c5b4cffce13a561ce6205b482fc9938df6e7966194cda60728190",
+      "scripts/check_link_hub_trees.py": "5f927f36be7de4a0a44c591e4f1ac44bd63c2aa0820cdb19941b0f07759d4211",
+      "scripts/audit_link_isomorphism.py": "922bf0792b33b121957a9ae605cff321aa796631e4a9d20e8a453e1f3d72f72c",
+      "tests/test_independent_link_hubs.py": "76735953d5a35a386ec68d0f3b004e8c0a4b7694d04dc462b04dcea965c37bb7",
+      "tests/test_independent_link_isomorphism.py": "0003a0b4d0b4360516cb253e5612f1fe35beaed6e49c1800bbf10cdc6f65cdd6"
+    },
+    "full_tree_directory": "experiments/scratch/link-hub-independent-dfs-20261003",
+    "full_tree_bytes": 1040044
+  }
+}
