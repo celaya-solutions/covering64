@@ -1,0 +1,20 @@
+[
+  {
+    "control": "altered-certificate",
+    "rejected": true,
+    "exit_code": 1,
+    "error_tail": "AssertionError: Damaged certificate"
+  },
+  {
+    "control": "assertions-disabled",
+    "rejected": true,
+    "exit_code": 1,
+    "error_tail": "Run without Python -O; certificate assertions must be enabled"
+  },
+  {
+    "control": "duplicate-baseline",
+    "rejected": true,
+    "exit_code": 1,
+    "error_tail": "AssertionError"
+  }
+]

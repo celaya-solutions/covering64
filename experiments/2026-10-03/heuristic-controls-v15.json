@@ -1,0 +1,76 @@
+{
+  "junk": {
+    "returncode": 2,
+    "stderr": "Malformed block token"
+  },
+  "overflow": {
+    "returncode": 2,
+    "stderr": "Malformed block token"
+  },
+  "partial_token": {
+    "returncode": 2,
+    "stderr": "Malformed block token"
+  },
+  "duplicate_point": {
+    "returncode": 2,
+    "stderr": "Malformed block"
+  },
+  "out_of_range": {
+    "returncode": 2,
+    "stderr": "Malformed block"
+  },
+  "duplicate_block": {
+    "returncode": 2,
+    "stderr": "Duplicate block"
+  },
+  "short_block": {
+    "returncode": 2,
+    "stderr": "Malformed block"
+  },
+  "invalid_cap": {
+    "returncode": 2,
+    "stderr": "Multiplicity-cap mode requires64 blocks with no triple covered more than twice"
+  },
+  "invalid_regular": {
+    "returncode": 2,
+    "stderr": "Regular mode requires 64 distinct blocks and point degrees exactly20"
+  },
+  "invalid_link": {
+    "returncode": 2,
+    "stderr": "Link mode requires64 starting blocks"
+  },
+  "invalid_escape": {
+    "returncode": 2,
+    "stderr": "Escape mode requires a valid65-block seed"
+  },
+  "positive_baseline65": {
+    "returncode": 0,
+    "stdout": "{\"seed\":1,\"budget_seconds\":0.01,\"mode\":\"plain\",\"restart_steps\":1000,\"target_blocks\":65,\"core_size\":0,\"minimum_core_changes\":0,\"triple_multiplicity_cap\":0}\n{\"event\":\"best\",\"deficit\":0,\"seconds\":0.000357458,\"iteration\":0,\"restart\":0}"
+  },
+  "unwritable_output": {
+    "returncode": 2,
+    "stderr": "Cannot open candidate output"
+  },
+  "graceful_stop": {
+    "returncode": 1,
+    "last_event": {
+      "event": "interrupted",
+      "best_deficit": 3,
+      "seconds": 0.13229,
+      "iterations": 4096,
+      "restarts": 1
+    }
+  },
+  "cap2_smoke": {
+    "returncode": 1,
+    "last_event": {
+      "event": "finished",
+      "best_deficit": 24,
+      "seconds": 0.0857792,
+      "iterations": 4096,
+      "restarts": 1
+    }
+  },
+  "source_sha256": "20848a72f7a0316557fd9f1af451dc422010555503b721bb11141e530cb59f82",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)"
+}

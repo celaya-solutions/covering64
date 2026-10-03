@@ -1,5 +1,8 @@
 # Research workflow
 
+Recovery baseline: commit 582e7ba records the supplied reconstructed package; it
+does not recover the lost historical Git history. New searches use an isolated worktree.
+
 Investigate C(16,5,3) with an initial target of 64 distinct blocks.
 Run `uv sync --frozen`, `uv run pytest` and `uv run ruff check .`.
 Keep labels 1-based and preserve lexicographic block-variable ordering.
@@ -60,3 +63,7 @@ re-read whole files.
 After big code changes, refresh the graph with `graft build` (deterministic,
 no API key, $0).
 <!-- graft:end -->
+
+## Research checkpoint 2026-10-03
+
+Added checked search tools, malformed-input controls, and a separately checked 1,831-case core obstruction certificate. The 64-block goal remains open; best coverage is 557/560. See docs/research-checkpoint-2026-10-03.md for scope and evidence. Resume the degree19/all20 split and LP-screened searches; the alternate web seeds share the old rigid core.
