@@ -1,0 +1,96 @@
+{
+  "complete": true,
+  "deterministic": true,
+  "seed": null,
+  "seconds": 0.6113449999829754,
+  "rows": [
+    {
+      "q": 0,
+      "assignments": 1,
+      "union_size_counts": {
+        "0": 1
+      },
+      "minimum_hubs": [],
+      "minimum_pair_excess": 0,
+      "resulting_block_bound": 60
+    },
+    {
+      "q": 1,
+      "assignments": 13,
+      "union_size_counts": {
+        "3": 13
+      },
+      "minimum_hubs": [
+        4
+      ],
+      "minimum_pair_excess": 9,
+      "resulting_block_bound": 61
+    },
+    {
+      "q": 2,
+      "assignments": 169,
+      "union_size_counts": {
+        "5": 9,
+        "6": 160
+      },
+      "minimum_hubs": [
+        4,
+        1
+      ],
+      "minimum_pair_excess": 17,
+      "resulting_block_bound": 62
+    },
+    {
+      "q": 3,
+      "assignments": 2197,
+      "union_size_counts": {
+        "8": 351,
+        "9": 1846
+      },
+      "minimum_hubs": [
+        4,
+        1,
+        1
+      ],
+      "minimum_pair_excess": 26,
+      "resulting_block_bound": 63
+    },
+    {
+      "q": 4,
+      "assignments": 28561,
+      "union_size_counts": {
+        "11": 8640,
+        "10": 243,
+        "12": 19678
+      },
+      "minimum_hubs": [
+        4,
+        1,
+        10,
+        7
+      ],
+      "minimum_pair_excess": 34,
+      "resulting_block_bound": 64
+    },
+    {
+      "q": 5,
+      "assignments": 371293,
+      "union_size_counts": {
+        "14": 166140,
+        "13": 15795,
+        "15": 189358
+      },
+      "minimum_hubs": [
+        4,
+        1,
+        1,
+        13,
+        10
+      ],
+      "minimum_pair_excess": 43,
+      "resulting_block_bound": 65
+    }
+  ],
+  "source_sha256": "1cfad341d66760d8f79e65f084e3cf08debb0cb5962610cb9954a2fe43544fe3",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde"
+}

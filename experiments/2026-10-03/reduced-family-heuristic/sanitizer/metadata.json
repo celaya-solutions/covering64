@@ -1,0 +1,65 @@
+{
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/reduced-family-heuristic-20261003/search-sanitize",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/seed27.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/pg.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/r4.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/r6.txt",
+    "2026100360",
+    "1.0",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/sanitizer/search"
+  ],
+  "seed": 2026100360,
+  "budget_seconds": 1.0,
+  "search_processes": 1,
+  "source_hashes": {
+    "scripts/reduced_family_heuristic.cpp": "2d81c720e55ea926d2f81e6d5e12e59ec3c2be20b44c5bf73f317663b4f42012",
+    "scripts/verify_reduced_family_heuristic.py": "52812cb311c43afb8982b6fd9cf3bf97dd9e5548793a3389ad8c00cc4921dde2",
+    "experiments/2026-10-03/reduced-family-heuristic/run_campaign.py": "dccb034017b40845183c168373d908ecd227fbdbccf0e325ec75a78fa1118d3c"
+  },
+  "input_hashes": {
+    "seed27.txt": "bfa36ba2a5f60f2ecefcc4011a22ab5c8bef48b2fc6321d874dd4f9a54d891f3",
+    "pg.txt": "7c13d8393905a76cecf3299a8866ffad6cc7f916c8c995a062b371dc12c84136",
+    "r4.txt": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+    "r6.txt": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a"
+  },
+  "binary_sha256": "96a200cf2296a364e719aff83e80d3663aaf02a0d6871d855eb749e89e815d88",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-03T21:21:41.227843+00:00",
+  "scope": "Bounded reduced-family heuristic; no impossibility claim",
+  "moves": "75% outside swaps;20% compatible family maps;5% fresh PG/r4/r6 families followed by64 greedy targeted outside repair proposals",
+  "exit": 0,
+  "wall_seconds": 1.514826999977231,
+  "finish": {
+    "event": "finish",
+    "seed": 2026100360,
+    "budget_seconds": 1,
+    "seconds": 1.00068,
+    "proposals": 314417,
+    "best_holes": 27,
+    "best_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/sanitizer/search-initial-0-h27.txt",
+    "improvements": 0,
+    "restarts": 0,
+    "repair_proposals": 1010176,
+    "repair_accepted": 75616,
+    "rollback_audits": 3,
+    "applied_by_mode": [
+      98939,
+      36570,
+      15784
+    ],
+    "accepted_by_mode": [
+      36153,
+      10525,
+      6430
+    ],
+    "status": "INCONCLUSIVE"
+  },
+  "snapshot_count": 8,
+  "valid_covers": 0,
+  "candidate_checks_sha256": "2dfbcd357ecd8bc70b10ef1d4b3547e683f39f0e6cb017bb8bbe9d2d75e3171d",
+  "stdout_sha256": "2c9e3aeb3a8edb8b425864ce09db1f7c4fabb515c6c2e5133423a9f313601e72",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

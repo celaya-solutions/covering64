@@ -1,0 +1,530 @@
+[
+  {
+    "path": "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/search-h10.txt",
+    "sha256": "9ee49be90880c720d8b58ddf87242a8adb9fb4d95ff7b0ac1e3b72ea34cdb342",
+    "missing": 10,
+    "forbidden": false,
+    "package": {
+      "v": 16,
+      "k": 5,
+      "t": 3,
+      "valid": false,
+      "blocks": 64,
+      "triples": 560,
+      "covered": 550,
+      "uncovered": [
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          2,
+          8,
+          14
+        ],
+        [
+          2,
+          8,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          14
+        ],
+        [
+          8,
+          9,
+          15
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          9,
+          14,
+          15
+        ]
+      ],
+      "multiplicities": {
+        "0": 10,
+        "1": 484,
+        "2": 60,
+        "3": 1,
+        "5": 1,
+        "7": 4
+      },
+      "total_incidences": 640,
+      "replication": {
+        "1": 20,
+        "2": 19,
+        "3": 21,
+        "4": 21,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 19,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 19,
+        "15": 20,
+        "16": 20
+      },
+      "pair_multiplicities": {
+        "4": 6,
+        "5": 81,
+        "6": 20,
+        "7": 13
+      },
+      "canonical_sha256": "9ee49be90880c720d8b58ddf87242a8adb9fb4d95ff7b0ac1e3b72ea34cdb342"
+    },
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "9ee49be90880c720d8b58ddf87242a8adb9fb4d95ff7b0ac1e3b72ea34cdb342",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 10,
+        "1": 484,
+        "2": 60,
+        "3": 1,
+        "5": 1,
+        "7": 4
+      },
+      "covered_subsets": 550,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "2": 19,
+        "3": 21,
+        "4": 21,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 19,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 19,
+        "15": 20,
+        "16": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "9ee49be90880c720d8b58ddf87242a8adb9fb4d95ff7b0ac1e3b72ea34cdb342",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          2,
+          8,
+          14
+        ],
+        [
+          2,
+          8,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          14
+        ],
+        [
+          8,
+          9,
+          15
+        ],
+        [
+          8,
+          14,
+          15
+        ],
+        [
+          9,
+          14,
+          15
+        ]
+      ],
+      "uncovered_count": 10,
+      "valid": false
+    }
+  },
+  {
+    "path": "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/search-h7.txt",
+    "sha256": "1e1a4c3ff36178ebbacd11f25381785f1f92e135e898ce42c5131cae4451588c",
+    "missing": 7,
+    "forbidden": false,
+    "package": {
+      "v": 16,
+      "k": 5,
+      "t": 3,
+      "valid": false,
+      "blocks": 64,
+      "triples": 560,
+      "covered": 553,
+      "uncovered": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          2,
+          15,
+          16
+        ],
+        [
+          3,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "multiplicities": {
+        "0": 7,
+        "1": 490,
+        "2": 57,
+        "3": 1,
+        "5": 1,
+        "7": 4
+      },
+      "total_incidences": 640,
+      "replication": {
+        "1": 20,
+        "2": 19,
+        "3": 20,
+        "4": 21,
+        "5": 21,
+        "6": 20,
+        "7": 19,
+        "8": 20,
+        "9": 21,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 19,
+        "15": 20,
+        "16": 20
+      },
+      "pair_multiplicities": {
+        "4": 2,
+        "5": 90,
+        "6": 15,
+        "7": 12,
+        "8": 1
+      },
+      "canonical_sha256": "1e1a4c3ff36178ebbacd11f25381785f1f92e135e898ce42c5131cae4451588c"
+    },
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "1e1a4c3ff36178ebbacd11f25381785f1f92e135e898ce42c5131cae4451588c",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 7,
+        "1": 490,
+        "2": 57,
+        "3": 1,
+        "5": 1,
+        "7": 4
+      },
+      "covered_subsets": 553,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "2": 19,
+        "3": 20,
+        "4": 21,
+        "5": 21,
+        "6": 20,
+        "7": 19,
+        "8": 20,
+        "9": 21,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 19,
+        "15": 20,
+        "16": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "1e1a4c3ff36178ebbacd11f25381785f1f92e135e898ce42c5131cae4451588c",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          2,
+          15,
+          16
+        ],
+        [
+          3,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "uncovered_count": 7,
+      "valid": false
+    }
+  },
+  {
+    "path": "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/search-h6.txt",
+    "sha256": "b6958a1e256beefd164f90a070270e2a75371960a4f33b6375f1322ae4075999",
+    "missing": 6,
+    "forbidden": false,
+    "package": {
+      "v": 16,
+      "k": 5,
+      "t": 3,
+      "valid": false,
+      "blocks": 64,
+      "triples": 560,
+      "covered": 554,
+      "uncovered": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          2,
+          15,
+          16
+        ],
+        [
+          3,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "multiplicities": {
+        "0": 6,
+        "1": 492,
+        "2": 56,
+        "3": 1,
+        "5": 1,
+        "7": 4
+      },
+      "total_incidences": 640,
+      "replication": {
+        "1": 20,
+        "2": 19,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 22,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 19,
+        "15": 19,
+        "16": 20
+      },
+      "pair_multiplicities": {
+        "4": 1,
+        "5": 92,
+        "6": 13,
+        "7": 14
+      },
+      "canonical_sha256": "b6958a1e256beefd164f90a070270e2a75371960a4f33b6375f1322ae4075999"
+    },
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "b6958a1e256beefd164f90a070270e2a75371960a4f33b6375f1322ae4075999",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 6,
+        "1": 492,
+        "2": 56,
+        "3": 1,
+        "5": 1,
+        "7": 4
+      },
+      "covered_subsets": 554,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "2": 19,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 22,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 19,
+        "15": 19,
+        "16": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "b6958a1e256beefd164f90a070270e2a75371960a4f33b6375f1322ae4075999",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          2,
+          15,
+          16
+        ],
+        [
+          3,
+          14,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "uncovered_count": 6,
+      "valid": false
+    }
+  }
+]

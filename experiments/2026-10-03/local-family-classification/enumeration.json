@@ -1,0 +1,821 @@
+{
+  "schema": 1,
+  "scope": "13 distinct quadruples, 13 points, degree 4, matching holes",
+  "complete": true,
+  "seconds": 0.6332545840414241,
+  "budget_seconds": 60.0,
+  "requested_hole_counts": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source_sha256": "c49541f17676701cf832d8c209ed6da25988dcec71c38169ecbad610ab6976bc",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "pynauty_version": "2.8.8.1",
+  "all_hole_pattern_counts": {
+    "0": 1,
+    "1": 1,
+    "2": 3,
+    "3": 6,
+    "4": 7,
+    "5": 5,
+    "6": 3
+  },
+  "determinant_table": [
+    {
+      "holes": 0,
+      "cycle_half_lengths": [],
+      "determinant": 8503056,
+      "square": true
+    },
+    {
+      "holes": 2,
+      "cycle_half_lengths": [
+        2
+      ],
+      "determinant": 4723920,
+      "square": false
+    },
+    {
+      "holes": 3,
+      "cycle_half_lengths": [
+        3
+      ],
+      "determinant": 3779136,
+      "square": true
+    },
+    {
+      "holes": 4,
+      "cycle_half_lengths": [
+        2,
+        2
+      ],
+      "determinant": 2624400,
+      "square": true
+    },
+    {
+      "holes": 4,
+      "cycle_half_lengths": [
+        4
+      ],
+      "determinant": 2857680,
+      "square": false
+    },
+    {
+      "holes": 5,
+      "cycle_half_lengths": [
+        2,
+        3
+      ],
+      "determinant": 2099520,
+      "square": false
+    },
+    {
+      "holes": 5,
+      "cycle_half_lengths": [
+        5
+      ],
+      "determinant": 2178576,
+      "square": true
+    },
+    {
+      "holes": 6,
+      "cycle_half_lengths": [
+        2,
+        2,
+        2
+      ],
+      "determinant": 1458000,
+      "square": false
+    },
+    {
+      "holes": 6,
+      "cycle_half_lengths": [
+        2,
+        4
+      ],
+      "determinant": 1587600,
+      "square": true
+    },
+    {
+      "holes": 6,
+      "cycle_half_lengths": [
+        3,
+        3
+      ],
+      "determinant": 1679616,
+      "square": true
+    },
+    {
+      "holes": 6,
+      "cycle_half_lengths": [
+        6
+      ],
+      "determinant": 1658880,
+      "square": false
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "holes": 0,
+      "raw_matchings": 1,
+      "determinant_survivors": 1,
+      "distinct_pair_patterns": 1,
+      "completed_pair_patterns": 1,
+      "decompositions": 72
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        3
+      ],
+      "holes": 3,
+      "raw_matchings": 8,
+      "determinant_survivors": 8,
+      "distinct_pair_patterns": 2,
+      "completed_pair_patterns": 2,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "holes": 3,
+      "raw_matchings": 8,
+      "determinant_survivors": 8,
+      "distinct_pair_patterns": 4,
+      "completed_pair_patterns": 4,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "holes": 3,
+      "raw_matchings": 8,
+      "determinant_survivors": 8,
+      "distinct_pair_patterns": 4,
+      "completed_pair_patterns": 4,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "holes": 3,
+      "raw_matchings": 8,
+      "determinant_survivors": 8,
+      "distinct_pair_patterns": 2,
+      "completed_pair_patterns": 2,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "holes": 3,
+      "raw_matchings": 8,
+      "determinant_survivors": 8,
+      "distinct_pair_patterns": 6,
+      "completed_pair_patterns": 6,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        0
+      ],
+      "holes": 3,
+      "raw_matchings": 8,
+      "determinant_survivors": 8,
+      "distinct_pair_patterns": 2,
+      "completed_pair_patterns": 2,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 7,
+      "completed_pair_patterns": 7,
+      "decompositions": 6
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        2
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 7,
+      "completed_pair_patterns": 7,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 6,
+      "completed_pair_patterns": 6,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        2,
+        0,
+        1
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 8,
+      "completed_pair_patterns": 8,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        3,
+        0,
+        0
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 2,
+      "completed_pair_patterns": 2,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 5,
+      "completed_pair_patterns": 5,
+      "decompositions": 2
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "holes": 4,
+      "raw_matchings": 60,
+      "determinant_survivors": 12,
+      "distinct_pair_patterns": 6,
+      "completed_pair_patterns": 6,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "holes": 5,
+      "raw_matchings": 544,
+      "determinant_survivors": 384,
+      "distinct_pair_patterns": 96,
+      "completed_pair_patterns": 96,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        2,
+        2,
+        0,
+        1
+      ],
+      "holes": 5,
+      "raw_matchings": 544,
+      "determinant_survivors": 384,
+      "distinct_pair_patterns": 56,
+      "completed_pair_patterns": 56,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        2,
+        3,
+        0,
+        0
+      ],
+      "holes": 5,
+      "raw_matchings": 544,
+      "determinant_survivors": 384,
+      "distinct_pair_patterns": 12,
+      "completed_pair_patterns": 12,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "holes": 5,
+      "raw_matchings": 544,
+      "determinant_survivors": 384,
+      "distinct_pair_patterns": 112,
+      "completed_pair_patterns": 112,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "holes": 5,
+      "raw_matchings": 544,
+      "determinant_survivors": 384,
+      "distinct_pair_patterns": 104,
+      "completed_pair_patterns": 104,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        3,
+        3,
+        0,
+        0
+      ],
+      "holes": 6,
+      "raw_matchings": 6040,
+      "determinant_survivors": 2080,
+      "distinct_pair_patterns": 22,
+      "completed_pair_patterns": 22,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      "holes": 6,
+      "raw_matchings": 6040,
+      "determinant_survivors": 2080,
+      "distinct_pair_patterns": 192,
+      "completed_pair_patterns": 192,
+      "decompositions": 0
+    },
+    {
+      "pattern": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "holes": 6,
+      "raw_matchings": 6040,
+      "determinant_survivors": 2080,
+      "distinct_pair_patterns": 101,
+      "completed_pair_patterns": 101,
+      "decompositions": 1
+    }
+  ],
+  "unfinished": null,
+  "stats": {
+    "nodes": 4933
+  },
+  "families": [
+    {
+      "blocks": [
+        [
+          1,
+          2,
+          3,
+          13
+        ],
+        [
+          1,
+          4,
+          7,
+          10
+        ],
+        [
+          1,
+          5,
+          8,
+          11
+        ],
+        [
+          1,
+          6,
+          9,
+          12
+        ],
+        [
+          2,
+          4,
+          8,
+          12
+        ],
+        [
+          2,
+          5,
+          9,
+          10
+        ],
+        [
+          2,
+          6,
+          7,
+          11
+        ],
+        [
+          3,
+          4,
+          9,
+          11
+        ],
+        [
+          3,
+          5,
+          7,
+          12
+        ],
+        [
+          3,
+          6,
+          8,
+          10
+        ],
+        [
+          4,
+          5,
+          6,
+          13
+        ],
+        [
+          7,
+          8,
+          9,
+          13
+        ],
+        [
+          10,
+          11,
+          12,
+          13
+        ]
+      ],
+      "holes": [],
+      "positive": [],
+      "certificate_sha256": "6b98a474b15bbc32ff2f364650d0a60159966769e713ba14eee434f757b8b7a8"
+    },
+    {
+      "blocks": [
+        [
+          1,
+          2,
+          3,
+          13
+        ],
+        [
+          1,
+          4,
+          9,
+          12
+        ],
+        [
+          1,
+          5,
+          7,
+          8
+        ],
+        [
+          1,
+          6,
+          10,
+          11
+        ],
+        [
+          2,
+          4,
+          7,
+          11
+        ],
+        [
+          2,
+          5,
+          9,
+          10
+        ],
+        [
+          2,
+          6,
+          8,
+          12
+        ],
+        [
+          3,
+          4,
+          8,
+          10
+        ],
+        [
+          3,
+          5,
+          9,
+          11
+        ],
+        [
+          3,
+          6,
+          7,
+          12
+        ],
+        [
+          4,
+          5,
+          6,
+          13
+        ],
+        [
+          7,
+          8,
+          9,
+          13
+        ],
+        [
+          10,
+          11,
+          12,
+          13
+        ]
+      ],
+      "holes": [
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          11
+        ]
+      ],
+      "positive": [
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          10,
+          11
+        ]
+      ],
+      "certificate_sha256": "551dc6f2832e63757d602f5a2f1ba078e9cefbb29514a9246f8b4782b6a65346"
+    },
+    {
+      "blocks": [
+        [
+          1,
+          2,
+          3,
+          13
+        ],
+        [
+          1,
+          2,
+          4,
+          7
+        ],
+        [
+          1,
+          5,
+          9,
+          11
+        ],
+        [
+          1,
+          6,
+          8,
+          10
+        ],
+        [
+          2,
+          5,
+          10,
+          12
+        ],
+        [
+          2,
+          6,
+          8,
+          11
+        ],
+        [
+          3,
+          4,
+          8,
+          12
+        ],
+        [
+          3,
+          4,
+          9,
+          10
+        ],
+        [
+          3,
+          5,
+          7,
+          11
+        ],
+        [
+          4,
+          5,
+          6,
+          13
+        ],
+        [
+          6,
+          7,
+          9,
+          12
+        ],
+        [
+          7,
+          8,
+          9,
+          13
+        ],
+        [
+          10,
+          11,
+          12,
+          13
+        ]
+      ],
+      "holes": [
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          9
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          11
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "positive": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "certificate_sha256": "3fc3e5270e92654664ae0a1be951cabea15fa94a42b2aa3431c4b0d4704fbd8e"
+    }
+  ]
+}

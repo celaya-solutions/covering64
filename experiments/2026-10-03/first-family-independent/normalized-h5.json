@@ -1,0 +1,291 @@
+{
+  "source": "experiments/2026-10-03/reduced-family-heuristic/trades-2026100362/search-improvement-24-h5.txt",
+  "source_sha256": "187d3a77caf046d31483ef5b06ed0571d3fa0e367c7726b054d1db774d342903",
+  "normalizer_source_sha256": "25d966214a3c77e672218470fc74baa84b09d5f002c2dbe4aae73abdd04f4449",
+  "representative": "r4-005",
+  "point_map": {
+    "1": 2,
+    "2": 1,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 12,
+    "8": 11,
+    "9": 14,
+    "10": 13,
+    "11": 16,
+    "12": 15,
+    "13": 8,
+    "14": 7,
+    "15": 10,
+    "16": 9
+  },
+  "package": {
+    "v": 16,
+    "k": 5,
+    "t": 3,
+    "valid": false,
+    "blocks": 64,
+    "triples": 560,
+    "covered": 555,
+    "uncovered": [
+      [
+        4,
+        5,
+        9
+      ],
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        15
+      ],
+      [
+        4,
+        9,
+        11
+      ],
+      [
+        6,
+        12,
+        15
+      ]
+    ],
+    "multiplicities": {
+      "0": 5,
+      "1": 494,
+      "2": 56,
+      "6": 1,
+      "7": 4
+    },
+    "total_incidences": 640,
+    "replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "pair_multiplicities": {
+      "4": 1,
+      "5": 90,
+      "6": 17,
+      "7": 12
+    },
+    "canonical_sha256": "9dbfcbb4cfb7163fafda777c84fc18ffd5bdfd2a6d11d81fd6eb31c92a833809"
+  },
+  "standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "9dbfcbb4cfb7163fafda777c84fc18ffd5bdfd2a6d11d81fd6eb31c92a833809",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 5,
+      "1": 494,
+      "2": 56,
+      "6": 1,
+      "7": 4
+    },
+    "covered_subsets": 555,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "required_subsets": 560,
+    "source_sha256": "9dbfcbb4cfb7163fafda777c84fc18ffd5bdfd2a6d11d81fd6eb31c92a833809",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        4,
+        5,
+        9
+      ],
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        15
+      ],
+      [
+        4,
+        9,
+        11
+      ],
+      [
+        6,
+        12,
+        15
+      ]
+    ],
+    "uncovered_count": 5,
+    "valid": false
+  },
+  "pair_deficits": [
+    {
+      "pair": [
+        4,
+        9
+      ],
+      "count": 4,
+      "deficit": 1
+    }
+  ],
+  "total_pair_deficit": 1,
+  "local_missing_pairs": {
+    "1": [
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "2": [
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "3": [
+      [
+        4,
+        5
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        11,
+        12
+      ]
+    ]
+  },
+  "opposite_spoke_omitted": false,
+  "unsupported_block_point_occurrences": [
+    {
+      "block_index": 1,
+      "block": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "point": 4
+    },
+    {
+      "block_index": 46,
+      "block": [
+        4,
+        5,
+        6,
+        11,
+        16
+      ],
+      "point": 6
+    },
+    {
+      "block_index": 52,
+      "block": [
+        5,
+        6,
+        9,
+        11,
+        16
+      ],
+      "point": 6
+    },
+    {
+      "block_index": 57,
+      "block": [
+        6,
+        7,
+        10,
+        12,
+        13
+      ],
+      "point": 12
+    },
+    {
+      "block_index": 58,
+      "block": [
+        6,
+        8,
+        9,
+        14,
+        15
+      ],
+      "point": 15
+    }
+  ],
+  "scope": "Relabeling of one partial candidate; no claim that it fits the strict model"
+}

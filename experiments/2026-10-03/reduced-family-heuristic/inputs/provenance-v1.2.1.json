@@ -1,0 +1,15 @@
+{
+  "seed6-heavy-qualified.txt": {
+    "source": "experiments/2026-10-03/reduced-family-heuristic/trades-2026100362/search-diverse-30-h6.txt",
+    "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+    "scope": "Six holes; passes scored heavy-count filters but has family-row overflow1; no completion claim"
+  },
+  "multiplicity8-control.txt": {
+    "source": "validation-v1.2/multiplicity8-control-check.json",
+    "purpose": "Valid degree20 partial state with triple multiplicity8; must fail heavy qualification"
+  },
+  "one-seven-four-six-control.txt": {
+    "source": "validation-v1.2/one-seven-four-six-control-check.json",
+    "purpose": "Five disjoint heavy triples with only one sevenfold; must not trigger the at-least-two-sevenfold exclusion"
+  }
+}

@@ -1,0 +1,12 @@
+E501 Line too long (101 > 100)
+  --> scripts/first_family_hint_search.py:58:101
+   |
+56 |         "--relax-partial",
+57 |         action="store_true",
+58 |         help="Allow outside pair deficits and omit the opposite-spoke requirement in partial states",
+   |                                                                                                     ^
+59 |     )
+60 |     parser.add_argument("--output", type=Path, required=True)
+   |
+
+Found 1 error.

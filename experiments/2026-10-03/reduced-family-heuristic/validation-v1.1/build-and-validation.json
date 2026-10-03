@@ -1,0 +1,47 @@
+{
+  "revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "optimized_build": [
+    "clang++",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "scripts/reduced_family_heuristic.cpp",
+    "-o",
+    "experiments/scratch/reduced-family-heuristic-20261003/search-v1.1"
+  ],
+  "sanitizer_build": [
+    "clang++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "scripts/reduced_family_heuristic.cpp",
+    "-o",
+    "experiments/scratch/reduced-family-heuristic-20261003/search-sanitize-v1.1"
+  ],
+  "frozen_archive_hashes": {
+    "source-v1.1.cpp": "df2959f407c5439e69bde6e2b2d3a1b8df8291dee242a92623554cc20908c008",
+    "checker-v1.1.py": "26401d2b375916422fbba9d084bb39704a74ad616010ace61060ecffe5dc5376",
+    "runner-v1.1.py": "b405db3d196213bc69255a2403111d9f234b38165d5c090b996ea1d785e5bb51",
+    "tests-v1.1.py": "a65c67f875c7a0cd350550fd224dbc77d5ad12c490a4fa10da6286266bd11361",
+    "search-v1.1": "b1d71e50d44a5dd96520149f8cdb879f7238792bab60d418fe29674715915dca",
+    "search-sanitize-v1.1": "e421769238f0998c797ac2d7cf151842e35b40f76002e8116364637178c32705"
+  },
+  "validation_commands": [
+    "uv sync --frozen",
+    "uv run pytest tests/test_reduced_family_heuristic.py -q",
+    "uv run pytest",
+    "uv run ruff check ."
+  ],
+  "test_result": "236 passed, 3 pre-existing dependency warnings",
+  "ruff_result": "pass after root wrapped an unrelated help string",
+  "logs": {
+    "build-sanitizer.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ruff.txt": "e24e41c604bd73c3165d975e42bfe17bd71c9c97f075f8e93aaa281cd530a8d9",
+    "ruff-final.txt": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "build-optimized.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pytest.txt": "542131bb63948b5334db0816e741943bb73c12d5bb50d7025c4d02d6dd2afcb8"
+  }
+}

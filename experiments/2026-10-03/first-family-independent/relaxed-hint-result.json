@@ -1,0 +1,34 @@
+{
+  "status": "VERIFIED_RELAXED_PARTIAL_ROWS_AND_HINT",
+  "variables": 4944,
+  "constraints": 3007,
+  "removed_constraints": 79,
+  "outside_pair_rows_removed": 78,
+  "opposite_spoke_rows_removed": 1,
+  "hint_variables": 4944,
+  "hint_holes": 14,
+  "controls": [
+    {
+      "name": "extra_missing_row",
+      "rejected": true
+    },
+    {
+      "name": "bad_objective",
+      "rejected": true
+    },
+    {
+      "name": "bad_hint",
+      "rejected": true
+    }
+  ],
+  "model_sha256": "e4da6075a08f40fcc52f3c3c74843b062c23d49a5deaaf5a1cb298a8bcc5610f",
+  "candidate_sha256": "c73bbef423c2ff707d5f787f4c64dd5a7f78168b6fdc81190811caf7c5b3c39f",
+  "sources": {
+    "first_family_hint_search.py": "29b726416d343fd4c02446c3f1633f987e45d08ec8e77474f4d3c4180b08bb0f",
+    "first_family_search.py": "611aa5d7ac4209c2de507b3851d21d9ddad6689ef7175826d35c12b50c1934bd"
+  },
+  "audit_source_sha256": "1f332877857103a71a6b398ad16f9d4ec6d81c715957dd91105a812dba22b490",
+  "row_checker_sha256": "afd4c8d1c61e0f957ac92785a7ba5f3cce868c089fa28d9f35c150e089d7e4c0",
+  "hint_checker_sha256": "487af5eaaf9469668d31e30e4d5be9e37e7dc12dda13be1953ebd7222d9df918",
+  "scope": "Explicit relaxed partial optimization; candidate need not satisfy pair lower bounds or opposite-spoke omission. No full-cover or global negative claim."
+}

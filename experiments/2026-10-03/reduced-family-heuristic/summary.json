@@ -1,0 +1,158 @@
+{
+  "document_header": {
+    "Document": "Joint Reduced Family Heuristic Pilot Summary",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "afb9f0ab26696c1a203e521eba62c2eb9187a7fe1f60902ea82b102da902ba5a",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Bounded normalized multiplicity-seven construction search only; no negative theorem",
+    "pilot_budget_seconds": 300,
+    "runs": [
+      {
+        "path": "experiments/2026-10-03/reduced-family-heuristic/sanitizer/metadata.json",
+        "sha256": "1dafb5d5c14b5503f0af922f49be157f6c98745e5358aba3e3a7aa6c6ddcaec7",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100360,
+          "budget_seconds": 1,
+          "seconds": 1.00068,
+          "proposals": 314417,
+          "best_holes": 27,
+          "best_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/sanitizer/search-initial-0-h27.txt",
+          "improvements": 0,
+          "restarts": 0,
+          "repair_proposals": 1010176,
+          "repair_accepted": 75616,
+          "rollback_audits": 3,
+          "applied_by_mode": [
+            98939,
+            36570,
+            15784
+          ],
+          "accepted_by_mode": [
+            36153,
+            10525,
+            6430
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "snapshots_checked": 8
+      },
+      {
+        "path": "experiments/2026-10-03/reduced-family-heuristic/pilot-2026100361/metadata.json",
+        "sha256": "53e4b8b9e0a1155b67c9681ee1d0792c49fea21bd650a4018a60bffb79dbde36",
+        "finish": {
+          "event": "finish",
+          "seed": 2026100361,
+          "budget_seconds": 300,
+          "seconds": 300.001,
+          "proposals": 245852169,
+          "best_holes": 14,
+          "best_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/pilot-2026100361/search-improvement-17-h14.txt",
+          "improvements": 11,
+          "restarts": 245,
+          "repair_proposals": 786462848,
+          "repair_accepted": 51598436,
+          "rollback_audits": 3,
+          "applied_by_mode": [
+            77053782,
+            30644263,
+            12288482
+          ],
+          "accepted_by_mode": [
+            22696300,
+            6521874,
+            3987757
+          ],
+          "status": "INCONCLUSIVE"
+        },
+        "snapshots_checked": 19
+      }
+    ],
+    "total_snapshots_checked": 27,
+    "best_candidate": {
+      "path": "experiments/2026-10-03/reduced-family-heuristic/pilot-2026100361/search-improvement-17-h14.txt",
+      "sha256": "1e26105bfcee33ac6885eba503c3a673b5dd095c06851ff7508af2637b4f5da4",
+      "holes": 14,
+      "canonical_sha256": "1e26105bfcee33ac6885eba503c3a673b5dd095c06851ff7508af2637b4f5da4",
+      "family_hole_counts": [
+        4,
+        0,
+        4
+      ],
+      "high_triples": [
+        {
+          "multiplicity": 7,
+          "triple": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "multiplicity": 6,
+          "triple": [
+            4,
+            8,
+            10
+          ]
+        },
+        {
+          "multiplicity": 7,
+          "triple": [
+            5,
+            12,
+            16
+          ]
+        },
+        {
+          "multiplicity": 6,
+          "triple": [
+            11,
+            14,
+            15
+          ]
+        }
+      ],
+      "triple_histogram": {
+        "0": 14,
+        "1": 476,
+        "2": 61,
+        "3": 4,
+        "4": 1,
+        "6": 2,
+        "7": 2
+      }
+    },
+    "input_provenance": {
+      "seed27.txt": "experiments/scratch/alternate-links-20261003/restart-1-round-3/candidate.txt",
+      "pg.txt": "experiments/2026-10-03/local-family-classification/enumeration-family-000.txt",
+      "r4.txt": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "r6.txt": "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt"
+    },
+    "current_sources": {
+      "scripts/reduced_family_heuristic.cpp": "2d81c720e55ea926d2f81e6d5e12e59ec3c2be20b44c5bf73f317663b4f42012",
+      "scripts/verify_reduced_family_heuristic.py": "26401d2b375916422fbba9d084bb39704a74ad616010ace61060ecffe5dc5376",
+      "tests/test_reduced_family_heuristic.py": "260beab3f19d9cf12ab1b653898389f24787449ed4951a186bc2ecef77269a6c",
+      "experiments/2026-10-03/reduced-family-heuristic/run_campaign.py": "89e1e1ece6786738033aa6f611b4e76fa4f0f8976bb8c92a7747c9f338e2b8a9"
+    },
+    "source_archives": "experiments/scratch/reduced-family-heuristic-20261003/",
+    "sanitizer_archived_checker": "sanitizer-checker.py",
+    "sanitizer_archived_runner": "sanitizer-runner.py",
+    "validation": {
+      "focused_tests": 6,
+      "full_tests": 228,
+      "warnings": 3,
+      "pytest_log_sha256": "9f2038f2a5554035947faebe57faa949522045cd034d3ff219f019a1db48996b",
+      "ruff": "PASS",
+      "native_damage_controls_sha256": "954e71abfb4dc1606eaffe77da82881e756a637f231e32c02a25ef87e44f8dad",
+      "asan_ubsan": "PASS"
+    }
+  }
+}

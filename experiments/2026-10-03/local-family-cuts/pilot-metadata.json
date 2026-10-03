@@ -1,0 +1,45 @@
+{
+  "source_sha256": "5a2b19ca619cb75591efa7c7d4d2eaf7a8a51214a9686f00958e1e14d9e9227a",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "input_model": "experiments/scratch/first-family-batch-20261003/r4-000/model.pbtxt",
+  "input_model_sha256": "db3fc1d0404e6d676a7a249d5b8c1e54f88a2df6886bfbd5d702ac5e83dce9ab",
+  "model_sha256": "daff834e942f4dc2b25abf901eb5e407ff11f0125321dc70b55c941433e28325",
+  "classification_audit": {
+    "families": 88,
+    "by_missing_pair_count": {
+      "0": 72,
+      "4": 8,
+      "6": 8
+    },
+    "maximum_pair_count": 2,
+    "maximum_triple_count": 1,
+    "source_sha256": "842adb0455314be1c5123a45441c3836441324691731540f048dfab3dd4a1bb8",
+    "relabeling_argument": "Point permutations preserve every incidence and multiplicity; the same two cut bounds hold for every relabeling."
+  },
+  "cut_application": {
+    "assumptions": {
+      "scope": "Local families at anchors2 and3 in the normalized sevenfold-triple model",
+      "local_degrees_derived": 4,
+      "maximum_missing_pair_degree_derived": 1
+    },
+    "cuts_added": 728,
+    "pair_cut_count": 156,
+    "triple_cut_count": 572
+  },
+  "solver_version": "9.15.6755",
+  "python_version": "3.13.15",
+  "seed": 2026102400,
+  "seconds_budget": 120.0,
+  "workers": 2,
+  "command": [
+    "scripts/local_family_cuts.py",
+    "experiments/scratch/first-family-batch-20261003/r4-000/model.pbtxt",
+    "--output",
+    "experiments/scratch/first-family-cuts-r4-000-20261003",
+    "--seconds",
+    "120",
+    "--seed",
+    "2026102400"
+  ],
+  "scope": "Only the supplied normalized fixed-family model; these cuts are redundant and no solver negative is an independent proof."
+}

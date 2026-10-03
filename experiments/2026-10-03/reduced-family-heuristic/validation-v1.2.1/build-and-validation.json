@@ -1,0 +1,48 @@
+{
+  "revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "optimized_build": [
+    "clang++",
+    "-std=c++17",
+    "-O3",
+    "-DNDEBUG",
+    "scripts/reduced_family_heuristic.cpp",
+    "-o",
+    "experiments/scratch/reduced-family-heuristic-20261003/search-v1.2.1"
+  ],
+  "sanitizer_build": [
+    "clang++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "scripts/reduced_family_heuristic.cpp",
+    "-o",
+    "experiments/scratch/reduced-family-heuristic-20261003/search-sanitize-v1.2.1"
+  ],
+  "frozen_archive_hashes": {
+    "source-v1.2.1.cpp": "4f9df6eae2cff4545cc3c9738332705918fb7b0a252b2203f217d35334a531f8",
+    "checker-v1.2.1.py": "26401d2b375916422fbba9d084bb39704a74ad616010ace61060ecffe5dc5376",
+    "runner-v1.2.1.py": "79dd90574ce05cd7114fe4151a6964f4fa346aec9cbbc525ea66e723fb9a14d4",
+    "tests-v1.2.1.py": "2b6356bca454e5700f23bdb23394d6014fbd28b5e21ceb8a2c8d732aec82d697",
+    "search-v1.2.1": "962a198ae2eaaa5c995ef8c97ffcdd3dd987b089532cf67e728cc264059750d3",
+    "search-sanitize-v1.2.1": "efd6dc433f78b910ba81b292bf6b2f072161f7217eddd793f10307b0afe7e9fb"
+  },
+  "validation_commands": [
+    "uv sync --frozen",
+    "uv run pytest tests/test_reduced_family_heuristic.py -q",
+    "uv run pytest",
+    "uv run ruff check ."
+  ],
+  "test_result": "242 passed,3 dependency deprecation warnings in recorded full run",
+  "ruff_result": "pass",
+  "review": "Independent mathematical review confirmed scoped five-heavy predicate, all trade maps, embedding and evaluation rollback, proposal record capture, and separate hub diagnostics; header hash added after reviewed code body",
+  "metric_auditor_sha256": "1fa734068f5e85fd4959e5b3ebde6c5200cf20c4e94ce29e9f232ec059247353",
+  "logs": {
+    "build-sanitizer.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ruff.txt": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+    "build-optimized.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "pytest.txt": "a40e2d26edf141045988cc190802a6fc158f83b5ebfb2a848e65af28348b6e36"
+  }
+}

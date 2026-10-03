@@ -1,0 +1,59 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.15, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/chriscelaya/Documents/covering64-search
+configfile: pyproject.toml
+testpaths: tests
+collected 242 items
+
+tests/test_alternate_link_search.py ..                                   [  0%]
+tests/test_checked_core_cut.py ..                                        [  1%]
+tests/test_classify_link_designs.py ....                                 [  3%]
+tests/test_core.py .........                                             [  7%]
+tests/test_core_certificate.py ........                                  [ 10%]
+tests/test_core_escape_lns.py ....                                       [ 11%]
+tests/test_core_orbit_certificate.py ..................                  [ 19%]
+tests/test_core_triangle_obstruction.py ...........                      [ 23%]
+tests/test_degree_split_search.py ...                                    [ 25%]
+tests/test_double_hub_links.py ...                                       [ 26%]
+tests/test_dual_kernel_search.py ..                                      [ 27%]
+tests/test_essential_candidate_checker.py ........                       [ 30%]
+tests/test_essential_cycle_controls.py ..                                [ 31%]
+tests/test_essential_native_search.py .                                  [ 31%]
+tests/test_essential_regular_search.py ...                               [ 33%]
+tests/test_exact.py .....................                                [ 41%]
+tests/test_fixed_link_search.py .....                                    [ 43%]
+tests/test_heavy_profile_heuristic.py .....                              [ 45%]
+tests/test_heavy_profile_neighborhood.py ...                             [ 47%]
+tests/test_independent.py .......                                        [ 50%]
+tests/test_independent_link_hubs.py ...................                  [ 57%]
+tests/test_independent_link_isomorphism.py ...........                   [ 62%]
+tests/test_independent_weighted_trees.py ...........                     [ 66%]
+tests/test_link_search.py ..                                             [ 67%]
+tests/test_ljcr_fetch.py ....                                            [ 69%]
+tests/test_lns_search.py ...........                                     [ 73%]
+tests/test_local_family_cuts.py ...                                      [ 75%]
+tests/test_mip_split_search.py ..                                        [ 76%]
+tests/test_native_sat_search.py ......                                   [ 78%]
+tests/test_orbit_search.py ...                                           [ 79%]
+tests/test_quotient_double_hubs.py ..                                    [ 80%]
+tests/test_r4_link_search.py ..                                          [ 81%]
+tests/test_reduced_family_heuristic.py .........                         [ 85%]
+tests/test_regular_group_search.py ..........                            [ 89%]
+tests/test_regular_link_pool_search.py ...                               [ 90%]
+tests/test_screen_double_hubs.py ...                                     [ 91%]
+tests/test_search.py ............                                        [ 96%]
+tests/test_search_double_hubs.py .....                                   [ 98%]
+tests/test_three_link_search.py ...                                      [100%]
+
+=============================== warnings summary ===============================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+======================= 242 passed, 3 warnings in 29.89s =======================

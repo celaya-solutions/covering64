@@ -1,0 +1,4652 @@
+{
+  "schema": 1,
+  "complete": true,
+  "seconds": 5.180728790932335,
+  "budget_seconds": 120.0,
+  "deterministic": true,
+  "seed": null,
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "source_sha256": "a6abd364b26ef0a8db9f76df78c60341561bd9c393921d226096fcefa8ec8922",
+  "python_version": "3.13.15",
+  "group_order": 3840,
+  "fixed_omitted_spoke": [
+    4,
+    5
+  ],
+  "other_spoke": [
+    4,
+    6
+  ],
+  "matching": [
+    [
+      7,
+      8
+    ],
+    [
+      9,
+      10
+    ],
+    [
+      11,
+      12
+    ],
+    [
+      13,
+      14
+    ],
+    [
+      15,
+      16
+    ]
+  ],
+  "classes": [
+    {
+      "holes": 4,
+      "raw_point_maps": 460800,
+      "distinct_families": 28800,
+      "representatives": [
+        "r4-000",
+        "r4-001",
+        "r4-002",
+        "r4-003",
+        "r4-004",
+        "r4-005",
+        "r4-006",
+        "r4-007",
+        "r4-008"
+      ],
+      "orbit_sizes": [
+        3840,
+        3840,
+        3840,
+        3840,
+        3840,
+        1920,
+        1920,
+        1920,
+        3840
+      ]
+    },
+    {
+      "holes": 6,
+      "raw_point_maps": 46080,
+      "distinct_families": 15360,
+      "representatives": [
+        "r6-000",
+        "r6-001",
+        "r6-002",
+        "r6-003"
+      ],
+      "orbit_sizes": [
+        3840,
+        3840,
+        3840,
+        3840
+      ]
+    }
+  ],
+  "representatives": [
+    {
+      "id": "r4-000",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        16,
+        6,
+        11,
+        12,
+        4,
+        8,
+        10,
+        14,
+        7,
+        9,
+        13,
+        5,
+        15
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          8,
+          14
+        ],
+        [
+          5,
+          7,
+          12,
+          16
+        ],
+        [
+          5,
+          8,
+          10,
+          11
+        ],
+        [
+          5,
+          9,
+          13,
+          15
+        ],
+        [
+          6,
+          10,
+          12,
+          13
+        ],
+        [
+          6,
+          11,
+          15,
+          16
+        ],
+        [
+          7,
+          10,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          13,
+          16
+        ],
+        [
+          9,
+          11,
+          12,
+          14
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          8,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          16
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          11
+        ],
+        [
+          1,
+          5,
+          9,
+          13,
+          15
+        ],
+        [
+          1,
+          6,
+          10,
+          12,
+          13
+        ],
+        [
+          1,
+          6,
+          11,
+          15,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          14,
+          15
+        ],
+        [
+          1,
+          8,
+          9,
+          13,
+          16
+        ],
+        [
+          1,
+          9,
+          11,
+          12,
+          14
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "29a3a7c18296497dee4710ef4142657ebdfce34de363d6aa6b180bcbba368bbb",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "29a3a7c18296497dee4710ef4142657ebdfce34de363d6aa6b180bcbba368bbb",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "29a3a7c18296497dee4710ef4142657ebdfce34de363d6aa6b180bcbba368bbb",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-001",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        16,
+        6,
+        11,
+        15,
+        4,
+        8,
+        10,
+        14,
+        7,
+        9,
+        13,
+        5,
+        12
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          8,
+          14
+        ],
+        [
+          5,
+          7,
+          15,
+          16
+        ],
+        [
+          5,
+          8,
+          10,
+          11
+        ],
+        [
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          6,
+          10,
+          13,
+          15
+        ],
+        [
+          6,
+          11,
+          12,
+          16
+        ],
+        [
+          7,
+          10,
+          12,
+          14
+        ],
+        [
+          8,
+          9,
+          13,
+          16
+        ],
+        [
+          9,
+          11,
+          14,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          8,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          15,
+          16
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          11
+        ],
+        [
+          1,
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          1,
+          6,
+          10,
+          13,
+          15
+        ],
+        [
+          1,
+          6,
+          11,
+          12,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          12,
+          14
+        ],
+        [
+          1,
+          8,
+          9,
+          13,
+          16
+        ],
+        [
+          1,
+          9,
+          11,
+          14,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "1ea900baece74485a572eb884547fb6b518543e1aa737a2c2236593715fa28d3",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "1ea900baece74485a572eb884547fb6b518543e1aa737a2c2236593715fa28d3",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "1ea900baece74485a572eb884547fb6b518543e1aa737a2c2236593715fa28d3",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-002",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        14,
+        6,
+        13,
+        15,
+        4,
+        8,
+        10,
+        12,
+        7,
+        9,
+        11,
+        5,
+        16
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          15,
+          16
+        ],
+        [
+          4,
+          10,
+          12,
+          14
+        ],
+        [
+          5,
+          6,
+          8,
+          12
+        ],
+        [
+          5,
+          7,
+          14,
+          15
+        ],
+        [
+          5,
+          8,
+          10,
+          13
+        ],
+        [
+          5,
+          9,
+          11,
+          16
+        ],
+        [
+          6,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          13,
+          14,
+          16
+        ],
+        [
+          7,
+          10,
+          12,
+          16
+        ],
+        [
+          8,
+          9,
+          11,
+          14
+        ],
+        [
+          9,
+          12,
+          13,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          10,
+          12,
+          14
+        ],
+        [
+          1,
+          5,
+          6,
+          8,
+          12
+        ],
+        [
+          1,
+          5,
+          7,
+          14,
+          15
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          13
+        ],
+        [
+          1,
+          5,
+          9,
+          11,
+          16
+        ],
+        [
+          1,
+          6,
+          10,
+          11,
+          15
+        ],
+        [
+          1,
+          6,
+          13,
+          14,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          12,
+          16
+        ],
+        [
+          1,
+          8,
+          9,
+          11,
+          14
+        ],
+        [
+          1,
+          9,
+          12,
+          13,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "22f77bdfb9b39487aafbaed678b2c1e86efe9ad34d5389b1c3df41144818a9fb",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "22f77bdfb9b39487aafbaed678b2c1e86efe9ad34d5389b1c3df41144818a9fb",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "22f77bdfb9b39487aafbaed678b2c1e86efe9ad34d5389b1c3df41144818a9fb",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-003",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        14,
+        10,
+        13,
+        6,
+        4,
+        7,
+        12,
+        16,
+        8,
+        11,
+        15,
+        5,
+        9
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          10,
+          11
+        ],
+        [
+          4,
+          8,
+          13,
+          15
+        ],
+        [
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          8,
+          14
+        ],
+        [
+          5,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          7,
+          12,
+          13
+        ],
+        [
+          5,
+          9,
+          11,
+          15
+        ],
+        [
+          6,
+          10,
+          12,
+          15
+        ],
+        [
+          6,
+          11,
+          13,
+          16
+        ],
+        [
+          7,
+          11,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          12,
+          16
+        ],
+        [
+          9,
+          10,
+          13,
+          14
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          10,
+          11
+        ],
+        [
+          1,
+          4,
+          8,
+          13,
+          15
+        ],
+        [
+          1,
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          8,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          10,
+          16
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          13
+        ],
+        [
+          1,
+          5,
+          9,
+          11,
+          15
+        ],
+        [
+          1,
+          6,
+          10,
+          12,
+          15
+        ],
+        [
+          1,
+          6,
+          11,
+          13,
+          16
+        ],
+        [
+          1,
+          7,
+          11,
+          14,
+          15
+        ],
+        [
+          1,
+          8,
+          9,
+          12,
+          16
+        ],
+        [
+          1,
+          9,
+          10,
+          13,
+          14
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "f1926b3ddb9c95a6cf20e734fdd5e934c00bfe69e21fd2f5ab07da83f5e6da5f",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "f1926b3ddb9c95a6cf20e734fdd5e934c00bfe69e21fd2f5ab07da83f5e6da5f",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "f1926b3ddb9c95a6cf20e734fdd5e934c00bfe69e21fd2f5ab07da83f5e6da5f",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-004",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        16,
+        10,
+        15,
+        9,
+        4,
+        7,
+        12,
+        14,
+        8,
+        11,
+        13,
+        5,
+        6
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          10,
+          11
+        ],
+        [
+          4,
+          8,
+          13,
+          15
+        ],
+        [
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          11,
+          13
+        ],
+        [
+          5,
+          7,
+          10,
+          14
+        ],
+        [
+          5,
+          7,
+          12,
+          15
+        ],
+        [
+          5,
+          8,
+          9,
+          16
+        ],
+        [
+          6,
+          8,
+          12,
+          14
+        ],
+        [
+          6,
+          10,
+          15,
+          16
+        ],
+        [
+          7,
+          11,
+          13,
+          16
+        ],
+        [
+          9,
+          10,
+          12,
+          13
+        ],
+        [
+          9,
+          11,
+          14,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          10,
+          11
+        ],
+        [
+          1,
+          4,
+          8,
+          13,
+          15
+        ],
+        [
+          1,
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          11,
+          13
+        ],
+        [
+          1,
+          5,
+          7,
+          10,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          15
+        ],
+        [
+          1,
+          5,
+          8,
+          9,
+          16
+        ],
+        [
+          1,
+          6,
+          8,
+          12,
+          14
+        ],
+        [
+          1,
+          6,
+          10,
+          15,
+          16
+        ],
+        [
+          1,
+          7,
+          11,
+          13,
+          16
+        ],
+        [
+          1,
+          9,
+          10,
+          12,
+          13
+        ],
+        [
+          1,
+          9,
+          11,
+          14,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "04d8a52af6a0f96071f12850b6cdc038804d8eaf5f08a82b387105abd39c48b6",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "04d8a52af6a0f96071f12850b6cdc038804d8eaf5f08a82b387105abd39c48b6",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "04d8a52af6a0f96071f12850b6cdc038804d8eaf5f08a82b387105abd39c48b6",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-005",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        10,
+        11,
+        12,
+        6,
+        4,
+        7,
+        14,
+        16,
+        8,
+        13,
+        15,
+        5,
+        9
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          8,
+          10
+        ],
+        [
+          5,
+          7,
+          11,
+          16
+        ],
+        [
+          5,
+          7,
+          12,
+          14
+        ],
+        [
+          5,
+          9,
+          13,
+          15
+        ],
+        [
+          6,
+          11,
+          14,
+          15
+        ],
+        [
+          6,
+          12,
+          13,
+          16
+        ],
+        [
+          7,
+          10,
+          13,
+          15
+        ],
+        [
+          8,
+          9,
+          14,
+          16
+        ],
+        [
+          9,
+          10,
+          11,
+          12
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          8,
+          10
+        ],
+        [
+          1,
+          5,
+          7,
+          11,
+          16
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          14
+        ],
+        [
+          1,
+          5,
+          9,
+          13,
+          15
+        ],
+        [
+          1,
+          6,
+          11,
+          14,
+          15
+        ],
+        [
+          1,
+          6,
+          12,
+          13,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          13,
+          15
+        ],
+        [
+          1,
+          8,
+          9,
+          14,
+          16
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          12
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 1920,
+      "stabilizer_order": 2,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "1fb1cf8a9d3d674492bf79f1a6e024268a4c590d58da0c49046d5a7b39bcac29",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "1fb1cf8a9d3d674492bf79f1a6e024268a4c590d58da0c49046d5a7b39bcac29",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "1fb1cf8a9d3d674492bf79f1a6e024268a4c590d58da0c49046d5a7b39bcac29",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-006",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        10,
+        11,
+        12,
+        9,
+        4,
+        7,
+        14,
+        16,
+        8,
+        13,
+        15,
+        5,
+        6
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          13,
+          15
+        ],
+        [
+          5,
+          7,
+          11,
+          16
+        ],
+        [
+          5,
+          7,
+          12,
+          14
+        ],
+        [
+          5,
+          8,
+          9,
+          10
+        ],
+        [
+          6,
+          8,
+          14,
+          16
+        ],
+        [
+          6,
+          10,
+          11,
+          12
+        ],
+        [
+          7,
+          10,
+          13,
+          15
+        ],
+        [
+          9,
+          11,
+          14,
+          15
+        ],
+        [
+          9,
+          12,
+          13,
+          16
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          13,
+          15
+        ],
+        [
+          1,
+          5,
+          7,
+          11,
+          16
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          14
+        ],
+        [
+          1,
+          5,
+          8,
+          9,
+          10
+        ],
+        [
+          1,
+          6,
+          8,
+          14,
+          16
+        ],
+        [
+          1,
+          6,
+          10,
+          11,
+          12
+        ],
+        [
+          1,
+          7,
+          10,
+          13,
+          15
+        ],
+        [
+          1,
+          9,
+          11,
+          14,
+          15
+        ],
+        [
+          1,
+          9,
+          12,
+          13,
+          16
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 1920,
+      "stabilizer_order": 2,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "d11cbe45d0673b4a3d45aedd81f04ea24859a9bf4e33c19ae053e76f47f2e438",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "d11cbe45d0673b4a3d45aedd81f04ea24859a9bf4e33c19ae053e76f47f2e438",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "d11cbe45d0673b4a3d45aedd81f04ea24859a9bf4e33c19ae053e76f47f2e438",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-007",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        6,
+        13,
+        14,
+        15,
+        4,
+        12,
+        7,
+        9,
+        11,
+        8,
+        10,
+        5,
+        16
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          4,
+          10,
+          11,
+          14
+        ],
+        [
+          4,
+          12,
+          15,
+          16
+        ],
+        [
+          5,
+          6,
+          11,
+          15
+        ],
+        [
+          5,
+          7,
+          12,
+          14
+        ],
+        [
+          5,
+          8,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          6,
+          8,
+          10,
+          12
+        ],
+        [
+          6,
+          13,
+          14,
+          16
+        ],
+        [
+          7,
+          9,
+          11,
+          16
+        ],
+        [
+          7,
+          10,
+          13,
+          15
+        ],
+        [
+          8,
+          9,
+          14,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          10,
+          11,
+          14
+        ],
+        [
+          1,
+          4,
+          12,
+          15,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          11,
+          15
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          14
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          16
+        ],
+        [
+          1,
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          1,
+          6,
+          8,
+          10,
+          12
+        ],
+        [
+          1,
+          6,
+          13,
+          14,
+          16
+        ],
+        [
+          1,
+          7,
+          9,
+          11,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          13,
+          15
+        ],
+        [
+          1,
+          8,
+          9,
+          14,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "orbit_size": 1920,
+      "stabilizer_order": 2,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "5e6cb81ff7564d0dbfbb726183a763a983e4c26295326a2b1874928951e88477",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "5e6cb81ff7564d0dbfbb726183a763a983e4c26295326a2b1874928951e88477",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "5e6cb81ff7564d0dbfbb726183a763a983e4c26295326a2b1874928951e88477",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r4-008",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+      "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+      "source_to_representative": [
+        6,
+        13,
+        15,
+        14,
+        4,
+        12,
+        7,
+        9,
+        11,
+        8,
+        10,
+        5,
+        16
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          4,
+          10,
+          11,
+          15
+        ],
+        [
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          11,
+          14
+        ],
+        [
+          5,
+          7,
+          12,
+          15
+        ],
+        [
+          5,
+          8,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          6,
+          8,
+          10,
+          12
+        ],
+        [
+          6,
+          13,
+          15,
+          16
+        ],
+        [
+          7,
+          9,
+          11,
+          16
+        ],
+        [
+          7,
+          10,
+          13,
+          14
+        ],
+        [
+          8,
+          9,
+          14,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          10,
+          11,
+          15
+        ],
+        [
+          1,
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          11,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          12,
+          15
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          16
+        ],
+        [
+          1,
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          1,
+          6,
+          8,
+          10,
+          12
+        ],
+        [
+          1,
+          6,
+          13,
+          15,
+          16
+        ],
+        [
+          1,
+          7,
+          9,
+          11,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          13,
+          14
+        ],
+        [
+          1,
+          8,
+          9,
+          14,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "e94127e4d79288000598cfe983c06348a067ef52f38e5000c51753b85e4301f8",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "e94127e4d79288000598cfe983c06348a067ef52f38e5000c51753b85e4301f8",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "e94127e4d79288000598cfe983c06348a067ef52f38e5000c51753b85e4301f8",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r6-000",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+      "source_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+      "source_to_representative": [
+        5,
+        11,
+        16,
+        10,
+        13,
+        15,
+        8,
+        14,
+        12,
+        7,
+        9,
+        4,
+        6
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          11,
+          16
+        ],
+        [
+          5,
+          7,
+          14,
+          15
+        ],
+        [
+          5,
+          8,
+          10,
+          11
+        ],
+        [
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          6,
+          8,
+          12,
+          14
+        ],
+        [
+          6,
+          10,
+          13,
+          15
+        ],
+        [
+          7,
+          10,
+          12,
+          16
+        ],
+        [
+          8,
+          9,
+          13,
+          16
+        ],
+        [
+          9,
+          11,
+          14,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          11,
+          16
+        ],
+        [
+          1,
+          5,
+          7,
+          14,
+          15
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          11
+        ],
+        [
+          1,
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          1,
+          6,
+          8,
+          12,
+          14
+        ],
+        [
+          1,
+          6,
+          10,
+          13,
+          15
+        ],
+        [
+          1,
+          7,
+          10,
+          12,
+          16
+        ],
+        [
+          1,
+          8,
+          9,
+          13,
+          16
+        ],
+        [
+          1,
+          9,
+          11,
+          14,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "9befbe3c938c1f6f93a7ec120bd8c315f1feecf873c8018ca1659d77e33d3977",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "9befbe3c938c1f6f93a7ec120bd8c315f1feecf873c8018ca1659d77e33d3977",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "9befbe3c938c1f6f93a7ec120bd8c315f1feecf873c8018ca1659d77e33d3977",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r6-001",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+      "source_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+      "source_to_representative": [
+        4,
+        7,
+        9,
+        11,
+        15,
+        10,
+        13,
+        16,
+        8,
+        14,
+        12,
+        5,
+        6
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          12,
+          14
+        ],
+        [
+          5,
+          7,
+          14,
+          15
+        ],
+        [
+          5,
+          8,
+          10,
+          13
+        ],
+        [
+          5,
+          9,
+          11,
+          16
+        ],
+        [
+          6,
+          8,
+          13,
+          16
+        ],
+        [
+          6,
+          10,
+          11,
+          15
+        ],
+        [
+          7,
+          10,
+          12,
+          16
+        ],
+        [
+          8,
+          9,
+          11,
+          14
+        ],
+        [
+          9,
+          12,
+          13,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          7,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          4,
+          10,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          12,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          14,
+          15
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          13
+        ],
+        [
+          1,
+          5,
+          9,
+          11,
+          16
+        ],
+        [
+          1,
+          6,
+          8,
+          13,
+          16
+        ],
+        [
+          1,
+          6,
+          10,
+          11,
+          15
+        ],
+        [
+          1,
+          7,
+          10,
+          12,
+          16
+        ],
+        [
+          1,
+          8,
+          9,
+          11,
+          14
+        ],
+        [
+          1,
+          9,
+          12,
+          13,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "759c945f62a0340468c92efa02ffb27437ceb60c1cd8d31019c7053731177699",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "759c945f62a0340468c92efa02ffb27437ceb60c1cd8d31019c7053731177699",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "759c945f62a0340468c92efa02ffb27437ceb60c1cd8d31019c7053731177699",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r6-002",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+      "source_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+      "source_to_representative": [
+        12,
+        16,
+        8,
+        4,
+        9,
+        7,
+        14,
+        10,
+        15,
+        13,
+        5,
+        11,
+        6
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          10,
+          11
+        ],
+        [
+          4,
+          8,
+          13,
+          15
+        ],
+        [
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          11,
+          13
+        ],
+        [
+          5,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          8,
+          9,
+          14
+        ],
+        [
+          5,
+          9,
+          12,
+          15
+        ],
+        [
+          6,
+          8,
+          12,
+          16
+        ],
+        [
+          6,
+          10,
+          14,
+          15
+        ],
+        [
+          7,
+          10,
+          12,
+          13
+        ],
+        [
+          7,
+          11,
+          14,
+          15
+        ],
+        [
+          9,
+          11,
+          13,
+          16
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          10,
+          11
+        ],
+        [
+          1,
+          4,
+          8,
+          13,
+          15
+        ],
+        [
+          1,
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          11,
+          13
+        ],
+        [
+          1,
+          5,
+          7,
+          10,
+          16
+        ],
+        [
+          1,
+          5,
+          8,
+          9,
+          14
+        ],
+        [
+          1,
+          5,
+          9,
+          12,
+          15
+        ],
+        [
+          1,
+          6,
+          8,
+          12,
+          16
+        ],
+        [
+          1,
+          6,
+          10,
+          14,
+          15
+        ],
+        [
+          1,
+          7,
+          10,
+          12,
+          13
+        ],
+        [
+          1,
+          7,
+          11,
+          14,
+          15
+        ],
+        [
+          1,
+          9,
+          11,
+          13,
+          16
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "80864cdf4ca7c2b11a69a4e2f847da125e8ba0cfad9252aab9e13a83db8456af",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "80864cdf4ca7c2b11a69a4e2f847da125e8ba0cfad9252aab9e13a83db8456af",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "80864cdf4ca7c2b11a69a4e2f847da125e8ba0cfad9252aab9e13a83db8456af",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    },
+    {
+      "id": "r6-003",
+      "source": "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+      "source_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+      "source_to_representative": [
+        7,
+        9,
+        4,
+        11,
+        14,
+        5,
+        16,
+        13,
+        10,
+        15,
+        12,
+        8,
+        6
+      ],
+      "quadruples": [
+        [
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          4,
+          10,
+          11,
+          15
+        ],
+        [
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          5,
+          6,
+          11,
+          14
+        ],
+        [
+          5,
+          7,
+          13,
+          15
+        ],
+        [
+          5,
+          8,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          6,
+          8,
+          12,
+          15
+        ],
+        [
+          6,
+          10,
+          13,
+          16
+        ],
+        [
+          7,
+          9,
+          11,
+          16
+        ],
+        [
+          7,
+          10,
+          12,
+          14
+        ],
+        [
+          8,
+          9,
+          14,
+          15
+        ]
+      ],
+      "full_twenty_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ],
+        [
+          1,
+          4,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          4,
+          8,
+          11,
+          13
+        ],
+        [
+          1,
+          4,
+          10,
+          11,
+          15
+        ],
+        [
+          1,
+          4,
+          12,
+          14,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          11,
+          14
+        ],
+        [
+          1,
+          5,
+          7,
+          13,
+          15
+        ],
+        [
+          1,
+          5,
+          8,
+          10,
+          16
+        ],
+        [
+          1,
+          5,
+          9,
+          12,
+          13
+        ],
+        [
+          1,
+          6,
+          8,
+          12,
+          15
+        ],
+        [
+          1,
+          6,
+          10,
+          13,
+          16
+        ],
+        [
+          1,
+          7,
+          9,
+          11,
+          16
+        ],
+        [
+          1,
+          7,
+          10,
+          12,
+          14
+        ],
+        [
+          1,
+          8,
+          9,
+          14,
+          15
+        ]
+      ],
+      "missing_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "orbit_size": 3840,
+      "stabilizer_order": 1,
+      "point_link_checks": {
+        "package": {
+          "blocks": 20,
+          "canonical_sha256": "41d4645dfa33dd730bc15ee25ab5ca3bcd4c35b36edcdb54e913af471032366a",
+          "covered": 105,
+          "expected_block_count_matches": true,
+          "expected_blocks": 20,
+          "k": 4,
+          "multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "t": 2,
+          "total_incidences": 120,
+          "triples": 105,
+          "uncovered": [],
+          "v": 15,
+          "valid": true
+        },
+        "standalone": {
+          "blocks": 20,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "41d4645dfa33dd730bc15ee25ab5ca3bcd4c35b36edcdb54e913af471032366a",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 95,
+            "2": 9,
+            "7": 1
+          },
+          "covered_subsets": 105,
+          "covers_all_subsets": true,
+          "expected_blocks": 20,
+          "expected_subset_incidences": 120,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 15
+          },
+          "point_replication": {
+            "1": 7,
+            "2": 7,
+            "3": 6,
+            "4": 5,
+            "5": 5,
+            "6": 5,
+            "7": 5,
+            "8": 5,
+            "9": 5,
+            "10": 5,
+            "11": 5,
+            "12": 5,
+            "13": 5,
+            "14": 5,
+            "15": 5
+          },
+          "required_subsets": 105,
+          "source_sha256": "41d4645dfa33dd730bc15ee25ab5ca3bcd4c35b36edcdb54e913af471032366a",
+          "total_subset_incidences": 120,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    }
+  ],
+  "maps_archive": {
+    "path": "experiments/scratch/first-family-orbits-20261003/maps.jsonl.gz",
+    "records": 44160,
+    "bytes": 1009267,
+    "sha256": "ae682845c501dffffe94264df291748ef414cf43bc76d5f4c373bb4d9fa983db"
+  }
+}

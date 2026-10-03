@@ -1,0 +1,638 @@
+{
+  "source": "experiments/2026-10-03/reduced-family-heuristic/trades-2026100362/search-improvement-24-h5.txt",
+  "source_sha256": "187d3a77caf046d31483ef5b06ed0571d3fa0e367c7726b054d1db774d342903",
+  "attempts": 1714,
+  "qualifying": 354,
+  "best_missing": 6,
+  "records": [
+    {
+      "path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/heavy-profile-search/structured-escape/candidate-h8.txt",
+      "package": {
+        "v": 16,
+        "k": 5,
+        "t": 3,
+        "valid": false,
+        "blocks": 64,
+        "triples": 560,
+        "covered": 552,
+        "uncovered": [
+          [
+            4,
+            5,
+            16
+          ],
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            7,
+            15
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            5,
+            7,
+            12
+          ],
+          [
+            5,
+            7,
+            15
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            7,
+            12,
+            15
+          ]
+        ],
+        "multiplicities": {
+          "0": 8,
+          "1": 487,
+          "2": 60,
+          "5": 1,
+          "7": 4
+        },
+        "total_incidences": 640,
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "pair_multiplicities": {
+          "4": 1,
+          "5": 90,
+          "6": 17,
+          "7": 12
+        },
+        "canonical_sha256": "a483abd6a4f7427cea61833524a6f6145e026504c4625fab26a3e160e4dcfbdd"
+      },
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "a483abd6a4f7427cea61833524a6f6145e026504c4625fab26a3e160e4dcfbdd",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 8,
+          "1": 487,
+          "2": 60,
+          "5": 1,
+          "7": 4
+        },
+        "covered_subsets": 552,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "a483abd6a4f7427cea61833524a6f6145e026504c4625fab26a3e160e4dcfbdd",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            4,
+            5,
+            16
+          ],
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            7,
+            15
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            5,
+            7,
+            12
+          ],
+          [
+            5,
+            7,
+            15
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            7,
+            12,
+            15
+          ]
+        ],
+        "uncovered_count": 8,
+        "valid": false
+      },
+      "swap": {
+        "block_indices": [
+          46,
+          48
+        ],
+        "points": [
+          6,
+          7
+        ]
+      },
+      "heavy": [
+        {
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            5,
+            8,
+            11
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            10,
+            14,
+            15
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            9,
+            13,
+            16
+          ],
+          "multiplicity": 7
+        }
+      ]
+    },
+    {
+      "path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/heavy-profile-search/structured-escape/candidate-h7.txt",
+      "package": {
+        "v": 16,
+        "k": 5,
+        "t": 3,
+        "valid": false,
+        "blocks": 64,
+        "triples": 560,
+        "covered": 553,
+        "uncovered": [
+          [
+            4,
+            5,
+            16
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            15
+          ],
+          [
+            5,
+            7,
+            12
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            7,
+            12,
+            15
+          ]
+        ],
+        "multiplicities": {
+          "0": 7,
+          "1": 490,
+          "2": 57,
+          "3": 1,
+          "5": 1,
+          "7": 4
+        },
+        "total_incidences": 640,
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "pair_multiplicities": {
+          "4": 2,
+          "5": 88,
+          "6": 18,
+          "7": 12
+        },
+        "canonical_sha256": "58a21ba9740c4ed097ed3f2bbb426e72f90671584f7b58fc87c5fc3c7ac65f0e"
+      },
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "58a21ba9740c4ed097ed3f2bbb426e72f90671584f7b58fc87c5fc3c7ac65f0e",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 7,
+          "1": 490,
+          "2": 57,
+          "3": 1,
+          "5": 1,
+          "7": 4
+        },
+        "covered_subsets": 553,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "58a21ba9740c4ed097ed3f2bbb426e72f90671584f7b58fc87c5fc3c7ac65f0e",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            4,
+            5,
+            16
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            15
+          ],
+          [
+            5,
+            7,
+            12
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            7,
+            12,
+            15
+          ]
+        ],
+        "uncovered_count": 7,
+        "valid": false
+      },
+      "swap": {
+        "block_indices": [
+          46,
+          48
+        ],
+        "points": [
+          6,
+          12
+        ]
+      },
+      "heavy": [
+        {
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            5,
+            8,
+            11
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            10,
+            14,
+            15
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            9,
+            13,
+            16
+          ],
+          "multiplicity": 7
+        }
+      ]
+    },
+    {
+      "path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/heavy-profile-search/structured-escape/candidate-h6.txt",
+      "package": {
+        "v": 16,
+        "k": 5,
+        "t": 3,
+        "valid": false,
+        "blocks": 64,
+        "triples": 560,
+        "covered": 554,
+        "uncovered": [
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            4,
+            7,
+            8
+          ],
+          [
+            4,
+            7,
+            10
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            10,
+            12
+          ]
+        ],
+        "multiplicities": {
+          "0": 6,
+          "1": 492,
+          "2": 56,
+          "3": 1,
+          "5": 1,
+          "7": 4
+        },
+        "total_incidences": 640,
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "pair_multiplicities": {
+          "4": 1,
+          "5": 90,
+          "6": 17,
+          "7": 12
+        },
+        "canonical_sha256": "cc79707be01db3d93c0f705022fed56173189c853e8c17f2e7ff140a4a5c5b16"
+      },
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "cc79707be01db3d93c0f705022fed56173189c853e8c17f2e7ff140a4a5c5b16",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 492,
+          "2": 56,
+          "3": 1,
+          "5": 1,
+          "7": 4
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "cc79707be01db3d93c0f705022fed56173189c853e8c17f2e7ff140a4a5c5b16",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            4,
+            7,
+            8
+          ],
+          [
+            4,
+            7,
+            10
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            10,
+            12
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      },
+      "swap": {
+        "block_indices": [
+          49,
+          52
+        ],
+        "points": [
+          4,
+          6
+        ]
+      },
+      "heavy": [
+        {
+          "triple": [
+            1,
+            2,
+            3
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            5,
+            8,
+            11
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            10,
+            14,
+            15
+          ],
+          "multiplicity": 7
+        },
+        {
+          "triple": [
+            9,
+            13,
+            16
+          ],
+          "multiplicity": 7
+        }
+      ]
+    }
+  ],
+  "scope": "Only the stated two-outside-block point-swap neighborhood."
+}

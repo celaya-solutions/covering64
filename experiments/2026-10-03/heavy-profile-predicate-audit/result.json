@@ -1,0 +1,32 @@
+{
+  "complete": true,
+  "seed": 2026100387,
+  "result": {
+    "synthetic_profiles": 4000,
+    "positive_profiles": 1924,
+    "moves": 4930,
+    "rollbacks": 2481
+  },
+  "source_sha256": "aff58a7343b44199325712ed21d86d24a68c64a91fe174762a9b0da5326eeb95",
+  "dependency_sha256": "90b88e246ed494d33b361f9e0792b720b752860dc6adcffa366e0996804c620a",
+  "harness_sha256": "f747ebee730c76087f709f0665a5abcb0682066e975aacfc3a4af6df88886051",
+  "auditor_sha256": "bb7667ca7166710f0add7100482d5321a61a0c5237de1dc784e8c98c658c83c7",
+  "compile_command": [
+    "c++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "-I",
+    "scripts",
+    "experiments/scratch/heavy-profile-predicate-audit-20261003/harness.cpp",
+    "-o",
+    "experiments/scratch/heavy-profile-predicate-audit-20261003/check"
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "sanitizer_diagnostics": ""
+}

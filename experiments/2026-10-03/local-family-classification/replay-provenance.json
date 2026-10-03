@@ -1,0 +1,56 @@
+{
+  "compile": [
+    "c++",
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "experiments/2026-10-03/local-family-classification/replay.cpp",
+    "-o",
+    "/tmp/covering64-local-family-replay"
+  ],
+  "asan_compile": [
+    "c++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "-fsanitize=address,undefined",
+    "experiments/2026-10-03/local-family-classification/replay.cpp",
+    "-o",
+    "/tmp/covering64-local-family-replay-asan"
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)",
+  "python": "3.13.15",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "source_sha256": "f106a060e049176e063707726b8f3c295136809277b4b005e4d112c93d1fa87f",
+  "runs": [
+    {
+      "command": [
+        "/tmp/covering64-local-family-replay",
+        "60"
+      ],
+      "exit": 0,
+      "seconds": 0.0113323,
+      "nodes": 4197,
+      "complete": true,
+      "stderr_bytes": 0,
+      "sha256": "61eacfc6aec37e5384298ae8ab81209e4b21a01f11d5288efc72c30278a8994c"
+    },
+    {
+      "command": [
+        "/tmp/covering64-local-family-replay-asan",
+        "60"
+      ],
+      "exit": 0,
+      "seconds": 0.0576489,
+      "nodes": 4197,
+      "complete": true,
+      "stderr_bytes": 0,
+      "sha256": "19627b8b215c7141b85c6aa74f0b000b7831f54e2ca07ba88f6b2b6b7557d9ad"
+    }
+  ]
+}

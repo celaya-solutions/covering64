@@ -1,0 +1,53 @@
+{
+  "complete": true,
+  "model_sha256": "dbc6cae2d651f5fbb2f7d03074344147d664c18583c05a9c441cbfc45eb061b1",
+  "variables": 6428,
+  "constraints": 7254,
+  "new_variables": 0,
+  "new_rows": 325,
+  "through_hub_zero_rows": 105,
+  "repeated_hub_rows": 220,
+  "changed_prior_rows": [
+    1121
+  ],
+  "prior_change": "hole upper bound increased from6 to9",
+  "all_6428_hint_values_independently_derived": true,
+  "all_7254_hint_constraints_evaluated": true,
+  "residual_rows_match_frozen_independent_audit": 1105,
+  "candidate_sha256": "ffe4fd80e9080522d790154394f1e8f55ca3c7ae2e5da3ce48ea99ba20cc26f3",
+  "frozen_sources": {
+    "first_family_hint_search.py": "07694f8db2e819555131651fd0f934db8b49c593da3d1ec470c5f97ce923011c",
+    "first_family_search.py": "44c740edc1c803b9befd81d9f3f385e60b65c98747b350211c89246b15ad571e",
+    "first_family_residual_cuts.py": "28fb3621b558b4122dc91d575dc38717a529b6d33cb41cc13029d946a87e1126",
+    "heavy_triple_search.py": "32a31c4f5b08643b75673bdbbd6b150357e8af49f794f140e02fd85cd36beffb",
+    "first_family_hub_cuts.py": "8262d1bf914e7c78eb188404d58de398d4060456099fd36059e45f4e0b7aca60"
+  },
+  "damaged_controls": [
+    {
+      "control": "missing row",
+      "rejected": true
+    },
+    {
+      "control": "allow heavy triple through hub",
+      "rejected": true
+    },
+    {
+      "control": "wrong hub reuse bound",
+      "rejected": true
+    },
+    {
+      "control": "wrong polarity",
+      "rejected": true
+    },
+    {
+      "control": "wrong block coefficient",
+      "rejected": true
+    },
+    {
+      "control": "old six-hole duplicate-hub hint",
+      "rejected": true
+    }
+  ],
+  "checker_sha256": "e7bb6fec91d580865e76602d80856557eaf142456deaa7cd890a800c75713603",
+  "independent_utility_sha256": "9f12e5502bd5453d9eeac0ab64cf0800fc36fe9c394584cdf09712cc5c5c526b"
+}

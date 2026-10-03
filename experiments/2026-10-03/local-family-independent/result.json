@@ -1,0 +1,435 @@
+{
+  "document_header": {
+    "Document": "Independent Local-Family Reduction and Symmetry Audit",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-03",
+    "SHA256": "2c91a130d7a45d3dcc910f0f93b2f85d68188157462bbe00b26107097dcadef0",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "body": {
+    "scope": "Independent reduction counts, exact determinants and r4 symmetries; does not independently replay the full local-family enumeration",
+    "status": "PASS",
+    "audit_source_sha256": "c88955891194d33e173453f4fae129f9c8e960e4657f7abc3a6700da46040da4",
+    "enumeration_sha256": "3e2dedec553f5e867848f8e613918715f4558da777711c63c589cd1098daeccf",
+    "r4_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+    "proof_readme_sha256": "32d1057d7decca2ef11848a6cd741d1da8c772ae8f9ffcf3c087b5fe3f2ff378",
+    "direct_replay_source_sha256": "f106a060e049176e063707726b8f3c295136809277b4b005e4d112c93d1fa87f",
+    "hole_type_counts_by_r": {
+      "0": 1,
+      "1": 1,
+      "2": 3,
+      "3": 6,
+      "4": 7,
+      "5": 5,
+      "6": 3
+    },
+    "fraction_gram_determinants": [
+      {
+        "holes": 0,
+        "cycles": [],
+        "determinant": 8503056,
+        "square": true
+      },
+      {
+        "holes": 2,
+        "cycles": [
+          2
+        ],
+        "determinant": 4723920,
+        "square": false
+      },
+      {
+        "holes": 3,
+        "cycles": [
+          3
+        ],
+        "determinant": 3779136,
+        "square": true
+      },
+      {
+        "holes": 4,
+        "cycles": [
+          2,
+          2
+        ],
+        "determinant": 2624400,
+        "square": true
+      },
+      {
+        "holes": 4,
+        "cycles": [
+          4
+        ],
+        "determinant": 2857680,
+        "square": false
+      },
+      {
+        "holes": 5,
+        "cycles": [
+          2,
+          3
+        ],
+        "determinant": 2099520,
+        "square": false
+      },
+      {
+        "holes": 5,
+        "cycles": [
+          5
+        ],
+        "determinant": 2178576,
+        "square": true
+      },
+      {
+        "holes": 6,
+        "cycles": [
+          2,
+          2,
+          2
+        ],
+        "determinant": 1458000,
+        "square": false
+      },
+      {
+        "holes": 6,
+        "cycles": [
+          2,
+          4
+        ],
+        "determinant": 1587600,
+        "square": true
+      },
+      {
+        "holes": 6,
+        "cycles": [
+          3,
+          3
+        ],
+        "determinant": 1679616,
+        "square": true
+      },
+      {
+        "holes": 6,
+        "cycles": [
+          6
+        ],
+        "determinant": 1658880,
+        "square": false
+      }
+    ],
+    "r4_automorphism_order": 16,
+    "r4_automorphism_search_nodes": 258,
+    "r4_automorphisms": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        11,
+        10,
+        12,
+        8,
+        7,
+        9,
+        13
+      ],
+      [
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        8,
+        7,
+        9,
+        11,
+        10,
+        12,
+        13
+      ],
+      [
+        1,
+        3,
+        2,
+        4,
+        6,
+        5,
+        10,
+        11,
+        12,
+        7,
+        8,
+        9,
+        13
+      ],
+      [
+        2,
+        1,
+        13,
+        4,
+        8,
+        10,
+        12,
+        6,
+        7,
+        5,
+        9,
+        11,
+        3
+      ],
+      [
+        2,
+        1,
+        13,
+        4,
+        10,
+        8,
+        9,
+        5,
+        11,
+        6,
+        12,
+        7,
+        3
+      ],
+      [
+        2,
+        13,
+        1,
+        4,
+        8,
+        10,
+        6,
+        12,
+        7,
+        9,
+        5,
+        11,
+        3
+      ],
+      [
+        2,
+        13,
+        1,
+        4,
+        10,
+        8,
+        5,
+        9,
+        11,
+        12,
+        6,
+        7,
+        3
+      ],
+      [
+        3,
+        1,
+        13,
+        4,
+        7,
+        11,
+        12,
+        6,
+        8,
+        5,
+        9,
+        10,
+        2
+      ],
+      [
+        3,
+        1,
+        13,
+        4,
+        11,
+        7,
+        9,
+        5,
+        10,
+        6,
+        12,
+        8,
+        2
+      ],
+      [
+        3,
+        13,
+        1,
+        4,
+        7,
+        11,
+        6,
+        12,
+        8,
+        9,
+        5,
+        10,
+        2
+      ],
+      [
+        3,
+        13,
+        1,
+        4,
+        11,
+        7,
+        5,
+        9,
+        10,
+        12,
+        6,
+        8,
+        2
+      ],
+      [
+        13,
+        2,
+        3,
+        4,
+        9,
+        12,
+        7,
+        8,
+        5,
+        10,
+        11,
+        6,
+        1
+      ],
+      [
+        13,
+        2,
+        3,
+        4,
+        12,
+        9,
+        11,
+        10,
+        6,
+        8,
+        7,
+        5,
+        1
+      ],
+      [
+        13,
+        3,
+        2,
+        4,
+        9,
+        12,
+        8,
+        7,
+        5,
+        11,
+        10,
+        6,
+        1
+      ],
+      [
+        13,
+        3,
+        2,
+        4,
+        12,
+        9,
+        10,
+        11,
+        6,
+        7,
+        8,
+        5,
+        1
+      ]
+    ],
+    "r4_holes": [
+      [
+        5,
+        12
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        7,
+        10
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "r4_hole_orbits": [
+      [
+        [
+          5,
+          12
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          11
+        ]
+      ]
+    ],
+    "r4_unmatched_points": [
+      1,
+      2,
+      3,
+      4,
+      13
+    ],
+    "r4_unmatched_point_orbits": [
+      [
+        1,
+        2,
+        3,
+        13
+      ],
+      [
+        4
+      ]
+    ],
+    "r4_target_matchings_in_P3_plus_5K2": 25,
+    "r4_all_point_maps_into_P3_plus_5K2": 1152000,
+    "r4_distinct_embedded_families": 72000,
+    "r4_no_spoke_embedded_families": 14400,
+    "r4_one_spoke_embedded_families": 57600,
+    "r4_normalized_family_orbit_mass": 9720,
+    "r6_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+    "r6_automorphism_order": 3,
+    "r6_automorphism_search_nodes": 59,
+    "r6_distinct_embedded_families": 30720
+  }
+}

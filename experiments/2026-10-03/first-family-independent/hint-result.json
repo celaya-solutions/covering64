@@ -1,0 +1,41 @@
+{
+  "status": "VERIFIED_COMPLETE_HINT_AND_OBJECTIVE",
+  "variables": 4944,
+  "constraints": 3086,
+  "fixed_blocks": 20,
+  "hint_variables": 4944,
+  "objective": 27,
+  "controls": [
+    {
+      "name": "omitted_hint",
+      "rejected": true
+    },
+    {
+      "name": "duplicate_hint",
+      "rejected": true
+    },
+    {
+      "name": "block_value",
+      "rejected": true
+    },
+    {
+      "name": "hole_value",
+      "rejected": true
+    },
+    {
+      "name": "local_hole_value",
+      "rejected": true
+    },
+    {
+      "name": "local_deficit_value",
+      "rejected": true
+    }
+  ],
+  "model_sha256": "1ecf32ec6628e0d95863d241e956cc8fdd66bbb8e1c1a598852d927efbe62440",
+  "candidate_sha256": "87ab04aaad7b30932605dc97ccbd8791b258c4e4a8460b06af8fac9dbd80a1f4",
+  "wrapper_source_sha256": "12d2c9f0b3c3e2343b96c3e23b19f76a4b7a5af1a4cc599f85f6e91023f38d49",
+  "builder_source_sha256": "bb4ad2494cfd42cedb6b1f77b7bd43a9d3a9518d1635da23c8d97b2be6628f85",
+  "audit_source_sha256": "487af5eaaf9469668d31e30e4d5be9e37e7dc12dda13be1953ebd7222d9df918",
+  "row_checker_sha256": "afd4c8d1c61e0f957ac92785a7ba5f3cce868c089fa28d9f35c150e089d7e4c0",
+  "scope": "The actual saved complete hint and exact hole objective; no solver proof."
+}

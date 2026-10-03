@@ -1,0 +1,900 @@
+{
+  "profiles": [
+    {
+      "triple": [
+        1,
+        2,
+        3
+      ],
+      "multiplicity": 7,
+      "outside_pairs": [
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "outside_degrees": {
+        "4": 2,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1,
+        "16": 1
+      },
+      "hubs": [
+        4
+      ]
+    },
+    {
+      "triple": [
+        5,
+        11,
+        16
+      ],
+      "multiplicity": 6,
+      "outside_pairs": [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          8,
+          15
+        ],
+        [
+          12,
+          14
+        ]
+      ],
+      "outside_degrees": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "6": 0,
+        "7": 1,
+        "8": 1,
+        "9": 1,
+        "10": 1,
+        "12": 1,
+        "13": 1,
+        "14": 1,
+        "15": 1
+      },
+      "hubs": []
+    },
+    {
+      "triple": [
+        7,
+        10,
+        13
+      ],
+      "multiplicity": 7,
+      "outside_pairs": [
+        [
+          1,
+          15
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          12
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          11,
+          14
+        ]
+      ],
+      "outside_degrees": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "8": 1,
+        "9": 1,
+        "11": 1,
+        "12": 2,
+        "14": 1,
+        "15": 1,
+        "16": 1
+      },
+      "hubs": [
+        12
+      ]
+    },
+    {
+      "triple": [
+        8,
+        9,
+        14
+      ],
+      "multiplicity": 7,
+      "outside_pairs": [
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          6,
+          15
+        ],
+        [
+          7,
+          15
+        ],
+        [
+          12,
+          13
+        ]
+      ],
+      "outside_degrees": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 1,
+        "7": 1,
+        "10": 1,
+        "11": 1,
+        "12": 1,
+        "13": 1,
+        "15": 2,
+        "16": 1
+      },
+      "hubs": [
+        15
+      ]
+    }
+  ],
+  "n6": 1,
+  "n7": 3,
+  "h6": 0,
+  "refined_sum": 15,
+  "filters": {
+    "regular": true,
+    "maximum_seven": true,
+    "heavy_disjoint": true,
+    "link_shapes": true,
+    "distinct_hubs": true,
+    "hubs_outside_heavy": true,
+    "refined_count_bound": true
+  },
+  "passes_explicit_filters": true,
+  "uncovered": [
+    [
+      4,
+      6,
+      12
+    ],
+    [
+      4,
+      10,
+      15
+    ],
+    [
+      4,
+      11,
+      15
+    ],
+    [
+      4,
+      12,
+      13
+    ],
+    [
+      4,
+      13,
+      15
+    ],
+    [
+      5,
+      6,
+      11
+    ],
+    [
+      5,
+      12,
+      15
+    ],
+    [
+      6,
+      11,
+      16
+    ],
+    [
+      10,
+      12,
+      15
+    ]
+  ],
+  "complete": true,
+  "package": {
+    "v": 16,
+    "k": 5,
+    "t": 3,
+    "valid": false,
+    "blocks": 64,
+    "triples": 560,
+    "covered": 551,
+    "uncovered": [
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        10,
+        15
+      ],
+      [
+        4,
+        11,
+        15
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        4,
+        13,
+        15
+      ],
+      [
+        5,
+        6,
+        11
+      ],
+      [
+        5,
+        12,
+        15
+      ],
+      [
+        6,
+        11,
+        16
+      ],
+      [
+        10,
+        12,
+        15
+      ]
+    ],
+    "multiplicities": {
+      "0": 9,
+      "1": 484,
+      "2": 61,
+      "3": 1,
+      "4": 1,
+      "6": 1,
+      "7": 3
+    },
+    "total_incidences": 640,
+    "replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "pair_multiplicities": {
+      "4": 2,
+      "5": 88,
+      "6": 18,
+      "7": 12
+    },
+    "canonical_sha256": "ffe4fd80e9080522d790154394f1e8f55ca3c7ae2e5da3ce48ea99ba20cc26f3"
+  },
+  "standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "ffe4fd80e9080522d790154394f1e8f55ca3c7ae2e5da3ce48ea99ba20cc26f3",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 9,
+      "1": 484,
+      "2": 61,
+      "3": 1,
+      "4": 1,
+      "6": 1,
+      "7": 3
+    },
+    "covered_subsets": 551,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "required_subsets": 560,
+    "source_sha256": "ffe4fd80e9080522d790154394f1e8f55ca3c7ae2e5da3ce48ea99ba20cc26f3",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        10,
+        15
+      ],
+      [
+        4,
+        11,
+        15
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        4,
+        13,
+        15
+      ],
+      [
+        5,
+        6,
+        11
+      ],
+      [
+        5,
+        12,
+        15
+      ],
+      [
+        6,
+        11,
+        16
+      ],
+      [
+        10,
+        12,
+        15
+      ]
+    ],
+    "uncovered_count": 9,
+    "valid": false
+  },
+  "candidate": "experiments/2026-10-03/structured-hub-escape/candidate-h9.txt",
+  "candidate_sha256": "ffe4fd80e9080522d790154394f1e8f55ca3c7ae2e5da3ce48ea99ba20cc26f3",
+  "previous_sha256": "086fdf567537394b9c28a83361020c82daac8caecc2cf20cad27114baf1c8264",
+  "duplicate_hub_negative_control": {
+    "profiles": [
+      {
+        "triple": [
+          1,
+          2,
+          3
+        ],
+        "multiplicity": 7,
+        "outside_pairs": [
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            9,
+            10
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            15,
+            16
+          ]
+        ],
+        "outside_degrees": {
+          "4": 2,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1,
+          "16": 1
+        },
+        "hubs": [
+          4
+        ]
+      },
+      {
+        "triple": [
+          5,
+          11,
+          16
+        ],
+        "multiplicity": 7,
+        "outside_pairs": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            4,
+            9
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            12,
+            14
+          ]
+        ],
+        "outside_degrees": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 2,
+          "6": 1,
+          "7": 1,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "12": 1,
+          "13": 1,
+          "14": 1,
+          "15": 1
+        },
+        "hubs": [
+          4
+        ]
+      },
+      {
+        "triple": [
+          7,
+          10,
+          13
+        ],
+        "multiplicity": 7,
+        "outside_pairs": [
+          [
+            1,
+            15
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            9
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            8,
+            16
+          ],
+          [
+            11,
+            14
+          ]
+        ],
+        "outside_degrees": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "8": 1,
+          "9": 1,
+          "11": 1,
+          "12": 2,
+          "14": 1,
+          "15": 1,
+          "16": 1
+        },
+        "hubs": [
+          12
+        ]
+      },
+      {
+        "triple": [
+          8,
+          9,
+          14
+        ],
+        "multiplicity": 7,
+        "outside_pairs": [
+          [
+            1,
+            16
+          ],
+          [
+            2,
+            11
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            6,
+            15
+          ],
+          [
+            7,
+            15
+          ],
+          [
+            12,
+            13
+          ]
+        ],
+        "outside_degrees": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1,
+          "5": 1,
+          "6": 1,
+          "7": 1,
+          "10": 1,
+          "11": 1,
+          "12": 1,
+          "13": 1,
+          "15": 2,
+          "16": 1
+        },
+        "hubs": [
+          15
+        ]
+      }
+    ],
+    "n6": 0,
+    "n7": 4,
+    "h6": 0,
+    "refined_sum": 16,
+    "filters": {
+      "regular": true,
+      "maximum_seven": true,
+      "heavy_disjoint": true,
+      "link_shapes": true,
+      "distinct_hubs": false,
+      "hubs_outside_heavy": true,
+      "refined_count_bound": true
+    },
+    "passes_explicit_filters": false,
+    "uncovered": [
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        15
+      ],
+      [
+        4,
+        11,
+        12
+      ],
+      [
+        4,
+        11,
+        15
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        4,
+        13,
+        15
+      ]
+    ]
+  },
+  "changed_outside_blocks": {
+    "removed": [
+      [
+        4,
+        5,
+        6,
+        11,
+        16
+      ],
+      [
+        4,
+        5,
+        10,
+        12,
+        15
+      ]
+    ],
+    "added": [
+      [
+        4,
+        5,
+        6,
+        15,
+        16
+      ],
+      [
+        4,
+        5,
+        10,
+        11,
+        12
+      ]
+    ]
+  },
+  "local_families_unchanged": true,
+  "full_completion_hub_row": [
+    3,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    3,
+    2,
+    2,
+    3,
+    2
+  ],
+  "full_completion_hub_sum": 25,
+  "full_completion_hub_budget": 24,
+  "bound_controls": {
+    "anchor_budget_cases": 896,
+    "allowed_repeated_anchor_profiles": [
+      [
+        7,
+        7,
+        7,
+        1
+      ]
+    ],
+    "endpoint_patterns": {
+      "6": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          3
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "7": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ]
+      ]
+    },
+    "no_hub_internal_eight_budget_control": true,
+    "hub_pair_excess": 3,
+    "two_hubs_exceed_vertex_budget": true,
+    "heavy_point_plus_hub_exceeds_budget": true
+  },
+  "damaged_controls": [
+    {
+      "control": "duplicate",
+      "independent_rejected": true,
+      "package_rejected": true
+    },
+    {
+      "control": "repeated label",
+      "independent_rejected": true,
+      "package_rejected": true
+    },
+    {
+      "control": "outside label",
+      "independent_rejected": true,
+      "package_rejected": true
+    }
+  ],
+  "checker_sha256": "2dc1021f447ab72fb74823431c020916c70444b89548e25d735f090849530b8b",
+  "verifier_source_hashes": {
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950"
+  }
+}

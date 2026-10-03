@@ -1,0 +1,12 @@
+{
+  "commands": [
+    "uv sync --frozen",
+    "uv run pytest",
+    "uv run ruff check ."
+  ],
+  "exit_code": 0,
+  "tests_passed": 243,
+  "existing_warnings": 3,
+  "log_sha256": "dab9cda089a40a82d26094e526bd60e2eac7869257d35ef5f008093a121a31f6",
+  "active_campaign_excluded": "reduced-family-heuristic/penalty-2026100363"
+}

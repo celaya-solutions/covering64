@@ -1,0 +1,568 @@
+{
+  "construction": "Lexicographically first degree-preserving outside swaps strictly decreasing sum of absolute deviations of the four listed heavy triple counts from6",
+  "source": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/trades-2026100362/search-improvement-24-h5.txt",
+  "targets": [
+    [
+      4,
+      7,
+      12
+    ],
+    [
+      5,
+      8,
+      11
+    ],
+    [
+      10,
+      14,
+      15
+    ],
+    [
+      9,
+      13,
+      16
+    ]
+  ],
+  "swaps_zero_based_block_indices": [
+    [
+      0,
+      1,
+      8,
+      9
+    ],
+    [
+      0,
+      5,
+      5,
+      13
+    ],
+    [
+      0,
+      9,
+      4,
+      10
+    ]
+  ],
+  "result": {
+    "blocks": 64,
+    "holes": 19,
+    "missing": [
+      [
+        4,
+        5,
+        11
+      ],
+      [
+        4,
+        6,
+        7
+      ],
+      [
+        4,
+        6,
+        9
+      ],
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        8,
+        11
+      ],
+      [
+        4,
+        8,
+        16
+      ],
+      [
+        4,
+        9,
+        10
+      ],
+      [
+        4,
+        9,
+        13
+      ],
+      [
+        4,
+        13,
+        15
+      ],
+      [
+        4,
+        13,
+        16
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        5,
+        9,
+        10
+      ],
+      [
+        5,
+        10,
+        14
+      ],
+      [
+        5,
+        10,
+        15
+      ],
+      [
+        6,
+        7,
+        12
+      ],
+      [
+        9,
+        13,
+        15
+      ],
+      [
+        10,
+        14,
+        16
+      ],
+      [
+        10,
+        15,
+        16
+      ],
+      [
+        13,
+        15,
+        16
+      ]
+    ],
+    "degree20": true,
+    "outside_blocks": 18,
+    "normalized_heavy_blocks": 7,
+    "local_holes": [
+      [
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      [
+        [
+          4,
+          5
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      [
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ]
+    ],
+    "triple_histogram": {
+      "7": 1,
+      "2": 69,
+      "1": 465,
+      "0": 19,
+      "3": 2,
+      "6": 4
+    },
+    "high_triples": [
+      {
+        "triple": [
+          1,
+          2,
+          3
+        ],
+        "multiplicity": 7
+      },
+      {
+        "triple": [
+          4,
+          7,
+          12
+        ],
+        "multiplicity": 6
+      },
+      {
+        "triple": [
+          5,
+          8,
+          11
+        ],
+        "multiplicity": 6
+      },
+      {
+        "triple": [
+          9,
+          13,
+          16
+        ],
+        "multiplicity": 6
+      },
+      {
+        "triple": [
+          10,
+          14,
+          15
+        ],
+        "multiplicity": 6
+      }
+    ],
+    "canonical_sha256": "f56ded2f7deaffa430db233f94a89e3fc2dbd8d50f6956822caa764de4ba1b0c",
+    "path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/one-seven-four-six-control.txt",
+    "source_sha256": "f56ded2f7deaffa430db233f94a89e3fc2dbd8d50f6956822caa764de4ba1b0c",
+    "checks": [
+      {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/one-seven-four-six-control.txt",
+          "--expected-blocks",
+          "64"
+        ],
+        "exit": 1,
+        "result": {
+          "blocks": 64,
+          "canonical_sha256": "f56ded2f7deaffa430db233f94a89e3fc2dbd8d50f6956822caa764de4ba1b0c",
+          "covered": 541,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 19,
+            "1": 465,
+            "2": 69,
+            "3": 2,
+            "6": 4,
+            "7": 1
+          },
+          "pair_multiplicities": {
+            "4": 6,
+            "5": 75,
+            "6": 32,
+            "7": 7
+          },
+          "replication": {
+            "1": 20,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 20,
+            "10": 20,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 20,
+            "16": 20
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              4,
+              5,
+              11
+            ],
+            [
+              4,
+              6,
+              7
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              4,
+              6,
+              12
+            ],
+            [
+              4,
+              8,
+              11
+            ],
+            [
+              4,
+              8,
+              16
+            ],
+            [
+              4,
+              9,
+              10
+            ],
+            [
+              4,
+              9,
+              13
+            ],
+            [
+              4,
+              13,
+              15
+            ],
+            [
+              4,
+              13,
+              16
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              5,
+              9,
+              10
+            ],
+            [
+              5,
+              10,
+              14
+            ],
+            [
+              5,
+              10,
+              15
+            ],
+            [
+              6,
+              7,
+              12
+            ],
+            [
+              9,
+              13,
+              15
+            ],
+            [
+              10,
+              14,
+              16
+            ],
+            [
+              10,
+              15,
+              16
+            ],
+            [
+              13,
+              15,
+              16
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        }
+      },
+      {
+        "command": [
+          "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+          "scripts/check_cover.py",
+          "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/one-seven-four-six-control.txt",
+          "--expected-blocks",
+          "64"
+        ],
+        "exit": 1,
+        "result": {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "f56ded2f7deaffa430db233f94a89e3fc2dbd8d50f6956822caa764de4ba1b0c",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 19,
+            "1": 465,
+            "2": 69,
+            "3": 2,
+            "6": 4,
+            "7": 1
+          },
+          "covered_subsets": 541,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 20,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 20,
+            "10": 20,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 20,
+            "16": 20
+          },
+          "required_subsets": 560,
+          "source_sha256": "f56ded2f7deaffa430db233f94a89e3fc2dbd8d50f6956822caa764de4ba1b0c",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              4,
+              5,
+              11
+            ],
+            [
+              4,
+              6,
+              7
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              4,
+              6,
+              12
+            ],
+            [
+              4,
+              8,
+              11
+            ],
+            [
+              4,
+              8,
+              16
+            ],
+            [
+              4,
+              9,
+              10
+            ],
+            [
+              4,
+              9,
+              13
+            ],
+            [
+              4,
+              13,
+              15
+            ],
+            [
+              4,
+              13,
+              16
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              5,
+              9,
+              10
+            ],
+            [
+              5,
+              10,
+              14
+            ],
+            [
+              5,
+              10,
+              15
+            ],
+            [
+              6,
+              7,
+              12
+            ],
+            [
+              9,
+              13,
+              15
+            ],
+            [
+              10,
+              14,
+              16
+            ],
+            [
+              10,
+              15,
+              16
+            ],
+            [
+              13,
+              15,
+              16
+            ]
+          ],
+          "uncovered_count": 19,
+          "valid": false
+        }
+      }
+    ]
+  }
+}

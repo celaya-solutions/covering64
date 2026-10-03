@@ -1,0 +1,43 @@
+{
+  "complete": true,
+  "new_variables": 364,
+  "new_constraints": 1105,
+  "saved_model_variables": 5308,
+  "saved_model_constraints": 4112,
+  "all_5308_hint_values_complete": true,
+  "all_4112_hint_constraints_checked": true,
+  "auxiliary_values_match_independent_oracle": true,
+  "damaged_controls": [
+    {
+      "control": "wrong hint residual_triple_274",
+      "rejected": true
+    },
+    {
+      "control": "wrong hint residual_pair_need_4_5",
+      "rejected": true
+    },
+    {
+      "control": "wrong iff polarity",
+      "rejected": true
+    },
+    {
+      "control": "wrong ceiling coefficient",
+      "rejected": true
+    },
+    {
+      "control": "missing new row",
+      "rejected": true
+    },
+    {
+      "control": "ignore actual partial holes",
+      "rejected": true
+    }
+  ],
+  "model_sha256": "43bc69de753634aba8ba0fb128db1d173e81402b2ff1c98e30a2b6be5932c0a7",
+  "source_hashes": {
+    "first_family_hint_search.py": "3c0bd3001a889667d73f135eba7ae07730fa3a4b5cb6842f251dfd08ade4859c",
+    "first_family_search.py": "611aa5d7ac4209c2de507b3851d21d9ddad6689ef7175826d35c12b50c1934bd",
+    "first_family_residual_cuts.py": "e624138bfb3cc851f13af3ef7fdb0f315a531fde08befeb173fcac8cddd9b791"
+  },
+  "checker_sha256": "06f0df79f373c10e095eeb188df9ac8e032f065cddd7d5bc984b8c393a3eca87"
+}

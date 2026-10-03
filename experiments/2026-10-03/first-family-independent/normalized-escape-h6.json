@@ -1,0 +1,218 @@
+{
+  "source": "experiments/2026-10-03/heavy-profile-search/structured-escape/candidate-h6.txt",
+  "source_sha256": "cc79707be01db3d93c0f705022fed56173189c853e8c17f2e7ff140a4a5c5b16",
+  "mapping_source": "normalized-h5.json",
+  "mapping_source_sha256": "3f2d5344209514521c398fbb422d6d2dae02ef0062161dbc6213620a934626af",
+  "point_map": {
+    "1": 2,
+    "2": 1,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 12,
+    "8": 11,
+    "9": 14,
+    "10": 13,
+    "11": 16,
+    "12": 15,
+    "13": 8,
+    "14": 7,
+    "15": 10,
+    "16": 9
+  },
+  "representative": "r4-005",
+  "all_mapped_point_pair_triple_counts_checked": 696,
+  "twenty_fixed_blocks_present": true,
+  "package": {
+    "v": 16,
+    "k": 5,
+    "t": 3,
+    "valid": false,
+    "blocks": 64,
+    "triples": 560,
+    "covered": 554,
+    "uncovered": [
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        15
+      ],
+      [
+        4,
+        11,
+        12
+      ],
+      [
+        4,
+        11,
+        15
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        4,
+        13,
+        15
+      ]
+    ],
+    "multiplicities": {
+      "0": 6,
+      "1": 492,
+      "2": 56,
+      "3": 1,
+      "5": 1,
+      "7": 4
+    },
+    "total_incidences": 640,
+    "replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "pair_multiplicities": {
+      "4": 1,
+      "5": 90,
+      "6": 17,
+      "7": 12
+    },
+    "canonical_sha256": "086fdf567537394b9c28a83361020c82daac8caecc2cf20cad27114baf1c8264"
+  },
+  "standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "086fdf567537394b9c28a83361020c82daac8caecc2cf20cad27114baf1c8264",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 6,
+      "1": 492,
+      "2": 56,
+      "3": 1,
+      "5": 1,
+      "7": 4
+    },
+    "covered_subsets": 554,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "required_subsets": 560,
+    "source_sha256": "086fdf567537394b9c28a83361020c82daac8caecc2cf20cad27114baf1c8264",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        4,
+        6,
+        12
+      ],
+      [
+        4,
+        6,
+        15
+      ],
+      [
+        4,
+        11,
+        12
+      ],
+      [
+        4,
+        11,
+        15
+      ],
+      [
+        4,
+        12,
+        13
+      ],
+      [
+        4,
+        13,
+        15
+      ]
+    ],
+    "uncovered_count": 6,
+    "valid": false
+  },
+  "heavy_triples": [
+    {
+      "triple": [
+        1,
+        2,
+        3
+      ],
+      "multiplicity": 7
+    },
+    {
+      "triple": [
+        5,
+        11,
+        16
+      ],
+      "multiplicity": 7
+    },
+    {
+      "triple": [
+        7,
+        10,
+        13
+      ],
+      "multiplicity": 7
+    },
+    {
+      "triple": [
+        8,
+        9,
+        14
+      ],
+      "multiplicity": 7
+    }
+  ],
+  "forbidden_five_disjoint": null,
+  "profile_criterion": "five pairwise disjoint triples with multiplicity>=6, at least two with multiplicity>=7",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "scope": "Exact same point map as normalized-h5; one six-hole partial, not a cover."
+}

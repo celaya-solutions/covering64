@@ -1,0 +1,77 @@
+{
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/reduced-family-heuristic-20261003/search-sanitize-v1.1",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/seed14.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/pg.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/r4.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/inputs/r6.txt",
+    "2026100362",
+    "1.0",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/sanitizer-v1.1-2026100362/search"
+  ],
+  "seed": 2026100362,
+  "budget_seconds": 1.0,
+  "search_processes": 1,
+  "source_hashes": {
+    "scripts/reduced_family_heuristic.cpp": "df2959f407c5439e69bde6e2b2d3a1b8df8291dee242a92623554cc20908c008",
+    "scripts/verify_reduced_family_heuristic.py": "26401d2b375916422fbba9d084bb39704a74ad616010ace61060ecffe5dc5376",
+    "experiments/2026-10-03/reduced-family-heuristic/run_campaign.py": "b405db3d196213bc69255a2403111d9f234b38165d5c090b996ea1d785e5bb51"
+  },
+  "input_hashes": {
+    "seed14.txt": "1e26105bfcee33ac6885eba503c3a673b5dd095c06851ff7508af2637b4f5da4",
+    "pg.txt": "7c13d8393905a76cecf3299a8866ffad6cc7f916c8c995a062b371dc12c84136",
+    "r4.txt": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+    "r6.txt": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a"
+  },
+  "binary_sha256": "e421769238f0998c797ac2d7cf151842e35b40f76002e8116364637178c32705",
+  "trade_artifact_sha256": "f88605772ee8165b8a1939aecb268599f590a6072fff2205b6d7c054ec52c114",
+  "source_revision": "c31aea40bb52dddd43532e91c3d62558fcf25cde",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "started_utc": "2026-10-03T21:53:24.097755+00:00",
+  "scope": "Bounded reduced-family heuristic; no impossibility claim",
+  "moves": "65% outside swaps;20% compatible family maps;5% fresh PG/r4/r6 families;10% four/six-block PG trades. Fresh families and trades each receive64 greedy targeted outside repair proposals",
+  "diversity": "At most8 additional states per hole count, within best+1 when saved, with block-set distance at least4 from the live reservoir. Half of periodic restarts sample that bounded reservoir",
+  "progress_interval_seconds": 45,
+  "exit": 0,
+  "wall_seconds": 1.4388462080387399,
+  "finish": {
+    "event": "finish",
+    "seed": 2026100362,
+    "budget_seconds": 1,
+    "seconds": 1.00085,
+    "proposals": 122025,
+    "best_holes": 14,
+    "best_path": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/reduced-family-heuristic/sanitizer-v1.1-2026100362/search-initial-0-h14.txt",
+    "improvements": 0,
+    "restarts": 0,
+    "repair_proposals": 826304,
+    "repair_accepted": 56238,
+    "rollback_audits": 4,
+    "pg_automorphisms": 5616,
+    "diverse_saved": 0,
+    "reservoir_size": 1,
+    "trades_by_size": [
+      4756,
+      2009
+    ],
+    "applied_by_mode": [
+      33166,
+      20046,
+      6146,
+      6765
+    ],
+    "accepted_by_mode": [
+      13393,
+      5958,
+      2276,
+      4765
+    ],
+    "status": "INCONCLUSIVE"
+  },
+  "snapshot_count": 10,
+  "valid_covers": 0,
+  "candidate_checks_sha256": "290fff2532062effa7218a24ca802f488f27898b5f60c1c4e4fa41e2538f0339",
+  "stdout_sha256": "19eb699893b41b9ab434e1dc5dc9cdd9d370070236cd56fcf130dd15c4a69eda",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

@@ -1,0 +1,443 @@
+[
+  {
+    "path": "experiments/2026-10-03/local-family-classification/enumeration-family-000.txt",
+    "checks": [
+      {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "experiments/2026-10-03/local-family-classification/enumeration-family-000.txt",
+          "--v",
+          "13",
+          "--k",
+          "4",
+          "--t",
+          "2",
+          "--expected-blocks",
+          "13"
+        ],
+        "exit": 0,
+        "result": {
+          "blocks": 13,
+          "canonical_sha256": "7c13d8393905a76cecf3299a8866ffad6cc7f916c8c995a062b371dc12c84136",
+          "covered": 78,
+          "expected_block_count_matches": true,
+          "expected_blocks": 13,
+          "k": 4,
+          "multiplicities": {
+            "1": 78
+          },
+          "pair_multiplicities": {
+            "1": 78
+          },
+          "replication": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "t": 2,
+          "total_incidences": 78,
+          "triples": 78,
+          "uncovered": [],
+          "v": 13,
+          "valid": true
+        }
+      },
+      {
+        "command": [
+          "uv",
+          "run",
+          "python",
+          "scripts/check_cover.py",
+          "experiments/2026-10-03/local-family-classification/enumeration-family-000.txt",
+          "--v",
+          "13",
+          "--k",
+          "4",
+          "--t",
+          "2",
+          "--expected-blocks",
+          "13"
+        ],
+        "exit": 0,
+        "result": {
+          "blocks": 13,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "7c13d8393905a76cecf3299a8866ffad6cc7f916c8c995a062b371dc12c84136",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "1": 78
+          },
+          "covered_subsets": 78,
+          "covers_all_subsets": true,
+          "expected_blocks": 13,
+          "expected_subset_incidences": 78,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 13
+          },
+          "point_replication": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "required_subsets": 78,
+          "source_sha256": "7c13d8393905a76cecf3299a8866ffad6cc7f916c8c995a062b371dc12c84136",
+          "total_subset_incidences": 78,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        }
+      }
+    ]
+  },
+  {
+    "path": "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+    "checks": [
+      {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+          "--v",
+          "13",
+          "--k",
+          "4",
+          "--t",
+          "2",
+          "--expected-blocks",
+          "13"
+        ],
+        "exit": 1,
+        "result": {
+          "blocks": 13,
+          "canonical_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+          "covered": 74,
+          "expected_block_count_matches": true,
+          "expected_blocks": 13,
+          "k": 4,
+          "multiplicities": {
+            "0": 4,
+            "1": 70,
+            "2": 4
+          },
+          "pair_multiplicities": {
+            "0": 4,
+            "1": 70,
+            "2": 4
+          },
+          "replication": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "t": 2,
+          "total_incidences": 78,
+          "triples": 78,
+          "uncovered": [
+            [
+              5,
+              12
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "v": 13,
+          "valid": false
+        }
+      },
+      {
+        "command": [
+          "uv",
+          "run",
+          "python",
+          "scripts/check_cover.py",
+          "experiments/2026-10-03/local-family-classification/enumeration-family-001.txt",
+          "--v",
+          "13",
+          "--k",
+          "4",
+          "--t",
+          "2",
+          "--expected-blocks",
+          "13"
+        ],
+        "exit": 1,
+        "result": {
+          "blocks": 13,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 4,
+            "1": 70,
+            "2": 4
+          },
+          "covered_subsets": 74,
+          "covers_all_subsets": false,
+          "expected_blocks": 13,
+          "expected_subset_incidences": 78,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 13
+          },
+          "point_replication": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "required_subsets": 78,
+          "source_sha256": "188ae64aae4681125f2efba4c806362692452e69f15915e6d6143d31b410d5b3",
+          "total_subset_incidences": 78,
+          "uncovered": [
+            [
+              5,
+              12
+            ],
+            [
+              6,
+              9
+            ],
+            [
+              7,
+              10
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "uncovered_count": 4,
+          "valid": false
+        }
+      }
+    ]
+  },
+  {
+    "path": "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+    "checks": [
+      {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+          "--v",
+          "13",
+          "--k",
+          "4",
+          "--t",
+          "2",
+          "--expected-blocks",
+          "13"
+        ],
+        "exit": 1,
+        "result": {
+          "blocks": 13,
+          "canonical_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+          "covered": 72,
+          "expected_block_count_matches": true,
+          "expected_blocks": 13,
+          "k": 4,
+          "multiplicities": {
+            "0": 6,
+            "1": 66,
+            "2": 6
+          },
+          "pair_multiplicities": {
+            "0": 6,
+            "1": 66,
+            "2": 6
+          },
+          "replication": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "t": 2,
+          "total_incidences": 78,
+          "triples": 78,
+          "uncovered": [
+            [
+              1,
+              12
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              10
+            ]
+          ],
+          "v": 13,
+          "valid": false
+        }
+      },
+      {
+        "command": [
+          "uv",
+          "run",
+          "python",
+          "scripts/check_cover.py",
+          "experiments/2026-10-03/local-family-classification/enumeration-family-002.txt",
+          "--v",
+          "13",
+          "--k",
+          "4",
+          "--t",
+          "2",
+          "--expected-blocks",
+          "13"
+        ],
+        "exit": 1,
+        "result": {
+          "blocks": 13,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 6,
+            "1": 66,
+            "2": 6
+          },
+          "covered_subsets": 72,
+          "covers_all_subsets": false,
+          "expected_blocks": 13,
+          "expected_subset_incidences": 78,
+          "parameters": {
+            "k": 4,
+            "t": 2,
+            "v": 13
+          },
+          "point_replication": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 4,
+            "5": 4,
+            "6": 4,
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "required_subsets": 78,
+          "source_sha256": "cfdda153b6a1e35ae68f8eee63307dd45bbc8a585ad57862949ea092bf95820a",
+          "total_subset_incidences": 78,
+          "uncovered": [
+            [
+              1,
+              12
+            ],
+            [
+              2,
+              9
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              8
+            ],
+            [
+              7,
+              10
+            ]
+          ],
+          "uncovered_count": 6,
+          "valid": false
+        }
+      }
+    ]
+  }
+]
