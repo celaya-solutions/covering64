@@ -1,0 +1,115 @@
+{
+  "checker_sha256": "8b608c8373d75d5ccb1de08b62540d6f44343f6d97d1ebcd89280b9a04837e61",
+  "coefficients": 48048,
+  "damage_controls": {
+    "cardinality_bound": "rejected",
+    "excluded_block_allowed": "rejected",
+    "extra_row": "rejected",
+    "fixed_one_relaxed": "rejected",
+    "free_cycle_fixed": "rejected",
+    "hidden_enforcement": "rejected",
+    "hint": "rejected",
+    "kind_0_bound": "rejected",
+    "kind_0_coefficient": "rejected",
+    "kind_0_support": "rejected",
+    "kind_1_bound": "rejected",
+    "kind_1_coefficient": "rejected",
+    "kind_1_support": "rejected",
+    "kind_2_bound": "rejected",
+    "kind_2_coefficient": "rejected",
+    "kind_2_support": "rejected",
+    "missing_row": "rejected",
+    "missing_variable": "rejected",
+    "objective": "rejected",
+    "variable_name": "rejected"
+  },
+  "domains": {
+    "(0, 0)": 4160,
+    "(0, 1)": 192,
+    "(1, 1)": 16
+  },
+  "geometry": {
+    "all_no_independent_triple_pentads_are_cycles": true,
+    "carriers_by_kind": [
+      0,
+      4,
+      6
+    ],
+    "cycles": 192,
+    "edges": 40,
+    "fixed_independent_carriers": 1,
+    "neighborhoods": 16,
+    "pair_implication_checked": true,
+    "triple_kinds": {
+      "0": 160,
+      "1": 240,
+      "2": 160
+    }
+  },
+  "launch_permitted": true,
+  "manifest_sha256": "909498955fe3f595465c364f97dd5b938ff333f23ccbf027ec611a4d472fc968",
+  "optimizer_calls": 0,
+  "outcome_rules": "UNKNOWN is inconclusive; INFEASIBLE is not an independently checked proof.",
+  "passed": true,
+  "pins_checked": 6,
+  "producer_source_sha256": "092c5c8a7ee693adadfd5a2bdd9a443fa3a95d1feeb6d3906b0e1ec662ed1d2b",
+  "rows": 561,
+  "scope": "Only the fixed sixteen Clebsch neighborhoods plus forty-eight cycle pentads.",
+  "variables": 4368,
+  "wrapper_controls": {
+    "kill": {
+      "calls": [
+        [
+          "communicate",
+          35
+        ],
+        [
+          "terminate",
+          null
+        ],
+        [
+          "communicate",
+          5
+        ],
+        [
+          "kill",
+          null
+        ],
+        [
+          "communicate",
+          null
+        ]
+      ],
+      "duplicate_launch": "rejected",
+      "passed": true
+    },
+    "normal": {
+      "calls": [
+        [
+          "communicate",
+          35
+        ]
+      ],
+      "duplicate_launch": "rejected",
+      "passed": true
+    },
+    "terminate": {
+      "calls": [
+        [
+          "communicate",
+          35
+        ],
+        [
+          "terminate",
+          null
+        ],
+        [
+          "communicate",
+          5
+        ]
+      ],
+      "duplicate_launch": "rejected",
+      "passed": true
+    }
+  }
+}

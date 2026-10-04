@@ -1,0 +1,49 @@
+
+Starting CP-SAT solver v9.15.6755
+Parameters: random_seed: 2026106304 max_time_in_seconds: 30 log_search_progress: true num_search_workers: 1 log_to_stdout: true
+
+Initial satisfaction model '': (model_fingerprint: 0x2ad0138b684a787d)
+#Variables: 4'368 (2'717 primary variables)
+  - 4'368 Booleans in [0,1]
+#kLinear1: 1'365
+#kLinearN: 561 (#terms: 48'048)
+
+Starting presolve at 0.00s
+INFEASIBLE: 'linear: never in domain'
+Unsat after presolving constraint #417 (warning, dump might be inconsistent): linear { vars: 2049 coeffs: 1 domain: 2 domain: 3 }
+  2.59e-03s  0.00e+00d  [PresolveToFixPoint] 
+
+Presolve summary:
+  - 21 affine relations were detected.
+  - rule 'affine: new relation' was applied 21 times.
+  - rule 'exactly_one: duplicate literals' was applied 1 time.
+  - rule 'exactly_one: removed literals' was applied 319 times.
+  - rule 'exactly_one: satisfied' was applied 7 times.
+  - rule 'exactly_one: size one' was applied 1 time.
+  - rule 'exactly_one: size two' was applied 21 times.
+  - rule 'exactly_one: x and not(x)' was applied 35 times.
+  - rule 'linear1: x in domain' was applied 1'365 times.
+  - rule 'linear: empty' was applied 175 times.
+  - rule 'linear: fixed or dup variables' was applied 646 times.
+  - rule 'linear: negative equal one' was applied 1 time.
+  - rule 'linear: positive equal one' was applied 335 times.
+  - rule 'linear: reduced variable domains' was applied 70 times.
+  - rule 'presolve: iteration' was applied 1 time.
+Problem closed by presolve.
+CpSolverResponse summary:
+status: INFEASIBLE
+objective: NA
+best_bound: NA
+integers: 0
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 0
+restarts: 0
+lp_iterations: 0
+walltime: 0.008974
+usertime: 0.008974
+deterministic_time: 0
+gap_integral: 0
+

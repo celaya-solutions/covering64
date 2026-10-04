@@ -1,0 +1,145 @@
+{
+  "checker_sha256": "840a99dff730ea4b5459dabe6063ef532ec4b376614b366a4a066239665ad23c",
+  "conditional_conclusion": "At most fourteen neighborhood pentads in any Clebsch-pair-profile cover.",
+  "cover_searches": 0,
+  "damage_controls": {
+    "bad_class": "rejected",
+    "bad_id": "rejected",
+    "bad_identity_coefficient": "rejected",
+    "bad_identity_rhs": "rejected",
+    "bad_independent_count": "rejected",
+    "bad_label": "rejected",
+    "bad_missing_point": "rejected",
+    "bad_proof_pin": "rejected",
+    "bad_root_degree": "rejected",
+    "bad_rooted_summary": "rejected",
+    "bad_solution": "rejected",
+    "bad_translation": "rejected",
+    "bool_id": "rejected",
+    "duplicate_candidate": "rejected",
+    "failed_prior_audit": "rejected",
+    "missing_translation": "rejected",
+    "omitted_candidate": "rejected",
+    "omitted_identity": "rejected",
+    "unrestricted_claim": "rejected"
+  },
+  "files_sha256": "335bac9d154ded7028b1d54d3089811b72472c5cab76aca4f1b2ff4b7deaebd1",
+  "global_lower_bound": false,
+  "independently_checked_conditional_proof": true,
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_pins_checked": 6,
+  "result": {
+    "candidate_classes": {
+      "C4-leaf": 30,
+      "C5": 192,
+      "K1,4": 5,
+      "P5": 30,
+      "missing-neighborhood": 1
+    },
+    "forcing_identities": [
+      {
+        "coefficients": [
+          0,
+          1,
+          0,
+          2,
+          0,
+          0
+        ],
+        "rhs": 0
+      },
+      {
+        "coefficients": [
+          0,
+          0,
+          1,
+          1,
+          5,
+          0
+        ],
+        "rhs": 5
+      },
+      {
+        "coefficients": [
+          0,
+          1,
+          0,
+          3,
+          5,
+          0
+        ],
+        "rhs": 5
+      }
+    ],
+    "normalization_cases": 16,
+    "rooted_degrees": {
+      "C4-leaf": {
+        "3": 30
+      },
+      "C5": {
+        "0": 132,
+        "2": 60
+      },
+      "K1,4": {
+        "4": 5
+      },
+      "P5": {
+        "0": 30
+      },
+      "missing-neighborhood": {
+        "0": 1
+      }
+    },
+    "solution": [
+      48,
+      0,
+      0,
+      0,
+      1,
+      15
+    ]
+  },
+  "sixteen_audit_sha256": "de03e575af4237a99f5ad10083ac7f0651021c8349d3250162cef2972f752e84",
+  "sixteen_certificate_sha256": "6802e49098940c70253dbf17e0a44bc05acb800185d85356dc5031faa6c545fc",
+  "sixteen_checker_sha256": "b1d2355fac870cb985d0e81c13a0a78c52bc59fc3a3ea08bd38142ecec4f9337",
+  "sixteen_exclusion_fresh_replay": {
+    "automorphisms": 192,
+    "failed_literals": [
+      4,
+      5,
+      20,
+      12,
+      13,
+      18,
+      19,
+      6,
+      14
+    ],
+    "final_removed": 95,
+    "final_row": {
+      "lower": 1,
+      "support": [
+        96,
+        104,
+        168,
+        177
+      ],
+      "triple": [
+        9,
+        11,
+        16
+      ],
+      "upper": 1
+    },
+    "final_selected": 24,
+    "final_support_values": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "propagation_steps": 431
+  },
+  "summary_sha256": "2cb7a539e586c3c35c926bcc8ac1888ebf8e003fe8b1f783e42ba8bcab50ab8f"
+}

@@ -1,0 +1,84 @@
+{
+  "block_id_convention": "zero-based lexicographic C(16,5) variables",
+  "candidate_pool_hash_convention": "sorted IDs separated by ASCII spaces with final LF",
+  "cases": 256,
+  "cases_sha256": "03fc4ef1f9e3ad866cb4c2a3f0a2ac9ac78e65a7ca10bad9371ebbd258c3d923",
+  "construction_classes_sha256": "6916b285c1c53693b4f2f53bd0194afd6f2c936e1a10da3a236c5311ab86a2cc",
+  "construction_maps_sha256": "752b964d5a9de5b05c2f6f453711df12d2da628606ea65c986135583b041a9a2",
+  "global_conclusion": "None.",
+  "initial_candidates_range": [
+    180,
+    493
+  ],
+  "initial_forced_conflict_cases": 201,
+  "initial_insufficient_support_cases": 144,
+  "initial_rejected_union": 216,
+  "maximum_rounds": 3,
+  "outcomes": {
+    "forced_conflict": 76,
+    "insufficient_support": 173,
+    "survives_finite_screen": 7
+  },
+  "point_one_outcomes": {
+    "0": "insufficient_support",
+    "1": "forced_conflict",
+    "10": "insufficient_support",
+    "11": "insufficient_support",
+    "12": "forced_conflict",
+    "16": "insufficient_support",
+    "18": "insufficient_support",
+    "19": "insufficient_support",
+    "25": "insufficient_support",
+    "26": "forced_conflict",
+    "3": "insufficient_support",
+    "4": "insufficient_support",
+    "40": "forced_conflict",
+    "60": "insufficient_support",
+    "8": "insufficient_support",
+    "9": "insufficient_support"
+  },
+  "profile_file_sha256": "4e5ccb1563991e106f2a40e9c8160059eb48d44930bc53d7d4607d44fca208d5",
+  "python_version": "3.13.15 (main, Aug  7 2026, 02:15:21) [Clang 22.1.3 ]",
+  "scope": "Only each explicitly pinned affine20-block partial with its fixed excess profile. Does not enumerate other isomorphic affine embeddings or other local decompositions.",
+  "solver_calls": 0,
+  "source_revision": "25227dae4457b4b07121174f87622c7eef261e9f",
+  "source_sha256": "0a0f33fdb0ca0e9a4b1c31b887fc6adfa0a4ab8491588b1c565cc428817d8bba",
+  "survival_meaning": "No contradiction from finite support propagation; not feasibility.",
+  "survivors": [
+    {
+      "class": "C4-leaf",
+      "point": 10,
+      "profile_seed": 0
+    },
+    {
+      "class": "triangle-path2",
+      "point": 13,
+      "profile_seed": 40
+    },
+    {
+      "class": "C4-leaf",
+      "point": 7,
+      "profile_seed": 4
+    },
+    {
+      "class": "C4-leaf",
+      "point": 3,
+      "profile_seed": 18
+    },
+    {
+      "class": "C4-leaf",
+      "point": 3,
+      "profile_seed": 16
+    },
+    {
+      "class": "C4-leaf",
+      "point": 8,
+      "profile_seed": 16
+    },
+    {
+      "class": "triangle-path2",
+      "point": 3,
+      "profile_seed": 60
+    }
+  ]
+}

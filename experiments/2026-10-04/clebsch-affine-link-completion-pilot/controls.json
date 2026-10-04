@@ -1,0 +1,45 @@
+{
+  "cases": {
+    "kill_after_grace": {
+      "kill_required": true,
+      "passed": true,
+      "signals": [
+        15,
+        9
+      ],
+      "wait_timeouts": [
+        35.0,
+        5.0,
+        null
+      ],
+      "watchdog_fired": true
+    },
+    "normal": {
+      "kill_required": false,
+      "passed": true,
+      "signals": [],
+      "wait_timeouts": [
+        35.0
+      ],
+      "watchdog_fired": false
+    },
+    "term_after_watchdog": {
+      "kill_required": false,
+      "passed": true,
+      "signals": [
+        15
+      ],
+      "wait_timeouts": [
+        35.0,
+        5.0
+      ],
+      "watchdog_fired": true
+    }
+  },
+  "optimizer_launches": 0,
+  "passed": true,
+  "real_process_launches": 0,
+  "real_signals_sent": 0,
+  "runner_sha256": "a98252d012008a3c17d45b553783b564ecb0547509a88535eb37f800d4e2f316",
+  "source_sha256": "27890944e7a2188c7e98ec2589a5d355d29af001712e86d91b4f88bfc16a07b4"
+}

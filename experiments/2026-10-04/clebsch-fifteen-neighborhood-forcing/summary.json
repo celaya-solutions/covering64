@@ -1,0 +1,181 @@
+{
+  "aggregate_solution": [
+    48,
+    0,
+    0,
+    0,
+    1,
+    15
+  ],
+  "aggregate_solution_columns": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "x"
+  ],
+  "all_pentads_examined": 4368,
+  "all_single_row_support_checks_passed": true,
+  "candidate_class_point_degrees": {
+    "C4-leaf": {
+      "3": 30
+    },
+    "C5": {
+      "0": 132,
+      "2": 60
+    },
+    "K1,4": {
+      "4": 5
+    },
+    "P5": {
+      "0": 30
+    },
+    "missing-neighborhood": {
+      "0": 1
+    }
+  },
+  "candidate_classes": {
+    "C4-leaf": 30,
+    "C5": 192,
+    "K1,4": 5,
+    "P5": 30,
+    "missing-neighborhood": 1
+  },
+  "candidate_count": 258,
+  "conditional_exclusion": "The separately checked sixteen-neighborhood contradiction therefore excludes every cover in this stated pair and triple profile with at least fifteen Clebsch neighborhood blocks.",
+  "conditional_scope": "Clebsch pair profile: edge pairs6, nonedge pairs5; non-P3 triple counts1 and P3 triple counts between1and2; exact64 distinct blocks; at least15 Clebsch neighborhoods selected.",
+  "fixed_independent_triples": 150,
+  "fixed_neighborhoods": [
+    [
+      7,
+      11,
+      13,
+      15,
+      16
+    ],
+    [
+      6,
+      10,
+      13,
+      14,
+      16
+    ],
+    [
+      5,
+      9,
+      13,
+      14,
+      15
+    ],
+    [
+      4,
+      10,
+      11,
+      12,
+      16
+    ],
+    [
+      3,
+      9,
+      11,
+      12,
+      15
+    ],
+    [
+      2,
+      9,
+      10,
+      12,
+      14
+    ],
+    [
+      1,
+      9,
+      10,
+      11,
+      13
+    ],
+    [
+      4,
+      6,
+      7,
+      8,
+      16
+    ],
+    [
+      3,
+      5,
+      7,
+      8,
+      15
+    ],
+    [
+      2,
+      5,
+      6,
+      8,
+      14
+    ],
+    [
+      1,
+      5,
+      6,
+      7,
+      13
+    ],
+    [
+      2,
+      3,
+      4,
+      8,
+      12
+    ],
+    [
+      1,
+      3,
+      4,
+      7,
+      11
+    ],
+    [
+      1,
+      2,
+      4,
+      6,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      9
+    ]
+  ],
+  "forcing_conclusion": "Any such exact64 cover containing these fifteen neighborhoods must contain the sixteenth.",
+  "minimum_pair_support_slack": 10,
+  "minimum_positive_exact_triple_support_slack": 3,
+  "missing_neighborhood": [
+    8,
+    12,
+    14,
+    15,
+    16
+  ],
+  "passed": true,
+  "python_version": "3.13.15 (main, Aug  7 2026, 02:15:21) [Clang 22.1.3 ]",
+  "remaining_independent_triples": 10,
+  "sixteen_neighborhood_exclusion_dependency": {
+    "certificate": "experiments/2026-10-04/clebsch-neighborhood-cycle-certificate/certificate.json",
+    "certificate_sha256": "6802e49098940c70253dbf17e0a44bc05acb800185d85356dc5031faa6c545fc",
+    "independent_audit": "experiments/2026-10-04/clebsch-neighborhood-cycle-certificate-independent/audit.json",
+    "independent_audit_passed": true,
+    "independent_audit_sha256": "de03e575af4237a99f5ad10083ac7f0651021c8349d3250162cef2972f752e84"
+  },
+  "solver_calls": 0,
+  "source_revision": "25227dae4457b4b07121174f87622c7eef261e9f",
+  "source_sha256": "c4c0a7af0a5ab884817ec39d4a9e1db466fa312602849a0a91c0923cefe7b610",
+  "transitivity_cases_checked": 16,
+  "unrestricted_claim": false
+}

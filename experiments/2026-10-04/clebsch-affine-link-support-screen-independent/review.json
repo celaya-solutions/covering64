@@ -1,0 +1,114 @@
+{
+  "all_case_count": 256,
+  "block_universe_count": 4368,
+  "checker_sha256": "585696c28f54abd96356ab76fa6899c190ad405e735c29214b444189fbbe1f17",
+  "complete_initial_domain_count_per_case": 3003,
+  "construction_review_sha256": "980a6894ab489bcdfd729d9c84562ce6f5b268786e88b91339754023312884a9",
+  "excluded_fixed_partials": 249,
+  "malformed_controls_rejected": [
+    "initial_candidates",
+    "initial_deficient_rows",
+    "initial_candidate_ids_sha256",
+    "partial_canonical_sha256",
+    "point",
+    "propagated_blocks",
+    "outcome",
+    "support_demand_7",
+    "support_triple_8",
+    "support_support_block_ids_9",
+    "support_support_block_ids_10",
+    "forcing_reason_missing_support",
+    "forcing_reason_wrong_demand",
+    "missing_forced_conflict",
+    "missing_propagation_round",
+    "false_survival_slack",
+    "missing_case",
+    "duplicate_case"
+  ],
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_pins": {
+    "cases.json": "03fc4ef1f9e3ad866cb4c2a3f0a2ac9ac78e65a7ca10bad9371ebbd258c3d923",
+    "files.json": "3161faf570667f96a9aef3b8632265234379ef42408bc627a09b26e899c71176",
+    "screen.py": "0a0f33fdb0ca0e9a4b1c31b887fc6adfa0a4ab8491588b1c565cc428817d8bba",
+    "summary.json": "5f4641a4f34f6e5f0f2067ece1dbd949da7d4ebe7e9d65a31f2ede11f8228899"
+  },
+  "round_count": 291,
+  "rows_per_case": 455,
+  "scope": "Each exclusion applies only to the exact pinned20-block affine partial and its fixed recipe. Every point-avoiding pentad was in the initial domain. Other affine label maps, other local decompositions, unrestricted profiles, and general64-cover existence remain unresolved.",
+  "selected_point_one_partials_all_excluded": true,
+  "source_imported": false,
+  "summary_replay": {
+    "cases": 256,
+    "initial_candidates_range": [
+      180,
+      493
+    ],
+    "initial_forced_conflict_cases": 201,
+    "initial_insufficient_support_cases": 144,
+    "initial_rejected_union": 216,
+    "maximum_rounds": 3,
+    "outcomes": {
+      "forced_conflict": 76,
+      "insufficient_support": 173,
+      "survives_finite_screen": 7
+    },
+    "point_one_outcomes": {
+      "0": "insufficient_support",
+      "1": "forced_conflict",
+      "10": "insufficient_support",
+      "11": "insufficient_support",
+      "12": "forced_conflict",
+      "16": "insufficient_support",
+      "18": "insufficient_support",
+      "19": "insufficient_support",
+      "25": "insufficient_support",
+      "26": "forced_conflict",
+      "3": "insufficient_support",
+      "4": "insufficient_support",
+      "40": "forced_conflict",
+      "60": "insufficient_support",
+      "8": "insufficient_support",
+      "9": "insufficient_support"
+    },
+    "survivors": [
+      {
+        "class": "C4-leaf",
+        "point": 10,
+        "profile_seed": 0
+      },
+      {
+        "class": "triangle-path2",
+        "point": 13,
+        "profile_seed": 40
+      },
+      {
+        "class": "C4-leaf",
+        "point": 7,
+        "profile_seed": 4
+      },
+      {
+        "class": "C4-leaf",
+        "point": 3,
+        "profile_seed": 18
+      },
+      {
+        "class": "C4-leaf",
+        "point": 3,
+        "profile_seed": 16
+      },
+      {
+        "class": "C4-leaf",
+        "point": 8,
+        "profile_seed": 16
+      },
+      {
+        "class": "triangle-path2",
+        "point": 3,
+        "profile_seed": 60
+      }
+    ]
+  },
+  "survival_does_not_establish_feasibility": true,
+  "surviving_fixed_partials": 7
+}

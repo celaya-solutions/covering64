@@ -1,0 +1,120 @@
+{
+  "cases": [
+    {
+      "all_rows_verified": 1926,
+      "case": 1,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "3156a395a08891e3f0fbe70fdf432c691a36684303414d3c50b8adfd7b11db9a",
+      "parameters_sha256": "631f0d27528be866a1cb5a97ff66b6e31606b37d5310a26137ed25c5827354b2",
+      "partial_sha256": "49bcdd8e69202fc356826356819639cfae61de1fa1970a34f7c169c5243229f6",
+      "point": 10,
+      "profile_seed": 0,
+      "seed": 2026106301
+    },
+    {
+      "all_rows_verified": 1926,
+      "case": 2,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "c4c60beeca8e931b134e2940eb719907a066d47388f9e612a2cc92901ee16353",
+      "parameters_sha256": "bbc5c18bb34033aeeee8d56e527ce4d2e0d3fe7889f8dbca561712a89609d7d3",
+      "partial_sha256": "a92d6aa0d2582eb33157dda8d90358a1bac9ecefde21c198334427c8172342bd",
+      "point": 13,
+      "profile_seed": 40,
+      "seed": 2026106302
+    },
+    {
+      "all_rows_verified": 1926,
+      "case": 3,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "f6c785aaa2532129c49bde4e3dc2f9d661127dba92fe49bd65646172214ce8d1",
+      "parameters_sha256": "9c92f4cb4a0a935967cebc6ad09fe40553626fe814b31206c0401f2f69086c6f",
+      "partial_sha256": "a233814a9141da7c8e52271f984ba578be8ab4a2669a2ce7d72c061c7053d642",
+      "point": 7,
+      "profile_seed": 4,
+      "seed": 2026106303
+    },
+    {
+      "all_rows_verified": 1926,
+      "case": 4,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "c4d2138df1a3362691dbb40010e62ba142028bd11dca83ace813d906da92e5d1",
+      "parameters_sha256": "15f934634d73ccfe2baebdd544718cae15135d70195bae4e7348da13753c53e3",
+      "partial_sha256": "45036549544cebf125a4eb6d980f0bd8a86636282cbe31d25d1d39629f9d518e",
+      "point": 3,
+      "profile_seed": 18,
+      "seed": 2026106304
+    },
+    {
+      "all_rows_verified": 1926,
+      "case": 5,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "64f7dd383039106fe2a8a9f093c815ff63d5e9a8f4991760a245a0ff74270c1a",
+      "parameters_sha256": "91dfe5374d22b080af616f430abd022f9dcff5c862be5471b587fbfbc4c973ff",
+      "partial_sha256": "a8e1aef7fb4a323e8f95fac377291d30538b6b79ba4eab1e1864820b6277457e",
+      "point": 3,
+      "profile_seed": 16,
+      "seed": 2026106305
+    },
+    {
+      "all_rows_verified": 1926,
+      "case": 6,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "1ac41de587e508dcad3af96fedfdd322dbefbeb8dcd5bd028d192c7a7b512dd8",
+      "parameters_sha256": "a28923a34e01e630e0122b179efc7f96892c14bb76d8dc403651239fe92012e5",
+      "partial_sha256": "18b9b4377c4f3369d66cd163452706480ac0bab5ed0253287edcb475edfe02ad",
+      "point": 8,
+      "profile_seed": 16,
+      "seed": 2026106306
+    },
+    {
+      "all_rows_verified": 1926,
+      "case": 7,
+      "fixed_selected": 20,
+      "free_point_avoiding_variables": 3003,
+      "model_sha256": "368f6c4ae1207725962e3d00cb412f657f0fd021e19020c2619715bf7adbad47",
+      "parameters_sha256": "260a70cb895649ca5adcc3dc0588c36a79e15ccbdde4877c08e9facfdf974446",
+      "partial_sha256": "43f2bf0436aaa42a07b30ce13a80085a449e2b4555e28c38d2dcd15be2eb3979",
+      "point": 3,
+      "profile_seed": 60,
+      "seed": 2026106307
+    }
+  ],
+  "checker_sha256": "d90a553b4e354417b3e300e820147635e757a5f392b57944a017532c4842930a",
+  "damaged_models_rejected": [
+    "nonbinary_variable",
+    "duplicate_triple_incidence",
+    "nonunit_coefficient",
+    "weakened_triple_equality",
+    "wrong_cardinality",
+    "flipped_fixed_membership",
+    "guarded_triple_row",
+    "extra_restriction",
+    "objective",
+    "hint",
+    "assumption",
+    "search_strategy"
+  ],
+  "decision": "GO",
+  "manifest_sha256": "ea45a44104652ef27307c253849ce89e6d3937ff6e0683ac00167c24677b3d9c",
+  "mock_runner_controls": [
+    "normal",
+    "term",
+    "kill",
+    "sequential_seven_calls",
+    "exclusive_relaunch_guard"
+  ],
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_files_sha256": "990bf27c5c641a8def312f5f1781ed8c1eaf583666eed9fd77f59f3fa3deea9a",
+  "real_process_launches": 0,
+  "real_signals_sent": 0,
+  "runner_sha256": "a98252d012008a3c17d45b553783b564ecb0547509a88535eb37f800d4e2f316",
+  "scope": "Seven conditional exact64 models only. Full4368 lex binary variables; 560 exact profile triples, one exact64 row,1365 fixed point memberships. Other3003 variables remain unfixed. No hints, objective, or screen pruning. Only root may launch the seven sequential30s one-worker calls. UNKNOWN is inconclusive; solver INFEASIBLE is not a checked theorem.",
+  "support_review_sha256": "8c7fd636138ee781dc308ce04c1eee47da63345b0eb3805a611ae794a43ab6a3"
+}

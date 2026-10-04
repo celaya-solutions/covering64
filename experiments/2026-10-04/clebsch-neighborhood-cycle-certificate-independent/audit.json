@@ -1,0 +1,81 @@
+{
+  "certificate_sha256": "6802e49098940c70253dbf17e0a44bc05acb800185d85356dc5031faa6c545fc",
+  "checker_sha256": "b1d2355fac870cb985d0e81c13a0a78c52bc59fc3a3ea08bd38142ecec4f9337",
+  "cover_searches": 0,
+  "cycles": 192,
+  "damage_controls": {
+    "bad_branch_endpoint": "rejected",
+    "bad_cardinality": "rejected",
+    "bad_coordinate_map": "rejected",
+    "bad_final_conflict": "rejected",
+    "bad_final_endpoint": "rejected",
+    "bad_force_value": "rejected",
+    "bad_point_map": "rejected",
+    "bool_force": "rejected",
+    "changed_global_id": "rejected",
+    "duplicate_force_variable": "rejected",
+    "duplicate_target": "rejected",
+    "false_scope": "rejected",
+    "inverted_failed_literal": "rejected",
+    "missing_automorphism": "rejected",
+    "missing_branch_trace": "rejected",
+    "missing_cycle": "rejected",
+    "missing_deduction": "rejected",
+    "missing_force_variable": "rejected",
+    "missing_reference": "rejected",
+    "missing_row": "rejected",
+    "missing_support": "rejected",
+    "odd_translation": "rejected",
+    "unjustified_force_row": "rejected",
+    "wrong_branch_conflict": "rejected",
+    "wrong_failed_literal": "rejected",
+    "wrong_row_lower": "rejected",
+    "wrong_row_upper": "rejected"
+  },
+  "excludes_all_clebsch_profile_covers": false,
+  "global_lower_bound": false,
+  "independently_checked_conditional_proof": true,
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_source_sha256": "2119950b2ff8d0967b02589f309f77466d12b6d7be1d0ee0eb87b5ccdc5fc007",
+  "result": {
+    "automorphisms": 192,
+    "failed_literals": [
+      4,
+      5,
+      20,
+      12,
+      13,
+      18,
+      19,
+      6,
+      14
+    ],
+    "final_removed": 95,
+    "final_row": {
+      "lower": 1,
+      "support": [
+        96,
+        104,
+        168,
+        177
+      ],
+      "triple": [
+        9,
+        11,
+        16
+      ],
+      "upper": 1
+    },
+    "final_selected": 24,
+    "final_support_values": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "propagation_steps": 431
+  },
+  "rows": 401,
+  "scope": "No cover with both the Clebsch pair profile and all sixteen fixed neighbor pentads."
+}

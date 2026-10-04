@@ -1,0 +1,78 @@
+{
+  "aggregate_solutions": [
+    [
+      48,
+      0,
+      0,
+      0,
+      1,
+      15
+    ]
+  ],
+  "columns": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "x"
+  ],
+  "nonnegativity_deduction": "b+2d=0 implies b=d=0; then b+3d+5e=5 implies e=1.",
+  "rows": {
+    "cardinality": {
+      "coefficients": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "rhs": 49
+    },
+    "graph_edges": {
+      "coefficients": [
+        5,
+        5,
+        4,
+        4,
+        0,
+        0
+      ],
+      "rhs": 240
+    },
+    "graph_edges_at_point_one": {
+      "coefficients": [
+        0,
+        3,
+        0,
+        4,
+        0,
+        2
+      ],
+      "rhs": 30
+    },
+    "independent_triples": {
+      "coefficients": [
+        0,
+        1,
+        1,
+        4,
+        10,
+        0
+      ],
+      "rhs": 10
+    },
+    "point_one_occurrences": {
+      "coefficients": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "rhs": 15
+    }
+  }
+}

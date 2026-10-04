@@ -1,0 +1,45 @@
+
+Starting CP-SAT solver v9.15.6755
+Parameters: random_seed: 2026106306 max_time_in_seconds: 30 log_search_progress: true num_search_workers: 1 log_to_stdout: true
+
+Initial satisfaction model '': (model_fingerprint: 0xe6c62b9bac857ca4)
+#Variables: 4'368 (2'717 primary variables)
+  - 4'368 Booleans in [0,1]
+#kLinear1: 1'365
+#kLinearN: 561 (#terms: 48'048)
+
+Starting presolve at 0.00s
+INFEASIBLE: 'var #941 as empty domain after intersecting with [0]'
+Unsat after presolving constraint #621 (warning, dump might be inconsistent): exactly_one { literals: -942 literals: -606 literals: 556 literals: 605 literals: 640 literals: 641 literals: 642 literals: 776 literals: 860 literals: 861 literals: 862 literals: 941 literals: 990 literals: 1026 literals: 1027 literals: 1230 literals: 1231 literals: 1321 literals: 1322 literals: 1360 literals: 1361 literals: 1362 }
+  2.01e-03s  0.00e+00d  [PresolveToFixPoint] 
+
+Presolve summary:
+  - 4 affine relations were detected.
+  - rule 'affine: new relation' was applied 4 times.
+  - rule 'exactly_one: removed literals' was applied 59 times.
+  - rule 'exactly_one: size two' was applied 4 times.
+  - rule 'exactly_one: x and not(x)' was applied 47 times.
+  - rule 'linear1: x in domain' was applied 1'365 times.
+  - rule 'linear: empty' was applied 169 times.
+  - rule 'linear: fixed or dup variables' was applied 625 times.
+  - rule 'linear: positive equal one' was applied 342 times.
+  - rule 'linear: reduced variable domains' was applied 64 times.
+  - rule 'presolve: iteration' was applied 1 time.
+Problem closed by presolve.
+CpSolverResponse summary:
+status: INFEASIBLE
+objective: NA
+best_bound: NA
+integers: 0
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 0
+restarts: 0
+lp_iterations: 0
+walltime: 0.00769
+usertime: 0.00769
+deterministic_time: 0
+gap_integral: 0
+

@@ -1,0 +1,46 @@
+
+Starting CP-SAT solver v9.15.6755
+Parameters: random_seed: 2026106305 max_time_in_seconds: 30 log_search_progress: true num_search_workers: 1 log_to_stdout: true
+
+Initial satisfaction model '': (model_fingerprint: 0xa293c7f301a48e6b)
+#Variables: 4'368 (2'717 primary variables)
+  - 4'368 Booleans in [0,1]
+#kLinear1: 1'365
+#kLinearN: 561 (#terms: 48'048)
+
+Starting presolve at 0.00s
+INFEASIBLE: 'exactly_one: empty or all false'
+Unsat after presolving constraint #832 (warning, dump might be inconsistent): exactly_one { }
+  2.34e-03s  0.00e+00d  [PresolveToFixPoint] 
+
+Presolve summary:
+  - 4 affine relations were detected.
+  - rule 'affine: new relation' was applied 4 times.
+  - rule 'exactly_one: removed literals' was applied 266 times.
+  - rule 'exactly_one: size two' was applied 3 times.
+  - rule 'exactly_one: x and not(x)' was applied 137 times.
+  - rule 'linear1: x in domain' was applied 1'365 times.
+  - rule 'linear: empty' was applied 169 times.
+  - rule 'linear: fixed or dup variables' was applied 625 times.
+  - rule 'linear: positive equal one' was applied 341 times.
+  - rule 'linear: reduced variable domains' was applied 64 times.
+  - rule 'linear: remapped using affine relations' was applied 1 time.
+  - rule 'presolve: iteration' was applied 1 time.
+Problem closed by presolve.
+CpSolverResponse summary:
+status: INFEASIBLE
+objective: NA
+best_bound: NA
+integers: 0
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 0
+restarts: 0
+lp_iterations: 0
+walltime: 0.008418
+usertime: 0.008418
+deterministic_time: 0
+gap_integral: 0
+

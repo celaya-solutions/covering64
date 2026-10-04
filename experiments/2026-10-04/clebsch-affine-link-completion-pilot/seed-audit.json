@@ -1,0 +1,38 @@
+{
+  "command": [
+    "rg",
+    "--no-ignore",
+    "-l",
+    "202610630[1-7]",
+    "experiments",
+    "scripts",
+    "docs",
+    "--glob",
+    "*.json",
+    "--glob",
+    "*.py",
+    "--glob",
+    "*.md",
+    "--glob",
+    "*.log",
+    "--glob",
+    "*.txt",
+    "--glob",
+    "!**/clebsch-affine-link-completion-pilot/**"
+  ],
+  "first_search_before_pilot_creation_also_returned_no_matches": true,
+  "matches_outside_this_new_pilot": 0,
+  "returncode": 1,
+  "seeds": [
+    2026106301,
+    2026106302,
+    2026106303,
+    2026106304,
+    2026106305,
+    2026106306,
+    2026106307
+  ],
+  "stderr": "",
+  "stdout": "",
+  "tracked_and_ignored_text_artifacts_included": true
+}

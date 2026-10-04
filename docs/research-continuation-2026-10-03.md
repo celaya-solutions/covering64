@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.35.0
+Version:     v1.36.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      a5558cc0e33564d969bc71e9157581e09ea7c8493f13df28d9132c8e9fcb3114
+SHA256:      14d17e4eeedb4251d1da0491e8aac8ef98218a97ff787031cb1f7f8210b885a7
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1242,3 +1242,35 @@ The manifest has SHA256 `6d497a1b7081c1891ea61de71103254c2b439474abe5c58780080f7
 The raw and five-cap records retain the original H6 family. The new best saved weak-qualified family has11 holes and D2max26, SHA256 `616b37190ee722bbd393821b4750d9279764deb992df4acf7a0c5a271d5b4344`, worse than the separate global qualified fallback H9/D19. The classifier records seven distinct families across12 references, including four weak-qualified H11 records, the known complete65, original rawH6 and the final62-block H38 state. No cover of size64 or less was found. The result has SHA256 `8626d2045747ce3b630ac155ed0ee5b06de69b342b5bf645f1d17e63202cf4e2`; saved-only classification has SHA256 `83128ecd55b59d71133288c5fb5bfd9b04d8d8844e7504bc65bb26a21f2d25c7`.
 
 Independent runtime receipt SHA256 is `85f4a4848082e333c89349132da8d960aa6942744f26bc636c33de00c655b15b`. It rechecks all seven distinct families and12 references,32 trace mutations and24 damaged controls. The weak records progress H11/D29 through D28,D27,D26. The reviewer confirms the absent initial weak bucket, separate complete incumbent, native exit1 versus wrapper exit0, no watchdog/restart and unchanged global fallback. No live search was repeated.
+
+## Four explicit local links for the Clebsch recipe (October 4)
+
+For each of the sixteen saved tournament profiles and each chosen point, the twenty incident pentads reduce to a K4 decomposition of K15 plus the link excess. The256 local excess graphs fall into four isomorphism classes: C5 on five degree-four centers, C4 with a leaf, a triangle with a two-edge attached path, or a triangle with leaves at two different vertices. Ten additional degree-one vertices complete each excess graph. Their counts are16,80,80,80. In either triangular class, the unique triangle consists of Clebsch neighbors of the fixed point and has global demand1, so its local incidence must be at most1.
+
+All four classes have explicit constructions. Take AG(2,4), delete the origin, retain the fifteen lines not through it, and extend each of its five three-point rays by a distinct point from another ray. The chosen ray-assignment maps have the desired unicyclic cores and no fixed point or two-cycle. Each saved construction has twenty distinct quadruples and the exact prescribed105 pair counts; the triangle cap holds. No local solver call is needed. Explicit bidirectional maps transport these four constructions to every one of the256 recipe-point cases.
+
+Independent replay rebuilt the affine plane from translated one-dimensional subspaces, checked26,880 pair rows,116,480 outside residual rows and143,360 global triple caps, and applied both covering verifiers to every lifted20-pentad partial. Each covers185 of560 triples and is correctly rejected as a full cover. Twenty-two damaged class/map controls were rejected. Construction summary SHA256 is `82f7c7bcd773bfe73fdb97c4f4bef594399e05742b9c9366b8c401df06f9f67b`; independent review SHA256 is `980a6894ab489bcdfd729d9c84562ce6f5b268786e88b91339754023312884a9`. Local feasibility does not establish compatible global links.
+
+## Completing the selected affine links (October 4)
+
+A finite screen fixes each chosen20-pentad partial and retains the complete3,003-block domain avoiding its point. Subtracting the fixed incidences gives exact residual triple demands for44 further blocks. Initially, zero-demand rows leave180–493 eligible pentads. Ordinary support and forced-choice propagation independently excludes249 of the256 exact partials:173 end with insufficient support and76 with forced conflicts, in at most three rounds. Seven survive this check, at(seed,point)=(0,10),(40,13),(4,7),(18,3),(16,3),(16,8),(60,3). The independent review has SHA256 `8c7fd636138ee781dc308ce04c1eee47da63345b0eb3805a611ae794a43ab6a3`, with eighteen damaged controls rejected. These are exclusions of the chosen partials, not all links of a class or all embeddings.
+
+Seven conditional CP models then retain all4,368 lexicographic binary variables,560 exact global triple rows, exact64 and1,365 equations fixing every point-containing membership. All3,003 avoiding-point variables are initially free, with no propagation-based domain restriction, hint or objective. Root checked54 bindings and launched the seven sequential30-second/one-worker calls with seeds2026106301–6307 under manifest `ea45a44104652ef27307c253849ce89e6d3937ff6e0683ac00167c24677b3d9c` and independent GO `c91675846eaeec6101a0e8cccbf7fc6d09dde9f7e84e743ef97f77e35ec748f4`.
+
+All seven calls returned INFEASIBLE during presolve, with no vector, candidate, watchdog or retry. Total native time was0.061004 seconds; total worker-process time was2.357667623 seconds. Independent runtime audit SHA256 is `7535586c1b88a5c092050cc234d6de9aa4e9e3d4ae15abbe6b0c888ae329aac5`; it checked all saved model/parameter/status/log bindings and rejected sixteen damaged controls. These solver statuses are not themselves independently checked proofs.
+
+Separate finite certificates close the seven remaining partials using only residual row bounds and failed positive literals. The numbers of failed literals are5,8,4,6,7,4,10. Every branch and forced-value trace is saved under certificate SHA256 `935783a788c93d79046bf9599af2d95735e5ce087a43c876a6516acfbcfc7841`. An independent bitset checker reconstructs all561 rows over every3,003-block domain, replays44 failed literals and1,069 force steps, checks both partial verifiers and rejects43 damaged certificate/input controls. Its audit has SHA256 `24c9d8ff0cc3db79ed95a46493c5ffd7e6d662e1b54e1e8f8df6e3997a510b8e`. Combined with the separate249-case screen, these proofs exclude the256 explicitly chosen affine partials. They exclude neither alternative local constructions nor other embeddings of the same local graphs.
+
+## Finite exclusion of the full Clebsch neighborhood recipe (October 4)
+
+A separate construction fixes the sixteen Clebsch neighbor pentads while retaining its pair profile, multiplicity6 on graph edges and5 on nonedges. Their160 independent triples are covered exactly once, so every further pentad must have no independent triple. A triangle-free five-point graph with that property is a cycle; exhaustive enumeration yields192 eligible cycles. Every one of240 single-edge triples has four cycle carriers, and each of160 two-edge paths has six. The conditional model retains all4,368 lexicographic variables, with16 fixed one,192 free binary and4,160 fixed zero, plus exact64 and all560 triple rows. It leaves the repeated-path choices free and assumes no fixed tournament profile.
+
+One independently gated30-second/one-worker call, seed2026106201, returned INFEASIBLE during presolve in0.015652 native seconds. The wrapper took0.759248375 seconds and saved no witness or vector. Independent runtime audit SHA256 is `19cbbb5da1c67088a4ab5a5e1b7c540b22f8f222b8483dc8236a210b3810fe45`. The result is separately strengthened by a finite certificate; the proof does not depend on CP-SAT's presolve.
+
+The certificate supplies192 explicit graph automorphisms taking a reference cycle to every cycle. Any recipe solution selects48 cycles and can therefore be relabeled to include that reference. Nine failed-positive-literal deductions, with431 elementary row-bound force steps, give a contradiction: cycles(2,6,9,11,16) and(5,8,9,11,16) both cover the required-exactly-once triple(9,11,16). A separate standard-library checker rebuilds all401 reduced rows, replays every force and all192 maps, and rejects27 damaged certificates. Certificate SHA256 is `6802e49098940c70253dbf17e0a44bc05acb800185d85356dc5031faa6c545fc`; independent audit SHA256 is `de03e575af4237a99f5ad10083ac7f0651021c8349d3250162cef2972f752e84`. This proves only the conditional full-neighborhood recipe impossible.
+
+## At most fourteen Clebsch neighbor pentads (October 4)
+
+Fixing fifteen neighbor pentads leaves258 compatible further choices:192 cycles,30 C4-with-leaf pentads,30 paths on five vertices, five stars and the missing neighbor pentad. Let their selected counts be a,b,c,d,e; let x count the selected cycles containing the omitted center. Exact edge incidences, cardinality and uncovered independent triples give c+d+5e=5 and b+3d+5e=5. At the omitted center, the fixed blocks supply five of its required twenty incidences. Each remaining cycle contributes two graph edges there, a C4-with-leaf contributes three and a star four. Thus x+b+d=15 and2x+3b+4d=30, forcing b=d=0 and then e=1. Fifteen selected neighbor pentads therefore force the sixteenth.
+
+An independent enumeration checks every candidate and identity contribution, all sixteen point-normalizing XOR maps, and a fresh replay of the preceding sixteen-neighbor certificate. Nineteen damaged inputs are rejected. Independent audit SHA256 is `bd811ed04a34265113bffa75fff4a00461bdec12c58dd21bdd83be83a64a8929`. Consequently, any64-block cover with this Clebsch pair profile contains at most fourteen of its sixteen neighbor pentads. This is a proved restriction within that pair profile, not a new unrestricted lower bound or a proof against all Clebsch-profile covers.
