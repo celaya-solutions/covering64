@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Classified three local13-point families and audited first-family, heavy-triple and hub reductions; the checkpoint passes243 tests. Goal64 remains open; the active penalty campaign and later solver results continue beyond the checkpoint, with scope in docs/research-continuation-2026-10-03.md.
+Audited feature, facet and odd-set cuts now certify 102 of 258 first-link cases; 306 tests plus 10 subtests and Ruff pass. Goal 64 remains open with 156 cases; six exhaustive hub-count screens and the new overlap-five degree-19 branch continue separately. Full evidence is in docs/four-seven-branch.md.

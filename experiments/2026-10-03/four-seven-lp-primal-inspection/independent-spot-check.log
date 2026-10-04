@@ -1,0 +1,122 @@
+{
+  "valid": true,
+  "selected": [
+    "cycle-069",
+    "cycle-111",
+    "matching-029",
+    "matching-030",
+    "matching-097"
+  ],
+  "results": [
+    {
+      "id": "cycle-069",
+      "valid_audit": true,
+      "metrics": {
+        "fractional_block_mass": 54.39948386073712,
+        "fractional_block_count": 401,
+        "near_one_blocks": 7,
+        "near_zero_blocks": 3960,
+        "threshold_half_count": 13,
+        "fractional_double_count": 140
+      },
+      "exact_binary_float_row_residual": [
+        623609,
+        1152921504606846976
+      ],
+      "numerical_row_residual": 5.408945860652103e-13,
+      "domain_residual": 0.0,
+      "uncovered": 116,
+      "primal_sha256": "20534ffd1edcbe652781acb4b33514e4990dbd48cbc1d84edb4573dc724a7ecd",
+      "rounded_sha256": "137015c15a9ed85f99f24c4e5dc87c3d4cbbf9e5db08300646511fd62c170bee"
+    },
+    {
+      "id": "cycle-111",
+      "valid_audit": true,
+      "metrics": {
+        "fractional_block_mass": 54.64614770653647,
+        "fractional_block_count": 390,
+        "near_one_blocks": 8,
+        "near_zero_blocks": 3970,
+        "threshold_half_count": 12,
+        "fractional_double_count": 152
+      },
+      "exact_binary_float_row_residual": [
+        66763,
+        144115188075855872
+      ],
+      "numerical_row_residual": 4.632613737065583e-13,
+      "domain_residual": 0.0,
+      "uncovered": 95,
+      "primal_sha256": "0240135a57c3823e3eb8eae5b552cb95711d8de35dcadfbacd2b86de27faba2a",
+      "rounded_sha256": "1884ab6e44579832d4cf5889614859a039f751396029da3079f933f723d34289"
+    },
+    {
+      "id": "matching-029",
+      "valid_audit": true,
+      "metrics": {
+        "fractional_block_mass": 54.76570097252886,
+        "fractional_block_count": 387,
+        "near_one_blocks": 7,
+        "near_zero_blocks": 3974,
+        "threshold_half_count": 13,
+        "fractional_double_count": 149
+      },
+      "exact_binary_float_row_residual": [
+        15607,
+        36028797018963968
+      ],
+      "numerical_row_residual": 4.3318126863312045e-13,
+      "domain_residual": 0.0,
+      "uncovered": 110,
+      "primal_sha256": "ae3404c2891b1ffebbf4449423045ea68a3432566051c7f5c91eb5d11bd9805d",
+      "rounded_sha256": "851a4aeed09e9421b421034b04bb913f3adfbbea6b0683bf17a04bc6a31c0ee9"
+    },
+    {
+      "id": "matching-030",
+      "valid_audit": true,
+      "metrics": {
+        "fractional_block_mass": 54.773080245725,
+        "fractional_block_count": 387,
+        "near_one_blocks": 7,
+        "near_zero_blocks": 3974,
+        "threshold_half_count": 13,
+        "fractional_double_count": 146
+      },
+      "exact_binary_float_row_residual": [
+        17603,
+        18014398509481984
+      ],
+      "numerical_row_residual": 9.771627951238315e-13,
+      "domain_residual": 0.0,
+      "uncovered": 113,
+      "primal_sha256": "9765fe0aa2f5953cd71d8294db16d01eed9978bbbd11957122a0a571e51b28ee",
+      "rounded_sha256": "4524fd6285bca37b3cf9759b9add47a94c4ef31fbe0aead3ad61cd085416b090"
+    },
+    {
+      "id": "matching-097",
+      "valid_audit": true,
+      "metrics": {
+        "fractional_block_mass": 55.241852006828765,
+        "fractional_block_count": 398,
+        "near_one_blocks": 7,
+        "near_zero_blocks": 3963,
+        "threshold_half_count": 12,
+        "fractional_double_count": 138
+      },
+      "exact_binary_float_row_residual": [
+        2515,
+        2251799813685248
+      ],
+      "numerical_row_residual": 1.1168843627729075e-12,
+      "domain_residual": 0.0,
+      "uncovered": 92,
+      "primal_sha256": "93e45ff12422a9b8cc28412c328fc48d36603120d9e1301dabb2f6bd58aaa7da",
+      "rounded_sha256": "c9dd3dc8cb6ad776ed03226b34062111f313c5846f42f26dad7d0f9ee7221571"
+    }
+  ],
+  "source_sha256": "41cb27bbfed2d0c2fd625c54632a7c568a0ef84767b0b7ec6d0b3e1a9654cd62",
+  "metadata_sha256": "feb84a5a354b6f2a154152b3bf800db72fd0219b7c3b659c563ecf480b4babe8",
+  "summaries_sha256": "e947deea38ee42317ba6ae3ebe1b42566495a985891fef5f32ea8f34aa78fbe9",
+  "method": "Exact rational arithmetic on the stored binary floats, independent lexicographic rounding and triple recount; no optimizer called.",
+  "scope": "Five numerical primal spot checks. Small nonzero row residuals are not exact primal witnesses. Every rounded candidate is incomplete."
+}

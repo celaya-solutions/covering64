@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "case": "cycle",
+      "screen_sha256": "06c3e44716d86d34c4df397413c35ab81eed3dd7af21a2956fbe5fe84f26af4d",
+      "identical_to_audited_cp_base": true
+    },
+    {
+      "case": "matching",
+      "screen_sha256": "f73f9a40b5d9f566aceed15311c42b2103cfd290c6faf09cd62fd39e682b955f",
+      "identical_to_audited_cp_base": true
+    }
+  ],
+  "scope": "Screen base bytes equal independently audited full-cut CP bases; certificate replay remains separate."
+}

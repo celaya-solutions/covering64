@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "proof_sha256": "7f79089fd414539551863b367b161ee1b8a5dffbaf1e5bd9013ee6ac33cc3e51",
+  "helper_sha256": "9a0230ab2e21d56372f303016290753b55ef80b7f6af2b3113ff7b9f77a6be54",
+  "checker_sha256": "60ec3d0c6377b6cf3a658ae0bf63386083ea737704a58b07dbc8cfe87b501f83",
+  "models": [
+    {
+      "case": "cycle",
+      "first_features": false,
+      "passed": true,
+      "base_rows": 4270,
+      "rows": 4286,
+      "new_rows": 16,
+      "new_variables": 0,
+      "all_prior_proto_fields_preserved": true,
+      "damaged_controls": {
+        "sign": "rejected",
+        "column": "rejected",
+        "bound": "rejected",
+        "enforcement": "rejected",
+        "missing_row": "rejected",
+        "extra_row": "rejected",
+        "prior_name": "rejected",
+        "prior_row": "rejected",
+        "hint": "rejected",
+        "objective": "rejected"
+      },
+      "model_sha256": "dc2ef0796e61e2663553fbec34fa5edd3221f4aa6e52e9cfa9742a9c16570ff5",
+      "base_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9"
+    },
+    {
+      "case": "cycle",
+      "first_features": true,
+      "passed": true,
+      "base_rows": 4278,
+      "rows": 4294,
+      "new_rows": 16,
+      "new_variables": 0,
+      "all_prior_proto_fields_preserved": true,
+      "damaged_controls": {
+        "sign": "rejected",
+        "column": "rejected",
+        "bound": "rejected",
+        "enforcement": "rejected",
+        "missing_row": "rejected",
+        "extra_row": "rejected",
+        "prior_name": "rejected",
+        "prior_row": "rejected",
+        "hint": "rejected",
+        "objective": "rejected"
+      },
+      "model_sha256": "b8e406d909304dcbe4e851a07a553167ad6b69f4f3b5e0cb4ec11662cadefc03",
+      "base_sha256": "3066ff69537e054cb3c8c12365f4c4f38694a11e8073cf3964d9372265a10c22"
+    },
+    {
+      "case": "matching",
+      "first_features": false,
+      "passed": true,
+      "base_rows": 4270,
+      "rows": 4306,
+      "new_rows": 36,
+      "new_variables": 0,
+      "all_prior_proto_fields_preserved": true,
+      "damaged_controls": {
+        "sign": "rejected",
+        "column": "rejected",
+        "bound": "rejected",
+        "enforcement": "rejected",
+        "missing_row": "rejected",
+        "extra_row": "rejected",
+        "prior_name": "rejected",
+        "prior_row": "rejected",
+        "hint": "rejected",
+        "objective": "rejected"
+      },
+      "model_sha256": "11f09c69117b4f77f3dfd24915c06e02b181a91bb97ca875bdf124621f068ae9",
+      "base_sha256": "5f85a1cd9caa86742892e44c0632df0c99c0409bc3e69d0905e4924a08116b84"
+    },
+    {
+      "case": "matching",
+      "first_features": true,
+      "passed": true,
+      "base_rows": 4282,
+      "rows": 4318,
+      "new_rows": 36,
+      "new_variables": 0,
+      "all_prior_proto_fields_preserved": true,
+      "damaged_controls": {
+        "sign": "rejected",
+        "column": "rejected",
+        "bound": "rejected",
+        "enforcement": "rejected",
+        "missing_row": "rejected",
+        "extra_row": "rejected",
+        "prior_name": "rejected",
+        "prior_row": "rejected",
+        "hint": "rejected",
+        "objective": "rejected"
+      },
+      "model_sha256": "106c4f391f8b50a75245a44d07f6eafd79087ccb9108347587bab0a9c63fb0a7",
+      "base_sha256": "92dc44923c0a68711fc300a5445e35345982af02510f7af54e70466c82beaadd"
+    }
+  ],
+  "scope": "Only signed feature suffix and prior proto preservation; the separate exact proof audit establishes integer-branch necessity."
+}

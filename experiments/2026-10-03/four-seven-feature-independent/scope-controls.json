@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "controls": [
+    {
+      "case": "cycle",
+      "control": "wrong_case",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "missing or wrong pair target"
+    },
+    {
+      "case": "cycle",
+      "control": "unknown_case",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "unknown hub pair case"
+    },
+    {
+      "case": "cycle",
+      "control": "nonboolean_block",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "block is not Boolean"
+    },
+    {
+      "case": "cycle",
+      "control": "reversed_variables",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "wrong lexicographic variable order"
+    },
+    {
+      "case": "cycle",
+      "control": "missing_coverage",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "full unconditional coverage is required"
+    },
+    {
+      "case": "cycle",
+      "control": "missing_regular_degree",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "missing regular degree"
+    },
+    {
+      "case": "cycle",
+      "control": "missing_forbidden_block",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "missing forbidden-block row"
+    },
+    {
+      "case": "cycle",
+      "control": "duplicate_application",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "feature cuts already present"
+    },
+    {
+      "case": "matching",
+      "control": "wrong_case",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "missing or wrong pair target"
+    },
+    {
+      "case": "matching",
+      "control": "unknown_case",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "unknown hub pair case"
+    },
+    {
+      "case": "matching",
+      "control": "nonboolean_block",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "block is not Boolean"
+    },
+    {
+      "case": "matching",
+      "control": "reversed_variables",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "wrong lexicographic variable order"
+    },
+    {
+      "case": "matching",
+      "control": "missing_coverage",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "full unconditional coverage is required"
+    },
+    {
+      "case": "matching",
+      "control": "missing_regular_degree",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "missing regular degree"
+    },
+    {
+      "case": "matching",
+      "control": "missing_forbidden_block",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "missing forbidden-block row"
+    },
+    {
+      "case": "matching",
+      "control": "duplicate_application",
+      "rejected": true,
+      "model_unchanged": true,
+      "reason": "feature cuts already present"
+    }
+  ],
+  "helper_sha256": "5614fb5c4452f3e5273d760c7455a720c8fcccd402acffbb9286a7dfd033d63e",
+  "checker_sha256": "fc40396f6fcbea1c2ed1a540af16e3efcbcba979461e33dc93f62f4044a4affd",
+  "scope": "Rejection behavior of the frozen helper, not a new mathematical proof."
+}

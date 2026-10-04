@@ -1,16 +1,49 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.2.0
+Version:     v1.3.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      4e68f1c097c294158f71ac1a35462b5c6f678db6eb56db94f95e99e8c1ca37eb
+SHA256:      115647f1f2a915608cf625bf9e3f0599c6d09c7f45ea07e7556dcac3a64e6188
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
 ```
 
 # Research continuation
+
+No verified 64-block cover has been found. The strongest current first-link
+screen has 102 independently checked exclusions out of 258 cases in the regular
+four-sevenfold branch: 27 cycle and 75 matching. The remaining 156 are open.
+This is a branch result, not a global lower bound.
+
+The five feature rules and thirteen additional facet families were proved from
+the original 100 checked exclusions and complete link classification. Their
+separate LP passes did not exclude another case. Adding 8,096 independently
+audited odd-set rows per model excluded matching-038 and matching-051. Separate
+exact certificate replay verified gaps 8413/1000000 and 1007/200000. The complete
+case accounting, certificates, source snapshots and raw model hashes are in
+`experiments/2026-10-03/four-seven-blossom-screen/` and its independent audit.
+
+All 158 earlier LP primals were inspected; none was integral and every rounded
+candidate failed both covering verifiers. Four earlier 60-second integer pilots
+returned UNKNOWN. Four new stronger-cut 300-second pilots also returned UNKNOWN and supplied
+no integer candidate. Their complete bounded-run evidence is saved under
+`four-seven-blossom-cp`.
+
+Both complete surviving-template hull LPs were also built and independently
+checked. They use all 25,020 cycle or 14,202 matching labeled links per heavy
+group surviving the original 100 exclusions. Both whole-branch LPs remain
+numerically feasible with fractional block values. Their two numerical primals
+are stored and independently recounted; neither is a covering witness.
+
+The completed model changes passed `uv sync --frozen`, 306 tests plus 10 subtests,
+and Ruff. Three existing SWIG deprecation warnings remain. Large raw models,
+full primal vectors and archived source/proof material remain in ignored scratch;
+small manifests and checked evidence are kept in Git. The isolated branch has
+not been merged or pushed.
+
+## Earlier checkpoint record
 
 The goal is still open: no verified64-block C(16,5,3) cover has been found. The best unrestricted partial cover still covers557 of560 triples. The best point-essential regular candidate still covers552. No global nonexistence claim follows from these experiments.
 

@@ -1,10 +1,10 @@
 ```
 Document:    The Regular Four-Sevenfold-Triple Branch
-Version:     v1.1.0
+Version:     v1.2.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      a44270760a948b99db102a6d6bd1629f21a3da73747000c8b09517b0f5309bea
+SHA256:      49e147d3ab276d46e31dab48cc9bc4b49f2842fda6f2464f0705bff4249fdc63
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -176,3 +176,20 @@ Large model files remain in ignored scratch directories. Their source snapshots,
 model hashes, solver version, seeds, parameters, logs, and results are retained.
 UNKNOWN is inconclusive. A solver INFEASIBLE result alone is not an independently
 checked nonexistence theorem.
+
+## Subsequent feature and odd-set screens
+
+The first five feature rules and thirteen additional hull-facet families are
+safe integer-cover consequences of the original 100 checked exclusions. Both
+158-case screens stayed numerically feasible. The independently audited
+8,096-row odd-set extension then gave checked exclusions for matching-038 and
+matching-051, with positive exact gaps 8413/1000000 and 1007/200000. Current
+totals are 27 cycle and 75 matching exclusions, leaving 102 cycle and 54
+matching cases open. See `four-seven-blossom-screen` and
+`four-seven-blossom-independent` under the experiment directory.
+
+The complete surviving-template hull formulation, frozen using only the
+original 100 exclusions, was independently checked against every labeled
+catalog member and every sparse marginal row. Its whole-branch LPs remain
+numerically feasible. No result here proves a global bound or supplies a
+64-block covering witness.

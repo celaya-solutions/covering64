@@ -1,0 +1,12 @@
+E501 Line too long (105 > 100)
+  --> experiments/2026-10-03/four-seven-blossom-independent/check_prepared_cp.py:44:101
+   |
+42 |     for name, digest in metadata["sources"].items():
+43 |         require(sha(PREPARED / name) == digest, "frozen source changed")
+44 |     facet_audit = json.loads((HERE.parent / "four-seven-facet-independent/model-audit.json").read_text())
+   |                                                                                                     ^^^^^
+45 |     blossom_audit = json.loads((HERE / "model-audit.json").read_text())
+46 |     require(facet_audit["passed"] and blossom_audit["passed"], "prerequisite audit absent")
+   |
+
+Found 1 error.

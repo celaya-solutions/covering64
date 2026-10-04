@@ -1,0 +1,6087 @@
+{
+  "valid": true,
+  "variables": "first 4368 block variables in global lexicographic order",
+  "labels": "1-based points; 0-based group indices and variable indices",
+  "anchors": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      9,
+      10,
+      11
+    ],
+    [
+      13,
+      14,
+      15
+    ]
+  ],
+  "hubs": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "rules": [
+    {
+      "case": "cycle",
+      "predicate": "adjacent_anchor_hub",
+      "sense": "<=",
+      "bound": 3,
+      "violations": [
+        {
+          "id": "cycle-002",
+          "value": 4,
+          "orbit_size": 108,
+          "checked_gap": [
+            27033,
+            250000
+          ]
+        },
+        {
+          "id": "cycle-003",
+          "value": 4,
+          "orbit_size": 216,
+          "checked_gap": [
+            68621,
+            1000000
+          ]
+        },
+        {
+          "id": "cycle-007",
+          "value": 4,
+          "orbit_size": 216,
+          "checked_gap": [
+            8483,
+            25000
+          ]
+        },
+        {
+          "id": "cycle-009",
+          "value": 4,
+          "orbit_size": 108,
+          "checked_gap": [
+            3329,
+            4000
+          ]
+        },
+        {
+          "id": "cycle-010",
+          "value": 4,
+          "orbit_size": 108,
+          "checked_gap": [
+            431171,
+            500000
+          ]
+        },
+        {
+          "id": "cycle-014",
+          "value": 5,
+          "orbit_size": 216,
+          "checked_gap": [
+            486269,
+            500000
+          ]
+        },
+        {
+          "id": "cycle-018",
+          "value": 4,
+          "orbit_size": 108,
+          "checked_gap": [
+            73081,
+            250000
+          ]
+        },
+        {
+          "id": "cycle-052",
+          "value": 4,
+          "orbit_size": 216,
+          "checked_gap": [
+            438751,
+            500000
+          ]
+        },
+        {
+          "id": "cycle-071",
+          "value": 4,
+          "orbit_size": 432,
+          "checked_gap": [
+            5943,
+            500000
+          ]
+        },
+        {
+          "id": "cycle-072",
+          "value": 4,
+          "orbit_size": 216,
+          "checked_gap": [
+            7987,
+            500000
+          ]
+        },
+        {
+          "id": "cycle-076",
+          "value": 4,
+          "orbit_size": 216,
+          "checked_gap": [
+            8749,
+            100000
+          ]
+        },
+        {
+          "id": "cycle-078",
+          "value": 4,
+          "orbit_size": 432,
+          "checked_gap": [
+            52953,
+            500000
+          ]
+        },
+        {
+          "id": "cycle-080",
+          "value": 5,
+          "orbit_size": 432,
+          "checked_gap": [
+            914631,
+            1000000
+          ]
+        },
+        {
+          "id": "cycle-084",
+          "value": 4,
+          "orbit_size": 108,
+          "checked_gap": [
+            171611,
+            200000
+          ]
+        }
+      ],
+      "violating_orbits": 14,
+      "violating_labeled_links": 3132,
+      "all_base_representative_values": {
+        "cycle-000": 2,
+        "cycle-001": 2,
+        "cycle-002": 4,
+        "cycle-003": 4,
+        "cycle-004": 2,
+        "cycle-005": 2,
+        "cycle-006": 2,
+        "cycle-007": 4,
+        "cycle-008": 3,
+        "cycle-009": 4,
+        "cycle-010": 4,
+        "cycle-011": 3,
+        "cycle-012": 3,
+        "cycle-013": 3,
+        "cycle-014": 5,
+        "cycle-015": 3,
+        "cycle-016": 3,
+        "cycle-017": 2,
+        "cycle-018": 4,
+        "cycle-019": 2,
+        "cycle-020": 2,
+        "cycle-021": 2,
+        "cycle-022": 2,
+        "cycle-023": 1,
+        "cycle-024": 1,
+        "cycle-025": 3,
+        "cycle-026": 2,
+        "cycle-027": 3,
+        "cycle-028": 2,
+        "cycle-029": 2,
+        "cycle-030": 1,
+        "cycle-031": 2,
+        "cycle-032": 2,
+        "cycle-033": 1,
+        "cycle-034": 1,
+        "cycle-035": 3,
+        "cycle-036": 2,
+        "cycle-037": 2,
+        "cycle-038": 2,
+        "cycle-039": 3,
+        "cycle-040": 1,
+        "cycle-041": 1,
+        "cycle-042": 1,
+        "cycle-043": 3,
+        "cycle-044": 2,
+        "cycle-045": 2,
+        "cycle-046": 3,
+        "cycle-047": 3,
+        "cycle-048": 2,
+        "cycle-049": 2,
+        "cycle-050": 2,
+        "cycle-051": 2,
+        "cycle-052": 4,
+        "cycle-053": 2,
+        "cycle-054": 2,
+        "cycle-055": 1,
+        "cycle-056": 3,
+        "cycle-057": 1,
+        "cycle-058": 1,
+        "cycle-059": 1,
+        "cycle-060": 2,
+        "cycle-061": 1,
+        "cycle-062": 1,
+        "cycle-063": 2,
+        "cycle-064": 2,
+        "cycle-065": 1,
+        "cycle-066": 1,
+        "cycle-067": 3,
+        "cycle-068": 2,
+        "cycle-069": 2,
+        "cycle-070": 2,
+        "cycle-071": 4,
+        "cycle-072": 4,
+        "cycle-073": 3,
+        "cycle-074": 2,
+        "cycle-075": 2,
+        "cycle-076": 4,
+        "cycle-077": 3,
+        "cycle-078": 4,
+        "cycle-079": 3,
+        "cycle-080": 5,
+        "cycle-081": 3,
+        "cycle-082": 2,
+        "cycle-083": 2,
+        "cycle-084": 4,
+        "cycle-085": 2,
+        "cycle-086": 2,
+        "cycle-087": 1,
+        "cycle-088": 2,
+        "cycle-089": 2,
+        "cycle-090": 3,
+        "cycle-091": 1,
+        "cycle-092": 1,
+        "cycle-093": 3,
+        "cycle-094": 2,
+        "cycle-095": 1,
+        "cycle-096": 1,
+        "cycle-097": 0,
+        "cycle-098": 0,
+        "cycle-099": 2,
+        "cycle-100": 1,
+        "cycle-101": 2,
+        "cycle-102": 1,
+        "cycle-103": 1,
+        "cycle-104": 0,
+        "cycle-105": 0,
+        "cycle-106": 1,
+        "cycle-107": 0,
+        "cycle-108": 1,
+        "cycle-109": 0,
+        "cycle-110": 1,
+        "cycle-111": 0,
+        "cycle-112": 0,
+        "cycle-113": 2,
+        "cycle-114": 1,
+        "cycle-115": 0,
+        "cycle-116": 1,
+        "cycle-117": 1,
+        "cycle-118": 2,
+        "cycle-119": 1,
+        "cycle-120": 0,
+        "cycle-121": 0,
+        "cycle-122": 0,
+        "cycle-123": 1,
+        "cycle-124": 0,
+        "cycle-125": 1,
+        "cycle-126": 0,
+        "cycle-127": 0,
+        "cycle-128": 2
+      },
+      "invariant_maps_checked": 29970,
+      "full_hub_graph_automorphisms": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "target_groups": [
+        {
+          "group_index": 0,
+          "anchor_triple": [
+            1,
+            2,
+            3
+          ],
+          "hub": 4,
+          "base_to_target_group_permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "variable_index": 0,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                6
+              ],
+              "variable_index": 1,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                7
+              ],
+              "variable_index": 2,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                13
+              ],
+              "variable_index": 8,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                14
+              ],
+              "variable_index": 9,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                15
+              ],
+              "variable_index": 10,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                5,
+                12
+              ],
+              "variable_index": 18,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                6,
+                12
+              ],
+              "variable_index": 28,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                7,
+                12
+              ],
+              "variable_index": 37,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                9
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                8,
+                9
+              ],
+              "variable_index": 42,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                10
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                8,
+                10
+              ],
+              "variable_index": 43,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                11
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                8,
+                11
+              ],
+              "variable_index": 44,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                9,
+                16
+              ],
+              "variable_index": 56,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                10,
+                16
+              ],
+              "variable_index": 62,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                11,
+                16
+              ],
+              "variable_index": 67,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                13
+              ],
+              "variable_index": 68,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                14
+              ],
+              "variable_index": 69,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                15
+              ],
+              "variable_index": 70,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 1,
+          "anchor_triple": [
+            5,
+            6,
+            7
+          ],
+          "hub": 8,
+          "base_to_target_group_permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "base_to_target_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "block": [
+                1,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 870,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                16
+              ],
+              "block": [
+                1,
+                5,
+                6,
+                7,
+                16
+              ],
+              "variable_index": 878,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                8
+              ],
+              "block": [
+                2,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 1871,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                16
+              ],
+              "block": [
+                2,
+                5,
+                6,
+                7,
+                16
+              ],
+              "variable_index": 1879,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                8
+              ],
+              "block": [
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 2586,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                16
+              ],
+              "block": [
+                3,
+                5,
+                6,
+                7,
+                16
+              ],
+              "variable_index": 2594,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                13
+              ],
+              "block": [
+                4,
+                5,
+                6,
+                7,
+                13
+              ],
+              "variable_index": 3086,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                14
+              ],
+              "block": [
+                4,
+                5,
+                6,
+                7,
+                14
+              ],
+              "variable_index": 3087,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                15
+              ],
+              "block": [
+                4,
+                5,
+                6,
+                7,
+                15
+              ],
+              "variable_index": 3088,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                9
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                8,
+                9
+              ],
+              "variable_index": 3576,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                10
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                8,
+                10
+              ],
+              "variable_index": 3577,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                11
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                8,
+                11
+              ],
+              "variable_index": 3578,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                9,
+                16
+              ],
+              "variable_index": 3590,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                10,
+                16
+              ],
+              "variable_index": 3596,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                11,
+                16
+              ],
+              "variable_index": 3601,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                13
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                13
+              ],
+              "variable_index": 3602,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                14
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                14
+              ],
+              "variable_index": 3603,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                15
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                15
+              ],
+              "variable_index": 3604,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 2,
+          "anchor_triple": [
+            9,
+            10,
+            11
+          ],
+          "hub": 12,
+          "base_to_target_group_permutation": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "block": [
+                1,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 1239,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                16
+              ],
+              "block": [
+                1,
+                9,
+                10,
+                11,
+                16
+              ],
+              "variable_index": 1299,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                8
+              ],
+              "block": [
+                2,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2240,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                16
+              ],
+              "block": [
+                2,
+                9,
+                10,
+                11,
+                16
+              ],
+              "variable_index": 2300,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                8
+              ],
+              "block": [
+                3,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2955,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                16
+              ],
+              "block": [
+                3,
+                9,
+                10,
+                11,
+                16
+              ],
+              "variable_index": 3015,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "block": [
+                4,
+                5,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3190,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "block": [
+                4,
+                6,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3310,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "block": [
+                4,
+                7,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3394,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                13
+              ],
+              "block": [
+                4,
+                9,
+                10,
+                11,
+                13
+              ],
+              "variable_index": 3507,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                14
+              ],
+              "block": [
+                4,
+                9,
+                10,
+                11,
+                14
+              ],
+              "variable_index": 3508,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                15
+              ],
+              "block": [
+                4,
+                9,
+                10,
+                11,
+                15
+              ],
+              "variable_index": 3509,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                12
+              ],
+              "block": [
+                5,
+                9,
+                10,
+                11,
+                12
+              ],
+              "variable_index": 3836,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                12
+              ],
+              "block": [
+                6,
+                9,
+                10,
+                11,
+                12
+              ],
+              "variable_index": 4046,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                12
+              ],
+              "block": [
+                7,
+                9,
+                10,
+                11,
+                12
+              ],
+              "variable_index": 4172,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                13
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "variable_index": 4312,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                14
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                14
+              ],
+              "variable_index": 4313,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                15
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                15
+              ],
+              "variable_index": 4314,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 3,
+          "anchor_triple": [
+            13,
+            14,
+            15
+          ],
+          "hub": 16,
+          "base_to_target_group_permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "base_to_target_point_permutation": [
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "block": [
+                1,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1291,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                16
+              ],
+              "block": [
+                1,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 1364,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                8
+              ],
+              "block": [
+                2,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2292,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                16
+              ],
+              "block": [
+                2,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 2365,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                8
+              ],
+              "block": [
+                3,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3007,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                16
+              ],
+              "block": [
+                3,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 3080,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "block": [
+                4,
+                5,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3242,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "block": [
+                4,
+                6,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3362,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "block": [
+                4,
+                7,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3446,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                12
+              ],
+              "block": [
+                5,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3901,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                12
+              ],
+              "block": [
+                6,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4111,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                12
+              ],
+              "block": [
+                7,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4237,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                9
+              ],
+              "block": [
+                8,
+                9,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4273,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                10
+              ],
+              "block": [
+                8,
+                10,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4293,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                11
+              ],
+              "block": [
+                8,
+                11,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4303,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                16
+              ],
+              "block": [
+                9,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4346,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                16
+              ],
+              "block": [
+                10,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4361,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                16
+              ],
+              "block": [
+                11,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4366,
+              "coefficient": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "cycle",
+      "predicate": "nonadjacent_anchor_anchor",
+      "sense": "<=",
+      "bound": 2,
+      "violations": [
+        {
+          "id": "cycle-103",
+          "value": 3,
+          "orbit_size": 72,
+          "checked_gap": [
+            124867,
+            250000
+          ]
+        },
+        {
+          "id": "cycle-119",
+          "value": 3,
+          "orbit_size": 36,
+          "checked_gap": [
+            599713,
+            1000000
+          ]
+        },
+        {
+          "id": "cycle-120",
+          "value": 3,
+          "orbit_size": 18,
+          "checked_gap": [
+            68773,
+            250000
+          ]
+        },
+        {
+          "id": "cycle-128",
+          "value": 3,
+          "orbit_size": 36,
+          "checked_gap": [
+            233137,
+            200000
+          ]
+        }
+      ],
+      "violating_orbits": 4,
+      "violating_labeled_links": 162,
+      "all_base_representative_values": {
+        "cycle-000": 0,
+        "cycle-001": 0,
+        "cycle-002": 0,
+        "cycle-003": 0,
+        "cycle-004": 0,
+        "cycle-005": 0,
+        "cycle-006": 0,
+        "cycle-007": 0,
+        "cycle-008": 0,
+        "cycle-009": 0,
+        "cycle-010": 0,
+        "cycle-011": 0,
+        "cycle-012": 1,
+        "cycle-013": 1,
+        "cycle-014": 1,
+        "cycle-015": 1,
+        "cycle-016": 1,
+        "cycle-017": 1,
+        "cycle-018": 0,
+        "cycle-019": 0,
+        "cycle-020": 0,
+        "cycle-021": 0,
+        "cycle-022": 0,
+        "cycle-023": 1,
+        "cycle-024": 1,
+        "cycle-025": 1,
+        "cycle-026": 0,
+        "cycle-027": 1,
+        "cycle-028": 0,
+        "cycle-029": 2,
+        "cycle-030": 1,
+        "cycle-031": 0,
+        "cycle-032": 0,
+        "cycle-033": 1,
+        "cycle-034": 1,
+        "cycle-035": 1,
+        "cycle-036": 0,
+        "cycle-037": 0,
+        "cycle-038": 0,
+        "cycle-039": 1,
+        "cycle-040": 1,
+        "cycle-041": 1,
+        "cycle-042": 1,
+        "cycle-043": 1,
+        "cycle-044": 1,
+        "cycle-045": 0,
+        "cycle-046": 1,
+        "cycle-047": 1,
+        "cycle-048": 1,
+        "cycle-049": 0,
+        "cycle-050": 2,
+        "cycle-051": 2,
+        "cycle-052": 2,
+        "cycle-053": 2,
+        "cycle-054": 2,
+        "cycle-055": 2,
+        "cycle-056": 1,
+        "cycle-057": 1,
+        "cycle-058": 1,
+        "cycle-059": 0,
+        "cycle-060": 1,
+        "cycle-061": 0,
+        "cycle-062": 0,
+        "cycle-063": 1,
+        "cycle-064": 1,
+        "cycle-065": 1,
+        "cycle-066": 0,
+        "cycle-067": 2,
+        "cycle-068": 1,
+        "cycle-069": 0,
+        "cycle-070": 0,
+        "cycle-071": 0,
+        "cycle-072": 0,
+        "cycle-073": 1,
+        "cycle-074": 0,
+        "cycle-075": 0,
+        "cycle-076": 0,
+        "cycle-077": 0,
+        "cycle-078": 0,
+        "cycle-079": 1,
+        "cycle-080": 1,
+        "cycle-081": 1,
+        "cycle-082": 1,
+        "cycle-083": 0,
+        "cycle-084": 2,
+        "cycle-085": 0,
+        "cycle-086": 0,
+        "cycle-087": 1,
+        "cycle-088": 0,
+        "cycle-089": 0,
+        "cycle-090": 1,
+        "cycle-091": 1,
+        "cycle-092": 1,
+        "cycle-093": 1,
+        "cycle-094": 2,
+        "cycle-095": 1,
+        "cycle-096": 1,
+        "cycle-097": 2,
+        "cycle-098": 2,
+        "cycle-099": 2,
+        "cycle-100": 1,
+        "cycle-101": 2,
+        "cycle-102": 1,
+        "cycle-103": 3,
+        "cycle-104": 2,
+        "cycle-105": 1,
+        "cycle-106": 2,
+        "cycle-107": 1,
+        "cycle-108": 1,
+        "cycle-109": 2,
+        "cycle-110": 1,
+        "cycle-111": 2,
+        "cycle-112": 2,
+        "cycle-113": 2,
+        "cycle-114": 1,
+        "cycle-115": 2,
+        "cycle-116": 2,
+        "cycle-117": 1,
+        "cycle-118": 2,
+        "cycle-119": 3,
+        "cycle-120": 3,
+        "cycle-121": 2,
+        "cycle-122": 1,
+        "cycle-123": 2,
+        "cycle-124": 1,
+        "cycle-125": 2,
+        "cycle-126": 2,
+        "cycle-127": 1,
+        "cycle-128": 3
+      },
+      "invariant_maps_checked": 29970,
+      "full_hub_graph_automorphisms": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          3,
+          2,
+          1
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          2,
+          3,
+          0
+        ],
+        [
+          2,
+          1,
+          0,
+          3
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          3,
+          0,
+          1,
+          2
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "target_groups": [
+        {
+          "group_index": 0,
+          "anchor_triple": [
+            1,
+            2,
+            3
+          ],
+          "hub": 4,
+          "base_to_target_group_permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                5,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                5,
+                13
+              ],
+              "variable_index": 19,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                5,
+                14
+              ],
+              "variable_index": 20,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                5,
+                15
+              ],
+              "variable_index": 21,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                6,
+                13
+              ],
+              "variable_index": 29,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                6,
+                14
+              ],
+              "variable_index": 30,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                6,
+                15
+              ],
+              "variable_index": 31,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                7,
+                13
+              ],
+              "variable_index": 38,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                7,
+                14
+              ],
+              "variable_index": 39,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                7,
+                15
+              ],
+              "variable_index": 40,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 1,
+          "anchor_triple": [
+            5,
+            6,
+            7
+          ],
+          "hub": 8,
+          "base_to_target_group_permutation": [
+            1,
+            0,
+            3,
+            2
+          ],
+          "base_to_target_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                9
+              ],
+              "block": [
+                1,
+                5,
+                6,
+                7,
+                9
+              ],
+              "variable_index": 871,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                10
+              ],
+              "block": [
+                1,
+                5,
+                6,
+                7,
+                10
+              ],
+              "variable_index": 872,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                11
+              ],
+              "block": [
+                1,
+                5,
+                6,
+                7,
+                11
+              ],
+              "variable_index": 873,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                9
+              ],
+              "block": [
+                2,
+                5,
+                6,
+                7,
+                9
+              ],
+              "variable_index": 1872,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                10
+              ],
+              "block": [
+                2,
+                5,
+                6,
+                7,
+                10
+              ],
+              "variable_index": 1873,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                11
+              ],
+              "block": [
+                2,
+                5,
+                6,
+                7,
+                11
+              ],
+              "variable_index": 1874,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                9
+              ],
+              "block": [
+                3,
+                5,
+                6,
+                7,
+                9
+              ],
+              "variable_index": 2587,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                10
+              ],
+              "block": [
+                3,
+                5,
+                6,
+                7,
+                10
+              ],
+              "variable_index": 2588,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                11
+              ],
+              "block": [
+                3,
+                5,
+                6,
+                7,
+                11
+              ],
+              "variable_index": 2589,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 2,
+          "anchor_triple": [
+            9,
+            10,
+            11
+          ],
+          "hub": 12,
+          "base_to_target_group_permutation": [
+            2,
+            1,
+            0,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                5,
+                13
+              ],
+              "block": [
+                5,
+                9,
+                10,
+                11,
+                13
+              ],
+              "variable_index": 3837,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                14
+              ],
+              "block": [
+                5,
+                9,
+                10,
+                11,
+                14
+              ],
+              "variable_index": 3838,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                15
+              ],
+              "block": [
+                5,
+                9,
+                10,
+                11,
+                15
+              ],
+              "variable_index": 3839,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                13
+              ],
+              "block": [
+                6,
+                9,
+                10,
+                11,
+                13
+              ],
+              "variable_index": 4047,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                14
+              ],
+              "block": [
+                6,
+                9,
+                10,
+                11,
+                14
+              ],
+              "variable_index": 4048,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                15
+              ],
+              "block": [
+                6,
+                9,
+                10,
+                11,
+                15
+              ],
+              "variable_index": 4049,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                13
+              ],
+              "block": [
+                7,
+                9,
+                10,
+                11,
+                13
+              ],
+              "variable_index": 4173,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                14
+              ],
+              "block": [
+                7,
+                9,
+                10,
+                11,
+                14
+              ],
+              "variable_index": 4174,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                15
+              ],
+              "block": [
+                7,
+                9,
+                10,
+                11,
+                15
+              ],
+              "variable_index": 4175,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 3,
+          "anchor_triple": [
+            13,
+            14,
+            15
+          ],
+          "hub": 16,
+          "base_to_target_group_permutation": [
+            3,
+            0,
+            1,
+            2
+          ],
+          "base_to_target_point_permutation": [
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                9
+              ],
+              "block": [
+                1,
+                9,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1326,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                10
+              ],
+              "block": [
+                1,
+                10,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1346,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                11
+              ],
+              "block": [
+                1,
+                11,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1356,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                9
+              ],
+              "block": [
+                2,
+                9,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2327,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                10
+              ],
+              "block": [
+                2,
+                10,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2347,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                11
+              ],
+              "block": [
+                2,
+                11,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2357,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                9
+              ],
+              "block": [
+                3,
+                9,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3042,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                10
+              ],
+              "block": [
+                3,
+                10,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3062,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                11
+              ],
+              "block": [
+                3,
+                11,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3072,
+              "coefficient": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "predicate": "hub_hub_or_own_anchor_hub",
+      "sense": ">=",
+      "bound": 1,
+      "violations": [
+        {
+          "id": "matching-007",
+          "value": 0,
+          "orbit_size": 216,
+          "checked_gap": [
+            93407,
+            62500
+          ]
+        },
+        {
+          "id": "matching-010",
+          "value": 0,
+          "orbit_size": 108,
+          "checked_gap": [
+            317491,
+            250000
+          ]
+        },
+        {
+          "id": "matching-031",
+          "value": 0,
+          "orbit_size": 432,
+          "checked_gap": [
+            277487,
+            250000
+          ]
+        },
+        {
+          "id": "matching-033",
+          "value": 0,
+          "orbit_size": 432,
+          "checked_gap": [
+            235167,
+            250000
+          ]
+        },
+        {
+          "id": "matching-035",
+          "value": 0,
+          "orbit_size": 432,
+          "checked_gap": [
+            645961,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-037",
+          "value": 0,
+          "orbit_size": 216,
+          "checked_gap": [
+            29711,
+            200000
+          ]
+        },
+        {
+          "id": "matching-040",
+          "value": 0,
+          "orbit_size": 216,
+          "checked_gap": [
+            134497,
+            125000
+          ]
+        },
+        {
+          "id": "matching-044",
+          "value": 0,
+          "orbit_size": 432,
+          "checked_gap": [
+            257991,
+            500000
+          ]
+        },
+        {
+          "id": "matching-080",
+          "value": 0,
+          "orbit_size": 216,
+          "checked_gap": [
+            1017153,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-082",
+          "value": 0,
+          "orbit_size": 108,
+          "checked_gap": [
+            1192303,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-084",
+          "value": 0,
+          "orbit_size": 216,
+          "checked_gap": [
+            239739,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-088",
+          "value": 0,
+          "orbit_size": 108,
+          "checked_gap": [
+            675727,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-112",
+          "value": 0,
+          "orbit_size": 216,
+          "checked_gap": [
+            241411,
+            250000
+          ]
+        },
+        {
+          "id": "matching-114",
+          "value": 0,
+          "orbit_size": 432,
+          "checked_gap": [
+            415859,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-116",
+          "value": 0,
+          "orbit_size": 432,
+          "checked_gap": [
+            1221,
+            62500
+          ]
+        }
+      ],
+      "violating_orbits": 15,
+      "violating_labeled_links": 4212,
+      "all_base_representative_values": {
+        "matching-000": 3,
+        "matching-001": 2,
+        "matching-002": 1,
+        "matching-003": 1,
+        "matching-004": 2,
+        "matching-005": 2,
+        "matching-006": 1,
+        "matching-007": 0,
+        "matching-008": 1,
+        "matching-009": 1,
+        "matching-010": 0,
+        "matching-011": 1,
+        "matching-012": 2,
+        "matching-013": 2,
+        "matching-014": 3,
+        "matching-015": 2,
+        "matching-016": 1,
+        "matching-017": 1,
+        "matching-018": 1,
+        "matching-019": 2,
+        "matching-020": 2,
+        "matching-021": 3,
+        "matching-022": 2,
+        "matching-023": 1,
+        "matching-024": 1,
+        "matching-025": 1,
+        "matching-026": 1,
+        "matching-027": 1,
+        "matching-028": 2,
+        "matching-029": 2,
+        "matching-030": 1,
+        "matching-031": 0,
+        "matching-032": 1,
+        "matching-033": 0,
+        "matching-034": 1,
+        "matching-035": 0,
+        "matching-036": 1,
+        "matching-037": 0,
+        "matching-038": 2,
+        "matching-039": 1,
+        "matching-040": 0,
+        "matching-041": 1,
+        "matching-042": 1,
+        "matching-043": 2,
+        "matching-044": 0,
+        "matching-045": 1,
+        "matching-046": 1,
+        "matching-047": 3,
+        "matching-048": 2,
+        "matching-049": 2,
+        "matching-050": 2,
+        "matching-051": 2,
+        "matching-052": 1,
+        "matching-053": 2,
+        "matching-054": 1,
+        "matching-055": 1,
+        "matching-056": 1,
+        "matching-057": 2,
+        "matching-058": 2,
+        "matching-059": 3,
+        "matching-060": 2,
+        "matching-061": 1,
+        "matching-062": 1,
+        "matching-063": 1,
+        "matching-064": 1,
+        "matching-065": 2,
+        "matching-066": 2,
+        "matching-067": 3,
+        "matching-068": 2,
+        "matching-069": 2,
+        "matching-070": 2,
+        "matching-071": 2,
+        "matching-072": 3,
+        "matching-073": 2,
+        "matching-074": 1,
+        "matching-075": 1,
+        "matching-076": 1,
+        "matching-077": 2,
+        "matching-078": 1,
+        "matching-079": 1,
+        "matching-080": 0,
+        "matching-081": 1,
+        "matching-082": 0,
+        "matching-083": 1,
+        "matching-084": 0,
+        "matching-085": 1,
+        "matching-086": 1,
+        "matching-087": 2,
+        "matching-088": 0,
+        "matching-089": 1,
+        "matching-090": 1,
+        "matching-091": 3,
+        "matching-092": 2,
+        "matching-093": 2,
+        "matching-094": 2,
+        "matching-095": 2,
+        "matching-096": 1,
+        "matching-097": 2,
+        "matching-098": 1,
+        "matching-099": 1,
+        "matching-100": 1,
+        "matching-101": 2,
+        "matching-102": 2,
+        "matching-103": 3,
+        "matching-104": 2,
+        "matching-105": 1,
+        "matching-106": 1,
+        "matching-107": 1,
+        "matching-108": 1,
+        "matching-109": 2,
+        "matching-110": 1,
+        "matching-111": 1,
+        "matching-112": 0,
+        "matching-113": 1,
+        "matching-114": 0,
+        "matching-115": 1,
+        "matching-116": 0,
+        "matching-117": 2,
+        "matching-118": 2,
+        "matching-119": 3,
+        "matching-120": 1,
+        "matching-121": 1,
+        "matching-122": 1,
+        "matching-123": 2,
+        "matching-124": 2,
+        "matching-125": 1,
+        "matching-126": 2,
+        "matching-127": 3,
+        "matching-128": 2
+      },
+      "invariant_maps_checked": 29970,
+      "full_hub_graph_automorphisms": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "target_groups": [
+        {
+          "group_index": 0,
+          "anchor_triple": [
+            1,
+            2,
+            3
+          ],
+          "hub": 4,
+          "base_to_target_group_permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                4,
+                8
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                8
+              ],
+              "variable_index": 3,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                12
+              ],
+              "variable_index": 7,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                16
+              ],
+              "variable_index": 11,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                8
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                5,
+                8
+              ],
+              "variable_index": 14,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                8
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                6,
+                8
+              ],
+              "variable_index": 24,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                8
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                7,
+                8
+              ],
+              "variable_index": 33,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                8,
+                12
+              ],
+              "variable_index": 45,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                8,
+                16
+              ],
+              "variable_index": 49,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                9,
+                12
+              ],
+              "variable_index": 52,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                10,
+                12
+              ],
+              "variable_index": 58,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                12
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                11,
+                12
+              ],
+              "variable_index": 63,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                16
+              ],
+              "variable_index": 71,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                13,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                13,
+                16
+              ],
+              "variable_index": 74,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                14,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                14,
+                16
+              ],
+              "variable_index": 76,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                15,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                15,
+                16
+              ],
+              "variable_index": 77,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 1,
+          "anchor_triple": [
+            5,
+            6,
+            7
+          ],
+          "hub": 8,
+          "base_to_target_group_permutation": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                4
+              ],
+              "block": [
+                1,
+                4,
+                5,
+                6,
+                7
+              ],
+              "variable_index": 650,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                4
+              ],
+              "block": [
+                2,
+                4,
+                5,
+                6,
+                7
+              ],
+              "variable_index": 1651,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                4
+              ],
+              "block": [
+                3,
+                4,
+                5,
+                6,
+                7
+              ],
+              "variable_index": 2366,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                8
+              ],
+              "block": [
+                4,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 3081,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                12
+              ],
+              "block": [
+                4,
+                5,
+                6,
+                7,
+                12
+              ],
+              "variable_index": 3085,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                16
+              ],
+              "block": [
+                4,
+                5,
+                6,
+                7,
+                16
+              ],
+              "variable_index": 3089,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                12
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                8,
+                12
+              ],
+              "variable_index": 3579,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                8,
+                16
+              ],
+              "variable_index": 3583,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                12
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                9,
+                12
+              ],
+              "variable_index": 3586,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                12
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                10,
+                12
+              ],
+              "variable_index": 3592,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                12
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                11,
+                12
+              ],
+              "variable_index": 3597,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                16
+              ],
+              "variable_index": 3605,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                13,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                13,
+                16
+              ],
+              "variable_index": 3608,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                14,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                14,
+                16
+              ],
+              "variable_index": 3610,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                15,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                15,
+                16
+              ],
+              "variable_index": 3611,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 2,
+          "anchor_triple": [
+            9,
+            10,
+            11
+          ],
+          "hub": 12,
+          "base_to_target_group_permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "base_to_target_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                4
+              ],
+              "block": [
+                1,
+                4,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 814,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                4
+              ],
+              "block": [
+                2,
+                4,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 1815,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                4
+              ],
+              "block": [
+                3,
+                4,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2530,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                8
+              ],
+              "block": [
+                4,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3450,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                12
+              ],
+              "block": [
+                4,
+                9,
+                10,
+                11,
+                12
+              ],
+              "variable_index": 3506,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                16
+              ],
+              "block": [
+                4,
+                9,
+                10,
+                11,
+                16
+              ],
+              "variable_index": 3510,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                8
+              ],
+              "block": [
+                5,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3780,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                8
+              ],
+              "block": [
+                6,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3990,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                8
+              ],
+              "block": [
+                7,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 4116,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                12
+              ],
+              "block": [
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "variable_index": 4242,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                16
+              ],
+              "block": [
+                8,
+                9,
+                10,
+                11,
+                16
+              ],
+              "variable_index": 4246,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                16
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                16
+              ],
+              "variable_index": 4315,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                13,
+                16
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                13,
+                16
+              ],
+              "variable_index": 4318,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                14,
+                16
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                14,
+                16
+              ],
+              "variable_index": 4320,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                15,
+                16
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                15,
+                16
+              ],
+              "variable_index": 4321,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 3,
+          "anchor_triple": [
+            13,
+            14,
+            15
+          ],
+          "hub": 16,
+          "base_to_target_group_permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "base_to_target_point_permutation": [
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                4
+              ],
+              "block": [
+                1,
+                4,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 866,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                4
+              ],
+              "block": [
+                2,
+                4,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1867,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                4
+              ],
+              "block": [
+                3,
+                4,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2582,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                8
+              ],
+              "block": [
+                4,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3502,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                12
+              ],
+              "block": [
+                4,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3571,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                16
+              ],
+              "block": [
+                4,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 3575,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                5,
+                8
+              ],
+              "block": [
+                5,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3832,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                6,
+                8
+              ],
+              "block": [
+                6,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4042,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                7,
+                8
+              ],
+              "block": [
+                7,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4168,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                12
+              ],
+              "block": [
+                8,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4307,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                8,
+                16
+              ],
+              "block": [
+                8,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4311,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                12
+              ],
+              "block": [
+                9,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4342,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                12
+              ],
+              "block": [
+                10,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4357,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                12
+              ],
+              "block": [
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 4362,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                16
+              ],
+              "block": [
+                12,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4367,
+              "coefficient": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "predicate": "adjacent_anchor_hub",
+      "sense": "<=",
+      "bound": 2,
+      "violations": [
+        {
+          "id": "matching-002",
+          "value": 4,
+          "orbit_size": 54,
+          "checked_gap": [
+            778619,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-003",
+          "value": 3,
+          "orbit_size": 216,
+          "checked_gap": [
+            158933,
+            200000
+          ]
+        },
+        {
+          "id": "matching-007",
+          "value": 4,
+          "orbit_size": 216,
+          "checked_gap": [
+            93407,
+            62500
+          ]
+        },
+        {
+          "id": "matching-008",
+          "value": 3,
+          "orbit_size": 108,
+          "checked_gap": [
+            207059,
+            500000
+          ]
+        },
+        {
+          "id": "matching-010",
+          "value": 3,
+          "orbit_size": 108,
+          "checked_gap": [
+            317491,
+            250000
+          ]
+        },
+        {
+          "id": "matching-016",
+          "value": 3,
+          "orbit_size": 216,
+          "checked_gap": [
+            109119,
+            500000
+          ]
+        },
+        {
+          "id": "matching-023",
+          "value": 3,
+          "orbit_size": 432,
+          "checked_gap": [
+            330541,
+            1000000
+          ]
+        },
+        {
+          "id": "matching-031",
+          "value": 3,
+          "orbit_size": 432,
+          "checked_gap": [
+            277487,
+            250000
+          ]
+        },
+        {
+          "id": "matching-040",
+          "value": 3,
+          "orbit_size": 216,
+          "checked_gap": [
+            134497,
+            125000
+          ]
+        }
+      ],
+      "violating_orbits": 9,
+      "violating_labeled_links": 1998,
+      "all_base_representative_values": {
+        "matching-000": 2,
+        "matching-001": 2,
+        "matching-002": 4,
+        "matching-003": 3,
+        "matching-004": 2,
+        "matching-005": 2,
+        "matching-006": 2,
+        "matching-007": 4,
+        "matching-008": 3,
+        "matching-009": 2,
+        "matching-010": 3,
+        "matching-011": 2,
+        "matching-012": 2,
+        "matching-013": 1,
+        "matching-014": 1,
+        "matching-015": 1,
+        "matching-016": 3,
+        "matching-017": 2,
+        "matching-018": 1,
+        "matching-019": 2,
+        "matching-020": 1,
+        "matching-021": 1,
+        "matching-022": 1,
+        "matching-023": 3,
+        "matching-024": 2,
+        "matching-025": 2,
+        "matching-026": 1,
+        "matching-027": 2,
+        "matching-028": 1,
+        "matching-029": 1,
+        "matching-030": 1,
+        "matching-031": 3,
+        "matching-032": 2,
+        "matching-033": 2,
+        "matching-034": 1,
+        "matching-035": 2,
+        "matching-036": 1,
+        "matching-037": 1,
+        "matching-038": 1,
+        "matching-039": 1,
+        "matching-040": 3,
+        "matching-041": 2,
+        "matching-042": 2,
+        "matching-043": 1,
+        "matching-044": 2,
+        "matching-045": 1,
+        "matching-046": 1,
+        "matching-047": 1,
+        "matching-048": 2,
+        "matching-049": 1,
+        "matching-050": 1,
+        "matching-051": 1,
+        "matching-052": 2,
+        "matching-053": 1,
+        "matching-054": 1,
+        "matching-055": 2,
+        "matching-056": 1,
+        "matching-057": 1,
+        "matching-058": 0,
+        "matching-059": 0,
+        "matching-060": 0,
+        "matching-061": 2,
+        "matching-062": 1,
+        "matching-063": 1,
+        "matching-064": 0,
+        "matching-065": 1,
+        "matching-066": 0,
+        "matching-067": 0,
+        "matching-068": 1,
+        "matching-069": 0,
+        "matching-070": 1,
+        "matching-071": 0,
+        "matching-072": 0,
+        "matching-073": 0,
+        "matching-074": 2,
+        "matching-075": 1,
+        "matching-076": 0,
+        "matching-077": 0,
+        "matching-078": 0,
+        "matching-079": 1,
+        "matching-080": 1,
+        "matching-081": 0,
+        "matching-082": 1,
+        "matching-083": 0,
+        "matching-084": 0,
+        "matching-085": 0,
+        "matching-086": 1,
+        "matching-087": 0,
+        "matching-088": 1,
+        "matching-089": 0,
+        "matching-090": 0,
+        "matching-091": 0,
+        "matching-092": 1,
+        "matching-093": 0,
+        "matching-094": 0,
+        "matching-095": 0,
+        "matching-096": 1,
+        "matching-097": 0,
+        "matching-098": 0,
+        "matching-099": 1,
+        "matching-100": 0,
+        "matching-101": 1,
+        "matching-102": 0,
+        "matching-103": 0,
+        "matching-104": 0,
+        "matching-105": 2,
+        "matching-106": 1,
+        "matching-107": 0,
+        "matching-108": 0,
+        "matching-109": 0,
+        "matching-110": 0,
+        "matching-111": 1,
+        "matching-112": 1,
+        "matching-113": 0,
+        "matching-114": 1,
+        "matching-115": 0,
+        "matching-116": 0,
+        "matching-117": 1,
+        "matching-118": 0,
+        "matching-119": 0,
+        "matching-120": 1,
+        "matching-121": 0,
+        "matching-122": 1,
+        "matching-123": 0,
+        "matching-124": 0,
+        "matching-125": 0,
+        "matching-126": 0,
+        "matching-127": 0,
+        "matching-128": 0
+      },
+      "invariant_maps_checked": 29970,
+      "full_hub_graph_automorphisms": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "target_groups": [
+        {
+          "group_index": 0,
+          "anchor_triple": [
+            1,
+            2,
+            3
+          ],
+          "hub": 4,
+          "base_to_target_group_permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "variable_index": 0,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                6
+              ],
+              "variable_index": 1,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                4,
+                7
+              ],
+              "variable_index": 2,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                9,
+                16
+              ],
+              "variable_index": 56,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                10,
+                16
+              ],
+              "variable_index": 62,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                16
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                11,
+                16
+              ],
+              "variable_index": 67,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                13
+              ],
+              "variable_index": 68,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                14
+              ],
+              "variable_index": 69,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                12,
+                15
+              ],
+              "variable_index": 70,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 1,
+          "anchor_triple": [
+            5,
+            6,
+            7
+          ],
+          "hub": 8,
+          "base_to_target_group_permutation": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "block": [
+                1,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 870,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                8
+              ],
+              "block": [
+                2,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 1871,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                8
+              ],
+              "block": [
+                3,
+                5,
+                6,
+                7,
+                8
+              ],
+              "variable_index": 2586,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                9,
+                16
+              ],
+              "variable_index": 3590,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                10,
+                16
+              ],
+              "variable_index": 3596,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                16
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                11,
+                16
+              ],
+              "variable_index": 3601,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                13
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                13
+              ],
+              "variable_index": 3602,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                14
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                14
+              ],
+              "variable_index": 3603,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                15
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                12,
+                15
+              ],
+              "variable_index": 3604,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 2,
+          "anchor_triple": [
+            9,
+            10,
+            11
+          ],
+          "hub": 12,
+          "base_to_target_group_permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "base_to_target_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "block": [
+                1,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 1239,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                8
+              ],
+              "block": [
+                2,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2240,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                8
+              ],
+              "block": [
+                3,
+                8,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2955,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "block": [
+                4,
+                5,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3190,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "block": [
+                4,
+                6,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3310,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "block": [
+                4,
+                7,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 3394,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                13
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                13
+              ],
+              "variable_index": 4312,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                14
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                14
+              ],
+              "variable_index": 4313,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                12,
+                15
+              ],
+              "block": [
+                9,
+                10,
+                11,
+                12,
+                15
+              ],
+              "variable_index": 4314,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 3,
+          "anchor_triple": [
+            13,
+            14,
+            15
+          ],
+          "hub": 16,
+          "base_to_target_group_permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "base_to_target_point_permutation": [
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                8
+              ],
+              "block": [
+                1,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1291,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                8
+              ],
+              "block": [
+                2,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2292,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                8
+              ],
+              "block": [
+                3,
+                8,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3007,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                5
+              ],
+              "block": [
+                4,
+                5,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3242,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                6
+              ],
+              "block": [
+                4,
+                6,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3362,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                4,
+                7
+              ],
+              "block": [
+                4,
+                7,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 3446,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                16
+              ],
+              "block": [
+                9,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4346,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                16
+              ],
+              "block": [
+                10,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4361,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                16
+              ],
+              "block": [
+                11,
+                13,
+                14,
+                15,
+                16
+              ],
+              "variable_index": 4366,
+              "coefficient": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "predicate": "adjacent_anchor_anchor",
+      "sense": "<=",
+      "bound": 2,
+      "violations": [
+        {
+          "id": "matching-001",
+          "value": 3,
+          "orbit_size": 18,
+          "checked_gap": [
+            40431,
+            250000
+          ]
+        },
+        {
+          "id": "matching-011",
+          "value": 3,
+          "orbit_size": 36,
+          "checked_gap": [
+            110973,
+            125000
+          ]
+        },
+        {
+          "id": "matching-018",
+          "value": 3,
+          "orbit_size": 36,
+          "checked_gap": [
+            2701,
+            62500
+          ]
+        },
+        {
+          "id": "matching-049",
+          "value": 3,
+          "orbit_size": 72,
+          "checked_gap": [
+            7897,
+            250000
+          ]
+        }
+      ],
+      "violating_orbits": 4,
+      "violating_labeled_links": 162,
+      "all_base_representative_values": {
+        "matching-000": 2,
+        "matching-001": 3,
+        "matching-002": 2,
+        "matching-003": 1,
+        "matching-004": 2,
+        "matching-005": 1,
+        "matching-006": 2,
+        "matching-007": 1,
+        "matching-008": 2,
+        "matching-009": 2,
+        "matching-010": 2,
+        "matching-011": 3,
+        "matching-012": 1,
+        "matching-013": 2,
+        "matching-014": 1,
+        "matching-015": 2,
+        "matching-016": 1,
+        "matching-017": 2,
+        "matching-018": 3,
+        "matching-019": 1,
+        "matching-020": 2,
+        "matching-021": 1,
+        "matching-022": 2,
+        "matching-023": 1,
+        "matching-024": 2,
+        "matching-025": 0,
+        "matching-026": 1,
+        "matching-027": 0,
+        "matching-028": 1,
+        "matching-029": 0,
+        "matching-030": 1,
+        "matching-031": 0,
+        "matching-032": 1,
+        "matching-033": 1,
+        "matching-034": 1,
+        "matching-035": 1,
+        "matching-036": 2,
+        "matching-037": 2,
+        "matching-038": 0,
+        "matching-039": 1,
+        "matching-040": 0,
+        "matching-041": 1,
+        "matching-042": 0,
+        "matching-043": 1,
+        "matching-044": 1,
+        "matching-045": 2,
+        "matching-046": 1,
+        "matching-047": 2,
+        "matching-048": 2,
+        "matching-049": 3,
+        "matching-050": 1,
+        "matching-051": 1,
+        "matching-052": 1,
+        "matching-053": 2,
+        "matching-054": 2,
+        "matching-055": 1,
+        "matching-056": 2,
+        "matching-057": 0,
+        "matching-058": 1,
+        "matching-059": 0,
+        "matching-060": 1,
+        "matching-061": 0,
+        "matching-062": 1,
+        "matching-063": 1,
+        "matching-064": 2,
+        "matching-065": 0,
+        "matching-066": 1,
+        "matching-067": 1,
+        "matching-068": 1,
+        "matching-069": 2,
+        "matching-070": 0,
+        "matching-071": 1,
+        "matching-072": 0,
+        "matching-073": 1,
+        "matching-074": 0,
+        "matching-075": 1,
+        "matching-076": 0,
+        "matching-077": 0,
+        "matching-078": 0,
+        "matching-079": 0,
+        "matching-080": 0,
+        "matching-081": 0,
+        "matching-082": 0,
+        "matching-083": 1,
+        "matching-084": 1,
+        "matching-085": 0,
+        "matching-086": 0,
+        "matching-087": 0,
+        "matching-088": 0,
+        "matching-089": 1,
+        "matching-090": 0,
+        "matching-091": 1,
+        "matching-092": 1,
+        "matching-093": 2,
+        "matching-094": 0,
+        "matching-095": 0,
+        "matching-096": 0,
+        "matching-097": 1,
+        "matching-098": 1,
+        "matching-099": 0,
+        "matching-100": 1,
+        "matching-101": 0,
+        "matching-102": 1,
+        "matching-103": 0,
+        "matching-104": 1,
+        "matching-105": 0,
+        "matching-106": 1,
+        "matching-107": 2,
+        "matching-108": 0,
+        "matching-109": 0,
+        "matching-110": 0,
+        "matching-111": 0,
+        "matching-112": 0,
+        "matching-113": 0,
+        "matching-114": 0,
+        "matching-115": 1,
+        "matching-116": 1,
+        "matching-117": 1,
+        "matching-118": 2,
+        "matching-119": 1,
+        "matching-120": 0,
+        "matching-121": 1,
+        "matching-122": 0,
+        "matching-123": 1,
+        "matching-124": 0,
+        "matching-125": 1,
+        "matching-126": 0,
+        "matching-127": 2,
+        "matching-128": 1
+      },
+      "invariant_maps_checked": 29970,
+      "full_hub_graph_automorphisms": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          3,
+          2
+        ],
+        [
+          1,
+          0,
+          2,
+          3
+        ],
+        [
+          1,
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          3,
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          2,
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          1,
+          0
+        ]
+      ],
+      "target_groups": [
+        {
+          "group_index": 0,
+          "anchor_triple": [
+            1,
+            2,
+            3
+          ],
+          "hub": 4,
+          "base_to_target_group_permutation": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                9,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                9,
+                13
+              ],
+              "variable_index": 53,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                9,
+                14
+              ],
+              "variable_index": 54,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                9,
+                15
+              ],
+              "variable_index": 55,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                10,
+                13
+              ],
+              "variable_index": 59,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                10,
+                14
+              ],
+              "variable_index": 60,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                10,
+                15
+              ],
+              "variable_index": 61,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                13
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                11,
+                13
+              ],
+              "variable_index": 64,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                14
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                11,
+                14
+              ],
+              "variable_index": 65,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                15
+              ],
+              "block": [
+                1,
+                2,
+                3,
+                11,
+                15
+              ],
+              "variable_index": 66,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 1,
+          "anchor_triple": [
+            5,
+            6,
+            7
+          ],
+          "hub": 8,
+          "base_to_target_group_permutation": [
+            1,
+            0,
+            2,
+            3
+          ],
+          "base_to_target_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "target_to_base_point_permutation": [
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                9,
+                13
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                9,
+                13
+              ],
+              "variable_index": 3587,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                14
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                9,
+                14
+              ],
+              "variable_index": 3588,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                9,
+                15
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                9,
+                15
+              ],
+              "variable_index": 3589,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                13
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                10,
+                13
+              ],
+              "variable_index": 3593,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                14
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                10,
+                14
+              ],
+              "variable_index": 3594,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                10,
+                15
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                10,
+                15
+              ],
+              "variable_index": 3595,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                13
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                11,
+                13
+              ],
+              "variable_index": 3598,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                14
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                11,
+                14
+              ],
+              "variable_index": 3599,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                11,
+                15
+              ],
+              "block": [
+                5,
+                6,
+                7,
+                11,
+                15
+              ],
+              "variable_index": 3600,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 2,
+          "anchor_triple": [
+            9,
+            10,
+            11
+          ],
+          "hub": 12,
+          "base_to_target_group_permutation": [
+            2,
+            3,
+            0,
+            1
+          ],
+          "base_to_target_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                5
+              ],
+              "block": [
+                1,
+                5,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 979,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                6
+              ],
+              "block": [
+                1,
+                6,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 1099,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                7
+              ],
+              "block": [
+                1,
+                7,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 1183,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                5
+              ],
+              "block": [
+                2,
+                5,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 1980,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                6
+              ],
+              "block": [
+                2,
+                6,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2100,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                7
+              ],
+              "block": [
+                2,
+                7,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2184,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                5
+              ],
+              "block": [
+                3,
+                5,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2695,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                6
+              ],
+              "block": [
+                3,
+                6,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2815,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                7
+              ],
+              "block": [
+                3,
+                7,
+                9,
+                10,
+                11
+              ],
+              "variable_index": 2899,
+              "coefficient": 1
+            }
+          ]
+        },
+        {
+          "group_index": 3,
+          "anchor_triple": [
+            13,
+            14,
+            15
+          ],
+          "hub": 16,
+          "base_to_target_group_permutation": [
+            3,
+            2,
+            0,
+            1
+          ],
+          "base_to_target_point_permutation": [
+            13,
+            14,
+            15,
+            16,
+            9,
+            10,
+            11,
+            12,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "target_to_base_point_permutation": [
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            5,
+            6,
+            7,
+            8,
+            1,
+            2,
+            3,
+            4
+          ],
+          "coefficients": [
+            {
+              "edge": [
+                1,
+                5
+              ],
+              "block": [
+                1,
+                5,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1031,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                6
+              ],
+              "block": [
+                1,
+                6,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1151,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                1,
+                7
+              ],
+              "block": [
+                1,
+                7,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 1235,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                5
+              ],
+              "block": [
+                2,
+                5,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2032,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                6
+              ],
+              "block": [
+                2,
+                6,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2152,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                2,
+                7
+              ],
+              "block": [
+                2,
+                7,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2236,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                5
+              ],
+              "block": [
+                3,
+                5,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2747,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                6
+              ],
+              "block": [
+                3,
+                6,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2867,
+              "coefficient": 1
+            },
+            {
+              "edge": [
+                3,
+                7
+              ],
+              "block": [
+                3,
+                7,
+                13,
+                14,
+                15
+              ],
+              "variable_index": 2951,
+              "coefficient": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "total_linear_cuts": 20,
+  "source_sha256": "063c2755f7bb1ad854b780b312cf9f9efdddc6a3e06478c392792c76518dca52",
+  "representatives_sha256": "70e596f5ccd3dc93a5441235761b1b6341de3b41546eab5c6ff21993b3413231",
+  "orbit_archive_sha256": "3ea74028d4cb7c5bac4b48121acee05802c85f2ff5c417fecab8b0036cdb3dda",
+  "orbit_audit_sha256": "536c695cef5a77881d7f42848f23b1aa9a976e0098e80193613b70c55ce7d742",
+  "lp_results_sha256": "f96c156276584f72e6134aa2cd6a68cc81d1c0f1164f3cc205f240720cae4207",
+  "lp_audit_sha256": "aec2287a1ecc4e127625db7d6374585050f2daae036b8d42a4043d49fbed89e4",
+  "scope": "Necessary inequalities for integer regular 64-block covers in the normalized four-sevenfold branch. Proof uses complete finite link classification and separately checked positive LP exclusion certificates. Group transport is relabeling, not cover invariance."
+}

@@ -1,0 +1,54 @@
+{
+  "cases": [
+    {
+      "id": "cycle-069",
+      "passed": true,
+      "new_fixing_rows": 7,
+      "base_original_proto_preserved": true,
+      "pilot_base_proto_preserved": true,
+      "new_cuts_only_on_block_variables": true,
+      "seconds": 300,
+      "workers": 2,
+      "seed": 2026103303,
+      "model_sha256": "e26ed917f1ff21eeafb25a6f5a791fd65516315d753e67e3d3510e8edcd0589a"
+    },
+    {
+      "id": "cycle-046",
+      "passed": true,
+      "new_fixing_rows": 7,
+      "base_original_proto_preserved": true,
+      "pilot_base_proto_preserved": true,
+      "new_cuts_only_on_block_variables": true,
+      "seconds": 300,
+      "workers": 2,
+      "seed": 2026103304,
+      "model_sha256": "a66f86747422d655cb80b800347d13987cd4a9d68fefc560c3a86971875fd9ec"
+    },
+    {
+      "id": "matching-029",
+      "passed": true,
+      "new_fixing_rows": 7,
+      "base_original_proto_preserved": true,
+      "pilot_base_proto_preserved": true,
+      "new_cuts_only_on_block_variables": true,
+      "seconds": 300,
+      "workers": 2,
+      "seed": 2026103301,
+      "model_sha256": "03b7961852a29091e9148b05fd6400ee2e59077d2b120ca86077904fad9f9713"
+    },
+    {
+      "id": "matching-113",
+      "passed": true,
+      "new_fixing_rows": 7,
+      "base_original_proto_preserved": true,
+      "pilot_base_proto_preserved": true,
+      "new_cuts_only_on_block_variables": true,
+      "seconds": 300,
+      "workers": 2,
+      "seed": 2026103302,
+      "model_sha256": "770c703c02c513011f276d822d4482918ebd9661e2c98ae8a0eca9edddda8cf8"
+    }
+  ],
+  "checker_sha256": "4c717f8cd705017c6f16c3db534f739447313ad61a11cf7ed559b39f217ff28f",
+  "scope": "Raw encoding preservation and preparation checks, not independent cut validity or an integer infeasibility proof."
+}

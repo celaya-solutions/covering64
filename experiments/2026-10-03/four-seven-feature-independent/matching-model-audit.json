@@ -1,0 +1,269 @@
+{
+  "case": "matching",
+  "passed": true,
+  "all_prior_proto_fields_preserved": true,
+  "new_variables": 0,
+  "rows_checked": 12,
+  "all_target_groups_checked": 4,
+  "expected_rows": [
+    {
+      "name": "four_seven_feature_matching_hub_hub_or_own_anchor_hub_group_0",
+      "ids": [
+        3,
+        7,
+        11,
+        14,
+        24,
+        33,
+        45,
+        49,
+        52,
+        58,
+        63,
+        71,
+        74,
+        76,
+        77
+      ],
+      "sense": ">=",
+      "bound": 1,
+      "group": 0,
+      "predicate": "hub_hub_or_own_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_hub_hub_or_own_anchor_hub_group_1",
+      "ids": [
+        650,
+        1651,
+        2366,
+        3081,
+        3085,
+        3089,
+        3579,
+        3583,
+        3586,
+        3592,
+        3597,
+        3605,
+        3608,
+        3610,
+        3611
+      ],
+      "sense": ">=",
+      "bound": 1,
+      "group": 1,
+      "predicate": "hub_hub_or_own_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_hub_hub_or_own_anchor_hub_group_2",
+      "ids": [
+        814,
+        1815,
+        2530,
+        3450,
+        3506,
+        3510,
+        3780,
+        3990,
+        4116,
+        4242,
+        4246,
+        4315,
+        4318,
+        4320,
+        4321
+      ],
+      "sense": ">=",
+      "bound": 1,
+      "group": 2,
+      "predicate": "hub_hub_or_own_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_hub_hub_or_own_anchor_hub_group_3",
+      "ids": [
+        866,
+        1867,
+        2582,
+        3502,
+        3571,
+        3575,
+        3832,
+        4042,
+        4168,
+        4307,
+        4311,
+        4342,
+        4357,
+        4362,
+        4367
+      ],
+      "sense": ">=",
+      "bound": 1,
+      "group": 3,
+      "predicate": "hub_hub_or_own_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_hub_group_0",
+      "ids": [
+        0,
+        1,
+        2,
+        56,
+        62,
+        67,
+        68,
+        69,
+        70
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 0,
+      "predicate": "adjacent_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_hub_group_1",
+      "ids": [
+        870,
+        1871,
+        2586,
+        3590,
+        3596,
+        3601,
+        3602,
+        3603,
+        3604
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 1,
+      "predicate": "adjacent_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_hub_group_2",
+      "ids": [
+        1239,
+        2240,
+        2955,
+        3190,
+        3310,
+        3394,
+        4312,
+        4313,
+        4314
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 2,
+      "predicate": "adjacent_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_hub_group_3",
+      "ids": [
+        1291,
+        2292,
+        3007,
+        3242,
+        3362,
+        3446,
+        4346,
+        4361,
+        4366
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 3,
+      "predicate": "adjacent_anchor_hub"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_anchor_group_0",
+      "ids": [
+        53,
+        54,
+        55,
+        59,
+        60,
+        61,
+        64,
+        65,
+        66
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 0,
+      "predicate": "adjacent_anchor_anchor"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_anchor_group_1",
+      "ids": [
+        3587,
+        3588,
+        3589,
+        3593,
+        3594,
+        3595,
+        3598,
+        3599,
+        3600
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 1,
+      "predicate": "adjacent_anchor_anchor"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_anchor_group_2",
+      "ids": [
+        979,
+        1099,
+        1183,
+        1980,
+        2100,
+        2184,
+        2695,
+        2815,
+        2899
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 2,
+      "predicate": "adjacent_anchor_anchor"
+    },
+    {
+      "name": "four_seven_feature_matching_adjacent_anchor_anchor_group_3",
+      "ids": [
+        1031,
+        1151,
+        1235,
+        2032,
+        2152,
+        2236,
+        2747,
+        2867,
+        2951
+      ],
+      "sense": "<=",
+      "bound": 2,
+      "group": 3,
+      "predicate": "adjacent_anchor_anchor"
+    }
+  ],
+  "damaged_controls": {
+    "wrong_coefficient": "rejected",
+    "wrong_column": "rejected",
+    "wrong_bound": "rejected",
+    "enforced_row": "rejected",
+    "missing_row": "rejected",
+    "extra_row": "rejected",
+    "prior_domain": "rejected",
+    "prior_name": "rejected",
+    "prior_row": "rejected",
+    "new_hint": "rejected",
+    "new_objective": "rejected",
+    "wrong_rule_name": "rejected"
+  },
+  "base_sha256": "5f85a1cd9caa86742892e44c0632df0c99c0409bc3e69d0905e4924a08116b84",
+  "model_sha256": "92dc44923c0a68711fc300a5445e35345982af02510f7af54e70466c82beaadd",
+  "proof_sha256": "7e67ffde630c9ba27b40f6c3345ff42b2de45288dd891bd3a95dd5876a83785a",
+  "checker_sha256": "03d431864fa0e861f68dc691c54627472a497b231b6d319089d90941634dfd71",
+  "scope": "Necessary cuts only for integer full regular64-block covers in the normalized four-sevenfold branch. Transport is relabeling, not cover invariance."
+}

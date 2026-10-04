@@ -1,0 +1,1529 @@
+{
+  "scope": "Numerical violations in saved fractional LP vectors, not integer exclusions.",
+  "source_sha256": "d50997bc9df40bd5257a6aa3cd30531580b77956464da850448cdf8f08326bae",
+  "original_results_sha256": "f96c156276584f72e6134aa2cd6a68cc81d1c0f1164f3cc205f240720cae4207",
+  "primals_directory": "experiments/scratch/four-seven-lp-primal-inspection-20261003",
+  "archive": "experiments/scratch/four-seven-blossom-inspection-v1.0.0/violations.json.gz",
+  "archive_sha256": "8a3a385d6da5aa9445d96b6842ace8f8a3b3fd65ba6e09893c1d73373929510c",
+  "python_version": "3.13.15",
+  "numpy_version": "2.5.3",
+  "tolerance": 1e-07,
+  "records": 158,
+  "canonical_subsets_per_group": 2048,
+  "maximum_degree_residual": 9.277023593767808e-13,
+  "total_violations": 54,
+  "distinct_case_group_cuts_violated": 42,
+  "cases_with_violations": 42,
+  "maximum_excess": 0.23825660639485546,
+  "by_case": {
+    "cycle": {
+      "records": 102,
+      "with_violations": 27,
+      "total_violations": 33,
+      "per_group": [
+        {
+          "group": 0,
+          "records_with_violations": 0,
+          "total_violations": 0,
+          "maximum_excess": 0.0
+        },
+        {
+          "group": 1,
+          "records_with_violations": 13,
+          "total_violations": 14,
+          "maximum_excess": 0.18957828114721753
+        },
+        {
+          "group": 2,
+          "records_with_violations": 9,
+          "total_violations": 12,
+          "maximum_excess": 0.11225549133890356
+        },
+        {
+          "group": 3,
+          "records_with_violations": 7,
+          "total_violations": 7,
+          "maximum_excess": 0.08514148843273928
+        }
+      ]
+    },
+    "matching": {
+      "records": 56,
+      "with_violations": 15,
+      "total_violations": 21,
+      "per_group": [
+        {
+          "group": 0,
+          "records_with_violations": 0,
+          "total_violations": 0,
+          "maximum_excess": 0.0
+        },
+        {
+          "group": 1,
+          "records_with_violations": 9,
+          "total_violations": 10,
+          "maximum_excess": 0.23825660639485546
+        },
+        {
+          "group": 2,
+          "records_with_violations": 4,
+          "total_violations": 5,
+          "maximum_excess": 0.1399381445713943
+        },
+        {
+          "group": 3,
+          "records_with_violations": 6,
+          "total_violations": 6,
+          "maximum_excess": 0.21646454853535113
+        }
+      ]
+    }
+  },
+  "top_cuts": [
+    {
+      "case": "matching",
+      "group": 1,
+      "subset": [
+        4,
+        12,
+        16
+      ],
+      "primal_count": 5,
+      "maximum_excess": 0.23825660639485546
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        4,
+        12,
+        16
+      ],
+      "primal_count": 4,
+      "maximum_excess": 0.18957828114721753
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        1,
+        11,
+        16
+      ],
+      "primal_count": 3,
+      "maximum_excess": 0.14858882214847124
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        4,
+        8,
+        9,
+        12,
+        13,
+        14
+      ],
+      "primal_count": 2,
+      "maximum_excess": 0.020481449940476626
+    },
+    {
+      "case": "cycle",
+      "group": 3,
+      "subset": [
+        3,
+        5,
+        10
+      ],
+      "primal_count": 2,
+      "maximum_excess": 0.07261984938713928
+    },
+    {
+      "case": "matching",
+      "group": 2,
+      "subset": [
+        4,
+        6,
+        14
+      ],
+      "primal_count": 2,
+      "maximum_excess": 0.1399381445713943
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        4,
+        8,
+        9,
+        12,
+        13,
+        15
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.03342296594853922
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        2,
+        3,
+        11,
+        14,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.07006314125489022
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        1,
+        3,
+        7,
+        13,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.000704260965996184
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        4,
+        6,
+        8,
+        12,
+        15,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.0018201825356403134
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        4,
+        5,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.07275813445559587
+    },
+    {
+      "case": "cycle",
+      "group": 3,
+      "subset": [
+        2,
+        8,
+        10
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.08514148843273928
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        4,
+        8,
+        12,
+        13
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.08669095303169039
+    },
+    {
+      "case": "cycle",
+      "group": 3,
+      "subset": [
+        2,
+        7,
+        9
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.040538164927756526
+    },
+    {
+      "case": "cycle",
+      "group": 3,
+      "subset": [
+        4,
+        7,
+        10
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.03180224294220979
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        2,
+        5,
+        13
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.07315621111630621
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        6,
+        8,
+        15
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.01168330629654779
+    },
+    {
+      "case": "cycle",
+      "group": 3,
+      "subset": [
+        4,
+        7,
+        11
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.0492740874591191
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        3,
+        4,
+        5
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.08802597893562769
+    },
+    {
+      "case": "cycle",
+      "group": 3,
+      "subset": [
+        1,
+        8,
+        9
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.038603920724765484
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        4,
+        5,
+        15
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.002902782860839892
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        3,
+        6,
+        13
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.0196101138605278
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        9,
+        14,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.0006187429095629859
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        1,
+        7,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.11225549133890356
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        2,
+        6,
+        15
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.07347501314330862
+    },
+    {
+      "case": "cycle",
+      "group": 1,
+      "subset": [
+        1,
+        3,
+        11,
+        15,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.06197800876881576
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        2,
+        6,
+        13
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.0020233364434603107
+    },
+    {
+      "case": "cycle",
+      "group": 2,
+      "subset": [
+        1,
+        2,
+        6,
+        7,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.025197638347153273
+    },
+    {
+      "case": "matching",
+      "group": 1,
+      "subset": [
+        2,
+        12,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.01885374070635981
+    },
+    {
+      "case": "matching",
+      "group": 2,
+      "subset": [
+        4,
+        6,
+        12,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.08321553886252753
+    },
+    {
+      "case": "matching",
+      "group": 2,
+      "subset": [
+        4,
+        6,
+        8,
+        14,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.04561637234997917
+    },
+    {
+      "case": "matching",
+      "group": 1,
+      "subset": [
+        4,
+        9,
+        12,
+        14,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.0022559928706140653
+    },
+    {
+      "case": "matching",
+      "group": 3,
+      "subset": [
+        1,
+        8,
+        10
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.01451225225898689
+    },
+    {
+      "case": "matching",
+      "group": 3,
+      "subset": [
+        4,
+        6,
+        7,
+        11,
+        12,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.09752354787227979
+    },
+    {
+      "case": "matching",
+      "group": 3,
+      "subset": [
+        1,
+        3,
+        5,
+        8,
+        10
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.024888716597805338
+    },
+    {
+      "case": "matching",
+      "group": 1,
+      "subset": [
+        4,
+        8,
+        10,
+        13
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.04373254754864053
+    },
+    {
+      "case": "matching",
+      "group": 2,
+      "subset": [
+        2,
+        7,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.018181882053458276
+    },
+    {
+      "case": "matching",
+      "group": 1,
+      "subset": [
+        2,
+        11,
+        14
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.014878326900817251
+    },
+    {
+      "case": "matching",
+      "group": 3,
+      "subset": [
+        4,
+        8,
+        12
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.03481131874729071
+    },
+    {
+      "case": "matching",
+      "group": 1,
+      "subset": [
+        9,
+        13,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.07576380370307767
+    },
+    {
+      "case": "matching",
+      "group": 3,
+      "subset": [
+        4,
+        7,
+        12,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.21646454853535113
+    },
+    {
+      "case": "matching",
+      "group": 3,
+      "subset": [
+        4,
+        7,
+        8,
+        11,
+        12,
+        16
+      ],
+      "primal_count": 1,
+      "maximum_excess": 0.05326081422405293
+    }
+  ],
+  "ranking": [
+    {
+      "id": "matching-029",
+      "case": "matching",
+      "violation_count": 2,
+      "maximum_excess": 0.23825660639485546
+    },
+    {
+      "id": "matching-113",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.21646454853535113
+    },
+    {
+      "id": "matching-038",
+      "case": "matching",
+      "violation_count": 3,
+      "maximum_excess": 0.21641568802682198
+    },
+    {
+      "id": "cycle-046",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.18957828114721753
+    },
+    {
+      "id": "matching-051",
+      "case": "matching",
+      "violation_count": 2,
+      "maximum_excess": 0.17677611278312155
+    },
+    {
+      "id": "cycle-123",
+      "case": "cycle",
+      "violation_count": 2,
+      "maximum_excess": 0.14858882214847124
+    },
+    {
+      "id": "matching-032",
+      "case": "matching",
+      "violation_count": 2,
+      "maximum_excess": 0.1399381445713943
+    },
+    {
+      "id": "matching-000",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.11809481946406852
+    },
+    {
+      "id": "cycle-116",
+      "case": "cycle",
+      "violation_count": 2,
+      "maximum_excess": 0.11225549133890356
+    },
+    {
+      "id": "cycle-043",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.10697994092725138
+    },
+    {
+      "id": "cycle-068",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.10250546300982899
+    },
+    {
+      "id": "matching-028",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.10191901348766752
+    },
+    {
+      "id": "matching-039",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.09752354787227979
+    },
+    {
+      "id": "cycle-083",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.08802597893562769
+    },
+    {
+      "id": "cycle-054",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.08669095303169039
+    },
+    {
+      "id": "cycle-051",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.08514148843273928
+    },
+    {
+      "id": "matching-069",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.07576380370307767
+    },
+    {
+      "id": "cycle-079",
+      "case": "cycle",
+      "violation_count": 2,
+      "maximum_excess": 0.07315621111630621
+    },
+    {
+      "id": "cycle-048",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.07275813445559587
+    },
+    {
+      "id": "cycle-126",
+      "case": "cycle",
+      "violation_count": 2,
+      "maximum_excess": 0.07261984938713928
+    },
+    {
+      "id": "cycle-027",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.07006314125489022
+    },
+    {
+      "id": "matching-128",
+      "case": "matching",
+      "violation_count": 2,
+      "maximum_excess": 0.05472155629146935
+    },
+    {
+      "id": "cycle-082",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.0492740874591191
+    },
+    {
+      "id": "matching-057",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.04373254754864053
+    },
+    {
+      "id": "cycle-058",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.040538164927756526
+    },
+    {
+      "id": "cycle-094",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.038603920724765484
+    },
+    {
+      "id": "matching-063",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.03481131874729071
+    },
+    {
+      "id": "cycle-025",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.03342296594853922
+    },
+    {
+      "id": "cycle-073",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.03180224294220979
+    },
+    {
+      "id": "cycle-093",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.0257624385545856
+    },
+    {
+      "id": "cycle-035",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.022478439388541105
+    },
+    {
+      "id": "cycle-029",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.020481449940476626
+    },
+    {
+      "id": "cycle-102",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.0196101138605278
+    },
+    {
+      "id": "matching-012",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.01885374070635981
+    },
+    {
+      "id": "matching-060",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.018181882053458276
+    },
+    {
+      "id": "matching-062",
+      "case": "matching",
+      "violation_count": 1,
+      "maximum_excess": 0.014878326900817251
+    },
+    {
+      "id": "cycle-098",
+      "case": "cycle",
+      "violation_count": 2,
+      "maximum_excess": 0.014051325622867372
+    },
+    {
+      "id": "cycle-053",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.013390095476359054
+    },
+    {
+      "id": "cycle-012",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.003370897006329532
+    },
+    {
+      "id": "cycle-125",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.0020233364434603107
+    },
+    {
+      "id": "cycle-039",
+      "case": "cycle",
+      "violation_count": 2,
+      "maximum_excess": 0.0018201825356403134
+    },
+    {
+      "id": "cycle-109",
+      "case": "cycle",
+      "violation_count": 1,
+      "maximum_excess": 0.0006187429095629859
+    },
+    {
+      "id": "cycle-000",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-001",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-004",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-005",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-006",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-008",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-013",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-015",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-017",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-020",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-021",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-022",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-023",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-024",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-026",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-030",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-031",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-032",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-033",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-034",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-036",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-037",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-038",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-040",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-041",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-042",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-044",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-045",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-049",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-050",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-055",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-056",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-057",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-059",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-060",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-061",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-062",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-063",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-065",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-066",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-069",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-070",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-074",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-075",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-077",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-081",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-085",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-086",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-087",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-088",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-089",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-090",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-091",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-092",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-095",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-096",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-097",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-099",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-100",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-101",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-104",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-105",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-106",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-107",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-108",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-110",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-111",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-112",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-114",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-115",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-117",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-121",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-122",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-124",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "cycle-127",
+      "case": "cycle",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-013",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-014",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-015",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-017",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-019",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-020",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-021",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-022",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-030",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-036",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-043",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-045",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-047",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-053",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-058",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-059",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-064",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-066",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-067",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-068",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-071",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-072",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-073",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-077",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-083",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-091",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-093",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-095",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-097",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-102",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-103",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-104",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-107",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-109",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-110",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-115",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-117",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-118",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-119",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-123",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    },
+    {
+      "id": "matching-127",
+      "case": "matching",
+      "violation_count": 0,
+      "maximum_excess": 0.0
+    }
+  ]
+}

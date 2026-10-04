@@ -1,0 +1,53 @@
+{
+  "valid": true,
+  "source_sha256": "42b4fc85d65461475b53f92427d6bee85ca92d0b2474f4e768f4f5fc3e78dfeb",
+  "result_sha256": "d0592d2da60afebb9fdc5f31d7a8955b8d92f0b24ccbad8d390184c2bd51519f",
+  "manifest_sha256": "21c243c87f44aebe780d8a48e330684d5fcaefbc2a587fa236516d64d8cfc38a",
+  "cases": [
+    {
+      "case": "cycle",
+      "valid_numerical_primal": true,
+      "checked_columns": 104848,
+      "checked_rows": 4550,
+      "domain_residual": [
+        0,
+        1
+      ],
+      "exact_binary_row_residual": [
+        49087,
+        72057594037927936
+      ],
+      "numerical_row_residual": 6.812189701221882e-13,
+      "fractional_blocks": 444,
+      "fractional_mass": 62.84978942395522,
+      "positive_templates": 98,
+      "near_integral": false,
+      "selected_at_half": 5,
+      "primal_sha256": "f709c5c46efbfd2b8879f850d84a80545071d6fa3395692972dbdec0c0981ea4",
+      "matrix_sha256": "27061fc3af3e1933b05b8c71c5fabef5229129d0ab57c73cf1cb9c9b282cf88d"
+    },
+    {
+      "case": "matching",
+      "valid_numerical_primal": true,
+      "checked_columns": 61576,
+      "checked_rows": 4550,
+      "domain_residual": [
+        0,
+        1
+      ],
+      "exact_binary_row_residual": [
+        15603,
+        18014398509481984
+      ],
+      "numerical_row_residual": 8.661404926613159e-13,
+      "fractional_blocks": 453,
+      "fractional_mass": 62.60252421928971,
+      "positive_templates": 97,
+      "near_integral": false,
+      "selected_at_half": 6,
+      "primal_sha256": "a0ad8f77f33c2cb29a57392a37a123b92d645d4cc390cd56d80b1363b0e8f7e8",
+      "matrix_sha256": "7bfcfd3b82f52016c9c594778d19443b2ed803c1f6e121461230bda28cbfb0ee"
+    }
+  ],
+  "scope": "Exact rational recount of stored binary floats confirms numerical residuals. Neither vector is an exact rational feasible witness or an integer cover."
+}

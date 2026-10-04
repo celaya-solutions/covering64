@@ -3,7 +3,7 @@
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      886fd747ec44c93e3996b85ca8966a8f1ac306a2eef4cf47c97bb6ceb9b516b2
+# SHA256:      3037b54f88cdaebcae9926778cc14bac903a79e5116a0c8613b2f25d2c0288d7
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
@@ -71,6 +71,11 @@ def features(case, edges):
         )
         == 7,
         "edge partition",
+    )
+    require(
+        2 * answer["hub_hub"] + sum(answer[f"ah_{r}"] for r in ("own", "neighbor", "nonneighbor"))
+        == 5,
+        "hub degree incidence identity",
     )
     return answer
 
@@ -180,6 +185,14 @@ def main():
         feasible = sorted(
             (r for r in case_rows if not r["excluded"]), key=lambda r: (r["orbit_size"], r["id"])
         )
+        signature_bins = collections.defaultdict(list)
+        for row in case_rows:
+            signature_bins[tuple(row["features"].values())].append(row)
+        mixed_signatures = [
+            [dict(id=r["id"], excluded=r["excluded"]) for r in bucket]
+            for bucket in signature_bins.values()
+            if len({r["excluded"] for r in bucket}) > 1
+        ]
         case_results.append(
             dict(
                 case=case,
@@ -192,11 +205,22 @@ def main():
                 ],
                 single_value_exclusions=singles,
                 short_exclusion_rules=pure_exclusion_rules(case_rows),
+                distinct_feature_signatures=len(signature_bins),
+                mixed_outcome_feature_signatures=mixed_signatures,
                 small_orbit_cp_options=feasible[:5],
             )
         )
     audit_path = HERE.parent / "four-seven-link-lp-independent/full-v1.1.0-final-audit.json"
     require(audit_path.exists(), "missing independent certificate audit")
+    audit = json.loads(audit_path.read_text())
+    require(
+        audit["complete_selected_coverage"] is True
+        and audit["records"] == 258
+        and audit["expected_records"] == 258
+        and audit["excluded"] == 100,
+        "incomplete certificate audit",
+    )
+    require(audit["results_sha256"] == sha(screen_path), "certificate audit input mismatch")
     result = dict(
         source_sha256=sha(Path(__file__)),
         screen_sha256=sha(screen_path),

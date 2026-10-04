@@ -1,10 +1,43 @@
 import importlib.util
+import subprocess
 import sys
 from pathlib import Path
 
 import pytest
 from ortools.linear_solver import pywraplp
 from ortools.sat.python import cp_model
+
+
+@pytest.mark.parametrize("cut_family", ["feature", "facet"])
+def test_mismatched_proof_rejected_before_output(tmp_path, cut_family):
+    script = Path(__file__).parents[1] / "scripts" / "four_seven_link_lp.py"
+    proof = tmp_path / "damaged-proof.json"
+    proof.write_text("{}\n")
+    output = tmp_path / "screen"
+    result = subprocess.run(
+        [sys.executable, str(script), "--representatives", str(tmp_path / "absent.json"),
+         "--output", str(output), f"--{cut_family}-cuts", f"--{cut_family}-proof", str(proof)],
+        capture_output=True, text=True, check=False,
+    )
+    assert result.returncode == 2
+    assert f"{cut_family} proof hash does not match" in result.stderr
+    assert not output.exists()
+
+
+@pytest.mark.parametrize("counts", [["--four-hub-blocks", "0"],
+                                   ["--double-hub-triples", "1"],
+                                   ["--four-hub-blocks", "2", "--double-hub-triples", "4"]])
+def test_partial_or_impossible_hub_case_rejected_before_output(tmp_path, counts):
+    script = Path(__file__).parents[1] / "scripts" / "four_seven_link_lp.py"
+    output = tmp_path / "screen"
+    result = subprocess.run(
+        [sys.executable, str(script), "--representatives", str(tmp_path / "absent.json"),
+         "--output", str(output), *counts],
+        capture_output=True, text=True, check=False,
+    )
+    assert result.returncode == 2
+    assert "must be supplied together" in result.stderr or "six exhaustive" in result.stderr
+    assert not output.exists()
 
 
 @pytest.fixture(scope="module")

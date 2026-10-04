@@ -1,9 +1,9 @@
 # Document:    Linear Screens for First Heavy-Link Representatives
-# Version:     v1.1.0
+# Version:     v1.4.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      cd79bfa4dc9555659fcd9bda10a1317f008c3b3ff40f1434d80b38948be7be24
+# SHA256:      de73a2222f83de803108527dc974a82e3ea95e2093599b545468e4c46e29a5a4
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
@@ -135,18 +135,61 @@ def main():
     parser.add_argument("--seconds", type=float, default=10)
     parser.add_argument("--case", choices=("cycle", "matching", "both"), default="both")
     parser.add_argument("--limit", type=int)
+    parser.add_argument("--feature-cuts", action="store_true")
+    parser.add_argument("--feature-proof", type=Path)
+    parser.add_argument("--facet-cuts", action="store_true")
+    parser.add_argument("--facet-proof", type=Path)
+    parser.add_argument("--blossom-cuts", action="store_true")
+    parser.add_argument("--four-hub-blocks", type=int)
+    parser.add_argument("--double-hub-triples", type=int)
     args = parser.parse_args()
     if not math.isfinite(args.seconds) or args.seconds <= 0 or (
         args.limit is not None and args.limit < 1
     ):
         parser.error("positive time and optional positive limit required")
+    if args.feature_cuts != (args.feature_proof is not None):
+        parser.error("feature cuts and their proof artifact must be supplied together")
+    if args.facet_cuts != (args.facet_proof is not None):
+        parser.error("facet cuts and their proof artifact must be supplied together")
+    if (args.four_hub_blocks is None) != (args.double_hub_triples is None):
+        parser.error("both hub counts must be supplied together")
+    hub_split = args.four_hub_blocks is not None
+    if hub_split:
+        from four_seven_hub_split import CASES
+
+        if (args.four_hub_blocks, args.double_hub_triples) not in CASES:
+            parser.error("one of the six exhaustive integer hub cases is required")
+    feature_proof = args.feature_proof.read_bytes() if args.feature_cuts else None
+    if args.feature_cuts:
+        from four_seven_feature_cuts import PROOF_MANIFEST_SHA256
+
+        if hashlib.sha256(feature_proof).hexdigest() != PROOF_MANIFEST_SHA256:
+            parser.error("feature proof hash does not match the audited helper")
+    facet_proof = args.facet_proof.read_bytes() if args.facet_cuts else None
+    if args.facet_cuts:
+        from four_seven_facet_cuts import PROOF_MANIFEST_SHA256 as FACET_PROOF_SHA256
+
+        if hashlib.sha256(facet_proof).hexdigest() != FACET_PROOF_SHA256:
+            parser.error("facet proof hash does not match the audited helper")
     if args.output.exists():
         parser.error("output directory must be new")
     args.output.mkdir(parents=True)
     payload = json.loads(args.representatives.read_text())
     (args.output / "representatives.json").write_bytes(args.representatives.read_bytes())
+    if feature_proof:
+        (args.output / "feature-proof.json").write_bytes(feature_proof)
+    if facet_proof:
+        (args.output / "facet-proof.json").write_bytes(facet_proof)
     source_paths = [Path(__file__), Path(__file__).with_name("four_seven_search.py"),
                     Path(__file__).with_name("four_seven_double_cuts.py")]
+    if args.feature_cuts:
+        source_paths.append(Path(__file__).with_name("four_seven_feature_cuts.py"))
+    if args.facet_cuts:
+        source_paths.append(Path(__file__).with_name("four_seven_facet_cuts.py"))
+    if args.blossom_cuts:
+        source_paths.append(Path(__file__).with_name("four_seven_blossom_cuts.py"))
+    if hub_split:
+        source_paths.append(Path(__file__).with_name("four_seven_hub_split.py"))
     sources = {}
     for path in source_paths:
         raw = path.read_bytes()
@@ -160,6 +203,16 @@ def main():
         "representatives_sha256": hashlib.sha256(args.representatives.read_bytes()).hexdigest(),
         "solver_version": ortools.__version__, "seconds_per_stage": args.seconds,
         "case": args.case, "limit": args.limit,
+        "feature_cuts": args.feature_cuts,
+        "feature_proof_sha256": (
+            hashlib.sha256(feature_proof).hexdigest() if feature_proof else None
+        ),
+        "facet_cuts": args.facet_cuts,
+        "facet_proof_sha256": (
+            hashlib.sha256(facet_proof).hexdigest() if facet_proof else None
+        ),
+        "blossom_cuts": args.blossom_cuts,
+        "hub_count_split": [args.four_hub_blocks, args.double_hub_triples] if hub_split else None,
     }
     (args.output / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
     results = []
@@ -169,6 +222,27 @@ def main():
             continue
         universe, model, xs, _ = build_model(case)
         add_double_triple_cuts(universe, model, xs, case)
+        feature_application = None
+        if args.feature_cuts:
+            from four_seven_feature_cuts import add_feature_cuts
+
+            feature_application = add_feature_cuts(universe, model, xs, case)
+        facet_application = None
+        if args.facet_cuts:
+            from four_seven_facet_cuts import add_facet_cuts
+
+            facet_application = add_facet_cuts(universe, model, xs, case)
+        blossom_application = None
+        if args.blossom_cuts:
+            from four_seven_blossom_cuts import add_blossom_cuts
+
+            blossom_application = add_blossom_cuts(universe, model, xs, case)
+        hub_application = None
+        if hub_split:
+            from four_seven_hub_split import add_hub_count_split
+
+            hub_application = add_hub_count_split(
+                universe, model, xs, case, args.four_hub_blocks, args.double_hub_triples)
         base_rows, width = linear_rows(model)
         model_path = args.output / f"{case}-base.pbtxt"
         model.export_to_file(str(model_path))
@@ -179,6 +253,10 @@ def main():
         metadata.setdefault("models", {})[case] = {
             "model_sha256": hashlib.sha256(model_path.read_bytes()).hexdigest(),
             "rows_sha256": hashlib.sha256(rows_path.read_bytes()).hexdigest(),
+            "feature_cuts": feature_application,
+            "facet_cuts": facet_application,
+            "blossom_cuts": blossom_application,
+            "hub_count_split": hub_application,
         }
         (args.output / "metadata.json").write_text(json.dumps(metadata, indent=2) + "\n")
         ids = {b: i for i, b in enumerate(universe.blocks)}
@@ -191,8 +269,16 @@ def main():
             lp = solve_lp(rows, width, args.seconds)
             result["feasibility_lp"] = {k: v for k, v in lp.items() if k != "weights"}
             if lp["status"] == pywraplp.Solver.INFEASIBLE:
+                soft_start = len(base_rows) - (2 if hub_split else 0)
                 phase = solve_lp(rows, width, args.seconds, phase_one=True,
-                                 soft_rows=range(len(base_rows), len(rows)))
+                                 soft_rows=range(soft_start, len(rows)))
+                result["phase_one_mode"] = (
+                    "fixed_link_and_hub_counts" if hub_split else "fixed_link"
+                )
+                if phase["status"] == pywraplp.Solver.INFEASIBLE:
+                    result["restricted_phase_one_lp"] = phase
+                    phase = solve_lp(rows, width, args.seconds, phase_one=True)
+                    result["phase_one_mode"] = "all_rows_fallback"
                 result["phase_one_lp"] = {k: v for k, v in phase.items() if k != "weights"}
                 if phase["status"] in (pywraplp.Solver.OPTIMAL, pywraplp.Solver.FEASIBLE):
                     certificate = exact_certificate(rows, width, phase["weights"])

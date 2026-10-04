@@ -1,0 +1,38 @@
+{
+  "scope": "Four bounded integer searches; UNKNOWN is inconclusive. No integer candidate supplied.",
+  "archive_sha256": "8926dff8bf9a20841713f1b1d2406721db6c8a419f38cbed2ab0200dc1dd22a7",
+  "raw_archive": "experiments/scratch/four-seven-blossom-cp-v1.1.0",
+  "cases": [
+    {
+      "id": "matching-029",
+      "status": "UNKNOWN",
+      "seconds": 300.00715,
+      "cover_found": false,
+      "verifier_outcome": "not applicable: solver supplied no integer solution"
+    },
+    {
+      "id": "matching-113",
+      "status": "UNKNOWN",
+      "seconds": 300.008413,
+      "cover_found": false,
+      "verifier_outcome": "not applicable: solver supplied no integer solution"
+    },
+    {
+      "id": "cycle-069",
+      "status": "UNKNOWN",
+      "seconds": 300.00757600000003,
+      "cover_found": false,
+      "verifier_outcome": "not applicable: solver supplied no integer solution"
+    },
+    {
+      "id": "cycle-046",
+      "status": "UNKNOWN",
+      "seconds": 300.007478,
+      "cover_found": false,
+      "verifier_outcome": "not applicable: solver supplied no integer solution"
+    }
+  ],
+  "independent_prepared_audit": "experiments/2026-10-03/four-seven-blossom-independent/prepared-cp-v1.1-audit.json",
+  "runner_sha256": "9fc9fee8749fa460779b94a790fe358a60fbe71b448f5fc14575bc986bedc4d3",
+  "total_solver_seconds": 1200.0306170000001
+}

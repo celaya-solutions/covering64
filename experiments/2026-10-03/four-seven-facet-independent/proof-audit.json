@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "proof_sha256": "7f79089fd414539551863b367b161ee1b8a5dffbaf1e5bd9013ee6ac33cc3e51",
+  "cases": [
+    {
+      "case": "cycle",
+      "survivor_vectors": 43,
+      "all_hull_facets": 18,
+      "hyperplanes": 10957,
+      "selected_facets": 6,
+      "new_facets": 4,
+      "distinct_violating_ids": 20,
+      "transported_selected_rows": 24
+    },
+    {
+      "case": "matching",
+      "survivor_vectors": 33,
+      "all_hull_facets": 23,
+      "hyperplanes": 3957,
+      "selected_facets": 12,
+      "new_facets": 9,
+      "distinct_violating_ids": 46,
+      "transported_selected_rows": 48
+    }
+  ],
+  "labeled_feature_maps_checked": 59940,
+  "damaged_controls": {
+    "cycle:bound": "rejected",
+    "cycle:normal": "rejected",
+    "cycle:witness": "rejected",
+    "cycle:coefficient": "rejected",
+    "cycle:transport": "rejected",
+    "cycle:gap": "rejected",
+    "matching:bound": "rejected",
+    "matching:normal": "rejected",
+    "matching:witness": "rejected",
+    "matching:coefficient": "rejected",
+    "matching:transport": "rejected",
+    "matching:gap": "rejected"
+  },
+  "replayed_certificate_audit_sha256": "aec2287a1ecc4e127625db7d6374585050f2daae036b8d42a4043d49fbed89e4",
+  "checker_sha256": "242c099eb0112aebaa62a7506b80b8b6ab0f0494ce27bdaf4ebc61b910f7096c",
+  "scope": "Necessary inequalities for integer regular four-sevenfold covers only. All four-group transports are label equivalences, not cover-invariance assumptions."
+}

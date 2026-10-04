@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "group": 0,
+      "outside": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "hub": 4,
+      "subsets_enumerated": 8192,
+      "odd_subsets": 4096,
+      "canonical": 2048,
+      "omitted": 24,
+      "rows": 2024
+    },
+    {
+      "group": 1,
+      "outside": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "hub": 8,
+      "subsets_enumerated": 8192,
+      "odd_subsets": 4096,
+      "canonical": 2048,
+      "omitted": 24,
+      "rows": 2024
+    },
+    {
+      "group": 2,
+      "outside": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "hub": 12,
+      "subsets_enumerated": 8192,
+      "odd_subsets": 4096,
+      "canonical": 2048,
+      "omitted": 24,
+      "rows": 2024
+    },
+    {
+      "group": 3,
+      "outside": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        16
+      ],
+      "hub": 16,
+      "subsets_enumerated": 8192,
+      "odd_subsets": 4096,
+      "canonical": 2048,
+      "omitted": 24,
+      "rows": 2024
+    }
+  ],
+  "models": [
+    {
+      "case": "cycle",
+      "passed": true,
+      "new_rows": 8096,
+      "new_variables": 0,
+      "all_prior_proto_fields_preserved": true,
+      "damaged_controls": {
+        "coefficient": "rejected",
+        "column": "rejected",
+        "bound": "rejected",
+        "subset_name": "rejected",
+        "enforced": "rejected",
+        "missing": "rejected",
+        "extra": "rejected",
+        "prior_domain": "rejected",
+        "prior_row": "rejected",
+        "hint": "rejected"
+      },
+      "base_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9",
+      "model_sha256": "9b15a4a40c929080f99ede48a65486bec642020488ae851e9639b22432f51cfb"
+    },
+    {
+      "case": "matching",
+      "passed": true,
+      "new_rows": 8096,
+      "new_variables": 0,
+      "all_prior_proto_fields_preserved": true,
+      "damaged_controls": {
+        "coefficient": "rejected",
+        "column": "rejected",
+        "bound": "rejected",
+        "subset_name": "rejected",
+        "enforced": "rejected",
+        "missing": "rejected",
+        "extra": "rejected",
+        "prior_domain": "rejected",
+        "prior_row": "rejected",
+        "hint": "rejected"
+      },
+      "base_sha256": "5f85a1cd9caa86742892e44c0632df0c99c0409bc3e69d0905e4924a08116b84",
+      "model_sha256": "96646ba1bc51e601ce7503e1b61cc8779a3bef600c25d4b4cb54f0ee639739e9"
+    }
+  ],
+  "helper_sha256": "91e9166a89e5fa610cf970f16c17e829f809388c3f18a6070c7198a396438818",
+  "checker_sha256": "a6655db17c6622c8bac85bf80729515b110293cb68b053daede8ada916bc4afa",
+  "expected_rows_sha256": "1307a6bd4f29aff6bfc4af7c71b708af6b5e4d53c03edcee15196f117e6532ff",
+  "scope": "Elementary necessary integer odd-set inequalities in normalized regular four-sevenfold covers. No global bound or polyhedral completeness claim."
+}

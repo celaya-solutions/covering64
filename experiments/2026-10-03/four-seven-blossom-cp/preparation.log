@@ -1,0 +1,46 @@
+{
+  "cases": [
+    {
+      "id": "matching-029",
+      "seed": 2026103301,
+      "rows": 12421,
+      "model_sha256": "03b7961852a29091e9148b05fd6400ee2e59077d2b120ca86077904fad9f9713"
+    },
+    {
+      "id": "matching-113",
+      "seed": 2026103302,
+      "rows": 12421,
+      "model_sha256": "770c703c02c513011f276d822d4482918ebd9661e2c98ae8a0eca9edddda8cf8"
+    },
+    {
+      "id": "cycle-069",
+      "seed": 2026103303,
+      "rows": 12397,
+      "model_sha256": "e26ed917f1ff21eeafb25a6f5a791fd65516315d753e67e3d3510e8edcd0589a"
+    },
+    {
+      "id": "cycle-046",
+      "seed": 2026103304,
+      "rows": 12397,
+      "model_sha256": "a66f86747422d655cb80b800347d13987cd4a9d68fefc560c3a86971875fd9ec"
+    }
+  ],
+  "sources": {
+    "run.py": "9fc9fee8749fa460779b94a790fe358a60fbe71b448f5fc14575bc986bedc4d3",
+    "core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "four_seven_search.py": "fa60125925962d812d953f699de6d6c856da7237c4c0c86458add39c2701fa87",
+    "four_seven_double_cuts.py": "53bf585e992373b0c940fe61d9a111407f25f0c57c0f452572db886afd06bdaa",
+    "four_seven_feature_cuts.py": "5614fb5c4452f3e5273d760c7455a720c8fcccd402acffbb9286a7dfd033d63e",
+    "four_seven_facet_cuts.py": "9a0230ab2e21d56372f303016290753b55ef80b7f6af2b3113ff7b9f77a6be54",
+    "four_seven_blossom_cuts.py": "91e9166a89e5fa610cf970f16c17e829f809388c3f18a6070c7198a396438818",
+    "safe-linear-cuts.json": "7e67ffde630c9ba27b40f6c3345ff42b2de45288dd891bd3a95dd5876a83785a",
+    "safe-feature-facets.json": "7f79089fd414539551863b367b161ee1b8a5dffbaf1e5bd9013ee6ac33cc3e51",
+    "input-results.json.gz": "f96c156276584f72e6134aa2cd6a68cc81d1c0f1164f3cc205f240720cae4207"
+  },
+  "seconds_per_case": 300,
+  "workers_per_case": 2,
+  "maximum_simultaneous_cases": 2,
+  "source_revision": "07fa72f6992ae3c12c3159862a15490a1d572fd7",
+  "launched": false
+}

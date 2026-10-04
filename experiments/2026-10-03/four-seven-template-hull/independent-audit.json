@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "valid": true,
+  "manifest_sha256": "21c243c87f44aebe780d8a48e330684d5fcaefbc2a587fa236516d64d8cfc38a",
+  "cases": [
+    {
+      "case": "cycle",
+      "passed": true,
+      "templates_per_group": 25020,
+      "all_catalog_members_checked": true,
+      "base_rows_preserved": 4270,
+      "transported_rows_checked": 280,
+      "damaged_controls": 4,
+      "catalog_sha256": "465c6c2186d5c8700ca476d6fa0fd60e0633cbc4d526cb40d91602be5b494d2c",
+      "matrix_sha256": "27061fc3af3e1933b05b8c71c5fabef5229129d0ab57c73cf1cb9c9b282cf88d"
+    },
+    {
+      "case": "matching",
+      "passed": true,
+      "templates_per_group": 14202,
+      "all_catalog_members_checked": true,
+      "base_rows_preserved": 4270,
+      "transported_rows_checked": 280,
+      "damaged_controls": 4,
+      "catalog_sha256": "43aec09e1371277d25de149f159effc335a0357c30d1db618cae8cad1c634f49",
+      "matrix_sha256": "7bfcfd3b82f52016c9c594778d19443b2ed803c1f6e121461230bda28cbfb0ee"
+    }
+  ],
+  "checker_sha256": "747c71af8b73b2e534b48ff2657610bb7e09709719ee80250b3b96422dc680ff",
+  "scope": "Independent raw matrix and complete catalog check; no solve. Original exclusions use their separately replayed exact certificates."
+}
