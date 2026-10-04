@@ -1,0 +1,150 @@
+{
+  "admissible64_finals": [
+    {
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          55,
+          0,
+          1,
+          1
+        ],
+        "holes": 13
+      },
+      "path": "experiments/2026-10-04/native-variable-cardinality/seed-2026104701/search-final-admissible64.txt",
+      "seed": 2026104701,
+      "sha256": "07a47325098b1e562f9c46b4eac426a05c4ca19b8f3f2e2c7e69c0afcf296468"
+    },
+    {
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12
+      },
+      "path": "experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt",
+      "seed": 2026104702,
+      "sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00"
+    }
+  ],
+  "best_holes": 12,
+  "checker_sha256": "e799d052735c2900ee635746bcbfca8d173e69f7d4cdc1656ba11632a2dc46f4",
+  "families": [
+    {
+      "holes": 12,
+      "named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "path": "experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt",
+      "screen": {
+        "all_relabel_cap55_certified_by_necessary_condition": true,
+        "distinct_explicit_core_images": 242,
+        "explicit_core_violations": [],
+        "explicit_image_scope": "Both named core images and every single point transposition of each",
+        "explicit_map_attempts": 242,
+        "maximum_explicit_overlap": 4,
+        "necessary_enumeration_nodes": 1,
+        "necessary_partition_count": 0,
+        "necessary_partitions": [],
+        "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+      },
+      "seeds": [
+        2026104702
+      ],
+      "sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+      "verifiers": [
+        {
+          "canonical_sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+          "path": "experiments/2026-10-04/native-variable-cardinality-relabel-screen/best-00-package.json",
+          "sha256": "457aa8d2f741bb107588bbe1cca88725a0007eb80751ed89056d0b1d43f77967"
+        },
+        {
+          "canonical_sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+          "path": "experiments/2026-10-04/native-variable-cardinality-relabel-screen/best-00-standalone.json",
+          "sha256": "bf8e47e828b7d8ed74d5e27d1e79bf653cf611925984ba6478ea5a57cc636026"
+        }
+      ]
+    }
+  ],
+  "gate_sha256": "300677f074664d001cba3c63cb156e13e2648020cfa28908560b5f761ad3c6ff",
+  "helper_controls": {
+    "core_heavy_triples": [
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        2,
+        14,
+        15
+      ],
+      [
+        4,
+        8,
+        10
+      ],
+      [
+        5,
+        13,
+        16
+      ],
+      [
+        9,
+        11,
+        12
+      ]
+    ],
+    "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+    "distinct_explicit_core_images": 242,
+    "passed": true,
+    "positive_core_control": true,
+    "pruned_vs_exhaustive_controls": [
+      {
+        "matches": 0,
+        "shift": 0
+      },
+      {
+        "matches": 0,
+        "shift": 1
+      },
+      {
+        "matches": 1,
+        "shift": 2
+      },
+      {
+        "matches": 0,
+        "shift": 3
+      },
+      {
+        "matches": 0,
+        "shift": 4
+      },
+      {
+        "matches": 0,
+        "shift": 5
+      },
+      {
+        "matches": 0,
+        "shift": 6
+      }
+    ],
+    "zero_count_negative_control": true
+  },
+  "helper_path": "experiments/2026-10-04/six-hole-strong-core-release-independent/relabels.py",
+  "helper_sha256": "9cdcd511eb94954bb45c1cf209c5d51517b46c11e46b44a22ce7221d9309f74a",
+  "manifest_sha256": "f79075467ba41b46e53491c032044a23fe9766c680309055c1ff5d0697ec354b",
+  "optimizer_calls": 0,
+  "passed": true,
+  "result_sha256": "43e1f4edff6abe1f28db92c07594083d4c765850ed3c944a7ac42962b7c467ab",
+  "scope": "Applies only to saved states with 64 distinct blocks. Empty necessary-partition set certifies old-core overlap<=55 over every point relabeling. A nonempty partition set is inconclusive unless an explicit checked image violates the cap. The explicit image maximum alone is not a global maximum. No 64-core statement is applied to 65-block starts or other variable-cardinality states; no optimizer was called.",
+  "screened_unique_families": 1,
+  "selection": "Minimum hole count among final admissible64 states; retain every distinct tie among admissible64, current and raw64 final families that pass the named caps."
+}

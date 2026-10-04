@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.24.0
+Version:     v1.25.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      46dec7122d70e4c19bb9396568d9555cd30b6e9ef608e3a505181fa0edd40c51
+SHA256:      3e9d99a4c5777b3b71b74eb0436d4661655630604c76d9a86fee91d633662fdd
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -983,4 +983,11 @@ The completed checkpoint passed frozen dependency sync, all 369 tests (258.05 se
 
 A new primary-source review found the authors' implementation of NuSC (Luo, Xing, Cai and Hu; DOI 10.1109/TCYB.2022.3199147). The selected mechanism is a variable-cardinality two-drop/add-repair walk with dynamic weights, a redundancy score and configuration checking. At incumbent size 65 it may walk through 64, 62 and 63 selected blocks; it does not inherently make 65/66 excursions. The existing native search already has hole-driven weighted 78-carrier exchanges, so that part alone is not new. The author source has no forgetting/decay rule. Its source revision, exact algorithm references, GPLv3 license, retrieval limitations and other inspected primary leads are saved in `post-d2-literature/`. No upstream GPL code is copied into the tracked implementation.
 
-An independent implementation is being prepared for two 120-second seeds from the verified Belic 65-block cover. It records actual family sizes, complete incumbents, raw exact-64 partials and separate four-core-cap-admissible exact-64 partials. Core caps classify those exact-64 records only; they are not extrapolated to other sizes or imposed on intermediate trajectories. This preparation is not an optimizer result. No verified 64-block cover has been found.
+The independent implementation completed its two declared 120-second seeds from the verified Belic 65-block cover. Both exhausted their budgets without a complete family of size at most 64. They took approximately 17.0 million and 15.9 million iterations; the live family sizes ranged from 62 to 65. The best complete family stayed at 65 blocks. Both raw exact-64 records stayed at the initial three-hole family retaining all 60 blocks of the forbidden old core. The separate four-named-core-cap-admissible records reached 13 and 12 holes. Core caps only classify exact-64 records; they are not extrapolated to other sizes or imposed on intermediate trajectories. The independent postcheck inspected all 19 saved/final states (11 distinct families), both verifiers, the first 32 transitions per seed, raw logs, frozen hashes and the sequential/first-cover stop policy. Sources and results are in `native-variable-cardinality/` and its independent sibling.
+
+
+The best new admissible family, H12 (seed 2026104702, SHA256 `330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00`), has no necessary old-core partition. A separate complete necessary-condition screen therefore proves its overlap is at most 55 for every relabeling of that old core. It still fails both covering tests with 12 missing triples; passing this screen proves no covering bound. See `native-variable-cardinality-relabel-screen/`.
+
+Independent structural profiles distinguish H12 from the earlier all-relabel-core-free H9. H12 has point counts {19:5,20:6,21:5}, pair counts {5:83,6:34,7:3}, and satisfies every weaker single-triple and quad inequality. Its stronger deficit is 34 under both maximum-per-pair and full-row summation. H9 has point counts {19:5,20:7,21:3,22:1}, four pairs occurring only four times, and stronger deficit sums 23 and 639 respectively. Both remain noncovers. H12 improves the hole count of the available weaker-pair-qualified hints from 48/49 to 12; H9 remains the better raw-hole starting family outside every old-core relabeling. Exact counts and receipts are in `native-partial-start-profiles/`.
+
+The next preparations use those two different partial families as live native starting states while retaining Belic65 as a separate verified complete incumbent. A parallel soft-model preparation uses H12 as a complete feasible hint of objective 19,086 for the unchanged soft-pair model. These are search preparations, not completed optimizer results. No verified 64-block cover has been found.

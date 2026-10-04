@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": {
+    "H12": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+    "H9": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46"
+  },
+  "core_manifest_sha256": "f79075467ba41b46e53491c032044a23fe9766c680309055c1ff5d0697ec354b",
+  "date": "2026-10-04",
+  "diagnostic_sha256": "90b8ddfbe4a5877ab1d45aec2052a1475c1028e65251e4fdd261e32e9c8cfd8c",
+  "document": "Partial-Start Structural Diagnostics Manifest",
+  "files": {
+    "experiments/2026-10-04/native-partial-start-profiles/README.md": "13298f84173a4d2eb8dc83fb652393d21c3c6a1a538e7fbdbfdf08c1bf18dce0",
+    "experiments/2026-10-04/native-partial-start-profiles/check.py": "c276a2e8503e4e9b95ff708453afec1adb3d284ffe8bdd5783c236dee38a764d",
+    "experiments/2026-10-04/native-partial-start-profiles/diagnostic.json": "90b8ddfbe4a5877ab1d45aec2052a1475c1028e65251e4fdd261e32e9c8cfd8c",
+    "experiments/2026-10-04/native-partial-start-profiles/h12-package.json": "457aa8d2f741bb107588bbe1cca88725a0007eb80751ed89056d0b1d43f77967",
+    "experiments/2026-10-04/native-partial-start-profiles/h12-standalone.json": "bf8e47e828b7d8ed74d5e27d1e79bf653cf611925984ba6478ea5a57cc636026",
+    "experiments/2026-10-04/native-partial-start-profiles/h9-package.json": "9765cfaf0ebd09a657f844919c4755c71d317727290eea2af61a207ebd191a29",
+    "experiments/2026-10-04/native-partial-start-profiles/h9-standalone.json": "a3856f527aa8a63acbbe97820b2281e9a0ce743d63e74671eee54a0bfaa5c34d"
+  },
+  "optimizer_calls": 0,
+  "passed": true,
+  "scope": "Read-only structural diagnostics of two saved noncovers, for comparing proposed partial starts. No optimizer was called and no new model constraints are proposed.",
+  "version": "v1.0.0"
+}
