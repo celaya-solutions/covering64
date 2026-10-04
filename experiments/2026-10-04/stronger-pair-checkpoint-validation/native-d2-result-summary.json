@@ -1,0 +1,69 @@
+{
+  "binary_sha256": "9503877f087fe6306744923a91bead987da4d451cc029933722ed8f98a2bcf60",
+  "cases": [
+    {
+      "best_eligible_holes": 33,
+      "best_primary_D2max": 46,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-pair-two-penalty-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-final-qualified.txt",
+        "2026104501",
+        "60",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-pair-two-penalty/seed-2026104501/search"
+      ],
+      "ended_utc": "2026-10-04T13:22:57.216954+00:00",
+      "exit_code": 1,
+      "qualified_holes": null,
+      "seed": 2026104501,
+      "started_utc": "2026-10-04T13:21:54.834136+00:00",
+      "validation_error": null,
+      "wall_seconds": 60.00489379093051,
+      "watchdog": {
+        "deadline_seconds": 75,
+        "fired": false,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    },
+    {
+      "best_eligible_holes": 47,
+      "best_primary_D2max": 56,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-pair-two-penalty-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-final-qualified.txt",
+        "2026104502",
+        "60",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-pair-two-penalty/seed-2026104502/search"
+      ],
+      "ended_utc": "2026-10-04T13:23:58.382936+00:00",
+      "exit_code": 1,
+      "qualified_holes": null,
+      "seed": 2026104502,
+      "started_utc": "2026-10-04T13:22:57.220591+00:00",
+      "validation_error": null,
+      "wall_seconds": 60.00593629095238,
+      "watchdog": {
+        "deadline_seconds": 75,
+        "fired": false,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    }
+  ],
+  "full_result": {
+    "archive_path": "experiments/scratch/stronger-pair-checkpoint-20261004/native-d2-full-result.json",
+    "bytes": 1925291,
+    "local_path": "experiments/2026-10-04/native-pair-two-penalty/result.json",
+    "note": "Bulk per-state diagnostics stay local; all saved witness families and independent postcheck remain in Git.",
+    "sha256": "e433f4264066158a228ff5ec3f4b158e3114e689f0c6a78125ea3f72ab668b07"
+  },
+  "gate_sha256": "8990dff2efb2ba9ec51daa3855dc6aaaf445d0e2f38dda296f36c1c79be33301",
+  "global_lower_bound_claim": false,
+  "manifest_sha256": "fc6db0facd6e144fee319e33da869c9e9e013db2d4b92f12787700be5438b11e",
+  "optimizer_calls": 2,
+  "skipped_runs": [],
+  "stop_reason": "budget_exhausted",
+  "unused_budget_reallocated": false
+}

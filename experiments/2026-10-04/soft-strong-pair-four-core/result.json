@@ -1,0 +1,89 @@
+{
+  "callbacks": 1,
+  "elapsed_seconds": 120.0059277920518,
+  "first_feasible_seconds": 0.9272413339931518,
+  "gate_sha256": "6d613f6ea9fe047cd2c49e595637bca88dfa871233f44117083ab1fc09b1e203",
+  "manifest_sha256": "27f6839e030bd2ba7e940847282cc619e786151316d1b657ac471cef8e77b231",
+  "objective_bound": 0.0,
+  "optimizer_calls": 1,
+  "raw_directory": "experiments/scratch/soft-strong-pair-four-core-run-20261004",
+  "raw_files": {
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/callback-0001-receipt.json": "980f8352b02d3c82f7356997e94847083509d228bd082f8b1685f31ce6a3d096",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/callback-0001-vector.json": "c23d7e7b4a1f344024bb48cbe95e17a4082f426931ce79f970d9b8bdd7781416",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/callback-0001.txt": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/callbacks.jsonl": "042f0d6ec3f2643790956253d493b230fb736b3ab76c6fa0bcf81f36aa18aece",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/final-receipt.json": "1ee7a4ac60f7911b2101af4989e8d98f2cdf98b9a494e163a2680d3cc10dfa21",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/final-vector.json": "c23d7e7b4a1f344024bb48cbe95e17a4082f426931ce79f970d9b8bdd7781416",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/final.txt": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/response-stats.txt": "8c08d8b9783b996118aaba3ee40470ebac85330a066f42cc4a65d3c2811accd4",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/response.pbtxt": "850b8962294ff2486608525d4d687162959ee9e1be5faba4def341d51d1a0007",
+    "experiments/scratch/soft-strong-pair-four-core-run-20261004/solver.log": "d4edf978c10c4b1eed95f84ad62a205c94c65f5e48bc975f7da5649387a98721"
+  },
+  "saved_states": [
+    {
+      "actual_metrics": {
+        "D2max": 74,
+        "D2sum": 170,
+        "D3": 0,
+        "D4": 0,
+        "canonical_objective": 41563,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          4
+        ],
+        "holes": 49,
+        "minimum_pair_count": 5
+      },
+      "best_objective_bound": 0.0,
+      "covering_witness": false,
+      "elapsed_seconds": 0.9272413339931518,
+      "label": "callback-0001",
+      "qualified_D2zero_hint": false,
+      "receipt_path": "experiments/scratch/soft-strong-pair-four-core-run-20261004/callback-0001-receipt.json",
+      "receipt_sha256": "980f8352b02d3c82f7356997e94847083509d228bd082f8b1685f31ce6a3d096",
+      "solver_deficit_sum": 74,
+      "solver_objective": 41563.0,
+      "vector_path": "experiments/scratch/soft-strong-pair-four-core-run-20261004/callback-0001-vector.json",
+      "vector_sha256": "c23d7e7b4a1f344024bb48cbe95e17a4082f426931ce79f970d9b8bdd7781416",
+      "witness_path": "experiments/scratch/soft-strong-pair-four-core-run-20261004/callback-0001.txt",
+      "witness_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+    },
+    {
+      "actual_metrics": {
+        "D2max": 74,
+        "D2sum": 170,
+        "D3": 0,
+        "D4": 0,
+        "canonical_objective": 41563,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          4
+        ],
+        "holes": 49,
+        "minimum_pair_count": 5
+      },
+      "best_objective_bound": 0.0,
+      "covering_witness": false,
+      "elapsed_seconds": 120.0059277920518,
+      "label": "final",
+      "qualified_D2zero_hint": false,
+      "receipt_path": "experiments/scratch/soft-strong-pair-four-core-run-20261004/final-receipt.json",
+      "receipt_sha256": "1ee7a4ac60f7911b2101af4989e8d98f2cdf98b9a494e163a2680d3cc10dfa21",
+      "solver_deficit_sum": 74,
+      "solver_objective": 41563.0,
+      "vector_path": "experiments/scratch/soft-strong-pair-four-core-run-20261004/final-vector.json",
+      "vector_sha256": "c23d7e7b4a1f344024bb48cbe95e17a4082f426931ce79f970d9b8bdd7781416",
+      "witness_path": "experiments/scratch/soft-strong-pair-four-core-run-20261004/final.txt",
+      "witness_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+    }
+  ],
+  "scope": "Constructive soft-pair search; UNKNOWN is inconclusive; no global proof.",
+  "solver_wall_seconds": 120.00364,
+  "source_sha256": "b56f8169f29937f1c1454ef447e0ff977b4c79c4418f1c96dd0a019ca48ca55b",
+  "status": "FEASIBLE",
+  "stopped_on_actual_D2zero": false
+}

@@ -1,0 +1,20 @@
+{
+  "checker_sha256": "e9827db7e6f4197f087babfb259650c4993dcf5b0048f7e750f7a4d2b1c1f619",
+  "complete_hint_values": 5728,
+  "damaged_controls_rejected": [
+    "short_vector",
+    "noninteger",
+    "block_domain",
+    "count_identity",
+    "hole_channel",
+    "deficit_domain",
+    "understated_deficit",
+    "cardinality"
+  ],
+  "hint_objective": 41563,
+  "manifest_sha256": "27f6839e030bd2ba7e940847282cc619e786151316d1b657ac471cef8e77b231",
+  "optimizer_calls": 0,
+  "passed": true,
+  "scope": "Independent vector checker control and runner semantic review; root owns the serialized model gate and sole launch. No Solve called.",
+  "valid_positive_auxiliary_slack_accepted": true
+}

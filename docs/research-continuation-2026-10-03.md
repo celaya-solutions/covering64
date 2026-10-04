@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.22.0
+Version:     v1.23.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      a4b31d7dc32336299c90a9d1bc903b851f5f7d34c4b295e0fd0077bb2849b21b
+SHA256:      72d170749a22d85ca7a0ac7b6741d63248e4795f9e348d9843000f7569eb40c9
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -67,8 +67,8 @@ are stored and independently recounted; neither is a covering witness.
 The completed model changes passed `uv sync --frozen`, 314 tests,
 and Ruff. Three existing SWIG deprecation warnings remain. Large raw models,
 full primal vectors and archived source/proof material remain in ignored scratch;
-small manifests and checked evidence are kept in Git. The isolated branch has
-not been merged or pushed.
+small manifests and checked evidence are kept in Git. The completed checkpoints through commit c07c2c9 were merged and pushed to main;
+new experiments continue in the isolated research worktree.
 
 ## Earlier checkpoint record
 
@@ -964,3 +964,16 @@ The six-hole guidance also falls into another old-core trap. Its unique necessar
 An isolated native pilot used soft energy 20*holes + 5*D3 + D4 + 160*forbidden-profile, where D3 and D4 sum the earlier single-triple and quadruple deficits. All slots and blocks remain available, with the three named core caps hard. Independent sanitizer controls check 901 direct recounts, 360 commits, 337 rollbacks and all five block-intersection sizes. Exactly two sixty-second runs, seeds 2026104401/2026104402, made 37,532,768 and 38,683,744 proposals. Neither improved the six-hole raw/soft-score best. Separate zero-D3/D4 records reached 48 and 49 holes, both with pair minimum five and point degrees from nineteen to twenty-one. Independent postcheck covers all 21 records/twelve distinct families and 24 fresh covering-verifier calls. Both finals have no necessary core-image partition, proving overlap at most 55 under every relabeling of the old core. Their 242 explicitly tested images have maximum overlap five; that finite screen is not the basis of the all-relabel statement. See `native-pair-penalty/` and its independent folder.
 
 These two partials fail the stronger two-triple rows. Their maximum-per-pair deficit sums are 75 and 74 (full row-deficit sums 175 and 170), versus 14 (full sum 62) for the six-hole seed. They are useful evidence of escaping the old core while meeting weaker pair rules, not feasible hints for the stronger model. Next preparation targets a family with zero stronger deficits and all four checked core caps before another compact solver call. No verified 64-block cover has been found.
+
+
+## Direct stronger-deficit pilots and a soft-model result (October 4)
+
+The new native pilot uses the exact sum of maximum two-triple deficits per pair, with a separate raw-hole record and four hard core caps. Both declared 60-second seeds exhausted their budgets. Seed 2026104501 reached deficit 46 with 33 holes (full row-deficit sum 267); seed 2026104502 reached deficit 56 with 59 holes (full row sum 510). Neither found zero deficit. The second run separately saved a raw 47-hole family satisfying the weaker pair rules, but its stronger deficit is 75. The compact deficit can fall while the full row-deficit sum rises; neither score is a covering witness. Independent recounts and both verifiers checked all 115 unique saved families, requiring 230 verifier calls. Sources, frozen hashes and results are in `native-pair-two-penalty/` and `native-d2-independent/`.
+
+The soft CP model retains exact pair/triple counts, exact hole flags, pair floors, the single-triple inequalities and all four core caps. Its 120 new nonnegative deficit variables soften exactly 10,920 stronger rows; the objective is 561 times the deficit sum plus the holes. The complete 49-hole guidance has deficit 74 and objective 41,563 and passes every soft-model row. The independent model gate ignores variable names only, compares all other original proto fields exactly, checks each changed row and new variable domain, and binds the complete hint, source, proof and parameter hashes. Decreased required-deficit controls fail and valid auxiliary slack is accepted.
+
+The sole 120-second, four-worker CP call (seed 2026104302) returned FEASIBLE without improvement. Its one callback and final vector both retain the same 49-hole family, deficit 74, full row sum 170 and objective 41,563; the objective bound is zero. Independent replay checked both complete 5,728-value assignments and all 14,405 rows, plus the two covering verifiers. There is no zero-deficit hint, 64-block cover, or infeasibility result. See `soft-strong-pair-four-core/`, `soft-pair-two-independent/` and `soft-pair-two-postcheck/`.
+
+A separate hard extended formulation is being prepared using the proved top-two identity. It will impose the same stronger-pair condition with 120 threshold variables and 1,680 positive-part auxiliaries. This is an equivalent representation; no performance gain has been established. No verified 64-block cover has been found.
+
+The completed checkpoint passed frozen dependency sync, all 369 tests (258.05 seconds), full Ruff and diff checks. The three existing SWIG deprecation warnings remain. The validation record is in `stronger-pair-checkpoint-validation/`.

@@ -1,0 +1,90 @@
+{
+  "binary_sha256": "9503877f087fe6306744923a91bead987da4d451cc029933722ed8f98a2bcf60",
+  "checker_sha256": "ee97f135cf356dd70237d4c9a829f0c79398ce45598702ffa617e35e5e10e505",
+  "controls": {
+    "accepted_states_below_pair_floor_five": 122,
+    "commits": 522,
+    "core_rejections": 4,
+    "direct_recounts": 1306,
+    "duplicates": 48,
+    "extremal_profiles": 31521,
+    "flow_controls": 4488,
+    "intersection_cases": [
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "optimizer_calls": 0,
+    "passed": true,
+    "positive_zero_D2_family_control_available": false,
+    "rollbacks": 530,
+    "shared_pair_contribution_changes": 96,
+    "tie_profiles": 98304
+  },
+  "hints": [
+    {
+      "D2max": 75,
+      "D2sum": 175,
+      "D3": 0,
+      "D4": 0,
+      "core_overlaps": [
+        0,
+        1,
+        1,
+        12
+      ],
+      "energy": 1548,
+      "forbidden": false,
+      "holes": 48,
+      "pair_min": 5
+    },
+    {
+      "D2max": 74,
+      "D2sum": 170,
+      "D3": 0,
+      "D4": 0,
+      "core_overlaps": [
+        0,
+        2,
+        2,
+        4
+      ],
+      "energy": 1529,
+      "forbidden": false,
+      "holes": 49,
+      "pair_min": 5
+    }
+  ],
+  "independent_control_sha256": "6935ce6e40f5b026ddf6451e135b2698b22ea02dc6847d40081044bcc97f10ad",
+  "independent_control_source_sha256": "5746313581e4113b40d0291129b5cce50b7eced43a18811662dcc09eeb795f28",
+  "independent_expected_tables_sha256": "a1c77a00982ae8f35b9ee8a8484ad8e6b80fffbd35e29f002bb3a673d58de194",
+  "limitation": "No actual zero-D2 64-family is available as a positive end-to-end stop control. Exhaustive scalar flow controls and source review check that branch, while forged zero metrics and false success status are rejected. These are not witnesses.",
+  "manifest_sha256": "fc6db0facd6e144fee319e33da869c9e9e013db2d4b92f12787700be5438b11e",
+  "optimizer_calls": 0,
+  "passed": true,
+  "raw_files": {
+    "experiments/scratch/native-d2-independent-20261004/control": "3bbba539c5f3fd445c9bad5ff9710b75c0e63c412c959ebd1602dc01172c6775",
+    "experiments/scratch/native-d2-independent-20261004/control-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/native-d2-independent-20261004/control-stdout.json": "813caae55ad0c9e5263289206581644e66323ab1d7b9e2817519e8acd842ad6a",
+    "experiments/scratch/native-d2-independent-20261004/state-flow.jsonl": "75961c48f2ed13b7f6be7b5f3d63b29d1e50bb1e4d08e86cc0f7a4a9161248af",
+    "experiments/scratch/native-d2-independent-20261004/state-normal-final-current.txt": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+    "experiments/scratch/native-d2-independent-20261004/state-normal-final-primary.txt": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+    "experiments/scratch/native-d2-independent-20261004/state-normal-final-raw.txt": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+    "experiments/scratch/native-d2-independent-20261004/state-record-1-raw.txt": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+    "experiments/scratch/native-d2-independent-20261004/state-record-2-primary.txt": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+    "experiments/scratch/native-d2-independent-20261004/state-record-3-primary.txt": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+    "experiments/scratch/native-d2-independent-20261004/state-signal-final-current.txt": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+    "experiments/scratch/native-d2-independent-20261004/state-signal-final-primary.txt": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+    "experiments/scratch/native-d2-independent-20261004/state-signal-final-raw.txt": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3"
+  },
+  "runner_sha256": "7c134a474e1805d491f2bae8fd1232a1e4160ce7e4cc6ced9345a9cbbba3804f",
+  "sanitizers": [
+    "address",
+    "undefined"
+  ],
+  "scope": "GO is limited to seed2026104501/H48 then, only if no qualified hint is found, seed2026104502/H49; each gets the declared60-second native budget. Timing is logged separately from the75-second watchdog and5-second termination grace. No extra runs.",
+  "source_review": "D2 scans14 distinct triple positions, with ties retained. The affected pair union includes shared pairs with unchanged pair counts. Moves and rollbacks update all exact counts; four hard caps55 are the only new rejection. Energy is20*D2max+H and acceptance divides its change by20. Primary records and restarts use lex(D2max,H). The first zero score stops the native loop and entire pilot, and the runner saves skipped seeds, actual calls and stop reason without reallocating budget. Every saved state is recounted and double-verified by the runner; a positive-hole zero score is only a hint.",
+  "source_sha256": "3f59f8b04e2ad78a8ff37feceee0d42acd0cdd930021c44e5e0b52836c3e96e9"
+}
