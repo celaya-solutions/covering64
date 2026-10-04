@@ -1,0 +1,182 @@
+I001 [*] Import block is un-sorted or un-formatted
+  --> experiments/2026-10-03/independent-geometry/check_inversive.py:18:1
+   |
+16 |   """
+17 |
+18 | / from collections import Counter
+19 | | from hashlib import sha256
+20 | | from itertools import combinations
+21 | | import json
+22 | | from pathlib import Path
+   | |________________________^
+help: Organize imports
+   |
+17 |
+18 + import json
+19 | from collections import Counter
+20 | from hashlib import sha256
+21 | from itertools import combinations
+   - import json
+22 | from pathlib import Path
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> experiments/2026-10-03/independent-geometry/inversive-pool/domain_source.py:18:1
+   |
+16 |   """
+17 |
+18 | / from collections import Counter
+19 | | from hashlib import sha256
+20 | | from itertools import combinations
+21 | | import json
+22 | | from pathlib import Path
+   | |________________________^
+help: Organize imports
+   |
+17 |
+18 + import json
+19 | from collections import Counter
+20 | from hashlib import sha256
+21 | from itertools import combinations
+   - import json
+22 | from pathlib import Path
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> experiments/2026-10-03/independent-geometry/inversive-pool/source.py:13:1
+   |
+11 |   """Search only the 288-block inversive pool; solver status is not a theorem."""
+12 |
+13 | / from __future__ import annotations
+14 | |
+15 | | import argparse
+16 | | import hashlib
+17 | | import importlib.util
+18 | | import json
+19 | | import math
+20 | | import platform
+21 | | import subprocess
+22 | | import sys
+23 | | import time
+24 | | from pathlib import Path
+25 | |
+26 | | import ortools
+27 | | from ortools.sat.python import cp_model
+28 | |
+29 | | from covering64.core import Universe, verify_cover, write_blocks
+   | |________________________________________________________________^
+help: Organize imports
+   |
+30 |
+   -
+31 | DOMAIN_SOURCE = (Path(__file__).resolve().parents[1] / "experiments" / "2026-10-03"
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> experiments/2026-10-03/independent-geometry/paired-balanced/source.py:13:1
+   |
+11 |   """Restricted construction search; negative solver status is not a theorem."""
+12 |
+13 | / from __future__ import annotations
+14 | |
+15 | | import argparse
+16 | | from collections import Counter
+17 | | import hashlib
+18 | | from itertools import combinations
+19 | | import json
+20 | | import math
+21 | | import platform
+22 | | import subprocess
+23 | | import sys
+24 | | import time
+25 | | from pathlib import Path
+26 | |
+27 | | import ortools
+28 | | from ortools.sat.python import cp_model
+29 | |
+30 | | from covering64.core import Universe, verify_cover, write_blocks
+   | |________________________________________________________________^
+help: Organize imports
+   |
+15 | import argparse
+   - from collections import Counter
+16 | import hashlib
+   - from itertools import combinations
+17 | import json
+--------------------------------------------------------------------------------
+22 | import time
+23 + from collections import Counter
+24 + from itertools import combinations
+25 | from pathlib import Path
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> scripts/independent_inversive_search.py:13:1
+   |
+11 |   """Search only the 288-block inversive pool; solver status is not a theorem."""
+12 |
+13 | / from __future__ import annotations
+14 | |
+15 | | import argparse
+16 | | import hashlib
+17 | | import importlib.util
+18 | | import json
+19 | | import math
+20 | | import platform
+21 | | import subprocess
+22 | | import sys
+23 | | import time
+24 | | from pathlib import Path
+25 | |
+26 | | import ortools
+27 | | from ortools.sat.python import cp_model
+28 | |
+29 | | from covering64.core import Universe, verify_cover, write_blocks
+   | |________________________________________________________________^
+help: Organize imports
+   |
+30 |
+   -
+31 | DOMAIN_SOURCE = (Path(__file__).resolve().parents[1] / "experiments" / "2026-10-03"
+   |
+
+I001 [*] Import block is un-sorted or un-formatted
+  --> scripts/independent_pair_partition.py:13:1
+   |
+11 |   """Restricted construction search; negative solver status is not a theorem."""
+12 |
+13 | / from __future__ import annotations
+14 | |
+15 | | import argparse
+16 | | from collections import Counter
+17 | | import hashlib
+18 | | from itertools import combinations
+19 | | import json
+20 | | import math
+21 | | import platform
+22 | | import subprocess
+23 | | import sys
+24 | | import time
+25 | | from pathlib import Path
+26 | |
+27 | | import ortools
+28 | | from ortools.sat.python import cp_model
+29 | |
+30 | | from covering64.core import Universe, verify_cover, write_blocks
+   | |________________________________________________________________^
+help: Organize imports
+   |
+15 | import argparse
+   - from collections import Counter
+16 | import hashlib
+   - from itertools import combinations
+17 | import json
+--------------------------------------------------------------------------------
+22 | import time
+23 + from collections import Counter
+24 + from itertools import combinations
+25 | from pathlib import Path
+   |
+
+Found 6 errors.
+[*] 6 fixable with the `--fix` option.

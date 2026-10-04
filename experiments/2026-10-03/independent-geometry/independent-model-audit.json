@@ -1,0 +1,118 @@
+{
+  "bipartite_negative_control": {
+    "cut_histograms": {
+      "7": {
+        "13": 32,
+        "15": 176,
+        "17": 1072,
+        "19": 2864,
+        "21": 3664,
+        "23": 2352,
+        "25": 752,
+        "27": 352,
+        "29": 160,
+        "35": 16
+      },
+      "8": {
+        "12": 4,
+        "14": 32,
+        "16": 211,
+        "18": 904,
+        "20": 1940,
+        "22": 1816,
+        "24": 943,
+        "26": 424,
+        "28": 96,
+        "30": 24,
+        "32": 40,
+        "40": 1
+      }
+    },
+    "maximum_cut_7_9": 35,
+    "maximum_cut_8_8": 40,
+    "necessary_bounds_pass": false,
+    "scope": "necessary full-cover condition, not sufficiency"
+  },
+  "checker_sha256": "e18a4552bc805e162ccfae341fd85d2ae79749ff81e9f1063f9c1c0016539d12",
+  "clebsch_balanced_cuts": {
+    "cut_histograms": {
+      "7": {
+        "17": 1360,
+        "19": 3360,
+        "21": 3040,
+        "23": 1920,
+        "25": 1200,
+        "27": 480,
+        "29": 80
+      },
+      "8": {
+        "16": 70,
+        "18": 1440,
+        "20": 1560,
+        "22": 1920,
+        "24": 600,
+        "26": 640,
+        "28": 200,
+        "32": 5
+      }
+    },
+    "maximum_cut_7_9": 29,
+    "maximum_cut_8_8": 32,
+    "necessary_bounds_pass": true,
+    "scope": "necessary full-cover condition, not sufficiency"
+  },
+  "focused_checks": {
+    "result": "passed",
+    "ruff": "passed",
+    "solver_invoked": false,
+    "tests": 48
+  },
+  "models": {
+    "clebsch-free": {
+      "constraints": 697,
+      "edges": 40,
+      "fixed_excess_profile": false,
+      "graph_reference": "four-cube plus antipodal diagonals",
+      "induced_paths": 160,
+      "model_sha256": "90db2e061b9f8f5c1cf189fe06d401e70dd2c4688f09fdee3627892eec63e5ec",
+      "nonzero_coefficients": 113568,
+      "reported_solver_status": "UNKNOWN",
+      "scope": "restricted Clebsch model matrix audit, not an infeasibility proof",
+      "solver_invoked": false,
+      "valid": true,
+      "variables": 4368
+    },
+    "clebsch-profile-0": {
+      "constraints": 697,
+      "edges": 40,
+      "fixed_excess_profile": true,
+      "graph_reference": "four-cube plus antipodal diagonals",
+      "induced_paths": 160,
+      "model_sha256": "0a9aef5c3acfebd780d6a372150d439b966b56a97f8faa9a290d7dc0605ea78c",
+      "nonzero_coefficients": 113568,
+      "reported_solver_status": "UNKNOWN",
+      "scope": "restricted Clebsch model matrix audit, not an infeasibility proof",
+      "solver_invoked": false,
+      "valid": true,
+      "variables": 4368
+    }
+  },
+  "profile_orbit_audit": {
+    "actions": 80,
+    "body_sha256": "9c1ef64b3ff11736d87bc5636fb8cd5aabad58996b8d20ec9cf54b7e83fe8384",
+    "orbit_size_histogram": {
+      "16": 4,
+      "80": 12
+    },
+    "orbits": 16,
+    "profiles": 1024,
+    "scope": "fixed-tournament recipe under the 80 supplied point actions only",
+    "seed_maps_checked": true,
+    "solver_invoked": false,
+    "valid": true
+  },
+  "recorded_utc": "2026-10-03T22:29:24.510395+00:00",
+  "scope": "Independent encoding and arithmetic audit; no solver run or infeasibility proof",
+  "seed_profiles_sha256": "4e5ccb1563991e106f2a40e9c8160059eb48d44930bc53d7d4607d44fca208d5",
+  "tests_sha256": "ea9104424275a91e19f43ab55cfd7cdb7ebe453af25d4487a035962bb8b0f40e"
+}

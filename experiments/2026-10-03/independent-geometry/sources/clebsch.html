@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <TITLE>Clebsch graph</TITLE>
+</HEAD>
+<BODY>
+<a href="index.html">Up</a>
+
+<H1>Clebsch graph</H1>
+<img src="pics/Clebsch.jpeg">
+<p>
+Alfred Clebsch (1833-1872) was a pioneer in algebraic geometry.
+<p>
+The Clebsch graph named after him is the unique strongly regular graph
+&Gamma; with parameters <i>v</i> = 16, <i>k</i> = 10, &lambda; = 6, &mu; = 6.
+It is the halved 5-cube, and hence it and its complement are
+<a href="cubelike.html">cubelike</a>.
+It is the local graph of the <a href="Schlaefli.html">Schläfli</a> graph.
+<p>
+The complement of the Clebsch graph is the unique strongly regular graph
+&Delta; with parameters <i>v</i> = 16, <i>k</i> = 5, &lambda; = 0, &mu; = 2.
+It is the folded 5-cube. The subgraph on the non-neighbours of a point
+is the <a href="Petersen.html">Petersen graph</a>.
+<p>
+The group of automorphisms G is 2<sup>4</sup>.Sym(5) of order 1920,
+with point stabilizer Sym(5).
+It is transitive on vertices, edges, non-edges and triangles.
+<p>
+The Clebsch graph has spectrum 10<sup>1</sup> 2<sup>5</sup> (−2)<sup>10</sup>.
+Its complement has spectrum 5<sup>1</sup> 1<sup>10</sup> (−3)<sup>5</sup>.
+The Clebsch graph has Seidel spectrum (−5)<sup>6</sup> 3<sup>10</sup>.
+Its complement has Seidel spectrum 5<sup>6</sup> (−3)<sup>10</sup>.
+<p>
+<H2>Name</H2>
+This graph was given this name by Seidel (1968) in his paper classifying
+the strongly regular graphs with smallest eigenvalue −2
+(for which the Seidel matrix S = J−I−2A has eigenvalue 3):
+<blockquote><font size="-2"><i>
+In terms of polytopes, the 16 vertices and 80 adjacencies of the graph {V,A}
+can be identified with the 16 vertices and 80 edges of the polytope
+h&gamma;<sub>5</sub>, also denoted by 1<sub>21</sub>
+(Coxeter, Regular polytopes, 2nd ed., pp. 158, 201).
+This remark is due to H. S. M. Coxeter, who also points out the
+relation of this polytope to the 16 lines (and 80 pairs of skew lines)
+on Clebsch's quartic surface (cf. Clebsch (1868)).
+Therefore, {V,A} will be called the</i> <b>Clebsch graph</b>.
+</font></blockquote>
+Later some confusion has arisen, and some authors use the name
+"Clebsch graph" for the complement of &Gamma;.
+<p>
+<H2>Constructions</H2>
+The Clebsch graph is the halved 5-cube, that is, the vertices are
+the binary vectors of length 5 and even weight,
+joined when the Hamming distance is 2.
+<p>
+The Clebsch graph is the graph obtained from K<sub>1</sub>+T(6) by
+switching w.r.t. the set of 10 pairs not containing a fixed symbol
+(see also <a href="twographs.html">2-graphs</a>).
+<p>
+The Clebsch graph is also the graph obtained from the Hamming graph
+H(2,4), that is, the 4 &times; 4 grid, by switching w.r.t. a partition
+into two 2 &times; 4 grids.
+<p>
+The complement of the Clebsch graph is the folded 5-cube.
+That is, its vertices are the 16 cosets of {00000,11111},
+adjacent when the Hamming distance is 1. It is the graph obtained
+by identifying antipodes in the 5-cube.
+<p>
+Equivalently, the complement of the Clebsch graph is the graph
+obtained from the 4-cube by joining antipodes by an edge.
+<p>
+The complement of the Clebsch graph is the graph on GF(16) where
+two points are adjacent when their difference is a cube.
+It follows that K<sub>16</sub> is the edge-disjoint union
+of three copies of the complement of the Clebsch graph.
+
+<H2>Symmetric designs</H2>
+The adjacency matrix A of &Gamma; is the point-block incidence matrix
+of a square 2-(16,10,6) design. The matrix J−A is the point-block incidence
+matrix of a square 2-(16,6,2) design. There are three such designs,
+see the <a href="Folded-6-cube.html">folded 6-cube</a>.
+
+<H2>Supergraphs</H2>
+The Clebsch graph is the local graph of the
+<a href="Schlaefli.html">Schläfli graph</a>.
+
+<H2>Subgraphs</H2>
+We give the substructures of &Gamma; associated to the 4 conjugacy classes
+of maximal subgroups of G distinct from 2<sup>4</sup>:A<sub>5</sub>,
+sorted according to decreasing order.
+<p>
+a) <i>A parallel class of nonedges</i>.
+There are 5 of these, forming a single orbit.
+The stabilizer is 2<sup>4</sup>:Sym(4) of order 384.
+It is transitive on the set of vertices, and has orbits of sizes 32+48
+on the edges, and 8+32 on the nonedges (that is, 4+6 on the edge directions,
+1+4 on the nonedge directions).
+<p>
+b) <i>A nice pairing of the quadrangles in &Delta;</i>.
+There are 60 pairings of the 40 quadrangles in &Delta; such that the union
+of two paired quadrangles induces a cube, and each of the 20 cubes contains
+one pair. Such a pairing is called nice when for any two cubes that share
+a face that is not in their chosen pair, the quadrangles in their chosen pairs
+meet pairwise in a single point.
+There are 6 such nice pairings, forming a single orbit.
+The stabilizer is 2<sup>4</sup>:5:4 of order 320. It is transitive on
+vertices, edges and nonedges.
+<p>
+c) <i>A parallel class of edges</i>.
+There are 10 of these, forming a single orbit.
+The stabilizer is D<sub>8</sub> &times; Sym(4) of order 192.
+It is transitive on the set of vertices, and has orbits of sizes 8+24+48
+on the edges, and 16+24 on the nonedges (that is, 1+3+6 on the edge directions,
+and 2+3 on the nonedge directions).
+Since &Delta; has &mu;=2, an edge in the Clebsch graph &Gamma;
+determines a quadrangle in &Delta;, that is, a pair of directions
+in the folded 5-cube; if we remove the edges in these two directions
+from &Delta;, what is left is the union of two 3-cubes.
+Such a split of &Delta; into two 3-cubes corresponds to a split of
+&Gamma; into two subgraphs 2 &times; 4.
+<p>
+d) <i>A vertex</i>.<br>
+There are 16 of these, forming a single orbit.
+The stabilizer is Sym(5) of order 120, with vertex orbit sizes 1+5+10.
+<p>
+<H2>Independence and chromatic number</H2>
+The Clebsch graph has independence number 2 and chromatic number 8.
+The complement of the Clebsch graph has independence number 5
+and chromatic number 4.
+<p>
+<H2>References</H2>
+<p>
+A. Clebsch,
+<i>Ueber die Flächen vierter Ordnung, welche eine Doppelcurve
+zweiten Grades besitzen</i>, J. für Math. <b>69</b> (1868) 142-184.
+<p>
+H.S.M. Coxeter,
+<i>Self-dual configurations and regular graphs</i>,
+Bull. Amer. Math. Soc. <b>56</b> (1950) 413-455.
+<p>
+W.H. Clatworthy,
+<i>Partially balanced incomplete block designs with two associate
+classes and two treatments per block</i>,
+J. Res. Nat. Bur. Standards <b>54</b> (1955) 177-190.
+<p>
+J.J. Seidel,
+<i>Strongly regular graphs with (-1,1,0) adjacency matrix
+having eigenvalue 3</i>, Lin. Alg. Appl. <b>1</b> (1968) 281-298.
+
+
+</BODY>
+</HTML>
