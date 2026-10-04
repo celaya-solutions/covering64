@@ -1,0 +1,393 @@
+{
+  "auxiliary_equivalence": "Count equalities fix every pair and triple count uniquely. Both hole directions uniquely set h(T)=[c(T)=0]. Count upper bounds are min(64, carrier count), so they lose no binary64-block family. Pair lower5, the two local cut families and three core caps are necessary for every64-cover.",
+  "checker_sha256": "66cb1a355a1ab0d3eae41df3d27c8d8ddc82349681e5c37e1f228699a3c716f5",
+  "complete_row_multiset_equal": true,
+  "constraints": 14404,
+  "core_cap_rows": 3,
+  "count_definition_rows": 680,
+  "damaged_controls_rejected": [
+    "missing_pair_carrier",
+    "lost_hole_zero_direction",
+    "lost_hole_positive_direction",
+    "wrong_triple_lower_bound",
+    "wrong_second_triple_weight",
+    "disabled_cut",
+    "relaxed_core",
+    "missing_final_core_row"
+  ],
+  "derived_hint_core_overlaps": [
+    2,
+    2,
+    0
+  ],
+  "derived_hint_failures": {
+    "constraint_indices": [
+      2698,
+      2699,
+      3412,
+      3413,
+      7394,
+      7395,
+      7407,
+      7493,
+      7505,
+      7516,
+      7526,
+      7543,
+      7550,
+      7556,
+      7561,
+      7566,
+      7567,
+      7568,
+      7569,
+      7944,
+      7956,
+      7967,
+      7977,
+      7995,
+      7996,
+      7997,
+      7998,
+      7999,
+      8000,
+      8001,
+      8002,
+      9465,
+      9716,
+      9718,
+      9733,
+      10213,
+      12273,
+      12466,
+      12774,
+      12786,
+      12797,
+      12807,
+      12816,
+      12831,
+      12837,
+      12842,
+      12846,
+      12849,
+      12851,
+      12853,
+      12865,
+      12877,
+      12888,
+      12898,
+      12907,
+      12922,
+      12928,
+      12933,
+      12937,
+      12940,
+      12942,
+      12944,
+      13547,
+      13819,
+      14117,
+      14281
+    ],
+    "domain_indices": []
+  },
+  "derived_hint_holes": 6,
+  "exact_hole_rows": 1120,
+  "global_dp_or_named_profile_rows": 0,
+  "hint_auxiliary_values_unique": true,
+  "hint_path": "experiments/2026-10-03/reduced-family-heuristic/penalty-2026100363/search-control_before-1-h6.txt",
+  "hint_scope": "4368 block-only guidance values; fails66cuts and is not a feasible hint.",
+  "hint_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+  "hole_channels_checked": [
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      8,
+      0
+    ],
+    [
+      9,
+      0
+    ],
+    [
+      10,
+      0
+    ],
+    [
+      11,
+      0
+    ],
+    [
+      12,
+      0
+    ],
+    [
+      13,
+      0
+    ],
+    [
+      14,
+      0
+    ],
+    [
+      15,
+      0
+    ],
+    [
+      16,
+      0
+    ],
+    [
+      17,
+      0
+    ],
+    [
+      18,
+      0
+    ],
+    [
+      19,
+      0
+    ],
+    [
+      20,
+      0
+    ],
+    [
+      21,
+      0
+    ],
+    [
+      22,
+      0
+    ],
+    [
+      23,
+      0
+    ],
+    [
+      24,
+      0
+    ],
+    [
+      25,
+      0
+    ],
+    [
+      26,
+      0
+    ],
+    [
+      27,
+      0
+    ],
+    [
+      28,
+      0
+    ],
+    [
+      29,
+      0
+    ],
+    [
+      30,
+      0
+    ],
+    [
+      31,
+      0
+    ],
+    [
+      32,
+      0
+    ],
+    [
+      33,
+      0
+    ],
+    [
+      34,
+      0
+    ],
+    [
+      35,
+      0
+    ],
+    [
+      36,
+      0
+    ],
+    [
+      37,
+      0
+    ],
+    [
+      38,
+      0
+    ],
+    [
+      39,
+      0
+    ],
+    [
+      40,
+      0
+    ],
+    [
+      41,
+      0
+    ],
+    [
+      42,
+      0
+    ],
+    [
+      43,
+      0
+    ],
+    [
+      44,
+      0
+    ],
+    [
+      45,
+      0
+    ],
+    [
+      46,
+      0
+    ],
+    [
+      47,
+      0
+    ],
+    [
+      48,
+      0
+    ],
+    [
+      49,
+      0
+    ],
+    [
+      50,
+      0
+    ],
+    [
+      51,
+      0
+    ],
+    [
+      52,
+      0
+    ],
+    [
+      53,
+      0
+    ],
+    [
+      54,
+      0
+    ],
+    [
+      55,
+      0
+    ],
+    [
+      56,
+      0
+    ],
+    [
+      57,
+      0
+    ],
+    [
+      58,
+      0
+    ],
+    [
+      59,
+      0
+    ],
+    [
+      60,
+      0
+    ],
+    [
+      61,
+      0
+    ],
+    [
+      62,
+      0
+    ],
+    [
+      63,
+      0
+    ],
+    [
+      64,
+      0
+    ]
+  ],
+  "launch_checker_sha256": "98753ead7b8f11c1e058024a0ac82a6cc5654c0c65dc476a6aa52fa0c1aea2a1",
+  "manifest_sha256": "82372b924493eed1e3a24c48e580d0b15796cc1d2c50bbe71b400bee23910aad",
+  "model_gate_sha256": "f40f33d7297c93d0b1d073ed1e9ce18b5eddae9376ddf393fa3a7402f1b1911c",
+  "model_sha256": "2901bb03bc1b12a9ab950bf93b1e3bd0ef84760ab9ce87ce8fc0bb6b59d45d87",
+  "optimizer_calls": 0,
+  "pair_triple_rows": 1680,
+  "pair_two_triple_rows": 10920,
+  "parameters_sha256": "a72db619575952d0899a8b1c65a9196f5c025c05e2b153ab019988ebff7c5e3f",
+  "passed": true,
+  "profile_implication_sha256": "2357a0cc1574912c0aab8f3dc9c7ded95a44be672aca32fd813bfb6f13594912",
+  "proof_sha256": "db490b9d3cd3500eb2c85d36f803a73667ceed00e5251932608e7d1150e7099b",
+  "regularity_or_symmetry_rows": 0,
+  "relaxation_scope": "Omitting globalDP and named profile filters imposes no extra restriction and preserves all64-covers. A separate degree-and-hub proof shows the pair cuts already imply the forbidden-profile exclusion. Saved families still need both cover verifiers and an independent global-profile screen.",
+  "row_order_equal": true,
+  "run_scope": "Exactly one120-second CP-SAT run, four workers, seed2026104301. No retries or budget extension. No optimizer was called by this gate.",
+  "runner_exists": true,
+  "runner_review": {
+    "all_improvements_distinct_ties_and_final_saved": true,
+    "all_saved_families_require_independent_postcheck": true,
+    "complete5608_value_vectors_saved": true,
+    "global_profile_counter_bound_in_inputs": true,
+    "infeasible_block_guidance_labeled": true,
+    "native_response_and_logs_saved": true,
+    "no_relaunch_guard": true,
+    "serialized_model_and_parameters_roundtrip": true,
+    "single_solve_call_site": true
+  },
+  "runner_source_sha256": "0445dff332c3e8b817c843ea3d82c56f1b95b85ec7918213af6dc14ab99e6803",
+  "source_sha256": "dd615064bcf96fd28a62fe13859874c417ff050ff60198bf62a1f4efdb8115ae",
+  "variables": 5608
+}

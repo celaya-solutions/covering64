@@ -1,0 +1,87 @@
+{
+  "guidance_kind": "block-only infeasible guidance",
+  "guidance_is_complete": false,
+  "guidance_has_feasible_extension": false,
+  "first_feasible_callback_seconds": null,
+  "native_hint_messages": [
+    "The solution hint is incomplete: 4368 out of 5608 non fixed variables hinted.",
+    "The solution hint is incomplete: 5183 out of 6423 non fixed variables hinted."
+  ],
+  "native_search_start_seconds": [
+    0.96
+  ],
+  "native_first_solution_messages": [],
+  "started_utc": "2026-10-04T12:33:06.620626+00:00",
+  "source_revision": "b8b941cff21345cd4aca840f9ec3b974d004b823",
+  "runner_source_sha256": "0445dff332c3e8b817c843ea3d82c56f1b95b85ec7918213af6dc14ab99e6803",
+  "manifest_sha256": "82372b924493eed1e3a24c48e580d0b15796cc1d2c50bbe71b400bee23910aad",
+  "gate_sha256": "6a641ed9bf2e6d8163d6bf931f49fafad38010a2b37a20649d5b3ef2569d3abc",
+  "model_sha256": "2901bb03bc1b12a9ab950bf93b1e3bd0ef84760ab9ce87ce8fc0bb6b59d45d87",
+  "parameters_sha256": "a72db619575952d0899a8b1c65a9196f5c025c05e2b153ab019988ebff7c5e3f",
+  "budget": {
+    "cases": 1,
+    "seconds": 120,
+    "workers": 4,
+    "seed": 2026104301
+  },
+  "ortools_version": "9.15.6755",
+  "status": "UNKNOWN",
+  "seconds": 120.01586362498347,
+  "reported_seconds": 120.01130300000001,
+  "objective_bound": 0.0,
+  "best_composite_objective": null,
+  "records": [],
+  "final": null,
+  "stopped_on_zero": false,
+  "verified_zero_candidates": [],
+  "covering_witness": false,
+  "optimization_calls": 1,
+  "global_lower_bound_claim": false,
+  "scope": "One frozen full4368 run. All callback improvements and distinct callback ties plus the native final state are saved. UNKNOWN/timeouts are inconclusive; native infeasibility is not an independently checked theorem.",
+  "raw_files": {
+    "execute.py": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/execute.py",
+      "sha256": "0445dff332c3e8b817c843ea3d82c56f1b95b85ec7918213af6dc14ab99e6803"
+    },
+    "gate.json": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/gate.json",
+      "sha256": "6a641ed9bf2e6d8163d6bf931f49fafad38010a2b37a20649d5b3ef2569d3abc"
+    },
+    "manifest.json": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/manifest.json",
+      "sha256": "82372b924493eed1e3a24c48e580d0b15796cc1d2c50bbe71b400bee23910aad"
+    },
+    "model.pbtxt": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/model.pbtxt",
+      "sha256": "2901bb03bc1b12a9ab950bf93b1e3bd0ef84760ab9ce87ce8fc0bb6b59d45d87"
+    },
+    "parameters.pbtxt": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/parameters.pbtxt",
+      "sha256": "a72db619575952d0899a8b1c65a9196f5c025c05e2b153ab019988ebff7c5e3f"
+    },
+    "prepare.py": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/prepare.py",
+      "sha256": "dd615064bcf96fd28a62fe13859874c417ff050ff60198bf62a1f4efdb8115ae"
+    },
+    "response.pbtxt": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/response.pbtxt",
+      "sha256": "30269f63ecf86bb0bcc46cd15c006daef4909a96be398a00e8d949fad979885b"
+    },
+    "solver.log": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/solver.log",
+      "sha256": "82693a175d96fe15431ec525a390ee5da77cb1f9cc23f13c624d7cbeef15f20a"
+    },
+    "start.json": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/start.json",
+      "sha256": "4df385bb47196a94ad3f80e8f972a1790610dbae1bf982e139670d8549ce0e70"
+    },
+    "stdout.log": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/stdout.log",
+      "sha256": "eb8ac27c2e32cd3e222c5b76987f3b40033770fa90b265d38e58a7c3c38328a1"
+    },
+    "used-parameters.pbtxt": {
+      "path": "experiments/scratch/compact-pair-two-counts-run-20261004/used-parameters.pbtxt",
+      "sha256": "a72db619575952d0899a8b1c65a9196f5c025c05e2b153ab019988ebff7c5e3f"
+    }
+  }
+}

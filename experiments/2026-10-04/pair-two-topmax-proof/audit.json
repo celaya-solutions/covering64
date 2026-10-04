@@ -1,0 +1,173 @@
+{
+  "actual_family_identity": "Each selected five-point block throughP contributes to exactly three of its14 triple positions. Hence sum c(Px)=3*c(P), each c(Px)<=c(P), and c(P)>0 gives at least three positive positions.",
+  "binary_tie_position_profiles": 98304,
+  "boundary_histogram_profiles": 116280,
+  "boundary_profile_orders_checked": 348840,
+  "boundary_profile_sha256": "70b942f3fea8c30593da7a94bf4b0be7d71292fa84c6067f532190a8b8cc0d5e",
+  "checker_sha256": "ef3889342c00e18d9db0143e035a485f6ab0f473b4a2a6dbd5e3a96189d01b91",
+  "compatible_extremal_profiles": 31521,
+  "damaged_controls_rejected": [
+    "deduplicating tied count values",
+    "reusing the maximum position",
+    "equating positive D2max with D2sum",
+    "omitting actual mass identity"
+  ],
+  "definition": "For each pairP, take the largest and second-largest values among its14 distinct triple positions. Equal values at distinct positions count twice. D2max=sum_P max(0,12-3*c(P)+top1(P)+top2(P)).",
+  "equivalence_proof": "For any two distinct positions, their sum is at most the sum of the two largest positions, and the maximizing two positions are one of the91 rows. Adding the common constant12-3*c(P) and applying max(0,.) preserves the maximum. Thus D2max=0 iff all10920 rows hold, iff D2sum=0. Ties in values do not change this argument because positions, not values, must be distinct.",
+  "extremal_profile_sha256": "a6c0defa84b3c7918056d3c235d35db488e84259be16042884404303e62491ed",
+  "extremal_triples_checked": 47905,
+  "five_block_pair_link_controls": {
+    "different_positive_scores": [
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        8,
+        9
+      ],
+      [
+        5,
+        10,
+        11
+      ],
+      [
+        12,
+        13,
+        14
+      ]
+    ],
+    "one_repeated_point": [
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        8,
+        9,
+        10
+      ],
+      [
+        11,
+        12,
+        13
+      ],
+      [
+        14,
+        15,
+        16
+      ]
+    ],
+    "tied_maxima": [
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        3,
+        6,
+        7
+      ],
+      [
+        4,
+        8,
+        9
+      ],
+      [
+        10,
+        11,
+        12
+      ],
+      [
+        13,
+        14,
+        15
+      ]
+    ]
+  },
+  "full_definition": "D2sum=sum_P sum_{a<b outsideP}max(0,12-3*c(P)+c(Pa)+c(Pb)).",
+  "metric_bound": "0<=D2max<=D2sum<=91*D2max. The positive scores are generally different.",
+  "optimizer_calls": 0,
+  "pair_floor_proof": "D2max=0 makes top1+top2<=3*c(P)-12. If c(P)<=3 the right side is negative. If c(P)=4 it is zero, but the mass identity gives total12 and thus a positive top1. Both contradict nonnegative top counts. Therefore c(P)>=5.",
+  "passed": true,
+  "production_implementation_changed": false,
+  "scope": "General counting proof for actual five-point block families on16 points. Finite count-bound controls cover c(P)=0..64, the native64-block scope.",
+  "single_cut_proof": "For an actual family with D2max=0, c(P)>=5. At least three positions are positive, so top2>=1. Thus every c(Px)<=top1<=3*c(P)-13, proving every single-triple deficit is zero. No separate hard pair floor is needed for zero-deficit qualification when all counts are exact.",
+  "zero_extremal_profiles": 31453,
+  "zero_profile_pair_counts": {
+    "5": 1,
+    "6": 5,
+    "7": 12,
+    "8": 22,
+    "9": 32,
+    "10": 41,
+    "11": 49,
+    "12": 58,
+    "13": 67,
+    "14": 78,
+    "15": 88,
+    "16": 99,
+    "17": 111,
+    "18": 124,
+    "19": 137,
+    "20": 149,
+    "21": 164,
+    "22": 180,
+    "23": 197,
+    "24": 213,
+    "25": 229,
+    "26": 246,
+    "27": 265,
+    "28": 286,
+    "29": 305,
+    "30": 325,
+    "31": 346,
+    "32": 368,
+    "33": 390,
+    "34": 413,
+    "35": 437,
+    "36": 462,
+    "37": 488,
+    "38": 513,
+    "39": 538,
+    "40": 565,
+    "41": 594,
+    "42": 624,
+    "43": 652,
+    "44": 681,
+    "45": 711,
+    "46": 742,
+    "47": 775,
+    "48": 807,
+    "49": 840,
+    "50": 874,
+    "51": 909,
+    "52": 943,
+    "53": 978,
+    "54": 1015,
+    "55": 1053,
+    "56": 1092,
+    "57": 1129,
+    "58": 1167,
+    "59": 1206,
+    "60": 1248,
+    "61": 1290,
+    "62": 1331,
+    "63": 1373,
+    "64": 1416
+  }
+}

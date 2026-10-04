@@ -1,0 +1,14 @@
+# Document:    Frozen Transport Evidence Lint Scope
+# Version:     v1.0.0
+# Author:      Celaya Solutions
+# Contact:     hello@celayasolutions.com
+# Date:        2026-10-04
+# SHA256:      [pending]
+# Chain:       n/a
+# Tx:          [not anchored]
+# License:     All Rights Reserved / Celaya Solutions
+# Preserve the hashed v1 source bytes; active v2 fixes the single long literal.
+extend = "../../../pyproject.toml"
+
+[lint.per-file-ignores]
+"run.py" = ["E501"]

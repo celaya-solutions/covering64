@@ -1,0 +1,8048 @@
+{
+  "allowed_pair_five_vector": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "checker_sha256": "f42339e50668c39985ea1c2043a0f747d9c881b39a7f0eadf9d011127b2df4f7",
+  "coefficient_dominance_checks": 3974880,
+  "coefficient_identity_checks": 3974880,
+  "damaged_controls_rejected": [
+    "pair coefficient2",
+    "second triple sign positive",
+    "right hand side13",
+    "single cuts imply no holes at pair5"
+  ],
+  "dominance_identity": "[3*c(P)-2*c(P+a+b)]-[3*c(P)-c(P+a)-c(P+b)]=c(P+a)+c(P+b)-2*c(P+a+b)>=0",
+  "identity": "3*c(P)-c(P+a)-c(P+b)=sum_{x outside P+a+b} c(P+x)",
+  "old_quad_cut_scope": "The new inequalities dominate the old quad inequalities. Dropping1820quad count variables removes only uniquely defined auxiliaries, while imposing the new stronger rows preserves all covers.",
+  "optimizer_calls": 0,
+  "pair_five_consequence": "The14 triple counts sum to15. Every two sum to at most3. The only possible sorted vector is one2 and thirteen1s; there are no missing triples through a pair with count5.",
+  "passed": true,
+  "proof": "The right side has12 triple counts, each at least1 in every full cover.",
+  "row_count": 10920,
+  "scope": "Necessary for unrestricted full C(16,5,3) covers of any block count. No degree, symmetry or incumbent assumptions. Count variables are exact.",
+  "single_cut_only_counterexample": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "sorted_vectors_checked": 175,
+  "witness_checks": [
+    {
+      "blocks": 65,
+      "holes": 0,
+      "minimum_lhs": 12,
+      "package": {
+        "blocks": 65,
+        "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+        "covered": 560,
+        "expected_block_count_matches": true,
+        "expected_blocks": 65,
+        "k": 5,
+        "multiplicities": {
+          "1": 497,
+          "2": 56,
+          "3": 2,
+          "7": 5
+        },
+        "pair_multiplicities": {
+          "5": 88,
+          "6": 14,
+          "7": 18
+        },
+        "replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 22,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 21,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 650,
+        "triples": 560,
+        "uncovered": [],
+        "v": 16,
+        "valid": true
+      },
+      "path": "data/baselines/belic-1997.txt",
+      "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "standalone": {
+        "blocks": 65,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 497,
+          "2": 56,
+          "3": 2,
+          "7": 5
+        },
+        "covered_subsets": 560,
+        "covers_all_subsets": true,
+        "expected_blocks": 65,
+        "expected_subset_incidences": 650,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 22,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 21,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+        "total_subset_incidences": 650,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "total_deficit": 0,
+      "violation_count": 0,
+      "violations": []
+    },
+    {
+      "blocks": 4010,
+      "holes": 0,
+      "minimum_lhs": 12,
+      "package": {
+        "blocks": 4010,
+        "canonical_sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+        "covered": 560,
+        "expected_block_count_matches": true,
+        "expected_blocks": 4010,
+        "k": 5,
+        "multiplicities": {
+          "1": 12,
+          "3": 2,
+          "66": 150,
+          "67": 30,
+          "69": 2,
+          "77": 358,
+          "78": 6
+        },
+        "pair_multiplicities": {
+          "287": 24,
+          "289": 4,
+          "352": 75,
+          "353": 15,
+          "355": 1,
+          "6": 1
+        },
+        "replication": {
+          "1": 1007,
+          "10": 1288,
+          "11": 1288,
+          "12": 1288,
+          "13": 1288,
+          "14": 1288,
+          "15": 1288,
+          "16": 1288,
+          "2": 1007,
+          "3": 1290,
+          "4": 1290,
+          "5": 1288,
+          "6": 1288,
+          "7": 1288,
+          "8": 1288,
+          "9": 1288
+        },
+        "t": 3,
+        "total_incidences": 40100,
+        "triples": 560,
+        "uncovered": [],
+        "v": 16,
+        "valid": true
+      },
+      "path": "experiments/scratch/pair-local-necessary-cuts-independent-20261004/quad-sharp-full-cover.txt",
+      "sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+      "standalone": {
+        "blocks": 4010,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 12,
+          "3": 2,
+          "66": 150,
+          "67": 30,
+          "69": 2,
+          "77": 358,
+          "78": 6
+        },
+        "covered_subsets": 560,
+        "covers_all_subsets": true,
+        "expected_blocks": 4010,
+        "expected_subset_incidences": 40100,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 1007,
+          "10": 1288,
+          "11": 1288,
+          "12": 1288,
+          "13": 1288,
+          "14": 1288,
+          "15": 1288,
+          "16": 1288,
+          "2": 1007,
+          "3": 1290,
+          "4": 1290,
+          "5": 1288,
+          "6": 1288,
+          "7": 1288,
+          "8": 1288,
+          "9": 1288
+        },
+        "required_subsets": 560,
+        "source_sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+        "total_subset_incidences": 40100,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "total_deficit": 0,
+      "violation_count": 0,
+      "violations": []
+    },
+    {
+      "blocks": 64,
+      "holes": 6,
+      "minimum_lhs": 11,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+        "covered": 554,
+        "expected_block_count_matches": true,
+        "expected_blocks": 64,
+        "k": 5,
+        "multiplicities": {
+          "0": 6,
+          "1": 491,
+          "2": 56,
+          "3": 2,
+          "5": 1,
+          "6": 2,
+          "7": 2
+        },
+        "pair_multiplicities": {
+          "5": 88,
+          "6": 24,
+          "7": 8
+        },
+        "replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            6,
+            10,
+            14
+          ],
+          [
+            6,
+            10,
+            15
+          ],
+          [
+            9,
+            14,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-03/reduced-family-heuristic/penalty-2026100363/search-control_before-1-h6.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 491,
+          "2": 56,
+          "3": 2,
+          "5": 1,
+          "6": 2,
+          "7": 2
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            6,
+            10,
+            14
+          ],
+          [
+            6,
+            10,
+            15
+          ],
+          [
+            9,
+            14,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      },
+      "total_deficit": 62,
+      "violation_count": 62,
+      "violations": [
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            2
+          ],
+          "pair": [
+            4,
+            6
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            3
+          ],
+          "pair": [
+            4,
+            6
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            3
+          ],
+          "pair": [
+            4,
+            6
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            12
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            13
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            14
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            15
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            16
+          ],
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            7
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            7
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            7
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            7
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            8
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            9
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            10
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            11
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            13
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            14
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            15
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            16
+          ],
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            16
+          ],
+          "pair": [
+            6,
+            7
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            8
+          ],
+          "pair": [
+            6,
+            10
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            11
+          ],
+          "pair": [
+            6,
+            10
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            11
+          ],
+          "pair": [
+            6,
+            10
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            16
+          ],
+          "pair": [
+            6,
+            15
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            8
+          ],
+          "pair": [
+            9,
+            14
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            13
+          ],
+          "pair": [
+            9,
+            16
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            2,
+            5
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            15
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            15,
+            16
+          ],
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            14
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            1,
+            6
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            14,
+            16
+          ],
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            6,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            8
+          ],
+          "pair": [
+            12,
+            13
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            7
+          ],
+          "pair": [
+            12,
+            16
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            15
+          ],
+          "pair": [
+            13,
+            16
+          ],
+          "pair_count": 6,
+          "triple_counts": [
+            5,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            15
+          ],
+          "pair": [
+            14,
+            16
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "blocks": 64,
+      "holes": 9,
+      "minimum_lhs": 10,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+        "covered": 551,
+        "expected_block_count_matches": true,
+        "expected_blocks": 64,
+        "k": 5,
+        "multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 79,
+          "3": 5
+        },
+        "pair_multiplicities": {
+          "4": 4,
+          "5": 77,
+          "6": 34,
+          "7": 5
+        },
+        "replication": {
+          "1": 20,
+          "10": 20,
+          "11": 19,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 22,
+          "3": 19,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 20,
+          "8": 21,
+          "9": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            5,
+            13
+          ],
+          [
+            2,
+            6,
+            13
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            6,
+            11
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            4,
+            5,
+            9
+          ],
+          [
+            4,
+            5,
+            15
+          ],
+          [
+            6,
+            8,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search-h9.txt",
+      "sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 79,
+          "3": 5
+        },
+        "covered_subsets": 551,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 20,
+          "11": 19,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 22,
+          "3": 19,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 20,
+          "8": 21,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "source_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            5,
+            13
+          ],
+          [
+            2,
+            6,
+            13
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            6,
+            11
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            4,
+            5,
+            9
+          ],
+          [
+            4,
+            5,
+            15
+          ],
+          [
+            6,
+            8,
+            14
+          ]
+        ],
+        "uncovered_count": 9,
+        "valid": false
+      },
+      "total_deficit": 639,
+      "violation_count": 375,
+      "violations": [
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            3
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            4
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            6
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            7
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            8
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            9
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            4
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            6
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            7
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            8
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            9
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            6
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            7
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            8
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            9
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            7
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            8
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            9
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            8
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            9
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            9
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            10
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            11
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            12
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            13
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            14
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            15
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            15,
+            16
+          ],
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            16
+          ],
+          "pair": [
+            1,
+            6
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            12
+          ],
+          "pair": [
+            2,
+            6
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            12
+          ],
+          "pair": [
+            2,
+            13
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            2
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            4
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            5
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            7
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            8
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            9
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            4
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            5
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            7
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            8
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            9
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            5
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            7
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            8
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            9
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            7
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            8
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            9
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            8
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            9
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            9
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            10
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            11
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            12
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            13
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            13,
+            14
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            13,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            13,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            15
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            15,
+            16
+          ],
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            15
+          ],
+          "pair": [
+            3,
+            9
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            2
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            4
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            5
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            6
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            7
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            8
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            4
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            5
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            6
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            7
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            8
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            5
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            6
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            7
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            8
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            4,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            4,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            6
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            7
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            8
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            5,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            7
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            8
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            8
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            9
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            10
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            9,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            12
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            13
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            14
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            15
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            15,
+            16
+          ],
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            12
+          ],
+          "pair": [
+            3,
+            13
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            2
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            3
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            6
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            7
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            8
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            9
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            1,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            3
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            6
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            7
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            8
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            9
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            2,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            2,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            6
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            7
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            8
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            9
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            3,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            7
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            8
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            9
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            6,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            6,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            8
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            9
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            7,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            7,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            9
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            8,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            10
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            11
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            10,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            12
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            11,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            11,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            13
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            12,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            13,
+            14
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            13,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            13,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            14,
+            15
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            0
+          ]
+        },
+        {
+          "deficit": 2,
+          "lhs": 10,
+          "outside": [
+            14,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            1,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            15,
+            16
+          ],
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "triple_counts": [
+            0,
+            1
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            3,
+            11
+          ],
+          "pair": [
+            4,
+            9
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            14
+          ],
+          "pair": [
+            4,
+            15
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            14,
+            15
+          ],
+          "pair": [
+            5,
+            6
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            10,
+            13
+          ],
+          "pair": [
+            5,
+            9
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            9,
+            10
+          ],
+          "pair": [
+            5,
+            13
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            12,
+            16
+          ],
+          "pair": [
+            6,
+            9
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            14,
+            15
+          ],
+          "pair": [
+            6,
+            13
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            5,
+            13
+          ],
+          "pair": [
+            6,
+            14
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            1,
+            11
+          ],
+          "pair": [
+            8,
+            14
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        },
+        {
+          "deficit": 1,
+          "lhs": 11,
+          "outside": [
+            8,
+            10
+          ],
+          "pair": [
+            11,
+            13
+          ],
+          "pair_count": 5,
+          "triple_counts": [
+            2,
+            2
+          ]
+        }
+      ]
+    }
+  ]
+}

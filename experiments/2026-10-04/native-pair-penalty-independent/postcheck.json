@@ -1,0 +1,664 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "source_sha256": "854de7b7a271ac9bcd5b453d814a68432573687f27ca646d390e900d580306a8",
+  "gate_sha256": "347af6676a0afc6aaa68d3a39b4f46fad8e0f29e46374b3c8ec60900e7e4237b",
+  "result_sha256": "7de037bb21bfc9545c9c72159a77e1df50b2f44b2c8ed555e81270853e3be785",
+  "checked": [
+    {
+      "seed": 2026104401,
+      "role": "raw",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-1-raw.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "score",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-2-score.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-3-qualified.txt",
+      "sha256": "371d9957077fe5bb0e5cedc194787c125fc50da3e5b642cdc605d8cb2be3b414",
+      "metrics": {
+        "holes": 64,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1280,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          0,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-02-package.json",
+          "sha256": "8bfbef5e881a3fef7fe4c14d3457247a55bc7e84e94a1e75dfa8164ddb175b8a",
+          "canonical_sha256": "371d9957077fe5bb0e5cedc194787c125fc50da3e5b642cdc605d8cb2be3b414"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-02-standalone.json",
+          "sha256": "09f50cdd43e8d56f71b19df37b71c90c3fd2bbe7dce47c617f33119329f2a9ad",
+          "canonical_sha256": "371d9957077fe5bb0e5cedc194787c125fc50da3e5b642cdc605d8cb2be3b414"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-4-qualified.txt",
+      "sha256": "67baa46144737452085d4413d41639955dc34db06ef8f75f14799628e9d7fd3b",
+      "metrics": {
+        "holes": 63,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1260,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          0,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-03-package.json",
+          "sha256": "a7d0157c1261718ac955e287a19805930a644e7ea1cae9a9075c18a23c2ea03b",
+          "canonical_sha256": "67baa46144737452085d4413d41639955dc34db06ef8f75f14799628e9d7fd3b"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-03-standalone.json",
+          "sha256": "5b21579b2e24b1e2860a503824311b527de74014afe115cea95e0e118f24e2ec",
+          "canonical_sha256": "67baa46144737452085d4413d41639955dc34db06ef8f75f14799628e9d7fd3b"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-5-qualified.txt",
+      "sha256": "7a63087cb0a7a768d57f9cccc8d3d5ee225ad9f682db3ae39d2a5a762379bc32",
+      "metrics": {
+        "holes": 62,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1240,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          3,
+          0,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-04-package.json",
+          "sha256": "9082522cc297cad7d059e41bfbe5362a49db5e0a04e899c71130b63479569783",
+          "canonical_sha256": "7a63087cb0a7a768d57f9cccc8d3d5ee225ad9f682db3ae39d2a5a762379bc32"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-04-standalone.json",
+          "sha256": "a91f3125eea9391b1f8fc3deb5d9ad265c664710e4b89c764be3c3a8a7b3c3b7",
+          "canonical_sha256": "7a63087cb0a7a768d57f9cccc8d3d5ee225ad9f682db3ae39d2a5a762379bc32"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-6-qualified.txt",
+      "sha256": "9a3dac0e211eb7a11f6b4be30293bd949c3313d1b00ed3e5de29c3c70f6c4121",
+      "metrics": {
+        "holes": 58,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1160,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          3,
+          0,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-05-package.json",
+          "sha256": "62b61eb736f21f2bd0950afb3e043ddd8c64862a420e4f074d96945036fa5c63",
+          "canonical_sha256": "9a3dac0e211eb7a11f6b4be30293bd949c3313d1b00ed3e5de29c3c70f6c4121"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-05-standalone.json",
+          "sha256": "d71633316aef0bbb160a1cc610d345900bd95864f091d0cfaf4e7561a3f15de5",
+          "canonical_sha256": "9a3dac0e211eb7a11f6b4be30293bd949c3313d1b00ed3e5de29c3c70f6c4121"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-7-qualified.txt",
+      "sha256": "395b7c53f5ffbd9d5dddb7919e36b8897f0e61b7f426a9e7999e36880f362ad7",
+      "metrics": {
+        "holes": 57,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          0,
+          1
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-06-package.json",
+          "sha256": "63c7546acb9a14c1a4c5ec0922a8ea2bc4384e54e381eb6ce869b6588f816b9c",
+          "canonical_sha256": "395b7c53f5ffbd9d5dddb7919e36b8897f0e61b7f426a9e7999e36880f362ad7"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-06-standalone.json",
+          "sha256": "fe76d319a0d55ce70922c1ae73655469e892dba2f6f11113d5b9682e7ca55196",
+          "canonical_sha256": "395b7c53f5ffbd9d5dddb7919e36b8897f0e61b7f426a9e7999e36880f362ad7"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-record-8-qualified.txt",
+      "sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+      "metrics": {
+        "holes": 48,
+        "D3": 0,
+        "D4": 0,
+        "energy": 960,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          0,
+          1,
+          1
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-07-package.json",
+          "sha256": "ff80816fb09a625685596a3b0557663892c030827f7142c487cd0dc0ff3d3693",
+          "canonical_sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-07-standalone.json",
+          "sha256": "abc5ccb7bacabdfa815b366368598a7886a91e7154c0a2aee3693e2c9f9285b9",
+          "canonical_sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "final_current",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-final-current.txt",
+      "sha256": "c0dbbaafd6ee48e55d5f7a959e057473560192a04db4c6ad897dc98613c96bce",
+      "metrics": {
+        "holes": 7,
+        "D3": 3,
+        "D4": 0,
+        "energy": 155,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-08-package.json",
+          "sha256": "440b6de7a5b36291ea4c9b285fe9bd3f7aae63586fd91648260ee4b955d7a839",
+          "canonical_sha256": "c0dbbaafd6ee48e55d5f7a959e057473560192a04db4c6ad897dc98613c96bce"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-08-standalone.json",
+          "sha256": "7937dce35c802a3b527671efa3f71842a39f518d37658be582f0b8f1e184b825",
+          "canonical_sha256": "c0dbbaafd6ee48e55d5f7a959e057473560192a04db4c6ad897dc98613c96bce"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "final_raw",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-final-raw.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "final_score",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-final-score.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104401,
+      "role": "final_qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-final-qualified.txt",
+      "sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3",
+      "metrics": {
+        "holes": 48,
+        "D3": 0,
+        "D4": 0,
+        "energy": 960,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          0,
+          1,
+          1
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-07-package.json",
+          "sha256": "ff80816fb09a625685596a3b0557663892c030827f7142c487cd0dc0ff3d3693",
+          "canonical_sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-07-standalone.json",
+          "sha256": "abc5ccb7bacabdfa815b366368598a7886a91e7154c0a2aee3693e2c9f9285b9",
+          "canonical_sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "raw",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-record-1-raw.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "score",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-record-2-score.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-record-3-qualified.txt",
+      "sha256": "8c4b554d01f48e78cd0e37197a8ee7e47afb0e4592ecc3b5e0549a724a0ca865",
+      "metrics": {
+        "holes": 51,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1020,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          1,
+          1
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-02-package.json",
+          "sha256": "a2bff407bedf692063b698e842cd195ab5c8e1ad8ad767069005c9da3b2cafe2",
+          "canonical_sha256": "8c4b554d01f48e78cd0e37197a8ee7e47afb0e4592ecc3b5e0549a724a0ca865"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-02-standalone.json",
+          "sha256": "7e655dbe2f5a9a929bfdf0ec0224e563e91b5ba57b1c594844c501f2bff2bd80",
+          "canonical_sha256": "8c4b554d01f48e78cd0e37197a8ee7e47afb0e4592ecc3b5e0549a724a0ca865"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-record-4-qualified.txt",
+      "sha256": "61a9c741596cf374d8435d80c024fd3fde20605c63131c806d16177c190f7355",
+      "metrics": {
+        "holes": 50,
+        "D3": 0,
+        "D4": 0,
+        "energy": 1000,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          1,
+          1
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-03-package.json",
+          "sha256": "b103fe2b3b4950ed61356ff502ce4bbe08e9bb990fd0755c18346fca90c1be36",
+          "canonical_sha256": "61a9c741596cf374d8435d80c024fd3fde20605c63131c806d16177c190f7355"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-03-standalone.json",
+          "sha256": "a5c53fb8003f91452bf89f93eb01d61108ecb9591dbe6031dd01cf2afb389ac9",
+          "canonical_sha256": "61a9c741596cf374d8435d80c024fd3fde20605c63131c806d16177c190f7355"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-record-5-qualified.txt",
+      "sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+      "metrics": {
+        "holes": 49,
+        "D3": 0,
+        "D4": 0,
+        "energy": 980,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          0,
+          2,
+          2
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-04-package.json",
+          "sha256": "a6aee2e3d770a08a37631f6a1fd8f6d944ab5bf4d3db1a4c74bc2be34259997f",
+          "canonical_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-04-standalone.json",
+          "sha256": "f9c6cc8000fe5d8acfb51dc3443cca1cf0082968c91e4563b6feaa5662fef523",
+          "canonical_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "final_current",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-final-current.txt",
+      "sha256": "0b7facf49c3aace239565a839bc925144fa2dc9a3a77066b944e9d8cc158d71d",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-05-package.json",
+          "sha256": "866d7d709da97d5aca161555faa5e5298e29b5ad87ffbb495d4fd4b8d75722d2",
+          "canonical_sha256": "0b7facf49c3aace239565a839bc925144fa2dc9a3a77066b944e9d8cc158d71d"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-05-standalone.json",
+          "sha256": "9e2635be2770bff00264fdb4afe645474fcb1a82912d41ae86bfb4de092a93d1",
+          "canonical_sha256": "0b7facf49c3aace239565a839bc925144fa2dc9a3a77066b944e9d8cc158d71d"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "final_raw",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-final-raw.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "final_score",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-final-score.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "metrics": {
+        "holes": 6,
+        "D3": 4,
+        "D4": 0,
+        "energy": 140,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          2,
+          2,
+          0
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104401-state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "seed": 2026104402,
+      "role": "final_qualified",
+      "path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-final-qualified.txt",
+      "sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4",
+      "metrics": {
+        "holes": 49,
+        "D3": 0,
+        "D4": 0,
+        "energy": 980,
+        "pair_min": 5,
+        "forbidden": false,
+        "core_overlaps": [
+          0,
+          2,
+          2
+        ]
+      },
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-04-package.json",
+          "sha256": "a6aee2e3d770a08a37631f6a1fd8f6d944ab5bf4d3db1a4c74bc2be34259997f",
+          "canonical_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+        },
+        {
+          "path": "experiments/2026-10-04/native-pair-penalty-independent/seed-2026104402-state-04-standalone.json",
+          "sha256": "f9c6cc8000fe5d8acfb51dc3443cca1cf0082968c91e4563b6feaa5662fef523",
+          "canonical_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+        }
+      ]
+    }
+  ],
+  "distinct_families": 12,
+  "verifier_calls": 24,
+  "cover_found": false,
+  "scope": "All saved and final roles independently recounted. Both verifiers rerun for every distinct family; identical file hashes share receipts. Three named core caps only. A profile-clear raw record may still violate necessary pair rows."
+}

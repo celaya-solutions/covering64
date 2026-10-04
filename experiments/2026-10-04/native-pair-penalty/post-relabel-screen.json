@@ -1,0 +1,117 @@
+{
+  "caller_sha256": "a145dd44dc86162fed582cde052bee8a25feb0327829fa507ad0b3d30d5e12d4",
+  "covering_verifier_postcheck_sha256": "7c58bbd14d7a07dafd92fa776e23adcc7d24cd1d2c622755da8c6b7454c8ca32",
+  "filter_proof_sha256": "dff87420f7dace9498134726725ce6589c306dc01130335a1c868581545872a4",
+  "optimizer_calls": 0,
+  "passed": true,
+  "records": [
+    {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "checked_metrics": {
+        "D3": 0,
+        "D4": 0,
+        "core_overlaps": [
+          0,
+          1,
+          1
+        ],
+        "energy": 960,
+        "forbidden": false,
+        "holes": 48,
+        "pair_min": 5
+      },
+      "distinct_explicit_core_images": 242,
+      "elementary_max5_certificate": null,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 5,
+      "maximum_triple_multiplicity": 6,
+      "necessary_enumeration_nodes": 2,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "pair_count_histogram": {
+        "5": 85,
+        "6": 30,
+        "7": 5
+      },
+      "point_degrees": {
+        "1": 20,
+        "2": 20,
+        "3": 19,
+        "4": 21,
+        "5": 19,
+        "6": 20,
+        "7": 19,
+        "8": 20,
+        "9": 19,
+        "10": 21,
+        "11": 21,
+        "12": 20,
+        "13": 21,
+        "14": 21,
+        "15": 20,
+        "16": 19
+      },
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map.",
+      "seed": 2026104401,
+      "witness_path": "experiments/2026-10-04/native-pair-penalty/seed-2026104401/search-final-qualified.txt",
+      "witness_sha256": "630461e4c8805916ac515114b308d6ed05b2a43da16605ea452150d7e3a784d3"
+    },
+    {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "checked_metrics": {
+        "D3": 0,
+        "D4": 0,
+        "core_overlaps": [
+          0,
+          2,
+          2
+        ],
+        "energy": 980,
+        "forbidden": false,
+        "holes": 49,
+        "pair_min": 5
+      },
+      "distinct_explicit_core_images": 242,
+      "elementary_max5_certificate": "Every triple count is at most5, so each of five triples contributes at least1 to the deficit sum. The sum is at least5 and cannot be at most4.",
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 5,
+      "maximum_triple_multiplicity": 5,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "pair_count_histogram": {
+        "5": 85,
+        "6": 30,
+        "7": 5
+      },
+      "point_degrees": {
+        "1": 20,
+        "2": 19,
+        "3": 19,
+        "4": 19,
+        "5": 20,
+        "6": 19,
+        "7": 20,
+        "8": 20,
+        "9": 21,
+        "10": 20,
+        "11": 21,
+        "12": 21,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 21
+      },
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map.",
+      "seed": 2026104402,
+      "witness_path": "experiments/2026-10-04/native-pair-penalty/seed-2026104402/search-final-qualified.txt",
+      "witness_sha256": "a7feb783eb9f36e710feba5356857514cde146104b95de03fa47716126afd9c4"
+    }
+  ],
+  "scope": "Exact necessary-partition filter for every point relabeling of the particular audited original60-block core. No construction search or extendability claim. The242 explicit images are a separate limited check.",
+  "screen_source_sha256": "9cdcd511eb94954bb45c1cf209c5d51517b46c11e46b44a22ce7221d9309f74a"
+}

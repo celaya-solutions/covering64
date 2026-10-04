@@ -1,0 +1,52 @@
+{
+  "path": "experiments/2026-10-03/reduced-family-heuristic/penalty-2026100363/search-control_before-1-h6.txt",
+  "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+  "holes": 6,
+  "core_overlaps": [
+    2,
+    2,
+    0
+  ],
+  "minimum_pair_count": 5,
+  "hypothetical_objective": 392,
+  "hinted_variables": 4368,
+  "unhinted_auxiliaries": 3060,
+  "complete_assignment_is_feasible": false,
+  "violated_rows": [
+    {
+      "row_id": 4518,
+      "lhs": 12,
+      "domain": [
+        13,
+        9223372036854775807
+      ]
+    },
+    {
+      "row_id": 4519,
+      "lhs": 12,
+      "domain": [
+        13,
+        9223372036854775807
+      ]
+    },
+    {
+      "row_id": 5232,
+      "lhs": 12,
+      "domain": [
+        13,
+        9223372036854775807
+      ]
+    },
+    {
+      "row_id": 5233,
+      "lhs": 12,
+      "domain": [
+        13,
+        9223372036854775807
+      ]
+    }
+  ],
+  "derived_values_path": "experiments/scratch/compact-pair-local-counts-20261004/derived-infeasible-seed-values.json",
+  "derived_values_sha256": "c2bff19bf3e302df421ee42e658968ced911c7d947a2c2762851ad40d799aed8",
+  "scope": "All block variables only are hinted. The uniquely derived count/hole extension is infeasible. This is guidance; the solver may repair or reject it."
+}

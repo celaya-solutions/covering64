@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "runner_source_sha256": "0445dff332c3e8b817c843ea3d82c56f1b95b85ec7918213af6dc14ab99e6803",
+  "manifest_sha256": "82372b924493eed1e3a24c48e580d0b15796cc1d2c50bbe71b400bee23910aad",
+  "source_sha256": "dd615064bcf96fd28a62fe13859874c417ff050ff60198bf62a1f4efdb8115ae",
+  "model_sha256": "2901bb03bc1b12a9ab950bf93b1e3bd0ef84760ab9ce87ce8fc0bb6b59d45d87",
+  "parameters_sha256": "a72db619575952d0899a8b1c65a9196f5c025c05e2b153ab019988ebff7c5e3f",
+  "variables": 5608,
+  "rows": 14404,
+  "runtime_outputs_absent": true,
+  "budget": {
+    "cases": 1,
+    "seconds": 120,
+    "workers": 4,
+    "seed": 2026104301
+  },
+  "first_feasible_timing_recorded": true,
+  "guidance_kind": "block-only infeasible guidance",
+  "gate_required_fields": [
+    "passed",
+    "manifest_sha256",
+    "source_sha256",
+    "runner_source_sha256",
+    "model_sha256",
+    "parameters_sha256"
+  ]
+}

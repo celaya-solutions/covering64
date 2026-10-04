@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "bf1fd0fba50613a3f43cf4df377d2a740eb60aee65a34591ef811e68125bd040",
+  "manifest_sha256": "5589079bf03991d4eca468d5f45444f11427e9ce12e53946bdbd55a6d7745fe2",
+  "source_sha256": "da387e43244455c43b778f82770b0ba4490cc4443e4d0094b701b22d3312b601",
+  "runner_sha256": "02acb3312c2d89966135ae06ceaf818bc5d63903dc95c9152ee13d226d357c03",
+  "binary_sha256": "6239fa46fa4f02de0b72b114984beb5b378529258fb34d8d917c17e2dfdc6264",
+  "independent_control_source_sha256": "1423220302b9792474bf6c69b21d4097a3bc419c89f38143c0f790b01857d86d",
+  "independent_control_sha256": "9c59a752b6d66822df57c97d4a29a537deff9da1ecc5fbcb16f1d3d62d811a7f",
+  "inherited_core_gate_sha256": "8bbe6c45ed2289648f66bbbdcc109d1eabeae4baad0dcba974b4493dc805c458",
+  "pair_cut_proof_sha256": "506205cd1e0f8334f0d690c6f4f9929cc08267422285b31935a76a424003e4a8",
+  "sanitizers": [
+    "address",
+    "undefined"
+  ],
+  "controls": {
+    "passed": true,
+    "direct_recounts": 901,
+    "commits": 360,
+    "rollbacks": 337,
+    "duplicate_cases": 3,
+    "intersection_cases": [
+      40,
+      40,
+      40,
+      40,
+      40
+    ],
+    "optimizer_calls": 0
+  },
+  "source_review": "Affected pair union includes unchanged pair counts; all changed triple/quad row-pairs are included. Rejected moves reverse all state updates. Raw/profile best, soft-score best, zero-deficit best and current are distinct. All normal/zero/interrupted exits save their status and present records. One uniform draw per proposal changes the previous seeded stream intentionally.",
+  "scope": "Two declared construction runs only. Pair-zero best may be absent. The guidance is incomplete and fails four necessary single-triple rows. Only three named core caps are enforced; no all-relabel eligibility claim."
+}

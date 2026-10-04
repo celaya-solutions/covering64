@@ -67,7 +67,7 @@ no API key, $0).
 ## Research checkpoint 2026-10-04
 
 Independently closed the declared 46,436-state graph-5 whole-link neighborhood only; no 64-block cover. Fresh replay proves every relabeled old core has overlap at most 55 in a cover. Two weaker-cap pilots were corrected; the latest raw three-hole state contains a third relabeled 60-core and is excluded. Regression: 369 passing tests, Ruff clean.
-Commit 29dcba1 saves the checked native 9/10-hole outcomes, six-hole pair-minimum DP result and unrestricted pair-link proofs. The new nine-hole family avoids every relabeled old-core trap but fails four pair minima. Every one of 17 eligible saved families fails stronger pair-link cuts. Next: gate the compact pair-two count model and isolated native pair-penalty search; preserve the weaker prepared count model unrun. Keep graph-specific cuts separate, inspect final ties, preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Commit 29dcba1 saves the previous checked outcomes; b8b941c repairs the report header. The compact stronger-pair run returned UNKNOWN with no feasible state. Two native runs found weaker-pair-legal partials with 48/49 holes; both escape every old-core relabeling but fail stronger pair-two cuts. The old six-hole hint retains 59 blocks of a fourth checked core image (cap55). Next: a gated top-two-deficit hint search with four core caps before another compact solve. Keep graph-specific cuts separate, inspect final ties, preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. Historical transport v1 keeps its hashed source with one local E501 exception; active v2 is formatted.
 
 ## Independent construction checkpoint 2026-10-03
 
