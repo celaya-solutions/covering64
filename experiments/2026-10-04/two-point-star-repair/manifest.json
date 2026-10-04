@@ -1,0 +1,253 @@
+{
+  "base_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+  "baseline_verifiers": [
+    {
+      "blocks": 64,
+      "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "covered": 548,
+      "expected_block_count_matches": true,
+      "expected_blocks": 64,
+      "k": 5,
+      "multiplicities": {
+        "0": 12,
+        "1": 457,
+        "2": 90,
+        "3": 1
+      },
+      "pair_multiplicities": {
+        "5": 80,
+        "6": 40
+      },
+      "replication": {
+        "1": 20,
+        "10": 19,
+        "11": 21,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 19,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 20,
+        "6": 20,
+        "7": 21,
+        "8": 20,
+        "9": 21
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          6,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 12,
+        "1": 457,
+        "2": 90,
+        "3": 1
+      },
+      "covered_subsets": 548,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 19,
+        "11": 21,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 19,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 20,
+        "6": 20,
+        "7": 21,
+        "8": 20,
+        "9": 21
+      },
+      "required_subsets": 560,
+      "source_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          6,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "uncovered_count": 12,
+      "valid": false
+    }
+  ],
+  "entries": [
+    {
+      "fixed_selected": 29,
+      "free_blocks": 2366,
+      "model": "experiments/scratch/two-point-star-repair-20261004/model-1.pbtxt",
+      "model_sha256": "c924fd6869510954a98c36f3cb957c5a1fca451bb0374f39c5ac9655abe65e38",
+      "number": 1,
+      "pivot": [
+        6,
+        14
+      ],
+      "rows": 1242,
+      "seed": 2026105301,
+      "variables": 4928
+    },
+    {
+      "fixed_selected": 29,
+      "free_blocks": 2366,
+      "model": "experiments/scratch/two-point-star-repair-20261004/model-2.pbtxt",
+      "model_sha256": "41d4119fb1c8ee9587b9b0f90283a4684ed7772ea691272c7c2cedca51143ce7",
+      "number": 2,
+      "pivot": [
+        1,
+        9
+      ],
+      "rows": 1242,
+      "seed": 2026105302,
+      "variables": 4928
+    }
+  ],
+  "grace": 5,
+  "ortools_version": "9.15.6755",
+  "scope": "Two fixed local neighborhoods. Outside each two-point star all block memberships are frozen. Exact 64 and pair floor5; holes are exact. No D3/D4 or core restrictions. No unrestricted, nonexistence or novelty claim.",
+  "search_launches_during_preparation": 0,
+  "seconds": 60,
+  "source_revision": "a6c539d96c2c23f5a93bec4bf542096818f9f742",
+  "source_sha256": "9c5dd6150d143c2d932dec8e75f2fac661af09bc2b3de1dcc4e5d706be04d77f",
+  "watchdog": 80,
+  "workers": 4
+}

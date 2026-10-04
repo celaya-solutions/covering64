@@ -1,0 +1,26 @@
+{
+  "controls": [
+    {
+      "accepted_by_original": true,
+      "name": "float-valued vector"
+    },
+    {
+      "accepted_by_original": true,
+      "name": "boolean-valued vector"
+    },
+    {
+      "accepted_by_original": true,
+      "name": "fractional uncovered indicator"
+    }
+  ],
+  "fractional_control": {
+    "baseline_value": 1,
+    "damaged_value": 0.5,
+    "variable_index": 4404
+  },
+  "manifest_sha256": "d7c1dd6af731d7344c906193d7af8e13b632e4951a1cdfc453490cde4d9331b6",
+  "model_sha256": "c924fd6869510954a98c36f3cb957c5a1fca451bb0374f39c5ac9655abe65e38",
+  "producer_source_sha256": "9c5dd6150d143c2d932dec8e75f2fac661af09bc2b3de1dcc4e5d706be04d77f",
+  "resolution": "Preserve original unrun package; add strict integer-type guard in v2.",
+  "solver_launches": 0
+}

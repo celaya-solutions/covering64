@@ -1,0 +1,238 @@
+{
+  "base_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+  "budget": {
+    "grace": 5,
+    "relaunch": false,
+    "runs": 2,
+    "same_center": true,
+    "seconds_each": 60,
+    "seeds": [
+      2026105301,
+      2026105302
+    ],
+    "watchdog": 80,
+    "workers": 4
+  },
+  "decision": "GO",
+  "encoding_proof": "Each hole Boolean is1 exactly when its triple has no selected block, using disjoint count=0 and count>=1 cases. The objective is their exact sum. Every global64 cover has pair count at least ceil(14/3)=5, but fixed outside-star memberships restrict these two experiments to their declared neighborhoods.",
+  "launch_authority": "Root only; stop if any dual-verified cover, timeout, or process failure.",
+  "manifest_sha256": "39e895e1bc69b5bc7295460f1151cd951c4c06c1e5691a1a90482b26d0807f74",
+  "model_audits": [
+    {
+      "damaged_models_rejected": [
+        "variable order",
+        "unfixed outside",
+        "cardinality",
+        "hole direction",
+        "reverse channel",
+        "pair floor",
+        "hole bound",
+        "objective coefficient",
+        "objective offset",
+        "assumption"
+      ],
+      "damaged_vectors_rejected": [
+        "float values",
+        "boolean values",
+        "truncated vector",
+        "extra vector value",
+        "all zero",
+        "all one",
+        "covered marked hole",
+        "hole marked covered",
+        "fixed membership flipped",
+        "fractional uncovered indicator"
+      ],
+      "exact_schema_audit": {
+        "exact_hole_channels": 560,
+        "fixed_blocks": 2002,
+        "fixed_selected": 29,
+        "free_blocks": 2366,
+        "free_selected": 35,
+        "holes": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "linear_rows": 1242,
+        "pair_floor_rows": 120,
+        "variables": 4928
+      },
+      "model_sha256": "c924fd6869510954a98c36f3cb957c5a1fca451bb0374f39c5ac9655abe65e38",
+      "number": 1,
+      "pivot": [
+        6,
+        14
+      ],
+      "positive_baseline_assignment": true
+    },
+    {
+      "damaged_models_rejected": [
+        "variable order",
+        "unfixed outside",
+        "cardinality",
+        "hole direction",
+        "reverse channel",
+        "pair floor",
+        "hole bound",
+        "objective coefficient",
+        "objective offset",
+        "assumption"
+      ],
+      "damaged_vectors_rejected": [
+        "float values",
+        "boolean values",
+        "truncated vector",
+        "extra vector value",
+        "all zero",
+        "all one",
+        "covered marked hole",
+        "hole marked covered",
+        "fixed membership flipped",
+        "fractional uncovered indicator"
+      ],
+      "exact_schema_audit": {
+        "exact_hole_channels": 560,
+        "fixed_blocks": 2002,
+        "fixed_selected": 29,
+        "free_blocks": 2366,
+        "free_selected": 35,
+        "holes": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "linear_rows": 1242,
+        "pair_floor_rows": 120,
+        "variables": 4928
+      },
+      "model_sha256": "41d4119fb1c8ee9587b9b0f90283a4684ed7772ea691272c7c2cedca51143ce7",
+      "number": 2,
+      "pivot": [
+        1,
+        9
+      ],
+      "positive_baseline_assignment": true
+    }
+  ],
+  "ortools_version": "9.15.6755",
+  "passed": true,
+  "producer_source_sha256": "708b31333b659e864f9ee4ab37c7ae9909833b13f7c64a229b4f6fbc6b2abdc7",
+  "scope": "No D3/D4/core restrictions are imposed. A partial may fail those diagnostics. UNKNOWN/timeouts are inconclusive. CP-SAT INFEASIBLE is not an independently checked theorem. No unrestricted lower-bound or existence claim follows from this gate.",
+  "solver_launches": 0,
+  "source_sha256": "95521df9884050309d437a342134148cedcc711a6a7f3cb29a00aec7a07dbd75"
+}

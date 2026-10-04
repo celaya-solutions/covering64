@@ -1,0 +1,670 @@
+{
+  "checked_at_utc": "2026-10-04T19:29:32.832131+00:00",
+  "entries": {
+    "C(15,4,2)": {
+      "imps": [
+        [
+          "19",
+          "Random Greedy Covering",
+          "",
+          "1997-01-21 00:00:00"
+        ],
+        [
+          "19",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ],
+      "low_bd": 19,
+      "size": 19
+    },
+    "C(16,5,3)": {
+      "imps": [
+        [
+          "65",
+          "",
+          "Rade Belic",
+          "1997-08-06 00:00:00"
+        ],
+        [
+          "68",
+          "",
+          "JCD article",
+          "1996-11-14 17:08:00"
+        ]
+      ],
+      "low_bd": 61,
+      "size": 65
+    }
+  },
+  "four_links": [
+    {
+      "canonical_sha256": "545c21cdfae81ded2be09ae84c401a91bb6a7b418beb020f8eb2994dc4cebb07",
+      "existing_shape": 47,
+      "map_to_existing_link_labels": {
+        "1": 6,
+        "2": 13,
+        "3": 11,
+        "4": 8,
+        "5": 1,
+        "6": 14,
+        "7": 15,
+        "8": 7,
+        "9": 2,
+        "10": 5,
+        "11": 10,
+        "12": 3,
+        "13": 9,
+        "14": 4,
+        "15": 12
+      },
+      "name": "B3",
+      "numeric_labels": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "a": 10,
+        "b": 11,
+        "c": 12,
+        "d": 13,
+        "e": 14,
+        "f": 15
+      },
+      "package": {
+        "blocks": 19,
+        "canonical_sha256": "545c21cdfae81ded2be09ae84c401a91bb6a7b418beb020f8eb2994dc4cebb07",
+        "covered": 105,
+        "k": 4,
+        "multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "pair_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "t": 2,
+        "total_incidences": 114,
+        "triples": 105,
+        "uncovered": [],
+        "v": 15,
+        "valid": true
+      },
+      "printed_page": 195,
+      "standalone": {
+        "blocks": 19,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "545c21cdfae81ded2be09ae84c401a91bb6a7b418beb020f8eb2994dc4cebb07",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "covered_subsets": 105,
+        "covers_all_subsets": true,
+        "expected_blocks": 19,
+        "expected_subset_incidences": 114,
+        "parameters": {
+          "k": 4,
+          "t": 2,
+          "v": 15
+        },
+        "point_replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "required_subsets": 105,
+        "total_subset_incidences": 114,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "standard_library_pair_histogram": {
+        "1": 96,
+        "2": 9
+      },
+      "symbols": [
+        "1234",
+        "1598",
+        "25af",
+        "35be",
+        "45cd",
+        "9ad4",
+        "9bf2",
+        "9ce5",
+        "67a5",
+        "68b4",
+        "78c2",
+        "6cf1",
+        "6de2",
+        "7bd1",
+        "7ef4",
+        "8ae1",
+        "8df3",
+        "abc3",
+        "9673"
+      ],
+      "target_anchored_19_pentads_sha256": "25631a5b2b783bc2963f9927fee464e83e857b39f1d45f6df6cc0b617f4c322d",
+      "target_link_sha256": "500d805681fbe5e3631fe9c4570518f54b21d14e04963930ba429daceff1e674",
+      "target_witness": "experiments/2026-10-03/link-hub-independent/links/C15-shape-47-solution-042.txt"
+    },
+    {
+      "canonical_sha256": "9ea3c48099b5e5a8521c5624822694ee5ceacdad26ce7a37d5e0edc1dd552a53",
+      "existing_shape": 44,
+      "map_to_existing_link_labels": {
+        "1": 10,
+        "2": 6,
+        "3": 13,
+        "4": 9,
+        "5": 1,
+        "6": 15,
+        "7": 14,
+        "8": 3,
+        "9": 8,
+        "10": 5,
+        "11": 7,
+        "12": 12,
+        "13": 4,
+        "14": 11,
+        "15": 2
+      },
+      "name": "B4",
+      "numeric_labels": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "a": 10,
+        "b": 11,
+        "c": 12,
+        "d": 13,
+        "e": 14,
+        "f": 15
+      },
+      "package": {
+        "blocks": 19,
+        "canonical_sha256": "9ea3c48099b5e5a8521c5624822694ee5ceacdad26ce7a37d5e0edc1dd552a53",
+        "covered": 105,
+        "k": 4,
+        "multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "pair_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "t": 2,
+        "total_incidences": 114,
+        "triples": 105,
+        "uncovered": [],
+        "v": 15,
+        "valid": true
+      },
+      "printed_page": 196,
+      "standalone": {
+        "blocks": 19,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "9ea3c48099b5e5a8521c5624822694ee5ceacdad26ce7a37d5e0edc1dd552a53",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "covered_subsets": 105,
+        "covers_all_subsets": true,
+        "expected_blocks": 19,
+        "expected_subset_incidences": 114,
+        "parameters": {
+          "k": 4,
+          "t": 2,
+          "v": 15
+        },
+        "point_replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "required_subsets": 105,
+        "total_subset_incidences": 114,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "standard_library_pair_histogram": {
+        "1": 96,
+        "2": 9
+      },
+      "symbols": [
+        "1234",
+        "1598",
+        "25af",
+        "35be",
+        "45cd",
+        "9ad3",
+        "9bf4",
+        "9ce2",
+        "67a5",
+        "68b2",
+        "78c3",
+        "6cf3",
+        "6de1",
+        "7bd2",
+        "7ef1",
+        "8ae4",
+        "8df5",
+        "abc1",
+        "9674"
+      ],
+      "target_anchored_19_pentads_sha256": "38da723db275653d9eb260899e16aafb6326c549ab192e1266acabb3b4b83bd8",
+      "target_link_sha256": "5303206fa143dd205fe8df9d4ebb8d68eb7dc8be98f109930cfe23bc7d79f992",
+      "target_witness": "experiments/2026-10-03/link-hub-independent/links/C15-shape-44-solution-001.txt"
+    },
+    {
+      "canonical_sha256": "f2ed151cd95c4f5bac4554d7642d59bad85f45a51a1273053bef20ae23233732",
+      "existing_shape": 4,
+      "map_to_existing_link_labels": {
+        "1": 12,
+        "2": 11,
+        "3": 8,
+        "4": 3,
+        "5": 1,
+        "6": 2,
+        "7": 5,
+        "8": 6,
+        "9": 4,
+        "10": 15,
+        "11": 14,
+        "12": 7,
+        "13": 10,
+        "14": 9,
+        "15": 13
+      },
+      "name": "D1",
+      "numeric_labels": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "a": 9,
+        "b": 10,
+        "c": 11,
+        "d": 12,
+        "e": 13,
+        "f": 14,
+        "g": 15
+      },
+      "package": {
+        "blocks": 19,
+        "canonical_sha256": "f2ed151cd95c4f5bac4554d7642d59bad85f45a51a1273053bef20ae23233732",
+        "covered": 105,
+        "k": 4,
+        "multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "pair_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "t": 2,
+        "total_incidences": 114,
+        "triples": 105,
+        "uncovered": [],
+        "v": 15,
+        "valid": true
+      },
+      "printed_page": 199,
+      "standalone": {
+        "blocks": 19,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "f2ed151cd95c4f5bac4554d7642d59bad85f45a51a1273053bef20ae23233732",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "covered_subsets": 105,
+        "covers_all_subsets": true,
+        "expected_blocks": 19,
+        "expected_subset_incidences": 114,
+        "parameters": {
+          "k": 4,
+          "t": 2,
+          "v": 15
+        },
+        "point_replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "required_subsets": 105,
+        "total_subset_incidences": 114,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "standard_library_pair_histogram": {
+        "1": 96,
+        "2": 9
+      },
+      "symbols": [
+        "1234",
+        "5678",
+        "abcd",
+        "1a8g",
+        "1b7e",
+        "1c5f",
+        "1d6g",
+        "2a7f",
+        "2b5g",
+        "2c6e",
+        "2d8e",
+        "3a5e",
+        "3b6f",
+        "3c7g",
+        "3d8f",
+        "4a56",
+        "4bc8",
+        "4d75",
+        "4efg"
+      ],
+      "target_anchored_19_pentads_sha256": "747e6e1fb714443883666c1bcdf30243a89d2b9b406ea511130c839d27fa440b",
+      "target_link_sha256": "82e3e2888acfd21b2ac95c2cfe30eb8e0d9418eab332398866f5b22ae8a8d39e",
+      "target_witness": "experiments/2026-10-03/link-hub-independent/links/C15-shape-4-solution-004.txt"
+    },
+    {
+      "canonical_sha256": "1f8fa29a717fb4298ad12afba5b0e173a3810b9bce27312729e0940f690e73d0",
+      "existing_shape": 1,
+      "map_to_existing_link_labels": {
+        "1": 12,
+        "2": 15,
+        "3": 8,
+        "4": 2,
+        "5": 1,
+        "6": 3,
+        "7": 5,
+        "8": 7,
+        "9": 4,
+        "10": 11,
+        "11": 10,
+        "12": 6,
+        "13": 9,
+        "14": 14,
+        "15": 13
+      },
+      "name": "D2",
+      "numeric_labels": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "a": 9,
+        "b": 10,
+        "c": 11,
+        "d": 12,
+        "e": 13,
+        "f": 14,
+        "g": 15
+      },
+      "package": {
+        "blocks": 19,
+        "canonical_sha256": "1f8fa29a717fb4298ad12afba5b0e173a3810b9bce27312729e0940f690e73d0",
+        "covered": 105,
+        "k": 4,
+        "multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "pair_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "t": 2,
+        "total_incidences": 114,
+        "triples": 105,
+        "uncovered": [],
+        "v": 15,
+        "valid": true
+      },
+      "printed_page": 199,
+      "standalone": {
+        "blocks": 19,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "1f8fa29a717fb4298ad12afba5b0e173a3810b9bce27312729e0940f690e73d0",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 96,
+          "2": 9
+        },
+        "covered_subsets": 105,
+        "covers_all_subsets": true,
+        "expected_blocks": 19,
+        "expected_subset_incidences": 114,
+        "parameters": {
+          "k": 4,
+          "t": 2,
+          "v": 15
+        },
+        "point_replication": {
+          "1": 5,
+          "2": 5,
+          "3": 5,
+          "4": 5,
+          "5": 6,
+          "6": 5,
+          "7": 5,
+          "8": 5,
+          "9": 5,
+          "10": 5,
+          "11": 5,
+          "12": 5,
+          "13": 5,
+          "14": 5,
+          "15": 5
+        },
+        "required_subsets": 105,
+        "total_subset_incidences": 114,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "standard_library_pair_histogram": {
+        "1": 96,
+        "2": 9
+      },
+      "symbols": [
+        "1234",
+        "5678",
+        "abcd",
+        "1a8g",
+        "1b7e",
+        "1c5f",
+        "1d6g",
+        "2a7f",
+        "2b5g",
+        "2c6e",
+        "2d8f",
+        "3a5e",
+        "3b6f",
+        "3c7g",
+        "3d8e",
+        "4a56",
+        "4bc8",
+        "4d75",
+        "4efg"
+      ],
+      "target_anchored_19_pentads_sha256": "008feb4abfdd4f841b388f60921e202a91c31ac7783cdc1066eac54a82c77912",
+      "target_link_sha256": "0d7a1de0193904f954baab2bd7dd3bcbd941ec28f8622451861ae4bc850e54c9",
+      "target_witness": "experiments/2026-10-03/link-hub-independent/links/C15-shape-1-solution-006.txt"
+    }
+  ],
+  "old_host_failure_receipt": {
+    "accessed_utc": "2026-10-04T19:14:28.256210+00:00",
+    "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "url": "https://ljcr.dmgordon.org/cover/show_cover.php?v=16&k=5&t=3"
+  },
+  "prior_mapping_sha256": "855e7b06c5aba2b4f69190fc902d81e91c6bc32941f81a288febfcf3ac0bce94",
+  "proof_scope": "Fresh visual primary-source read and direct witness/isomorphism checks. No rerun of exhaustive link enumeration or independent proof of all published case splits.",
+  "solvers_launched": 0,
+  "source_scope": "March 2026 frozen official archive; not a claim about later unpublished or repository-only updates",
+  "sources": [
+    {
+      "bytes": 753613,
+      "local_path": "experiments/scratch/constructive-escape-literature-20261004/allston-1988.pdf",
+      "sha256": "dd229074b271c22475bae2993daa9cf089a988f3670237c742e22246dcb93e8d",
+      "url": "https://combinatorialpress.com/article/jcmcc/Volume%2004/vol-004-paper%2015.pdf"
+    },
+    {
+      "bytes": 8319503,
+      "local_path": "experiments/scratch/constructive-escape-literature-20261004/zenodo-coverdata.json",
+      "sha256": "9e7da3710921066b10234fdc95379a18df3a7d3ae0f8a08ae188ea6bbca92f87",
+      "url": "https://zenodo.org/api/records/19735294/files/coverdata.json/content"
+    },
+    {
+      "bytes": 2190,
+      "local_path": "experiments/scratch/constructive-escape-literature-20261004/zenodo-README.md",
+      "sha256": "8e9d653878c36663c6b6ce60b321a86ef4514def41f983ad3123d4e47e5afb1d",
+      "url": "https://zenodo.org/api/records/19735294/files/README.md/content"
+    },
+    {
+      "bytes": 4646,
+      "local_path": "experiments/scratch/constructive-escape-literature-20261004/zenodo-covering_code.py",
+      "sha256": "1ece353e2cacac5d3572b714510bdc5846443c0cd5ad23c037604ef7fed54d46",
+      "url": "https://zenodo.org/api/records/19735294/files/covering_code.py/content"
+    },
+    {
+      "bytes": 9200,
+      "local_path": "experiments/scratch/constructive-escape-literature-20261004/gordon-covering.html",
+      "sha256": "a5cc2312afc8dedd17c52410c34d518396d0a42982b2af429c8dc54f9e7170e3",
+      "url": "https://dmgordon.org/covering-designs/"
+    }
+  ],
+  "zenodo_concept_id": 10779736,
+  "zenodo_record_id": 19735294
+}

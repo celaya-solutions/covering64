@@ -1,0 +1,538 @@
+{
+  "abstract_campaign_controls": {
+    "campaigns": [
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ]
+        ],
+        "name": "no improvement",
+        "stop_reason": "no_strict_improvement"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ]
+        ],
+        "name": "one incomplete passed=False",
+        "stop_reason": "incomplete"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ]
+        ],
+        "name": "one incomplete passed=True",
+        "stop_reason": "incomplete"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ]
+        ],
+        "name": "two incomplete passed=False",
+        "stop_reason": "incomplete"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ]
+        ],
+        "name": "two incomplete passed=True",
+        "stop_reason": "incomplete"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ]
+        ],
+        "name": "one incomplete cover",
+        "stop_reason": "incomplete"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ]
+        ],
+        "name": "two incomplete cover",
+        "stop_reason": "incomplete"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ]
+        ],
+        "name": "complete first shell cover",
+        "stop_reason": "cover_observed"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ]
+        ],
+        "name": "complete both cover",
+        "stop_reason": "cover"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ],
+          [
+            2,
+            "one",
+            "round-1"
+          ],
+          [
+            2,
+            "two",
+            "round-1"
+          ],
+          [
+            3,
+            "one",
+            "round-2"
+          ],
+          [
+            3,
+            "two",
+            "round-2"
+          ],
+          [
+            4,
+            "one",
+            "round-3"
+          ],
+          [
+            4,
+            "two",
+            "round-3"
+          ]
+        ],
+        "name": "four round cap",
+        "stop_reason": "round_limit"
+      },
+      {
+        "calls": [
+          [
+            1,
+            "one",
+            "base"
+          ],
+          [
+            1,
+            "two",
+            "base"
+          ],
+          [
+            2,
+            "one",
+            "two"
+          ],
+          [
+            2,
+            "two",
+            "two"
+          ]
+        ],
+        "name": "full family lex tie then stop",
+        "stop_reason": "no_strict_improvement"
+      }
+    ],
+    "choice_rejections": [
+      "one shell",
+      "three shells",
+      "incomplete choice",
+      "failed choice",
+      "equal-rank choice",
+      "worse-rank choice"
+    ],
+    "synthetic_states_only": true
+  },
+  "budget": {
+    "budget_transfer": false,
+    "relaunch": false,
+    "seconds_per_shell": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "closure_rule": "Only both completed shells with no strict rank improvement justify no improving radius-two neighbor at that exact center under fixed filters. Round limit, incomplete outcomes, and early covers imply no such closure.",
+  "damaged_families_rejected": [
+    "63 blocks",
+    "duplicate block",
+    "65 blocks",
+    "outside ID"
+  ],
+  "decision": "GO",
+  "grammar_controls": {
+    "accepted": [
+      "no improvements",
+      "one improvement"
+    ],
+    "rejected": [
+      "missing final",
+      "wrong start",
+      "wrong final",
+      "unknown middle",
+      "null event",
+      "list event",
+      "integer event",
+      "boolean time",
+      "NaN time",
+      "infinite time",
+      "negative time",
+      "missing time",
+      "invalid JSON"
+    ]
+  },
+  "independent_sources": {
+    "check.py": "ffede4615bf6624a75ff2c451168662038ab466e9c918a40f7b19b0c698e4231",
+    "controls.py": "086f2fe9de13ec47ac75a17d929c04a71055a112a5c7806d52e47c6b96818311"
+  },
+  "initial_direct_metrics": {
+    "D2max": 28,
+    "D2sum": 28,
+    "D3": 0,
+    "D4": 0,
+    "core_overlaps": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "holes": 12,
+    "minimum_pair_count": 5
+  },
+  "initial_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+  "launch_authority": "Root only; one fixed campaign after binding this gate hash.",
+  "manifest_sha256": "c985387e9429ca012c001dc03a105b702c8c231b55d005515e478c267cd5c17c",
+  "max_rounds": 4,
+  "max_shell_launches": 8,
+  "native_binary_invocations": 0,
+  "one_binary_sha256": "088652a71a4ddeafb98d0f0fd22e4d074d34fb77384b54d05b9e7e20dcc4173d",
+  "optimizer_launches": 0,
+  "passed": true,
+  "prior_evidence": {
+    "weak-pair-swap-scan-independent/gate.json": "3f6247263cb75a0258357e2e356158388fad434e8b89bb6c9210f9871adc889c",
+    "weak-pair-two-swap-scan-v2-independent/gate.json": "77c9f3fa9eccfb89229be8d9a09bdc4e26e64a0a296b19af44179473059a9a64",
+    "weak-pair-two-swap-scan-v2-runtime-independent/postcheck.json": "c2922a53aae7a51154b2006f457d88df886ab115fa6b88993920d04c62eb8d41"
+  },
+  "raw_files": {
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.json": "d1336a5190b8db25d57914c95d193de4c09a7bdca696674abc40d98d53d14c98",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.txt": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.json": "9403e8e3c2587facaba66ef6719d03ed2747d1b59829344aee6e9614eb73fe07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.txt": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.json": "f08e7f56d413dd4d5ef640eb4a8559130f03766da1027d686db28e4cce9e9476",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.txt": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.json": "19c8eae6fa040268464d6243c0955709572c146c1d4ac2a8fa46430a28a71dee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.txt": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.json": "10f8bdda2e5eb165b67ec51656bdc4a2f70bada10c01e3d698ed9f10120737d2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.txt": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/center.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/scan-ties.json": "d4e1ae7ae8370ab659260c558c6cc04ff3bf4bac82a7392be838461c40bcb232",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/shell-result.json": "fc11f5c8da7932343a8dae1e58cd82a8a48771a6ce747452c2c90c7914f22eee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/damaged-candidate/round-01-two/stdout.jsonl": "3b79235a65d81e53b5aaa48da0f1a127a94ab33f837ba7574555d4e063a300b2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.json": "d1336a5190b8db25d57914c95d193de4c09a7bdca696674abc40d98d53d14c98",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.txt": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.json": "9403e8e3c2587facaba66ef6719d03ed2747d1b59829344aee6e9614eb73fe07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.txt": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.json": "f08e7f56d413dd4d5ef640eb4a8559130f03766da1027d686db28e4cce9e9476",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.txt": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.json": "19c8eae6fa040268464d6243c0955709572c146c1d4ac2a8fa46430a28a71dee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.txt": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.json": "10f8bdda2e5eb165b67ec51656bdc4a2f70bada10c01e3d698ed9f10120737d2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.txt": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.json": "d4157617152cd6b0d20e26ec128e7d1e821a1a31e04344c4b58d5b56ff87f689",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/center.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/scan-ties.json": "b4c1ebbdddeadcfb06c0b84a30771c5932e7988bf505bc93c5dbe651ad9717ab",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/shell-result.json": "91606d21cbda4517b9b787ebb9fab300d078c83669fa98254e240e4057f78e6e",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/duplicate-ties/round-01-two/stdout.jsonl": "80a3c0fe731f8b830e81eeaee1bf7f48ec51676bb4344c6df6a9bbf4268f7609",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.json": "d1336a5190b8db25d57914c95d193de4c09a7bdca696674abc40d98d53d14c98",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.txt": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.json": "9403e8e3c2587facaba66ef6719d03ed2747d1b59829344aee6e9614eb73fe07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.txt": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.json": "f08e7f56d413dd4d5ef640eb4a8559130f03766da1027d686db28e4cce9e9476",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.txt": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.json": "19c8eae6fa040268464d6243c0955709572c146c1d4ac2a8fa46430a28a71dee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.txt": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.json": "10f8bdda2e5eb165b67ec51656bdc4a2f70bada10c01e3d698ed9f10120737d2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.txt": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.json": "d4157617152cd6b0d20e26ec128e7d1e821a1a31e04344c4b58d5b56ff87f689",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/center.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/scan-ties.json": "99a642ab60e5ffd3878f05a9dfaefd029ecf6e0c32eafec93b9975fb028ac216",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/shell-result.json": "4c433cfe917c5fb51bbb46d49a983e7daaa78fff1882da497b54a98079995bb8",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/kill-timeout/round-01-two/stdout.jsonl": "80a3c0fe731f8b830e81eeaee1bf7f48ec51676bb4344c6df6a9bbf4268f7609",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.json": "d1336a5190b8db25d57914c95d193de4c09a7bdca696674abc40d98d53d14c98",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.txt": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.json": "9403e8e3c2587facaba66ef6719d03ed2747d1b59829344aee6e9614eb73fe07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.txt": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.json": "f08e7f56d413dd4d5ef640eb4a8559130f03766da1027d686db28e4cce9e9476",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.txt": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.json": "19c8eae6fa040268464d6243c0955709572c146c1d4ac2a8fa46430a28a71dee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.txt": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.json": "10f8bdda2e5eb165b67ec51656bdc4a2f70bada10c01e3d698ed9f10120737d2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.txt": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.json": "d4157617152cd6b0d20e26ec128e7d1e821a1a31e04344c4b58d5b56ff87f689",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/center.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/scan-ties.json": "99a642ab60e5ffd3878f05a9dfaefd029ecf6e0c32eafec93b9975fb028ac216",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/shell-result.json": "8be8a2bcd2b86d9909600a68885bc031399d31dca059d94a94f60f0f4d9ae1a9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/missing-final/round-01-two/stdout.jsonl": "d5a01b2c7c9819e27196e835dfd3ce5e9e88a1569cbebe3ef40364d622193fdb",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2.json": "c438649684485c6c5ca9c42e338969ec31307b4048edcb0f13a089595ae40e60",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2.txt": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a.json": "e5ae449b4c3642af6089ed9e3fa3e09c243584762b0fdfeff544435495e75862",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7.json": "fe69190d64a08482d45e49762962df00a5388a13ee013e4eca46cc981cc3b047",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7.txt": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475.json": "4fc412bcb7ebd1b576886190ac7be10b444581bb9bab8c50824656441fb1461d",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475.txt": "7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35.json": "92dd4079073674a7c33035375e5da9e148d3418e7a5f2ffe3a3e410cf385d5f2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35.txt": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b.json": "495c785ba226a0b953b108b54903f455a08be5938324c229682ee7388194fc41",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/candidates/f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b.txt": "f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/center.txt": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/scan-ties.json": "28c4948e1daf78a4a51245f4c54ff71087f386a67d835965c9bec789a9be5de4",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/shell-result.json": "f728342aca76ecd56bf265f7d0087089459e6601f1288e0613f3a83b86d883e8",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/nonobject-event/round-01-one/stdout.jsonl": "11d41fe525242981f795b842c5787bc5c9b18c7fba57ab3eef59328da63a4cb8",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.json": "d1336a5190b8db25d57914c95d193de4c09a7bdca696674abc40d98d53d14c98",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.txt": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.json": "9403e8e3c2587facaba66ef6719d03ed2747d1b59829344aee6e9614eb73fe07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.txt": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.json": "f08e7f56d413dd4d5ef640eb4a8559130f03766da1027d686db28e4cce9e9476",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.txt": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.json": "19c8eae6fa040268464d6243c0955709572c146c1d4ac2a8fa46430a28a71dee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.txt": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.json": "10f8bdda2e5eb165b67ec51656bdc4a2f70bada10c01e3d698ed9f10120737d2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.txt": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.json": "d4157617152cd6b0d20e26ec128e7d1e821a1a31e04344c4b58d5b56ff87f689",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/center.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/scan-ties.json": "99a642ab60e5ffd3878f05a9dfaefd029ecf6e0c32eafec93b9975fb028ac216",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/shell-result.json": "e8be9c517827e1b4e5a026814515cb5cfb5506db40ba19162390382de0d226a0",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/terminate-timeout/round-01-two/stdout.jsonl": "80a3c0fe731f8b830e81eeaee1bf7f48ec51676bb4344c6df6a9bbf4268f7609",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2.json": "c438649684485c6c5ca9c42e338969ec31307b4048edcb0f13a089595ae40e60",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2.txt": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a.json": "e5ae449b4c3642af6089ed9e3fa3e09c243584762b0fdfeff544435495e75862",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7.json": "fe69190d64a08482d45e49762962df00a5388a13ee013e4eca46cc981cc3b047",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7.txt": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475.json": "4fc412bcb7ebd1b576886190ac7be10b444581bb9bab8c50824656441fb1461d",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475.txt": "7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35.json": "92dd4079073674a7c33035375e5da9e148d3418e7a5f2ffe3a3e410cf385d5f2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35.txt": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b.json": "495c785ba226a0b953b108b54903f455a08be5938324c229682ee7388194fc41",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/candidates/f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b.txt": "f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/center.txt": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/scan-ties.json": "28c4948e1daf78a4a51245f4c54ff71087f386a67d835965c9bec789a9be5de4",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/shell-result.json": "27652d42102b74ba86d78029c10bdb167816bd17d8fa87cb70c0417c171deb58",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/unknown-event/round-01-one/stdout.jsonl": "8cfe16cc82f8f060b55ab2ab2b8b03a38ec68eb467bc04052662625ed444ee03",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidate-audit.json": "a135bef956c6bef61b33894f46441e3d6bc6a3486496a156b2830a6f2865e1ef",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2.json": "c438649684485c6c5ca9c42e338969ec31307b4048edcb0f13a089595ae40e60",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2.txt": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a.json": "e5ae449b4c3642af6089ed9e3fa3e09c243584762b0fdfeff544435495e75862",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7.json": "fe69190d64a08482d45e49762962df00a5388a13ee013e4eca46cc981cc3b047",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7.txt": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475.json": "4fc412bcb7ebd1b576886190ac7be10b444581bb9bab8c50824656441fb1461d",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475.txt": "7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35.json": "92dd4079073674a7c33035375e5da9e148d3418e7a5f2ffe3a3e410cf385d5f2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35.txt": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b.json": "495c785ba226a0b953b108b54903f455a08be5938324c229682ee7388194fc41",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/candidates/f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b.txt": "f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/center.txt": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/scan-ties.json": "28c4948e1daf78a4a51245f4c54ff71087f386a67d835965c9bec789a9be5de4",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/shell-result.json": "49a92c1b21ef8b40788bf360a6e49731a6ed92bac1b153243a6e60517e4c34eb",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-one/round-01-one/stdout.jsonl": "2997cc76ff16f6a18c00bf1a7a6c98c23ca62c1b945f389be5e6608d70a9a1e3",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidate-audit.json": "38f6c65c1b638f9ae7aa7544c048046463e8157d0f48eef946e5a55d9c3f1c07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.json": "d1336a5190b8db25d57914c95d193de4c09a7bdca696674abc40d98d53d14c98",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235.txt": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.json": "9403e8e3c2587facaba66ef6719d03ed2747d1b59829344aee6e9614eb73fe07",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59.txt": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.json": "f08e7f56d413dd4d5ef640eb4a8559130f03766da1027d686db28e4cce9e9476",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9.txt": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.json": "19c8eae6fa040268464d6243c0955709572c146c1d4ac2a8fa46430a28a71dee",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74.txt": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.json": "10f8bdda2e5eb165b67ec51656bdc4a2f70bada10c01e3d698ed9f10120737d2",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b.txt": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.json": "d4157617152cd6b0d20e26ec128e7d1e821a1a31e04344c4b58d5b56ff87f689",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/candidates/c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/center.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/scan-ties.json": "99a642ab60e5ffd3878f05a9dfaefd029ecf6e0c32eafec93b9975fb028ac216",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/shell-result.json": "5a0a62a6e7061524425d7e6c0400d6acdf6305b6f49b46bc0968c0e5fc5c2d65",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-descent-independent-20261004/valid-two/round-01-two/stdout.jsonl": "80a3c0fe731f8b830e81eeaee1bf7f48ec51676bb4344c6df6a9bbf4268f7609"
+  },
+  "recorded_output_process_controls": {
+    "controls": [
+      {
+        "complete": true,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "valid-one",
+        "passed": true,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": true,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "valid-two",
+        "passed": true,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135,
+          5
+        ],
+        "name": "terminate-timeout",
+        "passed": false,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135,
+          5,
+          null
+        ],
+        "name": "kill-timeout",
+        "passed": false,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "duplicate-ties",
+        "passed": false,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "damaged-candidate",
+        "passed": false,
+        "rejected_candidates": 2,
+        "saved_families": 5
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "nonobject-event",
+        "passed": false,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "unknown-event",
+        "passed": false,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      },
+      {
+        "complete": false,
+        "fake_process_calls": [
+          135
+        ],
+        "name": "missing-final",
+        "passed": false,
+        "rejected_candidates": 0,
+        "saved_families": 6
+      }
+    ],
+    "fake_process_launches": 9,
+    "optimizer_launches": 0
+  },
+  "runner_sha256": "cd36b47116fb4ac44f52481cbe104f2f1df2b6acf972c4f7ab7058a7e6a70d91",
+  "scope": "Wrapper composition over unchanged finite-shell kernels. Abstract state fixtures do not claim real covering families. Replayed terminal logs are explicitly synthetic process controls and were not generated by new scans. No global lower bound.",
+  "solver_launches": 0,
+  "two_binary_sha256": "0b38f62a4b189965248eea7c5dfbc8499c22804d7abf83c0b386f24c2edfda1c"
+}

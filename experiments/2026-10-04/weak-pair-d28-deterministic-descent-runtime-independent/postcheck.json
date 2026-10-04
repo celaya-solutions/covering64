@@ -1,0 +1,2415 @@
+{
+  "budget": {
+    "budget_transfer": false,
+    "relaunch": false,
+    "seconds_per_shell": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "checked_distinct_families": 7,
+  "cover_found": false,
+  "enumeration_evidence": "Previously audited unchanged finite kernels, fixed per-round centers, safe-pruning proof, exact terminal accounting, normal exit where complete, and unique exchange identities for recorded families.",
+  "enumeration_relaunches": 0,
+  "families": [
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1154,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 28,
+        "D2sum": 28,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-c6d132069270ead5.txt",
+      "sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1154,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1493,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 27,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "pair_multiplicities": {
+          "5": 82,
+          "6": 36,
+          "7": 2
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-166501a1182efaa3.txt",
+      "sha256": "166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1359,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2042,
+        2057,
+        2140,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 27,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "pair_multiplicities": {
+          "5": 83,
+          "6": 34,
+          "7": 3
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            8,
+            9,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-6bbba669ef725499.txt",
+      "sha256": "6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            8,
+            9,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        601,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1493,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 27,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "pair_multiplicities": {
+          "5": 82,
+          "6": 36,
+          "7": 2
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 21,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-d8b22ef1571aef0f.txt",
+      "sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 21,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1359,
+        1391,
+        1429,
+        1459,
+        1493,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 27,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "pair_multiplicities": {
+          "5": 82,
+          "6": 36,
+          "7": 2
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-f071f0fe5d5d49ee.txt",
+      "sha256": "f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 458,
+          "2": 88,
+          "3": 2
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1154,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2756,
+        2764,
+        2869,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3615,
+        3665,
+        3739,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 27,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 460,
+          "2": 84,
+          "3": 4
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 30,
+          "7": 5
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-971e6246081d5bb3.txt",
+      "sha256": "971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 460,
+          "2": 84,
+          "3": 4
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "cover_found": false,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        601,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1493,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3759,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4201,
+        4277
+      ],
+      "metrics": {
+        "D2max": 26,
+        "D2sum": 26,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 457,
+          "2": 90,
+          "3": 1
+        },
+        "pair_multiplicities": {
+          "5": 80,
+          "6": 40
+        },
+        "replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 19,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-deterministic-descent-runtime-independent/family-f8d2525acd5dcb7d.txt",
+      "sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 457,
+          "2": 90,
+          "3": 1
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 19,
+          "11": 21,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 19,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    }
+  ],
+  "family_references": [
+    {
+      "label": "initial",
+      "sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f"
+    },
+    {
+      "label": "round-1-one-candidate",
+      "sha256": "166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef"
+    },
+    {
+      "label": "round-1-two-candidate",
+      "sha256": "6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875"
+    },
+    {
+      "label": "round-1-two-candidate",
+      "sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03"
+    },
+    {
+      "label": "round-1-two-candidate",
+      "sha256": "f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6"
+    },
+    {
+      "label": "round-1-two-candidate",
+      "sha256": "971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92"
+    },
+    {
+      "label": "adopted-1",
+      "sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03"
+    },
+    {
+      "label": "round-2-two-candidate",
+      "sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d"
+    },
+    {
+      "label": "adopted-2",
+      "sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d"
+    }
+  ],
+  "final_center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+  "final_rank": [
+    12,
+    26
+  ],
+  "initial_rank": [
+    12,
+    28
+  ],
+  "limitation": "Unrecorded trial metrics were not individually recomputed; no second enumeration. Any local-closure claim is limited to strict rank improvements within two exchanges of the exact final center under named filters. Plateau paths and general existence remain open.",
+  "local_closure": true,
+  "manifest_sha256": "c985387e9429ca012c001dc03a105b702c8c231b55d005515e478c267cd5c17c",
+  "optimizer_launches": 0,
+  "oracle_sha256": "7fc14c0e2078894a03cc8945c94cb8f9987e79f4780d49558d311e83f0d0ba92",
+  "passed": true,
+  "pre_run_gate_sha256": "88a0e128b20bbff8287ee50749cdd8e46bd1267b30191faad3879e19c13f3c05",
+  "producer_result_sha256": "bb0d1335d340935346a3d7733dde2e0115979202abe873f7bc8c28d5adfbd790",
+  "rounds": 3,
+  "runner_sha256": "cd36b47116fb4ac44f52481cbe104f2f1df2b6acf972c4f7ab7058a7e6a70d91",
+  "runtime_raw_bindings": {
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/candidate-audit.json": "d5291096bed862c6f2aa2839e8427374553af290f6f94c2a2900d7aa1ce6d7a8",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/candidates/166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef.json": "525821553d3cf535fbc05541e05d9244c74d37443c6f2b7f315d3a7071b5d9b6",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/candidates/166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef.txt": "166501a1182efaa3f8832628192f4770f3f5aefd71a45874de8774bc40b87eef",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/center.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/scan-ties.json": "3110b0c0436767ec1577231045936217d90b0940bb8d2b351d2fa80af643fda5",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/shell-result.json": "1c6f0e4055bfc8ad583e0e1b8260b388f668407eb371cfccfe7e6e7816a67f38",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-one/stdout.jsonl": "61f5729d5e889a93d2981bf018eab185f62181d278c7f5f68269d675a6748b0f",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidate-audit.json": "bcabfff9d43417f4316406ea328bfc51cdd58d77242c04b4230c1b301a0c9783",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875.json": "fe35b5322c13a48c523807503724fba34da4c50b75ce3f665c1a99cd621067eb",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875.txt": "6bbba669ef7254992facda32e2e6f1af7e027227220108335fcc755071fa6875",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92.json": "9d50e18048561d560ac2a670fe2e1642fab4f6808f60be4a66d1f84ffd13f324",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92.txt": "971e6246081d5bb3abcc463fc69949b1ccfbeba30287ee5e6bc2fb6400f79b92",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03.json": "027acb624a57e6e3f7dd237e1a8f73b169e022a1ebd0c2fa8eddfda5cf87f638",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03.txt": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6.json": "eb797f39cbb419f7ea956a9c21794f6886d41ca17e5fca9dbbd1b5391f17b5ef",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/candidates/f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6.txt": "f071f0fe5d5d49ee7bda9ba6a83f4106a49c0889a46418be30d520109a39e2c6",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/center.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/scan-ties.json": "b5a997f80d2a3ca2383b669b6e9a321efcba301ce1fca00e84311f60ed04dc24",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/shell-result.json": "17eb052bac1c1b8afa10d1b1a00d6fbd9a82ecf23dc7c44a98aa6f69b07a9541",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-01-two/stdout.jsonl": "cb65229daacd63c675490b087f3971bdd3a3b49d0cc6da3cb5632e712a428571",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-one/candidate-audit.json": "e048f2db2b0f2b141dc648d219c363bcad91ec6db18a00b4253cb02e5f88d97d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-one/center.txt": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-one/scan-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-one/shell-result.json": "7736e4aa737e5b8e7b173dfbb2d77f917ff8c00a0445800821136be2f331c753",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-one/stdout.jsonl": "bb7e830f5430a08027698f2c83b03679e76c36c4f6899196e6ad688b9a328ac1",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/candidate-audit.json": "5dafcf454b9dfe52c40757c8ca192f9636b7d7e129902473a06e1b7e1338ef5e",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/candidates/f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d.json": "9de88a15bf338a6987fa93ec3af12fa1a05f81a9efbf59e919845085ba0e04b3",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/candidates/f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/center.txt": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/scan-ties.json": "13e07dd23e974ad02a99f87773a02d6834825d09e1d986cb42837503f1ea7c6b",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/shell-result.json": "9974b91864584d59fa9687f082f13d2197f563b62b09b8c2c58360458b7583cd",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-02-two/stdout.jsonl": "d12f6dfbe7d1394cc739d4d99f99b2bfd535593bb5927613cde7a347656607bb",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/candidate-audit.json": "17653df38800a9c08f20177167fe5248122275e5a57e762c88a0e338aefa20da",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/center.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/scan-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/shell-result.json": "dbfbda62c96cb0793deffc6153341eb5e58c76a1ad6c7427b0e96b5c33ad6d87",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/stdout.jsonl": "095acc7f1da2abfcff73b18decbf488f47fcb9923bac7ec02232bad7fe817d7d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/candidate-audit.json": "13a95e6c2d43645e38912001aee7bf7bd9438acdded56b887c5ba0278b393b01",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/center.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/scan-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/shell-result.json": "6099994b3db2204d00d4a3f48ff8b9d231b6726fff56d7bb92b882de8fcf4994",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/stdout.jsonl": "ce3e81d065a6885f61f96da1873fee2810073df32fed11bfd56123b7bf7a1d58",
+    "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/start.json": "db5d48f101d14c250eb599eeb0670b839fd1e2ebbab6d9e008b7ac5d3eb97909"
+  },
+  "shell_launches": 6,
+  "shells": [
+    {
+      "center_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+      "complete": true,
+      "elapsed_seconds": 0.56552433304023,
+      "final": {
+        "best_rank": [
+          12,
+          27
+        ],
+        "best_ties": 1,
+        "complete": true,
+        "evaluated": 275456,
+        "event": "final",
+        "legal": 4388,
+        "reason": "complete",
+        "seconds": 0.451103,
+        "strict_improvement_records": 1,
+        "strictly_improving_neighbors": 1,
+        "total": 275456
+      },
+      "passed": true,
+      "round": 1,
+      "saved_candidates": 1,
+      "shell": "one"
+    },
+    {
+      "center_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+      "complete": true,
+      "elapsed_seconds": 3.3219788329442963,
+      "final": {
+        "accounted": 18668272896,
+        "best_rank": [
+          12,
+          27
+        ],
+        "best_ties": 4,
+        "complete": true,
+        "eligible_generated": 767124,
+        "evaluated": 767124,
+        "event": "final",
+        "last_evaluated_ordinal": 18631147151,
+        "legal": 386069,
+        "outer_completed": 8676864,
+        "outer_started": 8676864,
+        "outer_total": 8676864,
+        "pair_floor_pruned": 18667505772,
+        "pending_eligible": 0,
+        "reason": "complete",
+        "seconds": 3.20371,
+        "strict_improvement_records": 1,
+        "strictly_improving_neighbors": 4,
+        "support_bins": [
+          3142235,
+          5249290,
+          109,
+          0,
+          1044,
+          5530,
+          23920,
+          254736
+        ],
+        "support_shell_bins": [
+          6745155910,
+          11314670060,
+          185789,
+          0,
+          2028929,
+          11984057,
+          50609845,
+          543638306
+        ],
+        "total": 18668272896
+      },
+      "passed": true,
+      "round": 1,
+      "saved_candidates": 4,
+      "shell": "two"
+    },
+    {
+      "center_sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+      "complete": true,
+      "elapsed_seconds": 0.459123499924317,
+      "final": {
+        "best_rank": [
+          12,
+          27
+        ],
+        "best_ties": 0,
+        "complete": true,
+        "evaluated": 275456,
+        "event": "final",
+        "legal": 4404,
+        "reason": "complete",
+        "seconds": 0.455267,
+        "strict_improvement_records": 0,
+        "strictly_improving_neighbors": 0,
+        "total": 275456
+      },
+      "passed": true,
+      "round": 2,
+      "saved_candidates": 0,
+      "shell": "one"
+    },
+    {
+      "center_sha256": "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+      "complete": true,
+      "elapsed_seconds": 4.330111333052628,
+      "final": {
+        "accounted": 18668272896,
+        "best_rank": [
+          12,
+          26
+        ],
+        "best_ties": 1,
+        "complete": true,
+        "eligible_generated": 1178064,
+        "evaluated": 1178064,
+        "event": "final",
+        "last_evaluated_ordinal": 18649733694,
+        "legal": 439512,
+        "outer_completed": 8676864,
+        "outer_started": 8676864,
+        "outer_total": 8676864,
+        "pair_floor_pruned": 18667094832,
+        "pending_eligible": 0,
+        "reason": "complete",
+        "seconds": 4.32611,
+        "strict_improvement_records": 1,
+        "strictly_improving_neighbors": 1,
+        "support_bins": [
+          3074604,
+          5307508,
+          185,
+          0,
+          1574,
+          9510,
+          23761,
+          259722
+        ],
+        "support_shell_bins": [
+          6614773511,
+          11418833231,
+          383385,
+          0,
+          3181028,
+          20336396,
+          51700186,
+          559065159
+        ],
+        "total": 18668272896
+      },
+      "passed": true,
+      "round": 2,
+      "saved_candidates": 1,
+      "shell": "two"
+    },
+    {
+      "center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "complete": true,
+      "elapsed_seconds": 0.4598291669972241,
+      "final": {
+        "best_rank": [
+          12,
+          26
+        ],
+        "best_ties": 0,
+        "complete": true,
+        "evaluated": 275456,
+        "event": "final",
+        "legal": 4463,
+        "reason": "complete",
+        "seconds": 0.455797,
+        "strict_improvement_records": 0,
+        "strictly_improving_neighbors": 0,
+        "total": 275456
+      },
+      "passed": true,
+      "round": 3,
+      "saved_candidates": 0,
+      "shell": "one"
+    },
+    {
+      "center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "complete": true,
+      "elapsed_seconds": 4.794511749991216,
+      "final": {
+        "accounted": 18668272896,
+        "best_rank": [
+          12,
+          26
+        ],
+        "best_ties": 0,
+        "complete": true,
+        "eligible_generated": 1244702,
+        "evaluated": 1244702,
+        "event": "final",
+        "last_evaluated_ordinal": 18668269841,
+        "legal": 663369,
+        "outer_completed": 8676864,
+        "outer_started": 8676864,
+        "outer_total": 8676864,
+        "pair_floor_pruned": 18667028194,
+        "pending_eligible": 0,
+        "reason": "complete",
+        "seconds": 4.7907,
+        "strict_improvement_records": 0,
+        "strictly_improving_neighbors": 0,
+        "support_bins": [
+          2995704,
+          5377781,
+          187,
+          0,
+          1699,
+          10341,
+          24226,
+          266926
+        ],
+        "support_shell_bins": [
+          6441149029,
+          11577491508,
+          306355,
+          0,
+          3450369,
+          23370309,
+          51151165,
+          571354161
+        ],
+        "total": 18668272896
+      },
+      "passed": true,
+      "round": 3,
+      "saved_candidates": 0,
+      "shell": "two"
+    }
+  ],
+  "solver_launches": 0,
+  "source_revision": "a6c539d96c2c23f5a93bec4bf542096818f9f742",
+  "source_sha256": "7af64c5dce047dec1bb6df71d4e23a64f702e8d2b629ebf05b6ef3a59b348435",
+  "stop_reason": "no_strict_improvement"
+}

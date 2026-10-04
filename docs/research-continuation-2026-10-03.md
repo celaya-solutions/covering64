@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.28.0
+Version:     v1.29.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      beed0259818bcd313c74802ad360609f35ef075d703a3b1ec44e4a0d04ab67b9
+SHA256:      1950b4d636b6c58a14700d29c9c6a23ce76f8027280eedb4a1ff008f02603fb5
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1032,3 +1032,21 @@ The sole v2 radius-four call (seed2026105201,300 seconds,four workers) returned 
 
 
 The sixH12/D28 ties were independently preserved, profiled and screened against every relabeling of the old core through the necessary-partition criterion. All six have zero necessary partitions and therefore overlap at most55 with every relabeled old core. Their pair-count histograms distinguish at least four isomorphism classes. Five change the actual hole set; the sixth keeps the D29 hole set and is one swap from the saved D31 family. The representative is four swaps from D31. These are different partial families with the same12 uncovered triples in count, not new covers. Sources and all six witnesses are in `weak-pair-d28-relabel-novelty/`, manifest SHA256 `d691cb2a5405e2fb8796455a6cf4d336e70aca000f362b536181c57ab1603f36`.
+
+
+## Deterministic descent from D28 (October 4)
+
+The independently gated campaign completed three rounds and six native shells. Both exact-distance-one and exact-distance-two shells ran from the same center each round. The selected ranks were H12/D28 to H12/D27 to H12/D26; the third round found no strict improvement. Selection minimized the hole/deficit rank and then the full sorted 64-block-ID tuple. Both adopted centers were freshly recounted and checked with both covering verifiers. No cover was found.
+
+At the final D26 center, the one-block shell evaluated all 275,456 neighbors and retained 4,463 legal ones. The two-block shell accounted for all 18,668,272,896 neighbors, fully evaluating 1,244,702 and retaining 663,369 legal ones after safe pair-floor pruning. Neither shell had a strict improvement. This establishes only a local rank minimum within two replacements under the stated pair, single, quadruple and four core filters. Equal-rank neighbors were omitted by these recorders, so plateau paths remain open. No global existence or lower-bound conclusion follows.
+
+The independent runtime audit checked seven distinct saved families, all source/gate/raw bindings, budgets, counters, recorded exchange identities and tie choices without rerunning the searches or individually recomputing unrecorded trial metrics. The final witness is `weak-pair-d28-deterministic-descent/center-02.txt`, SHA256 `f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d`. The result hash is `bb0d1335d340935346a3d7733dde2e0115979202abe873f7bc8c28d5adfbd790`; the independent postcheck is `weak-pair-d28-deterministic-descent-runtime-independent/postcheck.json`, SHA256 `13e39d802c2e7433d3f983e027e07c53edc866364f9fe8cc8088a3f92a937765`.
+
+
+## Two-point-star repairs (October 4)
+
+Two local CP models rebuilt the blocks touching pivot pairs (6,14) and (1,9) independently from the D26 family. Each fixed all 2,002 outside-star memberships, retaining 29 selected blocks while allowing 35 to be rebuilt from 2,366 available blocks. Each had 4,928 variables and 1,242 rows: exact64, exact hole indicators, pair floor5, at most12 holes, and an objective minimizing holes. No D3/D4, stronger-pair, core or final degree restriction was imposed.
+
+Independent review caught a damaged-vector acceptance gap before any solver launch: the original checker accepted noninteger numeric inputs, including a hole value changed from1 to0.5. The frozen v1 is preserved and unrun. V2 adds a strict integer-type check, preserves both model files byte for byte, and passed20 damaged-assignment and20 damaged-model controls plus an exact serialized-model audit.
+
+The two sole v2 calls used60 seconds and four workers with seeds2026105301/2026105302. Both returned FEASIBLE with objective12 and bound0, after60.006325 and60.006730 native seconds. Four saved assignments represent three distinct families. The two new final families remain H12 and have actual D2max=D2sum29; each is three replacements from D26. Both happen to meet the weaker single/quad rows and four core caps, despite those rows not being imposed. They do not improve the incumbent hole count or deficit, and neither is a cover. Every assignment, exact hole flag, domain, active row, frozen outside-star membership and native response was checked independently, and all distinct families passed both parsers and were correctly rejected as covers. The independent receipt `two-point-star-repair-v2-runtime-independent/postcheck.json` has SHA256 `d6f35f60be4bb2090018ddaec0036e6a8305823e132faf5dd40e9a337621675a`. Neither result proves local optimality or any global exclusion.

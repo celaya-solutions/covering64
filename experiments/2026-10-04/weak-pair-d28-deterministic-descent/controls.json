@@ -1,0 +1,112 @@
+{
+  "campaign_cases": [
+    {
+      "case": "cross-shell-full-family-tie-choice",
+      "passed": true,
+      "shell_calls": 4,
+      "stop_reason": "no_strict_improvement",
+      "synthetic_final": "smaller"
+    },
+    {
+      "case": "one-shell-wins-lower-rank",
+      "passed": true,
+      "shell_calls": 4,
+      "stop_reason": "no_strict_improvement",
+      "synthetic_final": "one-wins"
+    },
+    {
+      "case": "unchanged-complete-stop",
+      "passed": true,
+      "shell_calls": 2,
+      "stop_reason": "no_strict_improvement",
+      "synthetic_final": "baseline"
+    },
+    {
+      "case": "first-incomplete-no-adoption",
+      "passed": true,
+      "shell_calls": 1,
+      "stop_reason": "incomplete",
+      "synthetic_final": "baseline"
+    },
+    {
+      "case": "second-incomplete-no-adoption",
+      "passed": true,
+      "shell_calls": 2,
+      "stop_reason": "incomplete",
+      "synthetic_final": "baseline"
+    },
+    {
+      "case": "invalid-terminal-no-adoption",
+      "passed": true,
+      "shell_calls": 1,
+      "stop_reason": "incomplete",
+      "synthetic_final": "baseline"
+    },
+    {
+      "case": "early-cover-no-round-optimum",
+      "passed": true,
+      "shell_calls": 1,
+      "stop_reason": "cover_observed",
+      "synthetic_final": "baseline"
+    },
+    {
+      "case": "incomplete-cover-retained",
+      "passed": true,
+      "shell_calls": 1,
+      "stop_reason": "incomplete",
+      "synthetic_final": "baseline"
+    },
+    {
+      "case": "four-round-bound",
+      "passed": true,
+      "shell_calls": 8
+    }
+  ],
+  "fake_process_cases": [
+    {
+      "calls": {
+        "communicate": 1,
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0
+      },
+      "passed": true,
+      "raw_output_preserved": true,
+      "timeouts": 0
+    },
+    {
+      "calls": {
+        "communicate": 2,
+        "kill": 0,
+        "launch": 1,
+        "terminate": 1
+      },
+      "passed": true,
+      "raw_output_preserved": true,
+      "timeouts": 1
+    },
+    {
+      "calls": {
+        "communicate": 3,
+        "kill": 1,
+        "launch": 1,
+        "terminate": 1
+      },
+      "passed": true,
+      "raw_output_preserved": true,
+      "timeouts": 2
+    }
+  ],
+  "grammar": {
+    "negative_controls": 7,
+    "passed": true,
+    "positive_controls": 1
+  },
+  "passed": true,
+  "real_process_launches": 0,
+  "runner_sha256": "cd36b47116fb4ac44f52481cbe104f2f1df2b6acf972c4f7ab7058a7e6a70d91",
+  "scope": "Synthetic wrapper controls only. These are not candidate witnesses, scan results, or mathematical cover/feasibility claims.",
+  "search_launches": 0,
+  "solver_launches": 0,
+  "source_sha256": "faa005f1fe57029b6a98292c602ff781ef5cac60318b639c1b7d30a830812942"
+}

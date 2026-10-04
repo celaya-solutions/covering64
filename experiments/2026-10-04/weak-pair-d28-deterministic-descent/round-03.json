@@ -1,0 +1,198 @@
+{
+  "center_metrics": {
+    "D2max": 26,
+    "D2sum": 26,
+    "D3": 0,
+    "D4": 0,
+    "cardinality": 64,
+    "core_overlaps": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "holes": 12,
+    "minimum_pair_count": 5
+  },
+  "center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+  "complete": true,
+  "cover_found": false,
+  "local_closure": true,
+  "round": 3,
+  "selected": null,
+  "shells": [
+    {
+      "best_ties": [],
+      "binary_sha256": "088652a71a4ddeafb98d0f0fd22e4d074d34fb77384b54d05b9e7e20dcc4173d",
+      "budget_transfer": false,
+      "center_metrics": {
+        "D2max": 26,
+        "D2sum": 26,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-d28-deterministic-descent-20261004/one-swap",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/center.txt",
+        "120",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/scan"
+      ],
+      "complete": true,
+      "elapsed_seconds": 0.4598291669972241,
+      "final": {
+        "best_rank": [
+          12,
+          26
+        ],
+        "best_ties": 0,
+        "complete": true,
+        "evaluated": 275456,
+        "event": "final",
+        "legal": 4463,
+        "reason": "complete",
+        "seconds": 0.455797,
+        "strict_improvement_records": 0,
+        "strictly_improving_neighbors": 0,
+        "total": 275456
+      },
+      "observed_covers": [],
+      "passed": true,
+      "raw_files": {
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/candidate-audit.json": "17653df38800a9c08f20177167fe5248122275e5a57e762c88a0e338aefa20da",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/center.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/scan-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/stdout.jsonl": "095acc7f1da2abfcff73b18decbf488f47fcb9923bac7ec02232bad7fe817d7d"
+      },
+      "recorder_sha256": "328e6e17dd368c723957b00998884a283bfa47722b1c4cd7de9761de85ae40f3",
+      "rejected_candidate_records": [],
+      "relaunch": false,
+      "returncode": 0,
+      "round": 3,
+      "saved_candidates": [],
+      "shell": "one",
+      "shell_result_path": "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-one/shell-result.json",
+      "shell_result_sha256": "dbfbda62c96cb0793deffc6153341eb5e58c76a1ad6c7427b0e96b5c33ad6d87",
+      "validation_error": null,
+      "watchdog": {
+        "deadline_seconds": 135,
+        "fired": false,
+        "grace_seconds": 5,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    },
+    {
+      "best_ties": [],
+      "binary_sha256": "0b38f62a4b189965248eea7c5dfbc8499c22804d7abf83c0b386f24c2edfda1c",
+      "budget_transfer": false,
+      "center_metrics": {
+        "D2max": 26,
+        "D2sum": 26,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-d28-deterministic-descent-20261004/two-swap",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/center.txt",
+        "120",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/scan"
+      ],
+      "complete": true,
+      "elapsed_seconds": 4.794511749991216,
+      "final": {
+        "accounted": 18668272896,
+        "best_rank": [
+          12,
+          26
+        ],
+        "best_ties": 0,
+        "complete": true,
+        "eligible_generated": 1244702,
+        "evaluated": 1244702,
+        "event": "final",
+        "last_evaluated_ordinal": 18668269841,
+        "legal": 663369,
+        "outer_completed": 8676864,
+        "outer_started": 8676864,
+        "outer_total": 8676864,
+        "pair_floor_pruned": 18667028194,
+        "pending_eligible": 0,
+        "reason": "complete",
+        "seconds": 4.7907,
+        "strict_improvement_records": 0,
+        "strictly_improving_neighbors": 0,
+        "support_bins": [
+          2995704,
+          5377781,
+          187,
+          0,
+          1699,
+          10341,
+          24226,
+          266926
+        ],
+        "support_shell_bins": [
+          6441149029,
+          11577491508,
+          306355,
+          0,
+          3450369,
+          23370309,
+          51151165,
+          571354161
+        ],
+        "total": 18668272896
+      },
+      "observed_covers": [],
+      "passed": true,
+      "raw_files": {
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/candidate-audit.json": "13a95e6c2d43645e38912001aee7bf7bd9438acdded56b887c5ba0278b393b01",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/center.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/scan-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/stdout.jsonl": "ce3e81d065a6885f61f96da1873fee2810073df32fed11bfd56123b7bf7a1d58"
+      },
+      "recorder_sha256": "b9811d75f7918864f53357a9ec295ec0eb75947eb89e4121c362d5dc79813ec2",
+      "rejected_candidate_records": [],
+      "relaunch": false,
+      "returncode": 0,
+      "round": 3,
+      "saved_candidates": [],
+      "shell": "two",
+      "shell_result_path": "experiments/scratch/weak-pair-d28-deterministic-descent-run-20261004/round-03-two/shell-result.json",
+      "shell_result_sha256": "6099994b3db2204d00d4a3f48ff8b9d231b6726fff56d7bb92b882de8fcf4994",
+      "validation_error": null,
+      "watchdog": {
+        "deadline_seconds": 135,
+        "fired": false,
+        "grace_seconds": 5,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    }
+  ],
+  "stop_reason": "no_strict_improvement"
+}

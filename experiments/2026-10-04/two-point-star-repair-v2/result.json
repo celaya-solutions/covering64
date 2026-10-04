@@ -1,0 +1,953 @@
+{
+  "cover_found": false,
+  "gate_sha256": "4856537e48cef8623b46a0abe6cd005e9f67deec67d3c02b0ddb9945208ed552",
+  "manifest_sha256": "39e895e1bc69b5bc7295460f1151cd951c4c06c1e5691a1a90482b26d0807f74",
+  "raw_files": {
+    "experiments/scratch/two-point-star-repair-v2-20261004/model-1.pbtxt": "c924fd6869510954a98c36f3cb957c5a1fca451bb0374f39c5ac9655abe65e38",
+    "experiments/scratch/two-point-star-repair-v2-20261004/model-2.pbtxt": "41d4119fb1c8ee9587b9b0f90283a4684ed7772ea691272c7c2cedca51143ce7",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/callback-001.json": "5e808fcd0e0253aefd7b5a56734f63f3e5dae12d38c6798c6d58c55677f7a147",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/callback-001.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/final-vector.json": "7cc37f828f5d16fa6ad0134765542e4957a7ba96dd7703b49fdc48d605169850",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/final-vector.txt": "52d6a7990b959385f15dadaf61b02cda787aa035d4738abeeb316e8f3cc5a4d5",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/outcome.json": "695656f0208c682be61739f13104fcde404f2d6d07836446985177904b69812e",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/parameters.pbtxt": "db3fd3b7343bc3db398eff58344661b540e534d85d55cde85859aaa5bebeb328",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/response.pbtxt": "204e204513dc125d8a08702efb35fec5a63666fcae2b34c89ab743db2722ad8b",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-1/stdout.log": "a72d5f1959427f11a0a83f19bee26af95fb4d63ce054ed671f3881145b8e626d",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/callback-001.json": "5e808fcd0e0253aefd7b5a56734f63f3e5dae12d38c6798c6d58c55677f7a147",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/callback-001.txt": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/final-vector.json": "ab64df53a60538eda6535c25b0781931f6e433c3ae4f471787663853efccbd7a",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/final-vector.txt": "1019a357d0a6b31e4b41132d3ea90efad3a32381ecc864a34a74db096ebf85b9",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/outcome.json": "cdeb8c480124186da3c305c2abf4cfc205064c8834ef0c0feac02b14f4ee26aa",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/parameters.pbtxt": "55ed5a366e9231f7d2efe0d4bb500ca8f58882ee8e7b70f26a1e84a06e097ce5",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/response.pbtxt": "2ef782d246dd58562dcaed9c02a3a1342b66a286a35d1027d6b5c63d75135d8b",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/two-point-star-repair-v2-20261004/run-2/stdout.log": "6d6f2af9dd2fd898d57f7ea89f226fa90138827d005492ba23a1e7415f971671"
+  },
+  "relaunch": false,
+  "runs": [
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/two-point-star-repair-v2/run.py",
+        "--child",
+        "1"
+      ],
+      "cover_found": false,
+      "elapsed_seconds": 61.148030458018184,
+      "number": 1,
+      "outcome": {
+        "bound": 0.0,
+        "callbacks": 1,
+        "objective": 12.0,
+        "status": "FEASIBLE",
+        "wall_seconds": 60.006325000000004
+      },
+      "pivot": [
+        6,
+        14
+      ],
+      "returncode": 0,
+      "saved": [
+        {
+          "holes": 12,
+          "sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+          "vector": "experiments/scratch/two-point-star-repair-v2-20261004/run-1/callback-001.json",
+          "verifiers": [
+            {
+              "blocks": 64,
+              "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+              "covered": 548,
+              "expected_block_count_matches": true,
+              "expected_blocks": 64,
+              "k": 5,
+              "multiplicities": {
+                "0": 12,
+                "1": 457,
+                "2": 90,
+                "3": 1
+              },
+              "pair_multiplicities": {
+                "5": 80,
+                "6": 40
+              },
+              "replication": {
+                "1": 20,
+                "10": 19,
+                "11": 21,
+                "12": 20,
+                "13": 20,
+                "14": 20,
+                "15": 19,
+                "16": 20,
+                "2": 20,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 20,
+                "7": 21,
+                "8": 20,
+                "9": 21
+              },
+              "t": 3,
+              "total_incidences": 640,
+              "triples": 560,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  6,
+                  12
+                ],
+                [
+                  6,
+                  14,
+                  15
+                ],
+                [
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "v": 16,
+              "valid": false
+            },
+            {
+              "blocks": 64,
+              "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+              "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+              "cardinality_matches": true,
+              "coverage_multiplicities": {
+                "0": 12,
+                "1": 457,
+                "2": 90,
+                "3": 1
+              },
+              "covered_subsets": 548,
+              "covers_all_subsets": false,
+              "expected_blocks": 64,
+              "expected_subset_incidences": 640,
+              "parameters": {
+                "k": 5,
+                "t": 3,
+                "v": 16
+              },
+              "point_replication": {
+                "1": 20,
+                "10": 19,
+                "11": 21,
+                "12": 20,
+                "13": 20,
+                "14": 20,
+                "15": 19,
+                "16": 20,
+                "2": 20,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 20,
+                "7": 21,
+                "8": 20,
+                "9": 21
+              },
+              "required_subsets": 560,
+              "source_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+              "total_subset_incidences": 640,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  6,
+                  12
+                ],
+                [
+                  6,
+                  14,
+                  15
+                ],
+                [
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "uncovered_count": 12,
+              "valid": false
+            }
+          ],
+          "witness": "experiments/scratch/two-point-star-repair-v2-20261004/run-1/callback-001.txt"
+        },
+        {
+          "holes": 12,
+          "sha256": "52d6a7990b959385f15dadaf61b02cda787aa035d4738abeeb316e8f3cc5a4d5",
+          "vector": "experiments/scratch/two-point-star-repair-v2-20261004/run-1/final-vector.json",
+          "verifiers": [
+            {
+              "blocks": 64,
+              "canonical_sha256": "52d6a7990b959385f15dadaf61b02cda787aa035d4738abeeb316e8f3cc5a4d5",
+              "covered": 548,
+              "expected_block_count_matches": true,
+              "expected_blocks": 64,
+              "k": 5,
+              "multiplicities": {
+                "0": 12,
+                "1": 460,
+                "2": 84,
+                "3": 4
+              },
+              "pair_multiplicities": {
+                "5": 87,
+                "6": 26,
+                "7": 7
+              },
+              "replication": {
+                "1": 20,
+                "10": 19,
+                "11": 20,
+                "12": 21,
+                "13": 20,
+                "14": 21,
+                "15": 19,
+                "16": 20,
+                "2": 19,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 19,
+                "7": 21,
+                "8": 20,
+                "9": 22
+              },
+              "t": 3,
+              "total_incidences": 640,
+              "triples": 560,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  3,
+                  15
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "v": 16,
+              "valid": false
+            },
+            {
+              "blocks": 64,
+              "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+              "canonical_sha256": "52d6a7990b959385f15dadaf61b02cda787aa035d4738abeeb316e8f3cc5a4d5",
+              "cardinality_matches": true,
+              "coverage_multiplicities": {
+                "0": 12,
+                "1": 460,
+                "2": 84,
+                "3": 4
+              },
+              "covered_subsets": 548,
+              "covers_all_subsets": false,
+              "expected_blocks": 64,
+              "expected_subset_incidences": 640,
+              "parameters": {
+                "k": 5,
+                "t": 3,
+                "v": 16
+              },
+              "point_replication": {
+                "1": 20,
+                "10": 19,
+                "11": 20,
+                "12": 21,
+                "13": 20,
+                "14": 21,
+                "15": 19,
+                "16": 20,
+                "2": 19,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 19,
+                "7": 21,
+                "8": 20,
+                "9": 22
+              },
+              "required_subsets": 560,
+              "source_sha256": "52d6a7990b959385f15dadaf61b02cda787aa035d4738abeeb316e8f3cc5a4d5",
+              "total_subset_incidences": 640,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  3,
+                  15
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  8,
+                  11
+                ],
+                [
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "uncovered_count": 12,
+              "valid": false
+            }
+          ],
+          "witness": "experiments/scratch/two-point-star-repair-v2-20261004/run-1/final-vector.txt"
+        }
+      ],
+      "watchdog_fired": false
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/two-point-star-repair-v2/run.py",
+        "--child",
+        "2"
+      ],
+      "cover_found": false,
+      "elapsed_seconds": 60.975941125070676,
+      "number": 2,
+      "outcome": {
+        "bound": 0.0,
+        "callbacks": 1,
+        "objective": 12.0,
+        "status": "FEASIBLE",
+        "wall_seconds": 60.006730000000005
+      },
+      "pivot": [
+        1,
+        9
+      ],
+      "returncode": 0,
+      "saved": [
+        {
+          "holes": 12,
+          "sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+          "vector": "experiments/scratch/two-point-star-repair-v2-20261004/run-2/callback-001.json",
+          "verifiers": [
+            {
+              "blocks": 64,
+              "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+              "covered": 548,
+              "expected_block_count_matches": true,
+              "expected_blocks": 64,
+              "k": 5,
+              "multiplicities": {
+                "0": 12,
+                "1": 457,
+                "2": 90,
+                "3": 1
+              },
+              "pair_multiplicities": {
+                "5": 80,
+                "6": 40
+              },
+              "replication": {
+                "1": 20,
+                "10": 19,
+                "11": 21,
+                "12": 20,
+                "13": 20,
+                "14": 20,
+                "15": 19,
+                "16": 20,
+                "2": 20,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 20,
+                "7": 21,
+                "8": 20,
+                "9": 21
+              },
+              "t": 3,
+              "total_incidences": 640,
+              "triples": 560,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  6,
+                  12
+                ],
+                [
+                  6,
+                  14,
+                  15
+                ],
+                [
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "v": 16,
+              "valid": false
+            },
+            {
+              "blocks": 64,
+              "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+              "canonical_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+              "cardinality_matches": true,
+              "coverage_multiplicities": {
+                "0": 12,
+                "1": 457,
+                "2": 90,
+                "3": 1
+              },
+              "covered_subsets": 548,
+              "covers_all_subsets": false,
+              "expected_blocks": 64,
+              "expected_subset_incidences": 640,
+              "parameters": {
+                "k": 5,
+                "t": 3,
+                "v": 16
+              },
+              "point_replication": {
+                "1": 20,
+                "10": 19,
+                "11": 21,
+                "12": 20,
+                "13": 20,
+                "14": 20,
+                "15": 19,
+                "16": 20,
+                "2": 20,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 20,
+                "7": 21,
+                "8": 20,
+                "9": 21
+              },
+              "required_subsets": 560,
+              "source_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+              "total_subset_incidences": 640,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  6,
+                  12
+                ],
+                [
+                  6,
+                  14,
+                  15
+                ],
+                [
+                  9,
+                  10,
+                  11
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "uncovered_count": 12,
+              "valid": false
+            }
+          ],
+          "witness": "experiments/scratch/two-point-star-repair-v2-20261004/run-2/callback-001.txt"
+        },
+        {
+          "holes": 12,
+          "sha256": "1019a357d0a6b31e4b41132d3ea90efad3a32381ecc864a34a74db096ebf85b9",
+          "vector": "experiments/scratch/two-point-star-repair-v2-20261004/run-2/final-vector.json",
+          "verifiers": [
+            {
+              "blocks": 64,
+              "canonical_sha256": "1019a357d0a6b31e4b41132d3ea90efad3a32381ecc864a34a74db096ebf85b9",
+              "covered": 548,
+              "expected_block_count_matches": true,
+              "expected_blocks": 64,
+              "k": 5,
+              "multiplicities": {
+                "0": 12,
+                "1": 460,
+                "2": 84,
+                "3": 4
+              },
+              "pair_multiplicities": {
+                "5": 83,
+                "6": 34,
+                "7": 3
+              },
+              "replication": {
+                "1": 20,
+                "10": 20,
+                "11": 22,
+                "12": 20,
+                "13": 20,
+                "14": 19,
+                "15": 19,
+                "16": 20,
+                "2": 20,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 20,
+                "7": 21,
+                "8": 20,
+                "9": 20
+              },
+              "t": 3,
+              "total_incidences": 640,
+              "triples": 560,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  9,
+                  13
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  6,
+                  12
+                ],
+                [
+                  6,
+                  14,
+                  15
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "v": 16,
+              "valid": false
+            },
+            {
+              "blocks": 64,
+              "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+              "canonical_sha256": "1019a357d0a6b31e4b41132d3ea90efad3a32381ecc864a34a74db096ebf85b9",
+              "cardinality_matches": true,
+              "coverage_multiplicities": {
+                "0": 12,
+                "1": 460,
+                "2": 84,
+                "3": 4
+              },
+              "covered_subsets": 548,
+              "covers_all_subsets": false,
+              "expected_blocks": 64,
+              "expected_subset_incidences": 640,
+              "parameters": {
+                "k": 5,
+                "t": 3,
+                "v": 16
+              },
+              "point_replication": {
+                "1": 20,
+                "10": 20,
+                "11": 22,
+                "12": 20,
+                "13": 20,
+                "14": 19,
+                "15": 19,
+                "16": 20,
+                "2": 20,
+                "3": 20,
+                "4": 19,
+                "5": 20,
+                "6": 20,
+                "7": 21,
+                "8": 20,
+                "9": 20
+              },
+              "required_subsets": 560,
+              "source_sha256": "1019a357d0a6b31e4b41132d3ea90efad3a32381ecc864a34a74db096ebf85b9",
+              "total_subset_incidences": 640,
+              "uncovered": [
+                [
+                  1,
+                  4,
+                  14
+                ],
+                [
+                  1,
+                  6,
+                  11
+                ],
+                [
+                  1,
+                  9,
+                  13
+                ],
+                [
+                  1,
+                  15,
+                  16
+                ],
+                [
+                  2,
+                  6,
+                  8
+                ],
+                [
+                  2,
+                  9,
+                  14
+                ],
+                [
+                  3,
+                  4,
+                  12
+                ],
+                [
+                  3,
+                  6,
+                  9
+                ],
+                [
+                  5,
+                  6,
+                  12
+                ],
+                [
+                  6,
+                  14,
+                  15
+                ],
+                [
+                  10,
+                  12,
+                  14
+                ],
+                [
+                  11,
+                  14,
+                  16
+                ]
+              ],
+              "uncovered_count": 12,
+              "valid": false
+            }
+          ],
+          "witness": "experiments/scratch/two-point-star-repair-v2-20261004/run-2/final-vector.txt"
+        }
+      ],
+      "watchdog_fired": false
+    }
+  ],
+  "scope": "Two fixed local neighborhoods. Outside each two-point star all block memberships are frozen. Exact 64 and pair floor5; holes are exact. No D3/D4 or core restrictions. No unrestricted, nonexistence or novelty claim."
+}
