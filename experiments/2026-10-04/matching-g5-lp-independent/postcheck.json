@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "5ba63a91180e8146392119cd3b042914dad08705fd64ffe906c0ed0fb115c6b7",
+  "gate_sha256": "2890fd072c60011f4d51685fe1c34808ec80342b18d4bcb9e3083404cb42e5eb",
+  "results": [
+    {
+      "case": "soft-raw-17",
+      "residual_recounted": 15.069220630544354,
+      "exact_gap": [
+        15069111,
+        1000000
+      ],
+      "maximum_abs_weight": 1000000,
+      "seconds": 0.13298024993855506,
+      "result_sha256": "148c01e947d42b5433f1c48cb3e9468dd0d5109bbb3e7435410ed0643ab2ac4d",
+      "primal_sha256": "3722e9796d4ed76b5112a0ed5ee43266cd9764f047835fd734ceb277c94336ac",
+      "numerical_dual_sha256": "fd5f6e2e53255fd75838382e7ee3e8b372f6fc8e01db66756021b8914fae83e0",
+      "all_variables_sha256": "ff862d240409c87396c439a4306e254273088d2449bdf6f4ad558c008c49c444",
+      "exact_dual_sha256": "2c01a6e594c935c1a089a006eae13df7e07ec504e6daa779cdf12da9abc780f1"
+    },
+    {
+      "case": "soft-score-19",
+      "residual_recounted": 15.317006713018564,
+      "exact_gap": [
+        3063381,
+        200000
+      ],
+      "maximum_abs_weight": 1000000,
+      "seconds": 0.12915824993979186,
+      "result_sha256": "4862984119839ea63bfedbefa4823ae87e4826db8edcfedf9223c8d3aeb2ffbc",
+      "primal_sha256": "c9b6414397d166ff38f9b2d3e4bb93f926a2ff64bd46d72787cc7067dcfe3c5c",
+      "numerical_dual_sha256": "d2d2c99c99fe2ffec0abfa111dc6198579c240da0299fede5f32e271f662df33",
+      "all_variables_sha256": "ffb54af8f2c909567793b8f52777ba956ba13005477c8f0043cae9287d95e5dd",
+      "exact_dual_sha256": "ba8e799f34a865a91830062ff4d93cc1ac81ff0691a26a5892dfcde2906a85b0"
+    }
+  ],
+  "scope": "Two exact positive certificates for their fixed-heavy graph-five completion models only; no all-graph or unrestricted bound."
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "6f8109c15dcab92c5218bcd1f80aeab35e939eb53547afc5965d6cdacb8ac390",
+  "independent_basis_sha256": "f9b63cee70ea8c73d74d0414ac2ac608edfd2dbc3a1066a48e5e78b1bdc3bc6a",
+  "source_sha256": "921b3973a2631e52d3881c27fb575c3b548ff709fbd7f2d7b2d4413cc4f673e1",
+  "manifest_sha256": "06a5497bae166754d48281c742fa5e9873d2a1ce3361f4f2d9cb237ec46d8a83",
+  "preflight_sha256": "42fe27fcab7cb22c226c828769ee78059c53f55d2bb16d857243128c946d7fc2",
+  "family_sha256": "2d14cafb6016203749ea63052913afc4af28800daaf5fc62ec6c459fc43aac32",
+  "graph_index": 1,
+  "six_hub_rows_checked": true,
+  "neighbors": 136,
+  "accepted": 122,
+  "rejected": 14,
+  "link_receipts_checked": 548,
+  "damaged_controls_rejected": 2,
+  "baseline_residual_recounted": 8.02424481548892,
+  "source_review": [
+    "Only registry-accepted neighbors reach LP calls; rejection receipts saved",
+    "Only OPTIMAL exact same-family/tuple/row profiles enter cache",
+    "Frozen single-worker one-second GLOP method; at most5 rounds/600 fresh calls",
+    "Stop margins118.9solver/156wall before solve and153wall before neighborhood",
+    "Assertions120solver/160wall; descend only after every accepted result OPTIMAL",
+    "Fixed graph1 branch baseline separate from broad all-graph objective"
+  ]
+}

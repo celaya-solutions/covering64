@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "solver_calls": 0,
+  "checker_sha256": "feb12b06fc4e3a37814a4036f752a2463b2839b797deecea88e37cbd81c8f0c4",
+  "source_sha256": "d04c60c256ee9299aff701dd2b930a0965a365106d423bb21afa3b2633b70058",
+  "manifest_sha256": "a0e1dbc4173627632ea721a1407304c9b23b879e5b1e7bef40d5ffb9143bef0d",
+  "master_sha256": "a504f54349bcbea4ac2f7129e74ef4ae1efb4b6b2761c361ebe3bbf88ebd6426",
+  "plane_audit_sha256": "0f5cfc3120c4f5fb13f8548444001c189b67e3a266660e732d46b7b073f178d8",
+  "checked_planes_sha256": "e2f8936d5559cd066eb27cfdacb3c879125a1d50cb2822b4ca17a1d479cce3fd",
+  "cuts": 333,
+  "master_rows": 938,
+  "master_variables": 277,
+  "safe_margin_upper_units": 141507155,
+  "damaged_controls_rejected": 3,
+  "source_review": [
+    "Same frozen structural master, 697 completion rows and one-second GLOP helper",
+    "At most20 candidates; CP-SAT3s one worker; seed2026104064+step",
+    "Stop before75.8 combined solver seconds or94 wall seconds; assert80/100",
+    "Record integer achieved margin, minimum plane margin, bound and status",
+    "New cuts have exact positive source gap and asserted weight norm <=1000000",
+    "No Hamming objective; no feasibility claim from margin alone"
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "passed": true,
+  "checked_exclusions": 109,
+  "tuples": [
+    {
+      "name": "best-5p575883",
+      "heavy_seed_sha256": "2ee0226616227192641d3210ca1674ea7d1630a64e47ecfb67a8026721142658",
+      "surviving_graph_indices_zero_based": [],
+      "maps_sha256": "8526a0acc1f07c753c44041a514f7ec4728946df48da2ff5d9e183b0100e5e8c",
+      "cases": [
+        {
+          "graph": 0,
+          "kind": "matching",
+          "hub_excesses": [
+            0,
+            0,
+            2,
+            2,
+            0,
+            0
+          ],
+          "representatives": [
+            "matching-049",
+            "matching-049",
+            "matching-065",
+            "matching-099"
+          ],
+          "excluded": [
+            "matching-049",
+            "matching-049",
+            "matching-065",
+            "matching-099"
+          ]
+        },
+        {
+          "graph": 1,
+          "kind": "cycle",
+          "hub_excesses": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "representatives": [
+            "cycle-061",
+            "cycle-061",
+            "cycle-086",
+            "cycle-028"
+          ],
+          "excluded": [
+            "cycle-028"
+          ]
+        },
+        {
+          "graph": 2,
+          "kind": "matching",
+          "hub_excesses": [
+            0,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          "representatives": [
+            "matching-126",
+            "matching-126",
+            "matching-049",
+            "matching-018"
+          ],
+          "excluded": [
+            "matching-126",
+            "matching-126",
+            "matching-049",
+            "matching-018"
+          ]
+        },
+        {
+          "graph": 3,
+          "kind": "cycle",
+          "hub_excesses": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "representatives": [
+            "cycle-086",
+            "cycle-086",
+            "cycle-103",
+            "cycle-128"
+          ],
+          "excluded": [
+            "cycle-103",
+            "cycle-128"
+          ]
+        },
+        {
+          "graph": 4,
+          "kind": "cycle",
+          "hub_excesses": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "representatives": [
+            "cycle-103",
+            "cycle-103",
+            "cycle-061",
+            "cycle-028"
+          ],
+          "excluded": [
+            "cycle-103",
+            "cycle-103",
+            "cycle-028"
+          ]
+        },
+        {
+          "graph": 5,
+          "kind": "matching",
+          "hub_excesses": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "representatives": [
+            "matching-065",
+            "matching-065",
+            "matching-126",
+            "matching-099"
+          ],
+          "excluded": [
+            "matching-065",
+            "matching-065",
+            "matching-126",
+            "matching-099"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nearest-step-038",
+      "heavy_seed_sha256": "d3f67407d713280c213b6e4fee697ffabff0559ee14b44e1589ebf0968ca83fc",
+      "surviving_graph_indices_zero_based": [
+        1
+      ],
+      "maps_sha256": "4436699ea00fc2693852035647809f1caa02a18f746b459210f8427f5b402f8e",
+      "cases": [
+        {
+          "graph": 0,
+          "kind": "matching",
+          "hub_excesses": [
+            0,
+            0,
+            2,
+            2,
+            0,
+            0
+          ],
+          "representatives": [
+            "matching-049",
+            "matching-049",
+            "matching-065",
+            "matching-065"
+          ],
+          "excluded": [
+            "matching-049",
+            "matching-049",
+            "matching-065",
+            "matching-065"
+          ]
+        },
+        {
+          "graph": 1,
+          "kind": "cycle",
+          "hub_excesses": [
+            0,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "representatives": [
+            "cycle-061",
+            "cycle-061",
+            "cycle-086",
+            "cycle-086"
+          ],
+          "excluded": []
+        },
+        {
+          "graph": 2,
+          "kind": "matching",
+          "hub_excesses": [
+            0,
+            2,
+            0,
+            0,
+            2,
+            0
+          ],
+          "representatives": [
+            "matching-126",
+            "matching-126",
+            "matching-049",
+            "matching-049"
+          ],
+          "excluded": [
+            "matching-126",
+            "matching-126",
+            "matching-049",
+            "matching-049"
+          ]
+        },
+        {
+          "graph": 3,
+          "kind": "cycle",
+          "hub_excesses": [
+            1,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "representatives": [
+            "cycle-086",
+            "cycle-086",
+            "cycle-103",
+            "cycle-103"
+          ],
+          "excluded": [
+            "cycle-103",
+            "cycle-103"
+          ]
+        },
+        {
+          "graph": 4,
+          "kind": "cycle",
+          "hub_excesses": [
+            1,
+            1,
+            0,
+            0,
+            1,
+            1
+          ],
+          "representatives": [
+            "cycle-103",
+            "cycle-103",
+            "cycle-061",
+            "cycle-061"
+          ],
+          "excluded": [
+            "cycle-103",
+            "cycle-103"
+          ]
+        },
+        {
+          "graph": 5,
+          "kind": "matching",
+          "hub_excesses": [
+            2,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "representatives": [
+            "matching-065",
+            "matching-065",
+            "matching-126",
+            "matching-126"
+          ],
+          "excluded": [
+            "matching-065",
+            "matching-065",
+            "matching-126",
+            "matching-126"
+          ]
+        }
+      ]
+    }
+  ],
+  "master_base_rows": 605,
+  "master_certificate_cut_rows": 238,
+  "master_explicit_registry_constraints": 0,
+  "optimization_calls": 0,
+  "source_sha256": "2543be16a6c0339a6c0cfc08a8c692fcee8a61cfcbdeee8dc48c1d45e4fc4a7b",
+  "input_sha256": {
+    "experiments/2026-10-03/cut-pilot-heavy-completion/check_first_links.py": "d2cd38584203570f6392d2c117471de25ddaa1108f6a56a2fda5a5d4da3f37b5",
+    "experiments/2026-10-04/lp-guided-best-lp/manifest.json": "3d7760395566743bbc485e0ffef9fcc18556e31e3c153e5b1af8562e9450c7d2",
+    "experiments/2026-10-04/nearest-heavy-master/result.json": "1dfc1ac5b1d2d9d2dceff0eb4f37dbf43a2f1588c1b4fa3e444586226b51a11d",
+    "experiments/2026-10-04/lazy-heavy-master/run.py": "c2ab4ab2b0ea65f3022a7a05b51c54c86e7e28783035a72b17b9b646f511665c",
+    "experiments/scratch/nearest-heavy-master-20261004/master.pbtxt": "e24e24277c1252e15fe60a189072dcc46c28ac2c72ab029ddc2d6b9e6ce7eff7",
+    "experiments/2026-10-04/nearest-heavy-master/manifest.json": "ceb818fbde0d776e504e0b9ec4f93f5d56229e026bc46d0d79f60d936296927a"
+  },
+  "scope": "First-link registry exclusions are conditional on the hub graph. A tuple is excluded by this registry only when all six graphs are removed. A remaining graph is not evidence of a completion."
+}

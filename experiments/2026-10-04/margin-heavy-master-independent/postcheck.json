@@ -1,0 +1,280 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "d2b27cd9567ad595d333854363ea958a9a51af2e9e5d44801ccc34ec6132f7a9",
+  "gate_sha256": "ff38e2d32cba736ad72bd24ee89764cd80b89ad9f8c34c55e6b8d22e9445f24f",
+  "result_sha256": "d8a08f414b6401f7386ba95049144c2e63d550e4b04b6ba03022bff87c4feb10",
+  "basis_sha256": "cf90c703eb9cc111c2535fea81fb2f5abdfa913246cd644161bc172e1ada4cec",
+  "incremental_models_checked": 20,
+  "new_planes_checked": 20,
+  "total_checked_planes": 353,
+  "actual_best_objective": 5.575882992498541,
+  "combined_solver_seconds": 62.47577795665711,
+  "wall_seconds": 65.53973270906135,
+  "master_status_counts": {
+    "FEASIBLE": 20
+  },
+  "results": [
+    {
+      "step": 0,
+      "margin_units": 23960000,
+      "actual_minimum_margin_units": 23960000,
+      "residual": 20.328677519509345,
+      "master_status": "FEASIBLE",
+      "gap": [
+        20328549,
+        1000000
+      ],
+      "distance_from_baseline": 27,
+      "learned_cut_sha256": "c95d575e1314569bedfe16eb3d1abecdfd16bff648464ca9efe9fdba62a7c43e"
+    },
+    {
+      "step": 1,
+      "margin_units": 18947536,
+      "actual_minimum_margin_units": 18947536,
+      "residual": 20.59717643895722,
+      "master_status": "FEASIBLE",
+      "gap": [
+        2059711,
+        100000
+      ],
+      "distance_from_baseline": 25,
+      "learned_cut_sha256": "a9c07788e621d6a0313443c0fc0b31a131397131b5e4d923f29ef0efb486be9f"
+    },
+    {
+      "step": 2,
+      "margin_units": 10847313,
+      "actual_minimum_margin_units": 10847313,
+      "residual": 27.570405714241602,
+      "master_status": "FEASIBLE",
+      "gap": [
+        5514053,
+        200000
+      ],
+      "distance_from_baseline": 26,
+      "learned_cut_sha256": "3d90901986b3bc88b72567d751792c83ab70606e001974f82553f9da1858b90b"
+    },
+    {
+      "step": 3,
+      "margin_units": 14916031,
+      "actual_minimum_margin_units": 14916031,
+      "residual": 21.81701400895706,
+      "master_status": "FEASIBLE",
+      "gap": [
+        4363381,
+        200000
+      ],
+      "distance_from_baseline": 27,
+      "learned_cut_sha256": "3566b03881bec1a3cd5fe9ca4d0e869c3cf46758909d0851b8f94b7d7d10c8e3"
+    },
+    {
+      "step": 4,
+      "margin_units": 15087251,
+      "actual_minimum_margin_units": 15087251,
+      "residual": 29.1689262121118,
+      "master_status": "FEASIBLE",
+      "gap": [
+        3646107,
+        125000
+      ],
+      "distance_from_baseline": 24,
+      "learned_cut_sha256": "7082ddb711cb8c9e82b39ad5cfa7a872086e0a14ffdce967b984278e3cce4b41"
+    },
+    {
+      "step": 5,
+      "margin_units": 10878090,
+      "actual_minimum_margin_units": 10878090,
+      "residual": 22.639884450485532,
+      "master_status": "FEASIBLE",
+      "gap": [
+        11319893,
+        500000
+      ],
+      "distance_from_baseline": 24,
+      "learned_cut_sha256": "ebe3a383d27b1b420b9338016df32f81dfe6839abd32a80e886eefd6809c6f83"
+    },
+    {
+      "step": 6,
+      "margin_units": 13571554,
+      "actual_minimum_margin_units": 13571554,
+      "residual": 28.91487396227148,
+      "master_status": "FEASIBLE",
+      "gap": [
+        28914789,
+        1000000
+      ],
+      "distance_from_baseline": 25,
+      "learned_cut_sha256": "293adbe1a0f3c0f07b4e94cc6d527852da90d3077a27a833033abdd0f27f8186"
+    },
+    {
+      "step": 7,
+      "margin_units": 9120845,
+      "actual_minimum_margin_units": 9120845,
+      "residual": 26.060401360915492,
+      "master_status": "FEASIBLE",
+      "gap": [
+        26060311,
+        1000000
+      ],
+      "distance_from_baseline": 22,
+      "learned_cut_sha256": "837b4b2dd48ef7414598b20438576ddd1361dc1fd7b4eb917e93115b03219f45"
+    },
+    {
+      "step": 8,
+      "margin_units": 7211179,
+      "actual_minimum_margin_units": 7211179,
+      "residual": 23.636795398335952,
+      "master_status": "FEASIBLE",
+      "gap": [
+        23636703,
+        1000000
+      ],
+      "distance_from_baseline": 22,
+      "learned_cut_sha256": "ae63538a1cf60548ad9cbfbd01ea0d0ba4fc0184b74d7c0a20df3b48cd411c19"
+    },
+    {
+      "step": 9,
+      "margin_units": 7352020,
+      "actual_minimum_margin_units": 7352020,
+      "residual": 27.471763231032387,
+      "master_status": "FEASIBLE",
+      "gap": [
+        27471689,
+        1000000
+      ],
+      "distance_from_baseline": 24,
+      "learned_cut_sha256": "7c1c95213176e3e897fe97abb05772eaeacf90791fc1b5805968454235410796"
+    },
+    {
+      "step": 10,
+      "margin_units": 8214958,
+      "actual_minimum_margin_units": 8214958,
+      "residual": 23.463350330497516,
+      "master_status": "FEASIBLE",
+      "gap": [
+        4692653,
+        200000
+      ],
+      "distance_from_baseline": 25,
+      "learned_cut_sha256": "14c9f3706c43a32111a3d3a492e08531d614aad7a2d696657e44f54630cc8601"
+    },
+    {
+      "step": 11,
+      "margin_units": 5681614,
+      "actual_minimum_margin_units": 5681614,
+      "residual": 22.18751776282848,
+      "master_status": "FEASIBLE",
+      "gap": [
+        22187361,
+        1000000
+      ],
+      "distance_from_baseline": 25,
+      "learned_cut_sha256": "f94c15b98884b11be9bff698d4ae23ce52cf14dac1899f37774575e7105aa72f"
+    },
+    {
+      "step": 12,
+      "margin_units": 2220819,
+      "actual_minimum_margin_units": 2220819,
+      "residual": 29.5508907860974,
+      "master_status": "FEASIBLE",
+      "gap": [
+        14775419,
+        500000
+      ],
+      "distance_from_baseline": 23,
+      "learned_cut_sha256": "980c4d22467c7e4144a25895a9e2d0661dfdd05f28a571fe9efa2ed45336e966"
+    },
+    {
+      "step": 13,
+      "margin_units": 11091260,
+      "actual_minimum_margin_units": 11091260,
+      "residual": 25.001321292963574,
+      "master_status": "FEASIBLE",
+      "gap": [
+        5000243,
+        200000
+      ],
+      "distance_from_baseline": 26,
+      "learned_cut_sha256": "10961797cfc86975883a1cacce71e97faacaa1b8bca17f606f7b65072160d586"
+    },
+    {
+      "step": 14,
+      "margin_units": 8686659,
+      "actual_minimum_margin_units": 8686659,
+      "residual": 18.723394713738,
+      "master_status": "FEASIBLE",
+      "gap": [
+        18723247,
+        1000000
+      ],
+      "distance_from_baseline": 24,
+      "learned_cut_sha256": "308964c3851874acdd11cfa3a2d96acd293287b8a53d2813d7db7e49951f45df"
+    },
+    {
+      "step": 15,
+      "margin_units": 8599817,
+      "actual_minimum_margin_units": 8599817,
+      "residual": 21.827512207162236,
+      "master_status": "FEASIBLE",
+      "gap": [
+        5456849,
+        250000
+      ],
+      "distance_from_baseline": 24,
+      "learned_cut_sha256": "552f5d69a13926c11ac4db6522f92d2a76c4ee81910ed72abf63613ca4078476"
+    },
+    {
+      "step": 16,
+      "margin_units": 6078215,
+      "actual_minimum_margin_units": 6078215,
+      "residual": 28.28021314215256,
+      "master_status": "FEASIBLE",
+      "gap": [
+        226241,
+        8000
+      ],
+      "distance_from_baseline": 28,
+      "learned_cut_sha256": "50bbf74856df24421d8ac4d03c104992b58dce6436ed0dc1b5644149ab925f64"
+    },
+    {
+      "step": 17,
+      "margin_units": 15513900,
+      "actual_minimum_margin_units": 15513900,
+      "residual": 19.98646594444702,
+      "master_status": "FEASIBLE",
+      "gap": [
+        19986341,
+        1000000
+      ],
+      "distance_from_baseline": 25,
+      "learned_cut_sha256": "6d22bcf97f047397f83d0692d3e402a07c0113b2cf876658167a0a8113455fd8"
+    },
+    {
+      "step": 18,
+      "margin_units": 6484933,
+      "actual_minimum_margin_units": 6484933,
+      "residual": 28.035626804035388,
+      "master_status": "FEASIBLE",
+      "gap": [
+        350443,
+        12500
+      ],
+      "distance_from_baseline": 24,
+      "learned_cut_sha256": "5f8813983233170d483639c2b984643e7946ff4053e4baacd4eaa13e1e0289f1"
+    },
+    {
+      "step": 19,
+      "margin_units": 2929737,
+      "actual_minimum_margin_units": 2929737,
+      "residual": 28.38685050035084,
+      "master_status": "FEASIBLE",
+      "gap": [
+        14193369,
+        500000
+      ],
+      "distance_from_baseline": 25,
+      "learned_cut_sha256": "0a77e2ceec7f43626ad7847c6b63336530b37c06377290707b3fdd3bd231760f"
+    }
+  ],
+  "scope": "Exact bounded pilot replay in fixed-anchor family."
+}

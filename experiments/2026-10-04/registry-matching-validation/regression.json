@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-04T08:39:05.727299+00:00",
+  "source_revision": "5d4d2b252037b965ef6834908dc825a6d79fd391",
+  "uv_sync_frozen": {
+    "exit_code": 0,
+    "packages_checked": 17
+  },
+  "pytest": {
+    "command": "uv run pytest",
+    "exit_code": 0,
+    "passed": 369,
+    "warnings": 3,
+    "seconds": 244.67,
+    "log_path": "experiments/scratch/registry-matching-checkpoint-20261004-pytest.log",
+    "log_sha256": "425181cf02501597dcacfacfe1fbf357be30a16025016c3fae6945e2f8d68ba3"
+  },
+  "scope": "Package regression; new research runners have separate finite model, certificate, and witness checks."
+}

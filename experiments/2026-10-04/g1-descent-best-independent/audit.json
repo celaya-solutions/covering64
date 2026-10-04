@@ -1,0 +1,447 @@
+{
+  "passed": true,
+  "graph_index": 1,
+  "independently_rebuilt_rows": 697,
+  "ordinary_columns": 1200,
+  "profile": {
+    "anchors": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        5,
+        6,
+        7
+      ],
+      [
+        9,
+        10,
+        11
+      ],
+      [
+        13,
+        14,
+        15
+      ]
+    ],
+    "hubs": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "pinned_blocks": [
+      [
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        14
+      ],
+      [
+        1,
+        2,
+        3,
+        5,
+        9
+      ],
+      [
+        1,
+        2,
+        3,
+        6,
+        11
+      ],
+      [
+        1,
+        2,
+        3,
+        7,
+        10
+      ],
+      [
+        1,
+        2,
+        3,
+        12,
+        15
+      ],
+      [
+        1,
+        2,
+        3,
+        13,
+        16
+      ],
+      [
+        1,
+        4,
+        9,
+        10,
+        11
+      ],
+      [
+        1,
+        5,
+        6,
+        7,
+        14
+      ],
+      [
+        1,
+        11,
+        13,
+        14,
+        15
+      ],
+      [
+        2,
+        5,
+        6,
+        7,
+        13
+      ],
+      [
+        2,
+        9,
+        10,
+        11,
+        16
+      ],
+      [
+        2,
+        10,
+        13,
+        14,
+        15
+      ],
+      [
+        3,
+        5,
+        6,
+        7,
+        15
+      ],
+      [
+        3,
+        9,
+        10,
+        11,
+        12
+      ],
+      [
+        3,
+        9,
+        13,
+        14,
+        15
+      ],
+      [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        4,
+        13,
+        14,
+        15,
+        16
+      ],
+      [
+        5,
+        6,
+        7,
+        8,
+        11
+      ],
+      [
+        5,
+        6,
+        7,
+        9,
+        12
+      ],
+      [
+        5,
+        6,
+        7,
+        10,
+        16
+      ],
+      [
+        5,
+        9,
+        10,
+        11,
+        15
+      ],
+      [
+        5,
+        12,
+        13,
+        14,
+        15
+      ],
+      [
+        6,
+        8,
+        13,
+        14,
+        15
+      ],
+      [
+        6,
+        9,
+        10,
+        11,
+        14
+      ],
+      [
+        7,
+        9,
+        10,
+        11,
+        13
+      ],
+      [
+        7,
+        13,
+        14,
+        15,
+        16
+      ],
+      [
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    ],
+    "minimum_point_degrees": {
+      "1": 20,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 20,
+      "8": 20,
+      "9": 20,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "own_pair_forced_duplicates": {
+      "1,4": 2,
+      "2,4": 2,
+      "3,4": 2,
+      "5,8": 2,
+      "6,8": 2,
+      "7,8": 2,
+      "9,12": 2,
+      "10,12": 2,
+      "11,12": 2,
+      "13,16": 2,
+      "14,16": 2,
+      "15,16": 2
+    },
+    "all_point_degrees_forced": 20,
+    "ordinary_columns": 1200,
+    "barred_unpinned_columns": 3140,
+    "allowed_family_blocks": 1476,
+    "heavy_family_columns": 276,
+    "hub_graphs": 6,
+    "hub_excess_vectors": [
+      [
+        0,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    ],
+    "forced_anchor_pair_equalities": 114,
+    "nonanchor_triple_caps": 556
+  },
+  "registry_maps": [
+    {
+      "anchor_group": 0,
+      "class": "cycle-061",
+      "physical_to_representative": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        11,
+        10,
+        12,
+        13,
+        14,
+        15,
+        16,
+        6,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "anchor_group": 1,
+      "class": "cycle-061",
+      "physical_to_representative": [
+        10,
+        9,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        5,
+        8,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "anchor_group": 2,
+      "class": "cycle-086",
+      "physical_to_representative": [
+        6,
+        7,
+        5,
+        8,
+        13,
+        14,
+        15,
+        16,
+        1,
+        2,
+        3,
+        4,
+        11,
+        10,
+        9,
+        12
+      ]
+    },
+    {
+      "anchor_group": 3,
+      "class": "cycle-086",
+      "physical_to_representative": [
+        13,
+        14,
+        15,
+        16,
+        7,
+        6,
+        5,
+        8,
+        11,
+        10,
+        9,
+        12,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "recorded_objective": 7.52051548546158,
+  "exact_dual": {
+    "rhs_numerator": 7520474,
+    "box_max_numerator": 18,
+    "denominator": 1000000,
+    "gap": [
+      940057,
+      125000
+    ],
+    "signed_rows": 517
+  },
+  "exact_clipped_primal_residual": [
+    1083820503614771791,
+    144115188075855872
+  ],
+  "certified_elastic_upper_bound": [
+    7520515486,
+    1000000000
+  ],
+  "damaged_controls_rejected": [
+    "denominator",
+    "rhs_numerator",
+    "box_max_numerator",
+    "model_sha256",
+    "heavy_sha256",
+    "manifest_sha256",
+    "gap",
+    "weights"
+  ],
+  "optimization_calls": 0,
+  "dual_sha256": "a906791aca7a35d4dac052a85d63d13e364b243e191b625d73613ba367a22b19",
+  "checker_sha256": "41e244c31491eb59fd78a80c7b55768dc0174065c854981b91e6244b1e5a944b",
+  "scope": "Selected fixed heavy tuple and graph 1 only. No all-graph cut, no exact fractional feasible point, and no covering witness."
+}

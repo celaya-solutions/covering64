@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "5a83f0af64b75181527152297e73da8988c2bbb36f1266f297d91e42dfd3b0d6",
+  "mapper_sha256": "836c4d49086c00a069ce2e3740c81cbd1c42ebfb7f547fa302ecf0ca3d2a696a",
+  "saved_screen_sha256": "c77491e77c82fa24e8df883046b9a8d07c03e3861c83e1697a60e71f3a81ad60",
+  "saved_tuples": 115,
+  "eligible_distinct_labeled_tuples": 51,
+  "survivor_mask_counts": {
+    "0": 64,
+    "2": 37,
+    "10": 1,
+    "16": 11,
+    "18": 2
+  },
+  "top_five": [
+    {
+      "campaign": "nearest-heavy-master",
+      "step": 38,
+      "broad_elastic_objective": 5.966796868079938,
+      "surviving_graph_mask": 2
+    },
+    {
+      "campaign": "nearest-heavy-master",
+      "step": 94,
+      "broad_elastic_objective": 6.38998222933779,
+      "surviving_graph_mask": 2
+    },
+    {
+      "campaign": "nearest-heavy-master",
+      "step": 61,
+      "broad_elastic_objective": 6.583863425361938,
+      "surviving_graph_mask": 2
+    },
+    {
+      "campaign": "nearest-heavy-master",
+      "step": 91,
+      "broad_elastic_objective": 6.600300482177941,
+      "surviving_graph_mask": 2
+    },
+    {
+      "campaign": "nearest-heavy-master",
+      "step": 54,
+      "broad_elastic_objective": 7.4261383729732575,
+      "surviving_graph_mask": 2
+    }
+  ],
+  "scope": "Readback uses the already independently audited mapper. Scores are broad all-graph LP scores, not fixed-graph scores or whole-tuple classes."
+}

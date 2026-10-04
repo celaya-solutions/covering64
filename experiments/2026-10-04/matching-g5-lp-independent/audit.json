@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "d09fd187bc4ff0894d01fedffbeee0132d8a4c8024c2fac87b116a0eacdb0030",
+  "runner_sha256": "600f93e06553a76ae1ac8332a3929906ba03e7cd7583f8448b62eb5842b04bd8",
+  "manifest_sha256": "d79c4010bd9a33d269cf5365383016de6f0bc124fff7242a472bee80e4cffc25",
+  "authorized_runs": 2,
+  "seconds_each": 1,
+  "workers_each": 1,
+  "graph_index": 5,
+  "hub_targets": [
+    7,
+    5,
+    5,
+    5,
+    5,
+    7
+  ],
+  "registry_sha256": "a757b484cf6424fb1e3b3d2838cf1476f39768475da4f3d7c50cc883451100dc",
+  "checked": [
+    {
+      "case": "soft-raw-17",
+      "manifest_sha256": "8959cad7eb92f108064716ef250aa05432ca8b7020902b760c8c6199cc8f3614",
+      "model_sha256": "02ef175e7553e8ab7adec01cc0b041adf8b46e8edf53c29b3c7c7cbd711e051a",
+      "rows_sha256": "5d23afdbe38ad9710f24697f4c2217d66e023bcde02b4c9bbc938363e2acad4f",
+      "registry_classes": [
+        "matching-057",
+        "matching-064",
+        "matching-043",
+        "matching-013"
+      ],
+      "seed_holes": 17,
+      "shifted_rows_checked": 697,
+      "ordinary_columns_checked": 1200
+    },
+    {
+      "case": "soft-score-19",
+      "manifest_sha256": "436a62edafdc65cbcdfb5cd3f73fdd07d9feba1645230199f15fc216e40ffc9e",
+      "model_sha256": "2d65b6e8ecb731c1bf0a4b93e60598cdb7f82234271a3f0da65b46e717fdced0",
+      "rows_sha256": "61dcecac05cebc023ec20d25521ebe01fe190762d98aa009d70f4d64b2735db5",
+      "registry_classes": [
+        "matching-057",
+        "matching-064",
+        "matching-043",
+        "matching-069"
+      ],
+      "seed_holes": 19,
+      "shifted_rows_checked": 697,
+      "ordinary_columns_checked": 1200
+    }
+  ],
+  "damaged_models_rejected": 2,
+  "source_review": "Elastic lower/upper slacks have positive unit objective, ordinary bounds [0,1], one GLOP Solve per exclusive case launch.",
+  "scope": "Only these two fixed-heavy graph-five diagnostics are authorized."
+}

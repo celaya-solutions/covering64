@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.14.0
+Version:     v1.16.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      e6dba2d1405e60d3e8ae56b74f308fce95333a97a28c52ffefc936d5c2a6a93d
+SHA256:      b594447bf6d73ce91f84fd1c0d7902a8747956e4e7158d101c4d4efabaf13946
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -709,3 +709,104 @@ one anchor and 6900 legal paired two-edge switches across two anchors. The
 declared neighborhoods. The next distinct experiment will prefer patterns
 furthest inside the known necessary inequalities, then measure their actual
 completion LP, without assuming that a better surrogate gives a cover.
+
+## Maximum-margin pilot and prior-exclusion check (October 4)
+
+One separate 20-candidate pilot maximized the minimum normalized slack in the
+333 known heavy-pattern inequalities. Its 277-variable master retained the
+same heavy family, with one nonnegative margin variable and no distance
+objective. All twenty masters returned FEASIBLE, so no optimal-margin claim
+is made. All completion LPs returned numerical OPTIMAL and yielded separately
+checked positive exact cuts. The collection reached 353 cuts. The run used
+62.476 combined solver seconds and 65.540 wall seconds; its best new elastic
+objective, 18.723394713737736, was worse than the previous patterns. A larger
+margin inside finitely many inequalities did not improve actual LP fitness.
+
+A subsequent registry audit found a missed search-efficiency constraint: the
+new heavy master and two-edge generator did not enforce the already checked
+109 first-link exclusions. The numerical 5.575883 pattern is already excluded
+under all six hub graphs. Its fourth seven-block anchor link alone blocks all
+six, giving a shorter family-conditional seven-block nogood. This does not
+invalidate the saved LP certificates, but the pattern is not an eligible
+starting point for further construction search. All historical run records
+remain unchanged.
+
+Nearest-master step 038, with broad objective 5.966796868079938, has one
+registry-open hub graph: excess vector [0,1,1,1,1,0] in lexicographic hub-pair
+order. Its four links map to cycle-061, cycle-061, cycle-086, and cycle-086.
+Two independent transport replays checked the archived orbits, point maps,
+and proof-registry membership. Subsequent local search must filter all four
+links before solving and bind its cache to the six exact hub-pair targets;
+the old broad LP score is not a fixed-graph score. Evidence is in
+`lp-guided-first-link-registry/` and its independent audit.
+
+A fresh one-worker LP fixed that graph's six hub-pair counts to
+[5,6,6,6,6,5]. It returned numerical objective 8.024244815488677 in 0.140
+solver seconds. Independent reconstruction of all 697 rows and 1200 columns,
+followed by exact dual replay, gives a positive gap of 8024127/1000000.
+This particular tuple cannot complete, but its graph remains an eligible
+branch for changing the heavy blocks. The branch fitness baseline is 8.024,
+not the broader 5.967 score. No integer search was needed for this diagnostic.
+
+The same frozen registry checker also screened all 95 nearest-master and 20
+maximum-margin tuples without optimization. Of 115 distinct labeled tuples,
+51 retain at least one hub graph and 64 are already excluded under all six.
+The five lowest broad scores among survivors all retain graph 1 only.
+These are candidate starting points, not fractional or integer completions;
+their fixed-graph objectives have not all been evaluated.
+
+The newer public Covering Repository was also accessible on October 4.
+Its visible V=16, K=5, T=3, M=3 result still lists 65 blocks, lower bound 61,
+and Rade Belic's 1997 entry imported from Dan Gordon's repository. This
+agrees with the pinned primary archive. The read-only browser observation is
+saved in `coveringrepository-refresh/`; it is not evidence that no unlisted
+later result exists.
+
+## Registry-filtered fixed-graph descent (October 4)
+
+The independently gated graph-1 descent started from nearest-master step 038
+with its correct fixed-graph elastic objective, 8.024244815488677. It completed
+two full two-edge-switch neighborhoods. Each had 136 distinct candidates;
+the proof registry rejected 14 before any LP call and admitted 122. Across
+both rounds, 243 fresh LPs and one cached baseline all returned numerical
+OPTIMAL. The one accepted move improved the objective to 7.52051548546158.
+The second round's best neighbor was 7.978655120128314, so descent stopped.
+The run used 31.963778 solver seconds and 35.753818 wall seconds.
+
+Independent replay rebuilt both neighborhoods, all registry transports, all
+170,068 shifted rows, the cache identity, and all primal and dual hashes.
+This establishes a numerical local minimum only in that registry-filtered
+fixed-graph two-switch neighborhood. The improved 28-block heavy pattern,
+stitched with the original 36 ordinary blocks, misses 17 triples according
+to both cover verifiers. No fractional completion or 64-block cover was found.
+Sources and receipts are in `g1-link-descent/` and
+`g1-link-descent-independent/`; graph-specific results remain separate from
+the 353 broad heavy-pattern cuts.
+
+Two older matching-family seeds also survive the full first-link registry.
+The native soft-search raw-best seed misses 17 triples and has graph-5 classes
+matching-057, matching-064, matching-043, matching-013. Its score-best sibling
+misses 19 and replaces the fourth class with matching-069. Their intended
+graph-5 hub-pair targets are [7,5,5,5,5,7]; the partial seeds do not already
+satisfy every target. A separate independent gate reconstructed both models,
+all eight registry maps, and all shifted rows before two one-second LP calls.
+
+Both calls returned numerical OPTIMAL, using 0.262139 solver seconds in total.
+Their elastic objectives were 15.06922063054413 and 15.317006713016973.
+Separate exact dual checks produced positive gaps 15069111/1000000 and
+3063381/200000. Thus neither fixed heavy tuple can complete in its specified
+matching graph. Independent postchecks recounted all ordinary variables,
+slacks, rows and signed-dual arithmetic. These are useful alternate search
+baselines, not fractional or integer completions. The saved work is in
+`matching-seed-registry/`, `matching-g5-lp/`, and
+`matching-g5-lp-independent/`.
+
+The graph-1 descent's best tuple also has a separately replayed exact gap,
+940057/125000, from 517 signed row weights. Its exact primal elastic upper
+bound is 7.520515486. This excludes that fixed tuple, without excluding
+other graph-1 heavy patterns.
+
+The new checkpoint's package regression passed all 369 tests in 244.67
+seconds, with the same three SWIG warnings. `uv sync --frozen`, Ruff and
+whitespace checks also passed. The regression receipt and log hash are in
+`registry-matching-validation/regression.json`.

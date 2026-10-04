@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Saved 333 checked cuts, complete local LP screens, and a proof that the four pinned seven-block links force degree 20 in any completion. No 64-block cover; best partial still misses three triples and first-link exclusions stay 109.
-Next: test a maximum-margin heavy master. Preserve ignored raw models, proofs and logs, plus unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Saved 353 broad cuts, mandatory first-link filtering, checked graph-1 descent (8.0242 to 7.5205), and two matching diagnostics. All 369 tests and Ruff passed; no 64-block cover, and the best unrestricted partial still misses three triples.
+Next: screen larger graph-1 moves using only graph-1 certificates and descend from the qualified matching graph-5 seed. Keep graph-specific caches and cuts separate. Preserve ignored raw artifacts and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 

@@ -1,0 +1,25 @@
+{
+  "source_sha256": "600f93e06553a76ae1ac8332a3929906ba03e7cd7583f8448b62eb5842b04bd8",
+  "cases": [
+    {
+      "case": "soft-raw-17",
+      "manifest_sha256": "8959cad7eb92f108064716ef250aa05432ca8b7020902b760c8c6199cc8f3614"
+    },
+    {
+      "case": "soft-score-19",
+      "manifest_sha256": "436a62edafdc65cbcdfb5cd3f73fdd07d9feba1645230199f15fc216e40ffc9e"
+    }
+  ],
+  "optimization_calls": 0,
+  "proposed_runs": 2,
+  "seconds_each": 1,
+  "workers_each": 1,
+  "source_revision": "5d4d2b252037b965ef6834908dc825a6d79fd391",
+  "ortools_version": "9.15.6755",
+  "input_sha256": {
+    "experiments/2026-10-04/four-seven-pinned-regularity/check.py": "1ab2d2a0442b91eacd9ed319c9364cf18085c667a4563fdb86d283b0171304f1",
+    "experiments/2026-10-03/cut-survivor-lp-screen/lp_core.py": "35d379455244f2511b00d6fb8dff01de69c1c6a0ca2869c3c73c7e03ce5220d1",
+    "experiments/2026-10-04/matching-seed-registry/audit.json": "ccd060f43c1641be681a98c609c9567e0e971bbdcbfc5479c73e0e30fdbc3422"
+  },
+  "preparation_adjustment": "Before any optimization, requested cap set to one second per case."
+}

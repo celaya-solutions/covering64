@@ -1,0 +1,412 @@
+{
+  "passed": true,
+  "solver_calls": 0,
+  "checker_sha256": "836c4d49086c00a069ce2e3740c81cbd1c42ebfb7f547fa302ecf0ca3d2a696a",
+  "registry_sha256": "a757b484cf6424fb1e3b3d2838cf1476f39768475da4f3d7c50cc883451100dc",
+  "orbit_archive_sha256": "3ea74028d4cb7c5bac4b48121acee05802c85f2ff5c417fecab8b0036cdb3dda",
+  "orbit_metadata_sha256": "70e596f5ccd3dc93a5441235761b1b6341de3b41546eab5c6ff21993b3413231",
+  "orbit_audit_sha256": "536c695cef5a77881d7f42848f23b1aa9a976e0098e80193613b70c55ce7d742",
+  "graphs": [
+    [
+      0,
+      0,
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "transport_checks": 96,
+  "results": [
+    {
+      "name": "best-5p575883",
+      "seed_sha256": "2ee0226616227192641d3210ca1674ea7d1630a64e47ecfb67a8026721142658",
+      "screen_sha256": "8526a0acc1f07c753c44041a514f7ec4728946df48da2ff5d9e183b0100e5e8c",
+      "anchor_blocked_masks": [
+        53,
+        53,
+        45,
+        63
+      ],
+      "surviving_graphs": [],
+      "cases": [
+        {
+          "graph_index": 0,
+          "links": [
+            {
+              "group": 0,
+              "representative": "matching-049",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "matching-049",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "matching-065",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "matching-099",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 1,
+          "links": [
+            {
+              "group": 0,
+              "representative": "cycle-061",
+              "excluded": false
+            },
+            {
+              "group": 1,
+              "representative": "cycle-061",
+              "excluded": false
+            },
+            {
+              "group": 2,
+              "representative": "cycle-086",
+              "excluded": false
+            },
+            {
+              "group": 3,
+              "representative": "cycle-028",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 2,
+          "links": [
+            {
+              "group": 0,
+              "representative": "matching-126",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "matching-126",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "matching-049",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "matching-018",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 3,
+          "links": [
+            {
+              "group": 0,
+              "representative": "cycle-086",
+              "excluded": false
+            },
+            {
+              "group": 1,
+              "representative": "cycle-086",
+              "excluded": false
+            },
+            {
+              "group": 2,
+              "representative": "cycle-103",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "cycle-128",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 4,
+          "links": [
+            {
+              "group": 0,
+              "representative": "cycle-103",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "cycle-103",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "cycle-061",
+              "excluded": false
+            },
+            {
+              "group": 3,
+              "representative": "cycle-028",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 5,
+          "links": [
+            {
+              "group": 0,
+              "representative": "matching-065",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "matching-065",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "matching-126",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "matching-099",
+              "excluded": true
+            }
+          ]
+        }
+      ],
+      "minimum_union_nogoods": [
+        {
+          "anchor_groups": [
+            3
+          ],
+          "mask": 63,
+          "block_global_ids": [
+            1356,
+            2347,
+            3042,
+            3242,
+            4111,
+            4241,
+            4311
+          ],
+          "maximum_selected": 6
+        }
+      ]
+    },
+    {
+      "name": "nearest-step-038",
+      "seed_sha256": "d3f67407d713280c213b6e4fee697ffabff0559ee14b44e1589ebf0968ca83fc",
+      "screen_sha256": "4436699ea00fc2693852035647809f1caa02a18f746b459210f8427f5b402f8e",
+      "anchor_blocked_masks": [
+        53,
+        53,
+        45,
+        45
+      ],
+      "surviving_graphs": [
+        1
+      ],
+      "cases": [
+        {
+          "graph_index": 0,
+          "links": [
+            {
+              "group": 0,
+              "representative": "matching-049",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "matching-049",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "matching-065",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "matching-065",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 1,
+          "links": [
+            {
+              "group": 0,
+              "representative": "cycle-061",
+              "excluded": false
+            },
+            {
+              "group": 1,
+              "representative": "cycle-061",
+              "excluded": false
+            },
+            {
+              "group": 2,
+              "representative": "cycle-086",
+              "excluded": false
+            },
+            {
+              "group": 3,
+              "representative": "cycle-086",
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "graph_index": 2,
+          "links": [
+            {
+              "group": 0,
+              "representative": "matching-126",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "matching-126",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "matching-049",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "matching-049",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 3,
+          "links": [
+            {
+              "group": 0,
+              "representative": "cycle-086",
+              "excluded": false
+            },
+            {
+              "group": 1,
+              "representative": "cycle-086",
+              "excluded": false
+            },
+            {
+              "group": 2,
+              "representative": "cycle-103",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "cycle-103",
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "graph_index": 4,
+          "links": [
+            {
+              "group": 0,
+              "representative": "cycle-103",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "cycle-103",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "cycle-061",
+              "excluded": false
+            },
+            {
+              "group": 3,
+              "representative": "cycle-061",
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "graph_index": 5,
+          "links": [
+            {
+              "group": 0,
+              "representative": "matching-065",
+              "excluded": true
+            },
+            {
+              "group": 1,
+              "representative": "matching-065",
+              "excluded": true
+            },
+            {
+              "group": 2,
+              "representative": "matching-126",
+              "excluded": true
+            },
+            {
+              "group": 3,
+              "representative": "matching-126",
+              "excluded": true
+            }
+          ]
+        }
+      ],
+      "minimum_union_nogoods": []
+    }
+  ],
+  "scope": "Registry exclusions and union nogoods are conditional on the regular four-sevenfold family; an open mask does not prove completion."
+}
