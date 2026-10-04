@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "commands": [
+    "uv sync --frozen",
+    "uv run pytest",
+    "uv run ruff check ."
+  ],
+  "test_result": "314 passed,3 existing SWIG warnings",
+  "pytest_seconds": 396.15,
+  "source_revision_before_checkpoint": "e0a6959a9eb56240654fb6b157906227e36b4a4b",
+  "uv_lock_sha256": "7c16c4cf38ece8bf42885d1bab9698ced20c0411036f43b2f21f1e8cb2c5e180",
+  "logs": {
+    "sync.log": "7c693519f9a6a816626450c24931dc5e84b617853daaa73544fde7fb5f2b5dae",
+    "pytest.log": "24d36a7baed0402a2597a1e5a4731c356b02917b469b95b35c40dde9a5ebfd66",
+    "ruff.log": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+  },
+  "scope": "Package tests and lint; experiment encodings and searches have separate independent audits."
+}

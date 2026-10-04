@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Checkpoint cdaab58 saved audited feature, facet and odd-set cuts with 102 of 258 first-link cases excluded; 306 tests plus 10 subtests and Ruff pass. Goal 64 remains open with 156 cases; six hub-count screens and overlap-five degree-19 work continue separately. Full evidence is in docs/four-seven-branch.md.
+Checkpoint e0a6959 records 106 checked first-link exclusions, the audited degree-19 roadmap and refreshed hull; 314 tests and Ruff pass. The 64-block target remains open (152 four-sevenfold cases); new native-profile and Boolean-template searches are separate active work. See docs/research-continuation-2026-10-03.md.

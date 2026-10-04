@@ -1,0 +1,353 @@
+{
+  "valid": true,
+  "solver_calls": 0,
+  "runner_sha256": "3b62a11a5617a927ec7ec734d3b5787ed85e6ba4ca4e1977c262cc85573d7127",
+  "checker_sha256": "0ffc22e9df58232026a71eb361310a12622bba8562ae8c2eac152e5fd8f0ee31",
+  "input_hashes": {
+    "manifest": "dcbdfd83d9c1952fbcbc0e2e192897ce96fae126aa0d527011ca6f0e13eb8c87",
+    "matrix": "e9b2289291479c5f1119f432f0131d8fda8130ace2e64c773cf93dd8928ceade",
+    "catalog_audit": "67526fe1dca68a1a67c770f8e9abf88f675869bf33064fa0877432251cf9ddaf",
+    "exclusion_union": "2809b2f39fac1971ca6bf3997e789a4a41463b62394e7525e5d282d084527f88",
+    "representatives": "70e596f5ccd3dc93a5441235761b1b6341de3b41546eab5c6ff21993b3413231"
+  },
+  "selected_representatives": 48,
+  "transitions": 96,
+  "damaged_controls": 46,
+  "models": [
+    {
+      "kind": "whole",
+      "phase_one": false,
+      "rows": 4550,
+      "columns": 52936,
+      "canonical_rows_sha256": "137df98a94f79c46a4e683fedfba5b84fa28d85815a831ca931a2f80ad15488d",
+      "core_protobuf_sha256": "c0c5183325380c78fe0b4a59d567e83756a245aefdd0b5f4cd35d90db55a7ecd",
+      "prefix_sha256": "c0c5183325380c78fe0b4a59d567e83756a245aefdd0b5f4cd35d90db55a7ecd",
+      "exported_proto_sha256": "0b6c5399277d3a1f559d76a670486ee1d0a94351c9e4ce5632b2661ee7c70510",
+      "transitions": [],
+      "damaged_controls": [
+        {
+          "control": "matrix coefficient",
+          "rejected": true
+        },
+        {
+          "control": "matrix bound",
+          "rejected": true
+        },
+        {
+          "control": "original domain",
+          "rejected": true
+        },
+        {
+          "control": "original objective",
+          "rejected": true
+        },
+        {
+          "control": "original type",
+          "rejected": true
+        },
+        {
+          "control": "objective direction",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "extra variable",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "kind": "whole",
+      "phase_one": true,
+      "rows": 4550,
+      "columns": 53496,
+      "canonical_rows_sha256": "137df98a94f79c46a4e683fedfba5b84fa28d85815a831ca931a2f80ad15488d",
+      "core_protobuf_sha256": "c0c5183325380c78fe0b4a59d567e83756a245aefdd0b5f4cd35d90db55a7ecd",
+      "prefix_sha256": "c6ead7764ff11938207061f3823693b695e37b06d8d395928d5a53bd16b98794",
+      "exported_proto_sha256": "6045ba74e2468bafc10ed27f08a20c1d6bfa22e88dcd8b7d08d78dc3e7c7d415",
+      "transitions": [],
+      "damaged_controls": [
+        {
+          "control": "matrix coefficient",
+          "rejected": true
+        },
+        {
+          "control": "matrix bound",
+          "rejected": true
+        },
+        {
+          "control": "original domain",
+          "rejected": true
+        },
+        {
+          "control": "original objective",
+          "rejected": true
+        },
+        {
+          "control": "original type",
+          "rejected": true
+        },
+        {
+          "control": "objective direction",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "extra variable",
+          "rejected": true
+        },
+        {
+          "control": "slack bound",
+          "rejected": true
+        },
+        {
+          "control": "slack objective",
+          "rejected": true
+        },
+        {
+          "control": "slack sign",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "kind": "fixed",
+      "phase_one": false,
+      "rows": 4557,
+      "columns": 52936,
+      "canonical_rows_sha256": "137df98a94f79c46a4e683fedfba5b84fa28d85815a831ca931a2f80ad15488d",
+      "core_protobuf_sha256": "c0c5183325380c78fe0b4a59d567e83756a245aefdd0b5f4cd35d90db55a7ecd",
+      "prefix_sha256": "c0c5183325380c78fe0b4a59d567e83756a245aefdd0b5f4cd35d90db55a7ecd",
+      "exported_proto_sha256": "334fb658f5da7741d2cda79c7c5f7e37c7cbf162803697c565778485cd974838",
+      "transitions": [
+        "matching-000",
+        "matching-012",
+        "matching-013",
+        "matching-014",
+        "matching-015",
+        "matching-019",
+        "matching-020",
+        "matching-021",
+        "matching-022",
+        "matching-028",
+        "matching-029",
+        "matching-030",
+        "matching-036",
+        "matching-039",
+        "matching-043",
+        "matching-045",
+        "matching-047",
+        "matching-053",
+        "matching-057",
+        "matching-058",
+        "matching-059",
+        "matching-060",
+        "matching-062",
+        "matching-063",
+        "matching-064",
+        "matching-066",
+        "matching-067",
+        "matching-068",
+        "matching-069",
+        "matching-071",
+        "matching-072",
+        "matching-073",
+        "matching-091",
+        "matching-093",
+        "matching-097",
+        "matching-102",
+        "matching-103",
+        "matching-104",
+        "matching-107",
+        "matching-109",
+        "matching-110",
+        "matching-115",
+        "matching-117",
+        "matching-118",
+        "matching-119",
+        "matching-123",
+        "matching-127",
+        "matching-128"
+      ],
+      "damaged_controls": [
+        {
+          "control": "matrix coefficient",
+          "rejected": true
+        },
+        {
+          "control": "matrix bound",
+          "rejected": true
+        },
+        {
+          "control": "original domain",
+          "rejected": true
+        },
+        {
+          "control": "original objective",
+          "rejected": true
+        },
+        {
+          "control": "original type",
+          "rejected": true
+        },
+        {
+          "control": "objective direction",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "extra variable",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed row",
+          "rejected": true
+        },
+        {
+          "control": "invalid fixed IDs",
+          "rejected": true
+        },
+        {
+          "control": "invalid fixed IDs",
+          "rejected": true
+        },
+        {
+          "control": "invalid fixed IDs",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "kind": "fixed",
+      "phase_one": true,
+      "rows": 4557,
+      "columns": 52950,
+      "canonical_rows_sha256": "137df98a94f79c46a4e683fedfba5b84fa28d85815a831ca931a2f80ad15488d",
+      "core_protobuf_sha256": "c0c5183325380c78fe0b4a59d567e83756a245aefdd0b5f4cd35d90db55a7ecd",
+      "prefix_sha256": "c030616f29ba2fc3c8a696f4699e6e1d753eed90a31bdab9291e4145d5e888ab",
+      "exported_proto_sha256": "cdf079ce31bf54dca20c85589a483fe75fe3fa39bdb2bb58ad7a217891236222",
+      "transitions": [
+        "matching-000",
+        "matching-012",
+        "matching-013",
+        "matching-014",
+        "matching-015",
+        "matching-019",
+        "matching-020",
+        "matching-021",
+        "matching-022",
+        "matching-028",
+        "matching-029",
+        "matching-030",
+        "matching-036",
+        "matching-039",
+        "matching-043",
+        "matching-045",
+        "matching-047",
+        "matching-053",
+        "matching-057",
+        "matching-058",
+        "matching-059",
+        "matching-060",
+        "matching-062",
+        "matching-063",
+        "matching-064",
+        "matching-066",
+        "matching-067",
+        "matching-068",
+        "matching-069",
+        "matching-071",
+        "matching-072",
+        "matching-073",
+        "matching-091",
+        "matching-093",
+        "matching-097",
+        "matching-102",
+        "matching-103",
+        "matching-104",
+        "matching-107",
+        "matching-109",
+        "matching-110",
+        "matching-115",
+        "matching-117",
+        "matching-118",
+        "matching-119",
+        "matching-123",
+        "matching-127",
+        "matching-128"
+      ],
+      "damaged_controls": [
+        {
+          "control": "matrix coefficient",
+          "rejected": true
+        },
+        {
+          "control": "matrix bound",
+          "rejected": true
+        },
+        {
+          "control": "original domain",
+          "rejected": true
+        },
+        {
+          "control": "original objective",
+          "rejected": true
+        },
+        {
+          "control": "original type",
+          "rejected": true
+        },
+        {
+          "control": "objective direction",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "extra variable",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed row",
+          "rejected": true
+        },
+        {
+          "control": "slack bound",
+          "rejected": true
+        },
+        {
+          "control": "slack objective",
+          "rejected": true
+        },
+        {
+          "control": "slack sign",
+          "rejected": true
+        },
+        {
+          "control": "invalid fixed IDs",
+          "rejected": true
+        },
+        {
+          "control": "invalid fixed IDs",
+          "rejected": true
+        },
+        {
+          "control": "invalid fixed IDs",
+          "rejected": true
+        }
+      ]
+    }
+  ],
+  "scope": "Four layouts preserve exact refreshed matrix coefficients, unit boxes and objective fields. Whole phase I softens only 280 template rows; fixed-link phase I softens only seven fixes. All 48 transitions checked twice. No Solve."
+}

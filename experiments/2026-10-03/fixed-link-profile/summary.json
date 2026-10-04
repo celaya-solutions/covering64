@@ -1,0 +1,64 @@
+{
+  "cases": [
+    {
+      "name": "shape-1-high-2",
+      "shape": 1,
+      "anchor": 1,
+      "high_point": 2,
+      "seed": 2026100351,
+      "initial_holes": 60,
+      "best_holes": 17,
+      "seconds": 300,
+      "proposals": 260763518,
+      "restarts": 521,
+      "best_sha256": "bac673c1c51760a9fd7d150e99a5f911187a0e70f79bcf0bf4b6f12f7b97d181"
+    },
+    {
+      "name": "shape-4-high-2",
+      "shape": 4,
+      "anchor": 1,
+      "high_point": 2,
+      "seed": 2026100352,
+      "initial_holes": 45,
+      "best_holes": 17,
+      "seconds": 300,
+      "proposals": 258086804,
+      "restarts": 516,
+      "best_sha256": "c90d0a37ceee4d1254ba37c52f6fa3716d678d513fcb350c8228e30025db6818"
+    },
+    {
+      "name": "shape-44-high-3",
+      "shape": 44,
+      "anchor": 1,
+      "high_point": 3,
+      "seed": 2026100353,
+      "initial_holes": 59,
+      "best_holes": 20,
+      "seconds": 300,
+      "proposals": 270658098,
+      "restarts": 541,
+      "best_sha256": "463aca3e45f05e4dc62e13bfb55e1545171641aa0f4ae590bd2bcbaecea9f9fd"
+    },
+    {
+      "name": "shape-47-high-3",
+      "shape": 47,
+      "anchor": 1,
+      "high_point": 3,
+      "seed": 2026100354,
+      "initial_holes": 58,
+      "best_holes": 18,
+      "seconds": 300,
+      "proposals": 271517546,
+      "restarts": 543,
+      "best_sha256": "c231076bcdcb8f11a92fce92e541b26f06c6f116fb3d6c233e23d67e06db5df2"
+    }
+  ],
+  "covers": 0,
+  "pilot_snapshots_checked": 264,
+  "pilot_operations_checked": 60,
+  "preflight_snapshots_checked": 157,
+  "total_proposals": 1061025966,
+  "native_threads_per_process": 1,
+  "maximum_native_processes": 2,
+  "scope": "Bounded heuristic search only; no exclusion or lower-bound claim."
+}

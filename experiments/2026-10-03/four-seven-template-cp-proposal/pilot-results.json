@@ -1,0 +1,40 @@
+[
+  {
+    "case": "matching",
+    "status": "UNKNOWN",
+    "seed": 2026103701,
+    "requested_seconds": 300,
+    "workers": 8,
+    "wall_seconds": 301.52252000000004,
+    "elapsed_seconds": 301.52697134017944,
+    "started_unix": 1791079495.6702578,
+    "branches": 5201,
+    "conflicts": 4,
+    "model_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+    "parameters_sha256": "b194235d72335ee6f27555627e3836877bd5f0d6d305af4b2386d22c262a1674",
+    "response_sha256": "4d6516628dbed53102cff8485122a3d87401538c57bd0517a21295bc2731ab7e",
+    "log_sha256": "f14b16fbc1de5f7eeaf94dc49bfdc547422425b76526c8cc62b31be853d7df81",
+    "witness": null,
+    "checks": [],
+    "scope": "A bounded solver observation. UNKNOWN and uncertified INFEASIBLE cannot establish a theorem or exclusion."
+  },
+  {
+    "case": "cycle",
+    "status": "UNKNOWN",
+    "seed": 2026103702,
+    "requested_seconds": 300,
+    "workers": 8,
+    "wall_seconds": 300.277008,
+    "elapsed_seconds": 300.31038522720337,
+    "started_unix": 1791079797.874225,
+    "branches": 2661039,
+    "conflicts": 391002,
+    "model_sha256": "fac042466f6f98217ed091b98d589f997fef53333ac9b32182720c8f791adae3",
+    "parameters_sha256": "d113b097a60a2444ebd97dcf992c8729315c14e4a79f8385b3ad1d4a2af5630a",
+    "response_sha256": "10d99d6629c6c45b5c5208436189ce62f936167552fc7df778d49b3e09ee89f2",
+    "log_sha256": "e23157d0d09d976c6a8d9278272269931d8e29442be5dcdd1dc6810b91808d3a",
+    "witness": null,
+    "checks": [],
+    "scope": "A bounded solver observation. UNKNOWN and uncertified INFEASIBLE cannot establish a theorem or exclusion."
+  }
+]

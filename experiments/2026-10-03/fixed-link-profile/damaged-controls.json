@@ -1,0 +1,215 @@
+{
+  "checker_sha256": "81cb7bd947ac15b0376058a3dc116e62b31d7bbad52f1d029be8a3394493ef5f",
+  "rejected": 15,
+  "controls": [
+    {
+      "control": "missing_block",
+      "native_exit": 2,
+      "native_error": "seed must contain64 distinct blocks",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 1
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 1
+        }
+      ],
+      "sha256": "af27e45fc99074826ef533ec3854927628ab9fbdef723e396db7152e1b95c104"
+    },
+    {
+      "control": "duplicate_block",
+      "native_exit": 2,
+      "native_error": "seed must contain64 distinct blocks",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 2
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 2
+        }
+      ],
+      "sha256": "90c620800122f569f1f3914a15fd5ae6cb8e04e80487ccfcea8dffc434376f6a"
+    },
+    {
+      "control": "repeated_label",
+      "native_exit": 2,
+      "native_error": "repeated label",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 2
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 2
+        }
+      ],
+      "sha256": "c8577beede56172f796f9ead6121ad559c22b458c321aa8070e3720845b44e4c"
+    },
+    {
+      "control": "outside_label",
+      "native_exit": 2,
+      "native_error": "label outside1..16",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 2
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 2
+        }
+      ],
+      "sha256": "7fae3789ee7864e6efdc35c5ac4406dd63cad404e670adaa48f4c20d45102a47"
+    },
+    {
+      "control": "extra_token",
+      "native_exit": 2,
+      "native_error": "extra seed token",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 2
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 2
+        }
+      ],
+      "sha256": "ee1a86214171a37671ae5f7686196abc13736b9354e65cd4aeeca0ca15cd0348"
+    },
+    {
+      "control": "noninteger",
+      "native_exit": 2,
+      "native_error": "five integer labels required",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 2
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 2
+        }
+      ],
+      "sha256": "1872aa7fa213199e7bf96e09de4d9a7029baa8c336bfae8634d830d61f20259b"
+    },
+    {
+      "control": "wrong_profile",
+      "native_exit": 2,
+      "native_error": "degree profile drift",
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify"
+          ],
+          "exit": 1
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py"
+          ],
+          "exit": 1
+        }
+      ],
+      "sha256": "66d749ed74f4ba0d35532c0f17b761dc9704090a1dd5310f4c17f07ef03b4919"
+    },
+    {
+      "control": "anchor_suffix",
+      "native_exit": 2,
+      "native_error": "unsigned integer argument required"
+    },
+    {
+      "control": "high_suffix",
+      "native_exit": 2,
+      "native_error": "unsigned integer argument required"
+    },
+    {
+      "control": "negative_seed",
+      "native_exit": 2,
+      "native_error": "unsigned integer argument required"
+    },
+    {
+      "control": "seed_suffix",
+      "native_exit": 2,
+      "native_error": "unsigned integer argument required"
+    },
+    {
+      "control": "budget_suffix",
+      "native_exit": 2,
+      "native_error": "positive finite budget required"
+    },
+    {
+      "control": "nan_budget",
+      "native_exit": 2,
+      "native_error": "positive finite budget required"
+    },
+    {
+      "control": "inf_budget",
+      "native_exit": 2,
+      "native_error": "positive finite budget required"
+    },
+    {
+      "control": "zero_budget",
+      "native_exit": 2,
+      "native_error": "positive finite budget required"
+    }
+  ],
+  "scope": "Cover checkers reject these partial/damaged inputs as covers; native also checks profile."
+}

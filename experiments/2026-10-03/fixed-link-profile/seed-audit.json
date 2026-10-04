@@ -1,0 +1,222 @@
+{
+  "checker_sha256": "9091fe1471490452cc959777d1413b07f55760520435ec36aa7f0cb44e0b3b02",
+  "snapshots": [
+    {
+      "path": "experiments/2026-10-03/fixed-link-profile/shape-1-high-2-seed.txt",
+      "sha256": "91b742e98812c66ebc5b5953fbeb368a715c5b236f1b501b64710a1c743f1283",
+      "holes": 60,
+      "degrees": {
+        "1": 19,
+        "2": 21,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-1-high-2-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "91b742e98812c66ebc5b5953fbeb368a715c5b236f1b501b64710a1c743f1283",
+          "uncovered_count": 60,
+          "valid": false
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-1-high-2-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "91b742e98812c66ebc5b5953fbeb368a715c5b236f1b501b64710a1c743f1283",
+          "uncovered_count": 60,
+          "valid": false
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-03/fixed-link-profile/shape-4-high-2-seed.txt",
+      "sha256": "eda359f5a17e0a04c3245664faee68b3b56f62695ff54a54d12a8fef58ca9e1b",
+      "holes": 45,
+      "degrees": {
+        "1": 19,
+        "2": 21,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-4-high-2-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "eda359f5a17e0a04c3245664faee68b3b56f62695ff54a54d12a8fef58ca9e1b",
+          "uncovered_count": 45,
+          "valid": false
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-4-high-2-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "eda359f5a17e0a04c3245664faee68b3b56f62695ff54a54d12a8fef58ca9e1b",
+          "uncovered_count": 45,
+          "valid": false
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-03/fixed-link-profile/shape-44-high-3-seed.txt",
+      "sha256": "5ba6ec62969d9320b6c4901c3ba096d858bd7b279a539a251cb45916da509b35",
+      "holes": 59,
+      "degrees": {
+        "1": 19,
+        "2": 20,
+        "3": 21,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-44-high-3-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "5ba6ec62969d9320b6c4901c3ba096d858bd7b279a539a251cb45916da509b35",
+          "uncovered_count": 59,
+          "valid": false
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-44-high-3-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "5ba6ec62969d9320b6c4901c3ba096d858bd7b279a539a251cb45916da509b35",
+          "uncovered_count": 59,
+          "valid": false
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-03/fixed-link-profile/shape-47-high-3-seed.txt",
+      "sha256": "35a407a225ac14732c6c199e9af31770a836d6a4d9ed7b1aeb991f59909c4cb2",
+      "holes": 58,
+      "degrees": {
+        "1": 19,
+        "2": 20,
+        "3": 21,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "checks": [
+        {
+          "command": [
+            "uv",
+            "run",
+            "covering64",
+            "verify",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-47-high-3-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "35a407a225ac14732c6c199e9af31770a836d6a4d9ed7b1aeb991f59909c4cb2",
+          "uncovered_count": 58,
+          "valid": false
+        },
+        {
+          "command": [
+            "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+            "scripts/check_cover.py",
+            "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/fixed-link-profile/shape-47-high-3-seed.txt",
+            "--expected-blocks",
+            "64"
+          ],
+          "exit": 1,
+          "canonical_sha256": "35a407a225ac14732c6c199e9af31770a836d6a4d9ed7b1aeb991f59909c4cb2",
+          "uncovered_count": 58,
+          "valid": false
+        }
+      ]
+    }
+  ],
+  "operations": [],
+  "snapshot_count": 4,
+  "operation_count": 0,
+  "covers": 0,
+  "scope": "Independent exact recount and both covering verifiers for every saved state."
+}

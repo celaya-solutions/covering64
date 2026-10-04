@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.4.0
+Version:     v1.5.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      5aa9f00e5667aa0cd8d02ef444bda8fe647b402f36b03033a7b88935b8829e65
+SHA256:      c64188dab548d473a783e97e03fa2a624013e22e241bab3ee66688b4e9e93835
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -13,8 +13,8 @@ License:     All Rights Reserved / Celaya Solutions
 # Research continuation
 
 No verified 64-block cover has been found. The strongest current first-link
-screen has 106 independently checked exclusions out of 258 cases in the regular
-four-sevenfold branch: 27 cycle and 79 matching. The remaining 152 are open.
+screen has 108 independently checked exclusions out of 258 cases in the regular
+four-sevenfold branch: 27 cycle and 81 matching. The remaining 150 are open.
 This is a branch result, not a global lower bound.
 
 The six exhaustive hub-count cases exclude matching-077 in all six. Every one
@@ -175,4 +175,45 @@ A separately audited catalog refresh uses all 106 checked exclusions. It removes
 1,512 matching templates per heavy group, leaving 12,690 and 55,528 total model
 variables. The cycle catalog and matrix are byte-identical to their originals.
 Direct re-enumeration, exact row reconstruction and 16 damaged controls passed.
-The refreshed models have no solver results at this checkpoint.
+The 106-catalog build was audited before the later solver runs below.
+
+## Refreshed hull and integer construction wave
+
+The 106-catalog matching screen added two independently replayed exclusions:
+matching-095, gap 22563/1000000, and matching-113, gap 44/15625. The checked
+union is now 108 of 258, with 102 cycle and 48 matching first-link cases open.
+A further audited refresh removes 648 templates per group, leaving 12,042
+matching templates and 52,936 columns. Its whole-branch LP and all 48 fixed-link
+LPs returned numerical OPTIMAL, with fractional primals and no further exact
+exclusions. This is a numerical stopping point for this pruning procedure;
+it does not prove integer feasibility or settle the branch.
+
+The equivalent Boolean-template CP models, built from the frozen 106 catalog,
+retain all original 4,768 variables and 4,270 constraints and add exactly one
+selected template per group with 276 heavy-block marginal equalities. Separate
+model reconstruction rejected 20 damaged controls. Matching and cycle pilots
+requested 300 seconds and eight workers each; both returned UNKNOWN without
+candidates. Recorded wall times were 301.523 and 300.277 seconds.
+
+A separate SCIP pilot used the same matching hull with continuous template
+weights. Binary heavy-block marginals force a unique selected template, so this
+has the same integer projection. The independent model audit rejected 19
+damaged controls. SCIP reached its requested 300-second time limit after
+304.86 solver seconds, with eight nodes and zero solutions. NOT_SOLVED remains
+inconclusive; no solver-only negative result is counted as an exclusion.
+
+The new native sole-degree-19 heuristic freezes one complete 19-block link and
+uses degree-preserving moves on the other 45 blocks. Four 300-second pilots
+ended with 17, 17, 20 and 18 holes after 1,061,025,966 proposals. All 264 saved
+states were recounted independently; both covering verifiers agreed they were
+incomplete. The 60 saved operations and rollbacks passed replay. These are
+partial states in a stricter degree profile, not improvements over the existing
+unrestricted three-hole near-cover. Sanitizer checks and malformed-input
+controls passed. Required package validation again passed all 314 tests and
+Ruff, with the same three SWIG warnings.
+
+Two prepared narrower CP pilots fix matching-029/(m4,z)=(0,2) and
+matching-063/(0,1). Their independent audit reconstructs exactly nine added
+rows, preserves the full base protobuf, checks the five other excluded hub
+cases for each, and rejects 16 damaged controls. Their solve results are
+separate ongoing work and are not included in this checkpoint.

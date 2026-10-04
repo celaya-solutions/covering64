@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "model_sha256": "ca38951e994b1b2f0f0d6b42a3bfa60124366b010f10dd1d0ec2528fce82214b",
+  "matrix_sha256": "ee2072837ae28bcce599c60975995a5c88b3fc3eb635352abc089b3eb6d78bab",
+  "checker_sha256": "622425b022c643f396ad227d2f84faee5af17da095e458aedb4d993e695ddb3e",
+  "variables": 55528,
+  "rows": 4550,
+  "boolean_variables": 4768,
+  "continuous_selectors": 50760,
+  "lexicographic_block_columns": 4368,
+  "template_signatures": [
+    {
+      "group": 0,
+      "templates": 12690,
+      "coordinates": 69,
+      "unique_binary_signatures": 12690
+    },
+    {
+      "group": 1,
+      "templates": 12690,
+      "coordinates": 69,
+      "unique_binary_signatures": 12690
+    },
+    {
+      "group": 2,
+      "templates": 12690,
+      "coordinates": 69,
+      "unique_binary_signatures": 12690
+    },
+    {
+      "group": 3,
+      "templates": 12690,
+      "coordinates": 69,
+      "unique_binary_signatures": 12690
+    }
+  ],
+  "damaged_controls": [
+    {
+      "control": "missing_variable",
+      "rejected": "variable count"
+    },
+    {
+      "control": "missing_row",
+      "rejected": "row count"
+    },
+    {
+      "control": "column_name",
+      "rejected": "column index/name changed"
+    },
+    {
+      "control": "block_continuous",
+      "rejected": "changed integrality"
+    },
+    {
+      "control": "auxiliary_continuous",
+      "rejected": "changed integrality"
+    },
+    {
+      "control": "selector_integer",
+      "rejected": "changed integrality"
+    },
+    {
+      "control": "lower_domain",
+      "rejected": "changed domain"
+    },
+    {
+      "control": "upper_domain",
+      "rejected": "changed domain"
+    },
+    {
+      "control": "nan_domain",
+      "rejected": "changed domain"
+    },
+    {
+      "control": "objective",
+      "rejected": "nonzero objective coefficient"
+    },
+    {
+      "control": "maximize",
+      "rejected": "changed objective"
+    },
+    {
+      "control": "offset",
+      "rejected": "changed objective"
+    },
+    {
+      "control": "row_name",
+      "rejected": "row index/name changed"
+    },
+    {
+      "control": "row_coefficient",
+      "rejected": "row coefficients changed"
+    },
+    {
+      "control": "row_column",
+      "rejected": "row coefficients changed"
+    },
+    {
+      "control": "row_lower",
+      "rejected": "lower bound changed"
+    },
+    {
+      "control": "row_upper",
+      "rejected": "upper bound changed"
+    },
+    {
+      "control": "lazy_row",
+      "rejected": "lazy row changed"
+    },
+    {
+      "control": "duplicate_coefficient",
+      "rejected": "row width changed"
+    }
+  ],
+  "scip_unsolved_load_export_equal": true,
+  "single_thread_accepted": true,
+  "solver": "SCIP 10.0.0 [LP solver: SoPlex 8.0.0]",
+  "solve_called": false,
+  "scope": "Exact MIP export audit against separately audited whole matching matrix."
+}

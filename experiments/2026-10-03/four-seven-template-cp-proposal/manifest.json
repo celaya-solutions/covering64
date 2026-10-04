@@ -1,0 +1,60 @@
+{
+  "version": "v1.0.0",
+  "builder_sha256": "b6099c319ed778962b0c9d0cdfd3f9030fbef2e2b088a3db1c197138616bab6f",
+  "git_revision": "e0a6959a9eb56240654fb6b157906227e36b4a4b",
+  "ortools_version": "9.15.6755",
+  "refresh_manifest_sha256": "84183ee44ed2916ffd18d64b5f113774e4eda47bad5e82c6c79b1b3a64db5bdf",
+  "cases": [
+    {
+      "case": "cycle",
+      "model": "experiments/scratch/four-seven-template-cp-v1.0.0-prepared/cycle-boolean-templates.pbtxt",
+      "model_sha256": "fac042466f6f98217ed091b98d589f997fef53333ac9b32182720c8f791adae3",
+      "source_base": "experiments/scratch/four-seven-link-lp-full/cycle-base.pbtxt",
+      "source_base_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9",
+      "matrix_sha256": "27061fc3af3e1933b05b8c71c5fabef5229129d0ab57c73cf1cb9c9b282cf88d",
+      "catalog_sha256": "465c6c2186d5c8700ca476d6fa0fd60e0633cbc4d526cb40d91602be5b494d2c",
+      "group_catalogs_sha256": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35",
+      "base_variables": 4768,
+      "block_variables": 4368,
+      "base_constraints": 4270,
+      "boolean_selectors": 100080,
+      "total_variables": 104848,
+      "total_constraints": 4550,
+      "exactly_one_rows": [
+        4270,
+        4340,
+        4410,
+        4480
+      ],
+      "marginal_rows": 276,
+      "base_proto_preserved": true,
+      "cp_model_valid": true
+    },
+    {
+      "case": "matching",
+      "model": "experiments/scratch/four-seven-template-cp-v1.0.0-prepared/matching-boolean-templates.pbtxt",
+      "model_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+      "source_base": "experiments/scratch/four-seven-link-lp-full/matching-base.pbtxt",
+      "source_base_sha256": "5f85a1cd9caa86742892e44c0632df0c99c0409bc3e69d0905e4924a08116b84",
+      "matrix_sha256": "ee2072837ae28bcce599c60975995a5c88b3fc3eb635352abc089b3eb6d78bab",
+      "catalog_sha256": "8a715fd88ef51f31662c6026a0575c72f1a9ffd610ba476a356de12c77fefff5",
+      "group_catalogs_sha256": "56729c9fff19eb98acaa1507295bff7daa639047ddbbd2934cfb06fe3115c4c1",
+      "base_variables": 4768,
+      "block_variables": 4368,
+      "base_constraints": 4270,
+      "boolean_selectors": 50760,
+      "total_variables": 55528,
+      "total_constraints": 4550,
+      "exactly_one_rows": [
+        4270,
+        4340,
+        4410,
+        4480
+      ],
+      "marginal_rows": 276,
+      "base_proto_preserved": true,
+      "cp_model_valid": true
+    }
+  ],
+  "scope": "Exact integer extension of the audited complete surviving-template hull for normalized regular four-sevenfold covers. No solves; no exclusions."
+}

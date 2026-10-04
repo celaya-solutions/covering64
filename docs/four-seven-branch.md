@@ -1,10 +1,10 @@
 ```
 Document:    The Regular Four-Sevenfold-Triple Branch
-Version:     v1.3.0
+Version:     v1.4.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      0eaeafaece888d346150f0c3bff6f6826a96457b169637b6f3af3737007ea012
+SHA256:      87b6baf661a4afa5360305101829960677599413bf95a657e0fbc42f64e6c59f
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -223,3 +223,19 @@ with its five previously checked hub cases, this excludes matching-032 entirely
 within the regular four-sevenfold branch. The 22 other priority LPs remain
 numerically optimal and fractional. This brings the combined total to 106
 excluded first links and 152 open; it supplies no covering witness.
+
+## Iterative surviving-template update
+
+The 106-exclusion catalog screen added matching-095 and matching-113, each
+with an independently replayed exact certificate. The current union is **108
+checked exclusions: 27 cycle and 81 matching**, leaving **150 open first links:
+102 cycle and 48 matching**. The next audited matching catalog contains 12,042
+templates per group and 52,936 model columns. The whole matching LP and all 48
+remaining fixed-link LPs are numerically optimal and fractional; no additional
+certificate appeared. Cycle matrices were unchanged and were not rescreened.
+
+Boolean-template CP pilots for both whole branches and a continuous-selector
+matching SCIP pilot timed out without a covering witness. Their exact model
+preservation and scope are independently checked; the timeouts imply neither
+feasibility nor nonexistence. See the refresh-screen-108, CP-proposal and MIP
+experiment folders for frozen evidence.
