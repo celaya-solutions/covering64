@@ -1,0 +1,353 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "ed207270e93765d2cf86fe428be810ce6559438ad5f91f99a2a3e79950675812",
+  "gate_sha256": "2b544977777850f4a231573f1712d18bf8528c6c1c9c940ea0d73a089209e00f",
+  "result_sha256": "1bd9ada633b45a4e5cabf7ecd6373780055fbe240c6fa57da15d14aebe71ca9d",
+  "master_proposals": 42,
+  "registry_rejected": 16,
+  "master_status_counts": {
+    "OPTIMAL": 41,
+    "FEASIBLE": 1
+  },
+  "unknown_master_proposals": 0,
+  "initial_exact_g1_cuts_replayed": 1001,
+  "final_exact_g1_cuts": 1027,
+  "final_registry_nogoods": 38,
+  "damaged_controls_rejected": [
+    "master_cardinality",
+    "master_objective",
+    "heavy_coefficient",
+    "duplicate_weight",
+    "wrong_family",
+    "registry_transport",
+    "presolve_setting"
+  ],
+  "exact_byte_archived_proofs_checked": 27,
+  "learned_proof_archive_sha256": "180fecab02d0aa9d8e1515e22edb8746901c4ef4a31a66d4f949a1666a180491",
+  "admitted_lps": 26,
+  "new_exact_g1_cuts": 26,
+  "new_registry_nogoods": 18,
+  "solver_seconds": 115.15139658120461,
+  "wall_seconds": 130.76688487501815,
+  "initial_objective": 7.52051548546158,
+  "best_objective": 7.52051548546158,
+  "stop_reason": "combined_solver_or_wall_budget",
+  "results": [
+    {
+      "step": 0,
+      "registry_rejected": true,
+      "new_nogoods": 2
+    },
+    {
+      "step": 1,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 2,
+      "residual_recounted": 14.221934660655965,
+      "exact_gap": [
+        1422181,
+        100000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 3,
+      "residual_recounted": 14.181111355606909,
+      "exact_gap": [
+        14181049,
+        1000000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 4,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 5,
+      "residual_recounted": 9.141496147218598,
+      "exact_gap": [
+        2285339,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 6,
+      "residual_recounted": 14.32694502358559,
+      "exact_gap": [
+        3581697,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 7,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 8,
+      "residual_recounted": 16.398019235975497,
+      "exact_gap": [
+        2049739,
+        125000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 9,
+      "residual_recounted": 13.158267659484435,
+      "exact_gap": [
+        1315813,
+        100000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 10,
+      "residual_recounted": 15.385928304661661,
+      "exact_gap": [
+        15385871,
+        1000000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 11,
+      "residual_recounted": 13.02773074452833,
+      "exact_gap": [
+        3256903,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 12,
+      "residual_recounted": 13.158676020517094,
+      "exact_gap": [
+        13158419,
+        1000000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 13,
+      "residual_recounted": 14.4088128709777,
+      "exact_gap": [
+        14408757,
+        1000000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 14,
+      "residual_recounted": 14.155523666805951,
+      "exact_gap": [
+        7077707,
+        500000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 15,
+      "residual_recounted": 10.059462338578033,
+      "exact_gap": [
+        2514843,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 16,
+      "residual_recounted": 15.283459225685316,
+      "exact_gap": [
+        7641691,
+        500000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 17,
+      "registry_rejected": true,
+      "new_nogoods": 2
+    },
+    {
+      "step": 18,
+      "residual_recounted": 13.036010683982425,
+      "exact_gap": [
+        3258981,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 19,
+      "residual_recounted": 11.512247039761238,
+      "exact_gap": [
+        230243,
+        20000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 20,
+      "residual_recounted": 14.164495607888949,
+      "exact_gap": [
+        7082207,
+        500000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 21,
+      "residual_recounted": 9.460962850207219,
+      "exact_gap": [
+        1182607,
+        125000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 22,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 23,
+      "residual_recounted": 11.446822557583419,
+      "exact_gap": [
+        5723347,
+        500000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 24,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 25,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 26,
+      "residual_recounted": 16.120496284915603,
+      "exact_gap": [
+        8060199,
+        500000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 27,
+      "residual_recounted": 15.281590553836349,
+      "exact_gap": [
+        15281449,
+        1000000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 28,
+      "residual_recounted": 9.920262676108482,
+      "exact_gap": [
+        2480037,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 29,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 30,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 31,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 32,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 33,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 34,
+      "residual_recounted": 13.609826103080993,
+      "exact_gap": [
+        850607,
+        62500
+      ],
+      "distance": 6
+    },
+    {
+      "step": 35,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 36,
+      "residual_recounted": 13.402202953238616,
+      "exact_gap": [
+        3350511,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 37,
+      "residual_recounted": 12.642322796379863,
+      "exact_gap": [
+        3160541,
+        250000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 38,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    },
+    {
+      "step": 39,
+      "residual_recounted": 12.184124685671788,
+      "exact_gap": [
+        2436801,
+        200000
+      ],
+      "distance": 6
+    },
+    {
+      "step": 40,
+      "residual_recounted": 17.021515189675263,
+      "exact_gap": [
+        531919,
+        31250
+      ],
+      "distance": 6
+    },
+    {
+      "step": 41,
+      "registry_rejected": true,
+      "new_nogoods": 1
+    }
+  ],
+  "scope": "Bounded fixed-g1 campaign readback. Exact planes exclude their source patterns; numerical objectives and master timeouts do not prove global bounds."
+}

@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.17.0
+Version:     v1.18.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      b643748eb500a57bda0d09e7276bd447a612b54f7df2671db00c7846cc831a2a
+SHA256:      d6b5b65bf9cdbd59b4abc002c8eaa03c32dad6a1d09ca6a254b1016dd4dd1bcd
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -901,3 +901,14 @@ no radius. Independent reconstruction passed. Its first two-second call
 returned UNKNOWN after spending its budget in presolve, with no search
 branches, candidate tuple or LP call. This is inconclusive. Separate bounded
 presolve-on/off diagnostics use the identical model and are recorded separately.
+
+
+## Profile-filtered recombination and checked matching neighborhoods (October 4)
+
+The two profile-filtered heterogeneous pool searches each used 60 seconds and four workers. Both returned FEASIBLE and improved the eligible 17-hole matching hint to six holes. These do not improve the unrestricted three-hole best. An independent outcome checker reconstructed every value and checked every active row in all 22 callback/final states. All 44 covering-verifier calls agreed; six damaged assignments were rejected. No checked state contains any five disjoint triples of multiplicity at least six with two at least seven. The final solver ties differ from the best callbacks and are saved separately. Every best-six state still retains 59 blocks of the original core; passing the obstruction scan does not establish extendability.
+
+A separate finite enumeration examined all 275,456 one-block replacements of each of four checked best-six states. The 49 raw improving exchanges all restore a forbidden five-heavy pattern; no profile-eligible single exchange improves the hole count. This motivates a multiblock release, not a new global obstruction. The union of these four states has 72 blocks, their 12 distinct holes have 720 carriers, and adding all those carriers to the earlier elite pool yields a 952-block construction pool. See `six-hole-next-route/` for source, hashes and scope.
+
+The fixed-g5 larger screen independently replayed 720 exact conditional planes, separate from 353 broad planes. All 492 declared proper-three-edge states and all 4,106 paired-anchor states have positive bounds; minimum exact bounds are 1.910640 and 2.578784. Among 46,436 registry-safe whole-link replacements, 42,940 are excluded and 3,496 remain unexcluded and uncached. The compact archive reconstructs the exact 42,202,869-byte full bundle, which remains in ignored scratch. This is a finite-neighborhood result under graph 5, not an exclusion of the full matching branch. Evidence is in `g5-larger-screen/` and `g5-larger-independent/`.
+
+The graph-1 presolve diagnostic showed that disabling presolve produces proposals within the intended short master budget. Its independently checked continuation made 42 proposals (41 OPTIMAL, one FEASIBLE), all at replacement distance six. Sixteen were rejected by the full four-link registry; 26 admitted completion LPs were OPTIMAL. None improved 7.52051548546158; the best fresh value was 9.141496147218286. It used 115.1513965812 combined solver seconds and 130.7668848750 wall seconds within frozen 120/160-second limits. The independent checker rebuilt every master, checked assignments and traces, replayed all 1,027 g1 planes and 38 final nogoods, and rejected seven damaged controls. No numerical zero, fractional completion or integer cover was found. Evidence is in `g1-master-presolve-diagnostic/`, `g1-nearest-master-continuation/` and their independent sibling folders.

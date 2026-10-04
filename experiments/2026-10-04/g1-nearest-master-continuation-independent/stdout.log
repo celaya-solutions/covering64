@@ -1,0 +1,40 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "5c8a90af055ae81a33ddb2588aa11cbbf02c64ff06fe04b1a167305756ecd591",
+  "source_sha256": "e067e47646ff6a905499445fdcbf1e927c83892517685eb089ff2e8048edc449",
+  "manifest_sha256": "c20aaf1ff44181d8da7deb47b6bcd0ebca3329b24a2c90cf792f5e506560f7b1",
+  "additions_sha256": "b0b3ef09efa0d5ea5c1da224e87ab8c45f4ab8b5739aec0984ab07016583daa7",
+  "prior_gate_sha256": "eb7002ab4a3e95cdc0c24a73fe9186a268b6cb93574aba1819c03c8daa5a2e01",
+  "diagnostic_postcheck_sha256": "a5b1c3e59672452f55661155eae9f55958fd4932242745c392c6a46070b37d06",
+  "master_sha256": "2078b65371a96cb626b4718f44764742303074234c2304d152463171bd4c89b1",
+  "parameters_sha256": "ee51ca35ec785f168be741029101f34a8e3cd4f6c5b29c5f9fc0ee80d0ef3584",
+  "model_variables": 276,
+  "model_rows": 1979,
+  "removed_rows": 0,
+  "added_rows": 2,
+  "exact_diagnostic_gap": [
+    337849,
+    25000
+  ],
+  "registry_nogood_ids": [
+    10,
+    11,
+    15,
+    27,
+    35,
+    46,
+    69
+  ],
+  "source_review": [
+    "Original master rows and fixed baseline objective preserved; no radius",
+    "New diagnostic exact cut and cycle-028 nogood remain graph-one only",
+    "UNKNOWN records are saved and continue at the next deterministic seed",
+    "One worker, five seconds per master, one second per accepted LP",
+    "Caps50 admitted LPs/100 proposals/120solver/160wall",
+    "Pre-master guards113.8solver/151wall; pre-LP guards118.9solver/156wall",
+    "Registry precedes LP and dynamic cuts/nogoods use fixed graph-one rows",
+    "Numerical zero and unresolved exact separation stop the run"
+  ],
+  "scope": "Independent preparation and one exact fixed-g1 separation; no global bound."
+}

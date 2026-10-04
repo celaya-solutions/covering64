@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "1f4bcb16b23ea3c99bde0879d824c9bc6851a81e13e08a75b86c037a58193a58",
+  "source_sha256": "7458a1fd1bb52b759fd242a6f9316eec0196211e83592a0b8b9345a6d341c65c",
+  "manifest_sha256": "b76bae873e4e4edd7c672385f7f39a423ed13a77d83a2e6c37476799e937df26",
+  "prior_gate_sha256": "eb7002ab4a3e95cdc0c24a73fe9186a268b6cb93574aba1819c03c8daa5a2e01",
+  "prior_postcheck_sha256": "edcaa1d6da2269a4faeac131757f2bed127c15b1fd84675e785ca6ed23b67110",
+  "model_sha256": "897b19ca1405688ba112feefa8ecd19190a886eed5f96964d52b87df30b7b06f",
+  "identical_checked_model": true,
+  "graph_index": 1,
+  "family_sha256": "2d14cafb6016203749ea63052913afc4af28800daaf5fc62ec6c459fc43aac32",
+  "cases": [
+    {
+      "name": "normal-presolve",
+      "parameters_sha256": "266cd27b5efa024246fcaa7cbb8d6b7fa7d3f6af198ff3d2bfb5140caa57bc7b"
+    },
+    {
+      "name": "presolve-off",
+      "parameters_sha256": "e7587b992ed3349bb230b93799f6e4a9e9f79d1b190b1501c801235ef51cf71c"
+    }
+  ],
+  "source_review": [
+    "Two ten-second calls; same276-variable/1977-row model and fixed objective",
+    "Same single worker and seed2026104070; only explicit presolve Boolean differs",
+    "All four registry links checked before any LP; rejected links saved",
+    "One1-second LP per distinct admitted tuple; duplicates reuse the saved result",
+    "No learned cuts or registry nogoods modify either diagnostic model",
+    "Numerical zero triggers exact rational recovery attempts and stops diagnostic",
+    "UNKNOWN results remain inconclusive"
+  ],
+  "scope": "Preparation delta gate only; no optimization or global bound."
+}

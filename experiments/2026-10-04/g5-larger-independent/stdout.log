@@ -1,0 +1,76 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "73c389da141138b07038cd709fddc540b34b01632629c2769c4cb581151951bf",
+  "source_files_index_sha256": "c73bdafd517c2e7e7b61182262033e7026e9fc6987be8b30629a1b8f1159d142",
+  "enumeration_sha256": "d705fe627bf7b69b483c56e7b833b36be8e73ba744943c0fa8cc3ca138150995",
+  "g5_bundle_sha256": "ca9b1b24a14c65d6f601d2b42aed1334339095077dabcc0ce935e211e2e1deac",
+  "compact_bundle_sha256": "88856eebe2ece223669a96ef570d248cf1583ed55b0976962fead210fcaeced1",
+  "compact_restore_verified": true,
+  "envelope_results_sha256": "aad42c25da95238a375d983ba5f22f8a838f0c69f50187cd5c1cfd130d223e5c",
+  "counts_sha256": "1d63da5e989f02292d84eebdb8742370dab17cf0c0b0476c3f1d0c7a8625e8bc",
+  "graph_index": 5,
+  "family_sha256": "adfa2450b519435526830910dabfa2aa0dc5aa21e3fe08badb3fd3468382cd89",
+  "g5_planes": 720,
+  "broad_planes": 353,
+  "neighborhoods": {
+    "proper-three": {
+      "registry_safe_states": 492,
+      "g5_positive": 492,
+      "g5_unexcluded": 0,
+      "broad_positive": 0,
+      "combined_positive": 492,
+      "combined_unexcluded": 0,
+      "combined_unexcluded_uncached": 0,
+      "g5_minimum_lower_bound": [
+        1910640,
+        1000000
+      ],
+      "combined_minimum_lower_bound": [
+        1910640,
+        1000000
+      ],
+      "states_sha256": "91db4c8740365885242cfb2d377d808a9f155e0b1649226b7c57307aa68893dd",
+      "scores_sha256": "4c09539106fa0c911e1ba47a047cd51ee175735899be5cf956d7e7d3800ea792"
+    },
+    "paired-two": {
+      "registry_safe_states": 4106,
+      "g5_positive": 4106,
+      "g5_unexcluded": 0,
+      "broad_positive": 0,
+      "combined_positive": 4106,
+      "combined_unexcluded": 0,
+      "combined_unexcluded_uncached": 0,
+      "g5_minimum_lower_bound": [
+        2578784,
+        1000000
+      ],
+      "combined_minimum_lower_bound": [
+        2578784,
+        1000000
+      ],
+      "states_sha256": "de54a73f992857655d1baf9ae8e8c1e115c5941951126a316e59193a73bc1292",
+      "scores_sha256": "336a5dd286f1f70e3e4a3420c61e6fbf298a02bfb3fd18b6a1f389f3be2d6a97"
+    },
+    "whole-link": {
+      "registry_safe_states": 46436,
+      "g5_positive": 42940,
+      "g5_unexcluded": 3496,
+      "broad_positive": 0,
+      "combined_positive": 42940,
+      "combined_unexcluded": 3496,
+      "combined_unexcluded_uncached": 3496,
+      "g5_minimum_lower_bound": [
+        0,
+        1000000
+      ],
+      "combined_minimum_lower_bound": [
+        0,
+        1000000
+      ],
+      "states_sha256": "b4ecbb4acef048bfdeb61c47c8c4395041d562cffcbed08f812029eb9e5066d0",
+      "scores_sha256": "0c779537e42ed749894fdf5a9faa936e514435271bef1c731e7faf929e88a79b"
+    }
+  },
+  "scope": "Exact finite fixed-g5 screen only. The720planes are graph-five specific. Positive bounds exclude only tested patterns; zero bounds remain inconclusive."
+}

@@ -1,0 +1,4327 @@
+{
+  "checked_states": [
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          6
+        ],
+        "degree_histogram": [
+          [
+            20,
+            16
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 17,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            3,
+            7,
+            10
+          ],
+          [
+            3,
+            7,
+            13
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            5,
+            9,
+            15
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            80
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            14
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            17
+          ],
+          [
+            1,
+            469
+          ],
+          [
+            2,
+            68
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-00-h17.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-00-package.json",
+          "sha256": "e2b2069d07cbd942275746c3a1397fb12927698565beeca168e8c50bbf8450e8"
+        },
+        "standalone": {
+          "canonical_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-00-standalone.json",
+          "sha256": "c5d24ad7bab0cd2332500d6e4528329fcbcc875623d931265bfa46c815654ed4"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          6
+        ],
+        "degree_histogram": [
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            21,
+            2
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 16,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            3,
+            7,
+            10
+          ],
+          [
+            3,
+            7,
+            13
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            81
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            16
+          ],
+          [
+            1,
+            471
+          ],
+          [
+            2,
+            67
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-01-h16.txt",
+      "sha256": "3a39ff6bd7cbdd2a31800ee310f014382fefa3a400b3c4c06adf327b7bfeaecb",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "3a39ff6bd7cbdd2a31800ee310f014382fefa3a400b3c4c06adf327b7bfeaecb",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-01-package.json",
+          "sha256": "79e01936ef1cf95a40af39d93d5f0d91c5d4ddb8f58d9306d5c10902b7689b52"
+        },
+        "standalone": {
+          "canonical_sha256": "3a39ff6bd7cbdd2a31800ee310f014382fefa3a400b3c4c06adf327b7bfeaecb",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-01-standalone.json",
+          "sha256": "e9789e8269aeae6980ae333037c5cc3db2196e442880bf03e6f65c31fee32fda"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          7
+        ],
+        "degree_histogram": [
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            21,
+            4
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 14,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            85
+          ],
+          [
+            6,
+            18
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            14
+          ],
+          [
+            1,
+            475
+          ],
+          [
+            2,
+            65
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-02-h14.txt",
+      "sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-02-package.json",
+          "sha256": "3bcf75357ab64e5a8c50fc5b7597ac26a112fe678b6d3b1fa5dea29904a364cb"
+        },
+        "standalone": {
+          "canonical_sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-02-standalone.json",
+          "sha256": "78cb386418da32ec217dced4ba669560205a8b9190ecb4343896f05805ddace7"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          0,
+          57
+        ],
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            21,
+            6
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 13,
+        "missing_triples": [
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            10,
+            16
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            7,
+            15,
+            16
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ],
+          [
+            10,
+            13,
+            14
+          ],
+          [
+            10,
+            13,
+            15
+          ],
+          [
+            10,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            79
+          ],
+          [
+            6,
+            24
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            7,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            478
+          ],
+          [
+            2,
+            62
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-03-h13.txt",
+      "sha256": "b1fbea948eacca9b3c016a6219e30588fd4b683fcb9ca35896502d16f336a08f",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "b1fbea948eacca9b3c016a6219e30588fd4b683fcb9ca35896502d16f336a08f",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-03-package.json",
+          "sha256": "9e855a80a6ec65b5ccf9d576bf65a6e8a5c9126960022e6983b31afa8230f5fb"
+        },
+        "standalone": {
+          "canonical_sha256": "b1fbea948eacca9b3c016a6219e30588fd4b683fcb9ca35896502d16f336a08f",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-03-standalone.json",
+          "sha256": "77a87aa6e1efce4efd71fb0ea25a51c8cae4bc0289ea0fabe745382011e2853e"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          0,
+          58
+        ],
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            21,
+            5
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 12,
+        "missing_triples": [
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            10,
+            16
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ],
+          [
+            10,
+            13,
+            14
+          ],
+          [
+            10,
+            13,
+            15
+          ],
+          [
+            10,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            79
+          ],
+          [
+            6,
+            24
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            7,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            12
+          ],
+          [
+            1,
+            479
+          ],
+          [
+            2,
+            63
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-04-h12.txt",
+      "sha256": "1816a9772cbea2e77a36b4f091051ab32013d267493c0dca7a45e34ca415e0ac",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "1816a9772cbea2e77a36b4f091051ab32013d267493c0dca7a45e34ca415e0ac",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-04-package.json",
+          "sha256": "c8d9d19d074090a61a7d781677154e8b8a5ff9595b4dfecc89137f5c48123090"
+        },
+        "standalone": {
+          "canonical_sha256": "1816a9772cbea2e77a36b4f091051ab32013d267493c0dca7a45e34ca415e0ac",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-04-standalone.json",
+          "sha256": "6353d20fb568618e2aa86fc3231cfb321a1698f2c625e12ebea00d399e5d9116"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          0,
+          58
+        ],
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            21,
+            4
+          ],
+          [
+            22,
+            1
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            8
+          ]
+        ],
+        "holes": 11,
+        "missing_triples": [
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            10,
+            16
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ],
+          [
+            10,
+            12,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            88
+          ],
+          [
+            6,
+            15
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            8,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            485
+          ],
+          [
+            2,
+            55
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-05-h11.txt",
+      "sha256": "310e6e18f1da13507edf4c35309ec3c95e159a9c00c264fc5e7d3c5d438b3aca",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "310e6e18f1da13507edf4c35309ec3c95e159a9c00c264fc5e7d3c5d438b3aca",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-05-package.json",
+          "sha256": "78cfa0f30c41e9d2931d3136deb870738c75db910d10041ee6b81acf9b8542b4"
+        },
+        "standalone": {
+          "canonical_sha256": "310e6e18f1da13507edf4c35309ec3c95e159a9c00c264fc5e7d3c5d438b3aca",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-05-standalone.json",
+          "sha256": "ee862a7d5c18bc0745296afde72fae845e6b4fcc4c444ccb7e8d5a83a9435c86"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          0,
+          59
+        ],
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            7
+          ],
+          [
+            21,
+            5
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            8
+          ]
+        ],
+        "holes": 10,
+        "missing_triples": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            10,
+            16
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ],
+          [
+            10,
+            12,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            87
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            8,
+            3
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            8,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            10
+          ],
+          [
+            1,
+            486
+          ],
+          [
+            2,
+            56
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-06-h10.txt",
+      "sha256": "333d7211b68f7228154f2d6008a3b9db93751599139eb4f53722311b32fdd0d1",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "333d7211b68f7228154f2d6008a3b9db93751599139eb4f53722311b32fdd0d1",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-06-package.json",
+          "sha256": "93c6e5dbfec89afa1d7f01a7561f4a5cae3787d39d7af27c81e8c6c36e37b0e4"
+        },
+        "standalone": {
+          "canonical_sha256": "333d7211b68f7228154f2d6008a3b9db93751599139eb4f53722311b32fdd0d1",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-06-standalone.json",
+          "sha256": "87fa895b33d740b7d293908b0f838b61cb7401312c369424f675a87fbfcca982"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          59
+        ],
+        "degree_histogram": [
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            9
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            22,
+            1
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 9,
+        "missing_triples": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ],
+          [
+            10,
+            12,
+            16
+          ],
+          [
+            10,
+            13,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            86
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            7,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            486
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-07-h9.txt",
+      "sha256": "b613fc759c9aba41241740b5abb6091b7bcfc94edc3e1b6349aaf151998b824b",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "b613fc759c9aba41241740b5abb6091b7bcfc94edc3e1b6349aaf151998b824b",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-07-package.json",
+          "sha256": "e6c6d713195ecc11e950c4a8c7e11991539df46b74acd270b0867de08e9a8413"
+        },
+        "standalone": {
+          "canonical_sha256": "b613fc759c9aba41241740b5abb6091b7bcfc94edc3e1b6349aaf151998b824b",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-07-standalone.json",
+          "sha256": "75c2a05068beadd172f194622f572fc2ea7df4406ab12d92d99c106dea3014b8"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          59
+        ],
+        "degree_histogram": [
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            21,
+            4
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 8,
+        "missing_triples": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            4,
+            12,
+            13
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            8,
+            9,
+            10
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            84
+          ],
+          [
+            6,
+            21
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            7,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            8
+          ],
+          [
+            1,
+            488
+          ],
+          [
+            2,
+            57
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-08-h8.txt",
+      "sha256": "5753d49a3bb72d3e23f2a236870d2355e363b6a7dd7ae07e79fcd8d91c7fac77",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "5753d49a3bb72d3e23f2a236870d2355e363b6a7dd7ae07e79fcd8d91c7fac77",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-08-package.json",
+          "sha256": "99f2a3d65bcd747608a261e44f5d5010e8266e058c11c3c615526dd41e6b0165"
+        },
+        "standalone": {
+          "canonical_sha256": "5753d49a3bb72d3e23f2a236870d2355e363b6a7dd7ae07e79fcd8d91c7fac77",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-08-standalone.json",
+          "sha256": "3f74491b87b2da529808842f07e7b83f94a13fbe998af96948d3c1a2e5638b6b"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          0,
+          59
+        ],
+        "degree_histogram": [
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 7,
+        "missing_triples": [
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            10,
+            16
+          ],
+          [
+            4,
+            12,
+            13
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            8,
+            12,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            86
+          ],
+          [
+            6,
+            20
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            6,
+            7,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            488
+          ],
+          [
+            2,
+            60
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-09-h7.txt",
+      "sha256": "15dd3cb5f5b044911944beafd91a513a22e718edd82feb338e33ee6980c9a2a0",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "15dd3cb5f5b044911944beafd91a513a22e718edd82feb338e33ee6980c9a2a0",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-09-package.json",
+          "sha256": "ab4b181a2bf959af95bcbed754ded0fcef8b6b65ad51d4a5c9823c843be371dd"
+        },
+        "standalone": {
+          "canonical_sha256": "15dd3cb5f5b044911944beafd91a513a22e718edd82feb338e33ee6980c9a2a0",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-09-standalone.json",
+          "sha256": "44e12d909c1155d2546c3316d3cbd5b1a293e634c656ad4aaaf506f36c3a99fc"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          59,
+          1
+        ],
+        "degree_histogram": [
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            21,
+            1
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "holes": 6,
+        "missing_triples": [
+          [
+            2,
+            4,
+            14
+          ],
+          [
+            4,
+            14,
+            15
+          ],
+          [
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            9,
+            12
+          ],
+          [
+            7,
+            14,
+            15
+          ],
+          [
+            12,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            86
+          ],
+          [
+            6,
+            22
+          ],
+          [
+            7,
+            10
+          ]
+        ],
+        "partition_counts": [
+          [
+            7,
+            5,
+            7,
+            7,
+            6
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            57
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-10-h6.txt",
+      "sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-10-package.json",
+          "sha256": "abadd63d7b61e05982bae22f1f3c38978e660d2acc536dd7ee93bcf726f8a6f1"
+        },
+        "standalone": {
+          "canonical_sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-10-standalone.json",
+          "sha256": "ad63728304b4b54b0086df35995f4f1272eb0000a88589d048d3a00d71a52eb9"
+        }
+      }
+    },
+    {
+      "case": "elite",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          59,
+          0
+        ],
+        "degree_histogram": [
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            21,
+            2
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "holes": 6,
+        "missing_triples": [
+          [
+            2,
+            4,
+            14
+          ],
+          [
+            2,
+            7,
+            14
+          ],
+          [
+            2,
+            12,
+            14
+          ],
+          [
+            4,
+            14,
+            15
+          ],
+          [
+            7,
+            14,
+            15
+          ],
+          [
+            12,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            88
+          ],
+          [
+            6,
+            18
+          ],
+          [
+            7,
+            12
+          ]
+        ],
+        "partition_counts": [
+          [
+            7,
+            5,
+            7,
+            7,
+            7
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": true,
+      "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/elite-final-response.txt",
+      "sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-11-package.json",
+          "sha256": "4515185edd527c3eb8bb966d146c3566cb99a01dbbc02379e5599911ae631c51"
+        },
+        "standalone": {
+          "canonical_sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/elite-11-standalone.json",
+          "sha256": "47e20698076e4e7ae577279cb9892e8e2afe974f467ed56af9bb780c8600df6a"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          6
+        ],
+        "degree_histogram": [
+          [
+            20,
+            16
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 17,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            3,
+            7,
+            10
+          ],
+          [
+            3,
+            7,
+            13
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            5,
+            9,
+            15
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            7
+          ],
+          [
+            5,
+            80
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            14
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            17
+          ],
+          [
+            1,
+            469
+          ],
+          [
+            2,
+            68
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-00-h17.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-00-package.json",
+          "sha256": "e2b2069d07cbd942275746c3a1397fb12927698565beeca168e8c50bbf8450e8"
+        },
+        "standalone": {
+          "canonical_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-00-standalone.json",
+          "sha256": "c5d24ad7bab0cd2332500d6e4528329fcbcc875623d931265bfa46c815654ed4"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          7
+        ],
+        "degree_histogram": [
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            21,
+            1
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 16,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            3,
+            7,
+            13
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            5,
+            9,
+            15
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            83
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            16
+          ],
+          [
+            1,
+            471
+          ],
+          [
+            2,
+            67
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-01-h16.txt",
+      "sha256": "588ccc088dc91d39838c26f3e6cc7e3b9f096cf12da76aa53ec094069021c24b",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "588ccc088dc91d39838c26f3e6cc7e3b9f096cf12da76aa53ec094069021c24b",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-01-package.json",
+          "sha256": "ce661f54f0a03164d508fec355b59a8eeb3fcf84f095035990bc5ceb86d184b2"
+        },
+        "standalone": {
+          "canonical_sha256": "588ccc088dc91d39838c26f3e6cc7e3b9f096cf12da76aa53ec094069021c24b",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-01-standalone.json",
+          "sha256": "c08d7d6da5af6605b123c2f670a0405e3ed522185054e846b8e9343cf520237e"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          8
+        ],
+        "degree_histogram": [
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            21,
+            4
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 15,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            9,
+            15
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            83
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            15
+          ],
+          [
+            1,
+            474
+          ],
+          [
+            2,
+            64
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-02-h15.txt",
+      "sha256": "32662276548b419342a061038746bd74dc84b5f72db8c351d96901d63df650d3",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "32662276548b419342a061038746bd74dc84b5f72db8c351d96901d63df650d3",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-02-package.json",
+          "sha256": "3c356016f772c8f63b80ca032fa5c92a9ee2e3af3a36d3484cda742faebae31e"
+        },
+        "standalone": {
+          "canonical_sha256": "32662276548b419342a061038746bd74dc84b5f72db8c351d96901d63df650d3",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-02-standalone.json",
+          "sha256": "ffa22e03b95078e147368ede6a0f8f25e02f8accd74924f113a01f4a78aee001"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          8
+        ],
+        "degree_histogram": [
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ],
+        "holes": 14,
+        "missing_triples": [
+          [
+            1,
+            6,
+            15
+          ],
+          [
+            1,
+            7,
+            8
+          ],
+          [
+            1,
+            8,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            9,
+            16
+          ],
+          [
+            2,
+            9,
+            15
+          ],
+          [
+            2,
+            11,
+            15
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            12,
+            16
+          ],
+          [
+            6,
+            8,
+            12
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            7,
+            10,
+            16
+          ],
+          [
+            8,
+            11,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            87
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            7,
+            7,
+            7,
+            0
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            14
+          ],
+          [
+            1,
+            475
+          ],
+          [
+            2,
+            65
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-03-h14.txt",
+      "sha256": "bddd88c926e1f08d5be736ef3f62b9ecd5766c5e1ab958030cbc54b41a54d03f",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "bddd88c926e1f08d5be736ef3f62b9ecd5766c5e1ab958030cbc54b41a54d03f",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-03-package.json",
+          "sha256": "2d95b8392c7d1f6ef9ca1e50e592ca0a083fb303bffb9049742def3dfedcd39c"
+        },
+        "standalone": {
+          "canonical_sha256": "bddd88c926e1f08d5be736ef3f62b9ecd5766c5e1ab958030cbc54b41a54d03f",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-03-standalone.json",
+          "sha256": "0c29f4ecc697a57ef11edd31723ee35a0ad1bf286cc5a318f59df0efc853a531"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          57
+        ],
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            6
+          ],
+          [
+            21,
+            4
+          ],
+          [
+            22,
+            1
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            6
+          ]
+        ],
+        "holes": 13,
+        "missing_triples": [
+          [
+            2,
+            13,
+            14
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            4,
+            10,
+            16
+          ],
+          [
+            4,
+            13,
+            16
+          ],
+          [
+            5,
+            6,
+            8
+          ],
+          [
+            5,
+            7,
+            8
+          ],
+          [
+            6,
+            7,
+            8
+          ],
+          [
+            6,
+            9,
+            15
+          ],
+          [
+            6,
+            10,
+            15
+          ],
+          [
+            8,
+            12,
+            16
+          ],
+          [
+            9,
+            10,
+            15
+          ],
+          [
+            9,
+            11,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            79
+          ],
+          [
+            6,
+            27
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            7,
+            6,
+            6,
+            6,
+            5
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            476
+          ],
+          [
+            2,
+            64
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-04-h13.txt",
+      "sha256": "c151088db794a06d1f7e65d27c14135245ba28d0ab410cbaac1ba3f7e1ff2891",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "c151088db794a06d1f7e65d27c14135245ba28d0ab410cbaac1ba3f7e1ff2891",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-04-package.json",
+          "sha256": "149226312367b3a39ac6036c422e48685f616408493430de5b1bedec07056250"
+        },
+        "standalone": {
+          "canonical_sha256": "c151088db794a06d1f7e65d27c14135245ba28d0ab410cbaac1ba3f7e1ff2891",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-04-standalone.json",
+          "sha256": "b6c0554afb760f8098285baf179127b4d5ace7515ac2c5576ed3f288c6b6e006"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          2,
+          58
+        ],
+        "degree_histogram": [
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            6
+          ]
+        ],
+        "holes": 11,
+        "missing_triples": [
+          [
+            1,
+            2,
+            8
+          ],
+          [
+            1,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            3,
+            9,
+            10
+          ],
+          [
+            3,
+            10,
+            11
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            6,
+            12,
+            14
+          ],
+          [
+            6,
+            12,
+            15
+          ],
+          [
+            12,
+            13,
+            14
+          ],
+          [
+            12,
+            13,
+            15
+          ],
+          [
+            12,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            79
+          ],
+          [
+            6,
+            24
+          ],
+          [
+            7,
+            11
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          [
+            6,
+            7,
+            6,
+            6,
+            6
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            11
+          ],
+          [
+            1,
+            485
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-05-h11.txt",
+      "sha256": "0ee35ba542d9838299715744157961cc18e259f81452997d4814beda2eddf3a2",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "0ee35ba542d9838299715744157961cc18e259f81452997d4814beda2eddf3a2",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-05-package.json",
+          "sha256": "7e543a0535f5f0d6395acba1a9ef1edaea40c4a13db00c835f35f17e24cf72b1"
+        },
+        "standalone": {
+          "canonical_sha256": "0ee35ba542d9838299715744157961cc18e259f81452997d4814beda2eddf3a2",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-05-standalone.json",
+          "sha256": "55cbf0999c106aed4682d1d033cdcec87cc2434af55d8ad0dbbb14774282b718"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          1,
+          59
+        ],
+        "degree_histogram": [
+          [
+            19,
+            6
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            21,
+            4
+          ],
+          [
+            22,
+            1
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            6
+          ]
+        ],
+        "holes": 9,
+        "missing_triples": [
+          [
+            1,
+            2,
+            8
+          ],
+          [
+            1,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            6,
+            12,
+            15
+          ],
+          [
+            8,
+            10,
+            11
+          ],
+          [
+            12,
+            13,
+            14
+          ],
+          [
+            12,
+            13,
+            15
+          ],
+          [
+            12,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            82
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            2
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            2,
+            1,
+            3
+          ],
+          [
+            6,
+            7,
+            6,
+            6,
+            6
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            487
+          ],
+          [
+            2,
+            55
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-06-h9.txt",
+      "sha256": "adf185a8e9b3c6e1707c730e0e669d42a2b30232f4a9e31390ef56021e8a75de",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "adf185a8e9b3c6e1707c730e0e669d42a2b30232f4a9e31390ef56021e8a75de",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-06-package.json",
+          "sha256": "21c6aebb6b1b851f67e8a9793b34da465de98b73e9004f13dbd91bdad31b0b58"
+        },
+        "standalone": {
+          "canonical_sha256": "adf185a8e9b3c6e1707c730e0e669d42a2b30232f4a9e31390ef56021e8a75de",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-06-standalone.json",
+          "sha256": "9a628125370ecf3446ba617806aa86d09b3d731d5cb4559893b36933a29e8c94"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          0,
+          59
+        ],
+        "degree_histogram": [
+          [
+            19,
+            4
+          ],
+          [
+            20,
+            8
+          ],
+          [
+            21,
+            4
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            6
+          ]
+        ],
+        "holes": 7,
+        "missing_triples": [
+          [
+            1,
+            2,
+            8
+          ],
+          [
+            1,
+            3,
+            8
+          ],
+          [
+            2,
+            3,
+            8
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            7,
+            13,
+            14
+          ],
+          [
+            7,
+            14,
+            15
+          ],
+          [
+            8,
+            10,
+            11
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            84
+          ],
+          [
+            6,
+            24
+          ],
+          [
+            7,
+            8
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "partition_counts": [
+          [
+            1,
+            1,
+            2,
+            2,
+            2
+          ],
+          [
+            6,
+            7,
+            6,
+            6,
+            6
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            488
+          ],
+          [
+            2,
+            59
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            6,
+            4
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-07-h7.txt",
+      "sha256": "a43c3d8c9d195ddd8e69a8ee426ab3fd553f4281308502985b5380250cbb2896",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "a43c3d8c9d195ddd8e69a8ee426ab3fd553f4281308502985b5380250cbb2896",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-07-package.json",
+          "sha256": "34e3de46a1db364bbab3e7ae0f954f94f210ff76e6b002b70ccf2855f6ef6355"
+        },
+        "standalone": {
+          "canonical_sha256": "a43c3d8c9d195ddd8e69a8ee426ab3fd553f4281308502985b5380250cbb2896",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-07-standalone.json",
+          "sha256": "59df312f480098f5f672e41cacf1103191369b8e0a947e49db3be4bcf1fb3228"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          59,
+          0
+        ],
+        "degree_histogram": [
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ]
+        ],
+        "holes": 6,
+        "missing_triples": [
+          [
+            4,
+            9,
+            11
+          ],
+          [
+            4,
+            9,
+            12
+          ],
+          [
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            9,
+            12
+          ],
+          [
+            9,
+            11,
+            16
+          ],
+          [
+            9,
+            12,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            91
+          ],
+          [
+            6,
+            15
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "partition_counts": [
+          [
+            7,
+            7,
+            7,
+            7,
+            5
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": false,
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-08-h6.txt",
+      "sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-08-package.json",
+          "sha256": "933725d4a64d32d002f5b7f3cb59b56d37180572feeb4ae9ef39724bf6617503"
+        },
+        "standalone": {
+          "canonical_sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-08-standalone.json",
+          "sha256": "9f323902c0bfda7999292b70acb6bc6a5e0d9c99157a5b43b143f32d46928c05"
+        }
+      }
+    },
+    {
+      "case": "expanded",
+      "facts": {
+        "all_disjoint_five_heavy_obstructions": [],
+        "core_overlaps": [
+          59,
+          0
+        ],
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            11
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ]
+        ],
+        "holes": 6,
+        "missing_triples": [
+          [
+            4,
+            9,
+            11
+          ],
+          [
+            4,
+            9,
+            12
+          ],
+          [
+            7,
+            9,
+            11
+          ],
+          [
+            7,
+            9,
+            12
+          ],
+          [
+            9,
+            11,
+            16
+          ],
+          [
+            9,
+            12,
+            16
+          ]
+        ],
+        "pair_histogram": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            86
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            12
+          ]
+        ],
+        "partition_counts": [
+          [
+            7,
+            7,
+            7,
+            7,
+            5
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "is_final_response": true,
+      "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/expanded-final-response.txt",
+      "sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+      "verifiers": {
+        "package": {
+          "canonical_sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-09-package.json",
+          "sha256": "15299992e10113c32568bda636ff9b689040fd72128b3d375edc748bf1da631e"
+        },
+        "standalone": {
+          "canonical_sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+          "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/verifiers/expanded-09-standalone.json",
+          "sha256": "19bd32c2b45cf593bdaccefd4c3cede8438104a090da8177b8a41eb1a1a82e3c"
+        }
+      }
+    }
+  ],
+  "damaged_controls_rejected": 6,
+  "optimization_calls": 0,
+  "passed": true,
+  "preparation_gate_sha256": "1e3055ab84d3c9e7349b0caea9db2c99d96a6cf965a97ab008914711bb029cf8",
+  "producer_manifest_sha256": "1985dcb7e04d661fc41985dd5f3cbcd7240eb9cb32209fdd1b668be8195d1514",
+  "producer_result_sha256": "3a79e40040b931a460e5a5e2adf5c010926bf52cf88da7552093f2749cb4ded9",
+  "scope": "Every saved callback and final response. Exhaustive five-heavy-set scan applies to each checked state only, not all potential covers.",
+  "source_sha256": "b3f68fdbfce5f3962a907041180c8d920c49cd57f13de4663c0498c71ebc8fb8"
+}

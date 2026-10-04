@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Saved 353 broad cuts and 1,000 graph-1 cuts, closing the declared 100,076 whole-link neighborhood only. Matching descent reached 8.15294; pool runs retained three/five holes and the known broader obstruction. No 64-block cover; package regression remains 369 passing tests.
-Next: finish the graph-1 master diagnostic and exclude the proved five-heavy pattern in future mixed-pool searches. Keep graph-specific caches/cuts separate; inspect final solver ties as well as callback incumbents. Preserve ignored raw artifacts and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Saved checked graph-1 continuation and the graph-5 finite screen; 3,496 matching whole-link states remain for LP testing. Profile-filtered pools reached six holes without any five-heavy obstruction, but all improving single-block exchanges restore that obstruction. No 64-block cover; package regression remains 369 passing tests.
+Commit 278b2c6 is the previous checkpoint. Current bounded experiments test all 3,496 matching survivors and a matched 952/full-universe repair from checked six-hole seeds. Keep graph-specific caches/cuts separate, inspect final solver ties, and preserve ignored raw artifacts plus unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 

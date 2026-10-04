@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "68ed4ecc293773c8fa579d451f6cea35da8199eafd901a204951f03e229dc682",
+  "gate_sha256": "c5c67db4b7ab09cad98a12dc7113542b768daa6250c899d566e07c7a0067b6a4",
+  "result_sha256": "f59687fc63796c22e004e64773938173029892d19ee917f4e2318de58848bec3",
+  "model_sha256": "897b19ca1405688ba112feefa8ecd19190a886eed5f96964d52b87df30b7b06f",
+  "cases": [
+    {
+      "name": "normal-presolve",
+      "status": "OPTIMAL",
+      "branches": 27589,
+      "conflicts": 3590,
+      "lp_iterations": 96097,
+      "master_seconds": 6.360403082915582,
+      "lp_called": false,
+      "distance": 6,
+      "registry_accepted": false
+    },
+    {
+      "name": "presolve-off",
+      "status": "OPTIMAL",
+      "branches": 17953,
+      "conflicts": 2358,
+      "lp_iterations": 64572,
+      "master_seconds": 2.0344423750648275,
+      "lp_called": true,
+      "distance": 6,
+      "registry_accepted": true,
+      "residual_recounted": 13.514017967611121
+    }
+  ],
+  "fresh_lps": 1,
+  "solver_seconds": 8.519048416055739,
+  "wall_seconds": 9.960837500053458,
+  "best_objective": 7.52051548546158,
+  "scope": "Two bounded parameter diagnostics on the same fixed-g1 model. UNKNOWN and timeouts are inconclusive; no global bound."
+}

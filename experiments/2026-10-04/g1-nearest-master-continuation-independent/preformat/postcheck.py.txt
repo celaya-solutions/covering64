@@ -1,0 +1,349 @@
+# Document:    Independent Continued Fixed-g1 Nearest Master Readback
+# Version:     v1.0.0
+# Author:      Celaya Solutions
+# Contact:     hello@celayasolutions.com
+# Date:        2026-10-04
+# SHA256:      3fc419b3cfa1422961c4becb779f6dd8399c6e9e2342a295cf5e47ee9684760a
+# Chain:       n/a
+# Tx:          [not anchored]
+# License:     All Rights Reserved / Celaya Solutions
+
+"""Replay every master, registry transport, completion row and exact separating plane."""
+
+import copy
+import gzip
+import importlib.util
+import json
+from collections import Counter
+
+from check import DAY, HERE, ROOT, SOURCE, base, ind, read
+
+from google.protobuf import text_format
+from ortools.sat import cp_model_pb2, sat_parameters_pb2
+
+PLAN, master, validate_nogood = base.PLAN, base.master, base.validate_nogood
+RAW = ROOT / "experiments/scratch/g1-nearest-master-continuation-20261004"
+spec = importlib.util.spec_from_file_location(
+    "independent_nearest_g1_cut", DAY / "g1-whole-link-certificates-independent/check.py"
+)
+exact = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(exact)
+
+
+def encoded(proto):
+    return proto.SerializeToString(deterministic=True)
+
+
+def main():
+    assert not (HERE / "postcheck.json").exists()
+    gate, manifest = read(HERE / "audit.json"), read(SOURCE / "manifest.json")
+    result = read(SOURCE / "result.json")
+    assert gate["passed"] and result["gate_sha256"] == ind.sha(HERE / "audit.json")
+    assert result["source_sha256"] == gate["source_sha256"] == ind.sha(SOURCE / "run.py")
+    assert result["manifest_sha256"] == gate["manifest_sha256"] == ind.sha(SOURCE / "manifest.json")
+    assert result["budget"] == manifest["budget"]
+    assert not result["exact_fractional_feasibility"], "Exact primal requires separate replay"
+    for relative, expected in result["raw_sha256"].items():
+        assert ind.sha(RAW / relative) == expected
+    blocks, anchors, ordinary, heavy, rows = ind.basis()
+    gids = [blocks.index(block) for block in heavy]
+    family_sha = manifest["family_sha256"]
+    assert result["family_sha256"] == family_sha and result["graph_index"] == 1
+    broad = read(PLAN / "broad-cuts-reference.json")["cuts"]
+    certificate = read(DAY / "g1-whole-link-certificates-independent/audit.json")
+    conditional = read(ROOT / certificate["bundle_path"])["cuts"]
+    additions = read(SOURCE / "diagnostic-additions.json")
+    assert gate["additions_sha256"] == ind.sha(SOURCE / "diagnostic-additions.json")
+    conditional.append(additions["cut"])
+    nogoods = read(ROOT / manifest["nogoods_path"])
+    support_o = [[r for r, row in enumerate(rows) if i in row[0]] for i in range(1200)]
+    support_h = [[r for r, row in enumerate(rows) if i in row[1]] for i in range(276)]
+    initial_cut_gaps = []
+    for cut in conditional:
+        normalized = {
+            **cut,
+            "maximum_signed_row_weight": max(abs(weight) for _, weight in cut["dual"]["weights"]),
+        }
+        gap = exact.verify_cut(normalized, rows, support_o, support_h, gids, family_sha)
+        initial_cut_gaps.append([gap.numerator, gap.denominator])
+    assert len(conditional) == 1001 and len(nogoods) == 20
+    for nogood in nogoods:
+        validate_nogood(nogood, blocks, anchors, gids)
+    assert ind.sha(ROOT / manifest["nogoods_path"]) == manifest["nogoods_sha256"]
+    assert read(RAW / "steps.json") == result["records"]
+    start = read(RAW / "start.json")
+    assert all(result[key] == value for key, value in start.items())
+    archived = json.loads(gzip.decompress((SOURCE / "learned-proofs.json.gz").read_bytes()))
+    archived_rows = archived["files"]
+    for item in archived_rows:
+        path = ROOT / item["path"]
+        assert path.read_text() == item["text"] and ind.sha(path) == item["sha256"]
+    assert len(archived_rows) == 27
+    initial = manifest["baseline_elastic_objective"]
+    best, best_ids = initial, manifest["baseline_heavy_global_ids"]
+    assert result["initial_objective"] == initial == 7.52051548546158
+    assert len(result["records"]) <= 100 and result["admitted_lps"] <= 50
+    assert result["solver_seconds"] <= 120 and result["wall_seconds"] <= 160
+    checked, seen, improvements = [], set(), []
+    cumulative, admitted, rejected, cut_count, unknown = 0.0, 0, 0, 0, 0
+    control_model = control_expected = control_receipt = control_chosen = control_cut = None
+    for step, record in enumerate(result["records"]):
+        assert cumulative < 113.8 and admitted < 50
+        folder = RAW / f"step-{step:03d}"
+        assert record["step"] == step
+        actual = text_format.Parse(
+            (folder / "master.pbtxt").read_text(), cp_model_pb2.CpModelProto()
+        )
+        expected = master(
+            heavy,
+            anchors,
+            gids,
+            broad + conditional,
+            nogoods,
+            manifest["baseline_heavy_global_ids"],
+        )
+        assert encoded(actual) == encoded(expected)
+        assert ind.sha(folder / "master.pbtxt") == record["master_sha256"]
+        assert record["broad_cut_count"] == len(broad) == 353
+        assert record["g1_cut_count"] == len(conditional)
+        assert record["registry_nogood_count"] == len(nogoods)
+        params = text_format.Parse(
+            (folder / "parameters.pbtxt").read_text(), sat_parameters_pb2.SatParameters()
+        )
+        expected_params = sat_parameters_pb2.SatParameters(
+            max_time_in_seconds=5,
+            num_search_workers=1,
+            random_seed=2026104070 + step,
+            randomize_search=True,
+            cp_model_presolve=False,
+            log_search_progress=True,
+            log_to_stdout=False,
+        )
+        assert encoded(params) == encoded(expected_params)
+        response = text_format.Parse(
+            (folder / "response.pbtxt").read_text(), cp_model_pb2.CpSolverResponse()
+        )
+        status = cp_model_pb2.CpSolverStatus.Name(response.status)
+        assert status == record["master_status"]
+        assert record["seed"] == 2026104070 + step
+        assert abs(response.wall_time - record["master_reported_seconds"]) < 1e-6
+        assert abs(response.wall_time - record["master_seconds"]) < 0.1
+        assert 0 < record["master_seconds"] <= 5.1
+        log = (folder / "master.log").read_text()
+        assert log.count("Starting CP-SAT solver") == log.count("CpSolverResponse summary:") == 1
+        assert f"status: {status}" in log
+        cumulative += record["master_seconds"]
+        if status == "UNKNOWN":
+            unknown += 1
+            assert record["inconclusive"] and record["action"] == "continue_next_deterministic_seed"
+            assert not record["lp_called"]
+            checked.append(
+                {
+                    "step": step,
+                    "master_status": status,
+                    "lp_called": False,
+                    "action": record["action"],
+                }
+            )
+            continue
+        if status not in ("OPTIMAL", "FEASIBLE"):
+            assert step == len(result["records"]) - 1
+            assert result["stop_reason"] == "inconclusive_master_without_candidate"
+            assert not record["lp_called"]
+            checked.append({"step": step, "master_status": status, "lp_called": False})
+            continue
+        ids = record["heavy_global_ids"]
+        assert len(ids) == len(set(ids)) == 28 and ids == sorted(ids)
+        assert tuple(ids) not in seen
+        seen.add(tuple(ids))
+        positions = {gids.index(i) for i in ids}
+        assert list(response.solution) == [int(i in positions) for i in range(276)]
+        for row in actual.constraints:
+            value = sum(
+                c for i, c in zip(row.linear.vars, row.linear.coeffs, strict=True) if i in positions
+            )
+            assert row.linear.domain[0] <= value <= row.linear.domain[1]
+        distance = 28 - len(set(ids) & set(manifest["baseline_heavy_global_ids"]))
+        assert distance == response.objective_value == record["distance_replacements"]
+        assert response.best_objective_bound == record["objective_bound"]
+        if status == "OPTIMAL":
+            assert response.best_objective_bound == distance
+        control_model, control_expected = actual, expected
+        chosen = tuple(blocks[i] for i in ids)
+        assert ind.digest(chosen) == record["heavy_sha256"]
+        receipt = read(ROOT / record["registry_path"])
+        assert ind.sha(ROOT / record["registry_path"]) == record["registry_sha256"]
+        reasons = ind.validate_receipt(chosen, receipt)
+        control_receipt, control_chosen = receipt, chosen
+        assert record["registry_accepted"] == (not reasons)
+        if reasons:
+            rejected += 1
+            assert not record["lp_called"]
+            new = read(folder / "new-registry-nogoods.json")
+            assert len(new) == len(reasons) == record["new_registry_nogoods"]
+            assert (
+                ind.sha(folder / "new-registry-nogoods.json")
+                == record["new_registry_nogoods_sha256"]
+            )
+            assert {n["anchor_group_zero_based"] for n in new} == {
+                reason["anchor_group_zero_based"] for reason in reasons
+            }
+            for nogood in new:
+                validate_nogood(nogood, blocks, anchors, gids)
+                assert all(nogood["heavy_global_ids"] != old["heavy_global_ids"] for old in nogoods)
+                assert set(nogood["heavy_global_ids"]) <= set(ids)
+                nogoods.append(nogood)
+            checked.append({"step": step, "registry_rejected": True, "new_nogoods": len(new)})
+            continue
+        if not record["lp_called"]:
+            assert step == len(result["records"]) - 1
+            assert result["stop_reason"] == "budget_before_admitted_lp"
+            continue
+        assert cumulative < 118.9
+        admitted += 1
+        numerical = record["lp"]
+        assert numerical["time_limit_seconds"] == 1
+        assert 0 <= numerical["seconds"] <= 1.1
+        cumulative += numerical["seconds"]
+        shifted = ind.shifted(rows, heavy, chosen)
+        assert ind.digest(shifted) == record["shifted_rows_sha256"]
+        assert json.loads(json.dumps(shifted)) == read(folder / "completion-rows.json")
+        if "vector_path" not in record:
+            assert numerical["status"] not in ("OPTIMAL", "FEASIBLE")
+            assert step == len(result["records"]) - 1
+            assert result["stop_reason"] == "inconclusive_lp_without_solution"
+            continue
+        combined = {**record, **numerical}
+        residual = ind.check_vector(combined)
+        if numerical["status"] == "OPTIMAL" and numerical["objective"] < best - 1e-7:
+            best, best_ids = numerical["objective"], ids
+            improvements.append(
+                {
+                    "status": "OPTIMAL",
+                    "objective": best,
+                    "rank": step,
+                    "heavy_global_ids": ids,
+                    "heavy_sha256": record["heavy_sha256"],
+                }
+            )
+        if "learned_cut_path" not in record:
+            assert step == len(result["records"]) - 1
+            assert result["stop_reason"] in (
+                "unresolved_numerical_feasibility",
+                "unresolved_exact_conditional_dual",
+            )
+            continue
+        cut = read(ROOT / record["learned_cut_path"])
+        assert ind.sha(ROOT / record["learned_cut_path"]) == record["learned_cut_sha256"]
+        assert cut["source_heavy_global_ids"] == ids
+        assert cut["numerical_dual_path"] == record["dual_path"]
+        assert cut["numerical_dual_sha256"] == record["dual_sha256"]
+        assert ind.sha(ROOT / cut["numerical_dual_path"]) == cut["numerical_dual_sha256"]
+        assert cut["source_objective"] == numerical["objective"]
+        assert cut["source_heavy_sha256"] == record["heavy_sha256"]
+        assert cut["source_shifted_rows_sha256"] == record["shifted_rows_sha256"]
+        normalized = {
+            **cut,
+            "maximum_signed_row_weight": max(abs(weight) for _, weight in cut["dual"]["weights"]),
+        }
+        gap = exact.verify_cut(normalized, rows, support_o, support_h, gids, family_sha)
+        assert record["exact_gap"] == [gap.numerator, gap.denominator]
+        conditional.append(cut)
+        control_cut = normalized
+        cut_count += 1
+        checked.append(
+            {
+                "step": step,
+                "residual_recounted": residual,
+                "exact_gap": record["exact_gap"],
+                "distance": distance,
+            }
+        )
+    assert result["master_proposals"] == len(result["records"])
+    assert result["unknown_master_proposals"] == unknown
+    assert result["broad_cuts"] == 353
+    assert result["stop_reason"] == "combined_solver_or_wall_budget"
+    assert cumulative >= 113.8 or result["wall_seconds"] >= 151
+    assert not result["numerical_zero"]
+    assert read(SOURCE / "stitch-input.json") == {
+        "initial_objective": initial,
+        "records": improvements,
+    }
+    assert result["registry_rejected_proposals"] == rejected
+    assert result["admitted_lps"] == admitted
+    assert result["new_conditional_cuts"] == cut_count
+    assert result["final_conditional_cuts"] == len(conditional) == 1001 + cut_count
+    assert result["new_registry_nogoods"] == len(nogoods) - 20
+    assert read(RAW / "final-registry-nogoods.json") == nogoods
+    assert abs(cumulative - result["solver_seconds"]) < 1e-6
+    assert result["best_objective"] == best and result["best_heavy_global_ids"] == best_ids
+    assert result["improvements"] == improvements
+    assert not result["covering_witness"] and not result["global_lower_bound_claim"]
+    controls = []
+
+    def rejects(label, function):
+        try:
+            function()
+        except (AssertionError, ValueError, KeyError):
+            controls.append(label)
+        else:
+            raise AssertionError(f"damaged control accepted: {label}")
+
+    def same_model(left, right):
+        assert encoded(left) == encoded(right)
+
+    damaged_model = copy.deepcopy(control_model)
+    damaged_model.constraints[0].linear.domain[0] += 1
+    rejects("master_cardinality", lambda: same_model(damaged_model, control_expected))
+    damaged_model = copy.deepcopy(control_model)
+    damaged_model.objective.offset += 1
+    rejects("master_objective", lambda: same_model(damaged_model, control_expected))
+    for label in ("heavy_coefficient", "duplicate_weight", "wrong_family"):
+        cut = copy.deepcopy(control_cut)
+        if label == "heavy_coefficient":
+            cut["coefficients"][0] += 1
+        elif label == "duplicate_weight":
+            cut["dual"]["weights"].append(cut["dual"]["weights"][0])
+        else:
+            cut["graph_index"] = 5
+        rejects(label, lambda: exact.verify_cut(cut, rows, support_o, support_h, gids, family_sha))
+    damaged_receipt = copy.deepcopy(control_receipt)
+    damaged_receipt["links"][0]["both_transports"][0]["physical_to_representative"][0] = 0
+    rejects("registry_transport", lambda: ind.validate_receipt(control_chosen, damaged_receipt))
+    damaged_params = copy.deepcopy(params)
+    damaged_params.cp_model_presolve = True
+    rejects("presolve_setting", lambda: same_model(damaged_params, expected_params))
+    report = {
+        "passed": True,
+        "optimizer_calls": 0,
+        "checker_sha256": ind.sha(__file__),
+        "gate_sha256": ind.sha(HERE / "audit.json"),
+        "result_sha256": ind.sha(SOURCE / "result.json"),
+        "master_proposals": len(result["records"]),
+        "registry_rejected": rejected,
+        "master_status_counts": dict(Counter(r["master_status"] for r in result["records"])),
+        "unknown_master_proposals": unknown,
+        "initial_exact_g1_cuts_replayed": len(initial_cut_gaps),
+        "final_exact_g1_cuts": len(conditional),
+        "final_registry_nogoods": len(nogoods),
+        "damaged_controls_rejected": controls,
+        "exact_byte_archived_proofs_checked": len(archived_rows),
+        "learned_proof_archive_sha256": ind.sha(SOURCE / "learned-proofs.json.gz"),
+        "admitted_lps": admitted,
+        "new_exact_g1_cuts": cut_count,
+        "new_registry_nogoods": len(nogoods) - 20,
+        "solver_seconds": cumulative,
+        "wall_seconds": result["wall_seconds"],
+        "initial_objective": initial,
+        "best_objective": best,
+        "stop_reason": result["stop_reason"],
+        "results": checked,
+        "scope": "Bounded fixed-g1 campaign readback. Exact planes exclude their source "
+        "patterns; numerical objectives and master timeouts do not prove global bounds.",
+    }
+    (HERE / "postcheck.json").write_text(json.dumps(report, indent=2) + "\n")
+    print(json.dumps({k: v for k, v in report.items() if k != "results"}, indent=2))
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "43145051c14ced94ac38d7820338289b8692fba0d0f60bb01295c5321b903956",
+  "manifest_sha256": "1985dcb7e04d661fc41985dd5f3cbcd7240eb9cb32209fdd1b668be8195d1514",
+  "source_sha256": "2c317b92f00c5310bbca20f2e6d809c2366513d3bacff0c8bbc18a52c1e0a066",
+  "models": [
+    {
+      "name": "elite",
+      "pool_size": 277,
+      "variables": 4948,
+      "rows": 1166,
+      "hint_holes": 17,
+      "model_sha256": "62f91833cab80026f044c58469d77091b397d3b06dc53afcfd30d6ca9fec3f03"
+    },
+    {
+      "name": "expanded",
+      "pool_size": 337,
+      "variables": 4948,
+      "rows": 1166,
+      "hint_holes": 17,
+      "model_sha256": "d2f30bbd987198c3e5f972765287aad96c1ceccc766f50ebeabbba2dbe174cbf"
+    }
+  ],
+  "truth_tables": [
+    {
+      "partition": "original_saved_core",
+      "cases": 243,
+      "forbidden": 26,
+      "allowed": 217
+    },
+    {
+      "partition": "mapped_saved_core",
+      "cases": 243,
+      "forbidden": 26,
+      "allowed": 217
+    }
+  ],
+  "local_threshold_counts_checked": 79,
+  "damaged_controls_rejected": [
+    "threshold",
+    "reverse_literal",
+    "profile_bound",
+    "hint_indicator"
+  ],
+  "hint_verifiers": [
+    {
+      "name": "package",
+      "sha256": "e2b2069d07cbd942275746c3a1397fb12927698565beeca168e8c50bbf8450e8"
+    },
+    {
+      "name": "standalone",
+      "sha256": "c5d24ad7bab0cd2332500d6e4528329fcbcc875623d931265bfa46c815654ed4"
+    }
+  ],
+  "scope": "Two frozen finite pools with the two existing core exclusions and two named five-heavy partition restrictions. No unrestricted or all-partitions exclusion claim."
+}

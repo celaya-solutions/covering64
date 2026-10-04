@@ -1,0 +1,260 @@
+# Document:    Fixed-g5 Saved-Dual Planes and Larger-Neighborhood Envelopes
+# Version:     v1.0.0
+# Author:      Celaya Solutions
+# Contact:     hello@celayasolutions.com
+# Date:        2026-10-04
+# SHA256:      774f65784eaf00c53a4b363a0972287837a0bb437382fd94920e80fa9291f8d0
+# Chain:       n/a
+# Tx:          [not anchored]
+# License:     All Rights Reserved / Celaya Solutions
+
+"""Derive conditional exact planes and screen finite states without solving."""
+
+import gzip
+import importlib.util
+import json
+import time
+from pathlib import Path
+
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[3]
+HERE = Path(__file__).resolve().parent
+DAY = ROOT / "experiments/2026-10-04"
+SCALE = 1000000
+
+
+def load(path, name):
+    spec = importlib.util.spec_from_file_location(name, path)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def save(name, value):
+    (HERE / name).write_text(json.dumps(value, indent=2) + "\n")
+
+
+run = load(DAY / "g5-link-continuation/run.py", "envelope_g5")
+nearest = load(DAY / "nearest-heavy-master/run.py", "envelope_nearest")
+margin = load(DAY / "margin-heavy-master/run.py", "envelope_margin")
+sha = run.sha
+started = time.monotonic()
+assert not (HERE / "g5-cuts.json.gz").exists()
+blocks, ordinary, heavy, _, rows, changes = run.basis()
+heavy_global = [blocks.index(b) for b in heavy]
+lookup = {g: i for i, g in enumerate(heavy_global)}
+source_path = DAY / "g5-link-continuation/result.json"
+source = json.loads(source_path.read_text())
+manifest = json.loads((DAY / "g5-link-continuation/manifest.json").read_text())
+post = json.loads((DAY / "g5-link-continuation-independent/postcheck.json").read_text())
+assert post["passed"] and post["result_sha256"] == sha(source_path)
+exact = run.load(run.generator.LP_CORE, "envelope_exact")
+conditional = []
+inputs = {
+    str(p.relative_to(ROOT)): sha(p)
+    for p in [
+        Path(__file__),
+        HERE / "count.py",
+        HERE / "counts.json",
+        DAY / "g5-link-continuation/run.py",
+        DAY / "g5-link-continuation/registry.py",
+        DAY / "g5-link-continuation/manifest.json",
+        source_path,
+        DAY / "g5-link-continuation-independent/postcheck.json",
+        DAY / "nearest-heavy-master/run.py",
+        run.generator.LP_CORE,
+        DAY / "margin-heavy-master/run.py",
+    ]
+}
+cache_path = ROOT / "experiments/scratch/g5-link-continuation-20261004/final-cache.json"
+assert sha(cache_path) == source["raw_sha256"]["final-cache.json"]
+cache = json.loads(cache_path.read_text())
+assert len(cache) == 720
+inputs[str(cache_path.relative_to(ROOT))] = sha(cache_path)
+for record in sorted(cache.values(), key=lambda r: r["heavy_global_ids"]):
+    assert record["status"] == "OPTIMAL" and record["family_sha256"] == manifest["family_sha256"]
+    numeric_path = ROOT / record["dual_path"]
+    assert sha(numeric_path) == record["dual_sha256"]
+    numeric = json.loads(numeric_path.read_text())
+    chosen = [blocks[i] for i in record["heavy_global_ids"]]
+    shifted = run.generator.shifted_rows(rows, heavy, chosen)
+    assert run.data_hash(shifted) == record["shifted_rows_sha256"]
+    positions = {lookup[i] for i in record["heavy_global_ids"]}
+    cut = nearest.derive_cut(exact, rows, shifted, numeric, positions, len(ordinary), len(heavy))
+    assert cut is not None
+    norm = max(abs(weight) for _, weight in cut["dual"]["weights"])
+    assert norm <= cut["denominator"] == SCALE
+    cut.update(
+        id=f"g5-cache-{record['cache_key']}",
+        graph_index=5,
+        family_sha256=manifest["family_sha256"],
+        source_heavy_global_ids=record["heavy_global_ids"],
+        source_heavy_sha256=record["heavy_sha256"],
+        source_shifted_rows_sha256=record["shifted_rows_sha256"],
+        numerical_dual_path=record["dual_path"],
+        numerical_dual_sha256=record["dual_sha256"],
+        maximum_signed_row_weight=norm,
+        source_objective=record["objective"],
+    )
+    conditional.append(cut)
+    inputs[record["dual_path"]] = record["dual_sha256"]
+assert len(conditional) == 720
+bundle = {
+    "graph_index": 5,
+    "hub_excesses": [2, 0, 0, 0, 0, 2],
+    "six_row_changes": changes,
+    "family_sha256": manifest["family_sha256"],
+    "ordinary_global_ids": [blocks.index(b) for b in ordinary],
+    "heavy_global_ids": heavy_global,
+    "cuts": conditional,
+    "count": 720,
+    "source_sha256": sha(__file__),
+    "descent_result_sha256": sha(source_path),
+    "cache_sha256": sha(cache_path),
+    "scope": (
+        "These 720 planes require fixed graph g5; never append them to the broad cut inventory."
+    ),
+    "optimization_calls": 0,
+}
+raw = ROOT / "experiments/scratch/g5-larger-screen-20261004"
+assert not raw.exists()
+raw.mkdir()
+(raw / "g5-cuts.json").write_text(json.dumps(bundle, indent=2) + "\n")
+(HERE / "g5-cuts.json.gz").write_bytes(gzip.compress(json.dumps(bundle).encode(), mtime=0))
+(HERE / "g5-unconditional-rows.json.gz").write_bytes(
+    gzip.compress(json.dumps(rows).encode(), mtime=0)
+)
+print("derived720", sha(HERE / "g5-cuts.json.gz"), flush=True)
+
+base, broad, paths = margin.load_cuts()
+prior = json.loads((DAY / "margin-heavy-master/result.json").read_text())
+prior_post = json.loads((DAY / "margin-heavy-master-independent/postcheck.json").read_text())
+assert prior_post["passed"] and len(prior["records"]) == 20
+paths += [
+    DAY / "margin-heavy-master/result.json",
+    DAY / "margin-heavy-master-independent/postcheck.json",
+]
+for record in prior["records"]:
+    path = (
+        ROOT
+        / "experiments/scratch/margin-heavy-master-20261004"
+        / f"step-{record['step']:03d}/learned-cut.json"
+    )
+    assert sha(path) == record["learned_cut_sha256"]
+    broad.append(json.loads(path.read_text()))
+    paths.append(path)
+assert len(broad) == 353 and base["heavy_global_ids"] == heavy_global
+for cut in broad:
+    if "dual" in cut:
+        dual = cut["dual"]
+    elif "dual_path" in cut:
+        path = ROOT / cut["dual_path"]
+        assert sha(path) == cut["dual_sha256"]
+        paths.append(path)
+        dual = json.loads(path.read_text())
+    elif "maximum_signed_row_weight" in cut:
+        assert cut["maximum_signed_row_weight"] <= cut["denominator"]
+        continue
+    else:
+        raise AssertionError(cut.keys())
+    assert max(abs(weight) for _, weight in dual["weights"]) <= cut["denominator"]
+inputs.update({str(path.relative_to(ROOT)): sha(path) for path in paths})
+(HERE / "broad-cuts-reference.json.gz").write_bytes(
+    gzip.compress(
+        json.dumps(
+            {
+                "cuts": broad,
+                "count": 353,
+                "scope": "Existing broad planes copied as planning inputs only.",
+            }
+        ).encode(),
+        mtime=0,
+    )
+)
+
+
+def matrix(cuts):
+    coefficients = []
+    rhs = []
+    for cut in cuts:
+        assert SCALE % cut["denominator"] == 0
+        factor = SCALE // cut["denominator"]
+        row = [factor * x for x in cut["coefficients"]]
+        bound = factor * cut["rhs"]
+        assert abs(bound) + sum(abs(x) for x in row) < 2**60
+        coefficients.append(row)
+        rhs.append(bound)
+    return np.array(coefficients, dtype=np.int64), np.array(rhs, dtype=np.int64)
+
+
+c_matrix, c_rhs = matrix(conditional)
+b_matrix, b_rhs = matrix(broad)
+cached = {tuple(record["heavy_global_ids"]) for record in cache.values()}
+summary = {}
+for name in ["proper-three", "paired-two", "whole-link"]:
+    path = HERE / (name + ".json.gz")
+    states = json.loads(gzip.decompress(path.read_bytes()))
+    inputs[str(path.relative_to(ROOT))] = sha(path)
+    scores = []
+    for offset in range(0, len(states), 256):
+        group = states[offset : offset + 256]
+        local = np.array([[lookup[x] for x in state] for state in group], dtype=np.int64)
+        cb = np.maximum(0, (c_rhs[:, None] - c_matrix[:, local].sum(axis=2)).max(axis=0))
+        bb = np.maximum(0, (b_rhs[:, None] - b_matrix[:, local].sum(axis=2)).max(axis=0))
+        scores.extend((int(c), int(b), int(max(c, b))) for c, b in zip(cb, bb, strict=True))
+    (HERE / (name + "-envelopes.json.gz")).write_bytes(
+        gzip.compress(json.dumps(scores).encode(), mtime=0)
+    )
+    unexcluded = [state for state, score in zip(states, scores, strict=True) if score[2] == 0]
+    (HERE / (name + "-unexcluded.json.gz")).write_bytes(
+        gzip.compress(json.dumps(unexcluded).encode(), mtime=0)
+    )
+    best_indices = sorted(
+        range(len(scores)), key=lambda i: (scores[i][2], scores[i][0], states[i])
+    )[:20]
+    summary[name] = {
+        "registry_safe_states": len(states),
+        "g5_positive": sum(s[0] > 0 for s in scores),
+        "g5_unexcluded": sum(s[0] == 0 for s in scores),
+        "broad_positive": sum(s[1] > 0 for s in scores),
+        "combined_positive": sum(s[2] > 0 for s in scores),
+        "combined_unexcluded": len(unexcluded),
+        "combined_unexcluded_uncached": sum(tuple(state) not in cached for state in unexcluded),
+        "g5_minimum_lower_bound": [min(s[0] for s in scores), SCALE],
+        "combined_minimum_lower_bound": [min(s[2] for s in scores), SCALE],
+        "best_twenty": [
+            {
+                "heavy_global_ids": states[i],
+                "g5_bound_numerator": scores[i][0],
+                "broad_bound_numerator": scores[i][1],
+                "combined_bound_numerator": scores[i][2],
+                "cached": tuple(states[i]) in cached,
+            }
+            for i in best_indices
+        ],
+        "states_sha256": sha(path),
+        "scores_sha256": sha(HERE / (name + "-envelopes.json.gz")),
+    }
+    print(
+        name, json.dumps({k: v for k, v in summary[name].items() if k != "best_twenty"}), flush=True
+    )
+report = {
+    "source_sha256": sha(__file__),
+    "bundle_sha256": sha(HERE / "g5-cuts.json.gz"),
+    "broad_reference_sha256": sha(HERE / "broad-cuts-reference.json.gz"),
+    "graph_index": 5,
+    "fixed_g5_planes": 720,
+    "broad_planes": 353,
+    "denominator": SCALE,
+    "neighborhoods": summary,
+    "optimization_calls": 0,
+    "seconds": time.monotonic() - started,
+    "scope": (
+        "Finite lower envelopes only. Positive values exclude exact fractional completion "
+        "in the fixed branch; a zero is inconclusive. No optimum claim."
+    ),
+}
+save("envelope-results.json", report)
+save("inputs.json", inputs)
+print("complete", report["seconds"], flush=True)

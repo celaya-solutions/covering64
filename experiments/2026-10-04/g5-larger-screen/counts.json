@@ -1,0 +1,87 @@
+{
+  "source_sha256": "a932a3378f634d088f015ecca3a328b3c59be6bd7fe99571eb3560f0902086b2",
+  "descent_result_sha256": "a1e8fd215b0f279fba5b19ebcb50915754e4a055bc3fe360fb3504ed198abae0",
+  "baseline_objective": 8.152937802508724,
+  "graph_index": 5,
+  "hub_excesses": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    2
+  ],
+  "proper_three": {
+    "structurally_valid": 680,
+    "registry_accepted": 492,
+    "registry_rejected": 188,
+    "cached": 14,
+    "fresh_expected": 478,
+    "representative_profiles": 86,
+    "state_sha256": "b32e7c5c0a5847a01ed4b47117ab08f9b66db13c25a023725635add2ec6054af",
+    "accepted_sha256": "59ed4c22fdb088ee0bfaf63bee5740c18e69571aba16e5be73b3cb7d199d055c"
+  },
+  "paired_two": {
+    "structurally_valid": 6122,
+    "registry_accepted": 4106,
+    "registry_rejected": 2016,
+    "cached": 82,
+    "fresh_expected": 4024,
+    "representative_profiles": 687,
+    "state_sha256": "15ad778189e57d3995cfb81f9aa626d6c8b3644cad87cba5e1b2e25ef6f6c9c5",
+    "accepted_sha256": "51181df7155bbdc567307ba482fe2a28a253872d0027e52ba36b16aed05c206b"
+  },
+  "whole_link": {
+    "per_anchor": [
+      {
+        "group": 0,
+        "catalog": 29970,
+        "accepted": 11609,
+        "cached": 47,
+        "registry_rejected": 18360,
+        "unchanged": 1
+      },
+      {
+        "group": 1,
+        "catalog": 29970,
+        "accepted": 11609,
+        "cached": 25,
+        "registry_rejected": 18360,
+        "unchanged": 1
+      },
+      {
+        "group": 2,
+        "catalog": 29970,
+        "accepted": 11609,
+        "cached": 30,
+        "registry_rejected": 18360,
+        "unchanged": 1
+      },
+      {
+        "group": 3,
+        "catalog": 29970,
+        "accepted": 11609,
+        "cached": 26,
+        "registry_rejected": 18360,
+        "unchanged": 1
+      }
+    ],
+    "accepted": 46436,
+    "cached": 128,
+    "fresh_expected": 46308,
+    "edge_replacement_counts": {
+      "2": 105,
+      "3": 492,
+      "4": 2576,
+      "5": 8922,
+      "6": 18755,
+      "7": 15586
+    },
+    "unique_changed_link_representatives": 47,
+    "proper_three_overlap": 492,
+    "paired_two_overlap": 0,
+    "accepted_sha256": "66dc285f8de5e6a3d60fba16f8c68882b19d321e9d6db5443cdf9735866d421d"
+  },
+  "solver_calls": 0,
+  "seconds": 1.944533042027615
+}

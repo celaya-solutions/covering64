@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "source_sha256": "344b3bfa52a7a9aaa22eedbd303bdb6c5a4601c355042c2c33c73813751f002b",
+  "assessment_sha256": "9fabe5f04fc192d4a738a22dba4c59db90800a82e62bc76421285207a9e40e07",
+  "states": [
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-10-h6.txt",
+      "sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+      "exchanges": 275456,
+      "raw_improvements": 4,
+      "profile_eligible_improvements": 0
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/elite-final-response.txt",
+      "sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+      "exchanges": 275456,
+      "raw_improvements": 15,
+      "profile_eligible_improvements": 0
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-08-h6.txt",
+      "sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+      "exchanges": 275456,
+      "raw_improvements": 15,
+      "profile_eligible_improvements": 0
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/expanded-final-response.txt",
+      "sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+      "exchanges": 275456,
+      "raw_improvements": 15,
+      "profile_eligible_improvements": 0
+    }
+  ],
+  "exchanges": 1101824,
+  "raw_improvements": 49,
+  "scope": "Only the complete one-block neighborhoods of these four saved states."
+}
