@@ -1,0 +1,50 @@
+{
+  "bounds": {
+    "fifth_cap": 56,
+    "historical_centers": 34,
+    "initial_fifth_overlap": 1,
+    "maximum_candidate_radius": 32,
+    "maximum_center_radius": 30,
+    "maximum_fifth_overlap": 33,
+    "minimum_initial_history_distance": 63
+  },
+  "budget": {
+    "budget_transfer": false,
+    "max_centers": 16,
+    "max_shell_launches": 32,
+    "relaunch": false,
+    "seconds_per_shell": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "decision": "GO",
+  "fifth_core_diagnostic_only": true,
+  "fresh_primary_source_note": {
+    "path": "experiments/2026-10-04/post-march-public-source-refresh/README.md",
+    "scope": "Live post-March successor found; exact current C(16,5,3) entry unverified after HTTP403. March archive range is not claimed current.",
+    "sha256": "5f76695abff3401e8108e5c1ec4868ad1f8724905fbdbb7f704c30e0c7757108"
+  },
+  "independent_check_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue-independent/check.py",
+  "independent_check_sha256": "69a2274c8fe5d9e04d20b2560caaf6c1d47934151a129f4898ad9396dc68a9e1",
+  "independent_checks_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue-independent/checks.json",
+  "independent_checks_sha256": "1fb3dc8ca83bbd431311d5511fea4060fe24aca5658da614433ef4e995ba30f3",
+  "inherited_reviews": {
+    "experiments/2026-10-04/weak-pair-neutral-native-review/review.json": "213a27f1940aa49506ccce310a8a333c357f2f6ddbed8ff05b5ccd295bdf9049",
+    "experiments/2026-10-04/weak-pair-neutral-queue-independent/gate.json": "e808301cec82a6ea805dba9ab2aa58debb56233b7cf9eac9615f485f448f8e90",
+    "experiments/2026-10-04/weak-pair-neutral-queue-resume-01-independent/gate.json": "c20ead0e9dc4cc7d5805616766e4611e8084ff17ac14f1a6a4d24ffb32f4f736"
+  },
+  "initial_native_runtime_audit_sha256": "5d79cdfc0820086e14281538398506c674ce9ecb241e1b3b3739b7aabb067862",
+  "initial_sha256": "f5f24d57738763380c715769eef4328d7f1950a8ae6d0eedd8e9ff16dc3fc681",
+  "launch_authority": "Root only. One campaign; no retry, restart, budget transfer, or extension.",
+  "manifest_sha256": "64d63c5bee05e8ba8c5ca7bbb4f98b3258a6f3d6192297e792a4b62b12835d87",
+  "neutral_cap_per_shell": 64,
+  "one_binary_sha256": "ec472aaa0b7c42ef4ab1e643c5439f7a8f08108376391dcf1d5f37185982c31f",
+  "optimizer_launches": 0,
+  "passed": true,
+  "reviewed_at_utc": "2026-10-04T20:45:40.568632+00:00",
+  "runner_sha256": "e4fce1a2463b93eb6e107d0df57b7d72212ef9aa2ef218b12441dfb12129a0d5",
+  "scope": "One new 16-center/32-shell campaign from f5f24 H9/D2max 23. Unchanged native kernels, adapter, four original core filters and rank; fifth overlap reporting only. Neutral retention 64 per shell is sampled, not full-plateau enumeration. No global theorem or relabel claim.",
+  "shell_process_launches": 0,
+  "two_binary_sha256": "7a3b56f323ad8456da1fdad71a70ce35e3fd65ea350a422e7fc0fc23a1e1cd49"
+}

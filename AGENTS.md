@@ -4,7 +4,7 @@ Version:     v1.0.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      e551dc5f94b48f7fa44c0cc06e12289dcc547a50e0fbab23918f0b7a91e788f1
+SHA256:      f9c9c2bb0aa17ef4a14e448a4870376570333023db4715dce7c15f88ee004b52
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,8 +78,9 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-The checked native pilot improved the five-cap/weak-qualified best from H11 to H9 (D2max23, D2sum29); no cover. Neutral continuation kept H11/D25; six eight-plus-eight calls were inconclusive. A disjoint-support certificate proves the two old H11 families'128-block union needs at least73 blocks. See the continued report and independent receipts.
-Next: a bounded exact one-/two-swap neutral queue from checked f5f24 H9 is in preparation. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
+Commit1477bb9 saves the checked H9 partial, completed construction trials, common-core cap and independently replayed73-block union bound.
+The H9 queue finished8 centers/16 shells, improving D2max23 to19 with9 holes; no cover. A checked radius-four obstruction around f5f24 gives its exact64 overlap cap59. The sole saved six-cap/weak-qualified tie is a0a737 (H9/D2max19/D2sum27); the old representative e2a004 has D2sum25 but fails the sixth cap. See the continued report and independent receipts.
+Next: two fresh native starts are in preparation, with the sixth cap classifying saved records only. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 

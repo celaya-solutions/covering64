@@ -1,0 +1,757 @@
+{
+  "best_family": {
+    "canonical_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+    "cover_found": false,
+    "ids": [
+      56,
+      84,
+      242,
+      245,
+      349,
+      392,
+      433,
+      553,
+      584,
+      710,
+      790,
+      839,
+      928,
+      967,
+      981,
+      1032,
+      1098,
+      1105,
+      1197,
+      1343,
+      1380,
+      1446,
+      1511,
+      1592,
+      1637,
+      1719,
+      1785,
+      1819,
+      1880,
+      1925,
+      2003,
+      2015,
+      2064,
+      2279,
+      2321,
+      2392,
+      2476,
+      2560,
+      2714,
+      2733,
+      2752,
+      2831,
+      2865,
+      2934,
+      2955,
+      3123,
+      3170,
+      3197,
+      3315,
+      3347,
+      3382,
+      3573,
+      3601,
+      3688,
+      3715,
+      3776,
+      3937,
+      4030,
+      4086,
+      4133,
+      4207,
+      4249,
+      4294,
+      4341
+    ],
+    "metrics": {
+      "D2max": 19,
+      "D2sum": 25,
+      "D3": 0,
+      "D4": 0,
+      "cardinality": 64,
+      "core_overlaps": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "holes": 9,
+      "minimum_pair_count": 5
+    },
+    "package_valid": false,
+    "receipt_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-02-two/candidates/e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c.json",
+    "receipt_sha256": "a272aa46bfddcc6790458093762110cbbeb364cf1602a1a14d0dce32d7eef1ff",
+    "sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+    "standalone_valid": false,
+    "witness_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-02-two/candidates/e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c.txt"
+  },
+  "best_observed_fifth_core_overlap": 1,
+  "budget_transfer": false,
+  "centers": [
+    {
+      "best_rank": [
+        9,
+        21
+      ],
+      "best_sha256": "dbf6d97f5ec0c3b4aeb35fae1441379cac3cf8ee4267b2f2b86b403b02847c04",
+      "center_metrics": {
+        "D2max": 23,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 1,
+      "center_sha256": "f5f24d57738763380c715769eef4328d7f1950a8ae6d0eedd8e9ff16dc3fc681",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-01-result.json",
+      "full_result_sha256": "f459ccfacf031e76987bb03811b13311f89313c42cadb9def858d262b62624a7",
+      "local_strict_closed": false,
+      "next_center_sha256": "dbf6d97f5ec0c3b4aeb35fae1441379cac3cf8ee4267b2f2b86b403b02847c04",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 1,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              23
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-01-one/shell-result.json",
+          "shell_result_sha256": "109974345facdc3650d6fdfd6b0095efb03497d5282a24a14960cb3a91680163",
+          "strict_ties": 1
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 0,
+            "rank": [
+              9,
+              23
+            ],
+            "retained": 0
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-01-two/shell-result.json",
+          "shell_result_sha256": "02ab378852800092e8e5a0a5a5d506b638b8b68ce164748107c787b49ed2da4f",
+          "strict_ties": 2
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": true,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-01.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 21,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 2,
+      "center_sha256": "dbf6d97f5ec0c3b4aeb35fae1441379cac3cf8ee4267b2f2b86b403b02847c04",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-02-result.json",
+      "full_result_sha256": "54543131e7902de5571659362aa2e4677db45da471c89ffdddb63c0d65e88ce7",
+      "local_strict_closed": false,
+      "next_center_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 2,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 1,
+            "rank": [
+              9,
+              21
+            ],
+            "retained": 1
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-02-one/shell-result.json",
+          "shell_result_sha256": "5dd159674cdd7d8e7e4e65446e4950344c838725c22d22cfd0664f442edb31c7",
+          "strict_ties": 1
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              9,
+              21
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-02-two/shell-result.json",
+          "shell_result_sha256": "e2dddf4d4e3ffe5d6aa94e96d407d1ce313d42c17895295765cb985baefa2b21",
+          "strict_ties": 2
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": true,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-02.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 19,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 3,
+      "center_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-03-result.json",
+      "full_result_sha256": "95669ffe2c92b8a1272883a046fc4ed5db60a46c2cf16ca544b59c7dde9b926e",
+      "local_strict_closed": true,
+      "next_center_sha256": "9e6eef2e99ad205bccc16a9c5fc62894ddfd457c6858bf736b34c7af57403fd5",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 3,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-03-one/shell-result.json",
+          "shell_result_sha256": "22773b6f56712dfb17a38ff17b6d343468e7c45feec3a3fd197bd46b49d6e127",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-03-two/shell-result.json",
+          "shell_result_sha256": "e333631575b8b9dc37026a00823c22f600869356e0fed190cd80f95ca9869f67",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-03.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 19,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 4,
+      "center_sha256": "9e6eef2e99ad205bccc16a9c5fc62894ddfd457c6858bf736b34c7af57403fd5",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-04-result.json",
+      "full_result_sha256": "e2fb1f4634f100fb381d5411829b5a04e13956e1a23f915a1b5a65d619b4e062",
+      "local_strict_closed": true,
+      "next_center_sha256": "5f1cb8dcba59e60eaed1695d64a8b7a280217a2db06f0659a57b40973134239e",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 3,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-04-one/shell-result.json",
+          "shell_result_sha256": "cc1fc59eef7e8c35e0187c86ee5780e3102be95b54de5107a97ceaf1a6fde77b",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-04-two/shell-result.json",
+          "shell_result_sha256": "cf166b8b1a257fd437be2275ce4e29f911cdf0f127e81597ee43c296fb2d9b7d",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-04.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 19,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 5,
+      "center_sha256": "5f1cb8dcba59e60eaed1695d64a8b7a280217a2db06f0659a57b40973134239e",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-05-result.json",
+      "full_result_sha256": "cebcf1ed1330d906019be5b70fe751f0ed3780eb6ea461b6fad643f0a72b761a",
+      "local_strict_closed": true,
+      "next_center_sha256": "74ab460be834fb0d1d44f3ab48f60c439c46892c140f0da9de6180dd32f24170",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 2,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-05-one/shell-result.json",
+          "shell_result_sha256": "4ac48da7548c4ce637f2ce8bc8328e68b4493b347c894eb579a763a710998d11",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-05-two/shell-result.json",
+          "shell_result_sha256": "696bd33922a9595cf051904892e98ab891de30c8a9da211998438ca9aef3f7e7",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-05.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 19,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 6,
+      "center_sha256": "74ab460be834fb0d1d44f3ab48f60c439c46892c140f0da9de6180dd32f24170",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-06-result.json",
+      "full_result_sha256": "aa6d5bb91d6f8e0cfbb0aa8d470fd060c42b83c21224012e0664c958efc80395",
+      "local_strict_closed": true,
+      "next_center_sha256": "cfb1e1a05e26bdbcb04a4a1489785684647e256e5696af51fcaa183cbece6e26",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 1,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-06-one/shell-result.json",
+          "shell_result_sha256": "9984b52e171697362cf63243e5c8fc839456ee545ba0ff7d2c4afdb4b5bbfeef",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 2,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 2
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-06-two/shell-result.json",
+          "shell_result_sha256": "6627eb4b6ac83f59818990d53f2d0f24ecbeb5936a7a998fe22e166a8ab34ae8",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-06.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 19,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 7,
+      "center_sha256": "cfb1e1a05e26bdbcb04a4a1489785684647e256e5696af51fcaa183cbece6e26",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-07-result.json",
+      "full_result_sha256": "cf13e4d5863fc6090f641c649a591b9f2056b74214e0c731255b199f8ce13964",
+      "local_strict_closed": true,
+      "next_center_sha256": "a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc",
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 0,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 0,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 0
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-07-one/shell-result.json",
+          "shell_result_sha256": "797b1897760ee4058de547527c894f55839756284fc48488a8319898a2364293",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 3,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 3
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-07-two/shell-result.json",
+          "shell_result_sha256": "a102353c2b89e5d957423566976ee472d4f1a2049df5204b08dedcaea32bc428",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-07.txt"
+    },
+    {
+      "best_rank": [
+        9,
+        19
+      ],
+      "best_sha256": "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+      "center_metrics": {
+        "D2max": 19,
+        "D2sum": 27,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "holes": 9,
+        "minimum_pair_count": 5
+      },
+      "center_number": 8,
+      "center_sha256": "a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/center-08-result.json",
+      "full_result_sha256": "7166faadf409cf05198418d1ed1032c3c6764d6fcd2569c72d8da45048a103a9",
+      "local_strict_closed": true,
+      "next_center_sha256": null,
+      "observed_fifth_core_overlap": 1,
+      "queue_remaining": 0,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 0,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 0
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-08-one/shell-result.json",
+          "shell_result_sha256": "c76a8fec47e2ed8297f9328c9b7a43dfe15c4a5981bb506d766e253cc1718173",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 3,
+            "rank": [
+              9,
+              19
+            ],
+            "retained": 3
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/round-08-two/shell-result.json",
+          "shell_result_sha256": "4fc55134208424d12e064df372613819b88eb80748ece9211847839c426890aa",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": "sample_exhausted",
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue/center-08.txt"
+    }
+  ],
+  "centers_processed": 8,
+  "cover_found": false,
+  "gate_sha256": "98e162a80ba03d0ad532f10baf2e76e84d21fa5c7f5a659c97f79e58779f61fd",
+  "manifest_sha256": "64d63c5bee05e8ba8c5ca7bbb4f98b3258a6f3d6192297e792a4b62b12835d87",
+  "observed_covers": [],
+  "plateau_exhaustion_claim": false,
+  "queued_unscanned": 0,
+  "raw_index_path": "experiments/scratch/weak-pair-h9-d23-neutral-queue-run-20261004/files.json",
+  "raw_index_sha256": "522026c64a76f98d7f99d1d52fe0c4afdfae72ed6e0b305a004150c1fac913ba",
+  "relaunch": false,
+  "runner_sha256": "e4fce1a2463b93eb6e107d0df57b7d72212ef9aa2ef218b12441dfb12129a0d5",
+  "scope": "From audited H9/D2max23, exclude all 34 prior visited hashes. At most 16 centers/32 exact one/two-swap shells with unchanged four cap55 and weak filters. Fifth cap56 is diagnostic only. First64 neutral traversal samples are not global lexicographic minima or plateau exhaustion. No global theorem.",
+  "shell_launches": 16,
+  "stop_reason": "sample_exhausted",
+  "unscanned_frontier": [],
+  "unscanned_next": null,
+  "visited_hashes": [
+    "083a84716b4309f1560ff28a68854d0ba318cc9943ccc5ab5e0b91b36e2a4ae7",
+    "1e4137b583882e7513a638dcae89c7a1143854f17d12e967053dd3b3318d9c54",
+    "1facdd163ba3046e51f364e0d8863ed36a20198748fca7c39d713e386423f054",
+    "37baa674db195c8a54888cc4628ab879ea6c6b26c3e0eb65c2784162bf9fbec3",
+    "3b71eacac43595adfe38804ae6619e042d9b8bf2cd473da742f7f5f63396ecf1",
+    "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "4977734c1bd4bf115458b3d6da5317d604d8863f496caa2ce6b36131480cc597",
+    "5e6574428de60bd70e369248f7323465fa29ea106d21caa333d6bfea4a22dccb",
+    "5f1cb8dcba59e60eaed1695d64a8b7a280217a2db06f0659a57b40973134239e",
+    "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+    "6d4b886ba63df1aeb9096134dd5adffc595affbc9474db9a81405f1fbfab25de",
+    "717135688395f6c3a9903b1123227c6a4df92696856f3bd790902e4b9b9786a0",
+    "744987d6a4f808be577067e59f526736cff253a68f62c678af936d4e0bc128ca",
+    "74914202320d7400cebba9d2c789738caa2bbc64ebc08b04a473f3b9957106d5",
+    "74ab460be834fb0d1d44f3ab48f60c439c46892c140f0da9de6180dd32f24170",
+    "779d54e8990ebdc7e2bdc10eefca2c7f9c13b050bf5232282515ac962b72e31a",
+    "807f6b8833eacddb17cc587046dd1d1bfdb0c5f43cc10b1923baae57e96cdc43",
+    "91e9ffc96894f120866de7720af1a7ffe52fbe5a1b3872fa60d802a7048f8c56",
+    "99f44bf5ee353ce5d7cabe29f3f43991c8e23534c4d5ba015b8481736ae31e54",
+    "9e6eef2e99ad205bccc16a9c5fc62894ddfd457c6858bf736b34c7af57403fd5",
+    "9f96f3badf4bf7f05299ab3c5713c2dcfca70ee64cc1274fd30ca3c2d3b87295",
+    "a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc",
+    "a30dc594224a2b4ce21da4efdf38c338aceaf4875e42f940cc15c494fe53d8e5",
+    "a4cb04c1e2408dc70bee3a11a0894ac7f1f528f89ad0c0ad386dc1735afdda68",
+    "a5406ce9116333a944037ee74863ce944dbe5d1e848bbfc67969521e25b1ad61",
+    "a80018fbf4067cd8f9168d559601172a7e5f7c32cb3796981cbd3b0d056ce56a",
+    "a8e32c8d012bb0819519ad49a54f3850916847e37fc3fd202bdc614c45ecb5d4",
+    "b1c811a91b2ccad9bfb7b94ff57258584809c4ee0a5e6498fd9247078aec7de4",
+    "b7c930a4d913fa008b8de191c52f446783680e71af8780965b835aea59b0eff2",
+    "c048d460bc6b5dcadcdc9d61b2923504030f188d9b2b1b90eb3cd380aebde454",
+    "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "cfb1e1a05e26bdbcb04a4a1489785684647e256e5696af51fcaa183cbece6e26",
+    "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+    "dbf6d97f5ec0c3b4aeb35fae1441379cac3cf8ee4267b2f2b86b403b02847c04",
+    "e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c",
+    "e6eeb7ecb41aabd58d9b7765c2d5c41638d3f5508142c2aadcfc6acb7589b47e",
+    "edf7f741bc46565f96e05c65a36bc2f01ea4b7da8c9907f7075ae6d864774385",
+    "f5f24d57738763380c715769eef4328d7f1950a8ae6d0eedd8e9ff16dc3fc681",
+    "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "f80bdb9838a6eecc2482ce50582d1e4c65e45a70364ae49710c0dda276dff781",
+    "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d"
+  ]
+}

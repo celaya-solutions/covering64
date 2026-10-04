@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.31.0
+Version:     v1.32.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      e70b7a4711a71401e1880477017e744c9c3773b2542bd54f8e28dbd65ba2305d
+SHA256:      f1c74d8333ad03d406cff355280bc28864e05ed478820705280d6a11c7b614dd
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -14,8 +14,8 @@ License:     All Rights Reserved / Celaya Solutions
 
 No verified 64-block cover has been found. The latest checked native pilot
 improved the best saved partial satisfying the five named core caps and weak
-pair rules from11 holes to9, with D2max23 and D2sum29. An exact local search
-from this new family is being prepared separately. The128-block union of the
+pair rules from11 holes to9, with D2max23 and D2sum29. A checked local search
+then kept9 holes and improved D2max to19, with D2sum25. The128-block union of the
 two earlier H11 families was excluded by an independently replayed bound73.
 These are partial-family and restricted-pool results, not a solution or a
 global lower bound.
@@ -1112,3 +1112,23 @@ The raw/five-cap records reached H9 and H8 respectively but fail the weak condit
 ## Public source check beyond the frozen archive (October 4)
 
 The successor [Covering Repository](https://coveringrepository.com/) states that it tracks improvements after Gordon's March2026 archive. Its accessible recent ordinary-cover table contained100 numeric records dated September26 through October4,2026; none was the exact target. This table is only a recent slice. Direct target lookup returned HTTP403, so the target's current entry was not verified. Six accessible primary abstracts likewise supplied no new target witness or theorem. This bounded review does not establish that no later improvement exists; the earlier verified61–65 entry remains explicitly archive-dated. The source receipt `post-march-public-source-refresh/source-checks.json` has SHA256 `fd2893953397c0087e8925a3af2ffd6fa791c9370bf7cc06846c3c19e7d0c964`.
+
+## Exact local search from the new nine-hole family (October 4)
+
+The new bounded queue starts from the independently checked f5f24 H9/D2max23 family and retains the earlier one-/two-swap kernels, adapter, weak filters and four old core caps byte for byte. It permits16 centers and32 shells, with at most64 neutral observations retained per shell. Its34 excluded historical families are each at replacement distance63 from the start. Even the declared maximum candidate radius32 cannot reach them. The fifth core starts at overlap1, so the budget also bounds its overlap by33, below56; it is reported without adding a live filter. The old439d history-distance check remains an unlaunched diagnostic, superseded when the better native start arrived.
+
+Independent review verified1,411 file bindings, the starting family, both covering verifiers, all34 distances, the radius argument and11 queue controls. The manifest has SHA256 `64d63c5bee05e8ba8c5ca7bbb4f98b3258a6f3d6192297e792a4b62b12835d87`; the GO receipt has SHA256 `98e162a80ba03d0ad532f10baf2e76e84d21fa5c7f5a659c97f79e58779f61fd`. Root launched the campaign once. It completed8 centers and16 shells, improving through H9/D2max21 to H9/D2max19, then stopped with `sample_exhausted` and no pending frontier. All33 neutral observations were retained, with no capped shell and maximum8 observations in a shell. No cover was found.
+
+The best representative has SHA256 `e2a00480dec1321be7a446e0969108c694420b225b054980470d3cdd53a1bb9c`. Direct independent counts give64 distinct blocks,9 holes, D2max19, D2sum25, minimum pair count5, D3=D4=0, old core overlaps[1,0,1,1] and fifth overlap1. The audit checked21 distinct families across42 references, all shell/queue accounting and an empty frontier. Actual saved-family radii are at most5 and every fifth overlap is1. The combined visited history contains42 hashes. These are finite-shell and recorded-queue results, not an automatic plateau-exhaustion theorem or global exclusion. The producer result has SHA256 `2dc86eb41830d6647ad8dbc35b8211cb938a70f0f17c04bf68cd3042963c3811`; `weak-pair-h9-d23-neutral-queue-runtime-independent/postcheck.json` has SHA256 `89142fc4522bf21bbf4c34dd06a855113474b54d73b6f793250d207d72ec47f6`.
+
+## A checked radius-four obstruction and a sixth named cap (October 4)
+
+The original native f5f24 family has triple multiplicities0:9,1:464,2:85,3:2. Each old60-block core contains five disjoint triples of core multiplicity6, whose block-carrier sets are disjoint. Since f5f24 has maximum triple multiplicity3, at least3 core blocks per heavy triple must be absent from it. It therefore overlaps every relabeling of each of the four old cores in at most45 blocks. This partial-specific argument says nothing about relabelings of the newer62-block core.
+
+Across all4,368 five-blocks, the numbers covering0,1,2,3 of the nine original holes are3,716,605,44,3. An exact512-mask calculation shows that at most3,5,7,9 holes can be covered by1,2,3,4 additions respectively, and saves a four-block witness covering the holes alone. The three triple-hole carriers share the hole(5,9,15). A full cover with at most4 replacements must therefore add exactly4 blocks; each must cover at least2 original holes, since the other3 additions together cover at most7. Only47 blocks satisfy this necessary condition.
+
+Of the64 original blocks,63 each contain a private triple absent from every one of those47 additions. All63 originals would thus be forced in a full cover built from this pool. They need at least4 additions to cover the holes, exceeding64 blocks. This directly excludes every full64 cover within4 replacements of f5f24 and proves the necessary named-family overlap cap59. No solver, four-adder-tuple enumeration, distance5 exclusion or global lower bound is involved. The four-block hole-only witness is not a replacement that preserves full coverage.
+
+The producer certificate `h9-start-structural-profile/profile.json` has SHA256 `317797810b797e341ce62992334a8816e46e9051d33d41ab60c8078e0ee15d38`. Independent reconstruction checked23 fields, all28 distinct hole masks,4,060 three-mask multisets, all private-triple witnesses and22 damaged controls. Its receipt `h9-start-structural-independent/review.json` has SHA256 `a6ed0173e9e61a700bbe77d3b3599fcdcd34f593f49ef392b2f53721d9cb1c6c`.
+
+A separate finite inventory of the21 queue families finds exactly one satisfying the weak rules, the five earlier named caps and the new named cap59: `a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc`. Fresh counts and both verifiers confirm H9/D2max19/D2sum27, minimum pair count5, D3=D4=0 and six overlaps[1,0,1,1,1,59]. It is five replacements from f5f24. It ties the declared(H,D2max) best; its D2sum27 differs from the representative's25 and is not a ranking tie-break. All21 families have maximum triple multiplicity3. The inventory has SHA256 `de1653eca6de927e511efd316d0893f870e9e8731afc6bd5091a72042c287b55`; its original pending-proof wording is preserved separately from the later completed proof. These six named-image checks do not establish escape from all images of the newer cores.

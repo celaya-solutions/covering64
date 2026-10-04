@@ -1,0 +1,104 @@
+{
+  "budget": {
+    "budget_transfer": false,
+    "max_centers": 16,
+    "max_shell_launches": 32,
+    "relaunch": false,
+    "seconds_per_shell": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "fifth_core_diagnostic_only": true,
+  "fifth_core_maximum_overlap": 33,
+  "fifth_core_threshold": 56,
+  "historical_distances": [
+    63
+  ],
+  "historical_families": 34,
+  "initial_metrics": {
+    "D2max": 23,
+    "D2sum": 29,
+    "D3": 0,
+    "D4": 0,
+    "cardinality": 64,
+    "core_overlaps": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "holes": 9,
+    "minimum_pair_count": 5
+  },
+  "initial_sha256": "f5f24d57738763380c715769eef4328d7f1950a8ae6d0eedd8e9ff16dc3fc681",
+  "manifest_sha256": "64d63c5bee05e8ba8c5ca7bbb4f98b3258a6f3d6192297e792a4b62b12835d87",
+  "maximum_candidate_radius": 32,
+  "maximum_center_radius": 30,
+  "native_runtime_audit_sha256": "5d79cdfc0820086e14281538398506c674ce9ecb241e1b3b3739b7aabb067862",
+  "optimizer_launches": 0,
+  "passed": true,
+  "prior_manifest_sha256": "aeaa247b3c1f5ba967e968412f59d261659c760e766fd5787637e953ff39b4ba",
+  "queue_controls": [
+    {
+      "calls": 32,
+      "case": "neutral bound"
+    },
+    {
+      "calls": 32,
+      "case": "strict bound"
+    },
+    {
+      "calls": 0,
+      "case": "empty frontier",
+      "rejected": true
+    },
+    {
+      "calls": 0,
+      "case": "duplicate frontier",
+      "rejected": true
+    },
+    {
+      "calls": 0,
+      "case": "visited initial",
+      "rejected": true
+    },
+    {
+      "calls": 0,
+      "case": "mixed rank",
+      "rejected": true
+    },
+    {
+      "calls": 0,
+      "case": "nonleast initial",
+      "rejected": true
+    },
+    {
+      "calls": 2,
+      "case": "empty sampled frontier"
+    },
+    {
+      "calls": 1,
+      "case": "first incomplete"
+    },
+    {
+      "calls": 2,
+      "case": "second incomplete"
+    },
+    {
+      "calls": 1,
+      "case": "early cover"
+    }
+  ],
+  "runner_sha256": "e4fce1a2463b93eb6e107d0df57b7d72212ef9aa2ef218b12441dfb12129a0d5",
+  "scope": "Focused delta review only. Previous native and adapter audits reused by hashes. Named history and fifth-core bounds apply to this 16-center pilot only.",
+  "shell_process_launches": 0,
+  "source_sha256": "69a2274c8fe5d9e04d20b2560caaf6c1d47934151a129f4898ad9396dc68a9e1",
+  "unchanged_functions": [
+    "rank",
+    "base_module",
+    "execute_shell"
+  ],
+  "unchanged_queue_except_16_center_budget": true,
+  "unique_file_pins_checked": 1411
+}

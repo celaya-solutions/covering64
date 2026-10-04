@@ -1,0 +1,143 @@
+{
+  "carrier_histogram": {
+    "0": 3716,
+    "1": 605,
+    "2": 44,
+    "3": 3
+  },
+  "certificate_path": "experiments/2026-10-04/h9-start-structural-profile/profile.json",
+  "certificate_sha256": "317797810b797e341ce62992334a8816e46e9051d33d41ab60c8078e0ee15d38",
+  "damaged_controls": [
+    {
+      "case": "hole omitted",
+      "rejected": true
+    },
+    {
+      "case": "wrong carrier count",
+      "rejected": true
+    },
+    {
+      "case": "boolean carrier count",
+      "rejected": true
+    },
+    {
+      "case": "missing pattern",
+      "rejected": true
+    },
+    {
+      "case": "false three-block cover",
+      "rejected": true
+    },
+    {
+      "case": "wrong common hole",
+      "rejected": true
+    },
+    {
+      "case": "eligible adder removed",
+      "rejected": true
+    },
+    {
+      "case": "adder damaged",
+      "rejected": true
+    },
+    {
+      "case": "restore set shortened",
+      "rejected": true
+    },
+    {
+      "case": "private witness damaged",
+      "rejected": true
+    },
+    {
+      "case": "forced row omitted",
+      "rejected": true
+    },
+    {
+      "case": "forced count damaged",
+      "rejected": true
+    },
+    {
+      "case": "overlap cap widened",
+      "rejected": true
+    },
+    {
+      "case": "outside count lowered",
+      "rejected": true
+    },
+    {
+      "case": "old-core support damaged",
+      "rejected": true
+    },
+    {
+      "case": "old-core cap strengthened",
+      "rejected": true
+    },
+    {
+      "case": "hole-only witness duplicated",
+      "rejected": true
+    },
+    {
+      "case": "scope widened",
+      "rejected": true
+    },
+    {
+      "case": "duplicate block",
+      "rejected": true
+    },
+    {
+      "case": "label zero",
+      "rejected": true
+    },
+    {
+      "case": "short block",
+      "rejected": true
+    },
+    {
+      "case": "reversed block order",
+      "rejected": true
+    }
+  ],
+  "distinct_hole_masks": 28,
+  "eligible_adders": 47,
+  "exact64_named_initial_maximum_overlap": 59,
+  "forced_original_blocks": 63,
+  "forced_plus_necessary_additions": 67,
+  "four_adder_tuples_enumerated_by_this_replay": 0,
+  "four_block_hole_only_witness_checked": true,
+  "independent_source_sha256": "03ba2e193809c1e35d32ffc1a75bc840adf8bfc152fdf67ba24b495ee169aefe",
+  "independently_recomputed_fields": [
+    "all_three_hole_carriers",
+    "carrier_histogram",
+    "degree19_links",
+    "exact64_maximum_overlap_with_named_initial_family",
+    "exact64_minimum_blocks_outside_named_initial_family",
+    "forced_original_blocks",
+    "forced_original_count",
+    "hole_mask_patterns",
+    "hole_pair_intersection_histogram",
+    "holes",
+    "initial_ids",
+    "mask_dp_layers",
+    "minimum_blocks_covering_original_holes_only",
+    "old_core_all_relabel_overlap_proofs",
+    "original_private_triples",
+    "pair_multiplicities",
+    "point_profiles",
+    "potentially_removable_originals",
+    "radius_four_adder_union_triples",
+    "radius_four_adders",
+    "radius_four_excluded",
+    "three_hole_carrier_common_hole",
+    "triple_multiplicities"
+  ],
+  "initial_sha256": "f5f24d57738763380c715769eef4328d7f1950a8ae6d0eedd8e9ff16dc3fc681",
+  "manifest_sha256": "64d63c5bee05e8ba8c5ca7bbb4f98b3258a6f3d6192297e792a4b62b12835d87",
+  "maximum_holes_in_three_additions": 7,
+  "native_search_calls": 0,
+  "old_core_all_relabel_maximum_overlap": 45,
+  "optimizer_calls": 0,
+  "passed": true,
+  "radius_four_excluded": true,
+  "scope": "Finite radius-four exclusion around this exact initial family and max-multiplicity overlap bounds for each old60 core image. No unrestricted nonexistence claim, no new62-core all-relabel claim, and no claim that the four hole-only blocks repair removed-block holes.",
+  "three_mask_multisets_recounted": 4060
+}
