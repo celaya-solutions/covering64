@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.26.0
+Version:     v1.27.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      e44db19323dcd9b0cafd2e83fd6c29c283bdd44829b5a7e0b7656259feccf278
+SHA256:      0f3250ef64dc120906598a3b0842ae40803059a47772b2884f22843d97fee809
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1000,3 +1000,19 @@ The 300-second soft-pair call from H12 (four workers, seed 2026104901) returned 
 The separate partial-start native campaign completed exactly two sequential 300-second calls, retaining the verified Belic65 complete incumbent separately from the live64 partial. Seed 2026104801 kept its initial H9 after 39,293,091 iterations and ended 64/H18. Seed 2026104802 improved H12 to H10 after 42,912,188 iterations and ended 62/H32. Both live size ranges were 62 through 64, both had exactly four initial age-filter fallbacks, and neither found a cover. The independent postcheck verified all 18 saved/final paths (seven distinct families), zero-mutation starting records, the first 32 moves of each run, family metrics, both cover verifiers, frozen log hashes, and sequential/first-success stopping. These timings overlapped the soft CP run and are not a controlled speed comparison. See `native-variable-partial-start/` and its independent sibling. The new H10 has pair minimum 4 and fails the weaker pair inequalities, so it cannot replace H12 as a feasible hint for the current soft model.
 
 The next preparations target actual holes directly. A soft-model sibling retains every row/domain/core cap, but uses 15361 times the holes plus the deficit sum ; 120 auxiliaries bounded by 128 make 15361 strictly dominate every possible deficit difference. It stops only on an actual dual-verified cover. A separate finite scan will inspect the 275,456 one-block replacements of the improved H12 family and retain neighbors meeting the weaker necessary rules and four named core caps. Its conclusions will apply only to that local neighborhood. These preparations have not yet produced an optimizer result. No verified 64-block cover has been found.
+
+
+## Hole-priority result and complete one-block neighborhood (October 4)
+
+The frozen hole-priority CP call (seed 2026105001, four workers, 300 seconds) returned FEASIBLE after 300.01341 solver seconds. Independent replay checked both callbacks and the final 5,728-value vector against every domain and all 14,405 rows. Both distinct families passed the two parsers and were correctly rejected as covers. All 12 holes stayed unchanged; the actual per-pair and expanded stronger-row deficit sums improved from32 to31. The final objective is184363 with bound0. No actual-zero-deficit partial or full cover appeared. The independent postcheck is `soft-pair-hole-priority-postcheck/postcheck.json`, SHA256 `7d75f7a3e30bd8587727c6b6f90ff8702e15b1e092914866246bf647d699e9be`. Its positive-slack and damaged-vector controls passed.
+
+The separate frozen one-block scan used the earlier H12/D32 family, never the newer D31 family. Its sole native pass completed all275456 distinct replacements in0.521694 seconds;8667 met the pair-floor, single, quadruple and four named core restrictions. None reduced the12 holes. There were22 strictly improving neighbors by the declared lexicographic hole/deficit rank, three successive records, and four final best ties atH12/D29. The producer reconstructed and dual-checked every saved distinct family. The independent runtime audit checked the frozen loop structure, fixed axes, normal exit, terminal count and unique swap ordinals, then directly recounted and dual-verified all six saved distinct families, including all four best ties. It did not repeat the full enumeration or independently recalculate every unrecorded metric. Its receipt is `weak-pair-swap-scan-runtime-independent/postcheck.json`, SHA256 `a491a5ae273d2eab20bff3c3992771ce130d3293236eee62d9c05c6214e1207c`. This finite result is only about one-block replacements from that exact pinned family under the listed necessary rows. It does not exclude any global cover.
+
+A separate exhaustive diagnostic proves a simpler pair-floor test. For removing block B, an incoming block must contain every pair in B whose old count is5, equivalently the union of those pairs' endpoints. All275456 direct recounts agree. Of64 outgoing blocks,55 force all five vertices and hence allow no distinct replacement; two force no vertex. The pair-floor-only legal total is8750, with8608 cases arising from those two removals. Additional row checks reduce that count to8667 in the optimizer scan. The diagnostic's proof and damaged controls are in `pair-floor-replacement-characterization/`.
+
+The next preparation uses this idea for a complete two-block replacement neighborhood of the saved H12/D29 representative. After removing two blocks and adding one, any pair deficit greater than1 rules out the branch; otherwise the second new block must contain the endpoint union of the remaining deficient pairs. The full neighborhood contains18,668,272,896 unordered two-out/two-in replacements. Only a separately checked complete pass can claim local closure; a timeout is inconclusive. Preparation is not an optimizer result. Fresh public-table checks failed: the old host did not resolve, and the current target page returned HTTP403 with an access challenge. Neither refreshes the earlier recorded bound. No verified64-block cover has been found.
+
+
+The H12/D31 family shares62 blocks with the D32 input and preserves the exact same hole set. Its necessary-partition screen is empty, proving every relabeled old-core overlap is at most55. Independent screening also qualifies all four H12/D29 best ties; each has zero necessary partitions, pair minimum5, zero single/quad deficit and named overlaps[1,1,1,2]. All four ties are one replacement apart. Their receipts are in `soft-pair-hole-priority-relabel-novelty/` and `weak-pair-d29-relabel-screen/`. These partials are not complete covers.
+
+Fresh frozen dependency sync checked17 packages. All369 package tests passed in258.70 seconds with the three existing SWIG warnings, and Ruff passed. The test transcript and receipt are in `hole-priority-checkpoint-validation/`; experiments have their own separate controls and runtime audits.

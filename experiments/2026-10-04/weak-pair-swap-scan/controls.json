@@ -1,0 +1,343 @@
+{
+  "damaged_recorder_fixtures_rejected": [
+    "false_completion_reason",
+    "bool_complete",
+    "bool_counter",
+    "negative_counter",
+    "counter_above_total",
+    "negative_time",
+    "premature_timeout",
+    "wrong_ordinal",
+    "wrong_incoming",
+    "duplicate_tie"
+  ],
+  "fixed": {
+    "full_enumeration_launched": false,
+    "invalid_rejected": 4,
+    "known_incoming": 3752,
+    "known_outgoing": 3145,
+    "passed": true,
+    "positive_rank_after": [
+      12,
+      32
+    ],
+    "positive_rank_before": [
+      12,
+      34
+    ]
+  },
+  "fixed_command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-20261004/controls",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/soft-pair-h12-start-run-20261004/final.txt"
+  ],
+  "full_enumeration_calls": 0,
+  "input_checks": [
+    {
+      "canonical_sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        881,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3145,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 34,
+        "D2sum": 34,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package_valid": false,
+      "path": "experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt",
+      "sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+      "standalone_valid": false
+    },
+    {
+      "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        881,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "metrics": {
+        "D2max": 32,
+        "D2sum": 32,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "package_valid": false,
+      "path": "experiments/scratch/soft-pair-h12-start-run-20261004/final.txt",
+      "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+      "standalone_valid": false
+    }
+  ],
+  "passed": true,
+  "sanitizers": [
+    "address",
+    "undefined"
+  ],
+  "synthetic_fixture_is_not_an_executed_prefix": true,
+  "synthetic_recorder_fixture": {
+    "audited_families": [
+      {
+        "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+        "incoming": 3752,
+        "metrics": {
+          "D2max": 32,
+          "D2sum": 32,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "ordinal": 201680,
+        "outgoing": 3145,
+        "package_valid": false,
+        "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+        "standalone_valid": false
+      }
+    ],
+    "best_ties": [
+      {
+        "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+        "incoming": 3752,
+        "metrics": {
+          "D2max": 32,
+          "D2sum": 32,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "ordinal": 201680,
+        "outgoing": 3145,
+        "package_valid": false,
+        "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+        "standalone_valid": false
+      }
+    ],
+    "final": {
+      "best_rank": [
+        12,
+        32
+      ],
+      "best_ties": 1,
+      "complete": false,
+      "evaluated": 201680,
+      "event": "final",
+      "legal": 1,
+      "reason": "interrupted",
+      "seconds": 0.1,
+      "strict_improvement_records": 1,
+      "strictly_improving_neighbors": 1,
+      "total": 275456
+    },
+    "passed": true,
+    "strict_improvements": [
+      {
+        "evaluated": 201680,
+        "event": "improvement",
+        "incoming": 3752,
+        "metrics": {
+          "D2max": 32,
+          "D2sum": 32,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": 3145,
+        "seconds": 0.05,
+        "serial": 1
+      }
+    ]
+  },
+  "zero": {
+    "audited_families": [],
+    "best_ties": [],
+    "final": {
+      "best_rank": [
+        12,
+        32
+      ],
+      "best_ties": 0,
+      "complete": false,
+      "evaluated": 0,
+      "event": "final",
+      "legal": 0,
+      "reason": "control_limit",
+      "seconds": 0.00411421,
+      "strict_improvement_records": 0,
+      "strictly_improving_neighbors": 0,
+      "total": 275456
+    },
+    "passed": true,
+    "strict_improvements": []
+  },
+  "zero_command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-20261004/zero-control",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/soft-pair-h12-start-run-20261004/final.txt",
+    "120",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-20261004/zero-control-output"
+  ]
+}

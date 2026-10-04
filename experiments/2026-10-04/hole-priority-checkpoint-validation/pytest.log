@@ -1,0 +1,72 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.15, pytest-9.1.1, pluggy-1.6.0
+rootdir: /Users/chriscelaya/Documents/covering64-search
+configfile: pyproject.toml
+testpaths: tests
+collected 369 items
+
+tests/test_alternate_link_search.py ..                                   [  0%]
+tests/test_checked_core_cut.py ..                                        [  1%]
+tests/test_classify_link_designs.py ....                                 [  2%]
+tests/test_core.py .........                                             [  4%]
+tests/test_core_certificate.py ........                                  [  6%]
+tests/test_core_escape_lns.py ....                                       [  7%]
+tests/test_core_orbit_certificate.py ..................                  [ 12%]
+tests/test_core_triangle_obstruction.py ...........                      [ 15%]
+tests/test_degree_split_search.py ...                                    [ 16%]
+tests/test_double_hub_links.py ...                                       [ 17%]
+tests/test_dual_kernel_search.py ..                                      [ 17%]
+tests/test_essential_candidate_checker.py ........                       [ 20%]
+tests/test_essential_cycle_controls.py ..                                [ 20%]
+tests/test_essential_native_search.py .                                  [ 20%]
+tests/test_essential_regular_search.py ...                               [ 21%]
+tests/test_exact.py .....................                                [ 27%]
+tests/test_fixed_link_search.py .....                                    [ 28%]
+tests/test_four_seven_blossom_cuts.py .......                            [ 30%]
+tests/test_four_seven_double_cuts.py ......                              [ 32%]
+tests/test_four_seven_facet_cuts.py ...........                          [ 35%]
+tests/test_four_seven_feature_cuts.py .......                            [ 37%]
+tests/test_four_seven_hub_split.py ...                                   [ 37%]
+tests/test_four_seven_link_lp.py ..........                              [ 40%]
+tests/test_four_seven_link_orbits.py ...                                 [ 41%]
+tests/test_four_seven_search.py .........                                [ 43%]
+tests/test_heavy_profile_heuristic.py ......                             [ 45%]
+tests/test_heavy_profile_neighborhood.py ...                             [ 46%]
+tests/test_independent.py .......                                        [ 48%]
+tests/test_independent_clebsch.py ...................................... [ 58%]
+..........                                                               [ 61%]
+tests/test_independent_link_hubs.py ...................                  [ 66%]
+tests/test_independent_link_isomorphism.py ...........                   [ 69%]
+tests/test_independent_pair_partition.py .......                         [ 71%]
+tests/test_independent_weighted_trees.py ...........                     [ 74%]
+tests/test_link_search.py ..                                             [ 74%]
+tests/test_ljcr_fetch.py ....                                            [ 75%]
+tests/test_lns_search.py ...........                                     [ 78%]
+tests/test_local_family_cuts.py ...                                      [ 79%]
+tests/test_mip_split_search.py ..                                        [ 80%]
+tests/test_native_sat_search.py ......                                   [ 81%]
+tests/test_orbit_search.py ...                                           [ 82%]
+tests/test_quotient_double_hubs.py ..                                    [ 83%]
+tests/test_r4_link_search.py ..                                          [ 83%]
+tests/test_reduced_family_heuristic.py ............                      [ 86%]
+tests/test_regular_group_search.py ..........                            [ 89%]
+tests/test_regular_link_pool_search.py ...                               [ 90%]
+tests/test_screen_double_hubs.py ...                                     [ 91%]
+tests/test_search.py ............                                        [ 94%]
+tests/test_search_double_hubs.py .....                                   [ 95%]
+tests/test_selected_heavy_hub_cuts.py ....                               [ 97%]
+tests/test_single19_search.py ........                                   [ 99%]
+tests/test_three_link_search.py ...                                      [100%]
+
+=============================== warnings summary ===============================
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute
+
+<frozen importlib._bootstrap>:488
+  <frozen importlib._bootstrap>:488: DeprecationWarning: builtin type swigvarlink has no __module__ attribute
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================= 369 passed, 3 warnings in 258.70s (0:04:18) ==================

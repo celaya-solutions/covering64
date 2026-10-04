@@ -1,0 +1,106 @@
+{
+  "blocks": 64,
+  "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+  "canonical_sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+  "cardinality_matches": true,
+  "coverage_multiplicities": {
+    "0": 12,
+    "1": 459,
+    "2": 86,
+    "3": 3
+  },
+  "covered_subsets": 548,
+  "covers_all_subsets": false,
+  "expected_blocks": 64,
+  "expected_subset_incidences": 640,
+  "parameters": {
+    "k": 5,
+    "t": 3,
+    "v": 16
+  },
+  "point_replication": {
+    "1": 20,
+    "2": 20,
+    "3": 19,
+    "4": 19,
+    "5": 20,
+    "6": 21,
+    "7": 21,
+    "8": 20,
+    "9": 21,
+    "10": 19,
+    "11": 19,
+    "12": 21,
+    "13": 19,
+    "14": 20,
+    "15": 21,
+    "16": 20
+  },
+  "required_subsets": 560,
+  "source_sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+  "total_subset_incidences": 640,
+  "uncovered": [
+    [
+      1,
+      4,
+      14
+    ],
+    [
+      1,
+      6,
+      11
+    ],
+    [
+      1,
+      9,
+      13
+    ],
+    [
+      2,
+      3,
+      15
+    ],
+    [
+      2,
+      9,
+      14
+    ],
+    [
+      3,
+      4,
+      12
+    ],
+    [
+      3,
+      11,
+      13
+    ],
+    [
+      5,
+      6,
+      12
+    ],
+    [
+      5,
+      8,
+      11
+    ],
+    [
+      9,
+      10,
+      11
+    ],
+    [
+      10,
+      12,
+      14
+    ],
+    [
+      11,
+      14,
+      16
+    ]
+  ],
+  "uncovered_count": 12,
+  "valid": false
+}

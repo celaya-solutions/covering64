@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit 99c0dc4 saves the checked add/drop pilot and its H12 partial. No 64-block cover. H12 escapes every old-core relabeling and meets weaker pair rules, and its stronger deficit improved34 to32 with the same12 holes; H9 has fewer holes but violates pair floors. The soft and hard top-two pilots found no improvement or feasible hard hint. See the continued research report for complete evidence and conditional exclusions.
-The longer native starts retained H9 and improved H12 to H10; H10 fails pair floors. Next: a hole-priority soft model and finite one-block scan from the pair-qualified H12. Core caps classify exact64 records only, never other live sizes. Preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. Historical transport v1 retains one local E501 exception; active v2 is formatted. Regression remains369 passing tests with Ruff clean.
+Commit 988d4a7 saves longer native starts and the soft H12 improvement. New independently checked work: hole-priority CP retained12 holes with deficit31; a complete275456 one-swap scan from H12/D32 reachedH12/D29 with four best ties and no hole improvement. H9/H10 fail pair floors; H12 qualifies under weaker pair rules but remains incomplete. No64 cover. See the continued research report for scope and receipts.
+Next: a separately gated complete two-swap scan from the D29 representative. Core caps classify exact64 records only. Preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. Historical transport v1 keeps one local E501 exception. Convert OR-Tools repeated containers to lists before negative-index reads; native domain[-1] may return0 even for[0,128].
 
 ## Independent construction checkpoint 2026-10-03
 

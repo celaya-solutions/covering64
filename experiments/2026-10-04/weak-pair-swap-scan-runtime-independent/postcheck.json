@@ -1,0 +1,2338 @@
+{
+  "all_saved_families": [
+    {
+      "incoming": 421,
+      "metrics": {
+        "D2max": 31,
+        "D2sum": 31,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52064,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 30,
+          "7": 5
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 19,
+          "12": 22,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-421.txt",
+      "sha256": "f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "f9c181ea85805b143e012af970b106a2852c98e15bdec13e888f6b735e0a057b",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 19,
+          "12": 22,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 601,
+      "metrics": {
+        "D2max": 30,
+        "D2sum": 30,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52242,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 30,
+          "7": 5
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 22,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-601.txt",
+      "sha256": "7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "7b85feee660e7b8fd8924733b720d2d387f6046f9a8d91da44903246c0ea3475",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 22,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1142,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52775,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1142.txt",
+      "sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1143,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52776,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1143.txt",
+      "sha256": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1154,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52787,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 19,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1154.txt",
+      "sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 19,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1359,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52988,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1359.txt",
+      "sha256": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    }
+  ],
+  "baseline_rank": [
+    12,
+    32
+  ],
+  "best_ties": [
+    {
+      "incoming": 1142,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52775,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1142.txt",
+      "sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1143,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52776,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1143.txt",
+      "sha256": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1154,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52787,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 19,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1154.txt",
+      "sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 21,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 19,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    },
+    {
+      "incoming": 1359,
+      "metrics": {
+        "D2max": 29,
+        "D2sum": 29,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "ordinal": 52988,
+      "outgoing": 881,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+        "covered": 548,
+        "k": 5,
+        "multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "pair_multiplicities": {
+          "5": 84,
+          "6": 32,
+          "7": 4
+        },
+        "replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/swap-881-1359.txt",
+      "sha256": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 12,
+          "1": 459,
+          "2": 86,
+          "3": 3
+        },
+        "covered_subsets": 548,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "2": 20,
+          "3": 19,
+          "4": 19,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 21,
+          "10": 19,
+          "11": 20,
+          "12": 21,
+          "13": 19,
+          "14": 20,
+          "15": 21,
+          "16": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            4,
+            14
+          ],
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            9,
+            13
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            6,
+            14,
+            15
+          ],
+          [
+            9,
+            10,
+            11
+          ],
+          [
+            10,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 12,
+        "valid": false
+      }
+    }
+  ],
+  "budget": {
+    "budget_reallocation": false,
+    "enumerate_complete_ties": true,
+    "passes": 1,
+    "relaunch": false,
+    "seconds": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "checked_family_count": 6,
+  "complete_neighborhood": true,
+  "elapsed_seconds": 0.8760813340777531,
+  "enumeration_evidence": "Frozen audited nested loops, fixed64/4304 axes, terminal count, normal exit, and unique swap ordinals.",
+  "final": {
+    "best_rank": [
+      12,
+      29
+    ],
+    "best_ties": 4,
+    "complete": true,
+    "evaluated": 275456,
+    "event": "final",
+    "legal": 8667,
+    "reason": "complete",
+    "seconds": 0.521694,
+    "strict_improvement_records": 3,
+    "strictly_improving_neighbors": 22,
+    "total": 275456
+  },
+  "full_enumeration_relaunches": 0,
+  "limitation": "Unrecorded trial metrics are not individually recomputed; no second enumeration was run. The result applies only to the pinned one-swap neighborhood and legal filters.",
+  "manifest_sha256": "71c0586872f86f4b367cf410beb6718707266bc55463f84aaf095513ac601764",
+  "passed": true,
+  "pre_run_gate_sha256": "3f6247263cb75a0258357e2e356158388fad434e8b89bb6c9210f9871adc889c",
+  "producer_result_sha256": "183e01fc06bfffefb869b932439398e1bacc1075b33e9d8e07d7dec7aaf654ad",
+  "solver_launches": 0,
+  "source_sha256": "38312a0d46ae22f01ebf2f4e66c3538853e450224db8409a3433d7eeec4e1608"
+}

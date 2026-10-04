@@ -1,0 +1,84 @@
+{
+  "best_representative_path": "experiments/2026-10-04/weak-pair-swap-scan/best-representative.txt",
+  "best_representative_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+  "budget": {
+    "budget_reallocation": false,
+    "enumerate_complete_ties": true,
+    "passes": 1,
+    "relaunch": false,
+    "seconds": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "candidate_audit_path": "experiments/scratch/weak-pair-swap-scan-20261004/candidate-audit.json",
+  "candidate_audit_sha256": "a135bef956c6bef61b33894f46441e3d6bc6a3486496a156b2830a6f2865e1ef",
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-20261004/scan",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/soft-pair-h12-start-run-20261004/final.txt",
+    "120",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-20261004/scan"
+  ],
+  "complete_best_tie_hashes": [
+    "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "bb531f3efbbc9142af38de6360add63f90f319da05e727b130c1917c64123f35",
+    "6761d808f4484b5ac7d50d841e2cf743ed5d94f34485b0b5c585e3fb488d5eb7",
+    "1ce67c49ba812463d5f964754775816f0ebd323d06a43fb6adf4789ae07d2da2"
+  ],
+  "cover_found": false,
+  "elapsed_seconds": 0.8760813340777531,
+  "final": {
+    "best_rank": [
+      12,
+      29
+    ],
+    "best_ties": 4,
+    "complete": true,
+    "evaluated": 275456,
+    "event": "final",
+    "legal": 8667,
+    "reason": "complete",
+    "seconds": 0.521694,
+    "strict_improvement_records": 3,
+    "strictly_improving_neighbors": 22,
+    "total": 275456
+  },
+  "gate_sha256": "3f6247263cb75a0258357e2e356158388fad434e8b89bb6c9210f9871adc889c",
+  "manifest_sha256": "71c0586872f86f4b367cf410beb6718707266bc55463f84aaf095513ac601764",
+  "passes": 1,
+  "raw_files": {
+    "experiments/scratch/weak-pair-swap-scan-20261004/build-controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/build-controls.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/build-scan.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/build-scan.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/build-zero-control.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/build-zero-control.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/candidate-audit.json": "a135bef956c6bef61b33894f46441e3d6bc6a3486496a156b2830a6f2865e1ef",
+    "experiments/scratch/weak-pair-swap-scan-20261004/controls": "b30befa2909eab6c50fefbecec4cd0848c437d3f5a5e00d592c0b0c61df9d5a2",
+    "experiments/scratch/weak-pair-swap-scan-20261004/controls.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/controls.stdout.json": "c91e2b08ffc6b3407f70ba4112262ec0cdcfd3ff858943310b53fb3bda8331a4",
+    "experiments/scratch/weak-pair-swap-scan-20261004/representative-standalone.json": "cc79b42bc128db1cd94d652d1055889029f4d3aa13cef18e8ff8263d3dd8863f",
+    "experiments/scratch/weak-pair-swap-scan-20261004/scan": "088652a71a4ddeafb98d0f0fd22e4d074d34fb77384b54d05b9e7e20dcc4173d",
+    "experiments/scratch/weak-pair-swap-scan-20261004/scan-ties.json": "c51562b1a895acb8dc4d0f41e1e680ed783be5da0ebd7df9e9061ecc09889200",
+    "experiments/scratch/weak-pair-swap-scan-20261004/start.json": "6c4787a3fd9a4bf3d6f1ba0d2a86613dc302ed9194af4cf56ef3fe4dc8040549",
+    "experiments/scratch/weak-pair-swap-scan-20261004/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/stdout.jsonl": "162db77f5fca6d0ecba50656ebfdf8d6f4d9d21658d9847e958be5dbe05d3954",
+    "experiments/scratch/weak-pair-swap-scan-20261004/synthetic-recorder-ties.json": "aa552c269004f322cde8b3e4008d8fcdcfd8990c2513f0072c6c0933672e21bc",
+    "experiments/scratch/weak-pair-swap-scan-20261004/synthetic-recorder.stdout.jsonl": "61fbc629107020241c387d7d5b9d6e6b9b2334190db59442fc162c9b9ac650a3",
+    "experiments/scratch/weak-pair-swap-scan-20261004/zero-control": "7a3cdd5afd24f18232013cf99d7a476c477e4acaf200d0ce9ae6452d2328b220",
+    "experiments/scratch/weak-pair-swap-scan-20261004/zero-control-output-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "experiments/scratch/weak-pair-swap-scan-20261004/zero.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-20261004/zero.stdout.jsonl": "4327ab7024e4e7d686882b045d6051dc637406d2dfebf2a7046b6217ed317a84"
+  },
+  "representative_standalone_cli_passed": true,
+  "returncode": 0,
+  "scope": "Only the pinned family's one-block-swap neighborhood under named necessary rows.",
+  "seed": null,
+  "validation_passed": true,
+  "watchdog": {
+    "fired": false,
+    "kill_sent": false,
+    "relaunch": false,
+    "terminate_sent": false
+  }
+}

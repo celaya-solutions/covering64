@@ -1,0 +1,774 @@
+{
+  "artifact_bindings": [
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/control.cpp",
+      "sha256": "38613f5c3a7b317b35c6c5e441954dc1300916bec66cd223c320f9be0999c7ec"
+    },
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/cores.hpp",
+      "sha256": "054c89d9fed5fdc8e3b511c6452ae3fb14df4b40e64c993772401a264f30e92d"
+    },
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/kernel.hpp",
+      "sha256": "d374d813225b03d8ac9085255f9c0548e14a31a611bdc7ec5abeb0cce2040fd3"
+    },
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/prepare.py",
+      "sha256": "73eb8b9c299448c93989ef66d298de2a2a4c23af61000b5ab745566e4942c66d"
+    },
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/run.py",
+      "sha256": "328e6e17dd368c723957b00998884a283bfa47722b1c4cd7de9761de85ae40f3"
+    },
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/scan.hpp",
+      "sha256": "65d59df903e5da7a646a3764f469905ec6705e958d680d9c98eb17445734d560"
+    },
+    {
+      "group": "source_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/search.cpp",
+      "sha256": "42cb1fde0ca27cf625854f393ce3e2bcd7e08141aea2fae6c0d4a7a8becd89f5"
+    },
+    {
+      "group": "input_files",
+      "path": "experiments/2026-10-04/native-variable-cardinality/manifest.json",
+      "sha256": "f79075467ba41b46e53491c032044a23fe9766c680309055c1ff5d0697ec354b"
+    },
+    {
+      "group": "input_files",
+      "path": "experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt",
+      "sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00"
+    },
+    {
+      "group": "input_files",
+      "path": "experiments/2026-10-04/soft-pair-h12-postcheck/postcheck.json",
+      "sha256": "a27cd62205199d45621417e45f1320fbe6dbea077b00149ef0b5017b7231b16a"
+    },
+    {
+      "group": "input_files",
+      "path": "experiments/2026-10-04/soft-pair-h12-start/result.json",
+      "sha256": "b2af7c783fb889ee76cb2be10c9e3bb39c951b8a1884646333a20075f2f65132"
+    },
+    {
+      "group": "input_files",
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/controls.json",
+      "sha256": "dfb9230591ab1a6c3e38614e91adac87ea0ae52395633525cc900ba8a050eaad"
+    },
+    {
+      "group": "input_files",
+      "path": "experiments/scratch/soft-pair-h12-start-run-20261004/final.txt",
+      "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970"
+    },
+    {
+      "group": "input_files",
+      "path": "scripts/check_cover.py",
+      "sha256": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950"
+    },
+    {
+      "group": "input_files",
+      "path": "src/covering64/core.py",
+      "sha256": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb"
+    },
+    {
+      "group": "input_files",
+      "path": "uv.lock",
+      "sha256": "7c16c4cf38ece8bf42885d1bab9698ced20c0411036f43b2f21f1e8cb2c5e180"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/build-controls.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/build-controls.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/build-scan.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/build-scan.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/build-zero-control.stderr",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/build-zero-control.stdout",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/controls",
+      "sha256": "b30befa2909eab6c50fefbecec4cd0848c437d3f5a5e00d592c0b0c61df9d5a2"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/controls.dSYM/Contents/Info.plist",
+      "sha256": "fdf46d273b7bd30b766b1971d139ce97f2303c938abf5fd1cc309504f6ee98df"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/controls.dSYM/Contents/Resources/DWARF/controls",
+      "sha256": "da08caeffb8c10a9e307880699ad8025a5b573d324c63118b0cc31c4a8d8a61a"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/controls.dSYM/Contents/Resources/Relocations/aarch64/controls.yml",
+      "sha256": "ef679a73ed2cba202b5e81a5bd75151c4344429f4c6b09875972438492b9c3ab"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/controls.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/controls.stdout.json",
+      "sha256": "c91e2b08ffc6b3407f70ba4112262ec0cdcfd3ff858943310b53fb3bda8331a4"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/scan",
+      "sha256": "088652a71a4ddeafb98d0f0fd22e4d074d34fb77384b54d05b9e7e20dcc4173d"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/synthetic-recorder-ties.json",
+      "sha256": "aa552c269004f322cde8b3e4008d8fcdcfd8990c2513f0072c6c0933672e21bc"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/synthetic-recorder.stdout.jsonl",
+      "sha256": "61fbc629107020241c387d7d5b9d6e6b9b2334190db59442fc162c9b9ac650a3"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero-control",
+      "sha256": "7a3cdd5afd24f18232013cf99d7a476c477e4acaf200d0ce9ae6452d2328b220"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero-control-output-ties.json",
+      "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero-control.dSYM/Contents/Info.plist",
+      "sha256": "fc23332ba5d0021077ef4b714e7efa7458ae7a501780fe7b99d03e0e1695727f"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero-control.dSYM/Contents/Resources/DWARF/zero-control",
+      "sha256": "efc79b67f1951d7762bbdeb337e0d252957f04398756af079369cc9dac7f6dcc"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero-control.dSYM/Contents/Resources/Relocations/aarch64/zero-control.yml",
+      "sha256": "3834ba263f6e75661c17f482b91edc5ba0ff27db104e76146106e1aa128005ee"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "group": "raw_files",
+      "path": "experiments/scratch/weak-pair-swap-scan-20261004/zero.stdout.jsonl",
+      "sha256": "4327ab7024e4e7d686882b045d6051dc637406d2dfebf2a7046b6217ed317a84"
+    }
+  ],
+  "budget": {
+    "budget_reallocation": false,
+    "enumerate_complete_ties": true,
+    "passes": 1,
+    "relaunch": false,
+    "seconds": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "build": {
+    "binary_sha256": "eaf6c42f0259093012911d3f1c861f75f050dd1312e9bb7f59b29130644bd197",
+    "command": [
+      "/usr/bin/clang++",
+      "-std=c++20",
+      "-O1",
+      "-g",
+      "-fsanitize=address,undefined",
+      "-fno-omit-frame-pointer",
+      "-Wall",
+      "-Wextra",
+      "-pedantic",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/weak-pair-swap-scan-independent/control.cpp",
+      "-o",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-independent-20261004/control-final"
+    ],
+    "compiler_sha256": "1c78dc864acfc0261dc1e27fe97fa5b224351e93bc89000e68b0f98924082057",
+    "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+    "returncode": 0
+  },
+  "control_comparison": {
+    "invalid_operations_rejected": 24,
+    "pair_row_groups": 120,
+    "passed": true,
+    "predicate_rejections": 10,
+    "rank_controls": 4,
+    "subset_counters_compared": 125000,
+    "trials": 50,
+    "universe_columns": 4368
+  },
+  "control_runs": [
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-independent-20261004/control-final",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-cases.txt"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-independent-20261004/control-final",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/soft-pair-h12-start-run-20261004/final.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-cases.txt"
+      ],
+      "returncode": 0
+    }
+  ],
+  "damaged_input_controls": [
+    {
+      "name": "duplicate",
+      "returncode": 3,
+      "source_sha256": "aeb24c3302f77102677b986c4aec860c6a2a701772c05b2743320ee508327640",
+      "stderr": "duplicate block"
+    },
+    {
+      "name": "truncated_family",
+      "returncode": 3,
+      "source_sha256": "8d1c1a282bf640bb0125772e8b2eb44815c6968aab9802b49793345b2da362c4",
+      "stderr": "initial family violates scan restrictions"
+    },
+    {
+      "name": "wrong_label",
+      "returncode": 3,
+      "source_sha256": "4e07d946b826a4bd16304db0c7b3cf30c827244729fd8ab2596fc946ec9d4f34",
+      "stderr": "malformed label"
+    },
+    {
+      "name": "wrong_block_size",
+      "returncode": 3,
+      "source_sha256": "e1aeb7449c3d96c8b8a955fb674f1e20728829f7876a8c487ee5a82da415e69e",
+      "stderr": "malformed block"
+    },
+    {
+      "name": "repeated_point",
+      "returncode": 3,
+      "source_sha256": "1d9b8685a41bc6a5a379737bef2d05ac9417509be22523c047ffa71751eb216e",
+      "stderr": "malformed label"
+    }
+  ],
+  "decision": "GO",
+  "direct_count_delta_checks": 125000,
+  "independent_sources": {
+    "DEPENDENCY.md": "89d361f79fedebb782cefc5cd3e49529becfa1bce923888af3532d23144e55e8",
+    "cases.json": "7be234323d0cfe88a99652c972ecc59089f9bea3d518a3fa8ad2bb6495e6adbf",
+    "check.py": "fcf36539c1d6e9fdf59750d3ee576bb713ff4e0c562ad363bd4b1f9e54e12a77",
+    "compare.py": "85bb323f139c70383c864b69949165c7bb689cbf9438027364e1cfdf565035eb",
+    "control.cpp": "aeb0a3ebad9fc1f6d4872d6a8059128cbb40d9e49bd03164d3ef091fa3736407",
+    "oracle.py": "7fc14c0e2078894a03cc8945c94cb8f9987e79f4780d49558d311e83f0d0ba92",
+    "oracle_controls.py": "a1fd3922e015d1627a691f4701f77ebf2704699ed16a8aaaffc03d86717558d9"
+  },
+  "launch_authority": "root only",
+  "manifest_sha256": "71c0586872f86f4b367cf410beb6718707266bc55463f84aaf095513ac601764",
+  "optimizer_launches": 0,
+  "passed": true,
+  "proof_separate_review": "exact-search agent: dependency and unique-neighbor proofs sound",
+  "proof_sha256": "89d361f79fedebb782cefc5cd3e49529becfa1bce923888af3532d23144e55e8",
+  "raw_files": {
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/build-final.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/build-final.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control": "c33b1cfb1b10b42ae2f4f946c0206861f17371fc3124a3a2e2d26ab6bf66b311",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-00.txt": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-01.txt": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-02.txt": "2c3e5c6c6d3241ae0a58632a0cafcf203f6ab2d85d92d67ead54aa528c4a19be",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-03.txt": "b70ca02f906ae061eca19e1c7b144a9c4c4410f92c4cc810d5f66ed4e704360e",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-04.txt": "6a7beeeed6dc1ad7d5ab8971ed6316386b5ab2bb6d1f63ef7b0c0c62df4471c5",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-05.txt": "9eb2420cc3f45752f4ffa8a2631372ac5d8cce73a39ea85f30f2fa79c6fa1a36",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-06.txt": "ca8e6bf4229cfdb55db3d8a421554bee31cc0964111f67fea8909a79dfc91b4d",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-07.txt": "bcb009db1cfda9c47fffeaa90cbd725cd706d4e5db23f974c1b629662474b5e6",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-08.txt": "518c7c0de5efc52559d889351eec6d6d8ea641a5525266f2db7379c568018e25",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-09.txt": "47797f75295de17288cd53af8bac9f15d24be5a80855107485933109fbad2b87",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-10.txt": "de6b6bb97eed92c53283e47ee1cb33ab7e8976315d38ebdbca0511f1899b2a01",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-11.txt": "8c00721dbc2974142de24d23c4db4360bd52349ab95f7b8cdf7a87c7f508a415",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-12.txt": "63ecffbb2533678fcc1ac9e4de867bc64a4f21035ec4d9dd6c4df31eecd436bd",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-13.txt": "0f1270125f51aa47482aa191ca0691af01f2a63c6fe9ce7c0f0bf1eb33db4e6b",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-14.txt": "642f6a2186a4667fe9f969ee48d5a4969cdb234b5e5c8b3af959b66c792c09d5",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-15.txt": "8d21a7ad0f594d2596c93b498e4f3e64f74144e724b70aac6a923ca59cebd5a9",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-16.txt": "9086ed713eee824b59302e3d1d01edac5ddbbb1c557be4d93615b0999ccec0dd",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-17.txt": "64b0f10ad8ed9e1ead97f94b7f2cdd579949219b4ecd0086c75c25e17014477f",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-18.txt": "e2746fefd1273007c278d40137c85ffc5739c2c2addac24aa67945477b4bae2f",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-19.txt": "2a8555716f3835419380db90033862736cd82b00d2abc5ed16e68e27ee02862b",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-20.txt": "9ad0a1d6f3b98a456f059556a10403ee3384dd898926d048e8dadce98864f58b",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-21.txt": "dfc44b4d5b0d047db2217e7cde91418d4e74cd1d2e8aa785068893243e98e9f4",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-22.txt": "e02e6dd97d982427fb8c96f3eef1ba732127507f3bb22bffb30f04b3e93ed723",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-23.txt": "ed2b3be1a65fa47bfc87302e384c3a2667e8421190290f49294801af6cf4597c",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-24.txt": "a5156a300829dc268ac999e6f9db4e659d75488e458e3c76f9a78e66ce17ce09",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-25.txt": "4b05d60c8629f239ed89b3b3b09d12c0f84598450e59865e2fb828dc33c210a3",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-26.txt": "68e2c880eb3b3b5be47577cbf57c366bc15bc6766967454675ce36e70c0ce55a",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-27.txt": "83bfaf367ec18a18e874e508f78374d22ce2b97e031be15ea7e05b63496d009c",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-28.txt": "f2e26a3e397ff3a1383142d03881319f981493007082f5df26c35c364336bcc1",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-29.txt": "b09dfcdd1ff8aa531e961cbf8195d700007ee8ecbfb19bb7922398da6c4ed0b9",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-30.txt": "846dae29903a1952b5e832282e45a249e9daa9cff335c44d606c3ec1f2414b5e",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-31.txt": "fd780f6e023c5114fa3add76bfaca70ce24061f28f74fbd2bbc9842100a4e424",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-32.txt": "21697349043440f515fe964039ba7207c098c1df966bc5bcf4804f86cb0a3cbb",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-33.txt": "088cff02abad3fb952ccaccc11ad92be56780621ebdd9acbd5fe159fb3e40467",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-34.txt": "0fbab6d35d870bd2bf14fcedb6aa4df3a7673ea4da9c7dbea18424cdae1ca50c",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-35.txt": "d5f838b88c2abffbb492e3e76bca3890e5434c6669795a1b04794dd87f91cd48",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-36.txt": "a9ce9be8509cc6f25eeae10a0528f98c3886a1afae3c76ea159e3eea2fe91d1e",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-37.txt": "07b3418b116fe5ff859f4a71261185ba699248d7b468415dbf310f496de97da0",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-38.txt": "32d600eb7a764f9036a0b8c45e1d85a807156400bdef872fddc00205db787a55",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-39.txt": "8827df48f508360a9df8630aba527002557cf1a44d37cd517d06286e23bf8696",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-40.txt": "bc0d1b66e8588329a2360e881c1e6dffdbf5cf6051cf03f4fb5750268cc0ca62",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-41.txt": "d874be1e8020757c3ccf292e97bd1734823a3c9e31197c984c88384ec40a446a",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-42.txt": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-43.txt": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-44.txt": "7cb86f0fd58a864dc872105e1fea89cf2c3de507b4df5ecacccea5f98fc60e4d",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-45.txt": "df6fb4c5313183abfc6a0e7c92d326ed64a75aaf1072870e5ab296bf05ad37d7",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-46.txt": "7a44b5c7b271bc8904195dbdacbdf403ef6be9db747d39738558f63758209876",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-47.txt": "510dbf942a85718dbfd1db8d2e435bbf6896967d5aa172aca8bd46db45c600a7",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-48.txt": "73dd80edb78cfb8a299a3d0761f729a0a54e80a65983afc542bda73d17bfb40d",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-49.txt": "f5d90d25cd83659501ea56e0c8dc1a6b0d0042cb2607aad05f61f0d4c3086376",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-50.txt": "ccf944b140729ce6a207deac7af85448f04ad42796c61af4c8b3ef74b88bfa8b",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-51.txt": "7fb46aafc207b86d7d6c57ca252ec0586446a0425bc8d2e5ca7c716b9c691dd4",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-final": "eaf6c42f0259093012911d3f1c861f75f050dd1312e9bb7f59b29130644bd197",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-v1": "00359d0e95869e40585d75c9196bdacc9592bd6a57518206768d086572fc9fce",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-cases.txt": "684b314ee65daa330181dab61f29def7f854a5371751dfa5681317ab4bdc8588",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-draft-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-draft-v1.stdout.jsonl": "819f29d0e942916b63cf960ed5744cf3528061fd6701b0f4cb6f5cb690b43d21",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-draft.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-draft.stdout.jsonl": "54084e8580eb64b86b0cd86ffc09143d33c0f05e10f93058d2ac78c2df22cc35",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-final.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/cp_final-final.stdout.jsonl": "819f29d0e942916b63cf960ed5744cf3528061fd6701b0f4cb6f5cb690b43d21",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/draft-control-runs.json": "c64538f0a8c3f63b46356e5345438e40731aa66cfca0073e087a5072672fbfc5",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/empty-cases.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-cases.txt": "c78bb02d2c9a97ad10d44e950d3f2568185657862ed1dd8fca6958ba75a39e9f",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-draft-v1.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-draft-v1.stdout.jsonl": "b2fb2af468238ef9167e686e6238dab65790e6c0fdbcfc5d2afbf510b4bbd20a",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-draft.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-draft.stdout.jsonl": "ac5d59601731cc5a3317dd80c4d29e55da764488e6976ab05c64569d8caaa55f",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-final.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/old_h12-final.stdout.jsonl": "b2fb2af468238ef9167e686e6238dab65790e6c0fdbcfc5d2afbf510b4bbd20a",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/oracle-snapshots.json": "514393dbcf2f2a3ea92d55b82b4a65a27840cf28e2d3c5d2f43451ba6c38f352",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/reject-duplicate.txt": "aeb24c3302f77102677b986c4aec860c6a2a701772c05b2743320ee508327640",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/reject-repeated_point.txt": "1d9b8685a41bc6a5a379737bef2d05ac9417509be22523c047ffa71751eb216e",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/reject-truncated_family.txt": "8d1c1a282bf640bb0125772e8b2eb44815c6968aab9802b49793345b2da362c4",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/reject-wrong_block_size.txt": "e1aeb7449c3d96c8b8a955fb674f1e20728829f7876a8c487ee5a82da415e69e",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/reject-wrong_label.txt": "4e07d946b826a4bd16304db0c7b3cf30c827244729fd8ab2596fc946ec9d4f34",
+    "experiments/scratch/weak-pair-swap-scan-independent-20261004/synthetic-recorder-control-ties.json": "ba48fa7f740f8b8489e40fc4d7758c552815d09232f6506c5a5a49cb361563aa"
+  },
+  "recorder_controls": {
+    "damaged_controls_rejected": [
+      "incomplete_marked_complete",
+      "early_timeout",
+      "numeric_complete",
+      "floating_counter",
+      "negative_seconds",
+      "wrong_ordinal",
+      "wrong_metrics",
+      "duplicate_tie",
+      "invalid_outgoing"
+    ],
+    "positive_known_swap": [
+      3145,
+      3752
+    ],
+    "scope": "Synthetic log fixtures with real recounted witness; no prefix executed.",
+    "true_ordinal": 201680,
+    "verified_tie_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970"
+  },
+  "reused_cores_sha256": "054c89d9fed5fdc8e3b511c6452ae3fb14df4b40e64c993772401a264f30e92d",
+  "reused_kernel_sha256": "d374d813225b03d8ac9085255f9c0548e14a31a611bdc7ec5abeb0cce2040fd3",
+  "saving": "Strict rank improvements plus every final best tie strictly below baseline.",
+  "scope": "One fixed-base64-by4304 neighborhood; no global theorem; timeout is incomplete.",
+  "source_sha256": "fcf36539c1d6e9fdf59750d3ee576bb713ff4e0c562ad363bd4b1f9e54e12a77",
+  "verified_control_families": [
+    {
+      "holes": 12,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-00.txt",
+      "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+      "standalone_valid": false
+    },
+    {
+      "holes": 12,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-01.txt",
+      "sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-02.txt",
+      "sha256": "2c3e5c6c6d3241ae0a58632a0cafcf203f6ab2d85d92d67ead54aa528c4a19be",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-03.txt",
+      "sha256": "b70ca02f906ae061eca19e1c7b144a9c4c4410f92c4cc810d5f66ed4e704360e",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-04.txt",
+      "sha256": "6a7beeeed6dc1ad7d5ab8971ed6316386b5ab2bb6d1f63ef7b0c0c62df4471c5",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-05.txt",
+      "sha256": "9eb2420cc3f45752f4ffa8a2631372ac5d8cce73a39ea85f30f2fa79c6fa1a36",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-06.txt",
+      "sha256": "ca8e6bf4229cfdb55db3d8a421554bee31cc0964111f67fea8909a79dfc91b4d",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-07.txt",
+      "sha256": "bcb009db1cfda9c47fffeaa90cbd725cd706d4e5db23f974c1b629662474b5e6",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-08.txt",
+      "sha256": "518c7c0de5efc52559d889351eec6d6d8ea641a5525266f2db7379c568018e25",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-09.txt",
+      "sha256": "47797f75295de17288cd53af8bac9f15d24be5a80855107485933109fbad2b87",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-10.txt",
+      "sha256": "de6b6bb97eed92c53283e47ee1cb33ab7e8976315d38ebdbca0511f1899b2a01",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-11.txt",
+      "sha256": "8c00721dbc2974142de24d23c4db4360bd52349ab95f7b8cdf7a87c7f508a415",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-12.txt",
+      "sha256": "63ecffbb2533678fcc1ac9e4de867bc64a4f21035ec4d9dd6c4df31eecd436bd",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-13.txt",
+      "sha256": "0f1270125f51aa47482aa191ca0691af01f2a63c6fe9ce7c0f0bf1eb33db4e6b",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-14.txt",
+      "sha256": "642f6a2186a4667fe9f969ee48d5a4969cdb234b5e5c8b3af959b66c792c09d5",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-15.txt",
+      "sha256": "8d21a7ad0f594d2596c93b498e4f3e64f74144e724b70aac6a923ca59cebd5a9",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-16.txt",
+      "sha256": "9086ed713eee824b59302e3d1d01edac5ddbbb1c557be4d93615b0999ccec0dd",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-17.txt",
+      "sha256": "64b0f10ad8ed9e1ead97f94b7f2cdd579949219b4ecd0086c75c25e17014477f",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-18.txt",
+      "sha256": "e2746fefd1273007c278d40137c85ffc5739c2c2addac24aa67945477b4bae2f",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-19.txt",
+      "sha256": "2a8555716f3835419380db90033862736cd82b00d2abc5ed16e68e27ee02862b",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-20.txt",
+      "sha256": "9ad0a1d6f3b98a456f059556a10403ee3384dd898926d048e8dadce98864f58b",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-21.txt",
+      "sha256": "dfc44b4d5b0d047db2217e7cde91418d4e74cd1d2e8aa785068893243e98e9f4",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-22.txt",
+      "sha256": "e02e6dd97d982427fb8c96f3eef1ba732127507f3bb22bffb30f04b3e93ed723",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-23.txt",
+      "sha256": "ed2b3be1a65fa47bfc87302e384c3a2667e8421190290f49294801af6cf4597c",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-24.txt",
+      "sha256": "a5156a300829dc268ac999e6f9db4e659d75488e458e3c76f9a78e66ce17ce09",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-25.txt",
+      "sha256": "4b05d60c8629f239ed89b3b3b09d12c0f84598450e59865e2fb828dc33c210a3",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-26.txt",
+      "sha256": "68e2c880eb3b3b5be47577cbf57c366bc15bc6766967454675ce36e70c0ce55a",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-27.txt",
+      "sha256": "83bfaf367ec18a18e874e508f78374d22ce2b97e031be15ea7e05b63496d009c",
+      "standalone_valid": false
+    },
+    {
+      "holes": 19,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-28.txt",
+      "sha256": "f2e26a3e397ff3a1383142d03881319f981493007082f5df26c35c364336bcc1",
+      "standalone_valid": false
+    },
+    {
+      "holes": 18,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-29.txt",
+      "sha256": "b09dfcdd1ff8aa531e961cbf8195d700007ee8ecbfb19bb7922398da6c4ed0b9",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-30.txt",
+      "sha256": "846dae29903a1952b5e832282e45a249e9daa9cff335c44d606c3ec1f2414b5e",
+      "standalone_valid": false
+    },
+    {
+      "holes": 19,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-31.txt",
+      "sha256": "fd780f6e023c5114fa3add76bfaca70ce24061f28f74fbd2bbc9842100a4e424",
+      "standalone_valid": false
+    },
+    {
+      "holes": 18,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-32.txt",
+      "sha256": "21697349043440f515fe964039ba7207c098c1df966bc5bcf4804f86cb0a3cbb",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-33.txt",
+      "sha256": "088cff02abad3fb952ccaccc11ad92be56780621ebdd9acbd5fe159fb3e40467",
+      "standalone_valid": false
+    },
+    {
+      "holes": 17,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-34.txt",
+      "sha256": "0fbab6d35d870bd2bf14fcedb6aa4df3a7673ea4da9c7dbea18424cdae1ca50c",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-35.txt",
+      "sha256": "d5f838b88c2abffbb492e3e76bca3890e5434c6669795a1b04794dd87f91cd48",
+      "standalone_valid": false
+    },
+    {
+      "holes": 18,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-36.txt",
+      "sha256": "a9ce9be8509cc6f25eeae10a0528f98c3886a1afae3c76ea159e3eea2fe91d1e",
+      "standalone_valid": false
+    },
+    {
+      "holes": 15,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-37.txt",
+      "sha256": "07b3418b116fe5ff859f4a71261185ba699248d7b468415dbf310f496de97da0",
+      "standalone_valid": false
+    },
+    {
+      "holes": 13,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-38.txt",
+      "sha256": "32d600eb7a764f9036a0b8c45e1d85a807156400bdef872fddc00205db787a55",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-39.txt",
+      "sha256": "8827df48f508360a9df8630aba527002557cf1a44d37cd517d06286e23bf8696",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-40.txt",
+      "sha256": "bc0d1b66e8588329a2360e881c1e6dffdbf5cf6051cf03f4fb5750268cc0ca62",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-41.txt",
+      "sha256": "d874be1e8020757c3ccf292e97bd1734823a3c9e31197c984c88384ec40a446a",
+      "standalone_valid": false
+    },
+    {
+      "holes": 12,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-42.txt",
+      "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+      "standalone_valid": false
+    },
+    {
+      "holes": 12,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-43.txt",
+      "sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-44.txt",
+      "sha256": "7cb86f0fd58a864dc872105e1fea89cf2c3de507b4df5ecacccea5f98fc60e4d",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-45.txt",
+      "sha256": "df6fb4c5313183abfc6a0e7c92d326ed64a75aaf1072870e5ab296bf05ad37d7",
+      "standalone_valid": false
+    },
+    {
+      "holes": 15,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-46.txt",
+      "sha256": "7a44b5c7b271bc8904195dbdacbdf403ef6be9db747d39738558f63758209876",
+      "standalone_valid": false
+    },
+    {
+      "holes": 19,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-47.txt",
+      "sha256": "510dbf942a85718dbfd1db8d2e435bbf6896967d5aa172aca8bd46db45c600a7",
+      "standalone_valid": false
+    },
+    {
+      "holes": 21,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-48.txt",
+      "sha256": "73dd80edb78cfb8a299a3d0761f729a0a54e80a65983afc542bda73d17bfb40d",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-49.txt",
+      "sha256": "f5d90d25cd83659501ea56e0c8dc1a6b0d0042cb2607aad05f61f0d4c3086376",
+      "standalone_valid": false
+    },
+    {
+      "holes": 16,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-50.txt",
+      "sha256": "ccf944b140729ce6a207deac7af85448f04ad42796c61af4c8b3ef74b88bfa8b",
+      "standalone_valid": false
+    },
+    {
+      "holes": 20,
+      "package_valid": false,
+      "path": "experiments/scratch/weak-pair-swap-scan-independent-20261004/control-family-51.txt",
+      "sha256": "7fb46aafc207b86d7d6c57ca252ec0586446a0425bc8d2e5ca7c716b9c691dd4",
+      "standalone_valid": false
+    }
+  ]
+}
