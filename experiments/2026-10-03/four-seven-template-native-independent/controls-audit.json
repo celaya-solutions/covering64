@@ -1,0 +1,97 @@
+{
+  "passed": true,
+  "checker_sha256": "b0b89ba42db24085c558e7df4e286e2f1dd8af62f07a93e8b1ce69d552a17170",
+  "gate_sha256": "6ab5c1dbdbaffa7da4fb49d739cc11c2f0620516e1a7c0475f89b35ca8001c4f",
+  "smoke_claims": [
+    {
+      "case": "matching",
+      "final": {
+        "event": "finished",
+        "best_holes": 34,
+        "proposals": 358550,
+        "seconds": 3.00297,
+        "restarts": 0,
+        "sampled_operations": 1,
+        "attempted": [
+          125171,
+          90191,
+          53496,
+          89692
+        ],
+        "accepted": [
+          2884,
+          1056,
+          57,
+          2041
+        ]
+      },
+      "log_sha256": "41fe32e6cbccaa5f57c66a76796d02d4030911f0f96b4920e5410da5f3c04c9f"
+    },
+    {
+      "case": "cycle",
+      "final": {
+        "event": "finished",
+        "best_holes": 34,
+        "proposals": 376140,
+        "seconds": 3.00024,
+        "restarts": 0,
+        "sampled_operations": 5,
+        "attempted": [
+          131489,
+          94120,
+          56480,
+          94051
+        ],
+        "accepted": [
+          2767,
+          1047,
+          51,
+          1652
+        ]
+      },
+      "log_sha256": "54d0243a892f8624407ff32028104ba5d2310fd22f33d27a7e99d7d8a6776e98"
+    }
+  ],
+  "malformed_controls_rejected": [
+    {
+      "name": "duplicate_block",
+      "exit": 2,
+      "error": "seed must contain64 distinct blocks"
+    },
+    {
+      "name": "missing_block",
+      "exit": 2,
+      "error": "seed must contain64 distinct blocks"
+    },
+    {
+      "name": "point_outside",
+      "exit": 2,
+      "error": "label outside1..16"
+    },
+    {
+      "name": "repeated_point",
+      "exit": 2,
+      "error": "repeated label"
+    },
+    {
+      "name": "changed_degree",
+      "exit": 2,
+      "error": "degree20 drift"
+    },
+    {
+      "name": "forbidden_ordinary",
+      "exit": 2,
+      "error": "invalid ordinary block or count"
+    },
+    {
+      "name": "wrong_catalog_count",
+      "exit": 2,
+      "error": "wrong catalog count"
+    },
+    {
+      "name": "duplicate_catalog_edge",
+      "exit": 2,
+      "error": "invalid or duplicate template edge"
+    }
+  ]
+}

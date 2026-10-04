@@ -1,0 +1,68 @@
+[
+  {
+    "case": "matching-029",
+    "hub_case": [
+      0,
+      2
+    ],
+    "fixed_ids": [
+      0,
+      4,
+      26,
+      38,
+      47,
+      63,
+      77
+    ],
+    "source_base_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+    "status": "INFEASIBLE",
+    "seed": 2026103801,
+    "requested_seconds": 600,
+    "workers": 8,
+    "wall_seconds": 27.930858,
+    "elapsed_seconds": 27.93779730796814,
+    "started_unix": 1791080600.9144099,
+    "branches": 564776,
+    "conflicts": 56322,
+    "model_sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+    "parameters_sha256": "2c7f4ab0de8fa672b81c5149e546b7b7dfc08b3c6d91f37cedde422295bcdc06",
+    "response_sha256": "add08b4b0c282baa71a135d085e591ac821f2c36117289c2557216a29e68824b",
+    "log_sha256": "e4ef3b2bdc4285b47ab4b6ed40bb66210633729aba9160df6a0f49fdd9aa1f47",
+    "witness": null,
+    "checks": [],
+    "scope": "A bounded solver observation. UNKNOWN and uncertified INFEASIBLE cannot establish a theorem or exclusion."
+  },
+  {
+    "case": "matching-063",
+    "hub_case": [
+      0,
+      1
+    ],
+    "fixed_ids": [
+      3,
+      4,
+      18,
+      29,
+      39,
+      61,
+      67
+    ],
+    "source_base_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+    "status": "INFEASIBLE",
+    "seed": 2026103802,
+    "requested_seconds": 600,
+    "workers": 8,
+    "wall_seconds": 37.413588000000004,
+    "elapsed_seconds": 37.414875984191895,
+    "started_unix": 1791080629.054768,
+    "branches": 684391,
+    "conflicts": 98519,
+    "model_sha256": "a01c62de3d38598b25cd8453d31f5037de28ee57e4ad13f55443b046ea3dea36",
+    "parameters_sha256": "a39f01f4324398d99954b8c10eeace93638ced36d927dfc5724d90fd3a6bbf82",
+    "response_sha256": "df6a27b2cfa0eb5f3f8185e8aad6f2bbda82380bcad70387b3ffc7f4914d77e2",
+    "log_sha256": "dc118e05dca08fa797badd12f2e8cc6fc4395d8a25560d7d8b1e09a71a74f858",
+    "witness": null,
+    "checks": [],
+    "scope": "A bounded solver observation. UNKNOWN and uncertified INFEASIBLE cannot establish a theorem or exclusion."
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "source_sha256": "8dac4c370d36b0bc83d81049a5fc4307344a046f1814749e090b9df99978bd49",
+  "tools": [
+    {
+      "name": "cadical",
+      "git_revision": "c60730422e758ef1cebe7aeddf2dda31c996bf04",
+      "repository": "https://github.com/arminbiere/cadical.git",
+      "source_archive": "experiments/scratch/proof-tools-20261003/cadical-source.tar.gz",
+      "source_archive_sha256": "9d3ebf4ea9cc4751dc2aa218f97e615b3a07668b32d81efe98a00ef6466c1dab",
+      "binary": "experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+      "binary_sha256": "84847be83c87d6967271f1835bfb17ef74f0a23d406254cd5377e90983c205f4",
+      "build_log_sha256": "99620bd59902273e8d6b04527eafc84d7ca5d9fb2de0591f94b6824e85aa4bdc",
+      "build_commands": [
+        "./configure",
+        "make -j4"
+      ]
+    },
+    {
+      "name": "drat-trim",
+      "git_revision": "2e3b2dc0ecf938addbd779d42877b6ed69d9a985",
+      "repository": "https://github.com/marijnheule/drat-trim.git",
+      "source_archive": "experiments/scratch/proof-tools-20261003/drat-trim-source.tar.gz",
+      "source_archive_sha256": "29d2ddad9926786151c88ebadc312b9b86aab23b0a027e93ef6a20e1a36f93df",
+      "binary": "experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+      "binary_sha256": "d9ae0d6d99e7496ba33d7bfff6f0b6817de314c80995cf9ef417a0dc969a6f13",
+      "build_log_sha256": "0ecec68419e37c34079a3779b963ed0e4e503cbb14feffb42721ad403eda6a77",
+      "build_commands": [
+        "make -j2"
+      ]
+    }
+  ],
+  "solver_version": "3.0.1",
+  "solver_build": "Version 3.0.1 c60730422e758ef1cebe7aeddf2dda31c996bf04\nApple clang version 21.0.0 (clang-2100.3.27.1) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM\nSat Oct 3 20:46:19 MDT 2026 Darwin Christophers-MacBook-Pro.local 27.0.0 arm64\n",
+  "control_solver_command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+    "--no-binary",
+    "--seed=2026103901",
+    "-t",
+    "5",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/unsat.cnf",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/unsat.drat"
+  ],
+  "controls": [
+    {
+      "name": "valid",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/unsat.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/unsat.drat",
+        "-t",
+        "5"
+      ],
+      "exit": 0,
+      "verified": true,
+      "log_sha256": "e9d05b696d183c967ac63f1bb0c08d7920d2ac752aa32a488c60c01af1a9ad31",
+      "stdout": "\nc parsing input formula with 2 variables and 4 clauses\n\nc finished parsing\n\nc detected empty clause; start verification via backward checking\n\nc 4 of 4 clauses in core                            \n\nc 2 of 4 lemmas in core using 5 resolution steps\n\nc 0 RAT lemmas in core; 0 redundant literals in core lemmas\n\ns VERIFIED\n\nc verification time: 0.013 seconds\n",
+      "stderr": ""
+    },
+    {
+      "name": "empty-proof",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/unsat.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/empty.drat",
+        "-t",
+        "5"
+      ],
+      "exit": 1,
+      "verified": false,
+      "log_sha256": "ac995b54bc426f0faf7ec7fafb13aa1c402350c6b2dfabcd97d05921c8a8725a",
+      "stdout": "\nc parsing input formula with 2 variables and 4 clauses\n\nc finished parsing\n\nc ERROR: no conflict\n\ns NOT VERIFIED\n\nc verification time: 0.012 seconds\n",
+      "stderr": ""
+    },
+    {
+      "name": "wrong-satisfiable-model",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/sat.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/controls/unsat.drat",
+        "-t",
+        "5"
+      ],
+      "exit": 1,
+      "verified": false,
+      "log_sha256": "48d6323c6e6c452c2f9bcf985a6cb235ce6b2d79b613778378b1692029f42e1b",
+      "stdout": "\nc parsing input formula with 2 variables and 1 clauses\n\nc finished parsing\n\nc conflict claimed, but not detected\n\ns NOT VERIFIED\n\nc verification time: 0.012 seconds\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Pinned public tools and tiny positive/negative controls only; no research proof yet."
+}

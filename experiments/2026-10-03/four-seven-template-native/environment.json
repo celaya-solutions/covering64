@@ -1,0 +1,35 @@
+{
+  "source_sha256": "9a58b77cb44d561728a63e9d7e835866f4a0dbfd6306608ee4f85009e65361a1",
+  "source_revision": "7d130a4e6af150b25021e24e889e353f93adc951",
+  "binaries": {
+    "search": "82d3d613f6dc61a8825e9167e62afd01c4be2a96e96ce91535f55c860948f851",
+    "search-sanitize": "97c61aea8786f13a25ad8b8c70a9084a1609c4669126057af90419ed59b5c782"
+  },
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "Darwin Christophers-MacBook-Pro.local 27.0.0 Darwin Kernel Version 27.0.0: Wed Aug  5 22:04:40 PDT 2026; root:xnu-13432.1.6.501.1~1/RELEASE_ARM64_T6050 arm64\n",
+  "native_threads_per_process": 1,
+  "maximum_native_processes": 2,
+  "optimized_flags": [
+    "-std=c++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "sanitizer_flags": [
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer"
+  ],
+  "source_snapshots": {
+    "controls.py": "c621ac36d4ad19b45392e1968dee836ea944e14e1469899909490cd6595b21c0",
+    "run.py": "2d053d39cb938a9d3562f65e54f98bb18ae3b1003609b5a20964b7f43cb8e953",
+    "audit.py": "ad2552af27f0cfc5dc04471c71e062218da8b17b54e3595443ba157c4dd08a6c",
+    "prepare.py": "01d9d5999fe3842fa23d0ba50524048cdaf07018beb15137a1994b4367f06790"
+  }
+}

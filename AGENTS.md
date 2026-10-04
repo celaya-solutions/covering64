@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Checkpoint e0a6959 records 106 checked first-link exclusions, the audited degree-19 roadmap and refreshed hull; 314 tests and Ruff pass. The 64-block target remains open (152 four-sevenfold cases); new native-profile and Boolean-template searches are separate active work. See docs/research-continuation-2026-10-03.md.
+Checkpoint 7d130a4 records 108 checked first-link exclusions, the independently audited refreshed hull and completed native-profile and template pilots; 314 tests and Ruff pass. The 64-block target remains open (150 four-sevenfold cases); restricted CP and whole-template native searches are separate active work. See docs/research-continuation-2026-10-03.md.

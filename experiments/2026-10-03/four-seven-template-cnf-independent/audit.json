@@ -1,0 +1,64 @@
+{
+  "passed": true,
+  "manifest_sha256": "b7e5e8efc0f643f86eb7b254f0e6ad2408582712c8c6a384f47b674e5c1fc2cf",
+  "checker_sha256": "64ccc4c6bccd7222ae2b4808999f1072bb754a948e69d9899b700bacea0acac0",
+  "cases": [
+    {
+      "case": "matching-029",
+      "cnf_sha256": "884167e3dbf6ad9ac16672511e29d1362469ec5a3f7839c1fcddf5a7b074a589",
+      "model_sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+      "variables": 1116193,
+      "clauses": 3766434,
+      "rows": 4559
+    },
+    {
+      "case": "matching-063",
+      "cnf_sha256": "e3b7a8c358f902c088455954144819f5ada3efa799cccd7ca7fddaad95dbf107",
+      "model_sha256": "a01c62de3d38598b25cd8453d31f5037de28ee57e4ad13f55443b046ea3dea36",
+      "variables": 1115887,
+      "clauses": 3765211,
+      "rows": 4559
+    }
+  ],
+  "semantics": {
+    "rows": 1189,
+    "assignment_checks": 4756,
+    "gate_truth_assignments": 16,
+    "recipes": [
+      "all_false",
+      "all_true",
+      "atleast_one",
+      "contradiction",
+      "equivalent_threshold_recurrence",
+      "sinz_atmost_one",
+      "tautology"
+    ],
+    "damaged_controls": [
+      {
+        "damaged_dimacs": "-1 0\n",
+        "rejected": true
+      },
+      {
+        "damaged_dimacs": "1 2 0\n",
+        "rejected": true
+      },
+      {
+        "damaged_dimacs": "1 0\n1 0\n",
+        "rejected": true
+      },
+      {
+        "damaged_dimacs": "0\n",
+        "rejected": true
+      },
+      {
+        "damaged_dimacs": "1 0 0\n",
+        "rejected": true
+      },
+      {
+        "damaged_dimacs": "",
+        "rejected": true
+      }
+    ]
+  },
+  "scope": "Equivalent CNF encoding of two already restricted CP models only. No SAT/UNSAT search or proof-check result is established by this audit."
+}

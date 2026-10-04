@@ -1,10 +1,10 @@
 ```
 Document:    The Regular Four-Sevenfold-Triple Branch
-Version:     v1.4.0
+Version:     v1.5.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      87b6baf661a4afa5360305101829960677599413bf95a657e0fbc42f64e6c59f
+SHA256:      2e283867d7d3317ae3bc652cf19690d6ab34932c7c2ee8b13b1ee3c2f4ea132c
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -239,3 +239,23 @@ matching SCIP pilot timed out without a covering witness. Their exact model
 preservation and scope are independently checked; the timeouts imply neither
 feasibility nor nonexistence. See the refresh-screen-108, CP-proposal and MIP
 experiment folders for frozen evidence.
+
+# New construction and proof-encoding checkpoint
+
+Two restricted Boolean-template pilots returned solver-only INFEASIBLE for
+matching-029/(0,2) and matching-063/(0,1), after 27.931 and 37.414 seconds.
+Refreshed 108-catalog LP checks of the same subcases remained fractional.
+Neither observation changes the 108 checked first-link exclusions.
+
+Whole-template native moves preserve the 64-block size and all point degrees,
+while freely changing the four seven-block patterns and 36 ordinary blocks.
+The first two 300-second pilots reached 21 and 19 holes, respectively. Their
+best pair-target L1 errors were 30 and 24; neither satisfies the full branch.
+The complete source, seed/catalog audits, move replay and both-verifier results
+are in the four-seven-template-native experiment folders.
+
+The two seed-master relaxations returned no pattern within 60 and 30 seconds.
+Their ordinary-block variables are fractional, so their feasibility would not
+be a covering witness. Separately, the restricted CP-to-CNF translation passed
+an independent full clause audit. A negative SAT solver response still needs
+its independently checked certificate before it can count as an exclusion.

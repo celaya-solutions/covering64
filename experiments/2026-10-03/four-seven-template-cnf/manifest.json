@@ -1,0 +1,64 @@
+{
+  "version": "v1.0.0",
+  "builder_sha256": "4fc5f86cf00426c1abae09a76c8c1f641560f9d8e9232be29a0d8369329af26c",
+  "git_revision": "7d130a4e6af150b25021e24e889e353f93adc951",
+  "restricted_manifest_sha256": "38e8854797e5775bec5da9834218b2a4a8ded191274d4a472e047505f06378dc",
+  "restricted_audit_sha256": "594641767d810c30f233ef6854433f84a6dde1793691e7e8046a8b6df7b8f04f",
+  "cases": [
+    {
+      "case": "matching-029",
+      "hub_case": [
+        0,
+        2
+      ],
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        63,
+        77
+      ],
+      "source_model": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-029.pbtxt",
+      "source_model_sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+      "cnf": "experiments/scratch/four-seven-template-cnf-v1.0.0/matching-029.cnf",
+      "cnf_sha256": "884167e3dbf6ad9ac16672511e29d1362469ec5a3f7839c1fcddf5a7b074a589",
+      "cnf_bytes": 76410492,
+      "original_variables": 55528,
+      "variables": 1116193,
+      "clauses": 3766434,
+      "source_constraints": 4559,
+      "row_trace": "experiments/scratch/four-seven-template-cnf-v1.0.0/matching-029-rows.json.gz",
+      "row_trace_sha256": "b36bd00355b2c4f963b396c257884ff7edf9515f977c2a0489776ab8b452e2f3"
+    },
+    {
+      "case": "matching-063",
+      "hub_case": [
+        0,
+        1
+      ],
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        39,
+        61,
+        67
+      ],
+      "source_model": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-063.pbtxt",
+      "source_model_sha256": "a01c62de3d38598b25cd8453d31f5037de28ee57e4ad13f55443b046ea3dea36",
+      "cnf": "experiments/scratch/four-seven-template-cnf-v1.0.0/matching-063.cnf",
+      "cnf_sha256": "e3b7a8c358f902c088455954144819f5ada3efa799cccd7ca7fddaad95dbf107",
+      "cnf_bytes": 76381525,
+      "original_variables": 55528,
+      "variables": 1115887,
+      "clauses": 3765211,
+      "source_constraints": 4559,
+      "row_trace": "experiments/scratch/four-seven-template-cnf-v1.0.0/matching-063-rows.json.gz",
+      "row_trace_sha256": "697aec3b44a7db51918b8e2b235a349d203946dfca84f563118618ead7b36651"
+    }
+  ],
+  "scope": "Exact extension of two audited restricted Boolean CP models. Original variable i maps to DIMACS i+1. No solve or UNSAT proof yet."
+}

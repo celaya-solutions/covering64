@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "manifest_sha256": "38e8854797e5775bec5da9834218b2a4a8ded191274d4a472e047505f06378dc",
+  "checker_sha256": "c467ec0b3b1e078b201f3f9735264babdac77a3ad3debd1d071d7f57a3cadf03",
+  "cases": [
+    {
+      "case": "matching-029",
+      "passed": true,
+      "hub_case": [
+        0,
+        2
+      ],
+      "model_sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+      "base_model_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        63,
+        77
+      ],
+      "preserved_rows": 4550,
+      "added_equalities": 9,
+      "variables": 55528,
+      "rows": 4559,
+      "prior_checked_hub_cases": 5
+    },
+    {
+      "case": "matching-063",
+      "passed": true,
+      "hub_case": [
+        0,
+        1
+      ],
+      "model_sha256": "a01c62de3d38598b25cd8453d31f5037de28ee57e4ad13f55443b046ea3dea36",
+      "base_model_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        39,
+        61,
+        67
+      ],
+      "preserved_rows": 4550,
+      "added_equalities": 9,
+      "variables": 55528,
+      "rows": 4559,
+      "prior_checked_hub_cases": 5
+    }
+  ],
+  "damaged_controls": [
+    {
+      "case": "matching-029",
+      "mutation": "extra variable",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "missing equality",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "changed fixed block",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "changed fixed sign",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "changed hub bound",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "changed triple count",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "changed variable domain",
+      "rejected": true
+    },
+    {
+      "case": "matching-029",
+      "mutation": "conditional row",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "extra variable",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "missing equality",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "changed fixed block",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "changed fixed sign",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "changed hub bound",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "changed triple count",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "changed variable domain",
+      "rejected": true
+    },
+    {
+      "case": "matching-063",
+      "mutation": "conditional row",
+      "rejected": true
+    }
+  ],
+  "solver_calls": 0,
+  "scope": "Two fixed-first-link and fixed-hub-count construction models only."
+}

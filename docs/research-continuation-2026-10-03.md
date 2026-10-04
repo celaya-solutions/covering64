@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.5.0
+Version:     v1.6.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      c64188dab548d473a783e97e03fa2a624013e22e241bab3ee66688b4e9e93835
+SHA256:      8ceeda6b19b427bc71e03b4417ecd071d35ea407006e08bfcbe49d082f3472bb
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -215,5 +215,35 @@ Ruff, with the same three SWIG warnings.
 Two prepared narrower CP pilots fix matching-029/(m4,z)=(0,2) and
 matching-063/(0,1). Their independent audit reconstructs exactly nine added
 rows, preserves the full base protobuf, checks the five other excluded hub
-cases for each, and rejects 16 damaged controls. Their solve results are
-separate ongoing work and are not included in this checkpoint.
+cases for each, and rejects 16 damaged controls. Both returned uncertified INFEASIBLE: 27.931 seconds for matching-029 and
+37.414 seconds for matching-063. No witness was emitted; neither solver report
+is counted as a checked exclusion.
+
+## Whole-template construction and proof translation
+
+The checked first-link union remains 108 of 258. Rechecking the two surviving
+hub subcases with the stronger 108-catalog LP still returned fractional numerical
+OPTIMAL, with no certificate or covering witness.
+
+A new native search changes all seven blocks of a heavy link in one move and
+changes ordinary blocks with degree-preserving trades. The complete audited
+108 catalogs supply four mutable heavy templates, alongside 36 ordinary blocks.
+Rotation is used only to build starting seeds. All later moves can break it.
+Two 300-second single-worker pilots ended at 21 holes (matching) and 19 holes
+(cycle), after 427,559,166 proposals in total. All 144 saved pilot states and
+32 operation traces passed independent recount and the required covering checks;
+none is a cover. The best pair-target L1 defects were 30 and 24, and both states
+had nonheavy triple multiplicity three, motivating a separate soft-score variant.
+
+Two seed-master MIPs kept only the 276 allowed heavy-block variables integral.
+The full template-hull master timed out after a 60-second budget at one node;
+the sparse base-row master timed out after a 30-second budget at 27 nodes.
+Neither returned a heavy pattern or covering witness. Their fractional ordinary
+variables mean even a feasible master would still need integer completion.
+
+The two restricted CP models were translated to CNF for separate proof-producing
+search. Root independently reconstructed every clause and auxiliary boundary,
+verified the full source-audit chain, checked 1,189 small signed/weighted rows on
+4,756 assignments, and rejected six damaged clause fixtures. The translation
+gate covers 7,531,645 clauses across both models. It proves encoding equivalence
+only; the proof-producing searches and proof-check results remain separate work.

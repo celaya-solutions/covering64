@@ -1,0 +1,256 @@
+{
+  "version": "v1.0.0",
+  "builder_sha256": "b33ea0e60a309b39af0837d3ceeef5704fb001caa751d4130eba628b51c28ce9",
+  "git_revision": "e0a6959a9eb56240654fb6b157906227e36b4a4b",
+  "ortools_version": "9.15.6755",
+  "base_manifest_sha256": "f50b6693a81d65b6b21526b0f2a2fcc33ac141bd5afd5e9c9400e9973800faed",
+  "base_independent_audit_sha256": "bddc317f432eca9793a5f82e0788c00e9ce18d884d68817da6f1b843ac6a1026",
+  "priority_plan_sha256": "9653d367494c23fe4018990aa7ad142b1ccf9d0a495b634049f395a31912772c",
+  "registry_sha256": "2809b2f39fac1971ca6bf3997e789a4a41463b62394e7525e5d282d084527f88",
+  "representative_catalog_sha256": "70e596f5ccd3dc93a5441235761b1b6341de3b41546eab5c6ff21993b3413231",
+  "cases": [
+    {
+      "case": "matching-029",
+      "base_case": "matching",
+      "hub_case": [
+        0,
+        2
+      ],
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        63,
+        77
+      ],
+      "fixed_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          15,
+          16
+        ]
+      ],
+      "model": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-029.pbtxt",
+      "model_sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+      "added_rows": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-029-added-rows.json",
+      "added_rows_sha256": "732451b9c859c8e46373483201706e1bb7be834ee0627b4bab2998f034739a1b",
+      "source_base": "experiments/scratch/four-seven-template-cp-v1.0.0-prepared/matching-boolean-templates.pbtxt",
+      "source_base_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+      "total_variables": 55528,
+      "total_constraints": 4559,
+      "original_proto_preserved": true,
+      "added_equalities": 9,
+      "prior_hub_case_proofs": [
+        {
+          "hub_case": [
+            0,
+            0
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-0-audit.json",
+          "sha256": "ccca716fe299717b7b458f6bbc41b07ea9fdda2c5fedcf3a01ff032c5169a29f"
+        },
+        {
+          "hub_case": [
+            0,
+            1
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-1-audit.json",
+          "sha256": "24fb3b920b8e1f1cbb04b344fe976b9654d27428444842b3d779bcd2198ad9f9"
+        },
+        {
+          "hub_case": [
+            1,
+            0
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-0-audit.json",
+          "sha256": "8b9859bacec037eede19206877abfa76c41f913dd8f83f842e643bd265e1f3cb"
+        },
+        {
+          "hub_case": [
+            1,
+            1
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-1-audit.json",
+          "sha256": "b68aa9191c9eabdaa21b4001db5ea5c5a2415c51096c1951ca229fc92ffebef6"
+        },
+        {
+          "hub_case": [
+            1,
+            2
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-2-audit.json",
+          "sha256": "3e2469f8be741e87e484985efdb35f709e851a93a01de0e91df93d9111e84e09"
+        }
+      ],
+      "cp_model_valid": true
+    },
+    {
+      "case": "matching-063",
+      "base_case": "matching",
+      "hub_case": [
+        0,
+        1
+      ],
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        39,
+        61,
+        67
+      ],
+      "fixed_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          16
+        ]
+      ],
+      "model": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-063.pbtxt",
+      "model_sha256": "a01c62de3d38598b25cd8453d31f5037de28ee57e4ad13f55443b046ea3dea36",
+      "added_rows": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-063-added-rows.json",
+      "added_rows_sha256": "969e3c1f8bf31c49e7cdf67308d41ce571b0c6d1702afad565cbf7e3edd6b161",
+      "source_base": "experiments/scratch/four-seven-template-cp-v1.0.0-prepared/matching-boolean-templates.pbtxt",
+      "source_base_sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+      "total_variables": 55528,
+      "total_constraints": 4559,
+      "original_proto_preserved": true,
+      "added_equalities": 9,
+      "prior_hub_case_proofs": [
+        {
+          "hub_case": [
+            0,
+            0
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-0-audit.json",
+          "sha256": "ccca716fe299717b7b458f6bbc41b07ea9fdda2c5fedcf3a01ff032c5169a29f"
+        },
+        {
+          "hub_case": [
+            0,
+            2
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-2-audit.json",
+          "sha256": "cdb56168009f4a9127346361b1810c177e54e3cb8010fb44f8da162ad91af456"
+        },
+        {
+          "hub_case": [
+            1,
+            0
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-0-audit.json",
+          "sha256": "8b9859bacec037eede19206877abfa76c41f913dd8f83f842e643bd265e1f3cb"
+        },
+        {
+          "hub_case": [
+            1,
+            1
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-1-audit.json",
+          "sha256": "b68aa9191c9eabdaa21b4001db5ea5c5a2415c51096c1951ca229fc92ffebef6"
+        },
+        {
+          "hub_case": [
+            1,
+            2
+          ],
+          "audit": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-2-audit.json",
+          "sha256": "3e2469f8be741e87e484985efdb35f709e851a93a01de0e91df93d9111e84e09"
+        }
+      ],
+      "cp_model_valid": true
+    }
+  ],
+  "scope": "Two restricted construction pilots only. Base remains the audited106 catalog version;108 registry used solely for open-case selection. No solve."
+}

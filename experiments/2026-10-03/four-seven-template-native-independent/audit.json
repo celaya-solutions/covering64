@@ -1,0 +1,1579 @@
+{
+  "passed": true,
+  "checker_sha256": "d588a3611c2119fad96c5234d66a2bf9d37104c490179c97be09eee953e4e554",
+  "source_sha256": "9a58b77cb44d561728a63e9d7e835866f4a0dbfd6306608ee4f85009e65361a1",
+  "constructor_sha256": "01d9d5999fe3842fa23d0ba50524048cdaf07018beb15137a1994b4367f06790",
+  "seeds_sha256": "4d7f4dd187c0e149151727edb4ad9e834cf57483da5a4defd55adb0932f86519",
+  "encoding_audit_sha256": "67526fe1dca68a1a67c770f8e9abf88f675869bf33064fa0877432251cf9ddaf",
+  "ordinary_family": 1200,
+  "seed_orbits": 100,
+  "build_command": [
+    "clang++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "/Users/chriscelaya/Documents/covering64-search/scripts/four_seven_template_heuristic.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-independent/search-sanitize"
+  ],
+  "binary_sha256": "baa1b0a56fa74bf39aa4a7f586fee79b9807542167414be1336da9d5be34bb34",
+  "cases": [
+    {
+      "case": "matching",
+      "seed": {
+        "path": "experiments/2026-10-03/four-seven-template-native/matching-seed.txt",
+        "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+        "holes": 62,
+        "template_ids_1based": [
+          4215,
+          8044,
+          1000,
+          6722
+        ]
+      },
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "templates_per_group": 12042,
+      "saved_states": [
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-best.txt",
+          "sha256": "87ef85ae5590d0a5f18bf3baff4cfeffdd2371d74ac8d3af192a242059392ccc",
+          "holes": 34,
+          "template_ids_1based": [
+            6925,
+            9461,
+            8486,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control0-after.txt",
+          "sha256": "a2d590059ca1a2c3a1ca5c4654e67b0faeb78903ef64d2eb4cd3356ffe459740",
+          "holes": 65,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control0-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control0-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control1-after.txt",
+          "sha256": "d9d3d8515d900c552598a4c073839bd5eef2a411978defa5faaa3367aadb9953",
+          "holes": 67,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control1-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control1-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control2-after.txt",
+          "sha256": "23cce30a21b9f6dff66762e31d429a0989492ca5ef76556670025a69c06a8c8d",
+          "holes": 65,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control2-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control2-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control3-after.txt",
+          "sha256": "2e5208eae5594d04deb3c8907d2411336afd907b7889cff27e448fe73fa831b5",
+          "holes": 61,
+          "template_ids_1based": [
+            4215,
+            8044,
+            9415,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control3-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-control3-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h34.txt",
+          "sha256": "87ef85ae5590d0a5f18bf3baff4cfeffdd2371d74ac8d3af192a242059392ccc",
+          "holes": 34,
+          "template_ids_1based": [
+            6925,
+            9461,
+            8486,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h35.txt",
+          "sha256": "7143d5a2f6386123271ecd2679f63d445f23e60dc0680325e3404e924add70e8",
+          "holes": 35,
+          "template_ids_1based": [
+            6925,
+            9461,
+            11584,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h36.txt",
+          "sha256": "dd7b2ed4b85868735ccd3038a3cdab8608e6880409468e4fcc05265508f4732b",
+          "holes": 36,
+          "template_ids_1based": [
+            6925,
+            9461,
+            11168,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h37.txt",
+          "sha256": "33a01c65ad04cec6427989dfa0cce02324c09ea43731179781361349870a0332",
+          "holes": 37,
+          "template_ids_1based": [
+            6925,
+            9461,
+            11168,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h38.txt",
+          "sha256": "2a8cbfe4ad9393a725de6896eeaded90e6a6e38f2a1212cfae70346e127e404e",
+          "holes": 38,
+          "template_ids_1based": [
+            6925,
+            9461,
+            7484,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h39.txt",
+          "sha256": "6e3204f72cf0c5bc9031a9250968aad495e7557e4c1f62ca6edc49e1250e020d",
+          "holes": 39,
+          "template_ids_1based": [
+            6925,
+            9461,
+            7484,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h40.txt",
+          "sha256": "15bb66ab486c00e50b0caa37f6cca4105f3edec96199d5b97b996bb22416851f",
+          "holes": 40,
+          "template_ids_1based": [
+            6925,
+            9461,
+            7484,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h42.txt",
+          "sha256": "4e0697c24a3baae756ba980d8c7a698e6f7385b049d7af3b6416304fcd707a18",
+          "holes": 42,
+          "template_ids_1based": [
+            6925,
+            9461,
+            7484,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h43.txt",
+          "sha256": "dc834c7dd36e95432b3da7badd198d4c094302cd6a8aae7fff38df9858c3279a",
+          "holes": 43,
+          "template_ids_1based": [
+            6925,
+            9461,
+            7484,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h44.txt",
+          "sha256": "c8ca535a77eab8f86b4c80d4762c44a19b0a0e84069ef669fa5395dccc472241",
+          "holes": 44,
+          "template_ids_1based": [
+            6925,
+            9461,
+            7484,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h45.txt",
+          "sha256": "1a0c9531472ab6437cf35426f2699d02393cd82d1b56145475cca1e23f0ed5b5",
+          "holes": 45,
+          "template_ids_1based": [
+            6925,
+            9461,
+            9773,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h46.txt",
+          "sha256": "8482c59a780d0e817342cd00806644aea8fd1f7dd178720237fcb9d5d8d50b88",
+          "holes": 46,
+          "template_ids_1based": [
+            6925,
+            9461,
+            9773,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h47.txt",
+          "sha256": "8890d07c2f138146d079aaea618f56b150a598dac9176161af126f4f68a8dac3",
+          "holes": 47,
+          "template_ids_1based": [
+            6925,
+            9461,
+            9773,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h48.txt",
+          "sha256": "3982ff4f30686fe3c41d9b5b024855fabc23e1d2aac22e182df7d27b581f04fb",
+          "holes": 48,
+          "template_ids_1based": [
+            6925,
+            9461,
+            9773,
+            8400
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h49.txt",
+          "sha256": "b3fa34e2ae9cb0b876ea8f49273cdb2731561a1011a14d7f6349f02cd014dad4",
+          "holes": 49,
+          "template_ids_1based": [
+            4026,
+            9461,
+            9773,
+            11383
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h50.txt",
+          "sha256": "55980c3fdc428048a4dd4384b1948f6f24e255edc14f51bc716d735a2aef9846",
+          "holes": 50,
+          "template_ids_1based": [
+            4026,
+            9461,
+            9773,
+            11383
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h51.txt",
+          "sha256": "b51c4c3fe416e5c0af5b0972cc93e0ed09cab7b4cd5eed1f707de3120279c544",
+          "holes": 51,
+          "template_ids_1based": [
+            4026,
+            9461,
+            9773,
+            11383
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h54.txt",
+          "sha256": "53f2e361db495ec6e63fd6ca207fda7ac01c2e43a49b57a0fd3ed5774eb03771",
+          "holes": 54,
+          "template_ids_1based": [
+            4026,
+            9461,
+            9773,
+            11383
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h55.txt",
+          "sha256": "7712647fb8edf027d5f7a33d21d0e7491624fc7c45dba3265308910c64191c0c",
+          "holes": 55,
+          "template_ids_1based": [
+            4026,
+            9461,
+            9773,
+            11383
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h56.txt",
+          "sha256": "ab8fa7d7ff31e801b787d791b871c6f21cdeeaa0aaf4476efeda22b571538919",
+          "holes": 56,
+          "template_ids_1based": [
+            11112,
+            11109,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h57.txt",
+          "sha256": "b31ede3c6ee90fa45439cdc219ea0f073c8c892478f759841c0b87166f6a54e7",
+          "holes": 57,
+          "template_ids_1based": [
+            11112,
+            5816,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h58.txt",
+          "sha256": "e03a36d2e57145620882d756873a772bb7943100ac70b83e8b1b67118746db3c",
+          "holes": 58,
+          "template_ids_1based": [
+            1272,
+            5816,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h60.txt",
+          "sha256": "7e1e37b4966004a354899ab0e4e5b7760deee7930d60e876f79a122622ad4bd5",
+          "holes": 60,
+          "template_ids_1based": [
+            10066,
+            8044,
+            2321,
+            7005
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-h61.txt",
+          "sha256": "86e6051a8ecbbddb5b1a8ea8b90b8a7c31589e949f9768eefdba14bd8fd4efb3",
+          "holes": 61,
+          "template_ids_1based": [
+            10066,
+            8044,
+            8394,
+            7005
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-initial.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-sample0-after.txt",
+          "sha256": "f9f0414a751a84feb731c0db4c71f914023f036c52ee16006569531fc7ac8b0d",
+          "holes": 73,
+          "template_ids_1based": [
+            11961,
+            1982,
+            340,
+            8470
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-smoke-sample0-before.txt",
+          "sha256": "3f75e9b80ab21ba6806409ec64616e9e6b21d6b462db0aa21a4dcb9f96df0b05",
+          "holes": 72,
+          "template_ids_1based": [
+            11961,
+            1982,
+            340,
+            8470
+          ]
+        }
+      ],
+      "saved_operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample"
+        }
+      ],
+      "fresh_command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-independent/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native/matching-seed.txt",
+        "2026100371",
+        "0.1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-independent/matching"
+      ],
+      "fresh_exit": 1,
+      "fresh_states": [
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-best.txt",
+          "sha256": "ab8fa7d7ff31e801b787d791b871c6f21cdeeaa0aaf4476efeda22b571538919",
+          "holes": 56,
+          "template_ids_1based": [
+            11112,
+            11109,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control0-after.txt",
+          "sha256": "a2d590059ca1a2c3a1ca5c4654e67b0faeb78903ef64d2eb4cd3356ffe459740",
+          "holes": 65,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control0-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control0-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control1-after.txt",
+          "sha256": "d9d3d8515d900c552598a4c073839bd5eef2a411978defa5faaa3367aadb9953",
+          "holes": 67,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control1-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control1-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control2-after.txt",
+          "sha256": "23cce30a21b9f6dff66762e31d429a0989492ca5ef76556670025a69c06a8c8d",
+          "holes": 65,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control2-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control2-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control3-after.txt",
+          "sha256": "2e5208eae5594d04deb3c8907d2411336afd907b7889cff27e448fe73fa831b5",
+          "holes": 61,
+          "template_ids_1based": [
+            4215,
+            8044,
+            9415,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control3-before.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-control3-rollback.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-h56.txt",
+          "sha256": "ab8fa7d7ff31e801b787d791b871c6f21cdeeaa0aaf4476efeda22b571538919",
+          "holes": 56,
+          "template_ids_1based": [
+            11112,
+            11109,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-h57.txt",
+          "sha256": "b31ede3c6ee90fa45439cdc219ea0f073c8c892478f759841c0b87166f6a54e7",
+          "holes": 57,
+          "template_ids_1based": [
+            11112,
+            5816,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-h58.txt",
+          "sha256": "e03a36d2e57145620882d756873a772bb7943100ac70b83e8b1b67118746db3c",
+          "holes": 58,
+          "template_ids_1based": [
+            1272,
+            5816,
+            5351,
+            9620
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-h60.txt",
+          "sha256": "7e1e37b4966004a354899ab0e4e5b7760deee7930d60e876f79a122622ad4bd5",
+          "holes": 60,
+          "template_ids_1based": [
+            10066,
+            8044,
+            2321,
+            7005
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-h61.txt",
+          "sha256": "86e6051a8ecbbddb5b1a8ea8b90b8a7c31589e949f9768eefdba14bd8fd4efb3",
+          "holes": 61,
+          "template_ids_1based": [
+            10066,
+            8044,
+            8394,
+            7005
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/matching-initial.txt",
+          "sha256": "197b88c461709c50f76c860087d46934fc6b49e98212062268c2a4abe0f34c05",
+          "holes": 62,
+          "template_ids_1based": [
+            4215,
+            8044,
+            1000,
+            6722
+          ]
+        }
+      ],
+      "fresh_operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply"
+        }
+      ],
+      "fresh_final": {
+        "event": "finished",
+        "best_holes": 56,
+        "proposals": 9863,
+        "seconds": 0.100264,
+        "restarts": 0,
+        "sampled_operations": 0,
+        "attempted": [
+          3446,
+          2483,
+          1453,
+          2481
+        ],
+        "accepted": [
+          392,
+          147,
+          10,
+          421
+        ]
+      }
+    },
+    {
+      "case": "cycle",
+      "seed": {
+        "path": "experiments/2026-10-03/four-seven-template-native/cycle-seed.txt",
+        "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+        "holes": 60,
+        "template_ids_1based": [
+          23739,
+          23172,
+          2506,
+          4598
+        ]
+      },
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "templates_per_group": 25020,
+      "saved_states": [
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-best.txt",
+          "sha256": "c7a8964b76cf52e8e2dc1c2fbbb1789d6d69d7494eaef29ce5cb6671625df2f4",
+          "holes": 34,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control0-after.txt",
+          "sha256": "310b5a64330096c78ac21093dbe295a30424f0909171f97676258feb7188e1c6",
+          "holes": 63,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control0-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control0-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control1-after.txt",
+          "sha256": "ddefa18d37af3f3b51ac0c3a3863ac1cce3a416d7055b34eb8b1bfdb5f69acd6",
+          "holes": 66,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control1-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control1-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control2-after.txt",
+          "sha256": "c3afe10e449465bfaf9613f45c8f2a7e907da5037bc37886eff4a2f05ba62ac3",
+          "holes": 66,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control2-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control2-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control3-after.txt",
+          "sha256": "95d8cca4a6e7bcd840fc1d82878a9ef4624d5deda11b527fbc78a8969a339381",
+          "holes": 63,
+          "template_ids_1based": [
+            23739,
+            12312,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control3-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-control3-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h34.txt",
+          "sha256": "c7a8964b76cf52e8e2dc1c2fbbb1789d6d69d7494eaef29ce5cb6671625df2f4",
+          "holes": 34,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h35.txt",
+          "sha256": "5364238af74a0673d5024024789384c919c4e62b42b02df213ad163eb7a05949",
+          "holes": 35,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h36.txt",
+          "sha256": "c98e60a5830885758df79f3e62fd2c88598d9967d11f06320b9f02a4cb99cda8",
+          "holes": 36,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h38.txt",
+          "sha256": "f081ce720e55e75b8102574ac1e9f075dd6ccf38cb05a7b32a8db8ccb152b01a",
+          "holes": 38,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h40.txt",
+          "sha256": "93c862723a11f986b5780b45ce9e0097197b3b5e07f9f3b3b92314058ad732e4",
+          "holes": 40,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h41.txt",
+          "sha256": "a1c312172c723f49e24195ae1777aa74ce2bda88733dbbc3db7a5b3c3e51bb46",
+          "holes": 41,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h42.txt",
+          "sha256": "71146a16a26d8efe084a85f4780f6bb1c6ecf67eefa576f4db442454cf0e1ceb",
+          "holes": 42,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h43.txt",
+          "sha256": "0fcb174aa8ca79142e3d6e0e234fda306a29e561ce874ab368d38d52bd2d0b73",
+          "holes": 43,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h44.txt",
+          "sha256": "15c2f71531b5bc86e3aa0a42967bea16fe1e11c6e365f7345ee60927dc76cdbe",
+          "holes": 44,
+          "template_ids_1based": [
+            691,
+            8964,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h47.txt",
+          "sha256": "ce73fcc7e49715b75d08f23853dd14b738bfc6b43772a0fc3aee0c4171b24d24",
+          "holes": 47,
+          "template_ids_1based": [
+            691,
+            14212,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h48.txt",
+          "sha256": "e5d5bee35d1eedee70476fa873c4f85dd7e3b4d86ac481731d31dd54631282fe",
+          "holes": 48,
+          "template_ids_1based": [
+            691,
+            23373,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h49.txt",
+          "sha256": "6bc73de6501f34779ccd08c631eac6138e166fc1204d26577be0ecb5faa0980e",
+          "holes": 49,
+          "template_ids_1based": [
+            691,
+            13388,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h50.txt",
+          "sha256": "38381bebb89e4fc876d945ab773f816bff00e88a3d37be7fb70ff0f9354d7ac0",
+          "holes": 50,
+          "template_ids_1based": [
+            691,
+            13388,
+            16414,
+            22156
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h51.txt",
+          "sha256": "c051739f5894f6436bc65f1256132cc22b20f228248e5d82c7a0f7e5f8d6ed52",
+          "holes": 51,
+          "template_ids_1based": [
+            1775,
+            17940,
+            12494,
+            13948
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h52.txt",
+          "sha256": "661ab115b0dd599e29e9d34014b5caf5bbb686468fdf26965269b10faff016c5",
+          "holes": 52,
+          "template_ids_1based": [
+            1775,
+            17940,
+            12494,
+            13948
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h53.txt",
+          "sha256": "384d7aec0c2aab9934df65f71aa5a01c931e09977e7ff6c834b37b7c385a6d00",
+          "holes": 53,
+          "template_ids_1based": [
+            21680,
+            17940,
+            11946,
+            13948
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h54.txt",
+          "sha256": "2caea960b68bf0c07ea8a7542cc9091e437beb06a1fefbf9edc09e5844a4156e",
+          "holes": 54,
+          "template_ids_1based": [
+            10954,
+            13687,
+            13565,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h55.txt",
+          "sha256": "49f7944b65e5d0ce310fa09123deaac997e2ecd34d37f36203c494d9e7a7a90f",
+          "holes": 55,
+          "template_ids_1based": [
+            10954,
+            13687,
+            2722,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h56.txt",
+          "sha256": "83ccd966afbc2b60b90924eeda572825f041e8ca96f49603e91e416e9d4aa5a8",
+          "holes": 56,
+          "template_ids_1based": [
+            23739,
+            13687,
+            24020,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-h59.txt",
+          "sha256": "9a6dd0005daef3b3600ce9ba52efcd464746eebce5359ae553f74563f497ad87",
+          "holes": 59,
+          "template_ids_1based": [
+            23739,
+            13687,
+            24020,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-initial.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample0-after.txt",
+          "sha256": "0fda982d27d7ee3321b5dcf645af858ac068e9bfa21a19c022ed9b06ff452162",
+          "holes": 76,
+          "template_ids_1based": [
+            19813,
+            19591,
+            19138,
+            13455
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample0-before.txt",
+          "sha256": "d491ff711ec63158406b9be9c02f64b5991e6d7cb593cde7be7bab82dee52d77",
+          "holes": 72,
+          "template_ids_1based": [
+            19813,
+            19591,
+            19138,
+            13455
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample1-after.txt",
+          "sha256": "5d0fc3652f6c136c1852eb1a97dd0d7bd84cd27874e53fd5fd62cc0148afcb2e",
+          "holes": 66,
+          "template_ids_1based": [
+            4542,
+            3828,
+            10108,
+            23606
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample1-before.txt",
+          "sha256": "5428a26dc76641f9f09d0456e8310c20a47fa57413a5eb8bf4b8304055e0cac8",
+          "holes": 67,
+          "template_ids_1based": [
+            6186,
+            3828,
+            10108,
+            23606
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample2-after.txt",
+          "sha256": "b0e5df58d036343f0e038017a6e8f81ba79115e95f5eabaf61a60d288e17c270",
+          "holes": 60,
+          "template_ids_1based": [
+            1043,
+            7870,
+            9443,
+            5222
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample2-before.txt",
+          "sha256": "97c4c55b0008276d54ed59458abb95deb47c80e18fc5ee6d4ddf65166d4e69db",
+          "holes": 60,
+          "template_ids_1based": [
+            16897,
+            7870,
+            9443,
+            5222
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample3-after.txt",
+          "sha256": "15e2266ed05765a7ace66369e30842aee5e104eceeefc8ad0cfb4e54d0ed2417",
+          "holes": 82,
+          "template_ids_1based": [
+            14975,
+            9273,
+            147,
+            23431
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample3-before.txt",
+          "sha256": "5d360ed737cf33a33816f0f52be9af3fe81030599ab036080056981adbe9f6b0",
+          "holes": 82,
+          "template_ids_1based": [
+            14975,
+            9273,
+            16499,
+            23431
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample4-after.txt",
+          "sha256": "1464b5ce366a8f4dd0b6a854e82e53139ccd5c86e3396ed80123aa339497f1f9",
+          "holes": 72,
+          "template_ids_1based": [
+            22531,
+            12378,
+            1421,
+            18331
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-smoke-sample4-before.txt",
+          "sha256": "727b746280bdd4ebc9a165b64ee6507573e1562bbb854c55bb67154e2356533d",
+          "holes": 71,
+          "template_ids_1based": [
+            22531,
+            6081,
+            1421,
+            18331
+          ]
+        }
+      ],
+      "saved_operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample"
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample"
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample"
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample"
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample"
+        }
+      ],
+      "fresh_command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-independent/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native/cycle-seed.txt",
+        "2026100372",
+        "0.1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-independent/cycle"
+      ],
+      "fresh_exit": 1,
+      "fresh_states": [
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-best.txt",
+          "sha256": "2caea960b68bf0c07ea8a7542cc9091e437beb06a1fefbf9edc09e5844a4156e",
+          "holes": 54,
+          "template_ids_1based": [
+            10954,
+            13687,
+            13565,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control0-after.txt",
+          "sha256": "310b5a64330096c78ac21093dbe295a30424f0909171f97676258feb7188e1c6",
+          "holes": 63,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control0-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control0-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control1-after.txt",
+          "sha256": "ddefa18d37af3f3b51ac0c3a3863ac1cce3a416d7055b34eb8b1bfdb5f69acd6",
+          "holes": 66,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control1-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control1-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control2-after.txt",
+          "sha256": "c3afe10e449465bfaf9613f45c8f2a7e907da5037bc37886eff4a2f05ba62ac3",
+          "holes": 66,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control2-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control2-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control3-after.txt",
+          "sha256": "95d8cca4a6e7bcd840fc1d82878a9ef4624d5deda11b527fbc78a8969a339381",
+          "holes": 63,
+          "template_ids_1based": [
+            23739,
+            12312,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control3-before.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-control3-rollback.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-h54.txt",
+          "sha256": "2caea960b68bf0c07ea8a7542cc9091e437beb06a1fefbf9edc09e5844a4156e",
+          "holes": 54,
+          "template_ids_1based": [
+            10954,
+            13687,
+            13565,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-h55.txt",
+          "sha256": "49f7944b65e5d0ce310fa09123deaac997e2ecd34d37f36203c494d9e7a7a90f",
+          "holes": 55,
+          "template_ids_1based": [
+            10954,
+            13687,
+            2722,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-h56.txt",
+          "sha256": "83ccd966afbc2b60b90924eeda572825f041e8ca96f49603e91e416e9d4aa5a8",
+          "holes": 56,
+          "template_ids_1based": [
+            23739,
+            13687,
+            24020,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-h59.txt",
+          "sha256": "9a6dd0005daef3b3600ce9ba52efcd464746eebce5359ae553f74563f497ad87",
+          "holes": 59,
+          "template_ids_1based": [
+            23739,
+            13687,
+            24020,
+            6144
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-initial.txt",
+          "sha256": "cab130bf8e1e9114f1121ab27b52a73cfe52c655dd54eea22ecf4d6167468a0a",
+          "holes": 60,
+          "template_ids_1based": [
+            23739,
+            23172,
+            2506,
+            4598
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-sample0-after.txt",
+          "sha256": "0fda982d27d7ee3321b5dcf645af858ac068e9bfa21a19c022ed9b06ff452162",
+          "holes": 76,
+          "template_ids_1based": [
+            19813,
+            19591,
+            19138,
+            13455
+          ]
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-independent/cycle-sample0-before.txt",
+          "sha256": "d491ff711ec63158406b9be9c02f64b5991e6d7cb593cde7be7bab82dee52d77",
+          "holes": 72,
+          "template_ids_1based": [
+            19813,
+            19591,
+            19138,
+            13455
+          ]
+        }
+      ],
+      "fresh_operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample"
+        }
+      ],
+      "fresh_final": {
+        "event": "finished",
+        "best_holes": 54,
+        "proposals": 10818,
+        "seconds": 0.100202,
+        "restarts": 0,
+        "sampled_operations": 1,
+        "attempted": [
+          3797,
+          2722,
+          1593,
+          2706
+        ],
+        "accepted": [
+          353,
+          161,
+          18,
+          378
+        ]
+      }
+    }
+  ],
+  "scope": "Independent native construction gate only. No move-connectivity proof, exact exclusion, unrestricted bound or cover claim."
+}

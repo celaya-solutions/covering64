@@ -1,0 +1,57 @@
+{
+  "version": "v1.0.0",
+  "complete": true,
+  "cases": [
+    {
+      "id": "matching-029",
+      "hub_case": [
+        0,
+        2
+      ],
+      "status": "OPTIMAL",
+      "seconds": 4.91885841707699,
+      "primal_metrics": {
+        "max_domain_violation": 0.0,
+        "max_row_violation": 6.750155989720952e-13,
+        "numerically_valid": true,
+        "block_sum": 64.00000000000044,
+        "double_sum": 44.000000000000675,
+        "fractional_block_count": 396,
+        "fractional_block_mass": 55.40611029481642,
+        "positive_template_weights": 61
+      },
+      "certificate_pending_replay": false
+    },
+    {
+      "id": "matching-063",
+      "hub_case": [
+        0,
+        1
+      ],
+      "status": "OPTIMAL",
+      "seconds": 4.392580709070899,
+      "primal_metrics": {
+        "max_domain_violation": -0.0,
+        "max_row_violation": 7.602807272633072e-13,
+        "numerically_valid": true,
+        "block_sum": 64.00000000000027,
+        "double_sum": 44.00000000000076,
+        "fractional_block_count": 399,
+        "fractional_block_mass": 55.49116863514659,
+        "positive_template_weights": 67
+      },
+      "certificate_pending_replay": false
+    }
+  ],
+  "new_exclusions": 0,
+  "global_lower_bound": false,
+  "raw_directory": "experiments/scratch/four-seven-template-hub-refresh-108-20261003",
+  "hashes": {
+    "experiments/2026-10-03/four-seven-template-hub-refresh-108/run.py": "0b3c2b3e8cc6b8a395e2aa742939c75823c6849fb7f1694fb315320529ac5c43",
+    "experiments/2026-10-03/four-seven-template-hub-refresh-108/check_results.py": "5b5db5b411f78c6c4d8dde4c88820c2a6c7df03e3a7904a4d8dc5d527069a7b8",
+    "experiments/2026-10-03/four-seven-template-hub-refresh-108/readback-audit.json": "0f12b7d8c7d1a2636e2bc9713cd0117352f0e42ef4ff8847b24210ab18a8809e",
+    "experiments/scratch/four-seven-template-hub-refresh-108-20261003/results.json": "f0f15cf30d26b73da145011465a92f966b30d0c11c6dc0af8570f633d6dbce74",
+    "experiments/scratch/four-seven-template-hub-refresh-108-20261003/metadata.json": "7ac6ad717a9aee690ef4a076bbf744702a7811a2cdaaadfe7929c078b473bcd1",
+    "experiments/scratch/four-seven-template-hub-refresh-108-20261003/preflight.json": "5254efad74479da798f8d3753d598de2974c8a84602e15273882efb9a8ce4b43"
+  }
+}
