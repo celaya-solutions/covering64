@@ -1,0 +1,107 @@
+{
+  "passed": true,
+  "source_sha256": "b87a6ae3cf4282acc48b5cb7c6e66f55aba39b692d28897bdfd89edbe53314e9",
+  "verified_inputs": {
+    "experiments/2026-10-03/sqs-union-symmetry/certificate.json": "9e4dea39bbebaba8647ae02f492c579d05f83e628e8af9a330ce8d62fca02aa6",
+    "experiments/2026-10-03/sqs-union-symmetry/build_certificate.py": "8d25c35977c0a922acec9adaf7857435bd86ba7b1740380b4a16f68e0c95d0ee",
+    "experiments/scratch/new-construction-web-20261003/union-pool.json": "b1e0e13ac3787643b25e920d2ce8f83d7119dedcb3c78daaf8316e04510c68c6",
+    "experiments/scratch/new-construction-web-20261003/exact64-sqs-union.pbtxt": "d0a70c16b53c2399ed10eae2deb77b3c817e352a4fc950d7584291b3c249703f",
+    "experiments/scratch/new-construction-web-20261003/sqs16-affine.txt": "f80327f2ad0ad0633e31037027882b87fa69ad516aa09ce9656feec2951047c9",
+    "experiments/scratch/new-construction-web-20261003/sqs16-traded.txt": "2a1986fba22eee4e7c35a1ef9f9fcbd4204da43742170412daef22d857fcc6fa"
+  },
+  "certificate_sha256": "9e4dea39bbebaba8647ae02f492c579d05f83e628e8af9a330ce8d62fca02aa6",
+  "model_sha256": "d0a70c16b53c2399ed10eae2deb77b3c817e352a4fc950d7584291b3c249703f",
+  "pool_sha256": "b1e0e13ac3787643b25e920d2ce8f83d7119dedcb3c78daaf8316e04510c68c6",
+  "generator_count": 7,
+  "group_order": 1536,
+  "all_group_maps_explicitly_checked": true,
+  "stabilizer_order": 48,
+  "carriers": 30,
+  "orbits": 6,
+  "orbit_sizes": [
+    12,
+    8,
+    3,
+    1,
+    3,
+    3
+  ],
+  "representatives": [
+    [
+      1,
+      2,
+      9,
+      10,
+      11
+    ],
+    [
+      1,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      16
+    ],
+    [
+      9,
+      10,
+      11,
+      13,
+      14
+    ],
+    [
+      9,
+      10,
+      11,
+      13,
+      16
+    ]
+  ],
+  "representative_local_ids": [
+    132,
+    543,
+    1688,
+    1691,
+    1692,
+    1694
+  ],
+  "representative_global_ids": [
+    308,
+    1295,
+    4312,
+    4315,
+    4316,
+    4318
+  ],
+  "damaged_controls_rejected": [
+    "wrong-group-order",
+    "bad-generator",
+    "missing-generator",
+    "wrong-target",
+    "wrong-stabilizer-order",
+    "missing-carrier",
+    "missing-orbit",
+    "wrong-orbit-size",
+    "duplicate-orbit-member",
+    "wrong-carrier-map",
+    "wrong-local-id",
+    "wrong-global-id",
+    "wrong-pool-hash",
+    "wrong-model-hash"
+  ],
+  "solver_calls": 0,
+  "scope": "For any cover in this fixed pool, one pool automorphism maps a selected carrier to one of six representatives. This is a complete symmetry selection, not a requirement that a cover itself be invariant or a global bound."
+}

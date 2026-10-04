@@ -1,0 +1,1203 @@
+{
+  "passed": true,
+  "checker_sha256": "ade6883d7f1fad3ccf04b6c0e70442048b9cb0adca00100556e4d375008805f4",
+  "source_checker_sha256": "b672179a4b3f022714c31340c0326baad3acd85cef3aeffb49372f2e27240c11",
+  "source_sha256": "08efce024da6d66001beb1eb10bd45b865df99b29f22c6dc01d1199fc06c1b38",
+  "manifest_sha256": "23e8ecc480b3e1621242a6a2ee2d2390c58dcd6dff55b82fddec49f6e2bf9b74",
+  "result_sha256": "37fbf3f1cfa4aa7040ee7fb1482729aca481380913df83ae0da6a50715ed5384",
+  "states": 45,
+  "operations": 16,
+  "both_cover_checkers_on_every_saved_state": true,
+  "complete_lookahead_sets_checked": true,
+  "damaged_fields_rejected": 10,
+  "damage_controls": [
+    "holes",
+    "score",
+    "base_score",
+    "cut_lhs",
+    "cut_rhs",
+    "cut_violation",
+    "cut_penalty",
+    "cut_denominator",
+    "unsupported_count",
+    "admissible_count"
+  ],
+  "raw_best": {
+    "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "holes": 10,
+    "score": 82,
+    "base_score": 82,
+    "cut_lhs": 118449,
+    "cut_violation": 0,
+    "cut_penalty": 0,
+    "unsupported_count": 0,
+    "admissible_count": 680,
+    "heavy_excess": 0,
+    "checks": {
+      "package": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+      },
+      "standalone": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+      }
+    }
+  },
+  "score_best": {
+    "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "holes": 10,
+    "score": 82,
+    "base_score": 82,
+    "cut_lhs": 118449,
+    "cut_violation": 0,
+    "cut_penalty": 0,
+    "unsupported_count": 0,
+    "admissible_count": 680,
+    "heavy_excess": 0,
+    "checks": {
+      "package": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+      },
+      "standalone": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+      }
+    }
+  },
+  "snapshots": {
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-best.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": 118449,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-after.txt": {
+      "sha256": "d616c4d18733a4cac1df88fdd32440c22f88afccddf28e912834c19273b8b7c2",
+      "sidecar_sha256": "943c33aa8f343169cdbbd26b1bd12f192674836e817560dc2bc6a151a58734f0",
+      "holes": 17,
+      "score": 132,
+      "base_score": 121,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8c847256918959eb18977df74885853f14289e17d7cc69e3de641afcccd9398d"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "c2efbe8baa1de40d213fecbc4e4a8eb537098f2197229209e1a093b80fc077de"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-before.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-rollback.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-after.txt": {
+      "sha256": "cbe9088add81ee5cc613d1e72956a4628c81fbd6811fbd702e4756f26b6a460a",
+      "sidecar_sha256": "2d63073af683aabc0097dfaddbad93a691f8b9650b12ed771beebe0814ec089a",
+      "holes": 18,
+      "score": 147,
+      "base_score": 136,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3bed480711c061b09044af47ca335f35b23a85a556d47048bcdd4279673f64f0"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2f079260a5fb35442ca84d788e12f7e33a2754d2d91e4064b84ac849b320983e"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-before.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-rollback.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-after.txt": {
+      "sha256": "7204918b731820034b2af8698f029d7cf28889541382a2de1fbb879e184d2497",
+      "sidecar_sha256": "d01fe7bd1b38714f12e8d1fef52e0f76fa7846e1fd3943371b62eb3be67b1d15",
+      "holes": 33,
+      "score": 232,
+      "base_score": 221,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "bf5a482145b9aa10634054a2c63c0519743531aff76330cbb4ce53dbfa5befef"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e1bad1c61fca9e0495162d57637e7702de2d0878067bd7ff4266d68a2019f845"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-before.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-rollback.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-after.txt": {
+      "sha256": "f42327446aa79201feb6a1799155e92b1e7fd79e93ceb06ed152880ba8ec0b83",
+      "sidecar_sha256": "c8fa2a018f92010c3ba2374031b2e67539f48c6d2a63732b53c8f65783cf0091",
+      "holes": 16,
+      "score": 126,
+      "base_score": 123,
+      "cut_lhs": 106301,
+      "cut_violation": 2385,
+      "cut_penalty": 3,
+      "unsupported_count": 0,
+      "admissible_count": 534,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "c59e8b931459cef66bb8cf702fc20ed109040e1e40e79a42af8e9f8db620b466"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "aa24390464c9a1670243bdaff23ffe7dd82be9a37af127fafdaae0fa3caf08b6"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-before.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-rollback.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5ae1328c341d2406ac0f5d4c4c53ad7b21be19ab728d796976adc58dfc527744",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-initial.txt": {
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+      "holes": 10,
+      "score": 89,
+      "base_score": 78,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f521dbb848a426097788defdf3f73fa13123e2168a4eb835f53e31270e68636a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3d871f9afddce134efcd3a26d740bb99da88e121af66010a359700edd0a33758"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-best.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": 118449,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-h10-s82.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": 118449,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-h10-s84.txt": {
+      "sha256": "5ab4b7774ae7cbfe1ea286cfd15cc5cd7d7600ebd1ee83cbfa531d7571b8bf19",
+      "sidecar_sha256": "30c71c5c4376b3f6c8f6c5d82c9e8a71461ed2adfad889e1bde5ec4d611d3788",
+      "holes": 10,
+      "score": 84,
+      "base_score": 84,
+      "cut_lhs": 121991,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 633,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "efb2549e2bbcf62a324053e90d7e56a35d7dfffa52c8ad6008d56eae5e1410f1"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8fb4021ef28b4613bb904a9ed075a6fe2b435b472a83cd97234a52afb0200392"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample0-after.txt": {
+      "sha256": "a8f16cc140317183eef60145339a94f47cf3d899e9f47b6b612bdbbd356c7087",
+      "sidecar_sha256": "5d94b03749190a888213c52c92c8e3cb6821f3792f6110901757ea2ceda9b6ac",
+      "holes": 50,
+      "score": 310,
+      "base_score": 310,
+      "cut_lhs": 141897,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 558,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8523312ebe501c465dd0234a6aad630ef89aed156b18cd748beef98d166b99eb"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9dbcc69635900e41a8e48bfcc8a60d328ab9a7eb980fc5f5c04549bcd9f3421e"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample0-before.txt": {
+      "sha256": "d9f7b790760c07954727f788d76a942610d242b1c6b35bbf796aa55e6ec1a5ca",
+      "sidecar_sha256": "3ddeae174a51c54d45d0b418f76ff59dda6563cb105653fe6c9a96560e3e951f",
+      "holes": 51,
+      "score": 315,
+      "base_score": 315,
+      "cut_lhs": 141897,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 558,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3e77c189130450e928efdc01e585aaa16bf105fc73e28d8eb025b435191d7885"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "5bcb1c2777b3fb28c2cc42c586a06b81e9c8a0c22b6ddd7c46fe0e854248b5e0"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample1-after.txt": {
+      "sha256": "4c5b46e02b441ab672d6e1136411d56ae1626992eb4e9c92f645cd234bd96861",
+      "sidecar_sha256": "0b21033e97550f1ba3481ec555ba519c0d1d08313c75bc93749858cc4abfb506",
+      "holes": 42,
+      "score": 257,
+      "base_score": 257,
+      "cut_lhs": 140750,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 533,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "240744692d911a6d578aef6965689f561aecef2e4e47c3386116eec68032f8ef"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d8eb0d782eaa6d5c205656ffa3eba4b7a711be4a7b7969189f658ea323ee6627"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample1-before.txt": {
+      "sha256": "7f648a0ba381993fdbe811cf83d1061fc013bba98b4ddd33fde9a57c1490d0b9",
+      "sidecar_sha256": "b56f866fea1c2937f09ba8c10df968b74ab1fbc83e840ca83953403932d0ab39",
+      "holes": 42,
+      "score": 255,
+      "base_score": 255,
+      "cut_lhs": 140750,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 533,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a3af01719287d717acbf1c8c4d0f9c4af2741fbc5d603f93d8f18d44fcc4dbd9"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a583adb0588e8d57062ea4a5afdbf002142977f0155b47095753c97aceea16af"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample10-after.txt": {
+      "sha256": "d90259a9069c6dd9855c4b18a9b1555336d406d03c00a2cfd2ad12def2678b49",
+      "sidecar_sha256": "a247af35438f817987e8fb405123cd63704791b08622b88e8bcc7ef7aa121711",
+      "holes": 43,
+      "score": 262,
+      "base_score": 262,
+      "cut_lhs": 138856,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 651,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d68273e010bf028b4c8b85ad387e3d2154922ef2471b5c430282da117356d21e"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e2353f188bc8d88a1b637d414581f9793e3d63233b4f1c99a3ff97450b9b98fb"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample10-before.txt": {
+      "sha256": "640dcc14f0f2dc397510f346777cc7fa5fc0f1de21c5a0090c43c32a57cf1c25",
+      "sidecar_sha256": "937043a4422d9902dbd2876a3ddedcd16b0daccaae304027eff3443ad392e568",
+      "holes": 44,
+      "score": 262,
+      "base_score": 262,
+      "cut_lhs": 138856,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 651,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ce515fe1c47383b8a0428115b29ee7bdbbee0b6984c2355b0ff6d7e37b1a1ba6"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "503c62170791e2c57fc338cff3fb3cd839d3fd18a4f5f53a3085d1bd468a0d7d"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample11-after.txt": {
+      "sha256": "85bafeeb91ca2c61b1aa25a4447baa059bb128f9c862e68016a569b4c120bac7",
+      "sidecar_sha256": "df42ff93f2b9a57828328c66061264abb00cffdd50d461da83f9a7c4380f37ae",
+      "holes": 61,
+      "score": 380,
+      "base_score": 380,
+      "cut_lhs": 148227,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 651,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b06749f499b97573140d7c02a7fee015d1a8c3fad2b85555bc585d7f10a187c7"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9adb3276f550577e4b86216c8be1296084c72bb29873a02471e73998917845ea"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample11-before.txt": {
+      "sha256": "c803ecdcfa280626604e125f61dc887f6db7ade45dc8b1c02d93a73dbe175373",
+      "sidecar_sha256": "458e31fed3fef43d801efe1f6c4e75206eba98e635902b8bb6c81caa70af3499",
+      "holes": 62,
+      "score": 387,
+      "base_score": 387,
+      "cut_lhs": 148227,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 651,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "7a603de622e405fa89c8d2e421ee7ea1c75e3d718c0cfb31b179b3f214bd20f0"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "6bf3c4682a9a464f0cb35707d2b55cf79baa29d826217841804859127db63854"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample2-after.txt": {
+      "sha256": "56e450d7d4ed4a7df27856fe1210090aeb1a138828dfcfc8baa21ab5c87a0cec",
+      "sidecar_sha256": "c2268ec7291ed7ec2efe4a5439e20cb159a09d3e3b21be519a3a8cc4336088a3",
+      "holes": 54,
+      "score": 353,
+      "base_score": 353,
+      "cut_lhs": 130146,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 622,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "4234a51c88aec8aed4bb5056f8888a167bc784bd2808175a8c127739cfadc713"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "47c33a9d26d31a9fa568b2ba835be4a6adeae9cce26ee81de202eb2c79df0534"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample2-before.txt": {
+      "sha256": "0c04cabf36c8b8cb2efceacd49a50426c1cc4bde53193a4ea627d37d91b55c47",
+      "sidecar_sha256": "c2268ec7291ed7ec2efe4a5439e20cb159a09d3e3b21be519a3a8cc4336088a3",
+      "holes": 54,
+      "score": 353,
+      "base_score": 353,
+      "cut_lhs": 130146,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 622,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2f268cd976044f37626837fdbe7157cfc967becb574cfbf100b043b5422cb612"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "7dd75e80929f9b05d2f64408fdad47faa898ff5e4e1ce7058ae4f94ad6fcb927"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample3-after.txt": {
+      "sha256": "c341e2d9af4babda4d6155761857834daae039b267fd3726a3f7dbfa743b0ff4",
+      "sidecar_sha256": "334b29c808ae47fb0270a528ffbf307f8c0e650058a98754ea5b8b9606563a79",
+      "holes": 62,
+      "score": 391,
+      "base_score": 391,
+      "cut_lhs": 144608,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 566,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "871da9ac2be7d3cbc965da27f7430ab95cf396f82fc517d44b6abf38b0119944"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "98c7b1e0d6f78d34a466f0656b1895b126d0cb8686efba5ecdb939e8594d3120"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample3-before.txt": {
+      "sha256": "7e39cf3109292c1871d095110c4f2560d1cb8f3e34ae3ba483c56800b594c732",
+      "sidecar_sha256": "fbfed5b76d91fffc15f98479ddf75bbc5f449c775341756ec7bd023e223c541d",
+      "holes": 61,
+      "score": 386,
+      "base_score": 386,
+      "cut_lhs": 144608,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 566,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "20ca74262acc8edcd273befb42e03eae86048e8ae44bada948c7304c3e9475eb"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9a9d89c81fc45b953c55b0537cc5d99bd0aa42d2bb077f9a28e7d797f7e80378"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample4-after.txt": {
+      "sha256": "274d3134b832fafc18f15bfad1536770d64773b2c208057222e35057015821eb",
+      "sidecar_sha256": "1f720ef0090abd2471c76641087d46b3ee1953fafa1e9152f75f66697ab68cc9",
+      "holes": 50,
+      "score": 310,
+      "base_score": 310,
+      "cut_lhs": 132698,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 628,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "58c781cd6d9d8d502f8b68943497b0e2ed33500b63d576862cad80040167ae47"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f0cc5c7389d305476fc8e9e5fd9149a79929b272b6e096d563a29606eb6c6322"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample4-before.txt": {
+      "sha256": "d0ed7bfde0824608e10ef7ddc419fe371f9bf7f4d4a8ce78b6e431d00148faad",
+      "sidecar_sha256": "99d9f1861a767473d2ebbf4fb928c96a6198bf3f62be95c334719cf721d0d059",
+      "holes": 50,
+      "score": 301,
+      "base_score": 301,
+      "cut_lhs": 132698,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 628,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "93c13d92de567bef9641a48129a5f6424e9b39a2e50722ff50d092d39b5b482d"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "c9a9d327cf5ac5e814a96d8b6938910616abd1428fa197180698839f31ac242c"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample5-after.txt": {
+      "sha256": "5f0875019c2517e8abe8025c7a29993c764d35af8811fec461aa2064e307d9e3",
+      "sidecar_sha256": "a528050bd24182ff1a55503998bdf550ad87a3fecef35c1984ea3e714e774a07",
+      "holes": 57,
+      "score": 359,
+      "base_score": 359,
+      "cut_lhs": 137427,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 616,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "cdf98ffa2e861e8a70f4e975c055fd65bd9e0ff460034f07768535d9d3adc13b"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e5e8dbf1b5ac37e2491b0b6b41fd1125c37bfa48c47da4ce24fb0a33a66fcaa4"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample5-before.txt": {
+      "sha256": "5b4ea37f03e31a3b2f45cb8ec7f1e994d5cf2fd45394a03263ae3fa7df46e223",
+      "sidecar_sha256": "da35c9a73217c44536929a307ab47f415600aeaad8e12f3f808d7d8575838719",
+      "holes": 56,
+      "score": 351,
+      "base_score": 351,
+      "cut_lhs": 137427,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 616,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2aa3eae39f628977eaf01258de4e58ef5daa5a29f96489720a783decbc33d184"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "0a44db11ba638c40402246f613943d2fdfc452da8a142c400ee8cf94513622f1"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample6-after.txt": {
+      "sha256": "2ab53c6703117196dfc26136124270f33d1e6a033d387c1d500b4f9d98f061e6",
+      "sidecar_sha256": "4eb9ea366622993e1b26d86bce0be2c649cd7703919fc61dee66b32481c9182d",
+      "holes": 48,
+      "score": 304,
+      "base_score": 304,
+      "cut_lhs": 145336,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 614,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f958b06d4e673490ed47f91648c930b66b29c1c179b6a64d284c9a7b991b96f0"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d73413084034c4e4d7077987722e5b9b96a9befbac48eed1f0b7fd96025ac021"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample6-before.txt": {
+      "sha256": "5e5b5743673016945342499657e87347a67073990a6e50062463339b977fac22",
+      "sidecar_sha256": "21ce966dd10005ef926899811b1816e5e634ec130a932af371d5b969f7c6c601",
+      "holes": 48,
+      "score": 295,
+      "base_score": 295,
+      "cut_lhs": 145336,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 614,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e8276df0e21692a99ad20696b5e550e89a354419f3d25e4bfd7d23fefd4bb713"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ec12e6e9f03ec6640866bd6d91acd404868003cb42807e7833d302916745a27b"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample7-after.txt": {
+      "sha256": "f4abb138b9a8f16e0608697fe55d95ee7e6649e92704501c98b4dee3d5b21f8a",
+      "sidecar_sha256": "3b433c78aa5fa42635cca9db835049b85e29afb3fad30f68d57707562ec0276d",
+      "holes": 31,
+      "score": 188,
+      "base_score": 188,
+      "cut_lhs": 139455,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 582,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8c7e479e000461d23117d3ebb6aaabe78112b1ebf40f1223bf96e8b59279a854"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "89c221e36c01323707e85b86f41d5b4992d3e40e55cfb730daaffd54be9663d3"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample7-before.txt": {
+      "sha256": "a53db8e09dcac4c32937e71ea60997d3639ad22ad44c7bd8e1a17bbbc504bff4",
+      "sidecar_sha256": "3b433c78aa5fa42635cca9db835049b85e29afb3fad30f68d57707562ec0276d",
+      "holes": 31,
+      "score": 188,
+      "base_score": 188,
+      "cut_lhs": 139455,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 582,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "882e130b28e177c6a64b0164e72da8aed119f0bf11fa30a008c1aa903dd1f943"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f2f116ca6ae11815be1b0691e5e2da3a61d0158b136694dcd3de85cac72b8add"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample8-after.txt": {
+      "sha256": "d41008e573c3220ae5b1e701802e783768a9d37f6f23f36dc188fea9225ea01f",
+      "sidecar_sha256": "864871ef6c35331c33916f53fe7e9211547675616297345502a6b651d777ff6f",
+      "holes": 54,
+      "score": 338,
+      "base_score": 338,
+      "cut_lhs": 145287,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 635,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "029528aed0304fafd1e2e04c5cc0d5f49f5a04a0362b43fc8f910c6b73785d00"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "646b94b06361da7dfbb0e4fcf3efd5d3ce1fc6ba419effe9754880188bd2c579"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample8-before.txt": {
+      "sha256": "f80e9cf306812ca633081e0301aac6a62cfdba057d239c885250ebef04b87173",
+      "sidecar_sha256": "31e109432c6c4dae864459e733f4b7ab3720c2560794353ca61ddd74e14b7a82",
+      "holes": 54,
+      "score": 347,
+      "base_score": 347,
+      "cut_lhs": 145287,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 635,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "097cac6f355c34f7e77ab3428c2ee689e234a8218b1d7a80d9cd0a5b53fad633"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "91fc2abc3b8653ad2111f3453a1531e33bcd08e74bd4fd65c2a6cc071d474156"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample9-after.txt": {
+      "sha256": "4f87a4a3a07d29e90e57dcbd7a39dbff089a9d2658e81742a6aeefecc15f45d1",
+      "sidecar_sha256": "cb7167ff5572c3d9881653b29749de11a903fbab8138396917c1427bae743da8",
+      "holes": 44,
+      "score": 266,
+      "base_score": 266,
+      "cut_lhs": 140481,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 708,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "bbcd1de15887c485a432b966096b25fa0ac950c0846f6a23e89ee939d8d32fb3"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "4f9b6ece1e1595ac34193b004e5aeeee81d1d0b56a902d62acdf7069fa8d0a26"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample9-before.txt": {
+      "sha256": "399897778ca94d86217ed88b7dd44ce0bed7434122d82ca3cd7439409b4c958f",
+      "sidecar_sha256": "928a194e38377ad70552016d1ca5126cc405283a402d292f664917d6fa80f8df",
+      "holes": 43,
+      "score": 250,
+      "base_score": 250,
+      "cut_lhs": 140481,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 708,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a972757c57e3e25597adeaf1825b5409ca97a88558509ee3de2aa5ca41a58419"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "1d7e76e26276d10dfa3486bf1747bc08f0fdfb163d567c97badb7a685847e987"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-best.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": 118449,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s82-h10.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": 118449,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s84-h10.txt": {
+      "sha256": "5ab4b7774ae7cbfe1ea286cfd15cc5cd7d7600ebd1ee83cbfa531d7571b8bf19",
+      "sidecar_sha256": "30c71c5c4376b3f6c8f6c5d82c9e8a71461ed2adfad889e1bde5ec4d611d3788",
+      "holes": 10,
+      "score": 84,
+      "base_score": 84,
+      "cut_lhs": 121991,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 633,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "efb2549e2bbcf62a324053e90d7e56a35d7dfffa52c8ad6008d56eae5e1410f1"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8fb4021ef28b4613bb904a9ed075a6fe2b435b472a83cd97234a52afb0200392"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s84-h11.txt": {
+      "sha256": "59af9aa1b31d72ab3933aa5fdf5e96becf3b4c287cfe95717dd933ffefccd50a",
+      "sidecar_sha256": "7477087e78bd310c39d888325eabbc3ec125e6a5170f9d35f68e29614e2b6920",
+      "holes": 11,
+      "score": 84,
+      "base_score": 83,
+      "cut_lhs": 107994,
+      "cut_violation": 692,
+      "cut_penalty": 1,
+      "unsupported_count": 0,
+      "admissible_count": 749,
+      "heavy_excess": 0,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "0e817a8730c589e63e97a99eb6705f4ddc1eac8653a5c352a9f2f63785c8a4c3"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9682505c10287e21d19c552a2f788b383c25b52f5eda850e0f8c83d32915d810"
+        }
+      }
+    }
+  },
+  "scope": "Construction-only pilot. Positive hole counts are not covering witnesses; the labeled cut is only a regular-template score guide."
+}

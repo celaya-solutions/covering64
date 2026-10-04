@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.10.0
+Version:     v1.11.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      b380878ab82eb494759b3992f89ad98aea24d9e5aebabcc5a76c68cb018c79d2
+SHA256:      54456e693d33f47cdb6b84e0fb95b3018e21b8590567ff1b8cca14cc79103e79
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -374,5 +374,111 @@ gap 5271/500. Five damaged certificates were rejected.
 This proves that the ten-hole state's fixed 28 heavy blocks cannot complete in
 the regular four-sevenfold family, even with every hub graph allowed. It does
 not exclude a complete first-link representative or change the 109-entry
-first-link exclusion union. A reusable inequality in variable heavy patterns
-has not yet been derived or audited.
+first-link exclusion union. The reusable inequality in variable heavy patterns is now derived and independently
+audited, as recorded below.
+
+
+## Integrated main and reusable heavy-pattern cut
+
+The research histories were merged at `deeaaca413d5032eb5ec37d1ef8499fae4af93cc`
+and pushed to the private repository's `main` branch. Remote and local commit
+IDs matched. The merged tree passed 369 tests (three existing SWIG warnings),
+`uv sync --frozen`, and Ruff. The receipt is in
+`experiments/2026-10-03/main-integration/validation.json`.
+
+The fixed-heavy dual now yields a necessary inequality in all 276 legal heavy
+block indicators, in global lexicographic order. The constant numerator is
+108773 and the 1200 combined ordinary columns have box maximum 87. Therefore
+`sum(c_b h_b) >= 108686`. The old ten-hole tuple has value 98144 and violates
+this inequality by 10542, or 5271/500 using the dual denominator 1000.
+All six hub graphs remain permitted. This is a conditional regular
+four-sevenfold-family cut, not an unrestricted reduction or another whole
+first-link exclusion.
+
+The construction checker rejects 15 damaged inputs. A separate root checker
+reconstructs all 697 rows directly from point incidences, replays all 531 signed
+weights, and rejects six damaged cuts. Its receipt is
+`experiments/2026-10-03/lookahead-cut-independent/audit.json`; the coefficient
+file and symbolic row map are in `lookahead-parametric-cut/`.
+
+## Joint partial-core pilot
+
+A new model retains all 4368 block variables, selects exactly 64 blocks, and
+restricts original-label core overlap to 52 through 55. All 560 hole indicators
+are exact in both directions; their sum is minimized. There are no point-degree,
+regularity, rotational, or hole-ceiling assumptions. This overlap band is a
+construction restriction, not a complete reduction. Root independently rebuilt
+all 1122 rows and the objective, checked the entire feasible hint, and rejected
+seven damaged models before the run.
+
+The 180-second, one-worker pilot (seed 2026103991) returned FEASIBLE with 11 holes,
+exactly its initial hint, and objective lower bound zero. It found no improvement.
+Both cover checkers agree on its deficits. A separate containment screen completed
+319 group nodes and found no relabeled 60-block core, but the state has five
+disjoint heavy triples with counts 6, 7, 6, 6, 7, the previously proved obstructed
+profile. It is not a useful escape seed. No global conclusion follows from this
+pilot. Artifacts are in `experiments/2026-10-03/partial-core-holes/`.
+
+
+## Cut-guided native pilot and relabeling screen
+
+The optional native guide adds `ceil(max(0,108686-heavy_sum)/1000)` to the
+existing score. It changes no admissible states and keeps unconditional
+zero-hole acceptance. The default remains off. The original source is unchanged.
+Before the pilot, all 148248 catalog templates were checked in optimized and
+sanitizer builds, with 296496 sum comparisons, 130 saved-state checks, 40 forced
+operations, and 12 damaged fields rejected. Default-off trajectories matched
+the original implementation.
+
+One 300-second native cycle pilot, seed 2026104722, made 81057018 proposals.
+Its best has ten holes and score 82, with no unsupported triples, 680 admissible
+ordinary blocks, and labeled-cut value 118449. All 45 saved states and 16
+operations passed the independent audit and both cover-verifier recounts.
+The best witness SHA256 is
+`b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93`.
+
+Root then enumerated all 31104 template-preserving relabelings of the checked
+cut. None excludes this new heavy tuple: minimum value 116376 exceeds threshold
+108686. The maximum is 158119. This escapes the entire known cut orbit, but does
+not establish that the tuple extends to a cover. A fresh strengthened completion
+model is the next diagnostic. The unrestricted best remains three holes.
+
+The orbit check itself received a separate review: independent group closure,
+two full-witness relabeling controls, ten malformed/family-invalid controls,
+and exact coefficient replay all passed. Its version 1.1 binds hashes to the
+exact captured input bytes; the earlier frozen baseline remains valid.
+
+## Steiner quadruple extensions and certified representatives
+
+Fresh primary literature identified 1054163 isomorphism classes of SQS(16):
+Kaski, Ostergard and Pottonen, *The Steiner quadruple systems of order 16*,
+[DOI 10.1016/j.jcta.2006.03.017](https://doi.org/10.1016/j.jcta.2006.03.017).
+The tested construction uses two explicit seeds, not that full classification.
+An affine seed and an eight-for-eight parity trade each partition the 560 triples
+into 140 quadruples. Their binary ranks are 11 and 12, so they are nonisomorphic.
+Each full five-point extension pool has 1680 blocks; their union has 1744.
+Selection is unrestricted within this pool, with no block-orbit invariance,
+one-extension-per-quadruple, point-degree, or regularity assumption.
+
+Independent reconstruction checked the two triple partitions, every pool member,
+all 561 rows of the exact64 model, malformed controls, and positive controls
+through both covering verifiers. A 180-second, one-worker pilot (seed 2026104001)
+returned UNKNOWN with no witness.
+
+A finite certificate checks 1536 pool automorphisms. The stabilizer of triple
+(9,10,11) has order 48, splitting its 30 carriers into six orbits. Every pool
+cover has some relabeling containing a chosen representative. Adding their
+six-variable OR therefore preserves satisfiability within this pool; it does
+not assume the cover is invariant under any permutation. Root independently
+replayed all 30 maps and checked that removing exactly this new row restores
+the entire original protobuf. Seven damaged models/certificates were rejected.
+The reduced 562-row model returned UNKNOWN after its separate 180-second,
+one-worker pilot (seed 2026104011), again without a witness. Both saved result
+readbacks rejected twelve damaged results. These timeouts are inconclusive.
+
+The next constructive test is a strictly pool-restricted 64-block hole search,
+with its greedy initialization and every legal initial exchange independently
+audited before a short run. All current checked results are saved in the
+`new-construction-web`, `sqs-extension-independent`, `sqs-union-symmetry`, and
+`sqs-union-symmetry-pilot` folders. The complete regression suite passed 369 tests
+with three existing warnings, and Ruff passed.

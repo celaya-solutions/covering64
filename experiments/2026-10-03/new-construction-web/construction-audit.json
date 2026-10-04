@@ -1,0 +1,188 @@
+{
+  "passed": true,
+  "utc": "2026-10-04T05:20:49.951824+00:00",
+  "source_revision": "deeaaca413d5032eb5ec37d1ef8499fae4af93cc",
+  "source_sha256": "4052462dcc66ab4a8065d4210bcefb20034fcad50c95ba26f40ae72e8e4ce04b",
+  "paper_sha256": "5f7ac51535fe88d86664c97862b45709b228fcaf0c1da10a4ab2eded231f30b9",
+  "previous528_pool_sha256": "d88f826ebae519e09b5e6a0a0c1fcde1420ce5116a15de4c2b5430f0e1ec569a",
+  "seed_binary_ranks": [
+    11,
+    12
+  ],
+  "positive_trade": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      7,
+      8
+    ],
+    [
+      1,
+      3,
+      6,
+      8
+    ],
+    [
+      1,
+      4,
+      6,
+      7
+    ],
+    [
+      2,
+      3,
+      5,
+      8
+    ],
+    [
+      2,
+      4,
+      5,
+      7
+    ],
+    [
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      5,
+      6,
+      7,
+      8
+    ]
+  ],
+  "negative_trade": [
+    [
+      1,
+      2,
+      3,
+      8
+    ],
+    [
+      1,
+      2,
+      4,
+      7
+    ],
+    [
+      1,
+      3,
+      4,
+      6
+    ],
+    [
+      1,
+      6,
+      7,
+      8
+    ],
+    [
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      2,
+      5,
+      7,
+      8
+    ],
+    [
+      3,
+      5,
+      6,
+      8
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "pools": [
+    {
+      "name": "affine",
+      "blocks": 1680,
+      "sha256": "3d81b850fad6a77c528f4f7debef9f7d07dd2f4ebc8642d1b7b9f021916dfd65",
+      "support_histogram": {
+        "30": 560
+      },
+      "intersection_with_previous528": 240,
+      "new_blocks_outside_previous528": 1440
+    },
+    {
+      "name": "traded",
+      "blocks": 1680,
+      "sha256": "0833c3edee85fdf7bb49e7a46d73ab651016eb8f9699e76458f187d8cca6ab8d",
+      "support_histogram": {
+        "30": 560
+      },
+      "intersection_with_previous528": 224,
+      "new_blocks_outside_previous528": 1456
+    },
+    {
+      "name": "union",
+      "blocks": 1744,
+      "sha256": "b1e0e13ac3787643b25e920d2ce8f83d7119dedcb3c78daaf8316e04510c68c6",
+      "support_histogram": {
+        "30": 336,
+        "32": 192,
+        "38": 32
+      },
+      "intersection_with_previous528": 240,
+      "new_blocks_outside_previous528": 1504
+    }
+  ],
+  "double_verified_seeds_and_controls": [
+    {
+      "file": "experiments/scratch/new-construction-web-20261003/sqs16-affine.txt",
+      "sha256": "f80327f2ad0ad0633e31037027882b87fa69ad516aa09ce9656feec2951047c9",
+      "blocks": 140,
+      "k": 4,
+      "both_verifiers_passed": true
+    },
+    {
+      "file": "experiments/scratch/new-construction-web-20261003/sqs16-traded.txt",
+      "sha256": "2a1986fba22eee4e7c35a1ef9f9fcbd4204da43742170412daef22d857fcc6fa",
+      "blocks": 140,
+      "k": 4,
+      "both_verifiers_passed": true
+    },
+    {
+      "file": "experiments/scratch/new-construction-web-20261003/affine-extension-positive-control.txt",
+      "sha256": "99d2cbe3111788b8cdb239e25fe26c2c590b3d16201591dcc1e505c3d898b0f4",
+      "blocks": 140,
+      "k": 5,
+      "both_verifiers_passed": true
+    },
+    {
+      "file": "experiments/scratch/new-construction-web-20261003/traded-extension-positive-control.txt",
+      "sha256": "5fce30d2ce4aef85be09ae2895603322898630b3e850734d04461be1e6de7935",
+      "blocks": 140,
+      "k": 5,
+      "both_verifiers_passed": true
+    },
+    {
+      "file": "experiments/scratch/new-construction-web-20261003/union-extension-positive-control.txt",
+      "sha256": "99d2cbe3111788b8cdb239e25fe26c2c590b3d16201591dcc1e505c3d898b0f4",
+      "blocks": 140,
+      "k": 5,
+      "both_verifiers_passed": true
+    }
+  ],
+  "damaged_seed_controls": 5,
+  "damaged_pool_controls": 9,
+  "solver_calls": 0,
+  "cover64_found": false,
+  "scope": "Two explicitly constructed SQS16 seeds and their lifted pools; no theorem concerning all64-block covers or allSQS16 designs."
+}

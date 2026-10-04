@@ -1,0 +1,1087 @@
+{
+  "passed": true,
+  "checker_sha256": "b672179a4b3f022714c31340c0326baad3acd85cef3aeffb49372f2e27240c11",
+  "source_sha256": "08efce024da6d66001beb1eb10bd45b865df99b29f22c6dc01d1199fc06c1b38",
+  "cut_sha256": "9b946f1dbb41f49495a2303b1cac8b2de8a68e0e2eca2aa455dab02f5c5872c1",
+  "oracle_sha256": "c6e14bd206c1354eb05ac700344651d0e90ebe1726e3ee9728e5f7e8adb2636f",
+  "binaries": {
+    "search": "7ad0bf045b7a362740726942ef78c823bde1a0d7866ce338fa2880e97978a7bd",
+    "search-sanitized": "20d3b09e2f23159f76d9dc973d5b76d021b956c4baf74e4bcd9da75a653195be",
+    "search-original": "4b7227970589f5eb3f9b5db1b3521ee3908f68ef8cd71d04d31ea5df48d8aaef"
+  },
+  "catalog_sums_compared": 296496,
+  "unique_catalog_templates": 148248,
+  "states": 130,
+  "unique_verified_states": 10,
+  "operations": 40,
+  "damaged_fields_rejected": 12,
+  "damage_controls": [
+    "holes",
+    "base_score",
+    "score",
+    "unsupported_count",
+    "admissible_count",
+    "heavy_excess",
+    "cut_lhs",
+    "cut_rhs",
+    "cut_violation",
+    "cut_penalty",
+    "cut_denominator",
+    "cut_enabled"
+  ],
+  "snapshots": [
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "holes": 23,
+      "score": 165,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "holes": 25,
+      "score": 184,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "holes": 28,
+      "score": 193,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "holes": 27,
+      "score": 179,
+      "cut_lhs": 139942,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-off/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "holes": 23,
+      "score": 165,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "holes": 25,
+      "score": 184,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "holes": 28,
+      "score": 193,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "holes": 27,
+      "score": 179,
+      "cut_lhs": 139942,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-on/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "holes": 23,
+      "score": 165,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "holes": 25,
+      "score": 184,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "holes": 28,
+      "score": 193,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "holes": 27,
+      "score": 179,
+      "cut_lhs": 139942,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-off/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "holes": 23,
+      "score": 165,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "holes": 25,
+      "score": 184,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "holes": 28,
+      "score": 193,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "holes": 27,
+      "score": 179,
+      "cut_lhs": 139942,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-sanitized-on/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "holes": 23,
+      "score": 165,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "holes": 25,
+      "score": 184,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "holes": 28,
+      "score": 193,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "holes": 27,
+      "score": 179,
+      "cut_lhs": 139942,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/matching-search-original-off/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "holes": 17,
+      "score": 116,
+      "cut_lhs": 134657,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "holes": 16,
+      "score": 127,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "holes": 19,
+      "score": 136,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "holes": 21,
+      "score": 141,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "holes": 17,
+      "score": 131,
+      "cut_lhs": 110738,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-off/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "holes": 16,
+      "score": 138,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "holes": 19,
+      "score": 147,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "holes": 21,
+      "score": 152,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "holes": 17,
+      "score": 131,
+      "cut_lhs": 110738,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-on/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "holes": 16,
+      "score": 127,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "holes": 19,
+      "score": 136,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "holes": 21,
+      "score": 141,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "holes": 17,
+      "score": 131,
+      "cut_lhs": 110738,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-off/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "holes": 16,
+      "score": 138,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "holes": 19,
+      "score": 147,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "holes": 21,
+      "score": 152,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "holes": 17,
+      "score": 131,
+      "cut_lhs": 110738,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-sanitized-on/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 89,
+      "cut_lhs": 98144,
+      "cut_penalty": 11
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "holes": 16,
+      "score": 127,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "holes": 19,
+      "score": 136,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "holes": 21,
+      "score": 141,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "holes": 17,
+      "score": 131,
+      "cut_lhs": 110738,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cut-v1.3.0/controls/cycle-search-original-off/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "holes": 10,
+      "score": 78,
+      "cut_lhs": 98144,
+      "cut_penalty": 0
+    }
+  ],
+  "disabled_matches_original": true,
+  "optimized_and_sanitized": true,
+  "ceiling_boundaries_checked": [
+    -1,
+    0,
+    1,
+    999,
+    1000,
+    1001
+  ],
+  "native_stderr_empty": true,
+  "zero_hole_override_retained": true,
+  "scope": "Read-only catalog evaluation and forced move controls only; no search launch."
+}

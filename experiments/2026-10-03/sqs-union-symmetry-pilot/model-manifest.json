@@ -1,0 +1,114 @@
+{
+  "utc": "2026-10-04T05:38:24.307820+00:00",
+  "source_revision": "deeaaca413d5032eb5ec37d1ef8499fae4af93cc",
+  "builder_sha256": "7712cdcc25edd8d044a9f42b7e8ee54a696e951b46305548b6d600e1f2af94da",
+  "base_model_path": "experiments/scratch/new-construction-web-20261003/exact64-sqs-union.pbtxt",
+  "base_model_sha256": "d0a70c16b53c2399ed10eae2deb77b3c817e352a4fc950d7584291b3c249703f",
+  "pool_path": "experiments/scratch/new-construction-web-20261003/union-pool.json",
+  "pool_sha256": "b1e0e13ac3787643b25e920d2ce8f83d7119dedcb3c78daaf8316e04510c68c6",
+  "certificate_path": "experiments/2026-10-03/sqs-union-symmetry/certificate.json",
+  "certificate_sha256": "9e4dea39bbebaba8647ae02f492c579d05f83e628e8af9a330ce8d62fca02aa6",
+  "certificate_audit_path": "experiments/2026-10-03/sqs-union-symmetry/audit.json",
+  "certificate_audit_sha256": "cc19d63e135568479bd83161e3ce2bbed3907bfc174929abb659ef5508323bf4",
+  "verified_inputs": {
+    "experiments/2026-10-03/sqs-union-symmetry/certificate.json": "9e4dea39bbebaba8647ae02f492c579d05f83e628e8af9a330ce8d62fca02aa6",
+    "experiments/2026-10-03/sqs-union-symmetry/build_certificate.py": "8d25c35977c0a922acec9adaf7857435bd86ba7b1740380b4a16f68e0c95d0ee",
+    "experiments/scratch/new-construction-web-20261003/union-pool.json": "b1e0e13ac3787643b25e920d2ce8f83d7119dedcb3c78daaf8316e04510c68c6",
+    "experiments/scratch/new-construction-web-20261003/exact64-sqs-union.pbtxt": "d0a70c16b53c2399ed10eae2deb77b3c817e352a4fc950d7584291b3c249703f",
+    "experiments/scratch/new-construction-web-20261003/sqs16-affine.txt": "f80327f2ad0ad0633e31037027882b87fa69ad516aa09ce9656feec2951047c9",
+    "experiments/scratch/new-construction-web-20261003/sqs16-traded.txt": "2a1986fba22eee4e7c35a1ef9f9fcbd4204da43742170412daef22d857fcc6fa",
+    "experiments/2026-10-03/sqs-union-symmetry/audit.json": "cc19d63e135568479bd83161e3ce2bbed3907bfc174929abb659ef5508323bf4",
+    "experiments/2026-10-03/sqs-union-symmetry/check_certificate.py": "b87a6ae3cf4282acc48b5cb7c6e66f55aba39b692d28897bdfd89edbe53314e9"
+  },
+  "model_path": "experiments/scratch/sqs-union-symmetry-pilot-20261003/exact64-sqs-union-symmetry.pbtxt",
+  "model_sha256": "ceb6f7abd092cc79aaf12b4f7d8fc8b8421d0408724025c4f07c1c70f99e2783",
+  "ortools_version": "9.15.6755",
+  "variables": 1744,
+  "rows": 562,
+  "coverage_rows": 560,
+  "cardinality": 64,
+  "base_proto_preserved_exactly": true,
+  "added_constraint": {
+    "vars": [
+      132,
+      543,
+      1688,
+      1691,
+      1692,
+      1694
+    ],
+    "coeffs": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "domain": [
+      1,
+      6
+    ]
+  },
+  "representative_global_ids": [
+    308,
+    1295,
+    4312,
+    4315,
+    4316,
+    4318
+  ],
+  "representative_blocks": [
+    [
+      1,
+      2,
+      9,
+      10,
+      11
+    ],
+    [
+      1,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    [
+      9,
+      10,
+      11,
+      12,
+      16
+    ],
+    [
+      9,
+      10,
+      11,
+      13,
+      14
+    ],
+    [
+      9,
+      10,
+      11,
+      13,
+      16
+    ]
+  ],
+  "proposed_pilot": {
+    "seed": 2026104011,
+    "seconds": 180,
+    "workers": 1,
+    "status": "not_run"
+  },
+  "solver_calls": 0,
+  "scope": "Exact64 feasibility in the fixed 1744-block two-SQS extension union. One certified representative row preserves existence under pool automorphisms; it is not necessary for every labeled cover. No implication for unrestricted C(16,5,3) from failure.",
+  "global_lower_bound_claim": false
+}

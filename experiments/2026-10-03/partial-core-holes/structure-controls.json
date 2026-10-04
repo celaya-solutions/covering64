@@ -1,0 +1,625 @@
+{
+  "passed": true,
+  "positive_controls": 6,
+  "negative_controls": 1,
+  "damaged_inputs_rejected": 6,
+  "controls": [
+    {
+      "control": "known-core-relabel-0",
+      "report": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0008520419942215085,
+        "seconds_budget": 20,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    },
+    {
+      "control": "known-core-relabel-1",
+      "report": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              13,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              5,
+              14
+            ],
+            7
+          ],
+          [
+            [
+              7,
+              11,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              8,
+              10,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              13,
+              15
+            ],
+            [
+              2,
+              3,
+              6
+            ],
+            [
+              4,
+              5,
+              14
+            ],
+            [
+              7,
+              11,
+              16
+            ],
+            [
+              8,
+              10,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          14,
+          13,
+          10,
+          3,
+          15,
+          9,
+          12,
+          7,
+          8,
+          11,
+          16,
+          2,
+          5,
+          4,
+          6
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 18,
+        "elapsed_seconds": 0.002326499903574586,
+        "seconds_budget": 20,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    },
+    {
+      "control": "known-core-relabel-2",
+      "report": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              6,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              3,
+              9,
+              13
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              5,
+              12
+            ],
+            6
+          ],
+          [
+            [
+              7,
+              11,
+              15
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              8,
+              10
+            ],
+            [
+              2,
+              6,
+              16
+            ],
+            [
+              3,
+              9,
+              13
+            ],
+            [
+              4,
+              5,
+              12
+            ],
+            [
+              7,
+              11,
+              15
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          16,
+          8,
+          15,
+          12,
+          10,
+          14,
+          7,
+          3,
+          11,
+          9,
+          13,
+          5,
+          2,
+          6,
+          4
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 10,
+        "elapsed_seconds": 0.001019290997646749,
+        "seconds_budget": 20,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    },
+    {
+      "control": "known-core-relabel-3",
+      "report": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              3,
+              9,
+              14
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              6,
+              13
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              10,
+              11
+            ],
+            6
+          ],
+          [
+            [
+              7,
+              8,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              2,
+              15
+            ],
+            [
+              3,
+              9,
+              14
+            ],
+            [
+              4,
+              6,
+              13
+            ],
+            [
+              5,
+              10,
+              11
+            ],
+            [
+              7,
+              8,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          9,
+          2,
+          10,
+          12,
+          15,
+          16,
+          11,
+          13,
+          5,
+          4,
+          6,
+          8,
+          14,
+          3,
+          7
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 9,
+        "elapsed_seconds": 0.0009397920221090317,
+        "seconds_budget": 20,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    },
+    {
+      "control": "known-core-relabel-4",
+      "report": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              3,
+              4,
+              14
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              10,
+              12
+            ],
+            7
+          ],
+          [
+            [
+              6,
+              9,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              7,
+              8,
+              15
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              2,
+              16
+            ],
+            [
+              3,
+              4,
+              14
+            ],
+            [
+              5,
+              10,
+              12
+            ],
+            [
+              6,
+              9,
+              11
+            ],
+            [
+              7,
+              8,
+              15
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          9,
+          2,
+          7,
+          5,
+          16,
+          13,
+          8,
+          4,
+          15,
+          3,
+          14,
+          10,
+          11,
+          6,
+          12
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 23,
+        "elapsed_seconds": 0.0026346660451963544,
+        "seconds_budget": 20,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    },
+    {
+      "control": "no-five-heavy-sets",
+      "report": {
+        "heavy_triples": [],
+        "forbidden_five_heavy_profile": false,
+        "forbidden_witnesses": [],
+        "contains_relabelled_core": false,
+        "mapping_images_of_1_to_16": null,
+        "search_complete": true,
+        "five_disjoint_heavy_families": 0,
+        "group_nodes": 0,
+        "elapsed_seconds": 0.0001847910461947322,
+        "seconds_budget": 20,
+        "useful_escape_structure": true,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    },
+    {
+      "control": "arbitrary-fringe",
+      "report": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              2,
+              4
+            ],
+            6
+          ],
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false,
+        "forbidden_witnesses": [],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0005550829228013754,
+        "seconds_budget": 20,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      }
+    }
+  ],
+  "screen_sha256": "96cae8b07d43f4ad0bfbb73591f2123547fffbbb2e1def717f1bc848121661be",
+  "source_sha256": "080a2d054c52ec0ba986635f00ada9d0316389af9d6b248d8dcde9b4a421d251"
+}

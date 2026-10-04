@@ -1,0 +1,8220 @@
+{
+  "format": "v1.0.0",
+  "ordinary_domain": [
+    0,
+    1
+  ],
+  "bound_formula": "constant_bound - sum(h_b for heavy blocks b containing subset)",
+  "empty_subset": "contained in every block",
+  "dual_sha256": "417d6571af18be0a393a8d92bac0e15c9992c7a30556c1cc040250330020f4d0",
+  "rows": [
+    {
+      "index": 0,
+      "kind": "cardinality",
+      "subset": [],
+      "lower": 64,
+      "upper": 64,
+      "weight": -1000
+    },
+    {
+      "index": 1,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        3
+      ],
+      "lower": 1,
+      "upper": null,
+      "weight": 0
+    },
+    {
+      "index": 2,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        4
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 3,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        5
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 4,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 5,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 6,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 7,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 8,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 9,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 10,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 11,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 12,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 13,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 14,
+      "kind": "triple",
+      "subset": [
+        1,
+        2,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 15,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        4
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 16,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        5
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 17,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 18,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 19,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 20,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 21,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 22,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 23,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 24,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 25,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 26,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 27,
+      "kind": "triple",
+      "subset": [
+        1,
+        3,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 28,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        5
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 29,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 651
+    },
+    {
+      "index": 30,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 513
+    },
+    {
+      "index": 31,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 32,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 33,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 34,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 460
+    },
+    {
+      "index": 35,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 242
+    },
+    {
+      "index": 36,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 37,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 38,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 39,
+      "kind": "triple",
+      "subset": [
+        1,
+        4,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 459
+    },
+    {
+      "index": 40,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 41,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 42,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 89
+    },
+    {
+      "index": 43,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 346
+    },
+    {
+      "index": 44,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 409
+    },
+    {
+      "index": 45,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 46,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 47,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 296
+    },
+    {
+      "index": 48,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 49,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 438
+    },
+    {
+      "index": 50,
+      "kind": "triple",
+      "subset": [
+        1,
+        5,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 151
+    },
+    {
+      "index": 51,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 52,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 53,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 54,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 365
+    },
+    {
+      "index": 55,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 56,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 293
+    },
+    {
+      "index": 57,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 240
+    },
+    {
+      "index": 58,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 59,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 60,
+      "kind": "triple",
+      "subset": [
+        1,
+        6,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 106
+    },
+    {
+      "index": 61,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 62,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 283
+    },
+    {
+      "index": 63,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 64,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 65,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 66,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 67,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 68,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 281
+    },
+    {
+      "index": 69,
+      "kind": "triple",
+      "subset": [
+        1,
+        7,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 643
+    },
+    {
+      "index": 70,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 495
+    },
+    {
+      "index": 71,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 767
+    },
+    {
+      "index": 72,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 73,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 74,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 692
+    },
+    {
+      "index": 75,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 76,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 494
+    },
+    {
+      "index": 77,
+      "kind": "triple",
+      "subset": [
+        1,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 78,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 79,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 80,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 211
+    },
+    {
+      "index": 81,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 111
+    },
+    {
+      "index": 82,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 83,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 84,
+      "kind": "triple",
+      "subset": [
+        1,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 85,
+      "kind": "triple",
+      "subset": [
+        1,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 86,
+      "kind": "triple",
+      "subset": [
+        1,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 109
+    },
+    {
+      "index": 87,
+      "kind": "triple",
+      "subset": [
+        1,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 88,
+      "kind": "triple",
+      "subset": [
+        1,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 89,
+      "kind": "triple",
+      "subset": [
+        1,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 47
+    },
+    {
+      "index": 90,
+      "kind": "triple",
+      "subset": [
+        1,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 91,
+      "kind": "triple",
+      "subset": [
+        1,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 141
+    },
+    {
+      "index": 92,
+      "kind": "triple",
+      "subset": [
+        1,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 93,
+      "kind": "triple",
+      "subset": [
+        1,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 94,
+      "kind": "triple",
+      "subset": [
+        1,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 95,
+      "kind": "triple",
+      "subset": [
+        1,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 96,
+      "kind": "triple",
+      "subset": [
+        1,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 589
+    },
+    {
+      "index": 97,
+      "kind": "triple",
+      "subset": [
+        1,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 98,
+      "kind": "triple",
+      "subset": [
+        1,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 99,
+      "kind": "triple",
+      "subset": [
+        1,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 100,
+      "kind": "triple",
+      "subset": [
+        1,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 101,
+      "kind": "triple",
+      "subset": [
+        1,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 102,
+      "kind": "triple",
+      "subset": [
+        1,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 103,
+      "kind": "triple",
+      "subset": [
+        1,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 104,
+      "kind": "triple",
+      "subset": [
+        1,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 942
+    },
+    {
+      "index": 105,
+      "kind": "triple",
+      "subset": [
+        1,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 461
+    },
+    {
+      "index": 106,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        4
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 107,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        5
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 108,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 109,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 110,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 111,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 112,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 113,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 114,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 115,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 116,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 117,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 118,
+      "kind": "triple",
+      "subset": [
+        2,
+        3,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 119,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        5
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 546
+    },
+    {
+      "index": 120,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 232
+    },
+    {
+      "index": 121,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 108
+    },
+    {
+      "index": 122,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 123,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 683
+    },
+    {
+      "index": 124,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 125,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 155
+    },
+    {
+      "index": 126,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 127,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 128,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 129,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 130,
+      "kind": "triple",
+      "subset": [
+        2,
+        4,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 529
+    },
+    {
+      "index": 131,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 132,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 133,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 134,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 62
+    },
+    {
+      "index": 135,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 848
+    },
+    {
+      "index": 136,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 137,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 25
+    },
+    {
+      "index": 138,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 139,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 49
+    },
+    {
+      "index": 140,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 211
+    },
+    {
+      "index": 141,
+      "kind": "triple",
+      "subset": [
+        2,
+        5,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 396
+    },
+    {
+      "index": 142,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 143,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 144,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 145,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 146,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 307
+    },
+    {
+      "index": 147,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 349
+    },
+    {
+      "index": 148,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 149,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 210
+    },
+    {
+      "index": 150,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 865
+    },
+    {
+      "index": 151,
+      "kind": "triple",
+      "subset": [
+        2,
+        6,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 401
+    },
+    {
+      "index": 152,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 153,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 154,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 318
+    },
+    {
+      "index": 155,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 79
+    },
+    {
+      "index": 156,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 157,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 158,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 82
+    },
+    {
+      "index": 159,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 160,
+      "kind": "triple",
+      "subset": [
+        2,
+        7,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 761
+    },
+    {
+      "index": 161,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 360
+    },
+    {
+      "index": 162,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 163,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 862
+    },
+    {
+      "index": 164,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 102
+    },
+    {
+      "index": 165,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 993
+    },
+    {
+      "index": 166,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 978
+    },
+    {
+      "index": 167,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 808
+    },
+    {
+      "index": 168,
+      "kind": "triple",
+      "subset": [
+        2,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 221
+    },
+    {
+      "index": 169,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 170,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 171,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 172,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 173,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 766
+    },
+    {
+      "index": 174,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 791
+    },
+    {
+      "index": 175,
+      "kind": "triple",
+      "subset": [
+        2,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 176,
+      "kind": "triple",
+      "subset": [
+        2,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 177,
+      "kind": "triple",
+      "subset": [
+        2,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 266
+    },
+    {
+      "index": 178,
+      "kind": "triple",
+      "subset": [
+        2,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 179,
+      "kind": "triple",
+      "subset": [
+        2,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 180,
+      "kind": "triple",
+      "subset": [
+        2,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 181,
+      "kind": "triple",
+      "subset": [
+        2,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 121
+    },
+    {
+      "index": 182,
+      "kind": "triple",
+      "subset": [
+        2,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 183,
+      "kind": "triple",
+      "subset": [
+        2,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 184,
+      "kind": "triple",
+      "subset": [
+        2,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 286
+    },
+    {
+      "index": 185,
+      "kind": "triple",
+      "subset": [
+        2,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 917
+    },
+    {
+      "index": 186,
+      "kind": "triple",
+      "subset": [
+        2,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 187,
+      "kind": "triple",
+      "subset": [
+        2,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 589
+    },
+    {
+      "index": 188,
+      "kind": "triple",
+      "subset": [
+        2,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 800
+    },
+    {
+      "index": 189,
+      "kind": "triple",
+      "subset": [
+        2,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 190,
+      "kind": "triple",
+      "subset": [
+        2,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 69
+    },
+    {
+      "index": 191,
+      "kind": "triple",
+      "subset": [
+        2,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 192,
+      "kind": "triple",
+      "subset": [
+        2,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 193,
+      "kind": "triple",
+      "subset": [
+        2,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 194,
+      "kind": "triple",
+      "subset": [
+        2,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 195,
+      "kind": "triple",
+      "subset": [
+        2,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 196,
+      "kind": "triple",
+      "subset": [
+        2,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 656
+    },
+    {
+      "index": 197,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        5
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 349
+    },
+    {
+      "index": 198,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 199,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 200,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 201,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 202,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 563
+    },
+    {
+      "index": 203,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 204,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 388
+    },
+    {
+      "index": 205,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 206,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 207,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 34
+    },
+    {
+      "index": 208,
+      "kind": "triple",
+      "subset": [
+        3,
+        4,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 209,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 210,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 211,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 212,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 694
+    },
+    {
+      "index": 213,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 214,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 215,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 543
+    },
+    {
+      "index": 216,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 156
+    },
+    {
+      "index": 217,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 89
+    },
+    {
+      "index": 218,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 219,
+      "kind": "triple",
+      "subset": [
+        3,
+        5,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 220,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 221,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 222,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 80
+    },
+    {
+      "index": 223,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 224,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 225,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 837
+    },
+    {
+      "index": 226,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 55
+    },
+    {
+      "index": 227,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 228,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 319
+    },
+    {
+      "index": 229,
+      "kind": "triple",
+      "subset": [
+        3,
+        6,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 230,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 231,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 232,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 233,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 378
+    },
+    {
+      "index": 234,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 696
+    },
+    {
+      "index": 235,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 967
+    },
+    {
+      "index": 236,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 206
+    },
+    {
+      "index": 237,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 238,
+      "kind": "triple",
+      "subset": [
+        3,
+        7,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 625
+    },
+    {
+      "index": 239,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 240,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 869
+    },
+    {
+      "index": 241,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 242,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 315
+    },
+    {
+      "index": 243,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 244,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 968
+    },
+    {
+      "index": 245,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 867
+    },
+    {
+      "index": 246,
+      "kind": "triple",
+      "subset": [
+        3,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 247,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 248,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 249,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 25
+    },
+    {
+      "index": 250,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 251,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 252,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 253,
+      "kind": "triple",
+      "subset": [
+        3,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 452
+    },
+    {
+      "index": 254,
+      "kind": "triple",
+      "subset": [
+        3,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 255,
+      "kind": "triple",
+      "subset": [
+        3,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 256,
+      "kind": "triple",
+      "subset": [
+        3,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 791
+    },
+    {
+      "index": 257,
+      "kind": "triple",
+      "subset": [
+        3,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 894
+    },
+    {
+      "index": 258,
+      "kind": "triple",
+      "subset": [
+        3,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 259,
+      "kind": "triple",
+      "subset": [
+        3,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 260,
+      "kind": "triple",
+      "subset": [
+        3,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 261,
+      "kind": "triple",
+      "subset": [
+        3,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 889
+    },
+    {
+      "index": 262,
+      "kind": "triple",
+      "subset": [
+        3,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 436
+    },
+    {
+      "index": 263,
+      "kind": "triple",
+      "subset": [
+        3,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 264,
+      "kind": "triple",
+      "subset": [
+        3,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 265,
+      "kind": "triple",
+      "subset": [
+        3,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 798
+    },
+    {
+      "index": 266,
+      "kind": "triple",
+      "subset": [
+        3,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 267,
+      "kind": "triple",
+      "subset": [
+        3,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 268,
+      "kind": "triple",
+      "subset": [
+        3,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 192
+    },
+    {
+      "index": 269,
+      "kind": "triple",
+      "subset": [
+        3,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 270,
+      "kind": "triple",
+      "subset": [
+        3,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 271,
+      "kind": "triple",
+      "subset": [
+        3,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 272,
+      "kind": "triple",
+      "subset": [
+        3,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 273,
+      "kind": "triple",
+      "subset": [
+        3,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 678
+    },
+    {
+      "index": 274,
+      "kind": "triple",
+      "subset": [
+        3,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 545
+    },
+    {
+      "index": 275,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        6
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 276,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 277,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 278,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 279,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 280,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 281,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 106
+    },
+    {
+      "index": 282,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 283,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 284,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 285,
+      "kind": "triple",
+      "subset": [
+        4,
+        5,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 209
+    },
+    {
+      "index": 286,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        7
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 287,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 288,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 289,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 290,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 21
+    },
+    {
+      "index": 291,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 292,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 719
+    },
+    {
+      "index": 293,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 789
+    },
+    {
+      "index": 294,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 295,
+      "kind": "triple",
+      "subset": [
+        4,
+        6,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 296,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 297,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 298,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 299,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 32
+    },
+    {
+      "index": 300,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 301,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 302,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 723
+    },
+    {
+      "index": 303,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 813
+    },
+    {
+      "index": 304,
+      "kind": "triple",
+      "subset": [
+        4,
+        7,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 103
+    },
+    {
+      "index": 305,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 570
+    },
+    {
+      "index": 306,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 849
+    },
+    {
+      "index": 307,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 593
+    },
+    {
+      "index": 308,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 215
+    },
+    {
+      "index": 309,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 649
+    },
+    {
+      "index": 310,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 639
+    },
+    {
+      "index": 311,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 785
+    },
+    {
+      "index": 312,
+      "kind": "triple",
+      "subset": [
+        4,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 37
+    },
+    {
+      "index": 313,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 314,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 315,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 316,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 317,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 894
+    },
+    {
+      "index": 318,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 319,
+      "kind": "triple",
+      "subset": [
+        4,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 320,
+      "kind": "triple",
+      "subset": [
+        4,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 321,
+      "kind": "triple",
+      "subset": [
+        4,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 322,
+      "kind": "triple",
+      "subset": [
+        4,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 323,
+      "kind": "triple",
+      "subset": [
+        4,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 324,
+      "kind": "triple",
+      "subset": [
+        4,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 62
+    },
+    {
+      "index": 325,
+      "kind": "triple",
+      "subset": [
+        4,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 45
+    },
+    {
+      "index": 326,
+      "kind": "triple",
+      "subset": [
+        4,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 327,
+      "kind": "triple",
+      "subset": [
+        4,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 344
+    },
+    {
+      "index": 328,
+      "kind": "triple",
+      "subset": [
+        4,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 768
+    },
+    {
+      "index": 329,
+      "kind": "triple",
+      "subset": [
+        4,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 334
+    },
+    {
+      "index": 330,
+      "kind": "triple",
+      "subset": [
+        4,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 331,
+      "kind": "triple",
+      "subset": [
+        4,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 253
+    },
+    {
+      "index": 332,
+      "kind": "triple",
+      "subset": [
+        4,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 623
+    },
+    {
+      "index": 333,
+      "kind": "triple",
+      "subset": [
+        4,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 386
+    },
+    {
+      "index": 334,
+      "kind": "triple",
+      "subset": [
+        4,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -278
+    },
+    {
+      "index": 335,
+      "kind": "triple",
+      "subset": [
+        4,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 336,
+      "kind": "triple",
+      "subset": [
+        4,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 337,
+      "kind": "triple",
+      "subset": [
+        4,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 284
+    },
+    {
+      "index": 338,
+      "kind": "triple",
+      "subset": [
+        4,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 339,
+      "kind": "triple",
+      "subset": [
+        4,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 382
+    },
+    {
+      "index": 340,
+      "kind": "triple",
+      "subset": [
+        4,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 341,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        7
+      ],
+      "lower": 1,
+      "upper": null,
+      "weight": 0
+    },
+    {
+      "index": 342,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 343,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 344,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 345,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 346,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 347,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 348,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 349,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 350,
+      "kind": "triple",
+      "subset": [
+        5,
+        6,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 351,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 352,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 353,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 354,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 355,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 356,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 357,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 358,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 359,
+      "kind": "triple",
+      "subset": [
+        5,
+        7,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 360,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 361,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 7
+    },
+    {
+      "index": 362,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 363,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 22
+    },
+    {
+      "index": 364,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 402
+    },
+    {
+      "index": 365,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 366,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 747
+    },
+    {
+      "index": 367,
+      "kind": "triple",
+      "subset": [
+        5,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 279
+    },
+    {
+      "index": 368,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 369,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 370,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 371,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 141
+    },
+    {
+      "index": 372,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 373,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 168
+    },
+    {
+      "index": 374,
+      "kind": "triple",
+      "subset": [
+        5,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 467
+    },
+    {
+      "index": 375,
+      "kind": "triple",
+      "subset": [
+        5,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 376,
+      "kind": "triple",
+      "subset": [
+        5,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 340
+    },
+    {
+      "index": 377,
+      "kind": "triple",
+      "subset": [
+        5,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 21
+    },
+    {
+      "index": 378,
+      "kind": "triple",
+      "subset": [
+        5,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 902
+    },
+    {
+      "index": 379,
+      "kind": "triple",
+      "subset": [
+        5,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 225
+    },
+    {
+      "index": 380,
+      "kind": "triple",
+      "subset": [
+        5,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 381,
+      "kind": "triple",
+      "subset": [
+        5,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 871
+    },
+    {
+      "index": 382,
+      "kind": "triple",
+      "subset": [
+        5,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 383,
+      "kind": "triple",
+      "subset": [
+        5,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 56
+    },
+    {
+      "index": 384,
+      "kind": "triple",
+      "subset": [
+        5,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 385,
+      "kind": "triple",
+      "subset": [
+        5,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 969
+    },
+    {
+      "index": 386,
+      "kind": "triple",
+      "subset": [
+        5,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 67
+    },
+    {
+      "index": 387,
+      "kind": "triple",
+      "subset": [
+        5,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 388,
+      "kind": "triple",
+      "subset": [
+        5,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 108
+    },
+    {
+      "index": 389,
+      "kind": "triple",
+      "subset": [
+        5,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 390,
+      "kind": "triple",
+      "subset": [
+        5,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 391,
+      "kind": "triple",
+      "subset": [
+        5,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 392,
+      "kind": "triple",
+      "subset": [
+        5,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 56
+    },
+    {
+      "index": 393,
+      "kind": "triple",
+      "subset": [
+        5,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 394,
+      "kind": "triple",
+      "subset": [
+        5,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 44
+    },
+    {
+      "index": 395,
+      "kind": "triple",
+      "subset": [
+        5,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 396,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        8
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 397,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 398,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 399,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 400,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 401,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 402,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 403,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 404,
+      "kind": "triple",
+      "subset": [
+        6,
+        7,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 405,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 10
+    },
+    {
+      "index": 406,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 407,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 408,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 332
+    },
+    {
+      "index": 409,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 324
+    },
+    {
+      "index": 410,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 411,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 412,
+      "kind": "triple",
+      "subset": [
+        6,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 30
+    },
+    {
+      "index": 413,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 414,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 415,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 416,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 417,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 418,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 419,
+      "kind": "triple",
+      "subset": [
+        6,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 400
+    },
+    {
+      "index": 420,
+      "kind": "triple",
+      "subset": [
+        6,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 421,
+      "kind": "triple",
+      "subset": [
+        6,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 701
+    },
+    {
+      "index": 422,
+      "kind": "triple",
+      "subset": [
+        6,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 773
+    },
+    {
+      "index": 423,
+      "kind": "triple",
+      "subset": [
+        6,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 848
+    },
+    {
+      "index": 424,
+      "kind": "triple",
+      "subset": [
+        6,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 425,
+      "kind": "triple",
+      "subset": [
+        6,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 426,
+      "kind": "triple",
+      "subset": [
+        6,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 427,
+      "kind": "triple",
+      "subset": [
+        6,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 976
+    },
+    {
+      "index": 428,
+      "kind": "triple",
+      "subset": [
+        6,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 237
+    },
+    {
+      "index": 429,
+      "kind": "triple",
+      "subset": [
+        6,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 430,
+      "kind": "triple",
+      "subset": [
+        6,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 686
+    },
+    {
+      "index": 431,
+      "kind": "triple",
+      "subset": [
+        6,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 432,
+      "kind": "triple",
+      "subset": [
+        6,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 433,
+      "kind": "triple",
+      "subset": [
+        6,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 434,
+      "kind": "triple",
+      "subset": [
+        6,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 346
+    },
+    {
+      "index": 435,
+      "kind": "triple",
+      "subset": [
+        6,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 436,
+      "kind": "triple",
+      "subset": [
+        6,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 437,
+      "kind": "triple",
+      "subset": [
+        6,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 438,
+      "kind": "triple",
+      "subset": [
+        6,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 439,
+      "kind": "triple",
+      "subset": [
+        6,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 440,
+      "kind": "triple",
+      "subset": [
+        6,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 224
+    },
+    {
+      "index": 441,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        9
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 442,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 60
+    },
+    {
+      "index": 443,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 444,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 18
+    },
+    {
+      "index": 445,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 792
+    },
+    {
+      "index": 446,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 123
+    },
+    {
+      "index": 447,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 448,
+      "kind": "triple",
+      "subset": [
+        7,
+        8,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 475
+    },
+    {
+      "index": 449,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 450,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 451,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 452,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 453,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 978
+    },
+    {
+      "index": 454,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 810
+    },
+    {
+      "index": 455,
+      "kind": "triple",
+      "subset": [
+        7,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 686
+    },
+    {
+      "index": 456,
+      "kind": "triple",
+      "subset": [
+        7,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 457,
+      "kind": "triple",
+      "subset": [
+        7,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 392
+    },
+    {
+      "index": 458,
+      "kind": "triple",
+      "subset": [
+        7,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 459,
+      "kind": "triple",
+      "subset": [
+        7,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 460,
+      "kind": "triple",
+      "subset": [
+        7,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 461,
+      "kind": "triple",
+      "subset": [
+        7,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 462,
+      "kind": "triple",
+      "subset": [
+        7,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 697
+    },
+    {
+      "index": 463,
+      "kind": "triple",
+      "subset": [
+        7,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 464,
+      "kind": "triple",
+      "subset": [
+        7,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 174
+    },
+    {
+      "index": 465,
+      "kind": "triple",
+      "subset": [
+        7,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 766
+    },
+    {
+      "index": 466,
+      "kind": "triple",
+      "subset": [
+        7,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 467,
+      "kind": "triple",
+      "subset": [
+        7,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 343
+    },
+    {
+      "index": 468,
+      "kind": "triple",
+      "subset": [
+        7,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 469,
+      "kind": "triple",
+      "subset": [
+        7,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 234
+    },
+    {
+      "index": 470,
+      "kind": "triple",
+      "subset": [
+        7,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 302
+    },
+    {
+      "index": 471,
+      "kind": "triple",
+      "subset": [
+        7,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 472,
+      "kind": "triple",
+      "subset": [
+        7,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 473,
+      "kind": "triple",
+      "subset": [
+        7,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 175
+    },
+    {
+      "index": 474,
+      "kind": "triple",
+      "subset": [
+        7,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 475,
+      "kind": "triple",
+      "subset": [
+        7,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 476,
+      "kind": "triple",
+      "subset": [
+        7,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 477,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        10
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 478,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 479,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 480,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 99
+    },
+    {
+      "index": 481,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 566
+    },
+    {
+      "index": 482,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 483,
+      "kind": "triple",
+      "subset": [
+        8,
+        9,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 441
+    },
+    {
+      "index": 484,
+      "kind": "triple",
+      "subset": [
+        8,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 485,
+      "kind": "triple",
+      "subset": [
+        8,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 486,
+      "kind": "triple",
+      "subset": [
+        8,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 487,
+      "kind": "triple",
+      "subset": [
+        8,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 565
+    },
+    {
+      "index": 488,
+      "kind": "triple",
+      "subset": [
+        8,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 489,
+      "kind": "triple",
+      "subset": [
+        8,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 939
+    },
+    {
+      "index": 490,
+      "kind": "triple",
+      "subset": [
+        8,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 491,
+      "kind": "triple",
+      "subset": [
+        8,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 492,
+      "kind": "triple",
+      "subset": [
+        8,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 998
+    },
+    {
+      "index": 493,
+      "kind": "triple",
+      "subset": [
+        8,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 891
+    },
+    {
+      "index": 494,
+      "kind": "triple",
+      "subset": [
+        8,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 495,
+      "kind": "triple",
+      "subset": [
+        8,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 560
+    },
+    {
+      "index": 496,
+      "kind": "triple",
+      "subset": [
+        8,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 699
+    },
+    {
+      "index": 497,
+      "kind": "triple",
+      "subset": [
+        8,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 729
+    },
+    {
+      "index": 498,
+      "kind": "triple",
+      "subset": [
+        8,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -20
+    },
+    {
+      "index": 499,
+      "kind": "triple",
+      "subset": [
+        8,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 500,
+      "kind": "triple",
+      "subset": [
+        8,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 501,
+      "kind": "triple",
+      "subset": [
+        8,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 502,
+      "kind": "triple",
+      "subset": [
+        8,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 503,
+      "kind": "triple",
+      "subset": [
+        8,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 504,
+      "kind": "triple",
+      "subset": [
+        8,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 505,
+      "kind": "triple",
+      "subset": [
+        9,
+        10,
+        11
+      ],
+      "lower": 1,
+      "upper": null,
+      "weight": 0
+    },
+    {
+      "index": 506,
+      "kind": "triple",
+      "subset": [
+        9,
+        10,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 507,
+      "kind": "triple",
+      "subset": [
+        9,
+        10,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 508,
+      "kind": "triple",
+      "subset": [
+        9,
+        10,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 509,
+      "kind": "triple",
+      "subset": [
+        9,
+        10,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 510,
+      "kind": "triple",
+      "subset": [
+        9,
+        10,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 511,
+      "kind": "triple",
+      "subset": [
+        9,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 512,
+      "kind": "triple",
+      "subset": [
+        9,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 513,
+      "kind": "triple",
+      "subset": [
+        9,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 514,
+      "kind": "triple",
+      "subset": [
+        9,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 515,
+      "kind": "triple",
+      "subset": [
+        9,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 516,
+      "kind": "triple",
+      "subset": [
+        9,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 514
+    },
+    {
+      "index": 517,
+      "kind": "triple",
+      "subset": [
+        9,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 666
+    },
+    {
+      "index": 518,
+      "kind": "triple",
+      "subset": [
+        9,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 519,
+      "kind": "triple",
+      "subset": [
+        9,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 520,
+      "kind": "triple",
+      "subset": [
+        9,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 521,
+      "kind": "triple",
+      "subset": [
+        9,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 522,
+      "kind": "triple",
+      "subset": [
+        9,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 804
+    },
+    {
+      "index": 523,
+      "kind": "triple",
+      "subset": [
+        9,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 524,
+      "kind": "triple",
+      "subset": [
+        9,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 348
+    },
+    {
+      "index": 525,
+      "kind": "triple",
+      "subset": [
+        9,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 526,
+      "kind": "triple",
+      "subset": [
+        10,
+        11,
+        12
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 527,
+      "kind": "triple",
+      "subset": [
+        10,
+        11,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 528,
+      "kind": "triple",
+      "subset": [
+        10,
+        11,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 529,
+      "kind": "triple",
+      "subset": [
+        10,
+        11,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 530,
+      "kind": "triple",
+      "subset": [
+        10,
+        11,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 531,
+      "kind": "triple",
+      "subset": [
+        10,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 532,
+      "kind": "triple",
+      "subset": [
+        10,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 126
+    },
+    {
+      "index": 533,
+      "kind": "triple",
+      "subset": [
+        10,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 598
+    },
+    {
+      "index": 534,
+      "kind": "triple",
+      "subset": [
+        10,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 535,
+      "kind": "triple",
+      "subset": [
+        10,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 536,
+      "kind": "triple",
+      "subset": [
+        10,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 537,
+      "kind": "triple",
+      "subset": [
+        10,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 538,
+      "kind": "triple",
+      "subset": [
+        10,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 539,
+      "kind": "triple",
+      "subset": [
+        10,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 769
+    },
+    {
+      "index": 540,
+      "kind": "triple",
+      "subset": [
+        10,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 309
+    },
+    {
+      "index": 541,
+      "kind": "triple",
+      "subset": [
+        11,
+        12,
+        13
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 438
+    },
+    {
+      "index": 542,
+      "kind": "triple",
+      "subset": [
+        11,
+        12,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 543,
+      "kind": "triple",
+      "subset": [
+        11,
+        12,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 544,
+      "kind": "triple",
+      "subset": [
+        11,
+        12,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 545,
+      "kind": "triple",
+      "subset": [
+        11,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 546,
+      "kind": "triple",
+      "subset": [
+        11,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 547,
+      "kind": "triple",
+      "subset": [
+        11,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 939
+    },
+    {
+      "index": 548,
+      "kind": "triple",
+      "subset": [
+        11,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 549,
+      "kind": "triple",
+      "subset": [
+        11,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 550,
+      "kind": "triple",
+      "subset": [
+        11,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 176
+    },
+    {
+      "index": 551,
+      "kind": "triple",
+      "subset": [
+        12,
+        13,
+        14
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 552,
+      "kind": "triple",
+      "subset": [
+        12,
+        13,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 553,
+      "kind": "triple",
+      "subset": [
+        12,
+        13,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 554,
+      "kind": "triple",
+      "subset": [
+        12,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 1000
+    },
+    {
+      "index": 555,
+      "kind": "triple",
+      "subset": [
+        12,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 150
+    },
+    {
+      "index": 556,
+      "kind": "triple",
+      "subset": [
+        12,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": 0
+    },
+    {
+      "index": 557,
+      "kind": "triple",
+      "subset": [
+        13,
+        14,
+        15
+      ],
+      "lower": 1,
+      "upper": null,
+      "weight": 0
+    },
+    {
+      "index": 558,
+      "kind": "triple",
+      "subset": [
+        13,
+        14,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 559,
+      "kind": "triple",
+      "subset": [
+        13,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 560,
+      "kind": "triple",
+      "subset": [
+        14,
+        15,
+        16
+      ],
+      "lower": 1,
+      "upper": 2,
+      "weight": -1000
+    },
+    {
+      "index": 561,
+      "kind": "point",
+      "subset": [
+        1
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -1000
+    },
+    {
+      "index": 562,
+      "kind": "point",
+      "subset": [
+        2
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -526
+    },
+    {
+      "index": 563,
+      "kind": "point",
+      "subset": [
+        3
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -440
+    },
+    {
+      "index": 564,
+      "kind": "point",
+      "subset": [
+        4
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -188
+    },
+    {
+      "index": 565,
+      "kind": "point",
+      "subset": [
+        5
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -659
+    },
+    {
+      "index": 566,
+      "kind": "point",
+      "subset": [
+        6
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -482
+    },
+    {
+      "index": 567,
+      "kind": "point",
+      "subset": [
+        7
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -426
+    },
+    {
+      "index": 568,
+      "kind": "point",
+      "subset": [
+        8
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -1000
+    },
+    {
+      "index": 569,
+      "kind": "point",
+      "subset": [
+        9
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -17
+    },
+    {
+      "index": 570,
+      "kind": "point",
+      "subset": [
+        10
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -29
+    },
+    {
+      "index": 571,
+      "kind": "point",
+      "subset": [
+        11
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -1000
+    },
+    {
+      "index": 572,
+      "kind": "point",
+      "subset": [
+        12
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": 1000
+    },
+    {
+      "index": 573,
+      "kind": "point",
+      "subset": [
+        13
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": 287
+    },
+    {
+      "index": 574,
+      "kind": "point",
+      "subset": [
+        14
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -1000
+    },
+    {
+      "index": 575,
+      "kind": "point",
+      "subset": [
+        15
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": -16
+    },
+    {
+      "index": 576,
+      "kind": "point",
+      "subset": [
+        16
+      ],
+      "lower": 20,
+      "upper": 20,
+      "weight": 1000
+    },
+    {
+      "index": 577,
+      "kind": "pair",
+      "subset": [
+        1,
+        2
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 578,
+      "kind": "pair",
+      "subset": [
+        1,
+        3
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 579,
+      "kind": "pair",
+      "subset": [
+        1,
+        4
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": -465
+    },
+    {
+      "index": 580,
+      "kind": "pair",
+      "subset": [
+        1,
+        5
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 581,
+      "kind": "pair",
+      "subset": [
+        1,
+        6
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 582,
+      "kind": "pair",
+      "subset": [
+        1,
+        7
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 583,
+      "kind": "pair",
+      "subset": [
+        1,
+        8
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 185
+    },
+    {
+      "index": 584,
+      "kind": "pair",
+      "subset": [
+        1,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 649
+    },
+    {
+      "index": 585,
+      "kind": "pair",
+      "subset": [
+        1,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 632
+    },
+    {
+      "index": 586,
+      "kind": "pair",
+      "subset": [
+        1,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 587,
+      "kind": "pair",
+      "subset": [
+        1,
+        12
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -155
+    },
+    {
+      "index": 588,
+      "kind": "pair",
+      "subset": [
+        1,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 589,
+      "kind": "pair",
+      "subset": [
+        1,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 590,
+      "kind": "pair",
+      "subset": [
+        1,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 591,
+      "kind": "pair",
+      "subset": [
+        1,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -376
+    },
+    {
+      "index": 592,
+      "kind": "pair",
+      "subset": [
+        2,
+        3
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 593,
+      "kind": "pair",
+      "subset": [
+        2,
+        4
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": 124
+    },
+    {
+      "index": 594,
+      "kind": "pair",
+      "subset": [
+        2,
+        5
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 595,
+      "kind": "pair",
+      "subset": [
+        2,
+        6
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 572
+    },
+    {
+      "index": 596,
+      "kind": "pair",
+      "subset": [
+        2,
+        7
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 597,
+      "kind": "pair",
+      "subset": [
+        2,
+        8
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -126
+    },
+    {
+      "index": 598,
+      "kind": "pair",
+      "subset": [
+        2,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 80
+    },
+    {
+      "index": 599,
+      "kind": "pair",
+      "subset": [
+        2,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -141
+    },
+    {
+      "index": 600,
+      "kind": "pair",
+      "subset": [
+        2,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 601,
+      "kind": "pair",
+      "subset": [
+        2,
+        12
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -203
+    },
+    {
+      "index": 602,
+      "kind": "pair",
+      "subset": [
+        2,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -979
+    },
+    {
+      "index": 603,
+      "kind": "pair",
+      "subset": [
+        2,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 604,
+      "kind": "pair",
+      "subset": [
+        2,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 605,
+      "kind": "pair",
+      "subset": [
+        2,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 606,
+      "kind": "pair",
+      "subset": [
+        3,
+        4
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": 422
+    },
+    {
+      "index": 607,
+      "kind": "pair",
+      "subset": [
+        3,
+        5
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 608,
+      "kind": "pair",
+      "subset": [
+        3,
+        6
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 609,
+      "kind": "pair",
+      "subset": [
+        3,
+        7
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 331
+    },
+    {
+      "index": 610,
+      "kind": "pair",
+      "subset": [
+        3,
+        8
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -356
+    },
+    {
+      "index": 611,
+      "kind": "pair",
+      "subset": [
+        3,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -190
+    },
+    {
+      "index": 612,
+      "kind": "pair",
+      "subset": [
+        3,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 31
+    },
+    {
+      "index": 613,
+      "kind": "pair",
+      "subset": [
+        3,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 960
+    },
+    {
+      "index": 614,
+      "kind": "pair",
+      "subset": [
+        3,
+        12
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 615,
+      "kind": "pair",
+      "subset": [
+        3,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 616,
+      "kind": "pair",
+      "subset": [
+        3,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 617,
+      "kind": "pair",
+      "subset": [
+        3,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -897
+    },
+    {
+      "index": 618,
+      "kind": "pair",
+      "subset": [
+        3,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -494
+    },
+    {
+      "index": 619,
+      "kind": "pair",
+      "subset": [
+        4,
+        5
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -570
+    },
+    {
+      "index": 620,
+      "kind": "pair",
+      "subset": [
+        4,
+        6
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -43
+    },
+    {
+      "index": 621,
+      "kind": "pair",
+      "subset": [
+        4,
+        7
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 90
+    },
+    {
+      "index": 622,
+      "kind": "pair",
+      "subset": [
+        4,
+        8
+      ],
+      "lower": 5,
+      "upper": 7,
+      "weight": 0
+    },
+    {
+      "index": 623,
+      "kind": "pair",
+      "subset": [
+        4,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -332
+    },
+    {
+      "index": 624,
+      "kind": "pair",
+      "subset": [
+        4,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -530
+    },
+    {
+      "index": 625,
+      "kind": "pair",
+      "subset": [
+        4,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 520
+    },
+    {
+      "index": 626,
+      "kind": "pair",
+      "subset": [
+        4,
+        12
+      ],
+      "lower": 5,
+      "upper": 7,
+      "weight": 0
+    },
+    {
+      "index": 627,
+      "kind": "pair",
+      "subset": [
+        4,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -709
+    },
+    {
+      "index": 628,
+      "kind": "pair",
+      "subset": [
+        4,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 629,
+      "kind": "pair",
+      "subset": [
+        4,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -721
+    },
+    {
+      "index": 630,
+      "kind": "pair",
+      "subset": [
+        4,
+        16
+      ],
+      "lower": 5,
+      "upper": 7,
+      "weight": 0
+    },
+    {
+      "index": 631,
+      "kind": "pair",
+      "subset": [
+        5,
+        6
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 632,
+      "kind": "pair",
+      "subset": [
+        5,
+        7
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 633,
+      "kind": "pair",
+      "subset": [
+        5,
+        8
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": 1000
+    },
+    {
+      "index": 634,
+      "kind": "pair",
+      "subset": [
+        5,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 635,
+      "kind": "pair",
+      "subset": [
+        5,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 636,
+      "kind": "pair",
+      "subset": [
+        5,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 637,
+      "kind": "pair",
+      "subset": [
+        5,
+        12
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -308
+    },
+    {
+      "index": 638,
+      "kind": "pair",
+      "subset": [
+        5,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 504
+    },
+    {
+      "index": 639,
+      "kind": "pair",
+      "subset": [
+        5,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 640,
+      "kind": "pair",
+      "subset": [
+        5,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 364
+    },
+    {
+      "index": 641,
+      "kind": "pair",
+      "subset": [
+        5,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -272
+    },
+    {
+      "index": 642,
+      "kind": "pair",
+      "subset": [
+        6,
+        7
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 643,
+      "kind": "pair",
+      "subset": [
+        6,
+        8
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": 1000
+    },
+    {
+      "index": 644,
+      "kind": "pair",
+      "subset": [
+        6,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -752
+    },
+    {
+      "index": 645,
+      "kind": "pair",
+      "subset": [
+        6,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 646,
+      "kind": "pair",
+      "subset": [
+        6,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 647,
+      "kind": "pair",
+      "subset": [
+        6,
+        12
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 648,
+      "kind": "pair",
+      "subset": [
+        6,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -221
+    },
+    {
+      "index": 649,
+      "kind": "pair",
+      "subset": [
+        6,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 650,
+      "kind": "pair",
+      "subset": [
+        6,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -284
+    },
+    {
+      "index": 651,
+      "kind": "pair",
+      "subset": [
+        6,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -260
+    },
+    {
+      "index": 652,
+      "kind": "pair",
+      "subset": [
+        7,
+        8
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": 818
+    },
+    {
+      "index": 653,
+      "kind": "pair",
+      "subset": [
+        7,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 654,
+      "kind": "pair",
+      "subset": [
+        7,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -827
+    },
+    {
+      "index": 655,
+      "kind": "pair",
+      "subset": [
+        7,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 656,
+      "kind": "pair",
+      "subset": [
+        7,
+        12
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -465
+    },
+    {
+      "index": 657,
+      "kind": "pair",
+      "subset": [
+        7,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -348
+    },
+    {
+      "index": 658,
+      "kind": "pair",
+      "subset": [
+        7,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 659,
+      "kind": "pair",
+      "subset": [
+        7,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -273
+    },
+    {
+      "index": 660,
+      "kind": "pair",
+      "subset": [
+        7,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 661,
+      "kind": "pair",
+      "subset": [
+        8,
+        9
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -282
+    },
+    {
+      "index": 662,
+      "kind": "pair",
+      "subset": [
+        8,
+        10
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -712
+    },
+    {
+      "index": 663,
+      "kind": "pair",
+      "subset": [
+        8,
+        11
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 664,
+      "kind": "pair",
+      "subset": [
+        8,
+        12
+      ],
+      "lower": 5,
+      "upper": 7,
+      "weight": 0
+    },
+    {
+      "index": 665,
+      "kind": "pair",
+      "subset": [
+        8,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -890
+    },
+    {
+      "index": 666,
+      "kind": "pair",
+      "subset": [
+        8,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -320
+    },
+    {
+      "index": 667,
+      "kind": "pair",
+      "subset": [
+        8,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 668,
+      "kind": "pair",
+      "subset": [
+        8,
+        16
+      ],
+      "lower": 5,
+      "upper": 7,
+      "weight": 0
+    },
+    {
+      "index": 669,
+      "kind": "pair",
+      "subset": [
+        9,
+        10
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 670,
+      "kind": "pair",
+      "subset": [
+        9,
+        11
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 671,
+      "kind": "pair",
+      "subset": [
+        9,
+        12
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": -129
+    },
+    {
+      "index": 672,
+      "kind": "pair",
+      "subset": [
+        9,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 552
+    },
+    {
+      "index": 673,
+      "kind": "pair",
+      "subset": [
+        9,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -52
+    },
+    {
+      "index": 674,
+      "kind": "pair",
+      "subset": [
+        9,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 675,
+      "kind": "pair",
+      "subset": [
+        9,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -622
+    },
+    {
+      "index": 676,
+      "kind": "pair",
+      "subset": [
+        10,
+        11
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 677,
+      "kind": "pair",
+      "subset": [
+        10,
+        12
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": -102
+    },
+    {
+      "index": 678,
+      "kind": "pair",
+      "subset": [
+        10,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 679,
+      "kind": "pair",
+      "subset": [
+        10,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 165
+    },
+    {
+      "index": 680,
+      "kind": "pair",
+      "subset": [
+        10,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 681,
+      "kind": "pair",
+      "subset": [
+        10,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -615
+    },
+    {
+      "index": 682,
+      "kind": "pair",
+      "subset": [
+        11,
+        12
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": 4
+    },
+    {
+      "index": 683,
+      "kind": "pair",
+      "subset": [
+        11,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -110
+    },
+    {
+      "index": 684,
+      "kind": "pair",
+      "subset": [
+        11,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 1000
+    },
+    {
+      "index": 685,
+      "kind": "pair",
+      "subset": [
+        11,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": 213
+    },
+    {
+      "index": 686,
+      "kind": "pair",
+      "subset": [
+        11,
+        16
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -366
+    },
+    {
+      "index": 687,
+      "kind": "pair",
+      "subset": [
+        12,
+        13
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 688,
+      "kind": "pair",
+      "subset": [
+        12,
+        14
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -552
+    },
+    {
+      "index": 689,
+      "kind": "pair",
+      "subset": [
+        12,
+        15
+      ],
+      "lower": 5,
+      "upper": 5,
+      "weight": -1000
+    },
+    {
+      "index": 690,
+      "kind": "pair",
+      "subset": [
+        12,
+        16
+      ],
+      "lower": 5,
+      "upper": 7,
+      "weight": 0
+    },
+    {
+      "index": 691,
+      "kind": "pair",
+      "subset": [
+        13,
+        14
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 692,
+      "kind": "pair",
+      "subset": [
+        13,
+        15
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 693,
+      "kind": "pair",
+      "subset": [
+        13,
+        16
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": -419
+    },
+    {
+      "index": 694,
+      "kind": "pair",
+      "subset": [
+        14,
+        15
+      ],
+      "lower": 7,
+      "upper": 7,
+      "weight": 1000
+    },
+    {
+      "index": 695,
+      "kind": "pair",
+      "subset": [
+        14,
+        16
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": -64
+    },
+    {
+      "index": 696,
+      "kind": "pair",
+      "subset": [
+        15,
+        16
+      ],
+      "lower": 6,
+      "upper": 6,
+      "weight": -83
+    }
+  ]
+}

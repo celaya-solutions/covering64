@@ -1,0 +1,35 @@
+{
+  "version": "v1.0.0",
+  "seed": 2026103991,
+  "seconds": 180,
+  "workers": 1,
+  "source_revision": "deeaaca413d5032eb5ec37d1ef8499fae4af93cc",
+  "source_sha256": "f6fbb7bd6fc13da08156cfe6a095795e3908da573054ffd10216fd97108f7f33",
+  "model_sha256": "726c5d50ecc326a425b597ca837111408626202bedc0effb1d9f43fe3905af19",
+  "input_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+  "hint_sha256": "302cb352b4012a89f847526bf8348a7e418f4b8a1fa273b190653df4ef0ec5c3",
+  "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+  "certificate_sha256": "9997df71457bd6f4ca5567032cd026e3956d29235515acc330f05fddc6d9c298",
+  "solver": "OR-Tools CP-SAT",
+  "solver_version": "9.15.6755",
+  "raw_directory": "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/partial-core-holes-v1.0.0",
+  "compact_directory": "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/partial-core-holes",
+  "variables": {
+    "lex_ordered_blocks": 4368,
+    "exact_missing_indicators": 560
+  },
+  "core_overlap_band": [
+    52,
+    55
+  ],
+  "selected_blocks": 64,
+  "hint_holes": 11,
+  "hint_core_overlap": 55,
+  "scope": "Constructive original-label core band only; not a complete restriction.",
+  "no_additional_assumptions": [
+    "degrees",
+    "regularity",
+    "rotations",
+    "hole ceiling"
+  ]
+}

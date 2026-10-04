@@ -1,0 +1,14 @@
+{
+  "version": "v1.3.0",
+  "source_sha256": "e9584eb88bb4bb744b7a2d83af26d1f3f3cf23c5efeeb42a1d94438582c4da35",
+  "cut_sha256": "9b946f1dbb41f49495a2303b1cac8b2de8a68e0e2eca2aa455dab02f5c5872c1",
+  "cut_gate_sha256": "d9fc445699bc280076061ea1b9c63a14c83e9016e39ffab856633642d4278d4f",
+  "preparer_sha256": "17ae3addf0da9bfef9482bd30ba5c18bd054d549a11f405902f2fc8a89155135",
+  "target": "scripts/four_seven_template_cut_heuristic.cpp",
+  "target_sha256": "08efce024da6d66001beb1eb10bd45b865df99b29f22c6dc01d1199fc06c1b38",
+  "default_cut_enabled": false,
+  "cut_flag": "--cut-guide",
+  "cut_penalty": "ceil(max(0,108686-heavy_sum)/1000)",
+  "hard_rejections_added": false,
+  "search_launched": false
+}

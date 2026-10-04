@@ -66,13 +66,11 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-The continuation saves the audited ten-hole search and its exact fixed-heavy obstruction, geometric capacity screens and refreshed primary bounds. The 64-block target remains open, with 109 checked first-link exclusions; unfinished next work is the reusable heavy-pattern cut and joint partial-core model, neither yet implemented. Large raw evidence stays in ignored scratch; preserve unrelated `.ignore` and `opencode.json`.
+Saved the reusable heavy cut and its 31104-map separator. The new ten-hole native tuple escapes the whole known cut orbit; completion remains unproved. Two audited SQS-extension pilots returned UNKNOWN. The 64-block target is open, with 109 checked first-link exclusions and unrestricted best three holes. Next work: new fixed-heavy completion and a pure SQS-pool hole search. Large raw evidence stays in ignored scratch; preserve unrelated `.ignore` and `opencode.json`.
 
 ## Independent construction checkpoint 2026-10-03
 
 Saved three new routes, an independently replayed 16-case excess recipe and a checked 67-block minimum for the one-extension-per-line geometry recipe. Four single-worker pilots (420 seconds total) returned UNKNOWN; 267 tests and Ruff pass. See docs/independent-research-2026-10-03.md.
 Next bounded test: the remaining 15 recipe profiles; neither the recipe nor these timeouts settle general existence. Use nonnegative indices when mutating OR-Tools repeated fields: a negative-index damage control crashed the native binding, then passed after correction. Raw logs preserve source whitespace and remain unchanged.
-
-Integration note: both research histories are preserved for the requested main merge; merged-tree validation is recorded separately.
 
 Merge checkpoint: both research histories retained; merged-tree validation passed 369 tests and Ruff. See experiments/2026-10-03/main-integration/validation.json.

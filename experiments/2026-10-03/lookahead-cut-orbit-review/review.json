@@ -1,0 +1,168 @@
+{
+  "mathematical_replay_passed": true,
+  "source_sha256": "7d3d030f9a1276851842d14f2375ba9931f2c4790a756e1146533126b5f0becb",
+  "reviewed_inputs": {
+    "experiments/2026-10-03/lookahead-cut-orbit/check.py": "7e71d05ed94b99977564ed6742ab0bb7575335788a4e0a2cc9823f7c230658c8",
+    "experiments/scratch/lookahead-cut-orbit-v1.0.0/check.py": "df36adce94f2a477165ab78b66c5c16fb153d0190905826b086074e699853833",
+    "experiments/2026-10-03/lookahead-parametric-cut/cut.json": "9b946f1dbb41f49495a2303b1cac8b2de8a68e0e2eca2aa455dab02f5c5872c1",
+    "experiments/2026-10-03/four-seven-template-native-lookahead/performance-cycle-best.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3"
+  },
+  "independent_generators": 10,
+  "group_maps": 31104,
+  "heavy_domain": 276,
+  "ordinary_domain": 1200,
+  "baseline": {
+    "minimum_lhs": 98144,
+    "maximum_lhs": 156905,
+    "violated_maps": 19,
+    "worst_map": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  },
+  "relabel_controls": [
+    {
+      "case": 0,
+      "mapping": [
+        2,
+        3,
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "minimum_lhs": 98144,
+      "maximum_lhs": 156905,
+      "violated_maps": 19,
+      "worst_map": [
+        3,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "case": 1,
+      "mapping": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        1,
+        2,
+        3,
+        4
+      ],
+      "minimum_lhs": 98144,
+      "maximum_lhs": 156905,
+      "violated_maps": 19,
+      "worst_map": [
+        13,
+        14,
+        15,
+        16,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    }
+  ],
+  "damaged_witnesses_rejected": [
+    "missing-block",
+    "extra-block",
+    "duplicate-block",
+    "zero-label",
+    "label17",
+    "repeated-label",
+    "wrong-width",
+    "unsorted-block",
+    "cross-anchor-point-swap",
+    "wrong-own-hub"
+  ],
+  "race_control": [
+    {
+      "version": "v1.0.0",
+      "source_sha256": "df36adce94f2a477165ab78b66c5c16fb153d0190905826b086074e699853833",
+      "receipt_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "validated_bytes_sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "final_bytes_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "final_bytes": "LF only",
+      "receipt_hash_matches_validated_bytes": false,
+      "primary_source_modified": false
+    },
+    {
+      "version": "v1.1.0",
+      "source_sha256": "7e71d05ed94b99977564ed6742ab0bb7575335788a4e0a2cc9823f7c230658c8",
+      "receipt_hash": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "validated_bytes_sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "final_bytes_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "final_bytes": "LF only",
+      "receipt_hash_matches_validated_bytes": true,
+      "primary_source_modified": false
+    }
+  ],
+  "findings": [
+    {
+      "severity": "evidence-integrity",
+      "status": "resolved-in-v1.1.0",
+      "summary": "Version1.0 parsed input before enumeration but hashed fresh bytes afterward. The controlled rewrite reproduced a passed receipt for unvalidated final bytes. Version1.1 parses and hashes one captured byte buffer, and passes the same rewrite control with the correct initial hash."
+    }
+  ],
+  "unresolved_actionable_findings": 0,
+  "current_frozen_baseline_affected": false,
+  "solver_calls": 0,
+  "claim_review": "A violated orbit cut rules out the fixed heavy tuple only in the regular four-sevenfold family. A passed orbit screen is not evidence of extendability. The31104-map orbit covers these anchor/hub relabelings, not all arbitrary16-point maps."
+}

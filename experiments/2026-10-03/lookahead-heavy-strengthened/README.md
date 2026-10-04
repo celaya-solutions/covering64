@@ -1,10 +1,10 @@
 ```
 Document:    Fixed-Heavy Pair and Triple Strengthening
-Version:     v1.1.0
+Version:     v1.2.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      086c2ee7fd231c8c56d59a3df1b357c7aa0322880a3e7fb857f5ab6e274c2fc2
+SHA256:      342cf6abadbe15da734e913e63b71e086d8e33cb53fc674bab8768e27c6f2fb0
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -73,5 +73,17 @@ gap 5271/500. Five damaged certificates were rejected.
 This proves that the ten-hole state's fixed 28 heavy blocks cannot complete in
 the regular four-sevenfold family, even with every hub graph allowed. It does
 not exclude a complete first-link representative or change the 109-entry
-first-link exclusion union. A reusable inequality in variable heavy patterns
-has not yet been derived or audited.
+first-link exclusion union. The dual now yields an independently checked inequality in all 276 legal
+heavy-block indicators: `sum(c_b h_b) >= 108686`. The constant numerator is
+108773 and the ordinary-column box maximum is 87. The ten-hole tuple's value
+98144 violates the bound by 10542. Coefficients and the symbolic row map are in
+`experiments/2026-10-03/lookahead-parametric-cut/`; root's independent 697-row
+reconstruction and six damaged controls are in `lookahead-cut-independent/`.
+All six hub graphs remain allowed. This is a conditional family constraint,
+not a new whole first-link exclusion or global reduction.
+
+A separate separator evaluates all 31,104 anchor/hub-preserving relabelings.
+Only 19 transformed inequalities reject the old tuple, so the separator is
+needed to recognize relabeled copies that evade the single labeled cut.
+The best violation remains 10542. See `lookahead-cut-orbit/` for the checked
+maps, pullback coefficients, and input-byte provenance.

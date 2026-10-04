@@ -1,0 +1,93 @@
+{
+  "rhs": 108686,
+  "seed_lhs": 98144,
+  "violation_numerator": 10542,
+  "denominator": 1000,
+  "gap": [
+    5271,
+    500
+  ],
+  "signed_rows": 531,
+  "ordinary_box_max_numerator": 87,
+  "heavy_coefficient_range": [
+    -6073,
+    10764
+  ],
+  "passed": true,
+  "checker_sha256": "1251505b71a5583773d5c13ee0ff418bd48b5bc58c2a596f47e3664701df9a49",
+  "cut_sha256": "9b946f1dbb41f49495a2303b1cac8b2de8a68e0e2eca2aa455dab02f5c5872c1",
+  "dual_sha256": "417d6571af18be0a393a8d92bac0e15c9992c7a30556c1cc040250330020f4d0",
+  "source_gate_sha256": "64e0a0d82bb3a1704d234562adc66ff9b6650fbad8598bd6c9271dec552524a1",
+  "row_map_sha256": "0aa9b28ec2e7353d4cead5160da40a73d01604b854eb35458a4a8354bb830d7d",
+  "heavy_variables": 276,
+  "ordinary_variables": 1200,
+  "hub_graphs": [
+    [
+      0,
+      0,
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "damaged_controls_rejected": 15,
+  "damage_controls": [
+    "rhs",
+    "constant_numerator",
+    "ordinary_box_max_numerator",
+    "denominator",
+    "seed_lhs",
+    "seed_violation_numerator",
+    "coefficients",
+    "heavy_global_ids",
+    "ordinary_global_ids",
+    "ordinary_combined_coefficients",
+    "seed_heavy_global_ids",
+    "direction",
+    "missing heavy candidate",
+    "duplicate dual row",
+    "altered dual weight"
+  ],
+  "scope": "Necessary inequality for regular degree20 four-sevenfold completions with these four anchor triples and their own hubs; all six hub graphs retained. Not an unrestricted covering bound or a first-link exclusion."
+}
