@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "source_sha256": "e55a9ef9e9a4bdff453bd24a6c03e4ffd7dcbe501791e76d0441617c29412e28",
+  "gate_sha256": "47b9fed1ee3d9315f0f7b1bf56d87c85e8798d46305375bce8a371e80da6cbfa",
+  "result_sha256": "2d7070dfc4101cd3c060bdfd221d6bdbcac5ba3d96eb6fbd0d0f66f2ca05c49c",
+  "status": "FEASIBLE",
+  "seconds": 120.02173283300363,
+  "checked": [
+    {
+      "path": "experiments/2026-10-04/global-five-heavy-dp/full-4368/callback-000-h10-c1.txt",
+      "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "holes": 10,
+      "core_overlaps": [
+        1,
+        8,
+        55
+      ],
+      "maximum_partition_weight": 24,
+      "minimum_point_degree": 19,
+      "minimum_pair_count": 4,
+      "pairs_below_five": 3,
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-dp-independent/state-00-package.json",
+          "sha256": "d59c8eeeb0e0bfad9a91841a7cf0f020e2f2b2058bd95aa109f0d726f33454fa",
+          "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc"
+        },
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-dp-independent/state-00-standalone.json",
+          "sha256": "8bdcbb846be68b522cbfc6db692b4ac0adfab06f075a68f40c746fd1e3d5fe87",
+          "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc"
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-04/global-five-heavy-dp/full-4368/final-response-h10-c1.txt",
+      "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "holes": 10,
+      "core_overlaps": [
+        1,
+        8,
+        55
+      ],
+      "maximum_partition_weight": 24,
+      "minimum_point_degree": 19,
+      "minimum_pair_count": 4,
+      "pairs_below_five": 3,
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-dp-independent/state-01-package.json",
+          "sha256": "d59c8eeeb0e0bfad9a91841a7cf0f020e2f2b2058bd95aa109f0d726f33454fa",
+          "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc"
+        },
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-dp-independent/state-01-standalone.json",
+          "sha256": "8bdcbb846be68b522cbfc6db692b4ac0adfab06f075a68f40c746fd1e3d5fe87",
+          "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc"
+        }
+      ]
+    }
+  ],
+  "damaged_assignments_rejected": [
+    "selected_block",
+    "global_threshold",
+    "fifteen_point_bound"
+  ],
+  "cover_found": false,
+  "scope": "All saved callbacks and final response. DP auxiliaries may exceed their least feasible values; all active rows, thresholds, domains and actual maxima checked."
+}

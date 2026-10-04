@@ -1,0 +1,70 @@
+{
+  "baseline": {
+    "all_64_slots_free": true,
+    "best_holes": 6,
+    "has_core_cap": false,
+    "historical_seed": 2026102402,
+    "proposals": 2500339392,
+    "seconds": 600,
+    "source": "scripts/heavy_profile_heuristic.cpp"
+  },
+  "change": {
+    "core_cap": 55,
+    "hard_reject_core_violating_proposals": true,
+    "membership_source": "experiments/2026-10-04/three-core-profile-release/manifest.json",
+    "named_core_count": 3,
+    "preserve_global_profile_record_filter": true,
+    "preserve_mutation_kernel": true,
+    "preserve_profile_energy_penalty": 8,
+    "preserve_restart_and_temperature_schedule": true
+  },
+  "gate": "Fresh independently reconstructed membership, boundary, move, rollback, restart, record, damaged-input and sanitizer controls before either native search.",
+  "input_files": {
+    "experiments/2026-10-03/heavy-profile-predicate-audit/check.py": "bb7667ca7166710f0add7100482d5321a61a0c5237de1dc784e8c98c658c83c7",
+    "experiments/2026-10-03/heavy-profile-predicate-audit/result.json": "3713e974481371c7c966ec483634593f445b5f9d90f06c2f0deac060d5c687b9",
+    "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/checks.json": "1812d2dd2c9d062aea24d133b8b68f994924f9e1f7bba79dac5d8afc8e7832ca",
+    "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/metadata.json": "a9d4e5825e3322aada48db0b583e17f5da86fab208ad9ed938d4ed4eec53090b",
+    "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/result.json": "17ff1f33466eadf47f0e8b106d5f859560b3a144a4b0b58a0b3ae168fd419a48",
+    "experiments/2026-10-03/heavy-profile-search/pilot-2026102402/stdout.jsonl": "cb26dc3beaf710f84ccade3847f5c9117bf2fd7e2d404094ccd98ec37a8dd40a",
+    "experiments/2026-10-03/heavy-profile-search/run.py": "abc29693ed3f02e40e897d3fe416a82adf5c35e0d5f81f66b4337ff07cb66f8f",
+    "experiments/2026-10-04/core-cap-independent/audit.json": "fec461fad7b3f53fade9beecec77c7146487e02f5bbb36f543f642d190edc5a8",
+    "experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+    "experiments/2026-10-04/third-core-independent/audit.json": "6a3881254e8c659459174bb79630c2b78d946d35f40f52ca472149410820deb9",
+    "experiments/2026-10-04/three-core-profile-release-independent/gate.json": "ceb77c7914702a4500874698a8c0c9687d3baf9059bd43064e44f6e1ecd26343",
+    "experiments/2026-10-04/three-core-profile-release-independent/postcheck.json": "276a359ca09fac44bf93b456fcd3773b2786732755e2e60af4f01e553b889193",
+    "experiments/2026-10-04/three-core-profile-release/manifest.json": "546c44b04b7eded3aaac2d0a3a7c0450612f07530f2edbd85284d8c33479292d",
+    "experiments/scratch/pilot-2026102402/heavy_profile_heuristic.cpp": "aff58a7343b44199325712ed21d86d24a68c64a91fe174762a9b0da5326eeb95",
+    "experiments/scratch/pilot-2026102402/heuristic_search.cpp": "90b88e246ed494d33b361f9e0792b720b752860dc6adcffa366e0996804c620a",
+    "scripts/heavy_profile_heuristic.cpp": "c48b6cbb6bfb81319d00733040caca40993f7b1abf9caa9d640b2c08e8a8e3ad",
+    "scripts/heuristic_search.cpp": "90b88e246ed494d33b361f9e0792b720b752860dc6adcffa366e0996804c620a",
+    "tests/test_heavy_profile_heuristic.py": "5ba38fe731a29639496fab14176b28815108e9ef842f2cda7e677b23d460d567"
+  },
+  "interpretation": "Necessary core conditions do not prove connectivity of the remaining mutation graph; bounded failure has no exclusion or lower-bound consequence.",
+  "native_builds": 0,
+  "optimizer_calls": 0,
+  "proposed_budget": {
+    "native_processes": 1,
+    "repeat_failed_run": false,
+    "runs": 2,
+    "seconds_per_run": 60,
+    "seeds": [
+      2026104201,
+      2026104202
+    ]
+  },
+  "proposed_hint": {
+    "core_overlaps": [
+      1,
+      8,
+      55
+    ],
+    "global_five_heavy_obstructions": 0,
+    "holes": 10,
+    "path": "experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt",
+    "same_hint_both_runs": true,
+    "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc"
+  },
+  "source_revision": "fdd62792a1f4696075da2002bc71747c10ba2dcf",
+  "status": "read_only_preparation_plan",
+  "version": "1.0.0"
+}

@@ -1,0 +1,105 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "full": {
+    "states": 21845,
+    "state_histogram": {
+      "0": 1,
+      "3": 560,
+      "6": 8008,
+      "9": 11440,
+      "12": 1820,
+      "15": 16
+    },
+    "rows": 502516,
+    "row_histogram": {
+      "3": 560,
+      "6": 80080,
+      "9": 320320,
+      "12": 100100,
+      "15": 1456
+    },
+    "rows_path": "experiments/scratch/global-five-heavy-dp-plan-20261004/full-rows.uint32le",
+    "rows_sha256": "9f058db045cc73cf96eaeea44fbcdfb707f1030f34434b71bd7e91b60be3c496",
+    "rows_bytes": 6030192,
+    "states_path": "experiments/scratch/global-five-heavy-dp-plan-20261004/full-states.json",
+    "states_sha256": "c3ef1d33867cb529125c2fb329ddfb5d47db003991a37f6396ea9092f99fb6f4",
+    "generation_seconds": 0.17319104191847146,
+    "threshold_fanout_min": 1,
+    "threshold_fanout_max": 2731,
+    "threshold_fanout_sum": 502516,
+    "parent_fanout_max": 560,
+    "inline_recurrence_coefficient_occurrences": 2010064,
+    "dp_and_threshold_variables": 22965
+  },
+  "reachable": {
+    "states": 4410,
+    "state_histogram": {
+      "0": 1,
+      "3": 220,
+      "6": 1716,
+      "9": 2002,
+      "12": 455,
+      "15": 16
+    },
+    "rows": 99917,
+    "row_histogram": {
+      "3": 220,
+      "6": 17160,
+      "9": 56056,
+      "12": 25025,
+      "15": 1456
+    },
+    "rows_path": "experiments/scratch/global-five-heavy-dp-plan-20261004/reachable-rows.uint32le",
+    "rows_sha256": "be507dc2c1fc123ac010e29d480b480978871f37af5eb51d6b87cd939474e2f7",
+    "rows_bytes": 1199004,
+    "states_path": "experiments/scratch/global-five-heavy-dp-plan-20261004/reachable-states.json",
+    "states_sha256": "df94ad82423acbca92bd34a94db78b772ffe3ecfe19b3cfefc1dc12c42d15546",
+    "generation_seconds": 0.03635991702321917,
+    "threshold_fanout_min": 1,
+    "threshold_fanout_max": 517,
+    "threshold_fanout_sum": 99917,
+    "parent_fanout_max": 220,
+    "inline_recurrence_coefficient_occurrences": 399668,
+    "dp_and_threshold_variables": 5530
+  },
+  "finite_controls": {
+    "threshold_counts_checked": 79,
+    "partition_categories": 243,
+    "forbidden_categories": 26,
+    "allowed_categories": 217,
+    "small_unpruned_subset_checks": 2028,
+    "small_weight_vectors": 12,
+    "maximum_small_partition_size": 9,
+    "seed": 2026104
+  },
+  "synthetic_dag_pass_timings": [
+    {
+      "uniform_weight": 0,
+      "seconds": 0.012527083046734333,
+      "maximum_target_value": 0
+    },
+    {
+      "uniform_weight": 5,
+      "seconds": 0.013084875070489943,
+      "maximum_target_value": 25
+    },
+    {
+      "uniform_weight": 6,
+      "seconds": 0.014018917107023299,
+      "maximum_target_value": 30
+    }
+  ],
+  "triple_indicators": 1120,
+  "exact_threshold_half_reified_rows": 2240,
+  "source_sha256": "1b07c682d30b600703f053b5c2af5c0de4679cfa273923d6850e8ee9b51fc3bf",
+  "input_files": {
+    "experiments/2026-10-04/global-five-heavy-dp-plan/check.py": "1b07c682d30b600703f053b5c2af5c0de4679cfa273923d6850e8ee9b51fc3bf",
+    "experiments/2026-10-03/five-heavy-triples/README.md": "27b8f24fc574e7923f15cb591de360de916f032a8b588a86139de379a67e1442",
+    "experiments/2026-10-03/five-heavy-triples/check.py": "74e7fe8066505154e439e539e842cc035b676fe624c9c8f6437928c293fc422a",
+    "experiments/2026-10-03/five-heavy-triples/result.json": "e33ca83bacfcdd63e9dd1d36d2518e8987bbf3af85a8170e2259277760595827",
+    "experiments/2026-10-04/heterogeneous-profile-pool/run.py": "2c317b92f00c5310bbca20f2e6d809c2366513d3bacff0c8bbc18a52c1e0a066",
+    "experiments/2026-10-04/three-core-profile-release/run.py": "7c0fc47ad481e8a80631bea85855aa2648c53b0608a21fc9d9fbb58ed6cbf6ee"
+  },
+  "scope": "Encoding proof controls and fixed-weight arithmetic only. No construction optimizer, solver propagation benchmark, or covering-bound claim."
+}

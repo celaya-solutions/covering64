@@ -1,0 +1,3824 @@
+{
+  "checker_sha256": "a79f30d4db56276c9af7e23c632f67c2620c5e403a0201bf8d63e9d9e3fb251c",
+  "manifest_sha256": "546c44b04b7eded3aaac2d0a3a7c0450612f07530f2edbd85284d8c33479292d",
+  "model_changes": false,
+  "necessary_bounds": {
+    "minimum_pair_count": 5,
+    "minimum_point_degree": 19
+  },
+  "optimizer_calls": 0,
+  "passed": true,
+  "postcheck_sha256": "276a359ca09fac44bf93b456fcd3773b2786732755e2e60af4f01e553b889193",
+  "proof": "A fixed pair must cover 14 choices of a third point. Each five-block containing that pair covers three choices, so its count is at least ceil(14/3)=5. For each point, the sum of its 15 incident pair counts equals four times its degree. Hence four times its degree is at least 75, so its degree is at least19.",
+  "records": [
+    {
+      "case": "adaptive-952",
+      "holes": 13,
+      "minimum_pair_count": 4,
+      "minimum_point_degree": 19,
+      "number_of_pairs_below_5": 5,
+      "number_of_points_below_19": 0,
+      "pair_count_total": 640,
+      "pair_counts": [
+        {
+          "count": 7,
+          "pair": [
+            1,
+            2
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            1,
+            3
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            7
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            1,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            9
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            10
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            2,
+            3
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            2,
+            7
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            2,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            14
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            2,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            5
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            12
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            13
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            7
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            11
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            4,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            15
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            4,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            5,
+            6
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            5,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            6,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            6,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            11
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            10
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            10,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            14
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            13,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            14,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            14,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            15,
+            16
+          ]
+        }
+      ],
+      "pairs_below_5": [
+        {
+          "count": 4,
+          "pair": [
+            1,
+            8
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            2,
+            15
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            4,
+            12
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            4,
+            16
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        }
+      ],
+      "path": "experiments/2026-10-04/six-hole-strong-core-release/adaptive-952/best-01-h13-c1.txt",
+      "point_degree_total": 320,
+      "point_degrees": [
+        {
+          "degree": 21,
+          "point": 1
+        },
+        {
+          "degree": 20,
+          "point": 2
+        },
+        {
+          "degree": 21,
+          "point": 3
+        },
+        {
+          "degree": 19,
+          "point": 4
+        },
+        {
+          "degree": 20,
+          "point": 5
+        },
+        {
+          "degree": 20,
+          "point": 6
+        },
+        {
+          "degree": 21,
+          "point": 7
+        },
+        {
+          "degree": 19,
+          "point": 8
+        },
+        {
+          "degree": 21,
+          "point": 9
+        },
+        {
+          "degree": 20,
+          "point": 10
+        },
+        {
+          "degree": 20,
+          "point": 11
+        },
+        {
+          "degree": 19,
+          "point": 12
+        },
+        {
+          "degree": 20,
+          "point": 13
+        },
+        {
+          "degree": 20,
+          "point": 14
+        },
+        {
+          "degree": 20,
+          "point": 15
+        },
+        {
+          "degree": 19,
+          "point": 16
+        }
+      ],
+      "points_below_19": [],
+      "role": "hint",
+      "sha256": "2ca634fdd489451426417571d5edec23db20a463ff6bac7827f827d3c1bc4468"
+    },
+    {
+      "case": "adaptive-952",
+      "holes": 12,
+      "minimum_pair_count": 4,
+      "minimum_point_degree": 19,
+      "number_of_pairs_below_5": 5,
+      "number_of_points_below_19": 0,
+      "pair_count_total": 640,
+      "pair_counts": [
+        {
+          "count": 8,
+          "pair": [
+            1,
+            2
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            1,
+            3
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            2,
+            3
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            2,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            9
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            2,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            7
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            4,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            16
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            14
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            5,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            6,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            11
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            14
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            16
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            10
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            12
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            13
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            10
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            16
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            10
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            11
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            16
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            10,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            11,
+            15
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            11,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            14
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            13,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            14,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            14,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            15,
+            16
+          ]
+        }
+      ],
+      "pairs_below_5": [
+        {
+          "count": 4,
+          "pair": [
+            2,
+            10
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            5,
+            15
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            15
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            11,
+            16
+          ]
+        }
+      ],
+      "path": "experiments/2026-10-04/three-core-profile-release/adaptive-952/final-response.txt",
+      "point_degree_total": 320,
+      "point_degrees": [
+        {
+          "degree": 21,
+          "point": 1
+        },
+        {
+          "degree": 20,
+          "point": 2
+        },
+        {
+          "degree": 20,
+          "point": 3
+        },
+        {
+          "degree": 20,
+          "point": 4
+        },
+        {
+          "degree": 19,
+          "point": 5
+        },
+        {
+          "degree": 19,
+          "point": 6
+        },
+        {
+          "degree": 22,
+          "point": 7
+        },
+        {
+          "degree": 20,
+          "point": 8
+        },
+        {
+          "degree": 21,
+          "point": 9
+        },
+        {
+          "degree": 19,
+          "point": 10
+        },
+        {
+          "degree": 20,
+          "point": 11
+        },
+        {
+          "degree": 20,
+          "point": 12
+        },
+        {
+          "degree": 20,
+          "point": 13
+        },
+        {
+          "degree": 20,
+          "point": 14
+        },
+        {
+          "degree": 20,
+          "point": 15
+        },
+        {
+          "degree": 19,
+          "point": 16
+        }
+      ],
+      "points_below_19": [],
+      "role": "native_final",
+      "sha256": "bb55079898549fa7a9515136dc49799087618e905c92366bbca6f348a1c527cb"
+    },
+    {
+      "case": "full-4368",
+      "holes": 10,
+      "minimum_pair_count": 4,
+      "minimum_point_degree": 19,
+      "number_of_pairs_below_5": 3,
+      "number_of_points_below_19": 0,
+      "pair_count_total": 640,
+      "pair_counts": [
+        {
+          "count": 7,
+          "pair": [
+            1,
+            2
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            1,
+            3
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            5
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            2,
+            3
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            7
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            2,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            16
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            7
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            11
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            4,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            5,
+            6
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            5,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            12
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            13
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            6,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            6,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            11
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            8
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            10
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            7,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            10
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            10
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            10,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            10,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            11,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            12,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            14
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            13,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            14,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            14,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            15,
+            16
+          ]
+        }
+      ],
+      "pairs_below_5": [
+        {
+          "count": 4,
+          "pair": [
+            4,
+            12
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            7,
+            11
+          ]
+        }
+      ],
+      "path": "experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt",
+      "point_degree_total": 320,
+      "point_degrees": [
+        {
+          "degree": 20,
+          "point": 1
+        },
+        {
+          "degree": 20,
+          "point": 2
+        },
+        {
+          "degree": 20,
+          "point": 3
+        },
+        {
+          "degree": 19,
+          "point": 4
+        },
+        {
+          "degree": 21,
+          "point": 5
+        },
+        {
+          "degree": 20,
+          "point": 6
+        },
+        {
+          "degree": 20,
+          "point": 7
+        },
+        {
+          "degree": 20,
+          "point": 8
+        },
+        {
+          "degree": 21,
+          "point": 9
+        },
+        {
+          "degree": 20,
+          "point": 10
+        },
+        {
+          "degree": 20,
+          "point": 11
+        },
+        {
+          "degree": 19,
+          "point": 12
+        },
+        {
+          "degree": 20,
+          "point": 13
+        },
+        {
+          "degree": 20,
+          "point": 14
+        },
+        {
+          "degree": 20,
+          "point": 15
+        },
+        {
+          "degree": 20,
+          "point": 16
+        }
+      ],
+      "points_below_19": [],
+      "role": "hint",
+      "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc"
+    },
+    {
+      "case": "full-4368",
+      "holes": 10,
+      "minimum_pair_count": 4,
+      "minimum_point_degree": 19,
+      "number_of_pairs_below_5": 3,
+      "number_of_points_below_19": 0,
+      "pair_count_total": 640,
+      "pair_counts": [
+        {
+          "count": 7,
+          "pair": [
+            1,
+            2
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            1,
+            3
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            5
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            8
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            1,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            1,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            1,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            2,
+            3
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            7
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            2,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            2,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            4
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            6
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            3,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            3,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            5
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            6
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            7
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            4,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            4,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            5,
+            6
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            5,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            5,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            5,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            6,
+            7
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            10
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            11
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            6,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            6,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            8
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            10
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            7,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            7,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            7,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            9
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            10
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            8,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            8,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            10
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            9,
+            11
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            9,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            9,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            10,
+            11
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            10,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            10,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            12
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            13
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            14
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            11,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            11,
+            16
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            13
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            14
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            15
+          ]
+        },
+        {
+          "count": 6,
+          "pair": [
+            12,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            14
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            13,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            13,
+            16
+          ]
+        },
+        {
+          "count": 7,
+          "pair": [
+            14,
+            15
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            14,
+            16
+          ]
+        },
+        {
+          "count": 5,
+          "pair": [
+            15,
+            16
+          ]
+        }
+      ],
+      "pairs_below_5": [
+        {
+          "count": 4,
+          "pair": [
+            1,
+            9
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            6,
+            12
+          ]
+        },
+        {
+          "count": 4,
+          "pair": [
+            7,
+            11
+          ]
+        }
+      ],
+      "path": "experiments/2026-10-04/three-core-profile-release/full-4368/final-response.txt",
+      "point_degree_total": 320,
+      "point_degrees": [
+        {
+          "degree": 20,
+          "point": 1
+        },
+        {
+          "degree": 20,
+          "point": 2
+        },
+        {
+          "degree": 20,
+          "point": 3
+        },
+        {
+          "degree": 19,
+          "point": 4
+        },
+        {
+          "degree": 20,
+          "point": 5
+        },
+        {
+          "degree": 20,
+          "point": 6
+        },
+        {
+          "degree": 20,
+          "point": 7
+        },
+        {
+          "degree": 20,
+          "point": 8
+        },
+        {
+          "degree": 20,
+          "point": 9
+        },
+        {
+          "degree": 20,
+          "point": 10
+        },
+        {
+          "degree": 20,
+          "point": 11
+        },
+        {
+          "degree": 20,
+          "point": 12
+        },
+        {
+          "degree": 20,
+          "point": 13
+        },
+        {
+          "degree": 20,
+          "point": 14
+        },
+        {
+          "degree": 20,
+          "point": 15
+        },
+        {
+          "degree": 21,
+          "point": 16
+        }
+      ],
+      "points_below_19": [],
+      "role": "native_final",
+      "sha256": "c2d38f4c7d538042210025939795452db3405b8d948bcbef81d9dd53cba6f591"
+    }
+  ],
+  "scope": "Exact counts for two existing hints and two checked native finals. These are necessary conditions for full covers, not for partial candidates. Passing them would not prove coverage. No constraint was added to the completed pilot."
+}

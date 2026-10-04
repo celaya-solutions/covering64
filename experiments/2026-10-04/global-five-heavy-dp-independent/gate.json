@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "4c85fd521a70d972637fc7ed8a58f118050f3aaf5a8c3cf7c54fc77c82c0952e",
+  "proof_sha256": "67fde8fe2b335fbcf1e7ba3e954149ae15a960b5c466343dd01b5ec51bd41a09",
+  "manifest_sha256": "d01230c07cb5b1226d2fcc95912586ac5ff07723da4e170be5e908167eeb9f5b",
+  "source_sha256": "477e8e03630185c233bbd61e8a12d9b4361cb45e271ad4bdfecdf875a635e24e",
+  "runner_source_sha256": "34753fb6b1a12027a10f76aacd8f69c43a293471ce3578eec3917995d56fe0ed",
+  "model_sha256": "ee2570107d996ee8f69a0118b11abbad91320f5b19eb6e196ef6a34367d5d295",
+  "parameters_sha256": "e55795cc6169e2cd321e10fdd040f2b22f6a08da3eeac711c7d8edde2ff54d6d",
+  "variables": 10488,
+  "constraints": 103345,
+  "unchanged_prefix_rows": 1188,
+  "threshold_rows": 2240,
+  "dp_states": 4410,
+  "dp_rows": 99917,
+  "hint_maximum_partition_weight": 24,
+  "hint_holes": 10,
+  "hint_objective": 651,
+  "damaged_controls_rejected": [
+    "lost_seven_weight",
+    "relaxed_recurrence",
+    "disabled_recurrence"
+  ],
+  "scope": "Only encoding and complete-hint validation. No optimization or covering claim."
+}

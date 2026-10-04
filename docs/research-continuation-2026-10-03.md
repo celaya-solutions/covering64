@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.19.0
+Version:     v1.20.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      28aaa3b3d682c23dbd2701d879906e97662d43a0be010d9fedbb60d1fe1b0028
+SHA256:      8adad4c56928986226e6d3501278df3061f855e52b4b25b3f973a0d127f9846f
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -927,3 +927,14 @@ A new necessary relabel screen is also checked: if any image of the original cor
 A fresh live repository-table check on 2026-10-04 at 10:29:52 UTC still shows lower bound 61 and upper bound 65 for the exact target. A separate read-only primary-source review records Knuth's SSMCC interval-cover encoding and failure-weighted variant as an unrun alternative. It is not a new algorithm or a demonstrated performance gain. Sources and generator notes are in `next-route-source-review/` and `ssmcc-model-plan/`.
 
 The current checkpoint passed `uv sync --frozen`, all 369 tests (235.28 seconds, three existing SWIG warnings), and Ruff. The regression log hash is saved in `profile-core-validation/regression.json`. No package source changed during these experimental pilots. No verified 64-block cover has been found.
+
+
+## Three-core releases and a global five-heavy filter (October 4)
+
+The next two releases retained all three checked core caps and all three named profile filters. Pools stayed at 952 and 4,368 blocks, but used different legal hints (13 and ten holes), so they are not a controlled pool-size comparison. Both 120-second/four-worker calls returned FEASIBLE: the adaptive pool improved to twelve holes, and the full universe retained ten. Independent checks covered five callback/final records (four distinct families), all assignments, both covering verifiers and every global five-heavy obstruction. None had that obstruction. Final core overlaps were [1,7,50] and [1,7,55]. Both finals have minimum point degree 19 and minimum pair count 4. The former has five pairs below five, the latter three. The elementary necessary pair bound follows because each pair belongs to fourteen triples and each selected block through it supplies at most three; summing the fifteen pair counts at a point gives its degree bound of nineteen. These pair diagnostics did not change either model.
+
+A new exact global encoding removes the need to enumerate named five-heavy partitions. Each triple receives exact threshold indicators for multiplicities at least six and at least seven and weight 5*six+seven in {0,5,6}. A canonical minimum-point recurrence lower-bounds the maximum weight of every partition of a point subset into triples. Bounding every fifteen-point target by 26 excludes exactly the forbidden five-disjoint-heavy pattern. The least feasible DP values equal the maxima; other feasible DP assignments can have slack. The existing unrestricted theorem therefore justifies the encoding for any full 64-block cover.
+
+The full recurrence has 21,845 states and 502,516 rows. Keeping only states reachable downward from the sixteen fifteen-point targets preserves every relevant partition and gives 4,410 states and 99,917 rows. Independent proof reconstruction matches the saved graph bytes, verifies both reachability directions, all 4,410 constructive paths, 79 threshold counts, 243 category patterns, 2,028 direct small cases and six full/trimmed comparisons. It also replays the existing theorem's 27,040 degree/hub assignments. Root separately checked the serialized 10,488-variable, 103,345-row model and complete ten-hole hint, retaining the previous three-core/named-filter prefix and objective unchanged.
+
+The sole declared global-DP pilot used 120 seconds, four workers and seed 2026104104. It reached search after about two seconds and returned FEASIBLE with the original objective 651 and ten-hole block family. All saved callback and final values, domains, active rows, exact thresholds and actual partition maxima were independently checked, including four covering-verifier calls and three damaged-assignment controls. There was no improvement or covering witness. Sources, proof controls, exact gate and outcome are in `global-five-heavy-dp-plan/`, `global-five-heavy-dp/` and `global-five-heavy-dp-independent/`. This is an encoding/result checkpoint, not a nonexistence theorem or a new global covering bound.

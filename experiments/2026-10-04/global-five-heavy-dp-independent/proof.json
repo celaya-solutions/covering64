@@ -1,0 +1,249 @@
+{
+  "constructive_reachability_paths_checked": 4410,
+  "direct_small_controls": {
+    "maximum_partition_size": 9,
+    "nonempty_subsets": 169,
+    "seed": 2026104,
+    "subset_weight_cases": 2028,
+    "weight_vectors": 12
+  },
+  "full_dag": {
+    "dp_and_threshold_variables": 22965,
+    "inline_recurrence_coefficient_occurrences": 2010064,
+    "parent_fanout_max": 560,
+    "row_histogram": {
+      "12": 100100,
+      "15": 1456,
+      "3": 560,
+      "6": 80080,
+      "9": 320320
+    },
+    "rows": 502516,
+    "rows_bytes": 6030192,
+    "rows_sha256": "9f058db045cc73cf96eaeea44fbcdfb707f1030f34434b71bd7e91b60be3c496",
+    "state_histogram": {
+      "0": 1,
+      "12": 1820,
+      "15": 16,
+      "3": 560,
+      "6": 8008,
+      "9": 11440
+    },
+    "states": 21845,
+    "states_sha256": "c3ef1d33867cb529125c2fb329ddfb5d47db003991a37f6396ea9092f99fb6f4",
+    "threshold_fanout_max": 2731,
+    "threshold_fanout_min": 1,
+    "threshold_fanout_sum": 502516
+  },
+  "full_vs_trimmed_controls": [
+    {
+      "target_values": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vector": 0,
+      "within_cap26": true
+    },
+    {
+      "target_values": [
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25,
+        25
+      ],
+      "vector": 1,
+      "within_cap26": true
+    },
+    {
+      "target_values": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "vector": 2,
+      "within_cap26": false
+    },
+    {
+      "target_values": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "vector": 3,
+      "within_cap26": false
+    },
+    {
+      "target_values": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "vector": 4,
+      "within_cap26": false
+    },
+    {
+      "target_values": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "vector": 5,
+      "within_cap26": false
+    }
+  ],
+  "mathematical_argument": [
+    "Exact channeling gives weight 0 for counts 0..5, 5 for count 6, and 6 for counts >=7.",
+    "A five-triple sum above 26 means all five counts are >=6 and at least two are >=7.",
+    "Every partition has exactly one triple containing its set's minimum point.",
+    "Thus its maximum weight F satisfies the pivot recurrence, with F(empty)=0.",
+    "The lower recurrence inequalities and D(empty)=0 imply D(S)>=F(S) by induction.",
+    "Every size-15 target cap of 26 therefore excludes all forbidden partitions.",
+    "Conversely, if all partition weights are <=26, D=F fits every inequality and domain 0..6k, with target domains 0..26.",
+    "All 16 size-15 targets include every five-disjoint-triple family. No block labeling or regularity is fixed.",
+    "After q minimum deletions, labels 1..q are absent. Conversely every such state S has the explicitly checked pivot path.",
+    "The trimmed set is exactly backward reachable and closed under every required dependency. The same equivalence therefore holds.",
+    "The independently checked degree and hub theorem forbids this profile for full 64-block covers without a regularity assumption."
+  ],
+  "optimizer_calls": 0,
+  "passed": true,
+  "reachable_dag": {
+    "dp_and_threshold_variables": 5530,
+    "inline_recurrence_coefficient_occurrences": 399668,
+    "parent_fanout_max": 220,
+    "row_histogram": {
+      "12": 25025,
+      "15": 1456,
+      "3": 220,
+      "6": 17160,
+      "9": 56056
+    },
+    "rows": 99917,
+    "rows_bytes": 1199004,
+    "rows_sha256": "be507dc2c1fc123ac010e29d480b480978871f37af5eb51d6b87cd939474e2f7",
+    "state_histogram": {
+      "0": 1,
+      "12": 455,
+      "15": 16,
+      "3": 220,
+      "6": 1716,
+      "9": 2002
+    },
+    "states": 4410,
+    "states_sha256": "df94ad82423acbca92bd34a94db78b772ffe3ecfe19b3cfefc1dc12c42d15546",
+    "threshold_fanout_max": 517,
+    "threshold_fanout_min": 1,
+    "threshold_fanout_sum": 99917
+  },
+  "scope": "Exact mathematical equivalence and finite controls for the global profile condition. Independent full and trimmed DAG reconstruction, not producer-function replay. No optimizer, no performance claim, no cover or unrestricted lower-bound theorem. The root agent separately gates the serialized model.",
+  "serialized_model_gate_performed": false,
+  "sources": {
+    "experiments/2026-10-03/five-heavy-triples/README.md": "27b8f24fc574e7923f15cb591de360de916f032a8b588a86139de379a67e1442",
+    "experiments/2026-10-03/five-heavy-triples/check.py": "74e7fe8066505154e439e539e842cc035b676fe624c9c8f6437928c293fc422a",
+    "experiments/2026-10-03/five-heavy-triples/result.json": "e33ca83bacfcdd63e9dd1d36d2518e8987bbf3af85a8170e2259277760595827",
+    "experiments/2026-10-04/global-five-heavy-dp-independent/proof.py": "ae448de6d92426a9794d8735faeb6cf21b42168c519d71cdd4c3fc1f6d9fc84b",
+    "experiments/2026-10-04/global-five-heavy-dp-plan/README.md": "5757aac1e29479d5f0d7e34c29e457ac4ef67c855ef1f4f20ed66d1bc0af25cf",
+    "experiments/2026-10-04/global-five-heavy-dp-plan/check.py": "1b07c682d30b600703f053b5c2af5c0de4679cfa273923d6850e8ee9b51fc3bf",
+    "experiments/2026-10-04/global-five-heavy-dp-plan/result.json": "0cc527cb0bb464dfaeabf3e147b452afcc9fb0fad9243b02e621ac34da3f938c",
+    "experiments/2026-10-04/global-five-heavy-dp/manifest.json": "d01230c07cb5b1226d2fcc95912586ac5ff07723da4e170be5e908167eeb9f5b"
+  },
+  "threshold_and_weight_controls": {
+    "allowed": 217,
+    "damaged_rule_mismatches": {
+      "cap25": 5,
+      "cap27": 10,
+      "seven_coefficient2": 10,
+      "six_coefficient4": 26,
+      "strict_six_threshold": 25
+    },
+    "forbidden": 26,
+    "local_counts": 79,
+    "partition_categories": 243,
+    "reverse_implications_required": true
+  },
+  "unrestricted_theorem_replay": {
+    "capacity_values_checked": 1001,
+    "degree_profiles": 16,
+    "feasible_two_sevenfold_assignments": 0,
+    "hub_assignments_checked": 27040,
+    "positive_arithmetic_controls": 2,
+    "regularity_assumption": false
+  }
+}
