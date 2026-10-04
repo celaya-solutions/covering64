@@ -1,0 +1,259 @@
+{
+  "schema": "covering64-public-source-refresh-v1",
+  "created_at_utc": "2026-10-04T20:34:28.681965+00:00",
+  "source_revision_at_check": "fc65a9966ab6efe492937325bf998cc88a3b4a7d",
+  "scope": "Fresh public source check beyond the end-of-March-2026 Gordon archive. This is a bounded search, not proof that no later result exists.",
+  "conclusion": {
+    "live_successor_found": true,
+    "exact_current_target_bound_verified": false,
+    "new_target_bound_or_witness_found": false,
+    "earlier_archive_only_range": [
+      61,
+      65
+    ],
+    "earlier_archive_date": "2026-03",
+    "general_nonexistence_claim": false
+  },
+  "successor": {
+    "url": "https://coveringrepository.com/",
+    "statement_paraphrase": "The homepage says historical data through the end of March 2026 were imported from Dan Gordon and later improvements are tracked on this site.",
+    "latest_ordinary_page": "https://coveringrepository.com/systems.aspx?li=2",
+    "html_table_rows": 137,
+    "numeric_covering_rows": 100,
+    "displayed_date_range": [
+      "2026-09-26",
+      "2026-10-04"
+    ],
+    "target_rows": [],
+    "scope_limit": "The latest page is a recent slice; it is not a complete post-March history. Absence of the target row does not establish its current bound."
+  },
+  "target_lookup_failure": {
+    "url": "https://coveringrepository.com/systems.aspx?v=16&k=5&t=3&m=3",
+    "status": 403,
+    "observed_between_utc": [
+      "2026-10-04T20:28:50+00:00",
+      "2026-10-04T20:30:54+00:00"
+    ],
+    "timestamp_note": "Request raised before the exact request timestamp or response body was saved; interval brackets surrounding saved successful requests.",
+    "raw_response_saved": false,
+    "action": "Stopped this lookup; no authentication, payment, challenge bypass, or alternate-path access attempted."
+  },
+  "arxiv": {
+    "api_total_results": 12,
+    "query_date_window": [
+      "2026-03-01",
+      "2026-10-04"
+    ],
+    "query_limit": 100,
+    "selected_primary_abstracts": [
+      {
+        "id": "http://arxiv.org/abs/2609.23094v1",
+        "title": "Counting and Covering in Nearest-Neighbour Representations of Boolean Functions",
+        "published": "2026-09-19T16:04:37Z",
+        "updated": "2026-09-19T16:04:37Z",
+        "summary": "We study the number of prototypes needed to represent Boolean functions by nearest-neighbour classification. There are two distinct settings: the prototypes may be arbitrary points of Euclidean space, or they may themselves be required to lie in the Boolean cube. For unrestricted prototypes, we strengthen a known lower bound for almost all Boolean functions. The bound applies simultaneously to nearest-neighbour voting rules with any number of voting neighbours, and substantially narrows the gap with the known general upper bound. We obtain a VC-dimension bound for classes with a bounded number of prototypes, and show that it is sharp in order in dimensions at least four. We then study Boolean prototypes, beginning with symmetric threshold functions. A connection with covering designs expresses the minimum number of prototypes at every threshold level exactly in terms of a covering number, and leads to further exact results for related monotone functions, including disjunctive extensions and a characterisation of when a representation with a single negative prototype is possible. For a uniformly random Boolean function, the Boolean nearest-neighbour complexity, as a proportion of the cube, is asymptotically close either to one half or to one, with explicit limiting probabilities. In particular, almost every Boolean function requires at least approximately half as many prototypes as there are points in the cube, and one half is the largest proportion for which such a lower bound holds. Finally, we consider arbitrary symmetric Boolean functions. Their Boolean nearest-neighbour complexity is closely approximated by a weighted vertex-cover problem on paths. As a consequence, a uniformly random symmetric function typically requires prototypes amounting to $11/20$ of the cube. This is much larger than the upper bounds known when the prototypes are allowed to lie anywhere in Euclidean space.",
+        "authors": [
+          "Martin Anthony"
+        ],
+        "screening_note": "Primary API abstract concerns covering numbers in Boolean nearest-neighbour representations; no C(16,5,3) claim was found in the abstract."
+      },
+      {
+        "id": "http://arxiv.org/abs/2607.10978v1",
+        "title": "A tight single-change covering design with block size 6",
+        "published": "2026-07-13T00:56:00Z",
+        "updated": "2026-07-13T00:56:00Z",
+        "summary": "We give a tight single-change covering design with $v=26$ and $k=6$. This answers Problem 1 of the Nineteenth British Combinatorial Conference, which asked whether such a design exists with block size greater than $5$. We also describe the satisfiability search that found the design, including negative search results at the smallest admissible order $v=21$.",
+        "authors": [
+          "Richard Bean"
+        ],
+        "screening_note": "Primary abstract is about a tight single-change design v=26,k=6 and SAT search at v=21. It states no C(16,5,3) improvement."
+      },
+      {
+        "id": "http://arxiv.org/abs/2603.24170v3",
+        "title": "Tackling the 6/49 Lottery and Debunking Common Myths with Probabilistic Methods and Combinatorial Designs",
+        "published": "2026-03-25T10:37:37Z",
+        "updated": "2026-05-31T11:57:39Z",
+        "summary": "At the end, the house always wins! This simple truth holds for all public games of chance. Nevertheless, since lotteries have existed, people have tried everything to give luck a helping hand. This article compares objective scientific approaches to tackle the 6/49 lottery: probabilistic methods and combinatorial designs. The mathematical models developed herein can be modified and applied to other lotteries. The newly constructed (49, 6, 5) covering design is introduced, which meets the Schönheim bound. For lottery designs and for covering designs, a benchmark based on probabilistic methods is presented. It is demonstrated that common attempts to outwit the odds correspond to limitations of numbers to subsets, which disproportionately reduce the chances of winning.",
+        "authors": [
+          "Ralph Stömmer"
+        ],
+        "screening_note": "Primary API abstract concerns a 6/49 lottery and related (49,6,5) problems; no C(16,5,3) claim was found in the abstract."
+      }
+    ],
+    "scope_limit": "Exact query indexing and abstracts only; not a complete survey of all papers, versions, or unpublished work."
+  },
+  "other_primary_pages": [
+    {
+      "doi": "10.1007/s10623-026-01863-5",
+      "title": "Generalized group divisible covering designs",
+      "published": "2026-06-03",
+      "authors": [
+        "Jialu Wang",
+        "Lijun Ma",
+        "Lidong Wang",
+        "Zihong Tian"
+      ],
+      "access": "Public abstract; full text subscription restricted",
+      "screening": "Abstract treats strength 2 with block sizes 3 and 4, and strength 3 with block size 4. No C(16,5,3) claim appears in the accessible abstract."
+    },
+    {
+      "doi": "10.1007/s10623-026-01934-7",
+      "title": "Near-optimal covering sequences",
+      "published": "2026-09-15",
+      "authors": [
+        "Hoang Ta",
+        "Van Khu Vu"
+      ],
+      "access": "Public abstract; full text subscription restricted",
+      "screening": "Cyclic sequences whose windows form Hamming covering codes. No C(16,5,3) claim appears in the accessible abstract."
+    },
+    {
+      "doi": "10.5539/jmr.v18n1p59",
+      "title": "Construction of Covering Sets",
+      "author": "Guangmin Zhu",
+      "access": "Public abstract only inspected",
+      "screening": "Abstract discusses optimization of covering sets and Gaussian integers, with no C(16,5,3) claim. Full text was not inspected."
+    }
+  ],
+  "search_limitations": [
+    "Bing exact-query response misinterpreted the mathematical query and was not useful.",
+    "Google returned a JavaScript/retry page, not usable results.",
+    "Crossref was only a discovery index; title matches are not theorem evidence.",
+    "The current exact repository entry is unresolved after HTTP403.",
+    "No full paper was audited for a new target theorem or construction."
+  ],
+  "request_receipts": [
+    {
+      "name": "arxiv-coverings-2026",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3A%22covering+designs%22+AND+submittedDate%3A%5B202603010000+TO+202610042359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "requested_at_utc": "2026-10-04T20:24:20.079875+00:00",
+      "status": 200,
+      "resolved_url": "https://export.arxiv.org/api/query?search_query=all%3A%22covering+designs%22+AND+submittedDate%3A%5B202603010000+TO+202610042359%5D&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending",
+      "content_type": "application/atom+xml; charset=utf-8",
+      "bytes": 26735,
+      "sha256": "c0a3aed554bb52fdb51604490a3a05e1ee2bf538658f21647c0565ffac653714",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/arxiv-coverings-2026-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/arxiv-coverings-2026.raw",
+      "raw_sha256_verified_now": "c0a3aed554bb52fdb51604490a3a05e1ee2bf538658f21647c0565ffac653714"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.10978",
+      "retrieved_at_utc": "2026-10-04T20:30:54.623841+00:00",
+      "status": 200,
+      "final_url": "https://arxiv.org/abs/2607.10978",
+      "bytes": 38828,
+      "sha256": "7fb832efbaae56962d1312f802e87f055388cde3da91fe72dd2615d1e794eda8",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/bean-single-change-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/bean-single-change.raw",
+      "raw_sha256_verified_now": "7fb832efbaae56962d1312f802e87f055388cde3da91fe72dd2615d1e794eda8"
+    },
+    {
+      "name": "bing-exact",
+      "url": "https://www.bing.com/search?q=%22C%2816%2C5%2C3%29%22+after%3A2026-03-01",
+      "requested_at_utc": "2026-10-04T20:24:20.077719+00:00",
+      "status": 200,
+      "resolved_url": "https://www.bing.com/search?q=%22C%2816%2C5%2C3%29%22+after%3A2026-03-01",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 120918,
+      "sha256": "7ad660247f30da277ea77ac8d55d4b9f7c15710b870659876c605720f0437794",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/bing-exact-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/bing-exact.raw",
+      "raw_sha256_verified_now": "7ad660247f30da277ea77ac8d55d4b9f7c15710b870659876c605720f0437794"
+    },
+    {
+      "name": "covering-repository",
+      "url": "https://coveringrepository.com/",
+      "requested_at_utc": "2026-10-04T20:24:20.077314+00:00",
+      "status": 200,
+      "resolved_url": "https://coveringrepository.com/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 12506,
+      "sha256": "6c296663b1ac3ff412bec8ff956ed8002a668a871edecb7fc07eb74eeac926ee",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/covering-repository-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/covering-repository.raw",
+      "raw_sha256_verified_now": "6c296663b1ac3ff412bec8ff956ed8002a668a871edecb7fc07eb74eeac926ee"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10623-026-01934-7",
+      "retrieved_at_utc": "2026-10-04T20:30:54.624243+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10623-026-01934-7?error=cookies_not_supported&code=41018685-82b4-4234-a06d-a3d20f1f776f",
+      "bytes": 271002,
+      "sha256": "b214a7b84e88f220d1ff7a42b6e018e82c854a4aee65cb16f05eea7536a33e34",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/covering-sequences-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/covering-sequences.raw",
+      "raw_sha256_verified_now": "b214a7b84e88f220d1ff7a42b6e018e82c854a4aee65cb16f05eea7536a33e34"
+    },
+    {
+      "url": "https://doi.org/10.5539/jmr.v18n1p59",
+      "retrieved_at_utc": "2026-10-04T20:30:54.624293+00:00",
+      "status": 200,
+      "final_url": "https://ccsenet.org/journal/index.php/jmr/article/view/0/53009",
+      "bytes": 13627,
+      "sha256": "be6c1e989aea38b5e2fd5a14ae80eabb593dcbcd553f6d0d2dd83ace68e8ab78",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/covering-sets-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/covering-sets.raw",
+      "raw_sha256_verified_now": "be6c1e989aea38b5e2fd5a14ae80eabb593dcbcd553f6d0d2dd83ace68e8ab78"
+    },
+    {
+      "name": "crossref-coverings-2026",
+      "url": "https://api.crossref.org/works?query.title=covering+designs&filter=from-pub-date%3A2026-03-01%2Cuntil-pub-date%3A2026-10-04&rows=100",
+      "requested_at_utc": "2026-10-04T20:24:20.079730+00:00",
+      "status": 200,
+      "resolved_url": "https://api.crossref.org/works?query.title=covering+designs&filter=from-pub-date%3A2026-03-01%2Cuntil-pub-date%3A2026-10-04&rows=100",
+      "content_type": "application/json",
+      "bytes": 722677,
+      "sha256": "ed33f4c720f63e5962935d7c5c624b6b413eba8450c296e4d9b8a5317c56e5cf",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/crossref-coverings-2026-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/crossref-coverings-2026.raw",
+      "raw_sha256_verified_now": "ed33f4c720f63e5962935d7c5c624b6b413eba8450c296e4d9b8a5317c56e5cf"
+    },
+    {
+      "name": "google-exact",
+      "url": "https://www.google.com/search?q=%22C%2816%2C5%2C3%29%22+after%3A2026-03-01",
+      "requested_at_utc": "2026-10-04T20:24:20.079566+00:00",
+      "status": 200,
+      "resolved_url": "https://www.google.com/search?q=%22C%2816%2C5%2C3%29%22+after%3A2026-03-01",
+      "content_type": "text/html; charset=ISO-8859-1",
+      "bytes": 92212,
+      "sha256": "c817b5f9a1c0632a95b8b8c6e1fcd85fd425a0c03a4b03fa869144a31ef3d8a5",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/google-exact-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/google-exact.raw",
+      "raw_sha256_verified_now": "c817b5f9a1c0632a95b8b8c6e1fcd85fd425a0c03a4b03fa869144a31ef3d8a5"
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s10623-026-01863-5",
+      "retrieved_at_utc": "2026-10-04T20:30:54.624177+00:00",
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s10623-026-01863-5?error=cookies_not_supported&code=686d24e6-6a70-40a1-9cf1-ddc6759db646",
+      "bytes": 319068,
+      "sha256": "067ebbeb72bdb22fdb22bc88e90ea3654f6e75affa1e3f0b24d8b7f81c067099",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/group-divisible-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/group-divisible.raw",
+      "raw_sha256_verified_now": "067ebbeb72bdb22fdb22bc88e90ea3654f6e75affa1e3f0b24d8b7f81c067099"
+    },
+    {
+      "url": "https://coveringrepository.com/systems.aspx?li=2",
+      "retrieved_at_utc": "2026-10-04T20:28:50.309372+00:00",
+      "status": 200,
+      "final_url": "https://coveringrepository.com/systems.aspx?li=2",
+      "bytes": 175323,
+      "sha256": "65334bec1916b27ecd49f28050e103773d4ba7c96cfbc66324fbf8aebd0e52f8",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/latest-vkt-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/latest-vkt.raw",
+      "raw_sha256_verified_now": "65334bec1916b27ecd49f28050e103773d4ba7c96cfbc66324fbf8aebd0e52f8"
+    },
+    {
+      "url": "https://coveringrepository.com/systems.aspx",
+      "retrieved_at_utc": "2026-10-04T20:28:50.308660+00:00",
+      "status": 200,
+      "final_url": "https://coveringrepository.com/systems.aspx",
+      "bytes": 180394,
+      "sha256": "845ff18d777d0e119a86ad6624ef73273a5ed64e4c86a83e9bea78b13f4798bd",
+      "local_receipt": "experiments/scratch/post-march-covering-source-check-20261004/systems-request.json",
+      "raw_path": "experiments/scratch/post-march-covering-source-check-20261004/systems.raw",
+      "raw_sha256_verified_now": "845ff18d777d0e119a86ad6624ef73273a5ed64e4c86a83e9bea78b13f4798bd"
+    }
+  ],
+  "raw_storage": "Ignored experiments/scratch; raw network pages and anonymous hidden form fields are not copied into Git."
+}

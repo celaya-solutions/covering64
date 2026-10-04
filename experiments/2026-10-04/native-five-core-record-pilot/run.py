@@ -1,0 +1,343 @@
+# Document:    Five Core Record Only Pilot Runner
+# Version:     v1.0.0
+# Author:      Celaya Solutions
+# Contact:     hello@celayasolutions.com
+# Date:        2026-10-04
+# SHA256:      e46c34e9e96ae59c04479154cef0fadcffcab8336855d70af89672ff351a86fc
+# Chain:       n/a
+# Tx:          [not anchored]
+# License:     All Rights Reserved / Celaya Solutions
+"""Launch only when called explicitly with a passing independent gate."""
+
+import argparse
+import hashlib
+import importlib.util
+import itertools
+import json
+import shutil
+import subprocess
+import sys
+import time
+from collections import Counter
+from datetime import datetime, timezone
+from pathlib import Path
+
+from covering64.core import read_blocks, verify_cover
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+RAW = ROOT / "experiments/scratch/native-five-core-record-pilot-20261004"
+BLOCKS = list(itertools.combinations(range(1, 17), 5))
+RANK = {block: index for index, block in enumerate(BLOCKS)}
+WEAK_PATH = HERE.parent / "weak-pair-swap-scan/run.py"
+WEAK_SPEC = importlib.util.spec_from_file_location("five_core_weak_profile", WEAK_PATH)
+WEAK = importlib.util.module_from_spec(WEAK_SPEC)
+WEAK_SPEC.loader.exec_module(WEAK)
+INVENTORY_PATH = HERE.parent / "h11-common-core-saved-inventory-independent/inventory.json"
+BUDGET = {
+    "max_runs": 2,
+    "seconds_per_run": 300,
+    "seeds": [2026105601, 2026105602],
+    "watchdog_seconds": 315,
+    "termination_grace_seconds": 5,
+    "simultaneous_processes": 1,
+    "stop_after_first_complete_at_most_64": True,
+    "unused_budget_reallocated": False,
+    "relaunch": False,
+}
+
+
+def sha(path):
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+
+
+def dump(path, value):
+    Path(path).write_text(json.dumps(value, indent=2, sort_keys=True) + "\n")
+
+
+def checked(path, cores):
+    assert len(cores) == 5 and [len(c) for c in cores] == [60, 60, 60, 60, 62]
+    blocks = read_blocks(path)
+    package = verify_cover(blocks)
+    count = len(blocks)
+    assert count == len(set(blocks))
+    assert all(len(b) == 5 and len(set(b)) == 5 and all(1 <= p <= 16 for p in b) for b in blocks)
+    ids = sorted(RANK[tuple(sorted(block))] for block in blocks)
+    process = subprocess.run(
+        [sys.executable, "scripts/check_cover.py", str(path), "--expected-blocks", str(count)],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    assert process.returncode in (0, 1) and not process.stderr, process.stderr
+    standalone = json.loads(process.stdout)
+    counts = Counter(t for b in blocks for t in itertools.combinations(b, 3))
+    holes = 560 - len(counts)
+    assert holes == len(package["uncovered"]) == standalone["uncovered_count"]
+    assert package["valid"] == (holes == 0) == (process.returncode == 0)
+    assert standalone["blocks"] == count and standalone["cardinality_matches"]
+    overlaps = [len(set(ids).intersection(core)) for core in cores]
+    caps = count == 64 and all(x <= y for x, y in zip(overlaps, [55, 55, 55, 55, 56]))
+    weak = WEAK.inspect_family(ids, cores[:4])["metrics"] if count == 64 else None
+    return {
+        "path": str(Path(path).relative_to(ROOT)),
+        "sha256": sha(path),
+        "ids": ids,
+        "metrics": {"cardinality": count, "holes": holes, "core_overlaps": overlaps},
+        "cap_admissible": caps,
+        "weak_metrics": weak,
+        "weak_qualified": bool(
+            caps
+            and holes <= 11
+            and weak["minimum_pair_count"] >= 5
+            and weak["D3"] == weak["D4"] == 0
+        ),
+        "package": package,
+        "standalone": standalone,
+    }
+
+
+def execute_bounded(command):
+    before = time.monotonic()
+    process = subprocess.Popen(
+        command, cwd=ROOT, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE
+    )
+    watchdog = {"fired": False, "terminate_sent": False, "kill_sent": False, "relaunch": False}
+    try:
+        stdout, stderr = process.communicate(timeout=BUDGET["watchdog_seconds"])
+    except subprocess.TimeoutExpired:
+        watchdog["fired"] = watchdog["terminate_sent"] = True
+        process.terminate()
+        try:
+            stdout, stderr = process.communicate(timeout=BUDGET["termination_grace_seconds"])
+        except subprocess.TimeoutExpired:
+            watchdog["kill_sent"] = True
+            process.kill()
+            stdout, stderr = process.communicate()
+    return process.returncode, stdout, stderr, watchdog, time.monotonic() - before
+
+
+def validate(
+    directory, stdout, returncode, stderr, elapsed, cores, seed, initial, control_steps=None
+):
+    events = [json.loads(line) for line in stdout.splitlines()]
+    assert events[0] == {
+        "event": "start",
+        "seed": seed,
+        "budget": 300,
+        "mode": "search" if control_steps is None else "control",
+        "control_step_limit": control_steps,
+    }
+    assert returncode in (0, 1, 2) and not stderr
+    records = [event for event in events if event["event"] == "record"]
+    assert [e["serial"] for e in records] == list(range(1, len(records) + 1))
+    assert len(list(directory.glob("search-record-*.txt"))) == len(records)
+    seen = {"complete": [], "raw64": [], "admissible64": [], "weak64": []}
+    snapshots = []
+    for event in records:
+        role = event["role"]
+        assert role in seen
+        path = directory / f"search-record-{event['serial']}-{role}.txt"
+        row = checked(path, cores)
+        assert row["metrics"] == event["metrics"]
+        m = row["metrics"]
+        if role == "complete":
+            assert m["holes"] == 0
+            if seen[role]:
+                assert m["cardinality"] < seen[role][-1]["metrics"]["cardinality"]
+        else:
+            assert m["cardinality"] == 64
+            if seen[role]:
+                previous = seen[role][-1]
+                if role == "weak64":
+                    assert (m["holes"], row["weak_metrics"]["D2max"]) < (
+                        previous["metrics"]["holes"],
+                        previous["weak_metrics"]["D2max"],
+                    )
+                else:
+                    assert m["holes"] < previous["metrics"]["holes"]
+            if role in ("admissible64", "weak64"):
+                assert row["cap_admissible"]
+            if role == "weak64":
+                assert row["weak_qualified"]
+                assert event["weak_D2max"] == row["weak_metrics"]["D2max"]
+        row["role"] = role
+        seen[role].append(row)
+        snapshots.append(row)
+    assert seen["complete"] and seen["complete"][0]["metrics"]["cardinality"] == 65
+    initial_roles = ["complete", "raw64"]
+    if initial["cap_admissible"]:
+        initial_roles.append("admissible64")
+    if initial["weak_qualified"]:
+        initial_roles.append("weak64")
+    assert [e["role"] for e in records[: len(initial_roles)]] == initial_roles
+    assert all(e["mutations"] == e["step"] == 0 for e in records[: len(initial_roles)])
+    assert records[1]["metrics"] == initial["metrics"]
+    assert seen["raw64"][0]["sha256"] == initial["sha256"]
+    for role in initial_roles[1:]:
+        assert seen[role][0]["sha256"] == initial["sha256"]
+    assert not any(e["mutations"] == 0 for e in records if e["role"] not in initial_roles)
+    final = events[-1]
+    final_rows = {}
+    for role in ["current", "complete", "raw64", "admissible64", "weak64"]:
+        path = directory / f"search-final-{role}.txt"
+        if role != "current" and not seen[role]:
+            assert final[role] is None and not path.exists()
+            final_rows[role] = None
+            continue
+        row = checked(path, cores)
+        assert row["metrics"] == final[role]
+        if role != "current":
+            assert row["sha256"] == seen[role][-1]["sha256"]
+        row["role"] = "final_" + role
+        snapshots.append(row)
+        final_rows[role] = row
+    assert final["weak_D2max"] == (
+        None if final_rows["weak64"] is None else final_rows["weak64"]["weak_metrics"]["D2max"]
+    )
+    assert 0 <= final["seconds"] <= elapsed + 1
+    for key in ["iterations", "mutations", "weight_updates", "fallbacks", "novelties"]:
+        assert type(final[key]) is int and final[key] >= 0
+    assert sum(final["action_counts"]) == final["iterations"]
+    assert final["max_cardinality"] == 64 and 0 < final["min_cardinality"] <= 64
+    success = final["current"]["holes"] == 0 and final["current"]["cardinality"] <= 64
+    assert (returncode == 0) == success
+    assert final["event"] == (
+        "cover_found" if success else "finished" if returncode == 1 else "interrupted"
+    )
+    if success:
+        assert final["complete"] == final["current"]
+    traces = [e for e in events if e["event"] == "trace"]
+    assert [e["step"] for e in traces] == list(range(min(32, final["iterations"])))
+    assert all(e["fallback"] for e in traces[:4])
+    if control_steps is not None:
+        assert final["iterations"] == control_steps or success
+        if control_steps == 0:
+            assert final["mutations"] == final["weight_updates"] == 0
+            assert final["max_weight"] == 1
+            assert final_rows["current"]["sha256"] == initial["sha256"]
+    historical = json.loads(INVENTORY_PATH.read_text())["families"]
+    known = {row["sha256"] for row in historical}
+    qualified_ranks = [
+        (row["metrics"]["holes"], row["metrics"]["D2max"])
+        for row in historical
+        if row["all_checks_pass"]
+    ]
+    baseline_rank = min(qualified_ranks)
+    for row in snapshots:
+        weak = row["weak_metrics"]
+        row["historical_comparison"] = {
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim",
+            "in_inventory_scope": row["metrics"]["cardinality"] == 64
+            and row["metrics"]["holes"] <= 11,
+            "hash_in_inventory": row["sha256"] in known,
+            "holes": row["metrics"]["holes"],
+            "D2max": None if weak is None else weak["D2max"],
+            "D2sum": None if weak is None else weak["D2sum"],
+            "qualified_baseline_rank": list(baseline_rank),
+            "qualified_rank_improvement": row["weak_qualified"]
+            and (row["metrics"]["holes"], weak["D2max"]) < baseline_rank,
+        }
+    return {"success": success, "final": final, "snapshots": snapshots, "final_rows": final_rows}
+
+
+def main(gate_path):
+    manifest_path = HERE / "manifest.json"
+    manifest = json.loads(manifest_path.read_text())
+    gate = json.loads(gate_path.read_text())
+    assert gate["passed"] and gate["manifest_sha256"] == sha(manifest_path)
+    assert manifest["budget"] == BUDGET
+    for relative, digest in (
+        manifest["source_files"] | manifest["input_files"] | manifest["raw_files"]
+    ).items():
+        assert sha(ROOT / relative) == digest, relative
+    binary = ROOT / manifest["binary_path"]
+    assert sha(binary) == manifest["binary_sha256"]
+    assert not (RAW / "start.json").exists() and not (HERE / "result.json").exists()
+    archive = RAW / "frozen-sources"
+    archive.mkdir()
+    for relative in manifest["source_files"]:
+        path = ROOT / relative
+        shutil.copyfile(path, archive / path.name)
+    shutil.copyfile(manifest_path, archive / "manifest.json")
+    shutil.copyfile(gate_path, archive / "gate.json")
+    dump(
+        RAW / "start.json",
+        {
+            "started_utc": datetime.now(timezone.utc).isoformat(),
+            "manifest_sha256": sha(manifest_path),
+            "gate_sha256": sha(gate_path),
+            "budget": BUDGET,
+        },
+    )
+    records = []
+    for seed in BUDGET["seeds"]:
+        directory = HERE / f"seed-{seed}"
+        directory.mkdir()
+        initial = next(row for row in manifest["initial_partials"] if row["seed"] == seed)
+        command = [
+            str(binary),
+            str(ROOT / manifest["incumbent_path"]),
+            str(ROOT / initial["path"]),
+            str(seed),
+            "300",
+            str(directory / "search"),
+        ]
+        started = datetime.now(timezone.utc).isoformat()
+        rc, stdout, stderr, watchdog, elapsed = execute_bounded(command)
+        outpath, errpath = RAW / f"seed-{seed}-stdout.jsonl", RAW / f"seed-{seed}-stderr.txt"
+        outpath.write_text(stdout)
+        errpath.write_text(stderr)
+        row = {
+            "seed": seed,
+            "started_utc": started,
+            "command": command,
+            "returncode": rc,
+            "elapsed_seconds": elapsed,
+            "watchdog": watchdog,
+            "stdout": {"path": str(outpath.relative_to(ROOT)), "sha256": sha(outpath)},
+            "stderr": {"path": str(errpath.relative_to(ROOT)), "sha256": sha(errpath)},
+        }
+        try:
+            row.update(
+                validate(
+                    directory, stdout, rc, stderr, elapsed, manifest["core_rows"], seed, initial
+                )
+            )
+            row["validation_passed"] = True
+        except Exception as error:
+            row["validation_passed"] = False
+            row["validation_error"] = f"{type(error).__name__}: {error}"
+        records.append(row)
+        dump(
+            HERE / "result.json",
+            {
+                "manifest_sha256": sha(manifest_path),
+                "gate_sha256": sha(gate_path),
+                "budget": BUDGET,
+                "runs": records,
+                "skipped_seeds": [
+                    s for s in BUDGET["seeds"] if s not in [r["seed"] for r in records]
+                ],
+                "no_global_conclusion": True,
+            },
+        )
+        if not row["validation_passed"] or row.get("success") or watchdog["fired"] or rc != 1:
+            break
+    assert all(row["validation_passed"] for row in records), "candidate or log verification failed"
+    print(
+        json.dumps(
+            {
+                "runs": len(records),
+                "success": any(row["success"] for row in records),
+                "result": str(HERE / "result.json"),
+            }
+        )
+    )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--gate", type=Path, required=True)
+    main(parser.parse_args().gate.resolve())

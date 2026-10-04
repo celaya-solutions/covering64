@@ -1,0 +1,442 @@
+{
+  "campaign_completed": false,
+  "optimizer_launches": 0,
+  "rows": [
+    {
+      "hash_in_frozen_inventory": false,
+      "metrics": {
+        "D2max": 32,
+        "D2sum": 34,
+        "D3": 0,
+        "D4": 0,
+        "core_overlaps": [
+          0,
+          0,
+          2,
+          0,
+          1
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "b4e79835cea5ae4a4a9e3d07a8fa83e0a3728edfe44c6cc725efa0a383e4704d",
+        "covered": 549,
+        "k": 5,
+        "multiplicities": {
+          "0": 11,
+          "1": 460,
+          "2": 87,
+          "3": 2
+        },
+        "pair_multiplicities": {
+          "5": 82,
+          "6": 36,
+          "7": 2
+        },
+        "replication": {
+          "1": 22,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 21,
+          "6": 20,
+          "7": 19,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            3,
+            7,
+            15
+          ],
+          [
+            3,
+            9,
+            13
+          ],
+          [
+            4,
+            7,
+            9
+          ],
+          [
+            5,
+            14,
+            16
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            6,
+            8,
+            15
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            7,
+            11,
+            16
+          ],
+          [
+            7,
+            13,
+            14
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/native-five-core-record-pilot/seed-2026105601/search-record-11-weak64.txt",
+      "sha256": "b4e79835cea5ae4a4a9e3d07a8fa83e0a3728edfe44c6cc725efa0a383e4704d",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "b4e79835cea5ae4a4a9e3d07a8fa83e0a3728edfe44c6cc725efa0a383e4704d",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 11,
+          "1": 460,
+          "2": 87,
+          "3": 2
+        },
+        "covered_subsets": 549,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 22,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 21,
+          "6": 20,
+          "7": 19,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 19,
+          "14": 20,
+          "15": 20,
+          "16": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            3,
+            7,
+            15
+          ],
+          [
+            3,
+            9,
+            13
+          ],
+          [
+            4,
+            7,
+            9
+          ],
+          [
+            5,
+            14,
+            16
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            6,
+            8,
+            15
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            7,
+            11,
+            16
+          ],
+          [
+            7,
+            13,
+            14
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 11,
+        "valid": false
+      }
+    },
+    {
+      "hash_in_frozen_inventory": false,
+      "metrics": {
+        "D2max": 30,
+        "D2sum": 32,
+        "D3": 0,
+        "D4": 0,
+        "core_overlaps": [
+          0,
+          0,
+          2,
+          0,
+          1
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "4d872a1f07c0164ef400c105b03faab96364978ad444f30056935af1b9819e3a",
+        "covered": 549,
+        "k": 5,
+        "multiplicities": {
+          "0": 11,
+          "1": 460,
+          "2": 87,
+          "3": 2
+        },
+        "pair_multiplicities": {
+          "5": 82,
+          "6": 36,
+          "7": 2
+        },
+        "replication": {
+          "1": 22,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 21,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 19,
+          "14": 20,
+          "15": 19,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            3,
+            7,
+            15
+          ],
+          [
+            3,
+            9,
+            13
+          ],
+          [
+            4,
+            7,
+            9
+          ],
+          [
+            5,
+            14,
+            16
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            6,
+            8,
+            15
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            7,
+            11,
+            16
+          ],
+          [
+            7,
+            13,
+            14
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            12,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/native-five-core-record-pilot/seed-2026105601/search-record-12-weak64.txt",
+      "sha256": "4d872a1f07c0164ef400c105b03faab96364978ad444f30056935af1b9819e3a",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "4d872a1f07c0164ef400c105b03faab96364978ad444f30056935af1b9819e3a",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 11,
+          "1": 460,
+          "2": 87,
+          "3": 2
+        },
+        "covered_subsets": 549,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 22,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 21,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 19,
+          "14": 20,
+          "15": 19,
+          "16": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            3,
+            7,
+            15
+          ],
+          [
+            3,
+            9,
+            13
+          ],
+          [
+            4,
+            7,
+            9
+          ],
+          [
+            5,
+            14,
+            16
+          ],
+          [
+            6,
+            7,
+            12
+          ],
+          [
+            6,
+            8,
+            15
+          ],
+          [
+            6,
+            11,
+            12
+          ],
+          [
+            7,
+            11,
+            16
+          ],
+          [
+            7,
+            13,
+            14
+          ],
+          [
+            8,
+            9,
+            11
+          ],
+          [
+            8,
+            12,
+            14
+          ]
+        ],
+        "uncovered_count": 11,
+        "valid": false
+      }
+    }
+  ],
+  "source_manifest_sha256": "32d536037298694fea21fa8207efb328851d9ede135cae2c770833863891ee86",
+  "status": "PROVISIONAL_SAVED_FAMILY_RECOUNT_ONLY"
+}

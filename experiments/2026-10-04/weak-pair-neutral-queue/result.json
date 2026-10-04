@@ -1,0 +1,1407 @@
+{
+  "best_family": {
+    "canonical_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "cover_found": false,
+    "ids": [
+      46,
+      123,
+      155,
+      211,
+      222,
+      357,
+      407,
+      437,
+      535,
+      545,
+      601,
+      633,
+      676,
+      713,
+      740,
+      980,
+      1020,
+      1082,
+      1230,
+      1247,
+      1347,
+      1391,
+      1429,
+      1459,
+      1511,
+      1659,
+      1789,
+      1962,
+      2028,
+      2057,
+      2140,
+      2161,
+      2218,
+      2285,
+      2306,
+      2402,
+      2432,
+      2660,
+      2687,
+      2764,
+      2869,
+      2960,
+      3036,
+      3053,
+      3135,
+      3227,
+      3313,
+      3374,
+      3437,
+      3502,
+      3527,
+      3556,
+      3578,
+      3606,
+      3615,
+      3665,
+      3759,
+      3870,
+      3936,
+      4040,
+      4063,
+      4158,
+      4201,
+      4277
+    ],
+    "metrics": {
+      "D2max": 25,
+      "D2sum": 25,
+      "D3": 0,
+      "D4": 0,
+      "cardinality": 64,
+      "core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 11,
+      "minimum_pair_count": 5
+    },
+    "package_valid": false,
+    "receipt_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-02-two/candidates/f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a.json",
+    "receipt_sha256": "37113e8ad219574bd5862597d981d15b428e04a1695ee0bfba6391a357fdbf61",
+    "sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "standalone_valid": false,
+    "witness_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-02-two/candidates/f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a.txt"
+  },
+  "budget_transfer": false,
+  "centers": [
+    {
+      "best_rank": [
+        12,
+        26
+      ],
+      "best_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "center_metrics": {
+        "D2max": 26,
+        "D2sum": 26,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "center_number": 1,
+      "center_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-01-result.json",
+      "full_result_sha256": "016ef284553e8a8d8c824409907238c62f3ba3345735c73c0283254273825ae6",
+      "local_strict_closed": true,
+      "next_center_sha256": "74914202320d7400cebba9d2c789738caa2bbc64ebc08b04a473f3b9957106d5",
+      "queue_remaining": 8,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 0,
+            "rank": [
+              12,
+              26
+            ],
+            "retained": 0
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-01-one/shell-result.json",
+          "shell_result_sha256": "151f4dfe10f5df43e47bcd5c48c9e3f8cdafd29debe24179703fceaf645ccc12",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              12,
+              26
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-01-two/shell-result.json",
+          "shell_result_sha256": "0477bd59f36956484003f40602c267b932cdca562d9bd8b590fea12293aa69a9",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-01.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 26,
+        "D2sum": 28,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "center_number": 2,
+      "center_sha256": "74914202320d7400cebba9d2c789738caa2bbc64ebc08b04a473f3b9957106d5",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-02-result.json",
+      "full_result_sha256": "c6025c33761c1a0750f53fb8f039484a3cae539197eeb4495a3c37537ae0d7a9",
+      "local_strict_closed": false,
+      "next_center_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "queue_remaining": 10,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 5,
+            "rank": [
+              12,
+              26
+            ],
+            "retained": 5
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-02-one/shell-result.json",
+          "shell_result_sha256": "1a8e6890cec9f4c00c719607797df7a9694c000894a6495ae67face8ed395826",
+          "strict_ties": 1
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": true,
+            "complete": true,
+            "neutral_seen": 96,
+            "rank": [
+              12,
+              26
+            ],
+            "retained": 64
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-02-two/shell-result.json",
+          "shell_result_sha256": "b012a97aa13d5208c5a415e8ccfc655b6ac0ef68030f4e4ba9735b59b683c259",
+          "strict_ties": 10
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": true,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-02.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 3,
+      "center_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-03-result.json",
+      "full_result_sha256": "b5ffe71586e9c57990207abb894ba0a2cb4d6a1c1971b58ba290aa68724bc281",
+      "local_strict_closed": true,
+      "next_center_sha256": "a8e32c8d012bb0819519ad49a54f3850916847e37fc3fd202bdc614c45ecb5d4",
+      "queue_remaining": 26,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-03-one/shell-result.json",
+          "shell_result_sha256": "1b94f33b5a1fabe69a6f9db2e306e0ee50aabacdcc28bfc0ff18b492c18a22b9",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-03-two/shell-result.json",
+          "shell_result_sha256": "47c6ed40a48cf15aa4a2583783cf86cd23b52263f5b296e9d3baaa988f4b32c0",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-03.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 4,
+      "center_sha256": "a8e32c8d012bb0819519ad49a54f3850916847e37fc3fd202bdc614c45ecb5d4",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-04-result.json",
+      "full_result_sha256": "c45544206693dd175732162be9996e16e3d78198568d55c22726e519ccfc988b",
+      "local_strict_closed": true,
+      "next_center_sha256": "779d54e8990ebdc7e2bdc10eefca2c7f9c13b050bf5232282515ac962b72e31a",
+      "queue_remaining": 25,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-04-one/shell-result.json",
+          "shell_result_sha256": "70024f66c3d1670d2ed32bbb5bec244f76053d1ba84142c8d00b77117e68c1c8",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-04-two/shell-result.json",
+          "shell_result_sha256": "6bd5ef432b4f9361708528fe7178f3efd23de836c7353848e42d6b48d90d3acd",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-04.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 5,
+      "center_sha256": "779d54e8990ebdc7e2bdc10eefca2c7f9c13b050bf5232282515ac962b72e31a",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-05-result.json",
+      "full_result_sha256": "84ee5a4e0977d62d598f5d49ee1f9b28467214e5dbe66e417f3f41b214a632f2",
+      "local_strict_closed": true,
+      "next_center_sha256": "1e4137b583882e7513a638dcae89c7a1143854f17d12e967053dd3b3318d9c54",
+      "queue_remaining": 24,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 3,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 3
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-05-one/shell-result.json",
+          "shell_result_sha256": "aaa17594136161c05ab982a65613f1ca2a475e9c2aff301e303beedf2a6686fa",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 24,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 24
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-05-two/shell-result.json",
+          "shell_result_sha256": "83a784726175da81a8667f41a9a35bfaddf2bba986983259407d44da0eac80cd",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-05.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 6,
+      "center_sha256": "1e4137b583882e7513a638dcae89c7a1143854f17d12e967053dd3b3318d9c54",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-06-result.json",
+      "full_result_sha256": "4a43ab5f35e25f163f2a51a623d1238cb54b2e52f70e4e890aa7d5b9a3d5b563",
+      "local_strict_closed": true,
+      "next_center_sha256": "a80018fbf4067cd8f9168d559601172a7e5f7c32cb3796981cbd3b0d056ce56a",
+      "queue_remaining": 23,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 7,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 7
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-06-one/shell-result.json",
+          "shell_result_sha256": "b61c3dd318168232a563d37e0b69074773664022908e23f166955512bb836e1a",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 20,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 20
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-06-two/shell-result.json",
+          "shell_result_sha256": "7effd068a6f1037110923dc8fc90243021919118fc50b8944c7645a2a2388424",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-06.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 7,
+      "center_sha256": "a80018fbf4067cd8f9168d559601172a7e5f7c32cb3796981cbd3b0d056ce56a",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-07-result.json",
+      "full_result_sha256": "c075e26b990ae3a2554aa6becd5fd19d8e68559afce33633f1060d92301856a8",
+      "local_strict_closed": true,
+      "next_center_sha256": "b1c811a91b2ccad9bfb7b94ff57258584809c4ee0a5e6498fd9247078aec7de4",
+      "queue_remaining": 22,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-07-one/shell-result.json",
+          "shell_result_sha256": "089f38fef346f321118287c372d15ab494f452961a96e8895b856e5a2e2dd919",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-07-two/shell-result.json",
+          "shell_result_sha256": "9ad646831d02b2927aa80d261a633bf155cc50dfd769650bfc88d2c68f5d6c82",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-07.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 8,
+      "center_sha256": "b1c811a91b2ccad9bfb7b94ff57258584809c4ee0a5e6498fd9247078aec7de4",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-08-result.json",
+      "full_result_sha256": "fb675420932787f0ae14750665800da35b8c73fc64f6d5756482cd7033262ee6",
+      "local_strict_closed": true,
+      "next_center_sha256": "1facdd163ba3046e51f364e0d8863ed36a20198748fca7c39d713e386423f054",
+      "queue_remaining": 21,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-08-one/shell-result.json",
+          "shell_result_sha256": "902145e5856a92472a6b584e91af9e475edbb56793efd110de741ee89c05896d",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-08-two/shell-result.json",
+          "shell_result_sha256": "80b8da633f87dbe078fc57ceaf2ffab49dddb698fea6c72b32defeef113652e5",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-08.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 9,
+      "center_sha256": "1facdd163ba3046e51f364e0d8863ed36a20198748fca7c39d713e386423f054",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-09-result.json",
+      "full_result_sha256": "f7858dd16f287011f4496243a48b443329155b3ef890ce0eaeaa55f862e5c102",
+      "local_strict_closed": true,
+      "next_center_sha256": "807f6b8833eacddb17cc587046dd1d1bfdb0c5f43cc10b1923baae57e96cdc43",
+      "queue_remaining": 20,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-09-one/shell-result.json",
+          "shell_result_sha256": "f93ac488f6744f3b287fe92419118fd679959e02f63fb2bce15e9664279c3615",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 19,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 19
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-09-two/shell-result.json",
+          "shell_result_sha256": "26f800ec681980fa347de49fe17a43c129403c9a6beb813706aa0b9fa700551f",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-09.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 10,
+      "center_sha256": "807f6b8833eacddb17cc587046dd1d1bfdb0c5f43cc10b1923baae57e96cdc43",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-10-result.json",
+      "full_result_sha256": "e0b3863bf0cf67a2a860bf23015bc4affffba93818f4430b4960f197a9218965",
+      "local_strict_closed": true,
+      "next_center_sha256": "f80bdb9838a6eecc2482ce50582d1e4c65e45a70364ae49710c0dda276dff781",
+      "queue_remaining": 19,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-10-one/shell-result.json",
+          "shell_result_sha256": "b8c75ee0797a8ab011561b6113eadc435ba62890c055c550d72f759f7eac9c4c",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 19,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 19
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-10-two/shell-result.json",
+          "shell_result_sha256": "18a007865ea6ee612e612cfdeeaf91c4a83b56f2b496cc1efb7937afb236b1a5",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-10.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 11,
+      "center_sha256": "f80bdb9838a6eecc2482ce50582d1e4c65e45a70364ae49710c0dda276dff781",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-11-result.json",
+      "full_result_sha256": "a08789e3c9600100614a08fad5b9ca3868ceb0ff3b00f38c22e35406079e1711",
+      "local_strict_closed": true,
+      "next_center_sha256": "9f96f3badf4bf7f05299ab3c5713c2dcfca70ee64cc1274fd30ca3c2d3b87295",
+      "queue_remaining": 18,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-11-one/shell-result.json",
+          "shell_result_sha256": "3d76f410e3b68198e9224d9f8beabccc763ed8e7dc86d915be8a585c96501cc7",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 18,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 18
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-11-two/shell-result.json",
+          "shell_result_sha256": "1db7d50f697ebfb1b1d18f4e42f239a289b1d44a7f8230d744f8d0427629533c",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-11.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 12,
+      "center_sha256": "9f96f3badf4bf7f05299ab3c5713c2dcfca70ee64cc1274fd30ca3c2d3b87295",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-12-result.json",
+      "full_result_sha256": "a87927fd6437577987bc9dae78c72d51eff93f8fcc94b5f5294e886885d3a289",
+      "local_strict_closed": true,
+      "next_center_sha256": "a30dc594224a2b4ce21da4efdf38c338aceaf4875e42f940cc15c494fe53d8e5",
+      "queue_remaining": 17,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-12-one/shell-result.json",
+          "shell_result_sha256": "29aceee71599bd6afec708f208c31f34fdba621ec7852027562cca616ac9e323",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-12-two/shell-result.json",
+          "shell_result_sha256": "0f64a68c2986793fc0142e59dca5c1274109cdb9008e31a24302988aa15af549",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-12.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 13,
+      "center_sha256": "a30dc594224a2b4ce21da4efdf38c338aceaf4875e42f940cc15c494fe53d8e5",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-13-result.json",
+      "full_result_sha256": "35e1c89bac03d7cbf0916b145a600f627a684dad496cfa3fa53b029f970cd7f0",
+      "local_strict_closed": true,
+      "next_center_sha256": "083a84716b4309f1560ff28a68854d0ba318cc9943ccc5ab5e0b91b36e2a4ae7",
+      "queue_remaining": 16,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-13-one/shell-result.json",
+          "shell_result_sha256": "490799b386b3d515707e0500c72a46463ddd93788ef2f8863ba6679e8df989d5",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-13-two/shell-result.json",
+          "shell_result_sha256": "d89d6d9e3ec654803e2d6f443cf9ac4b50e8e915195e6cbfa83b1ac8779c08a1",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-13.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 14,
+      "center_sha256": "083a84716b4309f1560ff28a68854d0ba318cc9943ccc5ab5e0b91b36e2a4ae7",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-14-result.json",
+      "full_result_sha256": "0a09598afdb00838f15ef9f62887fe9646350f9501c4272a0d2a7dd37a8aeb38",
+      "local_strict_closed": true,
+      "next_center_sha256": "717135688395f6c3a9903b1123227c6a4df92696856f3bd790902e4b9b9786a0",
+      "queue_remaining": 15,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-14-one/shell-result.json",
+          "shell_result_sha256": "3bea1d6226a9c70f10454ef1085506a7797a36e196439c949a096aec624f217c",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 18,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 18
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-14-two/shell-result.json",
+          "shell_result_sha256": "c650e640055390880887f572ff737a4a4135a3f06c1940b5a22af7a8728ec197",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-14.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 15,
+      "center_sha256": "717135688395f6c3a9903b1123227c6a4df92696856f3bd790902e4b9b9786a0",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-15-result.json",
+      "full_result_sha256": "8401b304e7fcf102b6950763bb54297131499d9fc761698ad8a7d60fbec7148b",
+      "local_strict_closed": true,
+      "next_center_sha256": "99f44bf5ee353ce5d7cabe29f3f43991c8e23534c4d5ba015b8481736ae31e54",
+      "queue_remaining": 14,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 12,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 12
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-15-one/shell-result.json",
+          "shell_result_sha256": "a7645172d8690e588a207f9f5cc82cde7e0c3be244e230a9a00e954b24b08624",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 15,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 15
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-15-two/shell-result.json",
+          "shell_result_sha256": "cef0ba4760dced557d003927c0d074bc2770a3ad973e706cec0c2ee204a0d6ba",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-15.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 16,
+      "center_sha256": "99f44bf5ee353ce5d7cabe29f3f43991c8e23534c4d5ba015b8481736ae31e54",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-16-result.json",
+      "full_result_sha256": "9e3db87521768ff5ec25994c96a51319893b91038ee0adf37b4911af7abd30f4",
+      "local_strict_closed": true,
+      "next_center_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "queue_remaining": 13,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 12,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 12
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-16-one/shell-result.json",
+          "shell_result_sha256": "41a4a4319420e3d8f4836db16881cc6cf1bc0414a4559279c1c14e2eb6db9a69",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 15,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 15
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-16-two/shell-result.json",
+          "shell_result_sha256": "ba13ffe1df7d150c904e6d62aa7e8ddb3ccb3e8f220b5b1f3e2fd9b271b3fa7b",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": "center_budget",
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-16.txt"
+    }
+  ],
+  "centers_processed": 16,
+  "cover_found": false,
+  "gate_sha256": "e808301cec82a6ea805dba9ab2aa58debb56233b7cf9eac9615f485f448f8e90",
+  "manifest_sha256": "5a1082e2f28194ee4c90ee0d16bf0d5b22502164e082e757a35842547eae2a82",
+  "observed_covers": [],
+  "plateau_exhaustion_claim": false,
+  "queued_unscanned": 13,
+  "raw_index_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/files.json",
+  "raw_index_sha256": "5222b3384acd63bea96f3108b2c39194f09e01db315c0e580292003f067db555",
+  "relaunch": false,
+  "runner_sha256": "fdc7a9e89f4ce039112a3474d0a656dd246679a6355d6eebae826fbe3b65f085",
+  "scope": "Strict-improvement accounting and exact one/two-swap shells retain the frozen proofs and weak/core filters. Neutral outputs are a capped traversal sample. Sample exhaustion is not plateau exhaustion or a global nonexistence claim. Any actual cover requires both independent verifiers.",
+  "shell_launches": 32,
+  "stop_reason": "center_budget",
+  "unscanned_next": {
+    "canonical_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+    "cover_found": false,
+    "ids": [
+      46,
+      123,
+      155,
+      222,
+      357,
+      407,
+      437,
+      535,
+      545,
+      633,
+      676,
+      713,
+      740,
+      747,
+      980,
+      1020,
+      1082,
+      1230,
+      1247,
+      1296,
+      1347,
+      1391,
+      1429,
+      1459,
+      1511,
+      1659,
+      1789,
+      1962,
+      2028,
+      2057,
+      2140,
+      2161,
+      2218,
+      2285,
+      2306,
+      2402,
+      2432,
+      2660,
+      2687,
+      2764,
+      2869,
+      2960,
+      3036,
+      3053,
+      3135,
+      3227,
+      3313,
+      3374,
+      3437,
+      3502,
+      3527,
+      3556,
+      3578,
+      3606,
+      3615,
+      3665,
+      3759,
+      3870,
+      3936,
+      4040,
+      4063,
+      4158,
+      4201,
+      4277
+    ],
+    "metrics": {
+      "D2max": 25,
+      "D2sum": 25,
+      "D3": 0,
+      "D4": 0,
+      "cardinality": 64,
+      "core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 11,
+      "minimum_pair_count": 5
+    },
+    "package_valid": false,
+    "receipt_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-16-two/candidates/66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca.json",
+    "receipt_sha256": "33f3c482d3822a03ce6bb85d9e83bfd7bfef11d2603b59bcddd91e18993a520c",
+    "sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+    "standalone_valid": false,
+    "witness_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-16-two/candidates/66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca.txt"
+  },
+  "visited_hashes": [
+    "083a84716b4309f1560ff28a68854d0ba318cc9943ccc5ab5e0b91b36e2a4ae7",
+    "1e4137b583882e7513a638dcae89c7a1143854f17d12e967053dd3b3318d9c54",
+    "1facdd163ba3046e51f364e0d8863ed36a20198748fca7c39d713e386423f054",
+    "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "717135688395f6c3a9903b1123227c6a4df92696856f3bd790902e4b9b9786a0",
+    "74914202320d7400cebba9d2c789738caa2bbc64ebc08b04a473f3b9957106d5",
+    "779d54e8990ebdc7e2bdc10eefca2c7f9c13b050bf5232282515ac962b72e31a",
+    "807f6b8833eacddb17cc587046dd1d1bfdb0c5f43cc10b1923baae57e96cdc43",
+    "99f44bf5ee353ce5d7cabe29f3f43991c8e23534c4d5ba015b8481736ae31e54",
+    "9f96f3badf4bf7f05299ab3c5713c2dcfca70ee64cc1274fd30ca3c2d3b87295",
+    "a30dc594224a2b4ce21da4efdf38c338aceaf4875e42f940cc15c494fe53d8e5",
+    "a80018fbf4067cd8f9168d559601172a7e5f7c32cb3796981cbd3b0d056ce56a",
+    "a8e32c8d012bb0819519ad49a54f3850916847e37fc3fd202bdc614c45ecb5d4",
+    "b1c811a91b2ccad9bfb7b94ff57258584809c4ee0a5e6498fd9247078aec7de4",
+    "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+    "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "f80bdb9838a6eecc2482ce50582d1e4c65e45a70364ae49710c0dda276dff781",
+    "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d"
+  ]
+}

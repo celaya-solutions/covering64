@@ -1,0 +1,258 @@
+{
+  "child_ast_identical": true,
+  "common_sha256": "708b31333b659e864f9ee4ab37c7ae9909833b13f7c64a229b4f6fbc6b2abdc7",
+  "execute_ast_identical_except_proof_guard": true,
+  "fake_children": [
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105501,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 1,
+      "status": "UNKNOWN",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105501,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 1,
+      "status": "FEASIBLE",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105502,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 2,
+      "status": "UNKNOWN",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105502,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 2,
+      "status": "FEASIBLE",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105503,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 3,
+      "status": "UNKNOWN",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105503,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 3,
+      "status": "FEASIBLE",
+      "synthetic_values_not_a_candidate": true
+    }
+  ],
+  "fake_runner_cases": [
+    {
+      "calls": [
+        1,
+        2,
+        3
+      ],
+      "relaunch_rejected": true,
+      "scenario": "unknown",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        145,
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "timeout",
+      "signals": [
+        "terminate"
+      ],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        5
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "kill",
+      "signals": [
+        "terminate",
+        "kill"
+      ],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        5,
+        null
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "error",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "missing",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "vector",
+      "signals": [],
+      "synthetic_vector_branch_only": true,
+      "waits": [
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "rejected": true,
+      "scenario": "bad_vector"
+    },
+    {
+      "calls": [
+        1,
+        2,
+        3
+      ],
+      "relaunch_rejected": true,
+      "scenario": "partial_atomic",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        145,
+        145
+      ]
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_decision"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_passed"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_manifest"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_source"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_common"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_model"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_groups"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_raw"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_result"
+    }
+  ],
+  "manifest_sha256": "edc82d5213029872ffbf145746675e78808825b7e17152c5926d1586fb012071",
+  "original_auditor_sha256": "8b90b9b02e5e329bb0acf10f72e86407b5cc67e65f65a6c22a472287a39ad027",
+  "passed": true,
+  "production_process_launches": 0,
+  "proof_damage_cases": [
+    {
+      "path": "experiments/2026-10-04/eight-eight-redundant-cut-plan/README.md",
+      "rejected_before_process": true
+    },
+    {
+      "path": "experiments/2026-10-04/eight-eight-redundant-cut-plan/check.py",
+      "rejected_before_process": true
+    },
+    {
+      "path": "experiments/2026-10-04/eight-eight-redundant-cut-plan/checks.json",
+      "rejected_before_process": true
+    }
+  ],
+  "real_solver_launches": 0,
+  "runner_sha256": "1638ce606e022bfba1d6539db670369f85d08640d2d22dec2560ad534c21bd4a",
+  "scope": "Runner delta only; strengthened model and mathematical audit is separate",
+  "source_sha256": "405070199c5a7fc3139a9e1bcc57e96b2037e77600563b009e7f8c934cb1832e"
+}

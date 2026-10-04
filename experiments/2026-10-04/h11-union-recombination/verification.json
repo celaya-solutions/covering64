@@ -1,0 +1,48 @@
+{
+  "certificate_sha256": "f00d4c00966c86c9a474bb2fe8a1641fbdd5ad62a8ecb5e842f08a78e5eaa2fc",
+  "checker_sha256": "0790661aaa62ade51daaf35a5c814b7b81fca8fd869457347d568597d12b36f2",
+  "damaged_certificates_rejected": [
+    "duplicate_pair",
+    "wrong_carrier",
+    "removed_forced",
+    "inflated_bound",
+    "Boolean_carrier",
+    "wrong_union",
+    "wrong_source_hash"
+  ],
+  "disjoint_pairs": 54,
+  "disjoint_support_blocks": 127,
+  "dual_verifier_receipts": [
+    {
+      "blocks": 64,
+      "dual_verifiers_agree": true,
+      "holes": 11,
+      "path": "experiments/2026-10-04/weak-pair-neutral-queue-runtime-independent/family-f621e945358cc9e5.txt",
+      "sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+      "valid": false
+    },
+    {
+      "blocks": 64,
+      "dual_verifiers_agree": true,
+      "holes": 11,
+      "path": "experiments/2026-10-04/native-variable-partial-start/seed-2026104802/search-record-5-admissible64.txt",
+      "sha256": "439d5153ba2f2063c8dedb20ce71f9381dfecdca087e4fa9f9f0dd3808f4d22f",
+      "valid": false
+    },
+    {
+      "blocks": 128,
+      "dual_verifiers_agree": true,
+      "holes": 0,
+      "path": "experiments/2026-10-04/h11-union-recombination/union-128.txt",
+      "sha256": "ec45b2edab693ce7ef3805351ca20487d62103ed3071e1332d24ee1e9ecbfcdb",
+      "valid": true
+    }
+  ],
+  "forced_blocks": 19,
+  "lower_bound": 73,
+  "optimizer_launches": 0,
+  "package_verifier_sha256": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+  "passed": true,
+  "scope": "At least 73 blocks required within this exact 128-block union; no global bound.",
+  "standalone_verifier_sha256": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950"
+}

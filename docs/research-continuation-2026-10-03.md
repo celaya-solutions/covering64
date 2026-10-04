@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.29.0
+Version:     v1.31.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      1950b4d636b6c58a14700d29c9c6a23ce76f8027280eedb4a1ff008f02603fb5
+SHA256:      e70b7a4711a71401e1880477017e744c9c3773b2542bd54f8e28dbd65ba2305d
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -12,7 +12,15 @@ License:     All Rights Reserved / Celaya Solutions
 
 # Research continuation
 
-No verified 64-block cover has been found. The strongest current first-link
+No verified 64-block cover has been found. The latest checked native pilot
+improved the best saved partial satisfying the five named core caps and weak
+pair rules from11 holes to9, with D2max23 and D2sum29. An exact local search
+from this new family is being prepared separately. The128-block union of the
+two earlier H11 families was excluded by an independently replayed bound73.
+These are partial-family and restricted-pool results, not a solution or a
+global lower bound.
+
+The strongest current first-link
 screen has 109 independently checked exclusions out of 258 cases in the regular
 four-sevenfold branch: 27 cycle and 82 matching. The remaining 149 are open.
 This is a branch result, not a global lower bound.
@@ -1050,3 +1058,57 @@ Two local CP models rebuilt the blocks touching pivot pairs (6,14) and (1,9) ind
 Independent review caught a damaged-vector acceptance gap before any solver launch: the original checker accepted noninteger numeric inputs, including a hole value changed from1 to0.5. The frozen v1 is preserved and unrun. V2 adds a strict integer-type check, preserves both model files byte for byte, and passed20 damaged-assignment and20 damaged-model controls plus an exact serialized-model audit.
 
 The two sole v2 calls used60 seconds and four workers with seeds2026105301/2026105302. Both returned FEASIBLE with objective12 and bound0, after60.006325 and60.006730 native seconds. Four saved assignments represent three distinct families. The two new final families remain H12 and have actual D2max=D2sum29; each is three replacements from D26. Both happen to meet the weaker single/quad rows and four core caps, despite those rows not being imposed. They do not improve the incumbent hole count or deficit, and neither is a cover. Every assignment, exact hole flag, domain, active row, frozen outside-star membership and native response was checked independently, and all distinct families passed both parsers and were correctly rejected as covers. The independent receipt `two-point-star-repair-v2-runtime-independent/postcheck.json` has SHA256 `d6f35f60be4bb2090018ddaec0036e6a8305823e132faf5dd40e9a337621675a`. Neither result proves local optimality or any global exclusion.
+
+
+## Neutral moves reduce the qualified hole count (October 4)
+
+A separately reviewed observer addition retains up to64 equal-rank neighbors per exact shell without changing the existing kernel's evaluation, safe pair-floor pruning, counters or strict improvements. A bounded queue prefers strict descent and otherwise selects an unvisited sampled neutral family, with full sorted block IDs breaking ties. It completed16 distinct centers and32 exact shells before reaching its declared center limit. At center2 it escaped H12/D26 to H11/D25. This is a genuine reduction in missing triples for the pair-qualified search, but the new family is still not a cover.
+
+Independent direct counts and both covering verifiers confirm64 distinct blocks,11 holes, minimum pair count5, zero D3/D4, actual D2max=D2sum25 and four named core overlaps[1,1,1,2]. The new family hash is `f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a`. All103 distinct saved families were independently recounted and dual-checked across469 references. The audit also checked every shell's accounting, recorded strict and neutral exchange identities, queue choices, historical exclusions and stopping behavior, without another native query.
+
+There were488 neutral observations and456 retained observations. Only the center2 two-swap shell, still based at H12, exceeded its cap:96 observed and64 retained. No H11-based shell was capped, but the experiment still makes no plateau-exhaustion claim. The independently reconstructed unscanned frontier contains14 families:13 queued plus one designated next center. A new bounded continuation must preserve this frontier and skip all already processed hashes; it is not a relaunch of the finished campaign.
+
+The result hash is `086524c3b7f8db6e11ab6b3e321c379facc36b3f51fb163740e7cc7fdac9d048`. The independent postcheck `weak-pair-neutral-queue-runtime-independent/postcheck.json` has SHA256 `fd044b1f88955403181b2d6ac739526c2d27ded14b0cff66f36a59d40a1cdde3`; the frontier hash is `523ab6b38b23748885d19023d41b0dde5cdbd52b06b920aec6c1418f706ffe06`. No64-block cover has been found.
+
+The separately gated continuation carried all14 pending families and excluded20 historical hashes. It completed14 centers and28 shells, then stopped with `sample_exhausted`, no pending frontier and the same H11/D25 best. All378 neutral observations were retained; no continuation shell hit its cap, and the largest shell recorded21 neutral neighbors. Combined visited accounting contains34 hashes. Independent replay checked28 distinct families across393 references, without rerunning a native search. This is the recorded queue's stopping result, not an unrestricted exclusion or an automatic plateau-exhaustion theorem. The continuation result has SHA256 `be5f44103482a30b80daec84dd44b7fbaaa566adabb20d06ebc446fc033b71e4`; `weak-pair-neutral-queue-resume-01-runtime-independent/postcheck.json` has SHA256 `4393efed14e9281ddc4b72bd43f983f14d384001b9fc16be9205bd9e6440e685`.
+
+## Shared-core bound and historical partial inventory (October 4)
+
+The28 H11/D25 bank families share62 blocks and have a74-block union. Their pairwise distances are1 for126 pairs and2 for252 pairs. The common core leaves15 triples uncovered. An independent enumeration of all4,368 five-blocks finds3,253 covering none of those holes,1,060 covering one and55 covering two. A cover therefore needs at least8 blocks outside this core, so every exact64 cover overlaps it in at most56 blocks. The proof transports under relabeling. A classifier testing only this named image does not establish escape from every relabeling.
+
+The core witness has SHA256 `c2190a6c9fdc0e0f5cc56c991b79c109925e1c3f7ea375ec353535c717415b72`. The independent certificate in `h11-d25-common-core-cap/certificate.json` has SHA256 `1006dc7a15b515c075311da4ef8f074d92da60d10ed9fe3b12db23c77dc687ad`; its checker rejected17 damaged controls. This is a conditional overlap bound, not global nonexistence.
+
+Before the next native pilot, a frozen inventory of1,170 saved text paths found205 distinct exact64 families with at most11 holes. Of these,45 pass the five named core caps,30 pass the weak pair rules, and exactly one passes both. That historical family already has H11/D27, minimum pair count5 and D3=D4=0. Its SHA256 is `439d5153ba2f2063c8dedb20ce71f9381dfecdca087e4fa9f9f0dd3808f4d22f`, previously saved by seed2026104802 in `native-variable-partial-start`. The old H9 and H10 families pass the five caps but fail the pair rules. Qualification alone is consequently not a new result. The inventory receipt `h11-common-core-saved-inventory-independent/inventory.json` has SHA256 `720e1856a16aaf32b3fbf456a37e644d626a849aa0ae5e3bd7b989bd6680cece`. Both covering verifiers were applied; no cover was found.
+
+
+## Two-family recombination rejected by a finite certificate (October 4)
+
+The H11/D25 family `f621e945` and historical H11/D27 family `439d5153` share no blocks. Their128-block union covers all560 triples, so it was considered as a smaller exact construction pool. Before preparing a solver model, direct incidence counting found19 distinct blocks forced by singleton-support triples. Of the remaining uncovered triples,54 have pairwise disjoint two-block supports, also disjoint from the19 forced blocks. Summing these73 covering inequalities proves that every complete cover contained in this pool needs at least73 blocks. This rules out the proposed64-block recombination without a solver call.
+
+The certificate `h11-union-recombination/certificate.json` has SHA256 `f00d4c00966c86c9a474bb2fe8a1641fbdd5ad62a8ecb5e842f08a78e5eaa2fc`. A separate checker rejected seven damaged certificates. Root independently reconstructed all560 support sets from the two source families, verified disjointness across127 distinct carrier blocks and confirmed the bound73; `root-replay.json` has SHA256 `6ac2a0e7355d10a7ddab321cb1087e7aaf298b1ec2a0e8127242dbc2dabc314d`. The planned optimizer was canceled before any model or solver launch. This bound applies only to this exact128-block pool and does not claim that73 is its attainable minimum or constrain the unrestricted problem.
+
+## Eight-plus-eight extension construction (October 4)
+
+A different restricted recipe splits the points into two sets of eight. In each half, eight affine SQS(8) quadruples of degree4 cover32 internal triples exactly once, leaving24 internal triples. Extend each quadruple by one point from the other half, and each leftover triple by two opposite points. One extension of each base gives64 distinct blocks and covers all112 internal triples exactly once. The1,472 candidate extensions must also cover448 mixed triples. Their total mixed incidence is528, leaving the required80 excess occurrences. Independent enumeration of all3,003 eight-quadruple subsets finds35 degree4 choices in two affine types (7 typeA and28 typeB); AA, AB and BB cover this regular-base recipe up to relabeling and half interchange, not the unrestricted covering problem.
+
+Each original model retained all4,368 lexicographic block variables, fixed2,896 ineligible choices to zero, and contained625 rows: exact64,64 one-extension equations and560 covering rows. It imposed no objective, hint, final degree, orbit or old-core constraint. The independent audit reconstructed every group/domain/row, rejected60 damaged model/group variants, checked fake child/runner outcomes and kept an ordinary full-universe positive covering control separate from recipe feasibility.
+
+The three sequential120-second/four-worker calls with seeds2026105401 through2026105403 all returned UNKNOWN with no callback, final vector or candidate. Native times were120.008096,120.007812 and120.026553 seconds. Independent runtime review checked all21 raw artifacts, source/model/group/gate hashes, exact parameters, empty native response solutions, clean exits, no watchdog firing and sequential runner evidence, without reruns. The result hash is `a87d4f6aaf0e532e2ecc477111605593ef63aad460fd9b1d1f2e9e995fb92883`; `eight-eight-extensions-runtime-independent/postcheck.json` has SHA256 `3f5ccf172cb1e94ab05b7425136f7b94bc799dc24d043258723e84314fb6c180`. These timeouts rule out none of the recipes.
+
+A separate exact counting review supplies redundant rows for a strengthened sibling. For a same-half pair with q selected quadruples and x opposite triple-base pair extensions, its final count is6-q+x, giving x>=max(q-1,0). TypeA has four q=0 and24 q=2 pairs; the24 extension occurrences force x=0 or1 respectively. For a point with p pair-extension incidences and s singleton extensions, covering the28 opposite pairs requires9+3p+6s>=28, hence p+2s>=7. On typeA halves p=6 forces all s=1 and final degree20. Its q=2 pairs consequently have mixed triple counts at most2. These are proved consequences within the recipe; typeB halves are not forced regular. Complete proofs and finite checks are in `eight-eight-redundant-cut-plan/`; the strengthened models preserve the original625-row prefix and add only these consequences. No64-block cover has been found.
+
+The strengthened AA/AB/BB models contain1,113/905/697 rows and effective candidate pools1,280/1,376/1,472. Their three sole120-second/four-worker calls used seeds2026105501 through2026105503. All returned UNKNOWN, with zero callbacks, vectors or candidate families. Native times were120.012156,120.082802 and120.005428 seconds. Independent runtime review verified the model, source, proof and parameter bindings, all21 raw files, native responses, clean exits and sequential execution. No watchdog fired and no run was repeated. The result has SHA256 `df522b51d617839d16dc39e0b5924873f9f5c95c771860ad1df64aedf30febb9`; `eight-eight-strengthened-runtime-independent/postcheck.json` has SHA256 `873d55979c72768e5dfa9be95888833a46a1de36410104cf41ba477def1675f7`. These timeouts remain inconclusive.
+
+## Five-core native records improve qualified coverage (October 4)
+
+The new observer preserves the existing variable-cardinality walk, kernel, weights, random draws, tabu choices and old core header. It records four separate bests: the complete incumbent, raw exact64, exact64 passing the five named caps[55,55,55,55,56], and a weak-qualified exact64 bucket restricted to at most11 holes. The last bucket additionally requires pair floor5 and D3=D4=0 and ranks by(holes,D2max). D2sum is reported without breaking ties. Caps and weak conditions affect record qualification only; other live cardinalities remain unrestricted by these observers. Checking these five images does not establish escape from every core relabeling.
+
+Independent native and runner reviews checked unchanged live behavior, threshold/cardinality guards, real and synthetic bucket separation, equal-hole deficit improvements and timeout/record recovery. The frozen manifest has SHA256 `32d536037298694fea21fa8207efb328851d9ede135cae2c770833863891ee86`, and the combined gate has SHA256 `10477409a380ff6fc6a912b6349c7e8e418dcc8b3afab84fe3fab0f5f8eb0e59`. Root launched the two sequential300-second single-process calls once, from f621 H11/D25 at seed2026105601 and historical439d H11/D27 at seed2026105602. The verified Belic65 complete incumbent remained separate from each live partial start. Both calls ended normally; neither315-second watchdog fired.
+
+The first run saved a new weak-qualified H9 family, SHA256 `f5f24d57738763380c715769eef4328d7f1950a8ae6d0eedd8e9ff16dc3fc681`, at `native-five-core-record-pilot/seed-2026105601/search-final-weak64.txt`. Independent direct counts confirm64 distinct blocks,9 holes, minimum pair count5, D3=D4=0, D2max23, D2sum29 and named core overlaps[1,0,1,1,1]. This improves the qualified hole count from11 to9. The second run saved a different weak-qualified H10 family with D2max22 and D2sum32, SHA256 `85f6e38a537691442cf6097a68b1364a755ac1ba8312d61adfc88c26abb6a90e`. The first wins the declared hole-first rank. Both hashes are absent from the frozen historical inventory, without an isomorphism or worldwide novelty claim.
+
+The raw/five-cap records reached H9 and H8 respectively but fail the weak conditions; they remain separate from the qualified results. Neither run found a complete cover of size64 or less. Native wall times were300 and300.001 seconds, with runner elapsed times300.305664292071 and300.005190792028 seconds. Final independent audit checked27 distinct families across43 saved references with both verifiers, replayed64 logged mutations, and verified source/input/parameter bindings, bucket improvements, historical comparisons, sequential execution and the known65-block incumbent. The producer result has SHA256 `5c11a6ee25247bc7b3caf707ae05aba8387d2c5c5a8e26642a483397b451c8f3`; `native-five-core-record-runtime-independent/postcheck.json` has SHA256 `5d79cdfc0820086e14281538398506c674ce9ecb241e1b3b3739b7aabb067862`.
+
+## Public source check beyond the frozen archive (October 4)
+
+The successor [Covering Repository](https://coveringrepository.com/) states that it tracks improvements after Gordon's March2026 archive. Its accessible recent ordinary-cover table contained100 numeric records dated September26 through October4,2026; none was the exact target. This table is only a recent slice. Direct target lookup returned HTTP403, so the target's current entry was not verified. Six accessible primary abstracts likewise supplied no new target witness or theorem. This bounded review does not establish that no later improvement exists; the earlier verified61–65 entry remains explicitly archive-dated. The source receipt `post-march-public-source-refresh/source-checks.json` has SHA256 `fd2893953397c0087e8925a3af2ffd6fa791c9370bf7cc06846c3c19e7d0c964`.

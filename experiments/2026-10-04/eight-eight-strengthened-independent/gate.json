@@ -1,0 +1,32 @@
+{
+  "checked_at_utc": "2026-10-04T19:57:58.088020+00:00",
+  "decision": "GO",
+  "limits": {
+    "calls_at_most": 3,
+    "relaunch": false,
+    "seconds_per_call": 120,
+    "seeds": [
+      2026105501,
+      2026105502,
+      2026105503
+    ],
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 145,
+    "workers": 4
+  },
+  "manifest_sha256": "edc82d5213029872ffbf145746675e78808825b7e17152c5926d1586fb012071",
+  "model_audit_path": "experiments/2026-10-04/eight-eight-strengthened-independent/model-audit.json",
+  "model_audit_sha256": "102c09009577715e769407c8c8d73c4b5ff362545b44c89128d644e0cd761be9",
+  "passed": true,
+  "producer_sha256": "1638ce606e022bfba1d6539db670369f85d08640d2d22dec2560ad534c21bd4a",
+  "proof_files": {
+    "experiments/2026-10-04/eight-eight-redundant-cut-plan/README.md": "a2f9e7ff44be987f1e88165abe38b0a670f13947f2e7374090823cf38d729955",
+    "experiments/2026-10-04/eight-eight-redundant-cut-plan/check.py": "618f5cb4549d289db1c3beb52a5755e5eda729db1e6a168faa6d2e934082a6af",
+    "experiments/2026-10-04/eight-eight-redundant-cut-plan/checks.json": "e28bfd4a1a1532829c9511f172c659d3418fe4fb0dbbee4ab66860bf3e682225"
+  },
+  "readme_sha256": "0df6f23d353cfb5e320c1931fc58ae43d64e819d8bef94b304bb344c444e705e",
+  "runner_audit_path": "experiments/2026-10-04/eight-eight-strengthened-runner-independent/checks.json",
+  "runner_audit_sha256": "afd9b44dd87925837459821c4b0cd041cafe8a5a9bcdcc353b415f6e7d3638cd",
+  "scope": "Frozen three restricted 8+8 recipes with independently proved redundant cuts; not unrestricted completeness or infeasibility proof. Root alone launches after prior campaign completes.",
+  "solver_calls_by_reviewers": 0
+}

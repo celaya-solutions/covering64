@@ -1,0 +1,47 @@
+{
+  "common_sha256": "708b31333b659e864f9ee4ab37c7ae9909833b13f7c64a229b4f6fbc6b2abdc7",
+  "entries": [
+    {
+      "groups": "experiments/scratch/eight-eight-extensions-20261004/groups-1.json",
+      "groups_sha256": "b2f22d5f8b0bbc533f3e759991894e96465a66d98abd8dd07cd3572ce697f3ad",
+      "kinds": "AA",
+      "model": "experiments/scratch/eight-eight-extensions-20261004/model-1.pbtxt",
+      "model_sha256": "de3e62f9be253439cd858c13f8e672c5c5dc82bf32fe168e15ccdee83b5e9aaf",
+      "number": 1,
+      "rows": 625,
+      "seed": 2026105401,
+      "variables": 4368
+    },
+    {
+      "groups": "experiments/scratch/eight-eight-extensions-20261004/groups-2.json",
+      "groups_sha256": "f3971dddc0be6755e3931032e2b8b0b84463c6f180d0e31eac519e371452ef69",
+      "kinds": "AB",
+      "model": "experiments/scratch/eight-eight-extensions-20261004/model-2.pbtxt",
+      "model_sha256": "c2f6323a8f87a66234e902d500b30a980ac99db9645f0aa68fb885b519190110",
+      "number": 2,
+      "rows": 625,
+      "seed": 2026105402,
+      "variables": 4368
+    },
+    {
+      "groups": "experiments/scratch/eight-eight-extensions-20261004/groups-3.json",
+      "groups_sha256": "05065ff99ef18d67fbd44cd1581666d984d5278999ca661ecee3ce151a99764a",
+      "kinds": "BB",
+      "model": "experiments/scratch/eight-eight-extensions-20261004/model-3.pbtxt",
+      "model_sha256": "2b7753367cdb2ef2e5d3ba04d29c7ed1dbaf945503625c16e09517d0bb5b832a",
+      "number": 3,
+      "rows": 625,
+      "seed": 2026105403,
+      "variables": 4368
+    }
+  ],
+  "grace": 5,
+  "ortools_version": "9.15.6755",
+  "scope": "Three specified restricted recipes: one extension of each of eight affine quadruples and24 complementary triples on each8-point half. No claim every64-cover has this form. UNKNOWN and CP INFEASIBLE are not proof certificates.",
+  "search_launches_during_preparation": 0,
+  "seconds": 120,
+  "source_revision": "a6c539d96c2c23f5a93bec4bf542096818f9f742",
+  "source_sha256": "58eceb7555ba52475e50a1031ac943c96a4febe85ae37a3b837491c4721f0c86",
+  "watchdog": 145,
+  "workers": 4
+}

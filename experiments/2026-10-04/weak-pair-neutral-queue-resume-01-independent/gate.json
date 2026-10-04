@@ -1,0 +1,87 @@
+{
+  "budget": {
+    "budget_transfer": false,
+    "max_centers": 32,
+    "max_shell_launches": 64,
+    "relaunch": false,
+    "seconds_per_shell": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "carried_families_dual_rechecked": 14,
+  "decision": "GO",
+  "initial_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+  "manifest_sha256": "aeaa247b3c1f5ba967e968412f59d261659c760e766fd5787637e953ff39b4ba",
+  "one_binary_sha256": "ec472aaa0b7c42ef4ab1e643c5439f7a8f08108376391dcf1d5f37185982c31f",
+  "optimizer_launches": 0,
+  "passed": true,
+  "prior_frontier_sha256": "523ab6b38b23748885d19023d41b0dde5cdbd52b06b920aec6c1418f706ffe06",
+  "prior_postcheck_sha256": "fd044b1f88955403181b2d6ac739526c2d27ded14b0cff66f36a59d40a1cdde3",
+  "prior_result_sha256": "086524c3b7f8db6e11ab6b3e321c379facc36b3f51fb163740e7cc7fdac9d048",
+  "queue_delta_controls": {
+    "abstract_states_only": true,
+    "rejected_before_launch": [
+      "empty frontier",
+      "initial missing",
+      "duplicate frontier",
+      "historical initial",
+      "historical pending",
+      "mixed rank",
+      "nonleast initial"
+    ],
+    "transition_cases": [
+      {
+        "centers": [
+          "seed",
+          "a",
+          "b"
+        ],
+        "name": "carry pending frontier",
+        "shell_calls": 6
+      },
+      {
+        "centers": [
+          "seed",
+          "c",
+          "a",
+          "b"
+        ],
+        "name": "new neutral before saved pending",
+        "shell_calls": 8
+      },
+      {
+        "centers": [
+          "seed",
+          "better",
+          "peer"
+        ],
+        "name": "strict best replaces saved frontier",
+        "shell_calls": 6
+      },
+      {
+        "centers": [
+          "seed"
+        ],
+        "name": "second incomplete keeps carried frontier",
+        "shell_calls": 2
+      },
+      {
+        "centers": [
+          "seed"
+        ],
+        "name": "early cover preserves scope",
+        "shell_calls": 1
+      },
+      {
+        "centers": 32,
+        "name": "32-center cap carries popped next and pending",
+        "shell_calls": 64
+      }
+    ]
+  },
+  "runner_sha256": "20b1869714c4776b60808e68a2c6cf58736460ab5b71ac2ac75f2ea95ce89928",
+  "scope": "New separately bounded continuation over unvisited carried frontier. Same native binaries/adapter, no historical revisit exception,32 centers/64 calls maximum. No full plateau claim; empty retained sample is not a global theorem.",
+  "source_sha256": "36096af0cb0b80ddc3546c3a11edcdb4ef34c2d95a3555934e03a380a6511631",
+  "two_binary_sha256": "7a3b56f323ad8456da1fdad71a70ce35e3fd65ea350a422e7fc0fc23a1e1cd49"
+}

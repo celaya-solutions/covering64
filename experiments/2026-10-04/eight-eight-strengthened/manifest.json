@@ -1,0 +1,52 @@
+{
+  "common_sha256": "708b31333b659e864f9ee4ab37c7ae9909833b13f7c64a229b4f6fbc6b2abdc7",
+  "entries": [
+    {
+      "groups": "experiments/scratch/eight-eight-strengthened-20261004/groups-1.json",
+      "groups_sha256": "b2f22d5f8b0bbc533f3e759991894e96465a66d98abd8dd07cd3572ce697f3ad",
+      "kinds": "AA",
+      "model": "experiments/scratch/eight-eight-strengthened-20261004/model-1.pbtxt",
+      "model_sha256": "a05aaa0666627361e8bbe338bc1217d1d70907020ac9dddca82a957fa043a896",
+      "number": 1,
+      "rows": 1113,
+      "seed": 2026105501,
+      "variables": 4368
+    },
+    {
+      "groups": "experiments/scratch/eight-eight-strengthened-20261004/groups-2.json",
+      "groups_sha256": "f3971dddc0be6755e3931032e2b8b0b84463c6f180d0e31eac519e371452ef69",
+      "kinds": "AB",
+      "model": "experiments/scratch/eight-eight-strengthened-20261004/model-2.pbtxt",
+      "model_sha256": "eba0e923d5ecb17df70d76ae9984d3fa58d4f48ad0613e1da29c55af09c4dfba",
+      "number": 2,
+      "rows": 905,
+      "seed": 2026105502,
+      "variables": 4368
+    },
+    {
+      "groups": "experiments/scratch/eight-eight-strengthened-20261004/groups-3.json",
+      "groups_sha256": "05065ff99ef18d67fbd44cd1581666d984d5278999ca661ecee3ce151a99764a",
+      "kinds": "BB",
+      "model": "experiments/scratch/eight-eight-strengthened-20261004/model-3.pbtxt",
+      "model_sha256": "67434bff637528bfbec120f1e74276e69ead10b8b24356678b8c986cf157c43d",
+      "number": 3,
+      "rows": 697,
+      "seed": 2026105503,
+      "variables": 4368
+    }
+  ],
+  "grace": 5,
+  "ortools_version": "9.15.6755",
+  "proof_files": {
+    "experiments/2026-10-04/eight-eight-redundant-cut-plan/README.md": "a2f9e7ff44be987f1e88165abe38b0a670f13947f2e7374090823cf38d729955",
+    "experiments/2026-10-04/eight-eight-redundant-cut-plan/check.py": "618f5cb4549d289db1c3beb52a5755e5eda729db1e6a168faa6d2e934082a6af",
+    "experiments/2026-10-04/eight-eight-redundant-cut-plan/checks.json": "e28bfd4a1a1532829c9511f172c659d3418fe4fb0dbbee4ab66860bf3e682225"
+  },
+  "scope": "Three specified restricted recipes with proved redundant pair/point/triple rows: one extension of each of eight affine quadruples and24 complementary triples on each8-point half. No claim every64-cover has this form. UNKNOWN and CP INFEASIBLE are not proof certificates.",
+  "search_launches_during_preparation": 0,
+  "seconds": 120,
+  "source_revision": "fc65a9966ab6efe492937325bf998cc88a3b4a7d",
+  "source_sha256": "1638ce606e022bfba1d6539db670369f85d08640d2d22dec2560ad534c21bd4a",
+  "watchdog": 145,
+  "workers": 4
+}

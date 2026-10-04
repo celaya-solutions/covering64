@@ -1,0 +1,1379 @@
+{
+  "best_family": {
+    "canonical_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+    "cover_found": false,
+    "ids": [
+      46,
+      123,
+      155,
+      222,
+      357,
+      407,
+      437,
+      535,
+      545,
+      633,
+      676,
+      713,
+      740,
+      747,
+      980,
+      1020,
+      1082,
+      1230,
+      1247,
+      1296,
+      1347,
+      1391,
+      1429,
+      1459,
+      1511,
+      1659,
+      1789,
+      1962,
+      2028,
+      2057,
+      2140,
+      2161,
+      2218,
+      2285,
+      2306,
+      2402,
+      2432,
+      2660,
+      2687,
+      2764,
+      2869,
+      2960,
+      3036,
+      3053,
+      3135,
+      3227,
+      3313,
+      3374,
+      3437,
+      3502,
+      3527,
+      3556,
+      3578,
+      3606,
+      3615,
+      3665,
+      3759,
+      3870,
+      3936,
+      4040,
+      4063,
+      4158,
+      4201,
+      4277
+    ],
+    "metrics": {
+      "D2max": 25,
+      "D2sum": 25,
+      "D3": 0,
+      "D4": 0,
+      "cardinality": 64,
+      "core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 11,
+      "minimum_pair_count": 5
+    },
+    "package_valid": false,
+    "sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+    "standalone_valid": false,
+    "verification": {
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+        "covered": 549,
+        "k": 5,
+        "multiplicities": {
+          "0": 11,
+          "1": 462,
+          "2": 83,
+          "3": 4
+        },
+        "pair_multiplicities": {
+          "5": 80,
+          "6": 40
+        },
+        "replication": {
+          "1": 21,
+          "10": 20,
+          "11": 21,
+          "12": 19,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 20,
+          "5": 20,
+          "6": 21,
+          "7": 20,
+          "8": 19,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 11,
+          "1": 462,
+          "2": 83,
+          "3": 4
+        },
+        "covered_subsets": 549,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 20,
+          "11": 21,
+          "12": 19,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 19,
+          "3": 19,
+          "4": 20,
+          "5": 20,
+          "6": 21,
+          "7": 20,
+          "8": 19,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            1,
+            8,
+            12
+          ],
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            2,
+            9,
+            14
+          ],
+          [
+            3,
+            4,
+            12
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            5,
+            6,
+            12
+          ],
+          [
+            10,
+            12,
+            14
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 11,
+        "valid": false
+      }
+    }
+  },
+  "budget_transfer": false,
+  "centers": [
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 1,
+      "center_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-01-result.json",
+      "full_result_sha256": "c934f169d70b18bfb25c470e9b8ffa6a29794ddfe27d444a0f8032e0d2783c84",
+      "local_strict_closed": true,
+      "next_center_sha256": "91e9ffc96894f120866de7720af1a7ffe52fbe5a1b3872fa60d802a7048f8c56",
+      "queue_remaining": 12,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-01-one/shell-result.json",
+          "shell_result_sha256": "2cb61438b8ea8adb1a467ede06e7366aac6a3c294e430d2f3b836b6d9ab92e85",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 18,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 18
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-01-two/shell-result.json",
+          "shell_result_sha256": "aff80f825194d5cbab0424442a22a459994c25a9c360cc00a0d06a047a602d4e",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-01.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 2,
+      "center_sha256": "91e9ffc96894f120866de7720af1a7ffe52fbe5a1b3872fa60d802a7048f8c56",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-02-result.json",
+      "full_result_sha256": "027240fc7e26efddaafdd0b862c07d84e399c1f05c24d296f43292700c2f6fe3",
+      "local_strict_closed": true,
+      "next_center_sha256": "4977734c1bd4bf115458b3d6da5317d604d8863f496caa2ce6b36131480cc597",
+      "queue_remaining": 11,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 6,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 6
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-02-one/shell-result.json",
+          "shell_result_sha256": "618df3910b751c392b398d7852c97448fc79ee1532bcc669953183972d72f4a0",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 21,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 21
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-02-two/shell-result.json",
+          "shell_result_sha256": "f24f6e487106bb28c1bef60243bd7219ee715d61047f7da71edb69e9e9ff46ed",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-02.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 3,
+      "center_sha256": "4977734c1bd4bf115458b3d6da5317d604d8863f496caa2ce6b36131480cc597",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-03-result.json",
+      "full_result_sha256": "55d315ac4256e0588474f5eee999b1aa1a66d0c5fc31b61285c138dbd0c44003",
+      "local_strict_closed": true,
+      "next_center_sha256": "3b71eacac43595adfe38804ae6619e042d9b8bf2cd473da742f7f5f63396ecf1",
+      "queue_remaining": 10,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-03-one/shell-result.json",
+          "shell_result_sha256": "70788f7c7b58352640767c241a6d445c5c496eb07ac6efa7211b2e31043d7366",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-03-two/shell-result.json",
+          "shell_result_sha256": "2da2f6c6b5afacc64cd44b607f66af0e92449417d2e0048ae698215bc4543a36",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-03.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 4,
+      "center_sha256": "3b71eacac43595adfe38804ae6619e042d9b8bf2cd473da742f7f5f63396ecf1",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-04-result.json",
+      "full_result_sha256": "8215eb596a51a7ff8fcb124f72579908bed31fef8fbbecf9972a719818722396",
+      "local_strict_closed": true,
+      "next_center_sha256": "b7c930a4d913fa008b8de191c52f446783680e71af8780965b835aea59b0eff2",
+      "queue_remaining": 9,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-04-one/shell-result.json",
+          "shell_result_sha256": "0e73177c525d3d83b5bdfc1a3ca7c0505cd5f058747ca966f878a4ec47a42d6b",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 19,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 19
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-04-two/shell-result.json",
+          "shell_result_sha256": "a61a696d0377a1a6bc7dda3c30a0df4d99f64c14626d511bb75ab663cc1e6e9e",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-04.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 5,
+      "center_sha256": "b7c930a4d913fa008b8de191c52f446783680e71af8780965b835aea59b0eff2",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-05-result.json",
+      "full_result_sha256": "085b058038bb22b55858f456a6175dff4caf1560de759bcf4c44ef20e46849c8",
+      "local_strict_closed": true,
+      "next_center_sha256": "5e6574428de60bd70e369248f7323465fa29ea106d21caa333d6bfea4a22dccb",
+      "queue_remaining": 8,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-05-one/shell-result.json",
+          "shell_result_sha256": "0e8b31726be52418f40da7a96c344b10d4c85c04b7153411241786ee7a5e712a",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 19,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 19
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-05-two/shell-result.json",
+          "shell_result_sha256": "abfc0c6510d2b90e85da73aca1396acbac8d55481eb55d572e5bdfe7e3a09b54",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-05.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 6,
+      "center_sha256": "5e6574428de60bd70e369248f7323465fa29ea106d21caa333d6bfea4a22dccb",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-06-result.json",
+      "full_result_sha256": "2e8a7e47fe51ea68935b83a9a9e9e6b4348e4d105f60eef88235839f49f3d669",
+      "local_strict_closed": true,
+      "next_center_sha256": "37baa674db195c8a54888cc4628ab879ea6c6b26c3e0eb65c2784162bf9fbec3",
+      "queue_remaining": 7,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 10,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 10
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-06-one/shell-result.json",
+          "shell_result_sha256": "125c6628f0ae056d61bd3ab1f6bbcc4f25bcec7815b54c226c0868e3d0ada149",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 17,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 17
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-06-two/shell-result.json",
+          "shell_result_sha256": "bfd9f5358345517ba06dfa1dca71f36361bced5ee7ea5c7d3829fe71b8044249",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-06.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 7,
+      "center_sha256": "37baa674db195c8a54888cc4628ab879ea6c6b26c3e0eb65c2784162bf9fbec3",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-07-result.json",
+      "full_result_sha256": "d94887161033fdc0901fc5e15a267b287266ce59068bb1a12104e0ab4609e43b",
+      "local_strict_closed": true,
+      "next_center_sha256": "a5406ce9116333a944037ee74863ce944dbe5d1e848bbfc67969521e25b1ad61",
+      "queue_remaining": 6,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-07-one/shell-result.json",
+          "shell_result_sha256": "f98f5c892cf1d7c4cac5beccf152ae70b83ad09f949217e351b695f26a3a37d9",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 19,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 19
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-07-two/shell-result.json",
+          "shell_result_sha256": "573df3f12f0db47f66ac8633f734b1d757ee8638adf9a5b2ccc42fe99d1fd88e",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-07.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 8,
+      "center_sha256": "a5406ce9116333a944037ee74863ce944dbe5d1e848bbfc67969521e25b1ad61",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-08-result.json",
+      "full_result_sha256": "c0d163f0a85cf71c943b0b77a96dea7c4d878bd7d66dbdb76d1157b970dce21c",
+      "local_strict_closed": true,
+      "next_center_sha256": "6d4b886ba63df1aeb9096134dd5adffc595affbc9474db9a81405f1fbfab25de",
+      "queue_remaining": 5,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 8,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 8
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-08-one/shell-result.json",
+          "shell_result_sha256": "674233bd6a9cab9c3be5152029038ca574b29ca0111a9033eddceb3572964085",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 19,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 19
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-08-two/shell-result.json",
+          "shell_result_sha256": "1e9a1b267a8e08d987cdc4ba046785241053e4e4b3b1adddff76e2393b786979",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-08.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 9,
+      "center_sha256": "6d4b886ba63df1aeb9096134dd5adffc595affbc9474db9a81405f1fbfab25de",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-09-result.json",
+      "full_result_sha256": "0fb237085a1b28ecc554ceb21f9918d3e9d67938121f731b546216086b081c1f",
+      "local_strict_closed": true,
+      "next_center_sha256": "c048d460bc6b5dcadcdc9d61b2923504030f188d9b2b1b90eb3cd380aebde454",
+      "queue_remaining": 4,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-09-one/shell-result.json",
+          "shell_result_sha256": "32c261e1bdac53741f6c150d4e0e74242f5cff3b7dbf1912ce6b5d14cf4b746e",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 18,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 18
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-09-two/shell-result.json",
+          "shell_result_sha256": "118ba0100ceda1e10bb4b82f470a00130ff81aa7d6bdfecd720dd1f85b6b93a1",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-09.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 10,
+      "center_sha256": "c048d460bc6b5dcadcdc9d61b2923504030f188d9b2b1b90eb3cd380aebde454",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-10-result.json",
+      "full_result_sha256": "02568b88afc6a8a54ea76d51707c63be617f76e94c578150b97f401a741f4429",
+      "local_strict_closed": true,
+      "next_center_sha256": "e6eeb7ecb41aabd58d9b7765c2d5c41638d3f5508142c2aadcfc6acb7589b47e",
+      "queue_remaining": 3,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 6,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 6
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-10-one/shell-result.json",
+          "shell_result_sha256": "b351f779ab589eadd5b196c39c4f0a57e767f38cdc19136889f8864e1daca4ca",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 21,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 21
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-10-two/shell-result.json",
+          "shell_result_sha256": "37504b98bbe417b65120630838c21ffd71d3b9f5b51486c06937b34eaf911edc",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-10.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 11,
+      "center_sha256": "e6eeb7ecb41aabd58d9b7765c2d5c41638d3f5508142c2aadcfc6acb7589b47e",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-11-result.json",
+      "full_result_sha256": "4ff555ab274bf039cf801ef4102ae29782df8fd91f1c02315900d17d3850407d",
+      "local_strict_closed": true,
+      "next_center_sha256": "744987d6a4f808be577067e59f526736cff253a68f62c678af936d4e0bc128ca",
+      "queue_remaining": 2,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 12,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 12
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-11-one/shell-result.json",
+          "shell_result_sha256": "ce4c43d2617e7178cb88953434a18add70082cd2d67402d7dd1b202d4215d10f",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 15,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 15
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-11-two/shell-result.json",
+          "shell_result_sha256": "a4387609ac61ebe9e6d1381aadd72e2db3170c908b6d56058de4fe54da158d64",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-11.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 12,
+      "center_sha256": "744987d6a4f808be577067e59f526736cff253a68f62c678af936d4e0bc128ca",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-12-result.json",
+      "full_result_sha256": "c8214cad1a8166330e4b8509ec9f0af323763d45d48410a9e8c4c803814a4247",
+      "local_strict_closed": true,
+      "next_center_sha256": "edf7f741bc46565f96e05c65a36bc2f01ea4b7da8c9907f7075ae6d864774385",
+      "queue_remaining": 1,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 12,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 12
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-12-one/shell-result.json",
+          "shell_result_sha256": "40dd3d5bb43c9983a44fa63402a039442d40a6cad37666f00e92889941a364bc",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 15,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 15
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-12-two/shell-result.json",
+          "shell_result_sha256": "6698077fb8f40d8207a165524f064c3d876ade537d4d7b7551b796d5fddbebfb",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-12.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 13,
+      "center_sha256": "edf7f741bc46565f96e05c65a36bc2f01ea4b7da8c9907f7075ae6d864774385",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-13-result.json",
+      "full_result_sha256": "c7d280e089c4ee84cab9a01f367fac497242aa7e3d54066fe0298fda919a0050",
+      "local_strict_closed": true,
+      "next_center_sha256": "a4cb04c1e2408dc70bee3a11a0894ac7f1f528f89ad0c0ad386dc1735afdda68",
+      "queue_remaining": 0,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-13-one/shell-result.json",
+          "shell_result_sha256": "e120a6fd8d96482db15286c7b3aaf078741fc8d8250a4a96c9e5c8679865aeb7",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 18,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 18
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-13-two/shell-result.json",
+          "shell_result_sha256": "9fa43515b6e700c02cfcafef58ff41dbd24d60395f396db9fd450d612b1054b9",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": null,
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-13.txt"
+    },
+    {
+      "best_rank": [
+        11,
+        25
+      ],
+      "best_sha256": "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+      "center_metrics": {
+        "D2max": 25,
+        "D2sum": 25,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 11,
+        "minimum_pair_count": 5
+      },
+      "center_number": 14,
+      "center_sha256": "a4cb04c1e2408dc70bee3a11a0894ac7f1f528f89ad0c0ad386dc1735afdda68",
+      "complete": true,
+      "cover_found": false,
+      "full_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/center-14-result.json",
+      "full_result_sha256": "609d8b4dd6292903ae2c702260b689cebfaf8dbc27ef6c9488b17f403c6d6772",
+      "local_strict_closed": true,
+      "next_center_sha256": null,
+      "queue_remaining": 0,
+      "shells": [
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 9,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 9
+          },
+          "passed": true,
+          "shell": "one",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-14-one/shell-result.json",
+          "shell_result_sha256": "96c508871d2186cbb0c0f5d8fb30ab236b0371528f1c6e8f4a5eaff828ceb2e5",
+          "strict_ties": 0
+        },
+        {
+          "complete": true,
+          "neutral_metadata": {
+            "cap": 64,
+            "capped": false,
+            "complete": true,
+            "neutral_seen": 18,
+            "rank": [
+              11,
+              25
+            ],
+            "retained": 18
+          },
+          "passed": true,
+          "shell": "two",
+          "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/round-14-two/shell-result.json",
+          "shell_result_sha256": "345e300740ec756dbcc0ca305c291a765cc6eb5dedb9afb2ffe7d84ca8113a70",
+          "strict_ties": 0
+        }
+      ],
+      "stop_reason": "sample_exhausted",
+      "strict_improvement": false,
+      "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue-resume-01/center-14.txt"
+    }
+  ],
+  "centers_processed": 14,
+  "cover_found": false,
+  "gate_sha256": "c20ead0e9dc4cc7d5805616766e4611e8084ff17ac14f1a6a4d24ffb32f4f736",
+  "manifest_sha256": "aeaa247b3c1f5ba967e968412f59d261659c760e766fd5787637e953ff39b4ba",
+  "observed_covers": [],
+  "plateau_exhaustion_claim": false,
+  "queued_unscanned": 0,
+  "raw_index_path": "experiments/scratch/weak-pair-neutral-queue-resume-01-run-20261004/files.json",
+  "raw_index_sha256": "dd728cc56726e59257856b783adc8ef396646af96c467fce289085c7fef2be3e",
+  "relaunch": false,
+  "runner_sha256": "20b1869714c4776b60808e68a2c6cf58736460ab5b71ac2ac75f2ea95ce89928",
+  "scope": "Resume all 14 retained rank(H11,D2max25) frontier states, excluding 20 historical centers. At most 32 new centers and 64 exact one/two-swap shells. Reuse frozen native kernels. Neutral samples remain capped traversal samples; sample exhaustion is not a global proof.",
+  "shell_launches": 28,
+  "stop_reason": "sample_exhausted",
+  "unscanned_frontier": [],
+  "unscanned_next": null,
+  "visited_hashes": [
+    "083a84716b4309f1560ff28a68854d0ba318cc9943ccc5ab5e0b91b36e2a4ae7",
+    "1e4137b583882e7513a638dcae89c7a1143854f17d12e967053dd3b3318d9c54",
+    "1facdd163ba3046e51f364e0d8863ed36a20198748fca7c39d713e386423f054",
+    "37baa674db195c8a54888cc4628ab879ea6c6b26c3e0eb65c2784162bf9fbec3",
+    "3b71eacac43595adfe38804ae6619e042d9b8bf2cd473da742f7f5f63396ecf1",
+    "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "4977734c1bd4bf115458b3d6da5317d604d8863f496caa2ce6b36131480cc597",
+    "5e6574428de60bd70e369248f7323465fa29ea106d21caa333d6bfea4a22dccb",
+    "66aa06f5c88ce06843a6d6c1713a3e7eca85b2370013a423c0e59b75f8c690ca",
+    "6d4b886ba63df1aeb9096134dd5adffc595affbc9474db9a81405f1fbfab25de",
+    "717135688395f6c3a9903b1123227c6a4df92696856f3bd790902e4b9b9786a0",
+    "744987d6a4f808be577067e59f526736cff253a68f62c678af936d4e0bc128ca",
+    "74914202320d7400cebba9d2c789738caa2bbc64ebc08b04a473f3b9957106d5",
+    "779d54e8990ebdc7e2bdc10eefca2c7f9c13b050bf5232282515ac962b72e31a",
+    "807f6b8833eacddb17cc587046dd1d1bfdb0c5f43cc10b1923baae57e96cdc43",
+    "91e9ffc96894f120866de7720af1a7ffe52fbe5a1b3872fa60d802a7048f8c56",
+    "99f44bf5ee353ce5d7cabe29f3f43991c8e23534c4d5ba015b8481736ae31e54",
+    "9f96f3badf4bf7f05299ab3c5713c2dcfca70ee64cc1274fd30ca3c2d3b87295",
+    "a30dc594224a2b4ce21da4efdf38c338aceaf4875e42f940cc15c494fe53d8e5",
+    "a4cb04c1e2408dc70bee3a11a0894ac7f1f528f89ad0c0ad386dc1735afdda68",
+    "a5406ce9116333a944037ee74863ce944dbe5d1e848bbfc67969521e25b1ad61",
+    "a80018fbf4067cd8f9168d559601172a7e5f7c32cb3796981cbd3b0d056ce56a",
+    "a8e32c8d012bb0819519ad49a54f3850916847e37fc3fd202bdc614c45ecb5d4",
+    "b1c811a91b2ccad9bfb7b94ff57258584809c4ee0a5e6498fd9247078aec7de4",
+    "b7c930a4d913fa008b8de191c52f446783680e71af8780965b835aea59b0eff2",
+    "c048d460bc6b5dcadcdc9d61b2923504030f188d9b2b1b90eb3cd380aebde454",
+    "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "d8b22ef1571aef0f8e849728e3ab338e019651cd210c9d5a1a5b2a1238e2ae03",
+    "e6eeb7ecb41aabd58d9b7765c2d5c41638d3f5508142c2aadcfc6acb7589b47e",
+    "edf7f741bc46565f96e05c65a36bc2f01ea4b7da8c9907f7075ae6d864774385",
+    "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "f80bdb9838a6eecc2482ce50582d1e4c65e45a70364ae49710c0dda276dff781",
+    "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d"
+  ]
+}

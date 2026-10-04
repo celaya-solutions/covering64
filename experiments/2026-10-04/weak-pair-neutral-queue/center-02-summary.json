@@ -1,0 +1,74 @@
+{
+  "best_rank": [
+    11,
+    25
+  ],
+  "best_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+  "center_metrics": {
+    "D2max": 26,
+    "D2sum": 28,
+    "D3": 0,
+    "D4": 0,
+    "cardinality": 64,
+    "core_overlaps": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "holes": 12,
+    "minimum_pair_count": 5
+  },
+  "center_number": 2,
+  "center_sha256": "74914202320d7400cebba9d2c789738caa2bbc64ebc08b04a473f3b9957106d5",
+  "complete": true,
+  "cover_found": false,
+  "full_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/center-02-result.json",
+  "full_result_sha256": "c6025c33761c1a0750f53fb8f039484a3cae539197eeb4495a3c37537ae0d7a9",
+  "local_strict_closed": false,
+  "next_center_sha256": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+  "queue_remaining": 10,
+  "shells": [
+    {
+      "complete": true,
+      "neutral_metadata": {
+        "cap": 64,
+        "capped": false,
+        "complete": true,
+        "neutral_seen": 5,
+        "rank": [
+          12,
+          26
+        ],
+        "retained": 5
+      },
+      "passed": true,
+      "shell": "one",
+      "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-02-one/shell-result.json",
+      "shell_result_sha256": "1a8e6890cec9f4c00c719607797df7a9694c000894a6495ae67face8ed395826",
+      "strict_ties": 1
+    },
+    {
+      "complete": true,
+      "neutral_metadata": {
+        "cap": 64,
+        "capped": true,
+        "complete": true,
+        "neutral_seen": 96,
+        "rank": [
+          12,
+          26
+        ],
+        "retained": 64
+      },
+      "passed": true,
+      "shell": "two",
+      "shell_result_path": "experiments/scratch/weak-pair-neutral-queue-run-20261004/round-02-two/shell-result.json",
+      "shell_result_sha256": "b012a97aa13d5208c5a415e8ccfc655b6ac0ef68030f4e4ba9735b59b683c259",
+      "strict_ties": 10
+    }
+  ],
+  "stop_reason": null,
+  "strict_improvement": true,
+  "witness_path": "experiments/2026-10-04/weak-pair-neutral-queue/center-02.txt"
+}

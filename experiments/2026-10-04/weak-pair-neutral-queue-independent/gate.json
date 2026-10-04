@@ -1,0 +1,260 @@
+{
+  "adapter_sha256": "ada0a960eecb962ea0095e664f3cf21cc9b4b5da7551c6f8c0f3a71a94089371",
+  "budget": {
+    "budget_transfer": false,
+    "max_centers": 16,
+    "max_shell_launches": 32,
+    "relaunch": false,
+    "seconds_per_shell": 120,
+    "seed": null,
+    "termination_grace_seconds": 5,
+    "watchdog_seconds": 135
+  },
+  "decision": "GO",
+  "independent_sources": {
+    "check.py": "f25c26a54465377dedd05343e5c92ac6b53fc5354536d34ef7d06bf3eea5c27d",
+    "controls.py": "afc34d117f08084b9ee9e1c16fa2de570dd6dde31c3ab3dc148db5b698c88d83"
+  },
+  "initial_sha256": "f8d2525acd5dcb7db6e60bbff70b60612b12a0a6500bd25ac0841b4de18c955d",
+  "launch_authority": "Root only: one campaign, no restart, transfer, or budget extension.",
+  "manifest_sha256": "5a1082e2f28194ee4c90ee0d16bf0d5b22502164e082e757a35842547eae2a82",
+  "native_receipt_path": "experiments/2026-10-04/weak-pair-neutral-native-review/review.json",
+  "native_receipt_sha256": "213a27f1940aa49506ccce310a8a333c357f2f6ddbed8ff05b5ccd295bdf9049",
+  "neutral_cap_per_shell": 64,
+  "one_binary_sha256": "ec472aaa0b7c42ef4ab1e643c5439f7a8f08108376391dcf1d5f37185982c31f",
+  "optimizer_launches": 0,
+  "passed": true,
+  "raw_files": {
+    "experiments/scratch/neutral-queue-independent-20261004/one-neutral-meta.json": "3cf0cc2e4a8cce51c5fb2f2ace5f4feacd2b1805b271083fee783d9544e8d452",
+    "experiments/scratch/neutral-queue-independent-20261004/one-neutral.json": "b5fa1fff742e9b1f1881a8fd4b21c10d54b702e280597c2488fdb759f3f02478",
+    "experiments/scratch/neutral-queue-independent-20261004/one-ties.json": "3110b0c0436767ec1577231045936217d90b0940bb8d2b351d2fa80af643fda5",
+    "experiments/scratch/neutral-queue-independent-20261004/two-neutral-meta.json": "3cf0cc2e4a8cce51c5fb2f2ace5f4feacd2b1805b271083fee783d9544e8d452",
+    "experiments/scratch/neutral-queue-independent-20261004/two-neutral.json": "80dc633d64f6d33651d15cc1d721ec330fffbe8d05dbc21a1d081fdb6038bb4a",
+    "experiments/scratch/neutral-queue-independent-20261004/two-ties.json": "b5a997f80d2a3ca2383b669b6e9a321efcba301ce1fca00e84311f60ed04dc24"
+  },
+  "runner_sha256": "fdc7a9e89f4ce039112a3474d0a656dd246679a6355d6eebae826fbe3b65f085",
+  "scope": "At most16 processed centers and32 shell calls, including the initial D26 neutral collector. Strict improvement takes precedence; lower-ranked improvements clear the old frontier. Only first64 legal equal-rank families per shell are retained, then ordered by full IDs. All other historically processed centers are excluded. No full plateau enumeration or global existence/lower-bound claim.",
+  "source_revision": "a6c539d96c2c23f5a93bec4bf542096818f9f742",
+  "two_binary_sha256": "7a3b56f323ad8456da1fdad71a70ce35e3fd65ea350a422e7fc0fc23a1e1cd49",
+  "validation_limits": "Native review covers the sampling delta and unchanged kernels. Wrapper controls use abstract queue states and synthetic metadata over previously verified actual families; they are not new search outcomes.",
+  "wrapper_controls": {
+    "optimizer_launches": 0,
+    "queue": {
+      "abstract_states_only": true,
+      "invalid_transitions": [
+        "nonstrict strict list",
+        "worse neutral entry",
+        "strict entry already historical"
+      ],
+      "transition_cases": [
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "empty sample",
+          "shell_calls": 2,
+          "stop_reason": "sample_exhausted"
+        },
+        {
+          "center_order": [
+            "seed",
+            "a",
+            "b"
+          ],
+          "name": "history and aliases",
+          "shell_calls": 6,
+          "stop_reason": "sample_exhausted"
+        },
+        {
+          "center_order": [
+            "seed",
+            "a",
+            "c",
+            "b"
+          ],
+          "name": "global queue lex order",
+          "shell_calls": 8,
+          "stop_reason": "sample_exhausted"
+        },
+        {
+          "center_order": [
+            "seed",
+            "a",
+            "low",
+            "low-peer"
+          ],
+          "name": "strict clears old queue",
+          "shell_calls": 8,
+          "stop_reason": "sample_exhausted"
+        },
+        {
+          "center_order": [
+            "seed",
+            "low"
+          ],
+          "name": "strict outranks neutral",
+          "shell_calls": 4,
+          "stop_reason": "sample_exhausted"
+        },
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "first incomplete",
+          "shell_calls": 1,
+          "stop_reason": "incomplete"
+        },
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "second incomplete no adoption",
+          "shell_calls": 2,
+          "stop_reason": "incomplete"
+        },
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "first failed",
+          "shell_calls": 1,
+          "stop_reason": "incomplete"
+        },
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "cover first",
+          "shell_calls": 1,
+          "stop_reason": "cover_observed"
+        },
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "cover second",
+          "shell_calls": 2,
+          "stop_reason": "cover_observed"
+        },
+        {
+          "center_order": [
+            "seed"
+          ],
+          "name": "cover incomplete",
+          "shell_calls": 1,
+          "stop_reason": "incomplete"
+        },
+        {
+          "centers": 16,
+          "name": "neutral16-center cap",
+          "shell_calls": 32
+        },
+        {
+          "centers": 16,
+          "name": "strict16-center cap",
+          "shell_calls": 32
+        }
+      ]
+    },
+    "recorder": {
+      "optimizer_launches": 0,
+      "shell_controls": [
+        {
+          "calls": 25,
+          "canonical_sha256": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+          "fixture": "tie-2",
+          "independent_metrics": {
+            "D2max": 28,
+            "D2sum": 28,
+            "D3": 0,
+            "D4": 0,
+            "core_overlaps": [
+              1,
+              1,
+              1,
+              2
+            ],
+            "holes": 12,
+            "minimum_pair_count": 5
+          },
+          "independent_ordinal": 65900,
+          "kind": "one",
+          "rejected_controls": [
+            "wrong cap",
+            "boolean cap",
+            "float seen",
+            "retained mismatch",
+            "incomplete flag",
+            "wrong capped flag",
+            "wrong rank",
+            "Boolean rank",
+            "legal count overflow",
+            "extra field",
+            "missing field",
+            "non-object",
+            "duplicate IDs",
+            "reversed IDs",
+            "float IDs",
+            "wrong metrics",
+            "Boolean metric",
+            "wrong ordinal",
+            "Boolean ordinal",
+            "wrong index",
+            "Boolean index",
+            "bad outgoing",
+            "duplicate canonical family"
+          ],
+          "synthetic_metadata": true
+        },
+        {
+          "calls": 25,
+          "canonical_sha256": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+          "fixture": "tie-4",
+          "independent_metrics": {
+            "D2max": 28,
+            "D2sum": 28,
+            "D3": 0,
+            "D4": 0,
+            "core_overlaps": [
+              1,
+              1,
+              1,
+              1
+            ],
+            "holes": 12,
+            "minimum_pair_count": 5
+          },
+          "independent_ordinal": 7986383595,
+          "kind": "two",
+          "rejected_controls": [
+            "wrong cap",
+            "boolean cap",
+            "float seen",
+            "retained mismatch",
+            "incomplete flag",
+            "wrong capped flag",
+            "wrong rank",
+            "Boolean rank",
+            "legal count overflow",
+            "extra field",
+            "missing field",
+            "non-object",
+            "duplicate IDs",
+            "reversed IDs",
+            "float IDs",
+            "wrong metrics",
+            "Boolean metric",
+            "wrong ordinal",
+            "Boolean ordinal",
+            "wrong index",
+            "Boolean index",
+            "bad outgoing",
+            "duplicate canonical family"
+          ],
+          "synthetic_metadata": true
+        }
+      ]
+    }
+  },
+  "wrapper_controls_sha256": "68344f7eb9ae173f98ac6adc6c1548220ea9c669c79bf14b4c23df9c2cfb01ee"
+}

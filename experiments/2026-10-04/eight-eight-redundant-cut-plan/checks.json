@@ -1,0 +1,110 @@
+{
+  "formulas": {
+    "cross_pair_excess_degree": "3*p_a + 4*s_a - 18",
+    "extension_pair_floor": "X_P >= max(q_P - 1, 0)",
+    "opposite_pair_incidence": "9 + 3*p_a + 6*s_a >= 28",
+    "point_degree": "r_a = 13 + p_a + s_a",
+    "rounded_point_cut": "p_a + 2*s_a >= 7",
+    "same_half_pair_count": "6 - q_P + X_P",
+    "type_A": "p_a=6; s_a=1; r_a=20",
+    "type_A_low_pair_triple_pattern": "For q_P=2, eight mixed multiplicities are seven 1s and one 2.",
+    "type_B": "p_a=5+e_a; r_a=18+e_a+s_a; e_a+2*s_a>=2",
+    "type_B_cross_pair_excess_degree": "-3 + 3*e_a + 4*s_a >= 1",
+    "type_B_extra_graph": "z_P=X_P-(q_P-1)>=0; sum z_P=4; e_a=sum_{P contains a} z_P"
+  },
+  "frozen_sources_changed": false,
+  "passed": true,
+  "profiles": {
+    "A": {
+      "local_base_blocks_per_point": 13,
+      "local_triple_bases_per_point": 9,
+      "mandatory_extension_pair_degree_per_point": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "mandatory_extension_pair_occurrences": 24,
+      "q_histogram": {
+        "0": 4,
+        "2": 24
+      },
+      "unallocated_pair_occurrences": 0,
+      "zero_q_pairs_one_based": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "local_base_blocks_per_point": 13,
+      "local_triple_bases_per_point": 9,
+      "mandatory_extension_pair_degree_per_point": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mandatory_extension_pair_occurrences": 20,
+      "q_histogram": {
+        "1": 12,
+        "2": 12,
+        "3": 4
+      },
+      "unallocated_pair_occurrences": 4,
+      "zero_q_pairs_one_based": []
+    }
+  },
+  "proof": "See README.md for the complete counting derivations, including scope.",
+  "remaining_pool_sizes_after_type_A_zeros": {
+    "AA": 1280,
+    "AB": 1376,
+    "BB": 1472
+  },
+  "rounding_cases_checked": 441,
+  "scope": "Redundant implications within the three prepared 8+8 recipes only.",
+  "solver_calls": 0,
+  "type_A_admissible_singleton_vectors": [
+    [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  ],
+  "type_A_fixed_zero_variables_per_target_half": 96,
+  "type_A_mixed_triple_upper_bound_two_rows_per_target_half": 192,
+  "type_A_singleton_compositions_checked": 6435,
+  "type_B_admissible_point_cases_checked": 43,
+  "type_B_degree_19_e_s_pairs": [
+    [
+      0,
+      1
+    ]
+  ]
+}

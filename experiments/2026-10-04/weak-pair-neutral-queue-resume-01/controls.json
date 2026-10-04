@@ -1,0 +1,106 @@
+{
+  "cases": [
+    {
+      "case": "empty-sample",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 2
+    },
+    {
+      "case": "dedup-prior-and-sampled-centers",
+      "centers": 3,
+      "passed": true,
+      "shell_calls": 6
+    },
+    {
+      "case": "strict-first-and-clear-worse-frontier",
+      "centers": 4,
+      "passed": true,
+      "shell_calls": 8
+    },
+    {
+      "case": "incomplete-first",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 1
+    },
+    {
+      "case": "incomplete-second-no-adoption",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 2
+    },
+    {
+      "case": "cover-early",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 1
+    },
+    {
+      "case": "incomplete-cover",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 1
+    },
+    {
+      "case": "thirty-two-center-sixty-four-shell-cap",
+      "centers": 32,
+      "passed": true,
+      "shell_calls": 64
+    },
+    {
+      "case": "carry-all-saved-frontier",
+      "passed": true,
+      "shell_calls": 6
+    },
+    {
+      "case": "clear-saved-worse-frontier-on-descent",
+      "passed": true,
+      "shell_calls": 4
+    },
+    {
+      "case": "explicit-popped-next-preserved",
+      "passed": true
+    },
+    {
+      "case": "empty-frontier",
+      "passed": true,
+      "rejected_before_launch": true
+    },
+    {
+      "case": "missing-initial",
+      "passed": true,
+      "rejected_before_launch": true
+    },
+    {
+      "case": "duplicate-frontier",
+      "passed": true,
+      "rejected_before_launch": true
+    },
+    {
+      "case": "visited-initial-no-exception",
+      "passed": true,
+      "rejected_before_launch": true
+    },
+    {
+      "case": "visited-pending",
+      "passed": true,
+      "rejected_before_launch": true
+    },
+    {
+      "case": "mixed-rank",
+      "passed": true,
+      "rejected_before_launch": true
+    },
+    {
+      "case": "initial-not-lexicographically-first",
+      "passed": true,
+      "rejected_before_launch": true
+    }
+  ],
+  "controls_sha256": "5ab78117e51749fb7bdcb947dba59128ad7142287b6a7b25e0bd18645af7a21a",
+  "native_search_launches": 0,
+  "passed": true,
+  "runner_sha256": "20b1869714c4776b60808e68a2c6cf58736460ab5b71ac2ac75f2ea95ce89928",
+  "scope": "Synthetic queue and resume policy only; frozen native kernels unchanged"
+}

@@ -1,0 +1,191 @@
+{
+  "checker_sha256": "59cfcee353cfa9d659c683f653e25580a0ea4077417d06cf6d071fcdbb184c27",
+  "damaged_outputs_rejected": [
+    "weak_D2",
+    "initial_role",
+    "seed",
+    "final_weak_D2"
+  ],
+  "decision": "GO",
+  "fake_runner_cases": [
+    {
+      "case": "two_normal",
+      "fake_calls": 2,
+      "passed": true
+    },
+    {
+      "case": "cover_stop",
+      "fake_calls": 1,
+      "passed": true
+    },
+    {
+      "case": "watchdog_stop",
+      "fake_calls": 1,
+      "passed": true
+    },
+    {
+      "case": "invalid_stop",
+      "fake_calls": 1,
+      "passed": true
+    },
+    {
+      "case": "abnormal_stop",
+      "fake_calls": 1,
+      "passed": true
+    },
+    {
+      "case": "failed_gate",
+      "fake_calls": 0,
+      "passed": true
+    },
+    {
+      "case": "wrong_manifest",
+      "fake_calls": 0,
+      "passed": true
+    },
+    {
+      "case": "wrong_source",
+      "fake_calls": 0,
+      "passed": true
+    },
+    {
+      "case": "wrong_budget",
+      "fake_calls": 0,
+      "passed": true
+    },
+    {
+      "case": "prior_start",
+      "fake_calls": 0,
+      "passed": true
+    },
+    {
+      "case": "prior_result",
+      "fake_calls": 0,
+      "passed": true
+    }
+  ],
+  "fake_watchdog_cases": [
+    {
+      "calls": [
+        [
+          "communicate",
+          315
+        ]
+      ],
+      "flags": {
+        "fired": false,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      },
+      "mode": "normal",
+      "passed": true
+    },
+    {
+      "calls": [
+        [
+          "communicate",
+          315
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "communicate",
+          5
+        ]
+      ],
+      "flags": {
+        "fired": true,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": true
+      },
+      "mode": "terminate",
+      "passed": true
+    },
+    {
+      "calls": [
+        [
+          "communicate",
+          315
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "communicate",
+          5
+        ],
+        [
+          "kill"
+        ],
+        [
+          "communicate",
+          null
+        ]
+      ],
+      "flags": {
+        "fired": true,
+        "kill_sent": true,
+        "relaunch": false,
+        "terminate_sent": true
+      },
+      "mode": "kill",
+      "passed": true
+    }
+  ],
+  "manifest_sha256": "32d536037298694fea21fa8207efb328851d9ede135cae2c770833863891ee86",
+  "native_requeries": 0,
+  "optimizer_launches": 0,
+  "passed": true,
+  "qualification_is_historical": true,
+  "runner_sha256": "c0052cbf52dc40eb3547d40df7c619e8187698e932541180d7101a3133f03ba3",
+  "saved_controls_replayed": [
+    {
+      "initial_roles": [
+        "complete",
+        "raw64"
+      ],
+      "passed": true,
+      "seed": 2026105601,
+      "snapshots": 5,
+      "steps": 0
+    },
+    {
+      "initial_roles": [
+        "complete",
+        "raw64"
+      ],
+      "passed": true,
+      "seed": 2026105601,
+      "snapshots": 5,
+      "steps": 8
+    },
+    {
+      "initial_roles": [
+        "complete",
+        "raw64",
+        "admissible64",
+        "weak64"
+      ],
+      "passed": true,
+      "seed": 2026105602,
+      "snapshots": 9,
+      "steps": 0
+    },
+    {
+      "initial_roles": [
+        "complete",
+        "raw64",
+        "admissible64",
+        "weak64"
+      ],
+      "passed": true,
+      "seed": 2026105602,
+      "snapshots": 9,
+      "steps": 8
+    }
+  ],
+  "scope": "Python runner and recorder delta only; native policy review is separate."
+}

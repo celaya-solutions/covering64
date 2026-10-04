@@ -1,0 +1,411 @@
+{
+  "all_eight_quad_subsets_checked": 3003,
+  "degree_four_subsets": 35,
+  "degree_four_types": {
+    "A": 7,
+    "B": 28
+  },
+  "internal_triples_exactly_once": 112,
+  "mixed_excess_if_cover": 80,
+  "mixed_triple_incidences": 528,
+  "mixed_triples_required": 448,
+  "model_audit": "Performed separately; this checker imports no model producer helpers.",
+  "passed": true,
+  "prior_seed_sources": [
+    {
+      "path": "experiments/2026-10-03/sqs-extension-independent/affine-independent.txt",
+      "sha256": "f80327f2ad0ad0633e31037027882b87fa69ad516aa09ce9656feec2951047c9"
+    },
+    {
+      "path": "experiments/2026-10-03/sqs-extension-independent/traded-independent.txt",
+      "sha256": "2a1986fba22eee4e7c35a1ef9f9fcbd4204da43742170412daef22d857fcc6fa"
+    }
+  ],
+  "profiles": {
+    "A": {
+      "pair_q_histogram": {
+        "0": 4,
+        "2": 24
+      },
+      "required_extension_pair_occurrences": 24,
+      "selected_quads": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          7,
+          8
+        ],
+        [
+          1,
+          3,
+          6,
+          8
+        ],
+        [
+          1,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          8
+        ],
+        [
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ],
+      "uncovered_internal_triples": [
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          8
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          1,
+          5,
+          7
+        ],
+        [
+          1,
+          5,
+          8
+        ],
+        [
+          2,
+          3,
+          6
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          2,
+          4,
+          8
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          7
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          3,
+          4,
+          8
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          3,
+          6,
+          7
+        ],
+        [
+          3,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          8
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          7,
+          8
+        ]
+      ]
+    },
+    "B": {
+      "pair_q_histogram": {
+        "1": 12,
+        "2": 12,
+        "3": 4
+      },
+      "required_extension_pair_occurrences": 20,
+      "selected_quads": [
+        [
+          1,
+          2,
+          7,
+          8
+        ],
+        [
+          1,
+          3,
+          6,
+          8
+        ],
+        [
+          1,
+          4,
+          5,
+          8
+        ],
+        [
+          1,
+          4,
+          6,
+          7
+        ],
+        [
+          2,
+          3,
+          5,
+          8
+        ],
+        [
+          2,
+          3,
+          6,
+          7
+        ],
+        [
+          2,
+          4,
+          5,
+          7
+        ],
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "uncovered_internal_triples": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          1,
+          2,
+          6
+        ],
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          1,
+          3,
+          5
+        ],
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          1,
+          5,
+          7
+        ],
+        [
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          4,
+          6
+        ],
+        [
+          2,
+          4,
+          8
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          3,
+          4,
+          8
+        ],
+        [
+          3,
+          5,
+          7
+        ],
+        [
+          3,
+          7,
+          8
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          7,
+          8
+        ],
+        [
+          5,
+          6,
+          7
+        ],
+        [
+          5,
+          6,
+          8
+        ],
+        [
+          5,
+          7,
+          8
+        ],
+        [
+          6,
+          7,
+          8
+        ]
+      ]
+    }
+  },
+  "recipes": {
+    "AA": {
+      "candidate_blocks": 1472,
+      "candidate_pool_sha256": "7b3d7d27de4c3ebd96b06257dba7cdb35e9dbf06cc46d6874216b93c8313919d",
+      "intersection_with_prior_affine_pool": 704,
+      "intersection_with_prior_two_sqs_union": 704,
+      "outside_prior_two_sqs_union": 768
+    },
+    "AB": {
+      "candidate_blocks": 1472,
+      "candidate_pool_sha256": "fd9c820d58f72e3ea6b748a5d5a2d10647de7036fe8a6351bd0a7b2c797a20b9",
+      "intersection_with_prior_affine_pool": 704,
+      "intersection_with_prior_two_sqs_union": 704,
+      "outside_prior_two_sqs_union": 768
+    },
+    "BB": {
+      "candidate_blocks": 1472,
+      "candidate_pool_sha256": "083e55cda24f4568c7ff07226e96d51f7288a564a071e08fcc1e04f1bb12d893",
+      "intersection_with_prior_affine_pool": 704,
+      "intersection_with_prior_two_sqs_union": 704,
+      "outside_prior_two_sqs_union": 768
+    }
+  },
+  "scope": "Arithmetic and conditional template classification; no claim every 64-cover has this partition/template.",
+  "selected_blocks": 64,
+  "solver_calls": 0
+}

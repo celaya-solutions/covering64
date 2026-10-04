@@ -1,0 +1,92 @@
+{
+  "cover_found": false,
+  "gate_sha256": "3707ca9f4afeb3a9c69a22f93b146054f770c3fe3d6d2bc96b8517c0729c6664",
+  "manifest_sha256": "edc82d5213029872ffbf145746675e78808825b7e17152c5926d1586fb012071",
+  "raw_files": {
+    "experiments/scratch/eight-eight-strengthened-20261004/groups-1.json": "b2f22d5f8b0bbc533f3e759991894e96465a66d98abd8dd07cd3572ce697f3ad",
+    "experiments/scratch/eight-eight-strengthened-20261004/groups-2.json": "f3971dddc0be6755e3931032e2b8b0b84463c6f180d0e31eac519e371452ef69",
+    "experiments/scratch/eight-eight-strengthened-20261004/groups-3.json": "05065ff99ef18d67fbd44cd1581666d984d5278999ca661ecee3ce151a99764a",
+    "experiments/scratch/eight-eight-strengthened-20261004/model-1.pbtxt": "a05aaa0666627361e8bbe338bc1217d1d70907020ac9dddca82a957fa043a896",
+    "experiments/scratch/eight-eight-strengthened-20261004/model-2.pbtxt": "eba0e923d5ecb17df70d76ae9984d3fa58d4f48ad0613e1da29c55af09c4dfba",
+    "experiments/scratch/eight-eight-strengthened-20261004/model-3.pbtxt": "67434bff637528bfbec120f1e74276e69ead10b8b24356678b8c986cf157c43d",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-1/outcome.json": "0467b7fd0e42c446cad7812adbcf5d5aafcd0c5d64a4f9c02bb4afad36df4201",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-1/parameters.pbtxt": "e800f555fc08c11f81f34ee7e70f80270c6f4f54cc0587a69fb1997f576907ad",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-1/response.pbtxt": "6900ea229d158b2e19cd07bb0c0081c536d60279b7189c76015e9fcae41e1c93",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-1/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-1/stdout.log": "b46d450252ea8caa2725aee09b72a53de3d9417a36df1c721aeab543751692a4",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-2/outcome.json": "6d214c8abdf498a85fc8f7f5aa76ca728a600d7f195953268fae63127748cd31",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-2/parameters.pbtxt": "20b9350807e43a1812e22df4de79749fd0dc66dadddff838201f7b2ba9ac45e5",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-2/response.pbtxt": "f4b1f2fe407fd07146a9ee5b388d3c1a433c10dd59b79b5d1f100ace859d71ba",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-2/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-2/stdout.log": "7249c3def171c350f91d96b60ada312c8df70a356335febbc7746d07b702d547",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-3/outcome.json": "b0bd35117289265f6a066ec7f88c0b53b5016563b5760880b973ce469fad2180",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-3/parameters.pbtxt": "dcc27265eb93f1fd20ebee1242dd500b44b1cc969044124c158b01cf2242fdfc",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-3/response.pbtxt": "2f9d9c5b40db74f9b9c9453a82d8311a96ff0e914a7ebcb28ad76580a8b0e69b",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-3/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/eight-eight-strengthened-20261004/run-3/stdout.log": "705557cff7ce74dc85486ca314ff652e179f6f13c831f5bf0de09dcd1583a66f"
+  },
+  "relaunch": false,
+  "runs": [
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/eight-eight-strengthened/run.py",
+        "--child",
+        "1"
+      ],
+      "cover_found": false,
+      "elapsed_seconds": 120.34981704200618,
+      "kinds": "AA",
+      "number": 1,
+      "outcome": {
+        "callbacks": 0,
+        "status": "UNKNOWN",
+        "wall_seconds": 120.012156
+      },
+      "returncode": 0,
+      "saved": [],
+      "watchdog_fired": false
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/eight-eight-strengthened/run.py",
+        "--child",
+        "2"
+      ],
+      "cover_found": false,
+      "elapsed_seconds": 120.41676712501794,
+      "kinds": "AB",
+      "number": 2,
+      "outcome": {
+        "callbacks": 0,
+        "status": "UNKNOWN",
+        "wall_seconds": 120.082802
+      },
+      "returncode": 0,
+      "saved": [],
+      "watchdog_fired": false
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/eight-eight-strengthened/run.py",
+        "--child",
+        "3"
+      ],
+      "cover_found": false,
+      "elapsed_seconds": 120.32935725001153,
+      "kinds": "BB",
+      "number": 3,
+      "outcome": {
+        "callbacks": 0,
+        "status": "UNKNOWN",
+        "wall_seconds": 120.00542800000001
+      },
+      "returncode": 0,
+      "saved": [],
+      "watchdog_fired": false
+    }
+  ],
+  "scope": "Three specified restricted recipes with proved redundant pair/point/triple rows: one extension of each of eight affine quadruples and24 complementary triples on each8-point half. No claim every64-cover has this form. UNKNOWN and CP INFEASIBLE are not proof certificates."
+}

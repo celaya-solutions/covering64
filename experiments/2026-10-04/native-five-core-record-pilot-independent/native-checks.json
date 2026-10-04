@@ -1,0 +1,292 @@
+{
+  "audit_source_sha256": "ff08e39fefbc2269a5d0e609e5bfb316e376e5131d442d19901eaf911a48bf4f",
+  "bad_H9_does_not_suppress_weak_H11": true,
+  "compile_command": [
+    "/usr/bin/clang++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "-DVC_CONTROL_STEPS=0",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-five-core-independent-20261004/recorder-diagnostic.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-five-core-independent-20261004/recorder-diagnostic"
+  ],
+  "compiled_header": {
+    "cap_cases": 96,
+    "event": "independent_header",
+    "ids": [
+      46,
+      123,
+      155,
+      222,
+      357,
+      407,
+      437,
+      535,
+      545,
+      633,
+      676,
+      713,
+      740,
+      980,
+      1020,
+      1082,
+      1230,
+      1247,
+      1347,
+      1391,
+      1429,
+      1459,
+      1511,
+      1659,
+      1789,
+      1962,
+      2028,
+      2057,
+      2140,
+      2161,
+      2218,
+      2285,
+      2306,
+      2402,
+      2432,
+      2660,
+      2687,
+      2764,
+      2869,
+      2960,
+      3036,
+      3053,
+      3135,
+      3227,
+      3313,
+      3374,
+      3437,
+      3502,
+      3527,
+      3556,
+      3578,
+      3606,
+      3615,
+      3665,
+      3759,
+      3870,
+      3936,
+      4040,
+      4063,
+      4158,
+      4201,
+      4277
+    ],
+    "rank_cases": 288,
+    "thresholds": [
+      55,
+      55,
+      55,
+      55,
+      56
+    ],
+    "weak_cases": 192
+  },
+  "compiler_path": "/usr/bin/clang++",
+  "compiler_sha256": "1c78dc864acfc0261dc1e27fe97fa5b224351e93bc89000e68b0f98924082057",
+  "diagnostic_binary_sha256": "4f76f5d4584ba1089af9fa41647947bd504406539cd2a9d87aa4e2a2ba4d7a08",
+  "diagnostic_command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-five-core-independent-20261004/recorder-diagnostic",
+    "/Users/chriscelaya/Documents/covering64-search/data/baselines/belic-1997.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/weak-pair-neutral-queue-runtime-independent/family-f621e945358cc9e5.txt",
+    "2026105601",
+    "300",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-five-core-independent-20261004/record"
+  ],
+  "diagnostic_source_sha256": "a9c3ee1d254f0b1de6793ad96d6920f01043e06772b8a9658da2f9ad36cfc9ca",
+  "driver_sha256": "097373a57ee9f382e72370956f752555ffa4f1fd6118b121d344618447af6499",
+  "equal_hole_lower_D2_replaces_weak_record": true,
+  "kernel_headers_unchanged": true,
+  "live_loop_exactly_unchanged": true,
+  "live_state_weights_rng_unchanged": true,
+  "manifest_sha256": "32d536037298694fea21fa8207efb328851d9ede135cae2c770833863891ee86",
+  "mixed_cardinality_records_rejected": [
+    63,
+    65
+  ],
+  "native_advance_calls": 0,
+  "passed": true,
+  "production_native_launches": 0,
+  "raw_files": {
+    "experiments/scratch/native-five-core-independent-20261004/bad_h9.txt": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+    "experiments/scratch/native-five-core-independent-20261004/compiler-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/native-five-core-independent-20261004/cores.hpp": "054c89d9fed5fdc8e3b511c6452ae3fb14df4b40e64c993772401a264f30e92d",
+    "experiments/scratch/native-five-core-independent-20261004/historical_h11_d27.txt": "439d5153ba2f2063c8dedb20ce71f9381dfecdca087e4fa9f9f0dd3808f4d22f",
+    "experiments/scratch/native-five-core-independent-20261004/historical_worse_d2_again.txt": "439d5153ba2f2063c8dedb20ce71f9381dfecdca087e4fa9f9f0dd3808f4d22f",
+    "experiments/scratch/native-five-core-independent-20261004/kernel.hpp": "d374d813225b03d8ac9085255f9c0548e14a31a611bdc7ec5abeb0cce2040fd3",
+    "experiments/scratch/native-five-core-independent-20261004/new_core.hpp": "2c54c4b4c469b32cd2b45c60b6ffbb08c697bc6849d90168b9428db82a42f2ae",
+    "experiments/scratch/native-five-core-independent-20261004/partial63.txt": "458cc65a8f5be00ebfcb16bc4e10b2fdb2ddde923b4bcf775efe933508bc2154",
+    "experiments/scratch/native-five-core-independent-20261004/partial65.txt": "e1151cf5131c16c741b288f530a7e38a9cdf5b21b85972ba9540bbc279fd9217",
+    "experiments/scratch/native-five-core-independent-20261004/record-final-admissible64.txt": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+    "experiments/scratch/native-five-core-independent-20261004/record-final-complete.txt": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+    "experiments/scratch/native-five-core-independent-20261004/record-final-current.txt": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "experiments/scratch/native-five-core-independent-20261004/record-final-raw64.txt": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+    "experiments/scratch/native-five-core-independent-20261004/record-final-weak64.txt": "d952efe5152ebd495b9c1e73accb0a652dfad47e1c2150b513403402d634b217",
+    "experiments/scratch/native-five-core-independent-20261004/record-record-1-complete.txt": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+    "experiments/scratch/native-five-core-independent-20261004/record-record-2-raw64.txt": "f621e945358cc9e51c53995ee9a4a6161a0124778984fa410a87227984a28a7a",
+    "experiments/scratch/native-five-core-independent-20261004/record-record-3-raw64.txt": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+    "experiments/scratch/native-five-core-independent-20261004/record-record-4-admissible64.txt": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+    "experiments/scratch/native-five-core-independent-20261004/record-record-5-weak64.txt": "439d5153ba2f2063c8dedb20ce71f9381dfecdca087e4fa9f9f0dd3808f4d22f",
+    "experiments/scratch/native-five-core-independent-20261004/record-record-6-weak64.txt": "d952efe5152ebd495b9c1e73accb0a652dfad47e1c2150b513403402d634b217",
+    "experiments/scratch/native-five-core-independent-20261004/recorder-diagnostic": "4f76f5d4584ba1089af9fa41647947bd504406539cd2a9d87aa4e2a2ba4d7a08",
+    "experiments/scratch/native-five-core-independent-20261004/recorder-diagnostic.cpp": "a9c3ee1d254f0b1de6793ad96d6920f01043e06772b8a9658da2f9ad36cfc9ca",
+    "experiments/scratch/native-five-core-independent-20261004/scan.hpp": "65d59df903e5da7a646a3764f469905ec6705e958d680d9c98eb17445734d560",
+    "experiments/scratch/native-five-core-independent-20261004/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/native-five-core-independent-20261004/stdout.jsonl": "cb2a804005cf696b65cd3663eb71a1b518f97a09e9425f311cc3f339bb591a01",
+    "experiments/scratch/native-five-core-independent-20261004/weak_h11_relabel_control.txt": "d952efe5152ebd495b9c1e73accb0a652dfad47e1c2150b513403402d634b217",
+    "experiments/scratch/native-five-core-independent-20261004/weak_same_rank_again.txt": "d952efe5152ebd495b9c1e73accb0a652dfad47e1c2150b513403402d634b217"
+  },
+  "real_family_profiles": [
+    {
+      "D2max": 23,
+      "D3": 104,
+      "D4": 96,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        "holes": 9
+      },
+      "minimum_pair_count": 4,
+      "name": "bad_h9"
+    },
+    {
+      "D2max": 27,
+      "D3": 0,
+      "D4": 0,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "holes": 11
+      },
+      "minimum_pair_count": 5,
+      "name": "historical_h11_d27"
+    },
+    {
+      "D2max": 25,
+      "D3": 0,
+      "D4": 0,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          4,
+          3,
+          0,
+          2
+        ],
+        "holes": 11
+      },
+      "minimum_pair_count": 5,
+      "name": "weak_h11_relabel_control"
+    },
+    {
+      "D2max": 27,
+      "D3": 0,
+      "D4": 0,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "holes": 11
+      },
+      "minimum_pair_count": 5,
+      "name": "historical_worse_d2_again"
+    },
+    {
+      "D2max": 25,
+      "D3": 0,
+      "D4": 0,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          4,
+          3,
+          0,
+          2
+        ],
+        "holes": 11
+      },
+      "minimum_pair_count": 5,
+      "name": "weak_same_rank_again"
+    },
+    {
+      "D2max": 46,
+      "D3": 182,
+      "D4": 168,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 63,
+        "core_overlaps": [
+          0,
+          4,
+          3,
+          0,
+          2
+        ],
+        "holes": 19
+      },
+      "minimum_pair_count": 4,
+      "name": "partial63"
+    },
+    {
+      "D2max": 21,
+      "D3": 0,
+      "D4": 0,
+      "event": "independent_profile",
+      "metrics": {
+        "cardinality": 65,
+        "core_overlaps": [
+          0,
+          4,
+          3,
+          1,
+          2
+        ],
+        "holes": 11
+      },
+      "minimum_pair_count": 5,
+      "name": "partial65"
+    }
+  ],
+  "record_roles": [
+    "complete",
+    "raw64",
+    "raw64",
+    "admissible64",
+    "weak64",
+    "weak64"
+  ],
+  "scope": "Named-image five caps; lexicographic (H,D2max) weak bucket with H<=11; relabeled H11 is a diagnostic control, not a discovery.",
+  "worse_D2_or_identical_rank_does_not_replace": true
+}

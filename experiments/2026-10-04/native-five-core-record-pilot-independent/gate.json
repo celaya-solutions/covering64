@@ -1,0 +1,40 @@
+{
+  "binary_sha256": "079eaf578f1e7b29c4408185e77953b4d337d722e428e12b7c653392e1c2163c",
+  "budget": {
+    "max_runs": 2,
+    "relaunch": false,
+    "seconds_per_run": 300,
+    "seeds": [
+      2026105601,
+      2026105602
+    ],
+    "simultaneous_processes": 1,
+    "stop_after_first_complete_at_most_64": true,
+    "termination_grace_seconds": 5,
+    "unused_budget_reallocated": false,
+    "watchdog_seconds": 315
+  },
+  "checked_at_utc": "2026-10-04T20:23:00.878282+00:00",
+  "core_thresholds": [
+    55,
+    55,
+    55,
+    55,
+    56
+  ],
+  "decision": "GO",
+  "manifest_sha256": "32d536037298694fea21fa8207efb328851d9ede135cae2c770833863891ee86",
+  "named_image_caps_only": true,
+  "native_audit_sha256": "b6c17696ac6fb30191ab0090b93f03fc56ef3c0fb7a55b96f1daa4061bb3516c",
+  "passed": true,
+  "production_native_launches_by_reviewers": 0,
+  "readme_sha256": "0566cadc73b557c4c1f55f17df2ae1ed36ccf9d7ab52f581665454c67bebdd1c",
+  "recording_only": true,
+  "runner_audit_sha256": "bee645f292149d5cc4eaccd067316bd43e334d62313289248e85505b1d7c9089",
+  "scope": "Two bounded native heuristic calls with separate historical weak record tracking; no completeness or discovery claim.",
+  "weak_hole_ceiling": 11,
+  "weak_rank": [
+    "holes",
+    "D2max"
+  ]
+}

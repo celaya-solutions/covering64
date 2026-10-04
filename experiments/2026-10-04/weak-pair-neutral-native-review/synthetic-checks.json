@@ -1,0 +1,73 @@
+{
+  "compile_command": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "experiments/2026-10-04/weak-pair-neutral-native-review/synthetic.cpp",
+    "-o",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/synthetic"
+  ],
+  "compile_returncode": 0,
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)",
+  "compiler_stderr": "",
+  "independent_json_checks": [
+    {
+      "count": 0,
+      "matches_independent_expected": true,
+      "retained": 0
+    },
+    {
+      "count": 1,
+      "matches_independent_expected": true,
+      "retained": 1
+    },
+    {
+      "count": 64,
+      "matches_independent_expected": true,
+      "retained": 64
+    },
+    {
+      "count": 65,
+      "matches_independent_expected": true,
+      "retained": 64
+    },
+    {
+      "count": 70,
+      "matches_independent_expected": true,
+      "retained": 64
+    }
+  ],
+  "neutral_header_sha256": "cce3b7e416a03f601d09cb758098797eff0a92e2530ff0fe50676a1012d131d5",
+  "prefix_not_globally_smallest_demonstrated": true,
+  "raw_files": {
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-0-neutral-meta.json": "55d4308f9d71dca3e740d09e5b24f98337cb0c056868df0a44fb2e7827264233",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-0-neutral.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-1-neutral-meta.json": "dc38952c5865df1fd8a6b121d52ce990976cebe17b358dc5ab50922ae3037785",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-1-neutral.json": "d8807cf6ea01480b711dd1f14d2be6f659552a933abdf2d6cd8575b267201df7",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-64-neutral-meta.json": "f5fe82d26a6bf18f439a2a863d6081f15a496799c5c9b8b717d52f8ea75d7014",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-64-neutral.json": "1ff3c4d6a74e24a6e95ba5570251499cb5e01a6ea536bec80489635492042e22",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-65-neutral-meta.json": "c37f1c832e2f500485777e4ff691f7e39ef393cb5687a7f34cc087094fedf0a7",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-65-neutral.json": "1ff3c4d6a74e24a6e95ba5570251499cb5e01a6ea536bec80489635492042e22",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-70-neutral-meta.json": "75db15ad74f8b808244594872116816b319896952f5be2bddd6a0e40ab07fc2f",
+    "experiments/scratch/weak-pair-neutral-native-review-20261004/count-70-neutral.json": "1ff3c4d6a74e24a6e95ba5570251499cb5e01a6ea536bec80489635492042e22"
+  },
+  "recompiled_against_final_frozen_header": true,
+  "run_returncode": 0,
+  "scope": "Standalone synthetic neutral.hpp exercise only. No production search or solver was launched.",
+  "synthetic_binary_sha256": "3851c4cb5edb9560e17052df58bfe7fc56cbbdb49827465175a513f29ddf3439",
+  "synthetic_source_sha256": "89aea677bcd106a6a4c007a0a43e95c4ecd57d31234d5737fa623eeb818f442c",
+  "synthetic_summary": {
+    "damaged_controls_rejected": 8,
+    "positive_counts": [
+      0,
+      1,
+      64,
+      65,
+      70
+    ],
+    "two_swap_reconstruction": true
+  }
+}

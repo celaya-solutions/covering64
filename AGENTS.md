@@ -1,3 +1,15 @@
+```text
+Document:    Covering64 Research Workflow
+Version:     v1.0.0
+Author:      Celaya Solutions
+Contact:     hello@celayasolutions.com
+Date:        2026-10-04
+SHA256:      e551dc5f94b48f7fa44c0cc06e12289dcc547a50e0fbab23918f0b7a91e788f1
+Chain:       n/a
+Tx:          [not anchored]
+License:     All Rights Reserved / Celaya Solutions
+```
+
 # Research workflow
 
 Recovery baseline: commit 582e7ba records the supplied reconstructed package; it
@@ -66,8 +78,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit a6c539d saves the complete two-swap neighborhood and checked radius4 timeout. The two-swap scan safely accounts for18,668,272,896 neighbors and reachesH12/D28 with six ties, no hole improvement. All six pass the universal old-core screen; at least four are inequivalent. The local radius4 CP call returnedUNKNOWN after300 seconds with no candidate. No64 cover. See the continued report and independent receipts.
-Next: up to four deterministic descent rounds using the unchanged one-/two-swap kernels. Core caps classify exact64 records only. Preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. Historical transport v1 keeps one E501 exception. OR-Tools: convert repeated containers to lists before negative reads; use has_solution_hint()/has_objective() before optional-message inspection, which otherwise mutates proto bytes.
+The checked native pilot improved the five-cap/weak-qualified best from H11 to H9 (D2max23, D2sum29); no cover. Neutral continuation kept H11/D25; six eight-plus-eight calls were inconclusive. A disjoint-support certificate proves the two old H11 families'128-block union needs at least73 blocks. See the continued report and independent receipts.
+Next: a bounded exact one-/two-swap neutral queue from checked f5f24 H9 is in preparation. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 

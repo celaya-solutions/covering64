@@ -1,0 +1,465 @@
+{
+  "audit_source_sha256": "8b90b9b02e5e329bb0acf10f72e86407b5cc67e65f65a6c22a472287a39ad027",
+  "common_sha256": "708b31333b659e864f9ee4ab37c7ae9909833b13f7c64a229b4f6fbc6b2abdc7",
+  "fake_child_controls": [
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105401,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 1,
+      "status": "UNKNOWN",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105401,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 1,
+      "status": "FEASIBLE",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105402,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 2,
+      "status": "UNKNOWN",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105402,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 2,
+      "status": "FEASIBLE",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105403,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 3,
+      "status": "UNKNOWN",
+      "synthetic_values_not_a_candidate": true
+    },
+    {
+      "calls": [
+        {
+          "logging": true,
+          "seconds": 120.0,
+          "seed": 2026105403,
+          "variables": 4368,
+          "workers": 4
+        }
+      ],
+      "number": 3,
+      "status": "FEASIBLE",
+      "synthetic_values_not_a_candidate": true
+    }
+  ],
+  "fake_runner_controls": [
+    {
+      "calls": [
+        1,
+        2,
+        3
+      ],
+      "relaunch_rejected": true,
+      "scenario": "unknown",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        145,
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "timeout",
+      "signals": [
+        "terminate"
+      ],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        5
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "kill",
+      "signals": [
+        "terminate",
+        "kill"
+      ],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        5,
+        null
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "error",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "missing",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "relaunch_rejected": true,
+      "scenario": "vector",
+      "signals": [],
+      "synthetic_vector_branch_only": true,
+      "waits": [
+        145
+      ]
+    },
+    {
+      "calls": [
+        1
+      ],
+      "rejected": true,
+      "scenario": "bad_vector"
+    },
+    {
+      "calls": [
+        1,
+        2,
+        3
+      ],
+      "relaunch_rejected": true,
+      "scenario": "partial_atomic",
+      "signals": [],
+      "synthetic_vector_branch_only": false,
+      "waits": [
+        145,
+        145,
+        145
+      ]
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_decision"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_passed"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_manifest"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_source"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_common"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_model"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_groups"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_raw"
+    },
+    {
+      "rejected_before_launch": true,
+      "scenario": "preflight_result"
+    }
+  ],
+  "manifest_sha256": "896aad8c2db67ea0ee08cfedb63c1f4a31bbbfc22aea6410ca38b971c9cd6af4",
+  "model_receipts": [
+    {
+      "coverage_support_size": [
+        78
+      ],
+      "damage_controls": {
+        "add_constraint": true,
+        "add_hint": true,
+        "add_objective": true,
+        "add_variable": true,
+        "cardinality_lower": true,
+        "cardinality_support": true,
+        "coverage_bound": true,
+        "coverage_coefficient": true,
+        "coverage_support": true,
+        "enforcement_literal": true,
+        "fix_eligible": true,
+        "free_forbidden": true,
+        "group_bound": true,
+        "group_json_base": true,
+        "group_json_duplicate": true,
+        "group_json_id": true,
+        "group_json_remove": true,
+        "group_support": true,
+        "remove_cover_row": true,
+        "rename_variable": true
+      },
+      "eligible": 1472,
+      "groups_sha256": "b2f22d5f8b0bbc533f3e759991894e96465a66d98abd8dd07cd3572ce697f3ad",
+      "kinds": "AA",
+      "model_sha256": "de3e62f9be253439cd858c13f8e672c5c5dc82bf32fe168e15ccdee83b5e9aaf",
+      "native_validation": "passed",
+      "rows": 625,
+      "variables": 4368
+    },
+    {
+      "coverage_support_size": [
+        78
+      ],
+      "damage_controls": {
+        "add_constraint": true,
+        "add_hint": true,
+        "add_objective": true,
+        "add_variable": true,
+        "cardinality_lower": true,
+        "cardinality_support": true,
+        "coverage_bound": true,
+        "coverage_coefficient": true,
+        "coverage_support": true,
+        "enforcement_literal": true,
+        "fix_eligible": true,
+        "free_forbidden": true,
+        "group_bound": true,
+        "group_json_base": true,
+        "group_json_duplicate": true,
+        "group_json_id": true,
+        "group_json_remove": true,
+        "group_support": true,
+        "remove_cover_row": true,
+        "rename_variable": true
+      },
+      "eligible": 1472,
+      "groups_sha256": "f3971dddc0be6755e3931032e2b8b0b84463c6f180d0e31eac519e371452ef69",
+      "kinds": "AB",
+      "model_sha256": "c2f6323a8f87a66234e902d500b30a980ac99db9645f0aa68fb885b519190110",
+      "native_validation": "passed",
+      "rows": 625,
+      "variables": 4368
+    },
+    {
+      "coverage_support_size": [
+        78
+      ],
+      "damage_controls": {
+        "add_constraint": true,
+        "add_hint": true,
+        "add_objective": true,
+        "add_variable": true,
+        "cardinality_lower": true,
+        "cardinality_support": true,
+        "coverage_bound": true,
+        "coverage_coefficient": true,
+        "coverage_support": true,
+        "enforcement_literal": true,
+        "fix_eligible": true,
+        "free_forbidden": true,
+        "group_bound": true,
+        "group_json_base": true,
+        "group_json_duplicate": true,
+        "group_json_id": true,
+        "group_json_remove": true,
+        "group_support": true,
+        "remove_cover_row": true,
+        "rename_variable": true
+      },
+      "eligible": 1472,
+      "groups_sha256": "05065ff99ef18d67fbd44cd1581666d984d5278999ca661ecee3ce151a99764a",
+      "kinds": "BB",
+      "model_sha256": "2b7753367cdb2ef2e5d3ba04d29c7ed1dbaf945503625c16e09517d0bb5b832a",
+      "native_validation": "passed",
+      "rows": 625,
+      "variables": 4368
+    }
+  ],
+  "ortools_version": "9.15.6755",
+  "passed": true,
+  "positive_control": {
+    "callback_full_values": 4368,
+    "callback_scope": "Synthetic callback API exercise with a real ordinary cover",
+    "callback_stop_calls": 1,
+    "ordinary_model_sha256": "23081c77921b208febd21c4802fd7fd273b8f6591dfa90f01d9a0738bd93b68d",
+    "scope": "Known ordinary4368-cover; not a feasible restricted64-vector",
+    "vector_damage_controls": {
+      "boolean": true,
+      "float": true,
+      "long": true,
+      "out_of_domain": true,
+      "short": true,
+      "uncovered": true
+    },
+    "verifiers": [
+      {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/eight-eight-extensions-independent/positive-control/ordinary-4368.txt",
+          "--expected-blocks",
+          "4368"
+        ],
+        "result": {
+          "blocks": 4368,
+          "canonical_sha256": "a6adb2f635f9e629083ddf9806a48a56fb67b00cdff34cfc49948d193e1d9e5d",
+          "covered": 560,
+          "expected_block_count_matches": true,
+          "expected_blocks": 4368,
+          "k": 5,
+          "multiplicities": {
+            "78": 560
+          },
+          "pair_multiplicities": {
+            "364": 120
+          },
+          "replication": {
+            "1": 1365,
+            "10": 1365,
+            "11": 1365,
+            "12": 1365,
+            "13": 1365,
+            "14": 1365,
+            "15": 1365,
+            "16": 1365,
+            "2": 1365,
+            "3": 1365,
+            "4": 1365,
+            "5": 1365,
+            "6": 1365,
+            "7": 1365,
+            "8": 1365,
+            "9": 1365
+          },
+          "t": 3,
+          "total_incidences": 43680,
+          "triples": 560,
+          "uncovered": [],
+          "v": 16,
+          "valid": true
+        },
+        "returncode": 0
+      },
+      {
+        "command": [
+          "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+          "scripts/check_cover.py",
+          "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/eight-eight-extensions-independent/positive-control/ordinary-4368.txt",
+          "--expected-blocks",
+          "4368"
+        ],
+        "result": {
+          "blocks": 4368,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "a6adb2f635f9e629083ddf9806a48a56fb67b00cdff34cfc49948d193e1d9e5d",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "78": 560
+          },
+          "covered_subsets": 560,
+          "covers_all_subsets": true,
+          "expected_blocks": 4368,
+          "expected_subset_incidences": 43680,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 1365,
+            "10": 1365,
+            "11": 1365,
+            "12": 1365,
+            "13": 1365,
+            "14": 1365,
+            "15": 1365,
+            "16": 1365,
+            "2": 1365,
+            "3": 1365,
+            "4": 1365,
+            "5": 1365,
+            "6": 1365,
+            "7": 1365,
+            "8": 1365,
+            "9": 1365
+          },
+          "required_subsets": 560,
+          "source_sha256": "a6adb2f635f9e629083ddf9806a48a56fb67b00cdff34cfc49948d193e1d9e5d",
+          "total_subset_incidences": 43680,
+          "uncovered": [],
+          "uncovered_count": 0,
+          "valid": true
+        },
+        "returncode": 0
+      }
+    ],
+    "witness_sha256": "a6adb2f635f9e629083ddf9806a48a56fb67b00cdff34cfc49948d193e1d9e5d"
+  },
+  "producer_sha256": "58eceb7555ba52475e50a1031ac943c96a4febe85ae37a3b837491c4721f0c86",
+  "real_solver_launches": 0,
+  "scope": "Exact frozen three restricted models and bounded runner; no recipe feasibility or global theorem"
+}

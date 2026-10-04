@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "One and two search bodies exactly equal their old bodies after removal of only include, sampler declaration, reviewed legal baseline-rank observer and separate neutral writer.",
+    "All original enumeration, pruning, metrics, counters, strict tie tracking, stdout and stop rules remain byte-identical inside those bodies.",
+    "Sampler retains first at most64 qualifying traversal families then sorts by complete block-ID tuple; it does not promise globally smallest64.",
+    "Neutral observation cannot change engine state; runtime overhead can change the reached wall-clock prefix.",
+    "Writer checks unique families and cap accounting. Five independently checked synthetic JSON cases and eight damage cases pass after recompiling against frozen header."
+  ],
+  "decision": "native-delta PASS; combined queue GO belongs to separate reviewer",
+  "exact_observer_only_body_delta_confirmed": true,
+  "manifest_sha256": "5a1082e2f28194ee4c90ee0d16bf0d5b22502164e082e757a35842547eae2a82",
+  "passed": true,
+  "production_searches_launched": 0,
+  "scope": "Native producer delta and standalone synthetic recorder controls only; queue/adapter/gate reviewed separately. No production search launched.",
+  "sources": {
+    "experiments/2026-10-04/weak-pair-neutral-queue/neutral.hpp": "cce3b7e416a03f601d09cb758098797eff0a92e2530ff0fe50676a1012d131d5",
+    "experiments/2026-10-04/weak-pair-neutral-queue/one_search.cpp": "1fa23d406e8df35228256c9a29cc64c5a973b259f812f6c9c33fc02c079fc666",
+    "experiments/2026-10-04/weak-pair-neutral-queue/two_search.cpp": "54dbec1345f07b4435023d2f173a617589359961eccc6ebfa71b55f9d46bfbf8"
+  },
+  "synthetic_checks_sha256": "d963cfd48d4127967865b0227a811b70aa96fa1654c28ce3e16611423810f440",
+  "unchanged_header_sha256": {
+    "cores.hpp": "054c89d9fed5fdc8e3b511c6452ae3fb14df4b40e64c993772401a264f30e92d",
+    "kernel.hpp": "d374d813225b03d8ac9085255f9c0548e14a31a611bdc7ec5abeb0cce2040fd3",
+    "scan.hpp": "65d59df903e5da7a646a3764f469905ec6705e958d680d9c98eb17445734d560",
+    "two_scan.hpp": "6edfc9c8deec7f111dec978e6eb0fe6154e99323b6a647f511cc1d7d3ed769a6"
+  }
+}

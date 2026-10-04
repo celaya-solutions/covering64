@@ -4,7 +4,7 @@ Version:     v1.0.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      b109bc2294be726244136181c004d09689410c9b1f4af31091a03ea3fb75d5d4
+SHA256:      e7d012a67cee4721ab17f2e50f21c1905c5039b8195e965fea7760986c62d94d
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -37,8 +37,8 @@ Theorem 12 (printed page 204) states there are four distinct coverings: B3,
 B4, D1 and D2. The theorem is an exhaustive classification up to isomorphism,
 not merely four examples and not a classification of larger pair coverings.
 Theorem 5 covers exactly two extension cases, and the final cases establish
-the other two classes. The published case splits were read, not independently
-re-proved in this refresh.
+the other two classes. The theorem and its scope were checked in the primary paper; its full case
+analysis was not independently re-proved in this refresh.
 
 For any covering on 16 points with at most 64 pentads, a fixed pair must occur
 at least `ceil(14/3) = 5` times. Summing the 15 incident pair counts at a point

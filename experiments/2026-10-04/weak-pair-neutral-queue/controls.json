@@ -1,0 +1,76 @@
+{
+  "adapter_sha256": "ada0a960eecb962ea0095e664f3cf21cc9b4b5da7551c6f8c0f3a71a94089371",
+  "native_search_launches": 0,
+  "passed": true,
+  "queue_cases": [
+    {
+      "case": "empty-sample",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 2
+    },
+    {
+      "case": "dedup-prior-and-sampled-centers",
+      "centers": 3,
+      "passed": true,
+      "shell_calls": 6
+    },
+    {
+      "case": "strict-first-and-clear-worse-frontier",
+      "centers": 4,
+      "passed": true,
+      "shell_calls": 8
+    },
+    {
+      "case": "incomplete-first",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 1
+    },
+    {
+      "case": "incomplete-second-no-adoption",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 2
+    },
+    {
+      "case": "cover-early",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 1
+    },
+    {
+      "case": "incomplete-cover",
+      "centers": 1,
+      "passed": true,
+      "shell_calls": 1
+    },
+    {
+      "case": "sixteen-center-thirty-two-shell-cap",
+      "centers": 16,
+      "passed": true,
+      "shell_calls": 32
+    }
+  ],
+  "recorder_cases": [
+    {
+      "negative_controls": 8,
+      "passed": true,
+      "positive_saved_neutral_family": "tie-2",
+      "shell": "one",
+      "synthetic_metadata": true
+    },
+    {
+      "negative_controls": 8,
+      "passed": true,
+      "positive_saved_neutral_family": "tie-4",
+      "shell": "two",
+      "synthetic_metadata": true
+    }
+  ],
+  "runner_sha256": "fdc7a9e89f4ce039112a3474d0a656dd246679a6355d6eebae826fbe3b65f085",
+  "scope": "Synthetic queue control states and synthetic neutral metadata around real, previously verified families. Recorded strict output is replayed; no new neighborhood is enumerated and no new witness is discovered.",
+  "search_launches": 0,
+  "solver_launches": 0,
+  "source_sha256": "91aed9fdeb4ac5c5a619f9fbc7a079c03b9142916ee5a8b17dd97b21fa7a55b2"
+}

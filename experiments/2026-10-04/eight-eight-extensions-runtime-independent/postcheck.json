@@ -1,0 +1,62 @@
+{
+  "all_raw_files_hash_checked": 21,
+  "cover_found": false,
+  "manifest_sha256": "896aad8c2db67ea0ee08cfedb63c1f4a31bbbfc22aea6410ca38b971c9cd6af4",
+  "passed": true,
+  "pre_run_gate_sha256": "466c94cf375aa50090c9bbbe03c435c1d97b60baf07c6a5cf46c323ae29522ed",
+  "producer_result_sha256": "a87d4f6aaf0e532e2ecc477111605593ef63aad460fd9b1d1f2e9e995fb92883",
+  "runs": [
+    {
+      "callbacks": 0,
+      "elapsed_seconds": 120.3537110829493,
+      "kinds": "AA",
+      "native_and_standard_response_match": true,
+      "no_candidate_files": true,
+      "number": 1,
+      "parameters_exact": true,
+      "response_sha256": "e51f4e8b80060fd87dcf3791f6b9cba7d9169426abda0f3349d06e5df38e6220",
+      "seed": 2026105401,
+      "sequential_file_order_consistent": true,
+      "solution_length": 0,
+      "status": "UNKNOWN",
+      "stdout_sha256": "25468c400d48d30989b3e6dff6675c54e60d5e29f078684a5b48aa0261ecad3a",
+      "wall_seconds": 120.00809600000001
+    },
+    {
+      "callbacks": 0,
+      "elapsed_seconds": 120.30350541707594,
+      "kinds": "AB",
+      "native_and_standard_response_match": true,
+      "no_candidate_files": true,
+      "number": 2,
+      "parameters_exact": true,
+      "response_sha256": "b554606f7addbd61e79d3d00873285145c3503c7cc73bbc79f7ea5ebab306c3b",
+      "seed": 2026105402,
+      "sequential_file_order_consistent": true,
+      "solution_length": 0,
+      "status": "UNKNOWN",
+      "stdout_sha256": "a0a15ad750032b3256ec93613d90dd7b264f1e0553ff2fb024b4c0b3845d6c7d",
+      "wall_seconds": 120.007812
+    },
+    {
+      "callbacks": 0,
+      "elapsed_seconds": 120.44001504196785,
+      "kinds": "BB",
+      "native_and_standard_response_match": true,
+      "no_candidate_files": true,
+      "number": 3,
+      "parameters_exact": true,
+      "response_sha256": "5c49afc0ccf5ff70583e8feeaee4ab7c967fc70e4d95916a1a3d775c2b609972",
+      "seed": 2026105403,
+      "sequential_file_order_consistent": true,
+      "solution_length": 0,
+      "status": "UNKNOWN",
+      "stdout_sha256": "276a1c3744ada5b7cd4073262b1dc52dd0af1f4f4b0d30444463bc4238d01f7c",
+      "wall_seconds": 120.026553
+    }
+  ],
+  "scope": "Three bounded UNKNOWN restricted recipe outcomes; no feasibility or nonexistence conclusion",
+  "search_reruns": 0,
+  "sequence_evidence": "Audited sequential runner plus result-before-next-parameters mtimes",
+  "source_sha256": "3b2df598878704026759221fbb730b1e4fe983679439be8480590bbd5806583e"
+}
