@@ -1,0 +1,223 @@
+{
+  "version": "v1.0.0",
+  "model": "experiments/scratch/lp-guided-best-lp-v1.0.0/model.pbtxt",
+  "model_sha256": "c7ca979b1fd9c765958b7e925f097f34684da529ba8264f684c96c16df16723d",
+  "seed_sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+  "heavy_sha256": "2ee0226616227192641d3210ca1674ea7d1630a64e47ecfb67a8026721142658",
+  "heavy_blocks": [
+    [
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      14
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      11
+    ],
+    [
+      1,
+      2,
+      3,
+      6,
+      9
+    ],
+    [
+      1,
+      2,
+      3,
+      7,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      12,
+      15
+    ],
+    [
+      1,
+      2,
+      3,
+      13,
+      16
+    ],
+    [
+      1,
+      4,
+      9,
+      10,
+      11
+    ],
+    [
+      1,
+      5,
+      6,
+      7,
+      14
+    ],
+    [
+      1,
+      11,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      5,
+      6,
+      7,
+      13
+    ],
+    [
+      2,
+      9,
+      10,
+      11,
+      16
+    ],
+    [
+      2,
+      10,
+      13,
+      14,
+      15
+    ],
+    [
+      3,
+      5,
+      6,
+      7,
+      15
+    ],
+    [
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      3,
+      9,
+      13,
+      14,
+      15
+    ],
+    [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      4,
+      5,
+      13,
+      14,
+      15
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    [
+      5,
+      6,
+      7,
+      9,
+      12
+    ],
+    [
+      5,
+      6,
+      7,
+      10,
+      16
+    ],
+    [
+      5,
+      9,
+      10,
+      11,
+      14
+    ],
+    [
+      6,
+      9,
+      10,
+      11,
+      15
+    ],
+    [
+      6,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      7,
+      9,
+      10,
+      11,
+      13
+    ],
+    [
+      7,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      8,
+      13,
+      14,
+      15,
+      16
+    ]
+  ],
+  "selection_audit_sha256": "5ba78338d5b4a32521c559ffc8ef976ee03ddf316ce51ca724bfbecf61a20e84",
+  "source_model_sha256": "057df1c0d1f9f9404f8edeef30373a63b161ee1af558da926a63893da8fd4d47",
+  "generic_oracle_sha256": "41532f815971ea48f3ed42a9ea4bce5c7c4054e139f5bbe13ade4ba108da7b76",
+  "builder_sha256": "7b156b62e75195e755dd502db2250fe8016c75f977fe632a4753260ef4073504",
+  "lp_core_sha256": "35d379455244f2511b00d6fb8dff01de69c1c6a0ca2869c3c73c7e03ce5220d1",
+  "checker_sha256": "aed2ae14b5ffd0c67ad3b6b8f5e25f1ca413af22da975e00a4d5365d4df8eabb",
+  "runner_sha256": "a33ac45004cf968b7f8a61f0c3450e8db4fbab911d1301bee8bff4ad911e2054",
+  "source_revision": "438a1d337c9f4bc64e8865310b8ce368add0979c",
+  "rows": 697,
+  "ordinary_variables": 1200,
+  "all_six_hub_graphs": true,
+  "independent_model_gate_passed": true,
+  "solver_workers": 1,
+  "time_limit_seconds_per_phase": 10,
+  "maximum_solver_seconds": 20,
+  "solver_seed": 2026104,
+  "ortools_version": "9.15.6755",
+  "scope": "One fixed-heavy regular-family LP diagnostic; no CP or global bound."
+}

@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.13.0
+Version:     v1.14.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      743b3e17299ca1372631528a8eb8f52a36a2d68f2dc2bc2ce1891b73b636d359
+SHA256:      e6dba2d1405e60d3e8ae56b74f308fce95333a97a28c52ffefc936d5c2a6a93d
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -607,3 +607,105 @@ Passing the finite cut collection did not imply improved completion fitness.
 The next bounded construction test ranks local link switches and measures the
 elastic completion objective directly. These results leave the unrestricted
 three-hole best, 109 first-link exclusions and the 64-block target unchanged.
+
+## Direct LP-guided link switches (October 4)
+
+A local search now scores a heavy tuple by its ordinary-completion LP's total
+row slack. Each move switches two disjoint edges in one anchor link, preserving
+the link's outside-point incidences. The generator rejects repeated blocks,
+blocks outside the 276-column heavy universe, and excess nonanchor heavy-triple
+multiplicity. Independent enumeration reproduced all 132 initial neighbors and
+the full 697-row completion model. The ordinary variables retain their original
+global lexicographic order.
+
+The bounded pilot evaluated 60 distinct neighbors over three rounds. All LPs
+returned numerical OPTIMAL, using 8.515 solver seconds. Its objective improved
+from 10.627554709636422 to 9.80113812280173, then to 5.575882992498541. The last
+round tested only twenty of 136 neighbors, so it did not establish a local
+minimum. Separate readbacks checked all sixty numerical vectors and all 401
+candidate row sets generated across the three rounds. Sources, rankings,
+budgets, vectors, and the pre-solver preparation failure are preserved in
+`experiments/2026-10-04/lp-guided-link-switch/` and its independent audit.
+
+A fresh diagnostic of the selected tuple gave an exact signed-dual gap of
+217/40, separately replayed with damaged controls. Its derived heavy-pattern
+cut has 276 coefficients and excludes the source tuple by 5425/1000. The
+certificate was first checked in the regular degree-20 four-sevenfold model.
+The pinned-link argument below now proves those restrictions are necessary
+for any 64-block cover retaining these 28 blocks, extending this particular
+fixed-pattern exclusion to the full block universe.
+
+Combining those heavy blocks with the original 36 ordinary blocks gives a
+distinct five-hole partial. Both cover verifiers reject it as incomplete and
+agree on its holes: {4,5,11}, {4,6,11}, {4,8,12}, {4,8,16}, and {8,12,16}.
+It has zero unsupported triples and no heavy excess in the restricted score.
+This supplies a different repair seed, but does not beat the unrestricted
+three-hole baseline. The exact certificate, cut, seed, and profile are saved
+in `experiments/2026-10-04/lp-guided-best-lp/`.
+
+A separate complete sweep then evaluated all 136 neighbors of the final
+tuple, reusing 23 exact-matching checked OPTIMAL records and solving 113 fresh
+LPs. It took 16.921 solver seconds and 18.546 wall seconds. All neighbors
+returned numerical OPTIMAL and were worse: the smallest neighbor objective
+was 5.644705064246714. This establishes only a numerical stall in the declared
+two-edge neighborhood. There was no exact fractional completion or cover.
+Primal and dual vectors from every fresh solve are saved. Exact signed weights
+derived from those duals give 113 further elastic lower bounds, whose smallest
+source gap is 5.644645. Independent exact replay shows their envelope is
+positive at every one of the 136 neighbors, with minimum 0.725014. This
+excludes their fixed-pattern completions. Only 116 of those lower bounds
+exceed the incumbent's exact recounted elastic upper bound, so the remaining
+local-optimum comparison still relies on numerical LP results.
+
+## Pinned links force regularity (October 4)
+
+Consider four disjoint anchor triples and four distinct outside hubs. Pin seven
+blocks through each anchor, with its own hub appearing twice and every other
+outside point once. Every pair in a cover needs at least five blocks. Each
+anchor point has two pairs already appearing seven times, so its incident
+pair counts sum to at least 79 and its block degree is at least 20.
+
+An anchor point and its own hub occur together in two pinned blocks that both
+contain the other two anchor points. Covering all fourteen third points
+therefore requires at least sixteen third-point incidences, including these
+two forced repetitions. Five blocks supply only fifteen, so each own-hub pair
+needs at least six blocks. Each hub has three such pairs; its incident pair
+counts sum to at least 78 and its degree is also at least 20. The sixteen
+degrees sum to 320 in a 64-block cover, forcing every degree to equal 20.
+
+The saturated pair counts then force all remaining blocks into the 1200-column
+ordinary universe and imply every row of the existing 697-row model. The
+independent audit reconstructed the pair targets, six hub graphs, triple caps,
+and full model; it rejected 25 damaged controls and replayed the exact 217/40
+gap. Thus no 64-block completion can retain the selected 28 pins, even when
+starting from all 4368 blocks. This is conditional on the stated pin profile,
+not a global lower bound. The proof is in
+`experiments/2026-10-04/four-seven-pinned-regularity/`.
+
+## Unrestricted repair and nearest-pattern cuts (October 4)
+
+A separate 60-second unrestricted native repair, seed 2026104061, improved the
+five-hole seed to three holes in one accepted replacement. Every block slot
+could change and all 4368 blocks were eligible. All 1865 traces passed replay;
+both covering verifiers checked all four saved states. The final partial has
+one degree-19 point, fourteen degree-20 points, and one degree-21 point, but
+still contains a relabeled copy of the previously identified 60-block core.
+It did not escape the known structural trap or find a cover.
+
+The next heavy master used 238 distinct checked cuts and minimized the number
+of blocks replaced relative to the best LP tuple. This was a soft objective,
+with no imposed neighborhood radius. One bounded campaign screened 95 heavy
+patterns in 177.719 combined solver seconds and 188.375 wall seconds. All
+95 received independently replayed exact separating cuts, bringing this
+collection to 333. The best newly tested elastic objective was
+5.966796868079938, so the incumbent remained 5.575882992498541. All 95 shifted
+models, incremental masters, primal vectors, and exact cuts passed separate
+replay. Master FEASIBLE statuses do not prove nearest-pattern optimality.
+
+Larger finite move enumeration found 660 legal proper three-edge switches in
+one anchor and 6900 legal paired two-edge switches across two anchors. The
+113 sweep cuts initially excluded all but 27 of these candidates. The final
+333-cut envelope excludes all remaining 27 as well. This closes only those
+declared neighborhoods. The next distinct experiment will prefer patterns
+furthest inside the known necessary inequalities, then measure their actual
+completion LP, without assuming that a better surrogate gives a cover.

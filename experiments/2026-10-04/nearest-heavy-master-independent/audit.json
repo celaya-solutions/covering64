@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "source_sha256": "723f38f97707931ac003e7b64feefe1d2f569bfda3aa8cd9a718b73f908bf251",
+  "manifest_sha256": "ceb818fbde0d776e504e0b9ec4f93f5d56229e026bc46d0d79f60d936296927a",
+  "checker_sha256": "2a98164b02a264f29c592e7c4b2056a86da59f7fa1ad480b5753e89f3adffa90",
+  "master_sha256": "e24e24277c1252e15fe60a189072dcc46c28ac2c72ab029ddc2d6b9e6ce7eff7",
+  "cut_gate_path": "experiments/2026-10-04/lp-guided-complete-sweep-independent/bundle-audit.json",
+  "cut_gate_sha256": "61cd0c3ffc75ad8a8fa5521d2fcaf8e54010b1bec340e0e1e1828a795b44c1b6",
+  "bundle_sha256": "27de6b8dee365b7bcf4adc205dedd6799f437476cfdbc35ec94cace953e877e8",
+  "master_variables": 276,
+  "master_rows": 843,
+  "cuts": 238,
+  "objective": "28 minus baseline overlap; no radius constraint",
+  "damaged_controls_rejected": 2,
+  "solver_calls": 0,
+  "source_review": [
+    "Same frozen 697-row completion LP and one-worker GLOP method",
+    "One-worker CP-SAT 2s, LP 1s, at most 100 candidates",
+    "Stops before combined budget 176.8s or wall budget 234s",
+    "Final combined solver <=180s and wall <=240s assertions",
+    "Exact signed-bound cut lift, fixed baseline objective, no nearest proof on FEASIBLE",
+    "Stop on exact primal, unresolved LP/dual, or master without candidate"
+  ]
+}

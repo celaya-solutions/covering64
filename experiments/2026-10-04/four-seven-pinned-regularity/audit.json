@@ -1,0 +1,362 @@
+{
+  "anchors": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      9,
+      10,
+      11
+    ],
+    [
+      13,
+      14,
+      15
+    ]
+  ],
+  "hubs": [
+    4,
+    8,
+    12,
+    16
+  ],
+  "pinned_blocks": [
+    [
+      1,
+      2,
+      3,
+      4,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      14
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      11
+    ],
+    [
+      1,
+      2,
+      3,
+      6,
+      9
+    ],
+    [
+      1,
+      2,
+      3,
+      7,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      12,
+      15
+    ],
+    [
+      1,
+      2,
+      3,
+      13,
+      16
+    ],
+    [
+      1,
+      4,
+      9,
+      10,
+      11
+    ],
+    [
+      1,
+      5,
+      6,
+      7,
+      14
+    ],
+    [
+      1,
+      11,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      5,
+      6,
+      7,
+      13
+    ],
+    [
+      2,
+      9,
+      10,
+      11,
+      16
+    ],
+    [
+      2,
+      10,
+      13,
+      14,
+      15
+    ],
+    [
+      3,
+      5,
+      6,
+      7,
+      15
+    ],
+    [
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      3,
+      9,
+      13,
+      14,
+      15
+    ],
+    [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      4,
+      5,
+      13,
+      14,
+      15
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    [
+      5,
+      6,
+      7,
+      9,
+      12
+    ],
+    [
+      5,
+      6,
+      7,
+      10,
+      16
+    ],
+    [
+      5,
+      9,
+      10,
+      11,
+      14
+    ],
+    [
+      6,
+      9,
+      10,
+      11,
+      15
+    ],
+    [
+      6,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      7,
+      9,
+      10,
+      11,
+      13
+    ],
+    [
+      7,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      8,
+      13,
+      14,
+      15,
+      16
+    ]
+  ],
+  "minimum_point_degrees": {
+    "1": 20,
+    "2": 20,
+    "3": 20,
+    "4": 20,
+    "5": 20,
+    "6": 20,
+    "7": 20,
+    "8": 20,
+    "9": 20,
+    "10": 20,
+    "11": 20,
+    "12": 20,
+    "13": 20,
+    "14": 20,
+    "15": 20,
+    "16": 20
+  },
+  "own_pair_forced_duplicates": {
+    "1,4": 2,
+    "2,4": 2,
+    "3,4": 2,
+    "5,8": 2,
+    "6,8": 2,
+    "7,8": 2,
+    "9,12": 2,
+    "10,12": 2,
+    "11,12": 2,
+    "13,16": 2,
+    "14,16": 2,
+    "15,16": 2
+  },
+  "all_point_degrees_forced": 20,
+  "ordinary_columns": 1200,
+  "barred_unpinned_columns": 3140,
+  "allowed_family_blocks": 1476,
+  "heavy_family_columns": 276,
+  "hub_graphs": 6,
+  "hub_excess_vectors": [
+    [
+      0,
+      0,
+      2,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      2,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "forced_anchor_pair_equalities": 114,
+  "nonanchor_triple_caps": 556,
+  "passed": true,
+  "rows_rebuilt": 697,
+  "damaged_controls_rejected": [
+    "overlapping anchors",
+    "repeated hub",
+    "hub inside anchor",
+    "missing pin",
+    "duplicate pin",
+    "malformed pin",
+    "unsorted pin",
+    "own hub appears only once",
+    "wrong triple bound",
+    "wrong degree",
+    "wrong pair",
+    "wrong support",
+    "wrong domain",
+    "wrong order",
+    "hidden enforcement",
+    "hidden objective",
+    "certificate denominator",
+    "certificate rhs_numerator",
+    "certificate box_max_numerator",
+    "certificate weights",
+    "certificate model_sha256",
+    "certificate heavy_sha256",
+    "certificate manifest_sha256",
+    "certificate gap",
+    "certificate proves_infeasible"
+  ],
+  "manifest_sha256": "3d7760395566743bbc485e0ffef9fcc18556e31e3c153e5b1af8562e9450c7d2",
+  "model_sha256": "c7ca979b1fd9c765958b7e925f097f34684da529ba8264f684c96c16df16723d",
+  "checker_sha256": "1ab2d2a0442b91eacd9ed319c9364cf18085c667a4563fdb86d283b0171304f1",
+  "exact_certificate": {
+    "rhs_numerator": 5587,
+    "box_max_numerator": 162,
+    "denominator": 1000,
+    "gap": [
+      217,
+      40
+    ],
+    "signed_rows": 526
+  },
+  "dual_sha256": "59280a11823b45f9fc78c35725c176c1a8ca951831aad523ea2b30cd15d77ab4",
+  "scope": "Every 64-block cover containing these 28 pins obeys the audited LP. The short regularity theorem generalizes under the stated pin hypotheses. No unrestricted global exclusion is asserted."
+}

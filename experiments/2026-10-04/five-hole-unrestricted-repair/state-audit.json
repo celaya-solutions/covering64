@@ -1,0 +1,682 @@
+{
+  "passed": true,
+  "traces": 1865,
+  "accepted_improvements": 1,
+  "states": [
+    {
+      "name": "initial",
+      "sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+      "profile": {
+        "blocks": 64,
+        "missing": [
+          [
+            4,
+            5,
+            11
+          ],
+          [
+            4,
+            6,
+            11
+          ],
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            8,
+            12,
+            16
+          ]
+        ],
+        "point_degrees": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "degree_histogram": [
+          [
+            20,
+            16
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            494
+          ],
+          [
+            2,
+            56
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "heavy_triples_at_least_six": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ]
+      },
+      "verifiers": {
+        "package": {
+          "exit": 1,
+          "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+        },
+        "standalone": {
+          "exit": 1,
+          "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+        }
+      }
+    },
+    {
+      "name": "accepted-001",
+      "sha256": "5389846a1e0434406c377fa44751ccac96d78334c0286bb64a7beca46f395492",
+      "profile": {
+        "blocks": 64,
+        "missing": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            8,
+            12,
+            16
+          ]
+        ],
+        "point_degrees": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          19,
+          20,
+          20,
+          21,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "degree_histogram": [
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            21,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            498
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "heavy_triples_at_least_six": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ]
+      },
+      "verifiers": {
+        "package": {
+          "exit": 1,
+          "sha256": "1ff2682b7c4f9bdd23ead63958b8c1cfa863c6934ed1c09cc9f6a6d3d61a44e7"
+        },
+        "standalone": {
+          "exit": 1,
+          "sha256": "3bf3d3c55acc39be09094bda845b08736811dea2a4fec6c914760eda7641f07f"
+        }
+      }
+    },
+    {
+      "name": "best",
+      "sha256": "5389846a1e0434406c377fa44751ccac96d78334c0286bb64a7beca46f395492",
+      "profile": {
+        "blocks": 64,
+        "missing": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            8,
+            12,
+            16
+          ]
+        ],
+        "point_degrees": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          19,
+          20,
+          20,
+          21,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "degree_histogram": [
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            21,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            498
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "heavy_triples_at_least_six": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ]
+      },
+      "verifiers": {
+        "package": {
+          "exit": 1,
+          "sha256": "1ff2682b7c4f9bdd23ead63958b8c1cfa863c6934ed1c09cc9f6a6d3d61a44e7"
+        },
+        "standalone": {
+          "exit": 1,
+          "sha256": "3bf3d3c55acc39be09094bda845b08736811dea2a4fec6c914760eda7641f07f"
+        }
+      }
+    },
+    {
+      "name": "terminal",
+      "sha256": "5389846a1e0434406c377fa44751ccac96d78334c0286bb64a7beca46f395492",
+      "profile": {
+        "blocks": 64,
+        "missing": [
+          [
+            4,
+            8,
+            12
+          ],
+          [
+            4,
+            8,
+            16
+          ],
+          [
+            8,
+            12,
+            16
+          ]
+        ],
+        "point_degrees": [
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          19,
+          20,
+          20,
+          21,
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "degree_histogram": [
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            21,
+            1
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            498
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ],
+        "heavy_triples_at_least_six": [
+          [
+            [
+              1,
+              2,
+              3
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              12,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              6,
+              7
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              10,
+              11
+            ],
+            7
+          ],
+          [
+            [
+              13,
+              14,
+              15
+            ],
+            7
+          ]
+        ]
+      },
+      "verifiers": {
+        "package": {
+          "exit": 1,
+          "sha256": "1ff2682b7c4f9bdd23ead63958b8c1cfa863c6934ed1c09cc9f6a6d3d61a44e7"
+        },
+        "standalone": {
+          "exit": 1,
+          "sha256": "3bf3d3c55acc39be09094bda845b08736811dea2a4fec6c914760eda7641f07f"
+        }
+      }
+    }
+  ],
+  "comparison": {
+    "old_seed_path": "experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+    "old_seed_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "old_profile": {
+      "blocks": 64,
+      "missing": [
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ]
+      ],
+      "point_degrees": [
+        20,
+        19,
+        20,
+        21,
+        20,
+        20,
+        19,
+        20,
+        21,
+        20,
+        20,
+        20,
+        20,
+        19,
+        21,
+        20
+      ],
+      "degree_histogram": [
+        [
+          19,
+          3
+        ],
+        [
+          20,
+          10
+        ],
+        [
+          21,
+          3
+        ]
+      ],
+      "triple_histogram": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          499
+        ],
+        [
+          2,
+          52
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          7,
+          4
+        ]
+      ],
+      "heavy_triples_at_least_six": [
+        [
+          [
+            1,
+            3,
+            6
+          ],
+          7
+        ],
+        [
+          [
+            2,
+            14,
+            15
+          ],
+          6
+        ],
+        [
+          [
+            4,
+            8,
+            10
+          ],
+          7
+        ],
+        [
+          [
+            5,
+            13,
+            16
+          ],
+          7
+        ],
+        [
+          [
+            9,
+            11,
+            12
+          ],
+          7
+        ]
+      ]
+    },
+    "core_path": "experiments/2026-10-03/partial-core-holes/core.txt",
+    "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+    "new_original_label_core_overlap": 0,
+    "old_original_label_core_overlap": 60,
+    "new_old_labeled_overlap": 0,
+    "contains_relabelled_core": true,
+    "directly_checked_core_mapping": [
+      1,
+      7,
+      2,
+      10,
+      15,
+      3,
+      8,
+      11,
+      4,
+      9,
+      12,
+      16,
+      14,
+      6,
+      5,
+      13
+    ],
+    "different_degree_histogram": true,
+    "different_triple_histogram": true
+  },
+  "terminal_is_latest_accepted_best": true,
+  "checker_sha256": "2c6132f0c36a77a2cf79af4e3df367d9aa9802d3781e0993c01f4ae0d6c8c025",
+  "scope": "One bounded unrestricted repair; all states remain near-covers."
+}

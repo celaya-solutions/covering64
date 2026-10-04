@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "traces": 1865,
+  "replayed_moves": 1865,
+  "moves_changing_point_degrees": 1865,
+  "damaged_controls": [
+    {
+      "mutation": "duplicate seed",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong outgoing",
+      "rejected": true
+    },
+    {
+      "mutation": "duplicate incoming",
+      "rejected": true
+    },
+    {
+      "mutation": "bad slot",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong before",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong after",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong weighted score",
+      "rejected": true
+    },
+    {
+      "mutation": "damaged count",
+      "rejected": true
+    },
+    {
+      "mutation": "damaged final IDs",
+      "rejected": true
+    },
+    {
+      "mutation": "false rollback",
+      "rejected": true
+    },
+    {
+      "mutation": "bad weight",
+      "rejected": true
+    },
+    {
+      "mutation": "out of range ID",
+      "rejected": true
+    },
+    {
+      "mutation": "boolean move",
+      "rejected": true
+    },
+    {
+      "mutation": "bad kind",
+      "rejected": true
+    }
+  ],
+  "input_sha256": {
+    "experiments/scratch/five-hole-unrestricted-repair-2026104061/repair-traces.jsonl": "aadcdae0b8caebba498adc6ff691da963e60d63e46808dfa0e5331f141c9b808"
+  },
+  "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e",
+  "scope": "Move arithmetic, distinctness and rollback only; no completeness claim."
+}

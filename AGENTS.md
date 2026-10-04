@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Saved 124 checked cuts for the restricted four-sevenfold family and completed new search tests. No 64-block cover: the best partial still misses three triples, and first-link exclusions remain 109.
-Next: optimize the completion LP through local link switches. Preserve ignored raw models, proofs and logs, plus unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Saved 333 checked cuts, complete local LP screens, and a proof that the four pinned seven-block links force degree 20 in any completion. No 64-block cover; best partial still misses three triples and first-link exclusions stay 109.
+Next: test a maximum-margin heavy master. Preserve ignored raw models, proofs and logs, plus unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 

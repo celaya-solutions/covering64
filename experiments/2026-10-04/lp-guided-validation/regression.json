@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-04T07:53:06.746703+00:00",
+  "source_revision": "438a1d337c9f4bc64e8865310b8ce368add0979c",
+  "uv_sync_frozen": {
+    "exit_code": 0,
+    "packages_checked": 17
+  },
+  "pytest": {
+    "command": "uv run pytest",
+    "exit_code": 0,
+    "passed": 369,
+    "warnings": 3,
+    "seconds": 233.38,
+    "log_path": "experiments/scratch/lp-guided-checkpoint-20261004-pytest.log",
+    "log_sha256": "715a601a4b472bd7ab561ffb48a60c1d617fac47a96cc3eba4567164fb2211af"
+  },
+  "scope": "Package regression; new research runners have separate finite model, certificate, and witness checks."
+}
