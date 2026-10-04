@@ -1,0 +1,651 @@
+{
+  "cases": [
+    {
+      "best_holes": 5,
+      "final": {
+        "ids": [
+          9,
+          14,
+          25,
+          35,
+          70,
+          74,
+          83,
+          698,
+          720,
+          761,
+          814,
+          876,
+          960,
+          999,
+          1133,
+          1135,
+          1172,
+          1211,
+          1251,
+          1356,
+          1689,
+          1727,
+          1780,
+          1801,
+          1876,
+          1978,
+          1991,
+          2080,
+          2145,
+          2161,
+          2221,
+          2300,
+          2347,
+          2385,
+          2447,
+          2459,
+          2490,
+          2593,
+          2722,
+          2737,
+          2802,
+          2889,
+          2918,
+          2990,
+          3011,
+          3042,
+          3084,
+          3242,
+          3376,
+          3536,
+          3553,
+          3565,
+          3578,
+          3586,
+          3596,
+          3818,
+          3838,
+          3990,
+          4007,
+          4049,
+          4111,
+          4173,
+          4241,
+          4311
+        ],
+        "known_core_overlaps": [
+          1,
+          59
+        ],
+        "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/elite-final-response.txt",
+        "profile": {
+          "degree_histogram": [
+            [
+              19,
+              3
+            ],
+            [
+              20,
+              10
+            ],
+            [
+              21,
+              3
+            ]
+          ],
+          "holes": [
+            21,
+            112,
+            307,
+            311,
+            497
+          ],
+          "pair_histogram": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              85
+            ],
+            [
+              6,
+              21
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "triple_histogram": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              494
+            ],
+            [
+              2,
+              55
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              6,
+              2
+            ],
+            [
+              7,
+              3
+            ]
+          ]
+        },
+        "saved_seed_common_blocks": {
+          "g1-best-17": 54,
+          "g1-initial-13": 56,
+          "g5-raw-17": 7,
+          "g5-score-19": 7,
+          "native-cycle-12": 58,
+          "regular-5": 60,
+          "regular-8": 1,
+          "sqs-23": 1,
+          "unrestricted-new-3": 61,
+          "unrestricted-old-3": 1
+        },
+        "sha256": "0425594a437237decc19c1a225ae7165a23eae061fe966d1ab59f96de017b4f3",
+        "verifiers": {
+          "package": {
+            "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/elite-final-response-package.json",
+            "sha256": "113f3a3a676433f897e44b9d0b4a8c752002eab5892d6e8acbb82da8d8f045b3"
+          },
+          "standalone": {
+            "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/elite-final-response-standalone.json",
+            "sha256": "e618c92018713d488807f9cd7d36aa53166366b36ce0e57e11b9bba6c825b083"
+          }
+        }
+      },
+      "name": "elite",
+      "objective_bound": 0.0,
+      "observed_seconds": 30.02881895797327,
+      "response_wall_time": 30.028206,
+      "saved": [
+        {
+          "ids": [
+            3,
+            9,
+            17,
+            25,
+            35,
+            70,
+            74,
+            698,
+            720,
+            761,
+            814,
+            876,
+            960,
+            999,
+            1133,
+            1135,
+            1172,
+            1211,
+            1251,
+            1356,
+            1689,
+            1727,
+            1780,
+            1801,
+            1876,
+            1978,
+            1991,
+            2080,
+            2145,
+            2161,
+            2221,
+            2300,
+            2347,
+            2385,
+            2447,
+            2459,
+            2490,
+            2593,
+            2722,
+            2737,
+            2802,
+            2889,
+            2918,
+            2990,
+            3011,
+            3042,
+            3081,
+            3242,
+            3376,
+            3536,
+            3553,
+            3565,
+            3578,
+            3586,
+            3596,
+            3818,
+            3838,
+            4007,
+            4049,
+            4111,
+            4173,
+            4241,
+            4242,
+            4311
+          ],
+          "known_core_overlaps": [
+            0,
+            59
+          ],
+          "path": "experiments/2026-10-04/heterogeneous-core-pool/elite/best-00-h5.txt",
+          "profile": {
+            "degree_histogram": [
+              [
+                20,
+                16
+              ]
+            ],
+            "holes": [
+              279,
+              289,
+              307,
+              311,
+              497
+            ],
+            "pair_histogram": [
+              [
+                4,
+                1
+              ],
+              [
+                5,
+                90
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                7,
+                12
+              ]
+            ],
+            "triple_histogram": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                494
+              ],
+              [
+                2,
+                56
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                7,
+                4
+              ]
+            ]
+          },
+          "sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+          "verifiers": {
+            "package": {
+              "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/elite-saved-0-package.json",
+              "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+            },
+            "standalone": {
+              "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/elite-saved-0-standalone.json",
+              "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+            }
+          }
+        }
+      ],
+      "status": "FEASIBLE"
+    },
+    {
+      "best_holes": 5,
+      "final": {
+        "ids": [
+          9,
+          17,
+          25,
+          35,
+          45,
+          70,
+          74,
+          698,
+          720,
+          761,
+          814,
+          876,
+          960,
+          999,
+          1133,
+          1135,
+          1172,
+          1211,
+          1251,
+          1356,
+          1689,
+          1727,
+          1780,
+          1801,
+          1876,
+          1978,
+          1991,
+          2080,
+          2145,
+          2161,
+          2221,
+          2300,
+          2347,
+          2385,
+          2447,
+          2459,
+          2490,
+          2593,
+          2722,
+          2737,
+          2802,
+          2889,
+          2918,
+          2990,
+          3011,
+          3042,
+          3081,
+          3242,
+          3376,
+          3536,
+          3553,
+          3565,
+          3586,
+          3596,
+          3599,
+          3818,
+          3838,
+          4007,
+          4042,
+          4049,
+          4111,
+          4173,
+          4241,
+          4242
+        ],
+        "known_core_overlaps": [
+          0,
+          59
+        ],
+        "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/expanded-final-response.txt",
+        "profile": {
+          "degree_histogram": [
+            [
+              19,
+              3
+            ],
+            [
+              20,
+              10
+            ],
+            [
+              21,
+              3
+            ]
+          ],
+          "holes": [
+            279,
+            289,
+            307,
+            311,
+            497
+          ],
+          "pair_histogram": [
+            [
+              4,
+              2
+            ],
+            [
+              5,
+              89
+            ],
+            [
+              6,
+              16
+            ],
+            [
+              7,
+              13
+            ]
+          ],
+          "triple_histogram": [
+            [
+              0,
+              5
+            ],
+            [
+              1,
+              494
+            ],
+            [
+              2,
+              56
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              4
+            ]
+          ]
+        },
+        "saved_seed_common_blocks": {
+          "g1-best-17": 56,
+          "g1-initial-13": 58,
+          "g5-raw-17": 8,
+          "g5-score-19": 7,
+          "native-cycle-12": 56,
+          "regular-5": 61,
+          "regular-8": 0,
+          "sqs-23": 0,
+          "unrestricted-new-3": 60,
+          "unrestricted-old-3": 0
+        },
+        "sha256": "5b5853a038051737e016ef7b6196c7fe75b3ff6c8a447a996d2b8db132f01aba",
+        "verifiers": {
+          "package": {
+            "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/expanded-final-response-package.json",
+            "sha256": "6212c5f08e2d52b6630e8f9a3e078f2901089a6ff27d61da8818f55e33b26354"
+          },
+          "standalone": {
+            "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/expanded-final-response-standalone.json",
+            "sha256": "35ace168eb0203c349b06aa1624cd1b43a0d7979243ab34c05066969d0cb5854"
+          }
+        }
+      },
+      "name": "expanded",
+      "objective_bound": 0.0,
+      "observed_seconds": 30.003866750048473,
+      "response_wall_time": 30.004074000000003,
+      "saved": [
+        {
+          "ids": [
+            3,
+            9,
+            17,
+            25,
+            35,
+            70,
+            74,
+            698,
+            720,
+            761,
+            814,
+            876,
+            960,
+            999,
+            1133,
+            1135,
+            1172,
+            1211,
+            1251,
+            1356,
+            1689,
+            1727,
+            1780,
+            1801,
+            1876,
+            1978,
+            1991,
+            2080,
+            2145,
+            2161,
+            2221,
+            2300,
+            2347,
+            2385,
+            2447,
+            2459,
+            2490,
+            2593,
+            2722,
+            2737,
+            2802,
+            2889,
+            2918,
+            2990,
+            3011,
+            3042,
+            3081,
+            3242,
+            3376,
+            3536,
+            3553,
+            3565,
+            3578,
+            3586,
+            3596,
+            3818,
+            3838,
+            4007,
+            4049,
+            4111,
+            4173,
+            4241,
+            4242,
+            4311
+          ],
+          "known_core_overlaps": [
+            0,
+            59
+          ],
+          "path": "experiments/2026-10-04/heterogeneous-core-pool/expanded/best-00-h5.txt",
+          "profile": {
+            "degree_histogram": [
+              [
+                20,
+                16
+              ]
+            ],
+            "holes": [
+              279,
+              289,
+              307,
+              311,
+              497
+            ],
+            "pair_histogram": [
+              [
+                4,
+                1
+              ],
+              [
+                5,
+                90
+              ],
+              [
+                6,
+                17
+              ],
+              [
+                7,
+                12
+              ]
+            ],
+            "triple_histogram": [
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                494
+              ],
+              [
+                2,
+                56
+              ],
+              [
+                6,
+                1
+              ],
+              [
+                7,
+                4
+              ]
+            ]
+          },
+          "sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+          "verifiers": {
+            "package": {
+              "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/expanded-saved-0-package.json",
+              "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+            },
+            "standalone": {
+              "path": "experiments/2026-10-04/heterogeneous-core-pool-independent/expanded-saved-0-standalone.json",
+              "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+            }
+          }
+        }
+      ],
+      "status": "FEASIBLE"
+    }
+  ],
+  "checker_sha256": "0f2b708e60dea5e4124034cc6c4fc2fed62177bb5f7c800de35358f6c31530f4",
+  "damaged_controls_rejected": [
+    "selected_block",
+    "hole_bit",
+    "objective",
+    "status"
+  ],
+  "gate_checker_sha256": "b27be72f120f96b2a227415d025bace6fa8ec6ed3a1ab27006244bf5ac0e86c2",
+  "gate_sha256": "8eeb0b088ee7d592256d7f4bf6515e193b65734d0b3e53509de9e2f8ca73205b",
+  "manifest_sha256": "9014372202dd8e31347f19f2b1cc53d23dace48e135605815778d07b9c30bd46",
+  "optimizer_calls": 0,
+  "passed": true,
+  "raw_sha256": {
+    "elite-model.pbtxt": "31518a6fd73f8dde62de7b6cd0a66d6b7dd60cb0a2026c99614a4263081c662a",
+    "elite-parameters.pbtxt": "22e1c70dc76a3697829d5c94ba2544bcb2a4eea551fc5df0e2ac8c1f0a79ec7f",
+    "elite-response.pbtxt": "342d01e72e69d24e6e3eb01823e20271cd20132628be447943d315bb49294bd0",
+    "elite-solver.log": "5c6b09949b0024a19acd337d5d0cea67b5ba52d4f1def153b1f02a58bf8584af",
+    "expanded-model.pbtxt": "760783dee100c55c6759d25fe95fc171e89565b4fdc2b2b8fb74af3d2c84df50",
+    "expanded-parameters.pbtxt": "20128d808af43ea5011ba2d76e6f4874542bf6a5dc0d621b467f47014aeaa93f",
+    "expanded-response.pbtxt": "9030a21aa3dead163373449b7fcd6d36a8d60ed73e9fd81602d338691e156b8f",
+    "expanded-solver.log": "ad371f56d9c52cb962eb21f8c7c43e5cd069458a12315272943dcd425760dc27",
+    "start.json": "8a2bb3fcf05579dfbb9ea4b198a44f261e5df4be0f3bc3b0f1064d0b0a71ab4a",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "de8c9da9ebd95cfc4f619dd6796f8469af434e8d96e97d039f6594884590371b"
+  },
+  "result_sha256": "fa478f72ef339129e6b187d6c3ac2e49bdc22e853e083c3a52fa11822cebed1e",
+  "scope": "Restricted pools with two declared core-avoidance rows; no unrestricted claim."
+}

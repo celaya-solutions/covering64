@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "28830dbc6cb1554505d27d2480d80fba53ad5890e357181c56ae4f9fbb4a7dbc",
+  "independent_basis_sha256": "f9b63cee70ea8c73d74d0414ac2ac608edfd2dbc3a1066a48e5e78b1bdc3bc6a",
+  "extraction_result_sha256": "9dc53f8415338939ff4f726e3b51e2945e9b38104beb1774191047315cefb97b",
+  "bundle_path": "experiments/scratch/g1-whole-link-certificates-20261004/all-g1-cuts.json",
+  "bundle_sha256": "66d8c72e63c6db542a09e73e64b89620b59e2c1b38758a461110ac29b495aab4",
+  "family_sha256": "2d14cafb6016203749ea63052913afc4af28800daaf5fc62ec6c459fc43aac32",
+  "graph_index": 1,
+  "replayed_graph_specific_planes": 1000,
+  "prior_planes": 243,
+  "new_positive_certificates": 757,
+  "broad_planes_kept_separate": 353,
+  "prior_screen_audit_sha256": "3c21248118eca470372c1ed508593b3a31b206fe7bdfd503fcb619c5b4aef699",
+  "pool_postcheck_sha256": "54f780601e9f99e7f6bf93028ad1a1ec9290505d7305255f8211e6e8465f7079",
+  "enumeration_sha256": "cb02a8c6b1f67ff310911918cd5e8a1334c6e5bdc1f87bd1b0b971bdb5c76fc5",
+  "finite_whole_link_states": 100076,
+  "prior_positive_envelope_states": 99319,
+  "new_positive_source_states": 757,
+  "finite_whole_link_excluded": true,
+  "minimum_new_source_gap": {
+    "id": "g1-whole-link-rank648",
+    "gap": [
+      165832,
+      15625
+    ]
+  },
+  "negative_controls_rejected": [
+    "duplicate_weight_row",
+    "damaged_heavy_coefficient",
+    "oversized_weight",
+    "duplicate_block"
+  ],
+  "scope": "Exact arithmetic excludes only all 100076 registry-safe fixed-g1 whole-link states in the independently enumerated neighborhood of the saved incumbent. The prior 99319 positive states use the hash-bound earlier exact screen. No whole-family exclusion, elastic local optimum, or unrestricted covering bound."
+}

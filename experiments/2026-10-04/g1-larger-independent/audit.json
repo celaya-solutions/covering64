@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "e63205e7bfe6ce4feabf05eaf08f74f541b54cd5dfa32727ded7102f979a5b70",
+  "conditional_bundle_sha256": "4b17582c89e35853dcec061639886bb35c708ba91a9dc64a0a0667ae71755873",
+  "envelope_results_sha256": "f1aad5b38d7f719154381304ebfd69bfc0f1ebb79c4ab1d36d7c594f5af761c7",
+  "conditional_planes": 243,
+  "broad_planes": 353,
+  "graph_index": 1,
+  "whole_link_survivors": 757,
+  "whole_link_pool_path": "experiments/scratch/g1-next-route-plan-20261004/whole-link-unexcluded.json.gz",
+  "whole_link_pool_sha256": "761357ff4e4fc04deeb09eadab3525ae648355ee604c9bbd3e5a477f7b0e6265",
+  "all_pool_states_uncached": true,
+  "incumbent_exact_upper": [
+    1083820503614771791,
+    144115188075855872
+  ],
+  "enumeration_sha256": "cb02a8c6b1f67ff310911918cd5e8a1334c6e5bdc1f87bd1b0b971bdb5c76fc5",
+  "neighborhoods": {
+    "proper-three": {
+      "states": 580,
+      "g1_positive": 580,
+      "combined_positive": 580,
+      "unexcluded": 0,
+      "pruned_against_incumbent": 488,
+      "states_sha256": "25f6e52ea556cd43289c489c14fec8d0a1fbcb03ed9e48bcfecd276522694752",
+      "scores_sha256": "01ba5d0bd805d251b4301c0f01bedbf36cc76c3ff9d82d1e238ac22c80d4bc6a"
+    },
+    "paired-two": {
+      "states": 5541,
+      "g1_positive": 5541,
+      "combined_positive": 5541,
+      "unexcluded": 0,
+      "pruned_against_incumbent": 4737,
+      "states_sha256": "e15deb018f931e0f3eeab99dce41bda7f265f5564f9477d95a0bd12fb8da40aa",
+      "scores_sha256": "d223e6a04ffc459c281dbbe3805ab9b7d2c411449df5414dabf2197538d0dba1"
+    },
+    "whole-link": {
+      "states": 100076,
+      "g1_positive": 99315,
+      "combined_positive": 99319,
+      "unexcluded": 757,
+      "pruned_against_incumbent": 24685,
+      "states_sha256": "f7071003d2ce34f78f17371880804d15865584e6f50f3219a014d4aa34a0941e",
+      "scores_sha256": "bb4c08567a25e7cd1a9b04227e8254b3904fe544acc99296a0b98e2b8a88725e"
+    }
+  },
+  "scope": "Exact positive envelopes exclude only the tested finite fixed-graph-one heavy patterns. No full-family exclusion or unrestricted bound is claimed."
+}

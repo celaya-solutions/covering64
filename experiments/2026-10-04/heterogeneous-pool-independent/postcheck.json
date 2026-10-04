@@ -1,0 +1,239 @@
+{
+  "cases": [
+    {
+      "configured_seconds": 30,
+      "final_response_path": "experiments/2026-10-04/heterogeneous-pool-independent/elite-final-response.txt",
+      "final_response_profile": {
+        "degree_histogram": [
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            21,
+            2
+          ]
+        ],
+        "holes": [
+          17,
+          50,
+          219
+        ],
+        "pair_histogram": [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            90
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            12
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            498
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "final_response_same_as_initial_hint": false,
+      "final_response_sha256": "b01d7f6c170c3a99cdbfda05ba4772c6b2572c71a499e2af38462022f6f400c8",
+      "final_response_verifiers": {
+        "package": {
+          "path": "experiments/2026-10-04/heterogeneous-pool-independent/elite-final-response-package.json",
+          "sha256": "4393cbea3b11c1fe300e7c97d449f7065f7fc54faf30ae5e20eeaee52e1e6286"
+        },
+        "standalone": {
+          "path": "experiments/2026-10-04/heterogeneous-pool-independent/elite-final-response-standalone.json",
+          "sha256": "8b919306de55b72339b525e3c1af826ab6f83c016396c66e816cdb7ac84f6d4a"
+        }
+      },
+      "holes": 3,
+      "known_core_overlaps": {
+        "unrestricted-new-3": 0,
+        "unrestricted-old-3": 60
+      },
+      "matching_histogram_sources": [],
+      "name": "elite",
+      "objective_bound": 0,
+      "observed_seconds": 30.010944165987894,
+      "response_wall_time": 30.007849,
+      "saved_best_same_as_initial_hint": true,
+      "saved_seed_common_blocks": {
+        "g1-best-17": 0,
+        "g1-initial-13": 0,
+        "g5-raw-17": 1,
+        "g5-score-19": 1,
+        "native-cycle-12": 0,
+        "regular-5": 0,
+        "regular-8": 57,
+        "sqs-23": 1,
+        "unrestricted-new-3": 0,
+        "unrestricted-old-3": 61
+      },
+      "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "status": "FEASIBLE",
+      "workers": 4
+    },
+    {
+      "configured_seconds": 30,
+      "final_response_path": "experiments/2026-10-04/heterogeneous-pool-independent/expanded-final-response.txt",
+      "final_response_profile": {
+        "degree_histogram": [
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            21,
+            2
+          ]
+        ],
+        "holes": [
+          157,
+          158,
+          473
+        ],
+        "pair_histogram": [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            90
+          ],
+          [
+            6,
+            17
+          ],
+          [
+            7,
+            12
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            498
+          ],
+          [
+            2,
+            54
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "final_response_same_as_initial_hint": false,
+      "final_response_sha256": "92c1d1e9019978b9ecf00916ff11c047eb9f3f70a5150e53074189d56fe2db52",
+      "final_response_verifiers": {
+        "package": {
+          "path": "experiments/2026-10-04/heterogeneous-pool-independent/expanded-final-response-package.json",
+          "sha256": "9080d598440898fd282d09c10785eb936cf52fd45b9698c4405c4b545a3fd50b"
+        },
+        "standalone": {
+          "path": "experiments/2026-10-04/heterogeneous-pool-independent/expanded-final-response-standalone.json",
+          "sha256": "3da8b08c707645aac512e3f8bb7dea211b87f078dd0f3775785985146287ce05"
+        }
+      },
+      "holes": 3,
+      "known_core_overlaps": {
+        "unrestricted-new-3": 1,
+        "unrestricted-old-3": 60
+      },
+      "matching_histogram_sources": [],
+      "name": "expanded",
+      "objective_bound": 0,
+      "observed_seconds": 30.002212124993093,
+      "response_wall_time": 30.002290000000002,
+      "saved_best_same_as_initial_hint": true,
+      "saved_seed_common_blocks": {
+        "g1-best-17": 1,
+        "g1-initial-13": 1,
+        "g5-raw-17": 2,
+        "g5-score-19": 2,
+        "native-cycle-12": 1,
+        "regular-5": 1,
+        "regular-8": 55,
+        "sqs-23": 1,
+        "unrestricted-new-3": 1,
+        "unrestricted-old-3": 62
+      },
+      "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "status": "FEASIBLE",
+      "workers": 4
+    }
+  ],
+  "checker_sha256": "5a0053142244ce78e4f516cc7509554f86530357ce16e48cad1c0216d84734bc",
+  "damaged_controls_rejected": [
+    "selected_block",
+    "hole_bit",
+    "objective",
+    "bound",
+    "status"
+  ],
+  "gate_sha256": "dca88a0300c5b4296600aafbe758e7a91f9fe8c2a685df6b168fec917dcc791a",
+  "independent_gate_checker_sha256": "7401e44ed7378ff58e8ef5eb3921062be806f9c196c8418c96e092501a2bae37",
+  "manifest_sha256": "14667a9bde607660cc2bc4f2d38dc6464ae8ab975559b5f1e0b91a2b0d15564d",
+  "optimizer_calls": 0,
+  "passed": true,
+  "raw_sha256": {
+    "elite-model.pbtxt": "93986d39b5260c7d312a79197b7fce22356cf6369f34160a2b6a21aa445c55dc",
+    "elite-parameters.pbtxt": "22e1c70dc76a3697829d5c94ba2544bcb2a4eea551fc5df0e2ac8c1f0a79ec7f",
+    "elite-response.pbtxt": "1f640ab960c4c5f95f9dbb1cec83562030e1157fc2c5e38413eae555c29cc3c4",
+    "elite-solver.log": "70402bc1db8697dd51584601c1407108909e5c6a982e87564b35b05d9c7069d3",
+    "expanded-model.pbtxt": "822de1be0d77b74d4bfcbdfb01529ca2c509a211f670869c9682ba96a88efdd0",
+    "expanded-parameters.pbtxt": "20128d808af43ea5011ba2d76e6f4874542bf6a5dc0d621b467f47014aeaa93f",
+    "expanded-response.pbtxt": "beedd5104ee86683609f0bc5a8443d448506b348bba5022ea5446e00acddb522",
+    "expanded-solver.log": "f80754585c7a04c8b62289552b3e625cc6f5a9d7164e7e77b326476747c7f130",
+    "start.json": "2d554cad1c9d81c00e297fa0607e31dea7a878bc51840e7835fcb488bcab8d1a",
+    "stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.log": "c9238802a0f4d00b9747cc48d47be8642938053a1e17ac8b480daa673aae5f6a"
+  },
+  "result_sha256": "2864641d58b22dd77c90860a2f91eaf004a352a139a20740c1cede813b1d1e77",
+  "scope": "No improvement. FEASIBLE with bound zero leaves both pools inconclusive.",
+  "verifiers_sha256": "2e383b5135c120f7db04c7a2db16fbccb9039430f69d769c9d9ad8ba3395587f"
+}

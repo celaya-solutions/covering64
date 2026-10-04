@@ -1,0 +1,73 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "a306da6921d6bbe2333794b35836a7e68337971f4dd8fb1ab6709e888dc6bf1e",
+  "independent_basis_sha256": "b079536fc7dabf35a630db6536cfaf92c7af762555e12c57dbebe17ac45d6b29",
+  "gate_sha256": "22e0550f3f4a4092f75ccae7b14f85329c0ff251887e1814ce0b3299b6a78683",
+  "result_sha256": "a1e8fd215b0f279fba5b19ebcb50915754e4a055bc3fe360fb3504ed198abae0",
+  "rounds": [
+    {
+      "round": 1,
+      "generated": 128,
+      "accepted": 88,
+      "rejected": 40,
+      "evaluated": 88,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 11.500690015970484,
+      "minimum_residual_recounted": 9.533204639679708
+    },
+    {
+      "round": 2,
+      "generated": 128,
+      "accepted": 88,
+      "rejected": 40,
+      "evaluated": 88,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 9.533204639679104,
+      "minimum_residual_recounted": 9.448398722490648
+    },
+    {
+      "round": 3,
+      "generated": 128,
+      "accepted": 93,
+      "rejected": 35,
+      "evaluated": 93,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 9.448398722490406,
+      "minimum_residual_recounted": 8.818415543401947
+    },
+    {
+      "round": 4,
+      "generated": 128,
+      "accepted": 105,
+      "rejected": 23,
+      "evaluated": 105,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 8.818415543401665,
+      "minimum_residual_recounted": 8.152937802509532
+    },
+    {
+      "round": 5,
+      "generated": 128,
+      "accepted": 105,
+      "rejected": 23,
+      "evaluated": 105,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 8.152937802508724,
+      "minimum_residual_recounted": 8.279923931332881
+    }
+  ],
+  "fresh": 465,
+  "cached": 14,
+  "solver_seconds": 61.726965584093705,
+  "wall_seconds": 68.66431654104963,
+  "initial_objective": 11.500690015970484,
+  "best_objective": 8.152937802508724,
+  "stop_reason": "complete_accepted_neighborhood_no_improvement",
+  "scope": "Fixed graph5, registry-admissible two-edge neighborhoods. Numerical LP objectives and local comparisons do not prove a global bound."
+}

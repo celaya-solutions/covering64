@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "source_sha256": "933622a8a2935d0aa605e637e4d22d3707e6be62156388c808e3b879bc3f5842",
+  "manifest_sha256": "e3739d2b3a40d9bd8db1218fb662d6a816bb475689576e1ea6ab6b31885981c8",
+  "checker_sha256": "10d4c1c2c3aab08de3c61e7beffb2a7c9a5aa7b0cf08ea3a874579a1ad0cefd8",
+  "master_sha256": "897b19ca1405688ba112feefa8ecd19190a886eed5f96964d52b87df30b7b06f",
+  "certificate_audit_sha256": "86027969b0657515620bda85fced69bcb68783b23724a5fca59114fa736ffdb3",
+  "family_sha256": "2d14cafb6016203749ea63052913afc4af28800daaf5fc62ec6c459fc43aac32",
+  "graph_index": 1,
+  "master_variables": 276,
+  "master_rows": 1977,
+  "base_rows": 605,
+  "broad_cuts": 353,
+  "g1_cuts": 1000,
+  "registry_nogoods": 19,
+  "baseline_residual_recounted": 7.520515485462193,
+  "damaged_controls_rejected": 2,
+  "objective": "28 minus overlap with frozen baseline; no radius constraint",
+  "source_review": [
+    "Registry is checked before LP; each rejected link adds a g1-only seven-block nogood",
+    "Master objective stays fixed at original baseline throughout the run",
+    "All learned signed-row planes use exact fixed-g1 rows and remain g1-only",
+    "One worker, 2s/master, 1s/LP, 150 proposals and 50 admitted LP maxima",
+    "Pre-master guards116.8solver/153wall and pre-LP guards118.9solver/156wall",
+    "UNKNOWN and all master stops without candidates are inconclusive",
+    "Stop on recovered exact primal, unresolved zero, unresolved exact cut or LP"
+  ],
+  "scope": "Preparation only; no optimization or full-family exclusion claim."
+}

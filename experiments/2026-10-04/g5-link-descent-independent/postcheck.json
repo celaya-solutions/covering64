@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "abc16807d2d5d3beba3fbb18ce8b357ea0e8cd5a4759282f9e917514861c4557",
+  "independent_basis_sha256": "b079536fc7dabf35a630db6536cfaf92c7af762555e12c57dbebe17ac45d6b29",
+  "gate_sha256": "a7db2b9e3d46229438412b3833f26fbdbc6feadbcccdb5491ab7bc6fed195313",
+  "result_sha256": "181a8513ba88dbf42d0d8ae08943d39071f70b637e65e0b811af91a05508a240",
+  "rounds": [
+    {
+      "round": 1,
+      "generated": 127,
+      "accepted": 86,
+      "rejected": 41,
+      "evaluated": 86,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 15.06922063054413,
+      "minimum_residual_recounted": 13.221637797152955
+    },
+    {
+      "round": 2,
+      "generated": 128,
+      "accepted": 86,
+      "rejected": 42,
+      "evaluated": 86,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 13.221637797152143,
+      "minimum_residual_recounted": 12.594498845065564
+    },
+    {
+      "round": 3,
+      "generated": 128,
+      "accepted": 84,
+      "rejected": 44,
+      "evaluated": 84,
+      "complete": true,
+      "all_optimal": true,
+      "incumbent_objective": 12.594498845064832,
+      "minimum_residual_recounted": 11.50069001597086
+    }
+  ],
+  "fresh": 253,
+  "cached": 3,
+  "solver_seconds": 33.94579962082207,
+  "wall_seconds": 38.15049670799635,
+  "initial_objective": 15.06922063054413,
+  "best_objective": 11.500690015970484,
+  "stop_reason": "round_limit",
+  "scope": "Fixed graph5, registry-admissible two-edge neighborhoods. Numerical LP objectives and local comparisons do not prove a global bound."
+}

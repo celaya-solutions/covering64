@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "47e55f7a5e8bee00263bd2aa1fdd54c320d8ba4a6cd727bf66e2406c027685ca",
+  "independent_basis_sha256": "f9b63cee70ea8c73d74d0414ac2ac608edfd2dbc3a1066a48e5e78b1bdc3bc6a",
+  "source_result_sha256": "cb4f322921b64eab8eba21b13a870d97e067c8e84f15f4b95f07c618bdf88ea6",
+  "best_heavy_global_ids": [
+    3,
+    9,
+    15,
+    27,
+    35,
+    70,
+    74,
+    814,
+    876,
+    1356,
+    1876,
+    2300,
+    2347,
+    2593,
+    3011,
+    3042,
+    3081,
+    3575,
+    3578,
+    3586,
+    3596,
+    3839,
+    3901,
+    4042,
+    4048,
+    4173,
+    4241,
+    4242
+  ],
+  "states_archive_sha256": "f6c9e4ba1c033636221e43b2c4a67bd3ff03cc264f4f60f0cf420167fd7543de",
+  "neighborhoods": {
+    "proper_three": {
+      "raw": 980,
+      "in_heavy_universe": 660,
+      "passes_triple_cap": 660,
+      "registry_safe_unique": 580,
+      "sorted_local_states_sha256": "61dbcf3f4a4f05c7115000991b31f38233638700ec52e200c526ec86892ba293"
+    },
+    "paired_two": {
+      "raw": 9600,
+      "in_heavy_universe": 6936,
+      "passes_triple_cap": 6900,
+      "registry_safe_unique": 5541,
+      "sorted_local_states_sha256": "a945b1f97bda23dd7df6cc34d3cfbe26cc375e2cdeb12cbc9e1ed60fde91b8cc"
+    },
+    "whole_link": {
+      "raw": 249480,
+      "in_heavy_universe": 119880,
+      "passes_triple_cap": 119876,
+      "unchanged": 4,
+      "registry_safe_unique": 100076,
+      "sorted_local_states_sha256": "09f2070bbdf4d2cd0a166f66854867a94da209274855d91fd79ca766a87c473e"
+    }
+  },
+  "scope": "Finite graph-one neighborhoods of the current branch best only."
+}

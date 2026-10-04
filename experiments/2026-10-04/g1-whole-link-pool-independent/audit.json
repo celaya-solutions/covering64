@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "a815d5da8c14522f14427d7637db3fb7d75981bc5c7e5e83131225b35281f5d4",
+  "helper_sha256": "f9b63cee70ea8c73d74d0414ac2ac608edfd2dbc3a1066a48e5e78b1bdc3bc6a",
+  "source_sha256": "220386476020f471177bfc078b2de2e803bf068fee8a8c62ba9c47551edd0483",
+  "manifest_sha256": "52e63eb8ab8dcdfb33a92e6f31a318161d3328a5acb88e10804e286e219c659e",
+  "screen_audit_sha256": "3c21248118eca470372c1ed508593b3a31b206fe7bdfd503fcb619c5b4aef699",
+  "pool_sha256": "409debe61a11a09e0b9ddae024392a63ec3afef23dde64f18068d113066bf57d",
+  "inventory_sha256": "34c7145db665a1a58ed7fc3a8e4503a49ad6d216ea3c12535b5914013c38e5ec",
+  "pool_count": 757,
+  "shifted_rows_checked": 527629,
+  "registry_links_checked": 3028,
+  "cached_candidates": 0,
+  "distances": {
+    "6": 72,
+    "7": 685
+  },
+  "baseline_residual_recounted": 7.520515485462193,
+  "source_review": [
+    "Only frozen inventory entries are solved; no candidate expansion or cache reuse",
+    "Same one-worker one-second GLOP helper and fixed graph-one completion model",
+    "Stop before158.9 solver seconds or195 wall seconds; assert160/200 totals",
+    "Immediately stop at numerical zero after bounded exact-primal attempts",
+    "UNKNOWN/timeouts remain inconclusive; no integer-cover or global-bound claim"
+  ]
+}

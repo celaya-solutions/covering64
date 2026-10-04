@@ -1,0 +1,487 @@
+{
+  "budget": {
+    "cases": 2,
+    "seconds_per_case": 30,
+    "workers": 4
+  },
+  "checker_sha256": "7401e44ed7378ff58e8ef5eb3921062be806f9c196c8418c96e092501a2bae37",
+  "damaged_controls_rejected": [
+    "cardinality",
+    "membership_coefficient",
+    "membership_domain",
+    "coverage_coefficient",
+    "coverage_lower",
+    "hole_zero_domain",
+    "hole_polarity",
+    "hint_block",
+    "hint_hole",
+    "objective_weight",
+    "variable_domain",
+    "block_order",
+    "duplicate_block",
+    "missing_block",
+    "extra_block",
+    "duplicate_label",
+    "outside_label",
+    "short_block",
+    "noninteger_label"
+  ],
+  "manifest_sha256": "14667a9bde607660cc2bc4f2d38dc6464ae8ab975559b5f1e0b91a2b0d15564d",
+  "models": [
+    {
+      "hint_holes": 3,
+      "linear_rows": 1122,
+      "model_sha256": "93986d39b5260c7d312a79197b7fce22356cf6369f34160a2b6a21aa445c55dc",
+      "name": "elite",
+      "pool_size": 277,
+      "support_histogram": [
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          40
+        ],
+        [
+          4,
+          205
+        ],
+        [
+          5,
+          176
+        ],
+        [
+          6,
+          98
+        ],
+        [
+          7,
+          23
+        ],
+        [
+          8,
+          4
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          19,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          25,
+          1
+        ]
+      ],
+      "variables": 4928
+    },
+    {
+      "hint_holes": 3,
+      "linear_rows": 1122,
+      "model_sha256": "822de1be0d77b74d4bfcbdfb01529ca2c509a211f670869c9682ba96a88efdd0",
+      "name": "expanded",
+      "pool_size": 337,
+      "support_histogram": [
+        [
+          2,
+          1
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          4,
+          89
+        ],
+        [
+          5,
+          131
+        ],
+        [
+          6,
+          159
+        ],
+        [
+          7,
+          86
+        ],
+        [
+          8,
+          42
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          2
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          20,
+          1
+        ],
+        [
+          22,
+          1
+        ],
+        [
+          25,
+          1
+        ]
+      ],
+      "variables": 4928
+    }
+  ],
+  "optimizer_calls": 0,
+  "pairwise_common_blocks": [
+    [
+      64,
+      0,
+      0,
+      54,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      64,
+      63,
+      0,
+      1,
+      57,
+      58,
+      56,
+      7,
+      7
+    ],
+    [
+      0,
+      63,
+      64,
+      0,
+      1,
+      58,
+      59,
+      57,
+      8,
+      8
+    ],
+    [
+      54,
+      0,
+      0,
+      64,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      64,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      57,
+      58,
+      0,
+      2,
+      64,
+      55,
+      54,
+      7,
+      7
+    ],
+    [
+      0,
+      58,
+      59,
+      0,
+      1,
+      55,
+      64,
+      62,
+      10,
+      9
+    ],
+    [
+      0,
+      56,
+      57,
+      0,
+      1,
+      54,
+      62,
+      64,
+      10,
+      9
+    ],
+    [
+      1,
+      7,
+      8,
+      1,
+      0,
+      7,
+      10,
+      10,
+      64,
+      52
+    ],
+    [
+      1,
+      7,
+      8,
+      1,
+      0,
+      7,
+      9,
+      9,
+      52,
+      64
+    ]
+  ],
+  "passed": true,
+  "random_additions_replayed": true,
+  "scope": "Two restricted block pools only; no unrestricted infeasibility claim.",
+  "source_degree_histograms": [
+    [
+      [
+        19,
+        3
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        21,
+        3
+      ]
+    ],
+    [
+      [
+        19,
+        1
+      ],
+      [
+        20,
+        14
+      ],
+      [
+        21,
+        1
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ],
+    [
+      [
+        19,
+        3
+      ],
+      [
+        20,
+        10
+      ],
+      [
+        21,
+        3
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ],
+    [
+      [
+        20,
+        16
+      ]
+    ]
+  ],
+  "source_holes": [
+    3,
+    3,
+    5,
+    8,
+    23,
+    12,
+    13,
+    17,
+    17,
+    19
+  ],
+  "source_sha256": "66eaf50623714c493cd9873a7ca71e3b1514415bf48df2c94dd8aed151f1dfbd",
+  "verifier_receipts": [
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/unrestricted-old-3-package.json",
+      "sha256": "36b495a68db34092656ad3d57e4349677e500dc048bc9e429c9ecab29518693d"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/unrestricted-old-3-standalone.json",
+      "sha256": "522eb63a559a77ed4505cb58e33e11b991008d407c2905df8ea9faf12be0332e"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/unrestricted-new-3-package.json",
+      "sha256": "1ff2682b7c4f9bdd23ead63958b8c1cfa863c6934ed1c09cc9f6a6d3d61a44e7"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/unrestricted-new-3-standalone.json",
+      "sha256": "3bf3d3c55acc39be09094bda845b08736811dea2a4fec6c914760eda7641f07f"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/regular-5-package.json",
+      "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/regular-5-standalone.json",
+      "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/regular-8-package.json",
+      "sha256": "99bf6dd8df895c36e8a08058c03e7d2d4ce0fef65962bf41c4e8630016aa1a26"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/regular-8-standalone.json",
+      "sha256": "0a55744f508a21caafceb3a197215fb0e4eaba887fbea58c0f640b248c27e3ae"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/sqs-23-package.json",
+      "sha256": "4ffb9f5ebf14bd146a6e5560599aca59cc8d7ec60cdbb957e20543aa82eaa1bd"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/sqs-23-standalone.json",
+      "sha256": "ac052ca97271afd9f9423478ff88788ad63c2f64859042b148d38417246f7011"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/native-cycle-12-package.json",
+      "sha256": "beb62f70f12284dca9800dc3a07912986f513b092518ff5801b095cc1c3c53d0"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/native-cycle-12-standalone.json",
+      "sha256": "e1c7cf482fb6925817f5203433a97e1c53470bf5aeba99fb248a2e8bdae412d1"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g1-initial-13-package.json",
+      "sha256": "78e2fded5ea4e77aedd09bf3ce0c2773a7d405193f46c2f07bf08e7291b39af2"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g1-initial-13-standalone.json",
+      "sha256": "0a8a5921f9fe8c9643bc66d7bb74294e5ea710ef3bc8f8af288e4ba4855222d3"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g1-best-17-package.json",
+      "sha256": "cbedf78c1c47d085da8232608c3c4792fe61b83f46470cf98f99f5509002763d"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g1-best-17-standalone.json",
+      "sha256": "a12cc8079b168acfa4bc3ec114ec9722022eb2a7ad599080a832121e7aee63cd"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g5-raw-17-package.json",
+      "sha256": "e2b2069d07cbd942275746c3a1397fb12927698565beeca168e8c50bbf8450e8"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g5-raw-17-standalone.json",
+      "sha256": "c5d24ad7bab0cd2332500d6e4528329fcbcc875623d931265bfa46c815654ed4"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g5-score-19-package.json",
+      "sha256": "871c2a7bc7f2f78b4e44b72e447d953ef7ffe1e7f7238470a35077e1a07494b9"
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-pool-independent/g5-score-19-standalone.json",
+      "sha256": "a36c3f3e97cf79ea3c85006c60cc67162b92dcbe93a7e1d82cef0b5131bfd3ec"
+    }
+  ]
+}

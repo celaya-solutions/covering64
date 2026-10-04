@@ -1,0 +1,1207 @@
+{
+  "claim": "Ten 64-block partial states; no covering witness or lower-bound claim.",
+  "core_path": "experiments/2026-10-03/partial-core-holes/core.txt",
+  "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+  "entries": [
+    {
+      "blocks": 64,
+      "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "19": 3,
+        "20": 10,
+        "21": 3
+      },
+      "holes": 3,
+      "known_checked_core_map_images": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "name": "unrestricted-old-3",
+      "original_label_core_overlap": 60,
+      "pair_histogram": {
+        "4": 2,
+        "5": 89,
+        "6": 16,
+        "7": 13
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/unrestricted-old-3.txt",
+      "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "source_path": "experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "source_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "triple_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/unrestricted-old-3-package.json",
+          "sha256": "36b495a68db34092656ad3d57e4349677e500dc048bc9e429c9ecab29518693d"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/unrestricted-old-3-standalone.json",
+          "sha256": "522eb63a559a77ed4505cb58e33e11b991008d407c2905df8ea9faf12be0332e"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "5389846a1e0434406c377fa44751ccac96d78334c0286bb64a7beca46f395492",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "19": 1,
+        "20": 14,
+        "21": 1
+      },
+      "holes": 3,
+      "known_checked_core_map_images": [
+        1,
+        7,
+        2,
+        10,
+        15,
+        3,
+        8,
+        11,
+        4,
+        9,
+        12,
+        16,
+        14,
+        6,
+        5,
+        13
+      ],
+      "name": "unrestricted-new-3",
+      "original_label_core_overlap": 0,
+      "pair_histogram": {
+        "5": 92,
+        "6": 16,
+        "7": 12
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/unrestricted-new-3.txt",
+      "sha256": "5389846a1e0434406c377fa44751ccac96d78334c0286bb64a7beca46f395492",
+      "source_path": "experiments/2026-10-04/five-hole-unrestricted-repair/best.txt",
+      "source_sha256": "5389846a1e0434406c377fa44751ccac96d78334c0286bb64a7beca46f395492",
+      "triple_histogram": {
+        "0": 3,
+        "1": 498,
+        "2": 54,
+        "6": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          8,
+          12,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/unrestricted-new-3-package.json",
+          "sha256": "1ff2682b7c4f9bdd23ead63958b8c1cfa863c6934ed1c09cc9f6a6d3d61a44e7"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/unrestricted-new-3-standalone.json",
+          "sha256": "3bf3d3c55acc39be09094bda845b08736811dea2a4fec6c914760eda7641f07f"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 5,
+      "known_checked_core_map_images": null,
+      "name": "regular-5",
+      "original_label_core_overlap": 0,
+      "pair_histogram": {
+        "4": 1,
+        "5": 90,
+        "6": 17,
+        "7": 12
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/regular-5.txt",
+      "sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+      "source_path": "experiments/2026-10-04/lp-guided-best-lp/seed.txt",
+      "source_sha256": "8b9a64761c9547e15a82c9435e8a6837ffa05d34c12ae420533550ea2f1d6fc4",
+      "triple_histogram": {
+        "0": 5,
+        "1": 494,
+        "2": 56,
+        "6": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          4,
+          5,
+          11
+        ],
+        [
+          4,
+          6,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          8,
+          12,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/regular-5-package.json",
+          "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/regular-5-standalone.json",
+          "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "593cf12a08e57f9dcd4c213ef28c56892ef4efb052f80a479303ba3b37751f4b",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 8,
+      "known_checked_core_map_images": null,
+      "name": "regular-8",
+      "original_label_core_overlap": 54,
+      "pair_histogram": {
+        "5": 92,
+        "6": 16,
+        "7": 12
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/regular-8.txt",
+      "sha256": "593cf12a08e57f9dcd4c213ef28c56892ef4efb052f80a479303ba3b37751f4b",
+      "source_path": "experiments/2026-10-03/essential-regular-heuristic/pilot-2026100317-h8-u0-p0.txt",
+      "source_sha256": "593cf12a08e57f9dcd4c213ef28c56892ef4efb052f80a479303ba3b37751f4b",
+      "triple_histogram": {
+        "0": 8,
+        "1": 487,
+        "2": 60,
+        "6": 2,
+        "7": 3
+      },
+      "uncovered": [
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          3,
+          4,
+          13
+        ],
+        [
+          3,
+          10,
+          12
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          11,
+          12
+        ],
+        [
+          5,
+          6,
+          14
+        ],
+        [
+          5,
+          6,
+          15
+        ],
+        [
+          11,
+          13,
+          14
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/regular-8-package.json",
+          "sha256": "99bf6dd8df895c36e8a08058c03e7d2d4ce0fef65962bf41c4e8630016aa1a26"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/regular-8-standalone.json",
+          "sha256": "0a55744f508a21caafceb3a197215fb0e4eaba887fbea58c0f640b248c27e3ae"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "82b23d83e92f4c61c3c9fc6704b9cc1204122f4a928a48ab9d24712916ff7224",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "19": 3,
+        "20": 10,
+        "21": 3
+      },
+      "holes": 23,
+      "known_checked_core_map_images": null,
+      "name": "sqs-23",
+      "original_label_core_overlap": 1,
+      "pair_histogram": {
+        "4": 6,
+        "5": 73,
+        "6": 36,
+        "7": 5
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/sqs-23.txt",
+      "sha256": "82b23d83e92f4c61c3c9fc6704b9cc1204122f4a928a48ab9d24712916ff7224",
+      "source_path": "experiments/scratch/sqs-pool-heuristic-20261003/pilot-2026104021/native/best-23.txt",
+      "source_sha256": "82b23d83e92f4c61c3c9fc6704b9cc1204122f4a928a48ab9d24712916ff7224",
+      "triple_histogram": {
+        "0": 23,
+        "1": 445,
+        "2": 83,
+        "3": 8,
+        "5": 1
+      },
+      "uncovered": [
+        [
+          1,
+          3,
+          14
+        ],
+        [
+          1,
+          4,
+          8
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          12
+        ],
+        [
+          1,
+          7,
+          14
+        ],
+        [
+          2,
+          3,
+          7
+        ],
+        [
+          2,
+          5,
+          6
+        ],
+        [
+          2,
+          10,
+          12
+        ],
+        [
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          5,
+          13
+        ],
+        [
+          3,
+          5,
+          15
+        ],
+        [
+          3,
+          8,
+          10
+        ],
+        [
+          3,
+          15,
+          16
+        ],
+        [
+          4,
+          10,
+          13
+        ],
+        [
+          5,
+          7,
+          9
+        ],
+        [
+          5,
+          12,
+          13
+        ],
+        [
+          5,
+          13,
+          14
+        ],
+        [
+          6,
+          9,
+          13
+        ],
+        [
+          7,
+          12,
+          13
+        ],
+        [
+          10,
+          11,
+          15
+        ],
+        [
+          11,
+          12,
+          14
+        ],
+        [
+          11,
+          15,
+          16
+        ],
+        [
+          14,
+          15,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/sqs-23-package.json",
+          "sha256": "4ffb9f5ebf14bd146a6e5560599aca59cc8d7ec60cdbb957e20543aa82eaa1bd"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/sqs-23-standalone.json",
+          "sha256": "ac052ca97271afd9f9423478ff88788ad63c2f64859042b148d38417246f7011"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 12,
+      "known_checked_core_map_images": null,
+      "name": "native-cycle-12",
+      "original_label_core_overlap": 0,
+      "pair_histogram": {
+        "4": 4,
+        "5": 85,
+        "6": 18,
+        "7": 13
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/native-cycle-12.txt",
+      "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+      "source_path": "experiments/2026-10-03/four-seven-template-native-soft/cycle-raw-best.txt",
+      "source_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+      "triple_histogram": {
+        "0": 12,
+        "1": 480,
+        "2": 63,
+        "6": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          1,
+          5,
+          11
+        ],
+        [
+          2,
+          5,
+          11
+        ],
+        [
+          3,
+          9,
+          13
+        ],
+        [
+          3,
+          9,
+          15
+        ],
+        [
+          4,
+          5,
+          11
+        ],
+        [
+          4,
+          6,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          6,
+          10,
+          15
+        ],
+        [
+          6,
+          12,
+          14
+        ],
+        [
+          6,
+          12,
+          15
+        ],
+        [
+          8,
+          12,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/native-cycle-12-package.json",
+          "sha256": "beb62f70f12284dca9800dc3a07912986f513b092518ff5801b095cc1c3c53d0"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/native-cycle-12-standalone.json",
+          "sha256": "e1c7cf482fb6925817f5203433a97e1c53470bf5aeba99fb248a2e8bdae412d1"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "5edd95caaa54fd0ab9e07ab8270499ffefb4cebd49b1ae2eafe63310666156c3",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 13,
+      "known_checked_core_map_images": null,
+      "name": "g1-initial-13",
+      "original_label_core_overlap": 0,
+      "pair_histogram": {
+        "4": 6,
+        "5": 82,
+        "6": 18,
+        "7": 14
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g1-initial-13.txt",
+      "sha256": "5edd95caaa54fd0ab9e07ab8270499ffefb4cebd49b1ae2eafe63310666156c3",
+      "source_path": "experiments/2026-10-04/nearest-step038-g1-lp/seed.txt",
+      "source_sha256": "5edd95caaa54fd0ab9e07ab8270499ffefb4cebd49b1ae2eafe63310666156c3",
+      "triple_histogram": {
+        "0": 13,
+        "1": 478,
+        "2": 64,
+        "6": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          1,
+          5,
+          11
+        ],
+        [
+          1,
+          6,
+          9
+        ],
+        [
+          2,
+          5,
+          11
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          4,
+          5,
+          11
+        ],
+        [
+          4,
+          5,
+          13
+        ],
+        [
+          4,
+          5,
+          14
+        ],
+        [
+          4,
+          6,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          6,
+          12,
+          14
+        ],
+        [
+          6,
+          12,
+          15
+        ],
+        [
+          8,
+          12,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g1-initial-13-package.json",
+          "sha256": "78e2fded5ea4e77aedd09bf3ce0c2773a7d405193f46c2f07bf08e7291b39af2"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g1-initial-13-standalone.json",
+          "sha256": "0a8a5921f9fe8c9643bc66d7bb74294e5ea710ef3bc8f8af288e4ba4855222d3"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "7a3da8c47ba0fc12787fd9e05e9aeec2dda5e63c881e65d80298786d1beab323",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 17,
+      "known_checked_core_map_images": null,
+      "name": "g1-best-17",
+      "original_label_core_overlap": 0,
+      "pair_histogram": {
+        "4": 8,
+        "5": 78,
+        "6": 20,
+        "7": 14
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g1-best-17.txt",
+      "sha256": "7a3da8c47ba0fc12787fd9e05e9aeec2dda5e63c881e65d80298786d1beab323",
+      "source_path": null,
+      "source_sha256": null,
+      "triple_histogram": {
+        "0": 17,
+        "1": 470,
+        "2": 68,
+        "6": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          1,
+          5,
+          11
+        ],
+        [
+          1,
+          6,
+          9
+        ],
+        [
+          2,
+          5,
+          11
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          4,
+          5,
+          11
+        ],
+        [
+          4,
+          5,
+          13
+        ],
+        [
+          4,
+          5,
+          14
+        ],
+        [
+          4,
+          6,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          5,
+          9,
+          14
+        ],
+        [
+          5,
+          11,
+          14
+        ],
+        [
+          6,
+          9,
+          15
+        ],
+        [
+          6,
+          10,
+          15
+        ],
+        [
+          6,
+          12,
+          14
+        ],
+        [
+          6,
+          12,
+          15
+        ],
+        [
+          8,
+          12,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g1-best-17-package.json",
+          "sha256": "cbedf78c1c47d085da8232608c3c4792fe61b83f46470cf98f99f5509002763d"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g1-best-17-standalone.json",
+          "sha256": "a12cc8079b168acfa4bc3ec114ec9722022eb2a7ad599080a832121e7aee63cd"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 17,
+      "known_checked_core_map_images": null,
+      "name": "g5-raw-17",
+      "original_label_core_overlap": 1,
+      "pair_histogram": {
+        "4": 7,
+        "5": 80,
+        "6": 19,
+        "7": 14
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g5-raw-17.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "source_path": "experiments/2026-10-03/four-seven-template-native-soft/matching-raw-best.txt",
+      "source_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "triple_histogram": {
+        "0": 17,
+        "1": 469,
+        "2": 68,
+        "3": 1,
+        "4": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          1,
+          6,
+          15
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          8,
+          11
+        ],
+        [
+          1,
+          8,
+          12
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          2,
+          11,
+          15
+        ],
+        [
+          3,
+          7,
+          10
+        ],
+        [
+          3,
+          7,
+          13
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          5,
+          9,
+          15
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          10,
+          16
+        ],
+        [
+          8,
+          11,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g5-raw-17-package.json",
+          "sha256": "e2b2069d07cbd942275746c3a1397fb12927698565beeca168e8c50bbf8450e8"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g5-raw-17-standalone.json",
+          "sha256": "c5d24ad7bab0cd2332500d6e4528329fcbcc875623d931265bfa46c815654ed4"
+        }
+      }
+    },
+    {
+      "blocks": 64,
+      "canonical_sha256": "cf7d58181497c229fec8d0dec728ca90515ddb643cab82e8e7fb08ce3a8f5b1a",
+      "core_search_performed": false,
+      "degree_histogram": {
+        "20": 16
+      },
+      "holes": 19,
+      "known_checked_core_map_images": null,
+      "name": "g5-score-19",
+      "original_label_core_overlap": 1,
+      "pair_histogram": {
+        "4": 2,
+        "5": 90,
+        "6": 14,
+        "7": 14
+      },
+      "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g5-score-19.txt",
+      "sha256": "cf7d58181497c229fec8d0dec728ca90515ddb643cab82e8e7fb08ce3a8f5b1a",
+      "source_path": "experiments/2026-10-03/four-seven-template-native-soft/matching-score-best.txt",
+      "source_sha256": "cf7d58181497c229fec8d0dec728ca90515ddb643cab82e8e7fb08ce3a8f5b1a",
+      "triple_histogram": {
+        "0": 19,
+        "1": 463,
+        "2": 73,
+        "3": 1,
+        "7": 4
+      },
+      "uncovered": [
+        [
+          1,
+          6,
+          15
+        ],
+        [
+          1,
+          7,
+          9
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          1,
+          10,
+          12
+        ],
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          2,
+          11,
+          15
+        ],
+        [
+          3,
+          7,
+          10
+        ],
+        [
+          4,
+          6,
+          10
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          10,
+          16
+        ],
+        [
+          7,
+          8,
+          16
+        ],
+        [
+          7,
+          11,
+          16
+        ],
+        [
+          7,
+          12,
+          15
+        ],
+        [
+          8,
+          11,
+          13
+        ],
+        [
+          8,
+          11,
+          16
+        ],
+        [
+          8,
+          12,
+          13
+        ],
+        [
+          11,
+          12,
+          16
+        ]
+      ],
+      "verifiers": {
+        "package": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g5-score-19-package.json",
+          "sha256": "871c2a7bc7f2f78b4e44b72e447d953ef7ffe1e7f7238470a35077e1a07494b9"
+        },
+        "standalone": {
+          "exit_code": 1,
+          "path": "experiments/2026-10-04/heterogeneous-seed-inventory/g5-score-19-standalone.json",
+          "sha256": "a36c3f3e97cf79ea3c85006c60cc67162b92dcbe93a7e1d82cef0b5131bfd3ec"
+        }
+      }
+    }
+  ],
+  "g1_assembly_inputs": {
+    "experiments/2026-10-04/g1-link-descent/result.json": "cb4f322921b64eab8eba21b13a870d97e067c8e84f15f4b95f07c618bdf88ea6",
+    "experiments/2026-10-04/nearest-step038-g1-lp/manifest.json": "d21f73efa3ef73dda612fa68f1586ea0115c9b441950984a84ddf863a8e8c3cd"
+  },
+  "optimization_calls": 0,
+  "pairwise_common_blocks": [
+    [
+      64,
+      0,
+      0,
+      54,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      64,
+      63,
+      0,
+      1,
+      57,
+      58,
+      56,
+      7,
+      7
+    ],
+    [
+      0,
+      63,
+      64,
+      0,
+      1,
+      58,
+      59,
+      57,
+      8,
+      8
+    ],
+    [
+      54,
+      0,
+      0,
+      64,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      64,
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      57,
+      58,
+      0,
+      2,
+      64,
+      55,
+      54,
+      7,
+      7
+    ],
+    [
+      0,
+      58,
+      59,
+      0,
+      1,
+      55,
+      64,
+      62,
+      10,
+      9
+    ],
+    [
+      0,
+      56,
+      57,
+      0,
+      1,
+      54,
+      62,
+      64,
+      10,
+      9
+    ],
+    [
+      1,
+      7,
+      8,
+      1,
+      0,
+      7,
+      10,
+      10,
+      64,
+      52
+    ],
+    [
+      1,
+      7,
+      8,
+      1,
+      0,
+      7,
+      9,
+      9,
+      52,
+      64
+    ]
+  ],
+  "source_revision": "c80235d7fc403c6bdb9a7d06cf8134f6a267fae9",
+  "source_sha256": "a9f2ccbc9d201f1666096de469bcfdd490d7200d7f73e423df05477503c13957",
+  "union_block_count": 277
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "case": "elite",
+    "path": "experiments/2026-10-04/heterogeneous-core-pool/elite/best-00-h5.txt",
+    "holes": 5,
+    "both_verifiers_agree": true,
+    "checks": {
+      "package": {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "experiments/2026-10-04/heterogeneous-core-pool/elite/best-00-h5.txt",
+          "--expected-blocks",
+          "64"
+        ],
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-core-pool/elite/check-00-package.json",
+        "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+      },
+      "standalone": {
+        "command": [
+          "uv",
+          "run",
+          "python",
+          "scripts/check_cover.py",
+          "experiments/2026-10-04/heterogeneous-core-pool/elite/best-00-h5.txt",
+          "--expected-blocks",
+          "64"
+        ],
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-core-pool/elite/check-00-standalone.json",
+        "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+      }
+    }
+  },
+  {
+    "case": "expanded",
+    "path": "experiments/2026-10-04/heterogeneous-core-pool/expanded/best-00-h5.txt",
+    "holes": 5,
+    "both_verifiers_agree": true,
+    "checks": {
+      "package": {
+        "command": [
+          "uv",
+          "run",
+          "covering64",
+          "verify",
+          "experiments/2026-10-04/heterogeneous-core-pool/expanded/best-00-h5.txt",
+          "--expected-blocks",
+          "64"
+        ],
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-core-pool/expanded/check-00-package.json",
+        "sha256": "f0faf40a5e60dccec6ff5a831df33963476d118aed28a3fcbd89e6fc2488afad"
+      },
+      "standalone": {
+        "command": [
+          "uv",
+          "run",
+          "python",
+          "scripts/check_cover.py",
+          "experiments/2026-10-04/heterogeneous-core-pool/expanded/best-00-h5.txt",
+          "--expected-blocks",
+          "64"
+        ],
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-core-pool/expanded/check-00-standalone.json",
+        "sha256": "8e51ae1f173cffa523c953be555a8c66a8cd5aa5fa031b07a31972cfabf0e4b8"
+      }
+    }
+  }
+]

@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.16.0
+Version:     v1.17.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      b594447bf6d73ce91f84fd1c0d7902a8747956e4e7158d101c4d4efabaf13946
+SHA256:      b643748eb500a57bda0d09e7276bd447a612b54f7df2671db00c7846cc831a2a
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -810,3 +810,94 @@ The new checkpoint's package regression passed all 369 tests in 244.67
 seconds, with the same three SWIG warnings. `uv sync --frozen`, Ruff and
 whitespace checks also passed. The regression receipt and log hash are in
 `registry-matching-validation/regression.json`.
+
+## Larger fixed-graph moves and a matching descent (October 4)
+
+At the graph-1 local minimum, independent enumeration found 580 registry-safe
+proper three-edge changes, 5,541 safe paired two-anchor changes, and 100,076
+safe whole-link replacements. The 243 graph-specific dual planes from the
+descent, together with 353 broad planes, give positive exact bounds for every
+three-edge and paired change and for 99,319 whole-link replacements. These
+are exclusions of declared finite neighborhoods. Positive bounds alone do
+not say that all their elastic objectives are worse than the incumbent.
+
+The remaining 757 whole-link replacements were all uncached. Their frozen
+LP sweep passed an independent gate covering all 527,629 shifted rows and
+3,028 link classifications. All 757 calls returned numerical OPTIMAL; none
+gave numerical zero or improved the incumbent. The best new objective was
+10.613462674257228. The sweep used 101.289012 solver seconds and 110.185592
+wall seconds. A separate postcheck replayed every model, vector and dual.
+All 757 new signed-dual certificates subsequently passed independent exact
+replay, along with the previous 243 graph-specific planes. Their minimum
+new gap is 165832/15625. The exact prior 99,319 exclusions plus these 757
+close all 100,076 declared registry-safe whole-link replacements. This does
+not exclude the whole graph-1 family or prove an elastic local optimum.
+Unchanged generator sources and compact restorable certificate archives are
+tracked in `g1-larger-source/` and `g1-whole-link-certificates/`.
+
+The matching graph-5 descent completed three full neighborhoods, admitting
+86, 86 and 84 states after registry filtering. It used 253 fresh LPs and
+three cached values, improving 15.06922063054413 to 13.221637797152143,
+then 12.594498845064832 and 11.500690015970484. All LP objectives remained
+positive. Independent reconstruction checked the neighborhoods, all shifted
+rows, registry mappings and cache history. The run used 33.945800 solver
+seconds and 38.150497 wall seconds. It stopped at its three-round limit;
+the last accepted pattern has not yet been shown to be a local minimum.
+
+Stitching those three improved heavy patterns with the original 36 ordinary
+blocks produced partial states with 18, 20 and 21 missing triples. Both
+cover verifiers agree. The lower LP score therefore did not improve the
+integer coverage of these particular stitched states. Their provenance is
+kept separately in `g5-link-descent-stitched/`.
+
+## Heterogeneous block recombination (October 4)
+
+A different construction pilot recombined blocks from ten separately checked
+partial covers, spanning unrestricted, regular, SQS, native and fixed-graph
+searches. Their union contains 277 blocks; a second pool adds 60 reproducible
+random blocks from outside that union. Every triple has at least two carriers
+in each pool. Independent reconstruction checked all 4,928 variables, 1,122
+rows, complete hints, seed profiles and random additions, and rejected 19
+damaged controls. The models impose only pool membership, cardinality 64 and
+560 exact missing-triple indicators, with no inherited family constraints.
+
+Both 30-second, four-worker runs returned FEASIBLE with three holes. Their
+callbacks kept the original hint. Independently extracted final responses
+contained different equal-score states, each verified by both cover checkers.
+Those final states have degree histogram 19:2, 20:12, 21:2 and retain the
+original forbidden 60-block core. Their separating histograms differ from
+all ten inputs, but they do not improve coverage or escape that core.
+The independent postcheck distinguishes callback incumbents from final
+equal-score solver assignments. No pool-optimality or global exclusion
+follows from these bounded runs.
+
+A separate pair of pool runs added two explicit 60-block core-avoidance rows.
+Their exact model and five-hole hint passed an independent delta gate.
+Both 30-second runs returned FEASIBLE with five holes. Callback states and
+independently extracted final ties passed both cover checkers. The final
+states retain 59 blocks of one core and still trigger the broader proved
+five-heavy obstruction: five disjoint triples have multiplicity at least
+six, with at least two sevenfold. Core avoidance alone therefore did not
+escape that obstruction. Among the ten input seeds, the SQS state and the
+two matching states avoid both tested partition obstructions; the best of
+those inputs has 17 holes. These checks concern the two specified partitions.
+
+## Matching continuation and a larger cycle master (October 4)
+
+The independently gated graph-5 continuation improved its elastic objective
+through 9.533204639679104, 9.448398722490406, 8.818415543401665 and
+8.152937802508724. Five complete neighborhoods used 465 fresh LPs and 14
+cached values. The last neighborhood admitted 105 states; its independently
+recounted minimum was 8.279923931332881, so the run stopped at a numerical
+two-switch local minimum. Independent replay checked all neighborhoods,
+registry mappings, shifted rows, vectors and cache entries. Total cost was
+61.726966 solver seconds and 68.664317 wall seconds. No fractional completion
+or integer cover was found.
+
+The larger graph-1 master combines 353 broad cuts, 1,000 graph-specific cuts
+and 19 checked seven-block registry nogoods with the original heavy-family
+rows. Its 276-variable, 1,977-row model retains a soft distance objective with
+no radius. Independent reconstruction passed. Its first two-second call
+returned UNKNOWN after spending its budget in presolve, with no search
+branches, candidate tuple or LP call. This is inconclusive. Separate bounded
+presolve-on/off diagnostics use the identical model and are recorded separately.

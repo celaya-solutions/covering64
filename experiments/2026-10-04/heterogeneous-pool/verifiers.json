@@ -1,0 +1,38 @@
+[
+  {
+    "case": "elite",
+    "path": "experiments/2026-10-04/heterogeneous-pool/elite/best-00-h3.txt",
+    "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "expected_holes": 3,
+    "checks": {
+      "package": {
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-pool/elite/check-00-package.json",
+        "sha256": "36b495a68db34092656ad3d57e4349677e500dc048bc9e429c9ecab29518693d"
+      },
+      "standalone": {
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-pool/elite/check-00-standalone.json",
+        "sha256": "522eb63a559a77ed4505cb58e33e11b991008d407c2905df8ea9faf12be0332e"
+      }
+    }
+  },
+  {
+    "case": "expanded",
+    "path": "experiments/2026-10-04/heterogeneous-pool/expanded/best-00-h3.txt",
+    "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "expected_holes": 3,
+    "checks": {
+      "package": {
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-pool/expanded/check-00-package.json",
+        "sha256": "36b495a68db34092656ad3d57e4349677e500dc048bc9e429c9ecab29518693d"
+      },
+      "standalone": {
+        "exit_code": 1,
+        "output": "experiments/2026-10-04/heterogeneous-pool/expanded/check-00-standalone.json",
+        "sha256": "522eb63a559a77ed4505cb58e33e11b991008d407c2905df8ea9faf12be0332e"
+      }
+    }
+  }
+]

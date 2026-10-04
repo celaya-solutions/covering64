@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Saved 353 broad cuts, mandatory first-link filtering, checked graph-1 descent (8.0242 to 7.5205), and two matching diagnostics. All 369 tests and Ruff passed; no 64-block cover, and the best unrestricted partial still misses three triples.
-Next: screen larger graph-1 moves using only graph-1 certificates and descend from the qualified matching graph-5 seed. Keep graph-specific caches and cuts separate. Preserve ignored raw artifacts and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Saved 353 broad cuts and 1,000 graph-1 cuts, closing the declared 100,076 whole-link neighborhood only. Matching descent reached 8.15294; pool runs retained three/five holes and the known broader obstruction. No 64-block cover; package regression remains 369 passing tests.
+Next: finish the graph-1 master diagnostic and exclude the proved five-heavy pattern in future mixed-pool searches. Keep graph-specific caches/cuts separate; inspect final solver ties as well as callback incumbents. Preserve ignored raw artifacts and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 
