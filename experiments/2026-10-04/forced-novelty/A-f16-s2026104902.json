@@ -1,0 +1,1888 @@
+{
+  "label": "A",
+  "forced": 16,
+  "seed": 2026104902,
+  "seconds": 10,
+  "started_utc": "2026-10-04T06:53:54.835660+00:00",
+  "finished_utc": "2026-10-04T06:54:05.264607+00:00",
+  "argv": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/forced-novelty-20261004/inputs/novelty",
+    "run",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/forced-novelty-20261004/inputs/A.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/forced-novelty-20261004/inputs/elite66.txt",
+    "16",
+    "2026104902",
+    "10",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search"
+  ],
+  "native": {
+    "event": "finished",
+    "seed": 2026104902,
+    "forced": 16,
+    "seconds": 10.0003,
+    "repair_steps": 362249,
+    "overall_best": 3,
+    "repair_best": 3,
+    "final_holes": 34,
+    "interrupted": false
+  },
+  "saved": [
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-initial.txt",
+      "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "holes": 3,
+      "uncovered": [
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "initial",
+      "outside_elite": 0,
+      "distance_from_initial": 0
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-forced.txt",
+      "sha256": "4a326c150447aca3cf5e206d682f4a2fdbef75b9b27fe53843bc4a1cbde48b45",
+      "holes": 16,
+      "uncovered": [
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          1,
+          12,
+          16
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          12
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          6,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          5,
+          10,
+          13
+        ],
+        [
+          5,
+          15,
+          16
+        ],
+        [
+          9,
+          13,
+          15
+        ],
+        [
+          9,
+          15,
+          16
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "forced",
+      "outside_elite": 16,
+      "distance_from_initial": 16
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h16.txt",
+      "sha256": "4a326c150447aca3cf5e206d682f4a2fdbef75b9b27fe53843bc4a1cbde48b45",
+      "holes": 16,
+      "uncovered": [
+        [
+          1,
+          5,
+          6
+        ],
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          1,
+          12,
+          16
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          12
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          6,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          5,
+          10,
+          13
+        ],
+        [
+          5,
+          15,
+          16
+        ],
+        [
+          9,
+          13,
+          15
+        ],
+        [
+          9,
+          15,
+          16
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-best-h16",
+      "outside_elite": 16,
+      "distance_from_initial": 16
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h15.txt",
+      "sha256": "30d0b42ed59adb43690201a567c0cd09c86534a655dc3d950e92638b025ffd74",
+      "holes": 15,
+      "uncovered": [
+        [
+          1,
+          3,
+          16
+        ],
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          1,
+          12,
+          16
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          12
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          6,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          10,
+          13
+        ],
+        [
+          5,
+          11,
+          16
+        ],
+        [
+          5,
+          15,
+          16
+        ],
+        [
+          9,
+          13,
+          15
+        ],
+        [
+          9,
+          15,
+          16
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-best-h15",
+      "outside_elite": 15,
+      "distance_from_initial": 15
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h14.txt",
+      "sha256": "7f67c278265dcd5341954eb7574f1bd2e73360dba53aff822f990945319b30f9",
+      "holes": 14,
+      "uncovered": [
+        [
+          1,
+          3,
+          16
+        ],
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          1,
+          12,
+          16
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          11
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          6,
+          8
+        ],
+        [
+          4,
+          6,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          11,
+          16
+        ],
+        [
+          6,
+          8,
+          10
+        ],
+        [
+          6,
+          8,
+          11
+        ],
+        [
+          6,
+          10,
+          11
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-best-h14",
+      "outside_elite": 13,
+      "distance_from_initial": 13
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h12.txt",
+      "sha256": "2ef4c1f0ba04056f0902875cfb1ea82e9705fa9e672631e47b78bd03fc7771d8",
+      "holes": 12,
+      "uncovered": [
+        [
+          1,
+          3,
+          16
+        ],
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          1,
+          12,
+          16
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          11
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          8,
+          13
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          4,
+          10,
+          13
+        ],
+        [
+          5,
+          11,
+          16
+        ],
+        [
+          8,
+          10,
+          13
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-best-h12",
+      "outside_elite": 12,
+      "distance_from_initial": 12
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-equal-h12.txt",
+      "sha256": "0767d45147b8b7806bcd5d8d93709efb8b99d72e0f20d097bb42f203204a154b",
+      "holes": 12,
+      "uncovered": [
+        [
+          1,
+          3,
+          16
+        ],
+        [
+          1,
+          6,
+          16
+        ],
+        [
+          1,
+          12,
+          16
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          11
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          7,
+          8
+        ],
+        [
+          4,
+          7,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          11,
+          16
+        ],
+        [
+          7,
+          8,
+          10
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-equal-h12",
+      "outside_elite": 12,
+      "distance_from_initial": 12
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h11.txt",
+      "sha256": "6cc9dde5dba2b67114e4edb877bf3658ab72e8971171cf4d9c9aba955fc2ef80",
+      "holes": 11,
+      "uncovered": [
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          10,
+          11
+        ],
+        [
+          3,
+          10,
+          12
+        ],
+        [
+          3,
+          10,
+          16
+        ],
+        [
+          3,
+          11,
+          15
+        ],
+        [
+          4,
+          7,
+          8
+        ],
+        [
+          4,
+          7,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          11,
+          16
+        ],
+        [
+          7,
+          8,
+          10
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-best-h11",
+      "outside_elite": 11,
+      "distance_from_initial": 11
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-equal-h11.txt",
+      "sha256": "0e1caa25be989e5c4c02b14db4fa6674dd49bdc7798e710619c641d6a5dc3b1e",
+      "holes": 11,
+      "uncovered": [
+        [
+          1,
+          3,
+          15
+        ],
+        [
+          1,
+          6,
+          15
+        ],
+        [
+          2,
+          13,
+          14
+        ],
+        [
+          3,
+          6,
+          15
+        ],
+        [
+          3,
+          10,
+          16
+        ],
+        [
+          4,
+          7,
+          8
+        ],
+        [
+          4,
+          7,
+          10
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          11,
+          16
+        ],
+        [
+          7,
+          8,
+          10
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "repair-equal-h11",
+      "outside_elite": 11,
+      "distance_from_initial": 11
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h9.txt",
+      "sha256": "1fb5c468746964506d4ff1e122550b5cd70fd42fa75891e79f1dd7e6fd1f1c74",
+      "holes": 9,
+      "uncovered": [
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          7,
+          13
+        ],
+        [
+          5,
+          7,
+          16
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          14,
+          15
+        ],
+        [
+          10,
+          13,
+          15
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-best-h9",
+      "outside_elite": 5,
+      "distance_from_initial": 6
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h8.txt",
+      "sha256": "ba677d965d30ddd093b34f45ef1e62626cb4dc295b7ced754832218b4e43db4b",
+      "holes": 8,
+      "uncovered": [
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          5,
+          7,
+          13
+        ],
+        [
+          5,
+          7,
+          16
+        ],
+        [
+          7,
+          13,
+          16
+        ],
+        [
+          7,
+          14,
+          15
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-best-h8",
+      "outside_elite": 5,
+      "distance_from_initial": 6
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h7.txt",
+      "sha256": "2485a4712d3a703e853ef3569a90acc429c07c87126383e54a9892ddb5b41ad0",
+      "holes": 7,
+      "uncovered": [
+        [
+          2,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          15
+        ],
+        [
+          4,
+          8,
+          15
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          4,
+          10,
+          15
+        ],
+        [
+          7,
+          14,
+          15
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-best-h7",
+      "outside_elite": 5,
+      "distance_from_initial": 6
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-equal-h7.txt",
+      "sha256": "8c03e085d0ac72672b33217cc2fc2f6d8e97257af2a0adab057774374a8b0260",
+      "holes": 7,
+      "uncovered": [
+        [
+          4,
+          8,
+          15
+        ],
+        [
+          4,
+          9,
+          11
+        ],
+        [
+          4,
+          9,
+          12
+        ],
+        [
+          4,
+          10,
+          15
+        ],
+        [
+          4,
+          11,
+          12
+        ],
+        [
+          4,
+          11,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-equal-h7",
+      "outside_elite": 5,
+      "distance_from_initial": 6
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h5.txt",
+      "sha256": "67eb020e80be8f6892bad988e5c63993213476b9ce401f5682485f368493b4cf",
+      "holes": 5,
+      "uncovered": [
+        [
+          4,
+          8,
+          13
+        ],
+        [
+          4,
+          10,
+          13
+        ],
+        [
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          9,
+          12
+        ],
+        [
+          7,
+          11,
+          12
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-best-h5",
+      "outside_elite": 4,
+      "distance_from_initial": 5
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-best-h3.txt",
+      "sha256": "784cabd86cefe85f2c411e69c64fb8a4b3bf5696101aedf9f1bd8cb58fa4845c",
+      "holes": 3,
+      "uncovered": [
+        [
+          7,
+          9,
+          11
+        ],
+        [
+          7,
+          9,
+          12
+        ],
+        [
+          7,
+          11,
+          12
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-best-h3",
+      "outside_elite": 3,
+      "distance_from_initial": 4
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-repair-equal-h3.txt",
+      "sha256": "aee8e4315e2ae8461b71431f8286b2273ea9743ca361c2531ad6b6b30c955f63",
+      "holes": 3,
+      "uncovered": [
+        [
+          1,
+          3,
+          7
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          3,
+          6,
+          7
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true
+      },
+      "label": "repair-equal-h3",
+      "outside_elite": 4,
+      "distance_from_initial": 4
+    },
+    {
+      "path": "experiments/scratch/forced-novelty-20261004/A-f16-s2026104902/search-final.txt",
+      "sha256": "672425c2a81c1b56f6a4acdef8d20c992ec3008143e0f955c52147b584b57f5e",
+      "holes": 34,
+      "uncovered": [
+        [
+          1,
+          2,
+          14
+        ],
+        [
+          1,
+          3,
+          10
+        ],
+        [
+          1,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          6
+        ],
+        [
+          1,
+          5,
+          14
+        ],
+        [
+          1,
+          6,
+          10
+        ],
+        [
+          1,
+          6,
+          14
+        ],
+        [
+          1,
+          8,
+          14
+        ],
+        [
+          1,
+          13,
+          14
+        ],
+        [
+          1,
+          13,
+          16
+        ],
+        [
+          2,
+          6,
+          13
+        ],
+        [
+          2,
+          6,
+          16
+        ],
+        [
+          2,
+          9,
+          10
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          2,
+          10,
+          16
+        ],
+        [
+          2,
+          12,
+          16
+        ],
+        [
+          3,
+          4,
+          6
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          6,
+          16
+        ],
+        [
+          3,
+          7,
+          14
+        ],
+        [
+          3,
+          9,
+          10
+        ],
+        [
+          4,
+          5,
+          11
+        ],
+        [
+          4,
+          6,
+          7
+        ],
+        [
+          4,
+          7,
+          13
+        ],
+        [
+          4,
+          12,
+          13
+        ],
+        [
+          4,
+          12,
+          15
+        ],
+        [
+          5,
+          7,
+          14
+        ],
+        [
+          5,
+          14,
+          16
+        ],
+        [
+          6,
+          8,
+          16
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          6,
+          14,
+          16
+        ],
+        [
+          7,
+          10,
+          16
+        ],
+        [
+          8,
+          10,
+          13
+        ],
+        [
+          13,
+          14,
+          16
+        ]
+      ],
+      "blocks": 64,
+      "both_verifiers_agree": true,
+      "cover": false,
+      "profile": {
+        "heavy_triples": [],
+        "forbidden_five_heavy_profile": false
+      },
+      "label": "final",
+      "outside_elite": 62,
+      "distance_from_initial": 63
+    }
+  ],
+  "forced_trace_freshly_replayed": true,
+  "artifact_sha256": {
+    "search-final.txt": "672425c2a81c1b56f6a4acdef8d20c992ec3008143e0f955c52147b584b57f5e",
+    "search-forced.txt": "4a326c150447aca3cf5e206d682f4a2fdbef75b9b27fe53843bc4a1cbde48b45",
+    "search-initial.txt": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "search-repair-best-h11.txt": "6cc9dde5dba2b67114e4edb877bf3658ab72e8971171cf4d9c9aba955fc2ef80",
+    "search-repair-best-h12.txt": "2ef4c1f0ba04056f0902875cfb1ea82e9705fa9e672631e47b78bd03fc7771d8",
+    "search-repair-best-h14.txt": "7f67c278265dcd5341954eb7574f1bd2e73360dba53aff822f990945319b30f9",
+    "search-repair-best-h15.txt": "30d0b42ed59adb43690201a567c0cd09c86534a655dc3d950e92638b025ffd74",
+    "search-repair-best-h16.txt": "4a326c150447aca3cf5e206d682f4a2fdbef75b9b27fe53843bc4a1cbde48b45",
+    "search-repair-best-h3.txt": "784cabd86cefe85f2c411e69c64fb8a4b3bf5696101aedf9f1bd8cb58fa4845c",
+    "search-repair-best-h5.txt": "67eb020e80be8f6892bad988e5c63993213476b9ce401f5682485f368493b4cf",
+    "search-repair-best-h7.txt": "2485a4712d3a703e853ef3569a90acc429c07c87126383e54a9892ddb5b41ad0",
+    "search-repair-best-h8.txt": "ba677d965d30ddd093b34f45ef1e62626cb4dc295b7ced754832218b4e43db4b",
+    "search-repair-best-h9.txt": "1fb5c468746964506d4ff1e122550b5cd70fd42fa75891e79f1dd7e6fd1f1c74",
+    "search-repair-equal-h11.txt": "0e1caa25be989e5c4c02b14db4fa6674dd49bdc7798e710619c641d6a5dc3b1e",
+    "search-repair-equal-h12.txt": "0767d45147b8b7806bcd5d8d93709efb8b99d72e0f20d097bb42f203204a154b",
+    "search-repair-equal-h3.txt": "aee8e4315e2ae8461b71431f8286b2273ea9743ca361c2531ad6b6b30c955f63",
+    "search-repair-equal-h7.txt": "8c03e085d0ac72672b33217cc2fc2f6d8e97257af2a0adab057774374a8b0260",
+    "stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout.jsonl": "a790d2c08174b6579d77e18bf8bc49b1b5dbfbb7ee714064a7dd9b27598d6705"
+  }
+}

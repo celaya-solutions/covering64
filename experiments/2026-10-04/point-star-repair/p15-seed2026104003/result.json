@@ -1,0 +1,159 @@
+{
+  "point": 15,
+  "seed": 2026104003,
+  "seconds": 30,
+  "workers": 1,
+  "status": "FEASIBLE",
+  "solver_seconds": 30.013329000000002,
+  "elapsed_seconds": 30.01405437500216,
+  "objective_bound": 0.0,
+  "response_stats": "CpSolverResponse summary:\nstatus: FEASIBLE\nobjective: 87\nbest_bound: 0\nintegers: 4038\nbooleans: 4022\nconflicts: 436229\nbranches: 9626887\npropagations: 1094921389\ninteger_propagations: 36538370\nrestarts: 1124\nlp_iterations: 0\nwalltime: 30.0133\nusertime: 30.0133\ndeterministic_time: 151.279\ngap_integral: 0\nsolution_fingerprint: 0xc327a550b7432e1d\n",
+  "saved": [
+    {
+      "path": "p15-seed2026104003/solution-000.txt",
+      "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "holes": 3,
+      "objective": 87,
+      "old_removed_blocks_reselected": 21,
+      "seconds": 0.130256,
+      "deleted_from_initial": [],
+      "added_to_initial": [],
+      "profile": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "five_disjoint_heavy_sets": [
+          [
+            [
+              [
+                1,
+                3,
+                6
+              ],
+              7
+            ],
+            [
+              [
+                2,
+                14,
+                15
+              ],
+              6
+            ],
+            [
+              [
+                4,
+                8,
+                10
+              ],
+              7
+            ],
+            [
+              [
+                5,
+                13,
+                16
+              ],
+              7
+            ],
+            [
+              [
+                9,
+                11,
+                12
+              ],
+              7
+            ]
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              [
+                1,
+                3,
+                6
+              ],
+              7
+            ],
+            [
+              [
+                2,
+                14,
+                15
+              ],
+              6
+            ],
+            [
+              [
+                4,
+                8,
+                10
+              ],
+              7
+            ],
+            [
+              [
+                5,
+                13,
+                16
+              ],
+              7
+            ],
+            [
+              [
+                9,
+                11,
+                12
+              ],
+              7
+            ]
+          ]
+        ],
+        "interpretation": "Label-invariant screen only; this is not a coverage test."
+      }
+    }
+  ],
+  "log_sha256": "a5a7a80f618235498426c9e463e57fbb6620542206ebab4f12a1e2e86968a626",
+  "best_holes": 3
+}

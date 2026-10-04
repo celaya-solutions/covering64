@@ -64,9 +64,10 @@ After big code changes, refresh the graph with `graft build` (deterministic,
 no API key, $0).
 <!-- graft:end -->
 
-## Research checkpoint 2026-10-03
+## Research checkpoint 2026-10-04
 
-Saved the reusable heavy cut and its 31104-map separator. The new ten-hole native tuple escapes the whole known cut orbit; completion remains unproved. Two audited SQS-extension pilots returned UNKNOWN. The 64-block target is open, with 109 checked first-link exclusions and unrestricted best three holes. Next work: new fixed-heavy completion and a pure SQS-pool hole search. Large raw evidence stays in ignored scratch; preserve unrelated `.ignore` and `opencode.json`.
+Saved 124 checked cuts for the restricted four-sevenfold family and completed new search tests. No 64-block cover: the best partial still misses three triples, and first-link exclusions remain 109.
+Next: optimize the completion LP through local link switches. Preserve ignored raw models, proofs and logs, plus unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 
@@ -74,3 +75,5 @@ Saved three new routes, an independently replayed 16-case excess recipe and a ch
 Next bounded test: the remaining 15 recipe profiles; neither the recipe nor these timeouts settle general existence. Use nonnegative indices when mutating OR-Tools repeated fields: a negative-index damage control crashed the native binding, then passed after correction. Raw logs preserve source whitespace and remain unchanged.
 
 Merge checkpoint: both research histories retained; merged-tree validation passed 369 tests and Ruff. See experiments/2026-10-03/main-integration/validation.json.
+
+Commit 0915d64 saves the checked heavy-cut escape and SQS pilots; 369 tests and Ruff passed. Next experiments stay in the research worktree.

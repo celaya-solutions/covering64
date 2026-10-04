@@ -1,0 +1,599 @@
+{
+  "version": "v1.0.0",
+  "manifest_sha256": "db7641a79067c6c4087bb42d212636779f2b6de793e87a3d58b475eaf65ec01a",
+  "seconds": 3.122084082919173,
+  "steps": [
+    {
+      "step": 0,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.035082,
+      "master_sha256": "f985d40d65e43bbf51413820f002f17c408c69201041c67ed766d05c63f577e8",
+      "cut_count": 14,
+      "seed": 2026104041,
+      "heavy_indices": [
+        0,
+        7,
+        23,
+        37,
+        39,
+        58,
+        67,
+        79,
+        89,
+        97,
+        102,
+        115,
+        128,
+        135,
+        146,
+        147,
+        164,
+        169,
+        176,
+        186,
+        201,
+        212,
+        220,
+        231,
+        236,
+        259,
+        268,
+        270
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.08416891598608345,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.12845000007655472,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 26.224569690493958
+        }
+      ],
+      "gap": [
+        26137,
+        1000
+      ]
+    },
+    {
+      "step": 1,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.036183,
+      "master_sha256": "c5a57ca66fbbfa9936871e3795baf349874da0821d9f01af4061e9c3ed6dfe61",
+      "cut_count": 15,
+      "seed": 2026104042,
+      "heavy_indices": [
+        0,
+        6,
+        21,
+        35,
+        50,
+        52,
+        67,
+        71,
+        74,
+        89,
+        99,
+        123,
+        128,
+        132,
+        145,
+        157,
+        177,
+        186,
+        205,
+        211,
+        214,
+        216,
+        223,
+        232,
+        237,
+        251,
+        258,
+        264
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.08640737493988127,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.12965862499549985,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 27.027925577712526
+        }
+      ],
+      "gap": [
+        26859,
+        1000
+      ]
+    },
+    {
+      "step": 2,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.04068,
+      "master_sha256": "6c42b7870f27b552390a565cde0097ed45eaa327b4a04a2f28fa170a0f88470d",
+      "cut_count": 16,
+      "seed": 2026104043,
+      "heavy_indices": [
+        4,
+        6,
+        14,
+        27,
+        34,
+        45,
+        66,
+        70,
+        72,
+        88,
+        104,
+        119,
+        127,
+        131,
+        137,
+        145,
+        166,
+        188,
+        196,
+        212,
+        218,
+        223,
+        233,
+        237,
+        251,
+        254,
+        266,
+        272
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.09336454200092703,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.132045500096865,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 28.50392142141106
+        }
+      ],
+      "gap": [
+        28369,
+        1000
+      ]
+    },
+    {
+      "step": 3,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.041029,
+      "master_sha256": "d46c07b4162d6fcfa653d4a7f05350fe4556ddc82aabf08bbd80665486941b95",
+      "cut_count": 17,
+      "seed": 2026104044,
+      "heavy_indices": [
+        0,
+        6,
+        23,
+        35,
+        39,
+        64,
+        67,
+        71,
+        73,
+        89,
+        102,
+        121,
+        128,
+        132,
+        143,
+        157,
+        161,
+        177,
+        205,
+        211,
+        214,
+        216,
+        223,
+        237,
+        246,
+        251,
+        258,
+        264
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.09300704195629805,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.13390662497840822,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 24.532621323997624
+        }
+      ],
+      "gap": [
+        6109,
+        250
+      ]
+    },
+    {
+      "step": 4,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.042460000000000005,
+      "master_sha256": "43746981e322f86a02ebc83ba1996273f40d504af9e48cc4a4caa8a41a24acb6",
+      "cut_count": 18,
+      "seed": 2026104045,
+      "heavy_indices": [
+        0,
+        8,
+        24,
+        37,
+        40,
+        47,
+        67,
+        73,
+        89,
+        97,
+        99,
+        119,
+        128,
+        131,
+        132,
+        145,
+        177,
+        189,
+        202,
+        205,
+        214,
+        216,
+        223,
+        232,
+        237,
+        251,
+        258,
+        268
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.07739704195410013,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.12866129202302545,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 26.35283034852213
+        }
+      ],
+      "gap": [
+        26171,
+        1000
+      ]
+    },
+    {
+      "step": 5,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.043215,
+      "master_sha256": "88fb7f633a6784d88ebe57b4962e554c6fce7cd23dffcd183b726e49105c4f8e",
+      "cut_count": 19,
+      "seed": 2026104046,
+      "heavy_indices": [
+        0,
+        6,
+        21,
+        35,
+        51,
+        54,
+        64,
+        73,
+        89,
+        97,
+        99,
+        120,
+        128,
+        131,
+        132,
+        145,
+        176,
+        189,
+        202,
+        205,
+        214,
+        216,
+        223,
+        232,
+        237,
+        251,
+        258,
+        268
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.1003460829379037,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.13329150003846735,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 24.130319789913585
+        }
+      ],
+      "gap": [
+        5997,
+        250
+      ]
+    },
+    {
+      "step": 6,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.046895000000000006,
+      "master_sha256": "416cfa8ecd7da74ab04d8c493da3e59e420592f87577606b4b675df61b2112b4",
+      "cut_count": 20,
+      "seed": 2026104047,
+      "heavy_indices": [
+        0,
+        6,
+        22,
+        32,
+        43,
+        64,
+        67,
+        71,
+        73,
+        89,
+        99,
+        123,
+        128,
+        139,
+        145,
+        157,
+        177,
+        188,
+        190,
+        199,
+        214,
+        216,
+        223,
+        232,
+        237,
+        251,
+        258,
+        264
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.09023495798464864,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.12386370892636478,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 29.49653701390938
+        }
+      ],
+      "gap": [
+        14693,
+        500
+      ]
+    },
+    {
+      "step": 7,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.046079,
+      "master_sha256": "6a5396dba6df540333d2c53cf7243b5f232c7092a921fde9d4118699b0a77f33",
+      "cut_count": 21,
+      "seed": 2026104048,
+      "heavy_indices": [
+        0,
+        4,
+        24,
+        35,
+        44,
+        56,
+        64,
+        71,
+        73,
+        92,
+        99,
+        111,
+        128,
+        132,
+        145,
+        157,
+        177,
+        192,
+        199,
+        205,
+        214,
+        223,
+        232,
+        237,
+        251,
+        252,
+        258,
+        265
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.09422883298248053,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.13078349991701543,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 21.972990448200644
+        }
+      ],
+      "gap": [
+        1093,
+        50
+      ]
+    },
+    {
+      "step": 8,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.046769000000000005,
+      "master_sha256": "57899e91715664f1c8b37734b6098095cd6a8d789c4a782cef09ef84c63fff9d",
+      "cut_count": 22,
+      "seed": 2026104049,
+      "heavy_indices": [
+        0,
+        3,
+        26,
+        31,
+        56,
+        59,
+        64,
+        70,
+        71,
+        73,
+        99,
+        120,
+        128,
+        132,
+        145,
+        157,
+        192,
+        199,
+        205,
+        214,
+        216,
+        223,
+        230,
+        237,
+        251,
+        258,
+        264,
+        267
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.09523262502625585,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.12600950000341982,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 24.971451895282783
+        }
+      ],
+      "gap": [
+        3111,
+        125
+      ]
+    },
+    {
+      "step": 9,
+      "master_status": "OPTIMAL",
+      "master_seconds": 0.051441,
+      "master_sha256": "1213d76248c74076d0410dd597a16a5a1beb441af28f15b34eb53e02338a0470",
+      "cut_count": 23,
+      "seed": 2026104050,
+      "heavy_indices": [
+        0,
+        4,
+        21,
+        38,
+        53,
+        59,
+        64,
+        71,
+        73,
+        89,
+        99,
+        111,
+        128,
+        139,
+        145,
+        157,
+        177,
+        188,
+        190,
+        199,
+        214,
+        223,
+        234,
+        237,
+        251,
+        254,
+        258,
+        264
+      ],
+      "lp": [
+        {
+          "status": "INFEASIBLE",
+          "elastic": false,
+          "seconds": 0.09805224998854101,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755"
+        },
+        {
+          "status": "OPTIMAL",
+          "elastic": true,
+          "seconds": 0.12611633399501443,
+          "time_limit_seconds": 10,
+          "solver": "Glop solver v9.15.6755",
+          "objective": 22.86319351708208
+        }
+      ],
+      "gap": [
+        22773,
+        1000
+      ]
+    }
+  ],
+  "new_cuts": 10,
+  "scope": "Regular family candidate generator only; no covering witness claimed."
+}

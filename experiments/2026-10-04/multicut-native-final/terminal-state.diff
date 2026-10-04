@@ -1,0 +1,38 @@
+--- /Users/chriscelaya/Documents/covering64-search/scripts/four_seven_template_multicut_heuristic.cpp	2026-10-04 00:37:56
++++ /Users/chriscelaya/Documents/covering64-search/scripts/four_seven_template_multicut_final_heuristic.cpp	2026-10-04 00:52:21
+@@ -1,9 +1,9 @@
+ // Document:    Optional Fourteen-Cut Guided Template Covering Heuristic
+-// Version:     v1.4.0
++// Version:     v1.4.1
+ // Author:      Celaya Solutions
+ // Contact:     hello@celayasolutions.com
+ // Date:        2026-10-04
+-// SHA256:      ac8a44573883e1eac7225958b3075e6ecd5595d8ceb849b2cfdc3519b06cb1d7
++// SHA256:      d4968348a8649b77bedd742850a563c7d0205b7274b3be20aba4ecdd98b24126
+ // Chain:       n/a
+ // Tx:          [not anchored]
+ // License:     All Rights Reserved / Celaya Solutions
+@@ -1178,6 +1178,7 @@
+             save(initial, prefix + "-best.txt");
+             save(initial, prefix + "-raw-best.txt");
+             save(initial, prefix + "-score-best.txt");
++            save(initial, prefix + "-final.txt");
+             std::cout << "{\"event\":\"finished\",\"best_holes\":0,\"proposals\":0,"
+                          "\"seconds\":0,\"reason\":\"initial_cover\",\"best_score\":"
+                       << initial.score() << ",\"best_raw_score\":" << initial.score()
+@@ -1212,6 +1213,7 @@
+                 save(state, prefix + "-best.txt");
+                 save(state, prefix + "-raw-best.txt");
+                 save(state, prefix + "-score-best.txt");
++                save(state, prefix + "-final.txt");
+                 std::cout << "{\"event\":\"finished\",\"best_holes\":0,\"reason\":\"control_cover\","
+                              "\"best_score\":" << state.score() << ",\"best_raw_score\":" << state.score()
+                           << ",\"best_score_holes\":0}" << std::endl;
+@@ -1318,6 +1320,7 @@
+             }
+         }
+         state.audit();
++        save(state, prefix + "-final.txt");
+         raw_best_state.audit(); score_best_state.audit();
+         require(static_cast<int>(raw_best_state.missing.size()) == best && raw_best_state.score() == best_raw_score &&
+                 score_best_state.score() == best_score &&

@@ -1,0 +1,126 @@
+{
+  "package": {
+    "v": 16,
+    "k": 5,
+    "t": 3,
+    "valid": false,
+    "blocks": 64,
+    "triples": 560,
+    "covered": 557,
+    "uncovered": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "multiplicities": {
+      "0": 3,
+      "1": 499,
+      "2": 52,
+      "3": 1,
+      "6": 1,
+      "7": 4
+    },
+    "total_incidences": 640,
+    "replication": {
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 21,
+      "5": 20,
+      "6": 20,
+      "7": 19,
+      "8": 20,
+      "9": 21,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 19,
+      "15": 21,
+      "16": 20
+    },
+    "pair_multiplicities": {
+      "4": 2,
+      "5": 89,
+      "6": 16,
+      "7": 13
+    },
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf"
+  },
+  "standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 3,
+      "1": 499,
+      "2": 52,
+      "3": 1,
+      "6": 1,
+      "7": 4
+    },
+    "covered_subsets": 557,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 20,
+      "2": 19,
+      "3": 20,
+      "4": 21,
+      "5": 20,
+      "6": 20,
+      "7": 19,
+      "8": 20,
+      "9": 21,
+      "10": 20,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 19,
+      "15": 21,
+      "16": 20
+    },
+    "required_subsets": 560,
+    "source_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "uncovered_count": 3,
+    "valid": false
+  },
+  "holes": 3
+}

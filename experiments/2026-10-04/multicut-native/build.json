@@ -1,0 +1,39 @@
+{
+  "recorded_at_utc": "2026-10-04T06:38:51.857552+00:00",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "builds": [
+    {
+      "binary": "search",
+      "sha256": "ce957c0c74c0ec453d070cef62bc89ba51a2536fc9cb1c0f85dc9f438d963783",
+      "flags": [
+        "-std=c++17",
+        "-O2",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "source": "scripts/four_seven_template_multicut_heuristic.cpp",
+      "source_sha256": "5d6cc3b9ef091fa0f559ea8185e2eb765be3b24c4f7e0b28a1de4918a9f6968a"
+    },
+    {
+      "binary": "search-sanitized",
+      "sha256": "e485679bd33fe88b958da7203b93ce8672bc296f19c61754c7eba928d96bf1ce",
+      "flags": [
+        "-std=c++17",
+        "-O1",
+        "-g",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-Wall",
+        "-Wextra",
+        "-Werror"
+      ],
+      "source": "scripts/four_seven_template_multicut_heuristic.cpp",
+      "source_sha256": "5d6cc3b9ef091fa0f559ea8185e2eb765be3b24c4f7e0b28a1de4918a9f6968a"
+    }
+  ],
+  "reference_binary_sha256": "4b7227970589f5eb3f9b5db1b3521ee3908f68ef8cd71d04d31ea5df48d8aaef",
+  "source_sha256": "5d6cc3b9ef091fa0f559ea8185e2eb765be3b24c4f7e0b28a1de4918a9f6968a",
+  "native_diff_sha256": "230d1dfba013cb8796f45ec3b9d86fdc540a7e0f2bc01ee45d13cdb6020bb96c",
+  "search_launched": false
+}

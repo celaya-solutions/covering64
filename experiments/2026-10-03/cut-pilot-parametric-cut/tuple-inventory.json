@@ -1,0 +1,4580 @@
+{
+  "document_header": {
+    "Document": "Audited Heavy Tuple Inventory for the Cut Pilot",
+    "Version": "v1.0.0",
+    "Author": "Celaya Solutions",
+    "Contact": "hello@celayasolutions.com",
+    "Date": "2026-10-04",
+    "SHA256": "9cdd5fa98e9962c998f3c64c15964de122d92fa3ae3f573ffc613577e492f06d",
+    "Chain": "n/a",
+    "Tx": "[not anchored]",
+    "License": "All Rights Reserved / Celaya Solutions"
+  },
+  "source_sha256": "6ab59beac99c1a837aca9bcb9be873f3564e92e4a508d93cfbd006a57e821918",
+  "audited_saved_states": 45,
+  "distinct_full_families": 32,
+  "distinct_heavy_tuples": 17,
+  "anchors": [
+    [
+      1,
+      2,
+      3
+    ],
+    [
+      5,
+      6,
+      7
+    ],
+    [
+      9,
+      10,
+      11
+    ],
+    [
+      13,
+      14,
+      15
+    ]
+  ],
+  "audit_path": "experiments/2026-10-03/four-seven-template-cut-pilot/audit.json",
+  "audit_sha256": "d0ab41cae1b7772c84dd9aea379f32c04c1ce37dbec708078be1198d3c17f008",
+  "verified_input_sha256": {
+    "experiments/2026-10-03/four-seven-template-cut-pilot/audit.json": "d0ab41cae1b7772c84dd9aea379f32c04c1ce37dbec708078be1198d3c17f008",
+    "experiments/2026-10-03/four-seven-template-cut-pilot/manifest.json": "23e8ecc480b3e1621242a6a2ee2d2390c58dcd6dff55b82fddec49f6e2bf9b74",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/inputs/cut.json": "9b946f1dbb41f49495a2303b1cac8b2de8a68e0e2eca2aa455dab02f5c5872c1",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/inputs/seed.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/2026-10-03/cut-pilot-parametric-cut/cut.json": "24c9a407e4abf90fe712ba297e549d32e748e000370d841984b107d0723a88a8",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-best.txt": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-best.txt.lookahead.json": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-after.txt": "d616c4d18733a4cac1df88fdd32440c22f88afccddf28e912834c19273b8b7c2",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-after.txt.lookahead.json": "943c33aa8f343169cdbbd26b1bd12f192674836e817560dc2bc6a151a58734f0",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-before.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-before.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-rollback.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control0-rollback.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-after.txt": "cbe9088add81ee5cc613d1e72956a4628c81fbd6811fbd702e4756f26b6a460a",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-after.txt.lookahead.json": "2d63073af683aabc0097dfaddbad93a691f8b9650b12ed771beebe0814ec089a",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-before.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-before.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-rollback.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control1-rollback.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-after.txt": "7204918b731820034b2af8698f029d7cf28889541382a2de1fbb879e184d2497",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-after.txt.lookahead.json": "d01fe7bd1b38714f12e8d1fef52e0f76fa7846e1fd3943371b62eb3be67b1d15",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-before.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-before.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-rollback.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control2-rollback.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-after.txt": "f42327446aa79201feb6a1799155e92b1e7fd79e93ceb06ed152880ba8ec0b83",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-after.txt.lookahead.json": "c8fa2a018f92010c3ba2374031b2e67539f48c6d2a63732b53c8f65783cf0091",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-before.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-before.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-rollback.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-control3-rollback.txt.lookahead.json": "5ae1328c341d2406ac0f5d4c4c53ad7b21be19ab728d796976adc58dfc527744",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-initial.txt": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-initial.txt.lookahead.json": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-best.txt": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-best.txt.lookahead.json": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-h10-s82.txt": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-h10-s82.txt.lookahead.json": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-h10-s84.txt": "5ab4b7774ae7cbfe1ea286cfd15cc5cd7d7600ebd1ee83cbfa531d7571b8bf19",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-raw-h10-s84.txt.lookahead.json": "30c71c5c4376b3f6c8f6c5d82c9e8a71461ed2adfad889e1bde5ec4d611d3788",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample0-after.txt": "a8f16cc140317183eef60145339a94f47cf3d899e9f47b6b612bdbbd356c7087",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample0-after.txt.lookahead.json": "5d94b03749190a888213c52c92c8e3cb6821f3792f6110901757ea2ceda9b6ac",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample0-before.txt": "d9f7b790760c07954727f788d76a942610d242b1c6b35bbf796aa55e6ec1a5ca",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample0-before.txt.lookahead.json": "3ddeae174a51c54d45d0b418f76ff59dda6563cb105653fe6c9a96560e3e951f",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample1-after.txt": "4c5b46e02b441ab672d6e1136411d56ae1626992eb4e9c92f645cd234bd96861",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample1-after.txt.lookahead.json": "0b21033e97550f1ba3481ec555ba519c0d1d08313c75bc93749858cc4abfb506",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample1-before.txt": "7f648a0ba381993fdbe811cf83d1061fc013bba98b4ddd33fde9a57c1490d0b9",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample1-before.txt.lookahead.json": "b56f866fea1c2937f09ba8c10df968b74ab1fbc83e840ca83953403932d0ab39",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample10-after.txt": "d90259a9069c6dd9855c4b18a9b1555336d406d03c00a2cfd2ad12def2678b49",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample10-after.txt.lookahead.json": "a247af35438f817987e8fb405123cd63704791b08622b88e8bcc7ef7aa121711",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample10-before.txt": "640dcc14f0f2dc397510f346777cc7fa5fc0f1de21c5a0090c43c32a57cf1c25",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample10-before.txt.lookahead.json": "937043a4422d9902dbd2876a3ddedcd16b0daccaae304027eff3443ad392e568",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample11-after.txt": "85bafeeb91ca2c61b1aa25a4447baa059bb128f9c862e68016a569b4c120bac7",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample11-after.txt.lookahead.json": "df42ff93f2b9a57828328c66061264abb00cffdd50d461da83f9a7c4380f37ae",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample11-before.txt": "c803ecdcfa280626604e125f61dc887f6db7ade45dc8b1c02d93a73dbe175373",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample11-before.txt.lookahead.json": "458e31fed3fef43d801efe1f6c4e75206eba98e635902b8bb6c81caa70af3499",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample2-after.txt": "56e450d7d4ed4a7df27856fe1210090aeb1a138828dfcfc8baa21ab5c87a0cec",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample2-after.txt.lookahead.json": "c2268ec7291ed7ec2efe4a5439e20cb159a09d3e3b21be519a3a8cc4336088a3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample2-before.txt": "0c04cabf36c8b8cb2efceacd49a50426c1cc4bde53193a4ea627d37d91b55c47",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample2-before.txt.lookahead.json": "c2268ec7291ed7ec2efe4a5439e20cb159a09d3e3b21be519a3a8cc4336088a3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample3-after.txt": "c341e2d9af4babda4d6155761857834daae039b267fd3726a3f7dbfa743b0ff4",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample3-after.txt.lookahead.json": "334b29c808ae47fb0270a528ffbf307f8c0e650058a98754ea5b8b9606563a79",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample3-before.txt": "7e39cf3109292c1871d095110c4f2560d1cb8f3e34ae3ba483c56800b594c732",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample3-before.txt.lookahead.json": "fbfed5b76d91fffc15f98479ddf75bbc5f449c775341756ec7bd023e223c541d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample4-after.txt": "274d3134b832fafc18f15bfad1536770d64773b2c208057222e35057015821eb",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample4-after.txt.lookahead.json": "1f720ef0090abd2471c76641087d46b3ee1953fafa1e9152f75f66697ab68cc9",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample4-before.txt": "d0ed7bfde0824608e10ef7ddc419fe371f9bf7f4d4a8ce78b6e431d00148faad",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample4-before.txt.lookahead.json": "99d9f1861a767473d2ebbf4fb928c96a6198bf3f62be95c334719cf721d0d059",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample5-after.txt": "5f0875019c2517e8abe8025c7a29993c764d35af8811fec461aa2064e307d9e3",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample5-after.txt.lookahead.json": "a528050bd24182ff1a55503998bdf550ad87a3fecef35c1984ea3e714e774a07",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample5-before.txt": "5b4ea37f03e31a3b2f45cb8ec7f1e994d5cf2fd45394a03263ae3fa7df46e223",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample5-before.txt.lookahead.json": "da35c9a73217c44536929a307ab47f415600aeaad8e12f3f808d7d8575838719",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample6-after.txt": "2ab53c6703117196dfc26136124270f33d1e6a033d387c1d500b4f9d98f061e6",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample6-after.txt.lookahead.json": "4eb9ea366622993e1b26d86bce0be2c649cd7703919fc61dee66b32481c9182d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample6-before.txt": "5e5b5743673016945342499657e87347a67073990a6e50062463339b977fac22",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample6-before.txt.lookahead.json": "21ce966dd10005ef926899811b1816e5e634ec130a932af371d5b969f7c6c601",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample7-after.txt": "f4abb138b9a8f16e0608697fe55d95ee7e6649e92704501c98b4dee3d5b21f8a",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample7-after.txt.lookahead.json": "3b433c78aa5fa42635cca9db835049b85e29afb3fad30f68d57707562ec0276d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample7-before.txt": "a53db8e09dcac4c32937e71ea60997d3639ad22ad44c7bd8e1a17bbbc504bff4",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample7-before.txt.lookahead.json": "3b433c78aa5fa42635cca9db835049b85e29afb3fad30f68d57707562ec0276d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample8-after.txt": "d41008e573c3220ae5b1e701802e783768a9d37f6f23f36dc188fea9225ea01f",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample8-after.txt.lookahead.json": "864871ef6c35331c33916f53fe7e9211547675616297345502a6b651d777ff6f",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample8-before.txt": "f80e9cf306812ca633081e0301aac6a62cfdba057d239c885250ebef04b87173",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample8-before.txt.lookahead.json": "31e109432c6c4dae864459e733f4b7ab3720c2560794353ca61ddd74e14b7a82",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample9-after.txt": "4f87a4a3a07d29e90e57dcbd7a39dbff089a9d2658e81742a6aeefecc15f45d1",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample9-after.txt.lookahead.json": "cb7167ff5572c3d9881653b29749de11a903fbab8138396917c1427bae743da8",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample9-before.txt": "399897778ca94d86217ed88b7dd44ce0bed7434122d82ca3cd7439409b4c958f",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-sample9-before.txt.lookahead.json": "928a194e38377ad70552016d1ca5126cc405283a402d292f664917d6fa80f8df",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-best.txt": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-best.txt.lookahead.json": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s82-h10.txt": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s82-h10.txt.lookahead.json": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s84-h10.txt": "5ab4b7774ae7cbfe1ea286cfd15cc5cd7d7600ebd1ee83cbfa531d7571b8bf19",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s84-h10.txt.lookahead.json": "30c71c5c4376b3f6c8f6c5d82c9e8a71461ed2adfad889e1bde5ec4d611d3788",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s84-h11.txt": "59af9aa1b31d72ab3933aa5fdf5e96becf3b4c287cfe95717dd933ffefccd50a",
+    "experiments/scratch/four-seven-template-cut-pilot-v1.0.0/cycle-score-s84-h11.txt.lookahead.json": "7477087e78bd310c39d888325eabbc3ec125e6a5170f9d35f68e29614e2b6920"
+  },
+  "metrics_origin": "Audit-bound sidecars; holes and both cut lhs values independently recounted here.",
+  "original_seed_sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+  "final_best_sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+  "old_cut_sha256": "9b946f1dbb41f49495a2303b1cac8b2de8a68e0e2eca2aa455dab02f5c5872c1",
+  "old_cut_rhs": 108686,
+  "second_cut_sha256": "24c9a407e4abf90fe712ba297e549d32e748e000370d841984b107d0723a88a8",
+  "second_cut_rhs": 104444,
+  "tuples_violating_old_cut": 3,
+  "tuples_violating_second_cut": 2,
+  "tuples_violating_either_cut": 5,
+  "tuple_multiplicity_histogram": {
+    "1": 2,
+    "2": 13,
+    "5": 1,
+    "12": 1
+  },
+  "tuples_passing_recorded_finite_screens": 12,
+  "additional_lp_candidates_beyond_final_best": 12,
+  "suggested_additional_lp_priority": [
+    "2ff8e2399857e58c763b46a1af015a68b66c37482070aab59473f821985bcbab",
+    "436d3e563865c794960f91f088aae8dc0a33866728a3c9ae4c559d62b260968f",
+    "e32b0008b103b65fe0db7bf1a0bdf8ba10981d16c53e5261a1626bde8fb715d7",
+    "dabecf9d9870fa774208d5ddea2394f1919f30887284c0d882269cdac2d6245e",
+    "17587e6eb1468f2f6b71c966cbb450e1f71ef7b19cacab26886162e7217eff43",
+    "1d1d2b11ba6e9213f8a028cbcb0d5c80e1acf21365e0d46f34c794ae829ee58f",
+    "e05445be39b8cfbc3e000f569d8ee2d5ac9e694da50b355bb34f4cb64a1d3991",
+    "3c4dcba7c7b3a468377fc3f51612241e5392c640cc4c864009c65cd592e12378",
+    "10e7e7381db4398d835bdfb93663c86e2f7ea31b3aee6fbf241064e23be4d53e",
+    "8f6d6eb0f6b1190caf511c8eae21199b6b5dfa21a1546507c022a5baa55b81e0",
+    "1db1a6beafa5a152001f752e629a94f33eafd85bcb39a2f717d00c27c2be35d8",
+    "817b67af75d6f83671d3b84b718088d3dd49e554287b4f68ce937e0e8e4ae6fb"
+  ],
+  "tuples": [
+    {
+      "heavy_sha256": "2ff8e2399857e58c763b46a1af015a68b66c37482070aab59473f821985bcbab",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          14
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          1,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          2,
+          7,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          3,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          4,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          11,
+          12
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          5,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          8,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample7-after.txt",
+          "sha256": "f4abb138b9a8f16e0608697fe55d95ee7e6649e92704501c98b4dee3d5b21f8a",
+          "sidecar_sha256": "3b433c78aa5fa42635cca9db835049b85e29afb3fad30f68d57707562ec0276d",
+          "holes": 31,
+          "score": 188,
+          "base_score": 188,
+          "cut_lhs": 139455,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 582,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample7-before.txt",
+          "sha256": "a53db8e09dcac4c32937e71ea60997d3639ad22ad44c7bd8e1a17bbbc504bff4",
+          "sidecar_sha256": "3b433c78aa5fa42635cca9db835049b85e29afb3fad30f68d57707562ec0276d",
+          "holes": 31,
+          "score": 188,
+          "base_score": 188,
+          "cut_lhs": 139455,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 582,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 31,
+      "max_holes": 31,
+      "min_full_score": 188,
+      "max_full_score": 188,
+      "cut_lhs": 139455,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 582,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 133072,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 1
+    },
+    {
+      "heavy_sha256": "436d3e563865c794960f91f088aae8dc0a33866728a3c9ae4c559d62b260968f",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          13
+        ],
+        [
+          1,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          1,
+          6,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          10
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          2,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          3,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          12,
+          15
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          5,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          9,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample1-after.txt",
+          "sha256": "4c5b46e02b441ab672d6e1136411d56ae1626992eb4e9c92f645cd234bd96861",
+          "sidecar_sha256": "0b21033e97550f1ba3481ec555ba519c0d1d08313c75bc93749858cc4abfb506",
+          "holes": 42,
+          "score": 257,
+          "base_score": 257,
+          "cut_lhs": 140750,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 533,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample1-before.txt",
+          "sha256": "7f648a0ba381993fdbe811cf83d1061fc013bba98b4ddd33fde9a57c1490d0b9",
+          "sidecar_sha256": "b56f866fea1c2937f09ba8c10df968b74ab1fbc83e840ca83953403932d0ab39",
+          "holes": 42,
+          "score": 255,
+          "base_score": 255,
+          "cut_lhs": 140750,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 533,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 42,
+      "max_holes": 42,
+      "min_full_score": 255,
+      "max_full_score": 257,
+      "cut_lhs": 140750,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 533,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 136027,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 2
+    },
+    {
+      "heavy_sha256": "e32b0008b103b65fe0db7bf1a0bdf8ba10981d16c53e5261a1626bde8fb715d7",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          15
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          16
+        ],
+        [
+          1,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          7,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          10
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          2,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          3,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          3,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          12
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          11,
+          14
+        ],
+        [
+          5,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          8,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11,
+          14,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample9-after.txt",
+          "sha256": "4f87a4a3a07d29e90e57dcbd7a39dbff089a9d2658e81742a6aeefecc15f45d1",
+          "sidecar_sha256": "cb7167ff5572c3d9881653b29749de11a903fbab8138396917c1427bae743da8",
+          "holes": 44,
+          "score": 266,
+          "base_score": 266,
+          "cut_lhs": 140481,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 708,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample9-before.txt",
+          "sha256": "399897778ca94d86217ed88b7dd44ce0bed7434122d82ca3cd7439409b4c958f",
+          "sidecar_sha256": "928a194e38377ad70552016d1ca5126cc405283a402d292f664917d6fa80f8df",
+          "holes": 43,
+          "score": 250,
+          "base_score": 250,
+          "cut_lhs": 140481,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 708,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 43,
+      "max_holes": 44,
+      "min_full_score": 250,
+      "max_full_score": 266,
+      "cut_lhs": 140481,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 708,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 149400,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 3
+    },
+    {
+      "heavy_sha256": "dabecf9d9870fa774208d5ddea2394f1919f30887284c0d882269cdac2d6245e",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          12
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          1,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          2,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          3,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          9
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          11,
+          14
+        ],
+        [
+          5,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          9,
+          10,
+          11,
+          14,
+          16
+        ],
+        [
+          10,
+          12,
+          13,
+          14,
+          15
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample10-after.txt",
+          "sha256": "d90259a9069c6dd9855c4b18a9b1555336d406d03c00a2cfd2ad12def2678b49",
+          "sidecar_sha256": "a247af35438f817987e8fb405123cd63704791b08622b88e8bcc7ef7aa121711",
+          "holes": 43,
+          "score": 262,
+          "base_score": 262,
+          "cut_lhs": 138856,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 651,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample10-before.txt",
+          "sha256": "640dcc14f0f2dc397510f346777cc7fa5fc0f1de21c5a0090c43c32a57cf1c25",
+          "sidecar_sha256": "937043a4422d9902dbd2876a3ddedcd16b0daccaae304027eff3443ad392e568",
+          "holes": 44,
+          "score": 262,
+          "base_score": 262,
+          "cut_lhs": 138856,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 651,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 43,
+      "max_holes": 44,
+      "min_full_score": 262,
+      "max_full_score": 262,
+      "cut_lhs": 138856,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 651,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 141846,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 4
+    },
+    {
+      "heavy_sha256": "17587e6eb1468f2f6b71c966cbb450e1f71ef7b19cacab26886162e7217eff43",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          1,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          2,
+          4,
+          9,
+          10,
+          11
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          9
+        ],
+        [
+          2,
+          7,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          3,
+          6,
+          9,
+          10,
+          11
+        ],
+        [
+          3,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          12
+        ],
+        [
+          4,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          13
+        ],
+        [
+          5,
+          6,
+          7,
+          11,
+          16
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          5,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        [
+          10,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          11,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample6-after.txt",
+          "sha256": "2ab53c6703117196dfc26136124270f33d1e6a033d387c1d500b4f9d98f061e6",
+          "sidecar_sha256": "4eb9ea366622993e1b26d86bce0be2c649cd7703919fc61dee66b32481c9182d",
+          "holes": 48,
+          "score": 304,
+          "base_score": 304,
+          "cut_lhs": 145336,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 614,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample6-before.txt",
+          "sha256": "5e5b5743673016945342499657e87347a67073990a6e50062463339b977fac22",
+          "sidecar_sha256": "21ce966dd10005ef926899811b1816e5e634ec130a932af371d5b969f7c6c601",
+          "holes": 48,
+          "score": 295,
+          "base_score": 295,
+          "cut_lhs": 145336,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 614,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 48,
+      "max_holes": 48,
+      "min_full_score": 295,
+      "max_full_score": 304,
+      "cut_lhs": 145336,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 614,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 143192,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 5
+    },
+    {
+      "heavy_sha256": "1d1d2b11ba6e9213f8a028cbcb0d5c80e1acf21365e0d46f34c794ae829ee58f",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          1,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          16
+        ],
+        [
+          2,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          2,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          3,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          3,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          12
+        ],
+        [
+          4,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          15
+        ],
+        [
+          5,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          9,
+          10,
+          11,
+          14,
+          16
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample4-after.txt",
+          "sha256": "274d3134b832fafc18f15bfad1536770d64773b2c208057222e35057015821eb",
+          "sidecar_sha256": "1f720ef0090abd2471c76641087d46b3ee1953fafa1e9152f75f66697ab68cc9",
+          "holes": 50,
+          "score": 310,
+          "base_score": 310,
+          "cut_lhs": 132698,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 628,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample4-before.txt",
+          "sha256": "d0ed7bfde0824608e10ef7ddc419fe371f9bf7f4d4a8ce78b6e431d00148faad",
+          "sidecar_sha256": "99d9f1861a767473d2ebbf4fb928c96a6198bf3f62be95c334719cf721d0d059",
+          "holes": 50,
+          "score": 301,
+          "base_score": 301,
+          "cut_lhs": 132698,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 628,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 50,
+      "max_holes": 50,
+      "min_full_score": 301,
+      "max_full_score": 310,
+      "cut_lhs": 132698,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 628,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 134341,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 6
+    },
+    {
+      "heavy_sha256": "e05445be39b8cfbc3e000f569d8ee2d5ac9e694da50b355bb34f4cb64a1d3991",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          7
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          12
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          1,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          2,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          10
+        ],
+        [
+          3,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          3,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          11
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          4,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          13
+        ],
+        [
+          5,
+          6,
+          7,
+          12,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          14,
+          16
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          5,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        [
+          10,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample0-after.txt",
+          "sha256": "a8f16cc140317183eef60145339a94f47cf3d899e9f47b6b612bdbbd356c7087",
+          "sidecar_sha256": "5d94b03749190a888213c52c92c8e3cb6821f3792f6110901757ea2ceda9b6ac",
+          "holes": 50,
+          "score": 310,
+          "base_score": 310,
+          "cut_lhs": 141897,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 558,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample0-before.txt",
+          "sha256": "d9f7b790760c07954727f788d76a942610d242b1c6b35bbf796aa55e6ec1a5ca",
+          "sidecar_sha256": "3ddeae174a51c54d45d0b418f76ff59dda6563cb105653fe6c9a96560e3e951f",
+          "holes": 51,
+          "score": 315,
+          "base_score": 315,
+          "cut_lhs": 141897,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 558,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 50,
+      "max_holes": 51,
+      "min_full_score": 310,
+      "max_full_score": 315,
+      "cut_lhs": 141897,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 558,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 145247,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 7
+    },
+    {
+      "heavy_sha256": "3c4dcba7c7b3a468377fc3f51612241e5392c640cc4c864009c65cd592e12378",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          1,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          2,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          2,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          11
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          4,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          12
+        ],
+        [
+          5,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          6,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          9,
+          10,
+          11,
+          12,
+          15
+        ],
+        [
+          9,
+          10,
+          11,
+          14,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample8-after.txt",
+          "sha256": "d41008e573c3220ae5b1e701802e783768a9d37f6f23f36dc188fea9225ea01f",
+          "sidecar_sha256": "864871ef6c35331c33916f53fe7e9211547675616297345502a6b651d777ff6f",
+          "holes": 54,
+          "score": 338,
+          "base_score": 338,
+          "cut_lhs": 145287,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 635,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample8-before.txt",
+          "sha256": "f80e9cf306812ca633081e0301aac6a62cfdba057d239c885250ebef04b87173",
+          "sidecar_sha256": "31e109432c6c4dae864459e733f4b7ab3720c2560794353ca61ddd74e14b7a82",
+          "holes": 54,
+          "score": 347,
+          "base_score": 347,
+          "cut_lhs": 145287,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 635,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 54,
+      "max_holes": 54,
+      "min_full_score": 338,
+      "max_full_score": 347,
+      "cut_lhs": 145287,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 635,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 138792,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 8
+    },
+    {
+      "heavy_sha256": "10e7e7381db4398d835bdfb93663c86e2f7ea31b3aee6fbf241064e23be4d53e",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          11,
+          13
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          1,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          11
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          2,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          3,
+          6,
+          9,
+          10,
+          11
+        ],
+        [
+          3,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          13
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          5,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          8,
+          9,
+          13,
+          14,
+          15
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample2-after.txt",
+          "sha256": "56e450d7d4ed4a7df27856fe1210090aeb1a138828dfcfc8baa21ab5c87a0cec",
+          "sidecar_sha256": "c2268ec7291ed7ec2efe4a5439e20cb159a09d3e3b21be519a3a8cc4336088a3",
+          "holes": 54,
+          "score": 353,
+          "base_score": 353,
+          "cut_lhs": 130146,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 622,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample2-before.txt",
+          "sha256": "0c04cabf36c8b8cb2efceacd49a50426c1cc4bde53193a4ea627d37d91b55c47",
+          "sidecar_sha256": "c2268ec7291ed7ec2efe4a5439e20cb159a09d3e3b21be519a3a8cc4336088a3",
+          "holes": 54,
+          "score": 353,
+          "base_score": 353,
+          "cut_lhs": 130146,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 622,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 54,
+      "max_holes": 54,
+      "min_full_score": 353,
+      "max_full_score": 353,
+      "cut_lhs": 130146,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 622,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 127369,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 9
+    },
+    {
+      "heavy_sha256": "8f6d6eb0f6b1190caf511c8eae21199b6b5dfa21a1546507c022a5baa55b81e0",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          1,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          12
+        ],
+        [
+          2,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          9
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          16
+        ],
+        [
+          4,
+          8,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          13
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          5,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          9,
+          12,
+          13,
+          14,
+          15
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample5-after.txt",
+          "sha256": "5f0875019c2517e8abe8025c7a29993c764d35af8811fec461aa2064e307d9e3",
+          "sidecar_sha256": "a528050bd24182ff1a55503998bdf550ad87a3fecef35c1984ea3e714e774a07",
+          "holes": 57,
+          "score": 359,
+          "base_score": 359,
+          "cut_lhs": 137427,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 616,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample5-before.txt",
+          "sha256": "5b4ea37f03e31a3b2f45cb8ec7f1e994d5cf2fd45394a03263ae3fa7df46e223",
+          "sidecar_sha256": "da35c9a73217c44536929a307ab47f415600aeaad8e12f3f808d7d8575838719",
+          "holes": 56,
+          "score": 351,
+          "base_score": 351,
+          "cut_lhs": 137427,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 616,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 56,
+      "max_holes": 57,
+      "min_full_score": 351,
+      "max_full_score": 359,
+      "cut_lhs": 137427,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 616,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 137689,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 10
+    },
+    {
+      "heavy_sha256": "1db1a6beafa5a152001f752e629a94f33eafd85bcb39a2f717d00c27c2be35d8",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          12
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          16
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          10,
+          13
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          9
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          1,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          2,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          3,
+          5,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          13
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          11,
+          14
+        ],
+        [
+          5,
+          6,
+          7,
+          12,
+          15
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          8,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          9,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample11-after.txt",
+          "sha256": "85bafeeb91ca2c61b1aa25a4447baa059bb128f9c862e68016a569b4c120bac7",
+          "sidecar_sha256": "df42ff93f2b9a57828328c66061264abb00cffdd50d461da83f9a7c4380f37ae",
+          "holes": 61,
+          "score": 380,
+          "base_score": 380,
+          "cut_lhs": 148227,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 651,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample11-before.txt",
+          "sha256": "c803ecdcfa280626604e125f61dc887f6db7ade45dc8b1c02d93a73dbe175373",
+          "sidecar_sha256": "458e31fed3fef43d801efe1f6c4e75206eba98e635902b8bb6c81caa70af3499",
+          "holes": 62,
+          "score": 387,
+          "base_score": 387,
+          "cut_lhs": 148227,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 651,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 61,
+      "max_holes": 62,
+      "min_full_score": 380,
+      "max_full_score": 387,
+      "cut_lhs": 148227,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 651,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 139372,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 11
+    },
+    {
+      "heavy_sha256": "817b67af75d6f83671d3b84b718088d3dd49e554287b4f68ce937e0e8e4ae6fb",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          13
+        ],
+        [
+          1,
+          2,
+          3,
+          8,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          9,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          10
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          2,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          11
+        ],
+        [
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          6,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          13
+        ],
+        [
+          5,
+          6,
+          7,
+          14,
+          16
+        ],
+        [
+          5,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          7,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          8,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          9,
+          10,
+          11,
+          13,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-sample3-after.txt",
+          "sha256": "c341e2d9af4babda4d6155761857834daae039b267fd3726a3f7dbfa743b0ff4",
+          "sidecar_sha256": "334b29c808ae47fb0270a528ffbf307f8c0e650058a98754ea5b8b9606563a79",
+          "holes": 62,
+          "score": 391,
+          "base_score": 391,
+          "cut_lhs": 144608,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 566,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-sample3-before.txt",
+          "sha256": "7e39cf3109292c1871d095110c4f2560d1cb8f3e34ae3ba483c56800b594c732",
+          "sidecar_sha256": "fbfed5b76d91fffc15f98479ddf75bbc5f449c775341756ec7bd023e223c541d",
+          "holes": 61,
+          "score": 386,
+          "base_score": 386,
+          "cut_lhs": 144608,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 566,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 2,
+      "min_holes": 61,
+      "max_holes": 62,
+      "min_full_score": 386,
+      "max_full_score": 391,
+      "cut_lhs": 144608,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 566,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 137949,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": true,
+      "lp_priority_note": "Remaining tuple passes the recorded finite screens; a later LP could separate it.",
+      "inventory_rank": 12
+    },
+    {
+      "heavy_sha256": "566847cc7d9e5e0bcc420dca912d2d8926059a76ee62c0159714336c9c113151",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          16
+        ],
+        [
+          1,
+          4,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          1,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          2,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          3,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          6,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-best.txt",
+          "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+          "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+          "holes": 10,
+          "score": 82,
+          "base_score": 82,
+          "cut_lhs": 118449,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-raw-best.txt",
+          "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+          "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+          "holes": 10,
+          "score": 82,
+          "base_score": 82,
+          "cut_lhs": 118449,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-raw-h10-s82.txt",
+          "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+          "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+          "holes": 10,
+          "score": 82,
+          "base_score": 82,
+          "cut_lhs": 118449,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-score-best.txt",
+          "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+          "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+          "holes": 10,
+          "score": 82,
+          "base_score": 82,
+          "cut_lhs": 118449,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-score-s82-h10.txt",
+          "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+          "sidecar_sha256": "0db97dd6d1de0c4ad934ec959aaecbee82acd721be9fba32255b1776618eaf2d",
+          "holes": 10,
+          "score": 82,
+          "base_score": 82,
+          "cut_lhs": 118449,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 5,
+      "distinct_full_family_count": 1,
+      "min_holes": 10,
+      "max_holes": 10,
+      "min_full_score": 82,
+      "max_full_score": 82,
+      "cut_lhs": 118449,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": true,
+      "second_cut_lhs": 91904,
+      "second_cut_violation": 12540,
+      "lp_batch_candidate": false,
+      "lp_priority_note": "Already fails finite necessary conditions: violates the new second labeled necessary cut.",
+      "inventory_rank": 13
+    },
+    {
+      "heavy_sha256": "45d94b5a68d157899e1dd2d552831d12e33bc9f47c4978fbe24485538609a688",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          16
+        ],
+        [
+          1,
+          4,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          1,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          2,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          3,
+          8,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          11
+        ],
+        [
+          4,
+          5,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          6,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          12,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-raw-h10-s84.txt",
+          "sha256": "5ab4b7774ae7cbfe1ea286cfd15cc5cd7d7600ebd1ee83cbfa531d7571b8bf19",
+          "sidecar_sha256": "30c71c5c4376b3f6c8f6c5d82c9e8a71461ed2adfad889e1bde5ec4d611d3788",
+          "holes": 10,
+          "score": 84,
+          "base_score": 84,
+          "cut_lhs": 121991,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 633,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-score-s84-h10.txt",
+          "sha256": "5ab4b7774ae7cbfe1ea286cfd15cc5cd7d7600ebd1ee83cbfa531d7571b8bf19",
+          "sidecar_sha256": "30c71c5c4376b3f6c8f6c5d82c9e8a71461ed2adfad889e1bde5ec4d611d3788",
+          "holes": 10,
+          "score": 84,
+          "base_score": 84,
+          "cut_lhs": 121991,
+          "cut_violation": 0,
+          "cut_penalty": 0,
+          "unsupported_count": 0,
+          "admissible_count": 633,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 2,
+      "distinct_full_family_count": 1,
+      "min_holes": 10,
+      "max_holes": 10,
+      "min_full_score": 84,
+      "max_full_score": 84,
+      "cut_lhs": 121991,
+      "cut_violation": 0,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 633,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 97813,
+      "second_cut_violation": 6631,
+      "lp_batch_candidate": false,
+      "lp_priority_note": "Already fails finite necessary conditions: violates the new second labeled necessary cut.",
+      "inventory_rank": 14
+    },
+    {
+      "heavy_sha256": "2fba4f7cbb2b3778f73cb93618bd806b495b14bcff9702544e1b07d4db1777ec",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          16
+        ],
+        [
+          1,
+          4,
+          13,
+          14,
+          15
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          2,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          8,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-control0-after.txt",
+          "sha256": "d616c4d18733a4cac1df88fdd32440c22f88afccddf28e912834c19273b8b7c2",
+          "sidecar_sha256": "943c33aa8f343169cdbbd26b1bd12f192674836e817560dc2bc6a151a58734f0",
+          "holes": 17,
+          "score": 132,
+          "base_score": 121,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control0-before.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control0-rollback.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control1-after.txt",
+          "sha256": "cbe9088add81ee5cc613d1e72956a4628c81fbd6811fbd702e4756f26b6a460a",
+          "sidecar_sha256": "2d63073af683aabc0097dfaddbad93a691f8b9650b12ed771beebe0814ec089a",
+          "holes": 18,
+          "score": 147,
+          "base_score": 136,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control1-before.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control1-rollback.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control2-after.txt",
+          "sha256": "7204918b731820034b2af8698f029d7cf28889541382a2de1fbb879e184d2497",
+          "sidecar_sha256": "d01fe7bd1b38714f12e8d1fef52e0f76fa7846e1fd3943371b62eb3be67b1d15",
+          "holes": 33,
+          "score": 232,
+          "base_score": 221,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control2-before.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control2-rollback.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control3-before.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-control3-rollback.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5ae1328c341d2406ac0f5d4c4c53ad7b21be19ab728d796976adc58dfc527744",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        },
+        {
+          "file": "cycle-initial.txt",
+          "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+          "sidecar_sha256": "5cc172565dd842ae2d5d5a88f9fd418076469276f38c2fbaea6348e0f904c366",
+          "holes": 10,
+          "score": 89,
+          "base_score": 78,
+          "cut_lhs": 98144,
+          "cut_violation": 10542,
+          "cut_penalty": 11,
+          "unsupported_count": 0,
+          "admissible_count": 680,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 12,
+      "distinct_full_family_count": 4,
+      "min_holes": 10,
+      "max_holes": 33,
+      "min_full_score": 89,
+      "max_full_score": 232,
+      "cut_lhs": 98144,
+      "cut_violation": 10542,
+      "cut_penalty": 11,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": true,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 115391,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": false,
+      "lp_priority_note": "Already fails finite necessary conditions: violates the existing labeled necessary cut.",
+      "inventory_rank": 15
+    },
+    {
+      "heavy_sha256": "d410f96e3f62b67d9bac7f7fd616860ce286013281d81b95160dc462ada55b85",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          16
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          1,
+          5,
+          13,
+          14,
+          15
+        ],
+        [
+          1,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          2,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          4,
+          5,
+          9,
+          10,
+          11
+        ],
+        [
+          4,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          6,
+          7,
+          11,
+          14
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          8,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-score-s84-h11.txt",
+          "sha256": "59af9aa1b31d72ab3933aa5fdf5e96becf3b4c287cfe95717dd933ffefccd50a",
+          "sidecar_sha256": "7477087e78bd310c39d888325eabbc3ec125e6a5170f9d35f68e29614e2b6920",
+          "holes": 11,
+          "score": 84,
+          "base_score": 83,
+          "cut_lhs": 107994,
+          "cut_violation": 692,
+          "cut_penalty": 1,
+          "unsupported_count": 0,
+          "admissible_count": 749,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 1,
+      "distinct_full_family_count": 1,
+      "min_holes": 11,
+      "max_holes": 11,
+      "min_full_score": 84,
+      "max_full_score": 84,
+      "cut_lhs": 107994,
+      "cut_violation": 692,
+      "cut_penalty": 1,
+      "unsupported_count": 0,
+      "admissible_count": 749,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 120182,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": false,
+      "lp_priority_note": "Already fails finite necessary conditions: violates the existing labeled necessary cut.",
+      "inventory_rank": 16
+    },
+    {
+      "heavy_sha256": "d670620de21dead25b05db8088293b7461072f28047143cd2db95c3fa26a8cbf",
+      "heavy_blocks": [
+        [
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          14
+        ],
+        [
+          1,
+          2,
+          3,
+          5,
+          11
+        ],
+        [
+          1,
+          2,
+          3,
+          6,
+          9
+        ],
+        [
+          1,
+          2,
+          3,
+          7,
+          10
+        ],
+        [
+          1,
+          2,
+          3,
+          12,
+          15
+        ],
+        [
+          1,
+          2,
+          3,
+          13,
+          16
+        ],
+        [
+          1,
+          4,
+          9,
+          10,
+          11
+        ],
+        [
+          1,
+          4,
+          13,
+          14,
+          15
+        ],
+        [
+          1,
+          5,
+          6,
+          7,
+          14
+        ],
+        [
+          2,
+          5,
+          6,
+          7,
+          13
+        ],
+        [
+          2,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          2,
+          10,
+          13,
+          14,
+          15
+        ],
+        [
+          3,
+          5,
+          6,
+          7,
+          15
+        ],
+        [
+          3,
+          9,
+          10,
+          11,
+          14
+        ],
+        [
+          3,
+          9,
+          13,
+          14,
+          15
+        ],
+        [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        [
+          5,
+          6,
+          7,
+          8,
+          11
+        ],
+        [
+          5,
+          6,
+          7,
+          9,
+          12
+        ],
+        [
+          5,
+          6,
+          7,
+          10,
+          16
+        ],
+        [
+          5,
+          9,
+          10,
+          11,
+          16
+        ],
+        [
+          5,
+          11,
+          13,
+          14,
+          15
+        ],
+        [
+          6,
+          9,
+          10,
+          11,
+          15
+        ],
+        [
+          6,
+          12,
+          13,
+          14,
+          15
+        ],
+        [
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          7,
+          13,
+          14,
+          15,
+          16
+        ],
+        [
+          8,
+          9,
+          10,
+          11,
+          13
+        ],
+        [
+          8,
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "members": [
+        {
+          "file": "cycle-control3-after.txt",
+          "sha256": "f42327446aa79201feb6a1799155e92b1e7fd79e93ceb06ed152880ba8ec0b83",
+          "sidecar_sha256": "c8fa2a018f92010c3ba2374031b2e67539f48c6d2a63732b53c8f65783cf0091",
+          "holes": 16,
+          "score": 126,
+          "base_score": 123,
+          "cut_lhs": 106301,
+          "cut_violation": 2385,
+          "cut_penalty": 3,
+          "unsupported_count": 0,
+          "admissible_count": 534,
+          "heavy_excess": 0
+        }
+      ],
+      "saved_state_count": 1,
+      "distinct_full_family_count": 1,
+      "min_holes": 16,
+      "max_holes": 16,
+      "min_full_score": 126,
+      "max_full_score": 126,
+      "cut_lhs": 106301,
+      "cut_violation": 2385,
+      "cut_penalty": 3,
+      "unsupported_count": 0,
+      "admissible_count": 534,
+      "heavy_excess": 0,
+      "equals_original_ten_hole_seed_heavy": false,
+      "equals_final_best_heavy": false,
+      "second_cut_lhs": 114920,
+      "second_cut_violation": 0,
+      "lp_batch_candidate": false,
+      "lp_priority_note": "Already fails finite necessary conditions: violates the existing labeled necessary cut.",
+      "inventory_rank": 17
+    }
+  ],
+  "solver_calls": 0,
+  "lp_calls": 0,
+  "native_runs": 0,
+  "scope": "Exact inventory of45 audited saved states only. Deduplication is labeled equality, not isomorphism. Finite-screen status and any future LP concern this labeled regular-template setting only; no unrestricted bound."
+}

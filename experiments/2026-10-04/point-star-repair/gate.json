@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "metadata_sha256": "487cfea823fe813589e7069d768fe8cde0ac8acbc7e1623f50434862fc9f7ed3",
+  "source_sha256": "bcf9e7cd90c48f3e36ffbc1957005e5672f61dea735a52844b741e448d75aefb",
+  "verified_inputs": {
+    "experiments/2026-10-04/point-star-repair/metadata.json": "487cfea823fe813589e7069d768fe8cde0ac8acbc7e1623f50434862fc9f7ed3",
+    "experiments/2026-10-04/point-star-repair/run.py": "bbe087a8178ffbac9b633908e9d1d388771cc13950cab88a59beef64e166c89a",
+    "experiments/2026-10-04/point-star-repair/initial.txt": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "experiments/2026-10-04/point-star-repair/initial.audit.json": "b5b70001b3f625f23c0210e4d1c354a4e5ad0c2c1c24ae7715aef002b54a852a",
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "scripts/partial_core_hole_search.py": "f6fbb7bd6fc13da08156cfe6a095795e3908da573054ffd10216fd97108f7f33",
+    "experiments/scratch/point-star-repair-20261004/point-2.pbtxt": "0c16626864a39d5357d1af296fb5be0ffb87b3d571689dee5ea412a150f5dfd3",
+    "experiments/scratch/point-star-repair-20261004/point-15.pbtxt": "bd4fb166a87322d9d8b6db5b639c52f6eef9a9105708511dca5556616fdaedce"
+  },
+  "models": [
+    {
+      "point": 2,
+      "removed": 19,
+      "retained": 45,
+      "variables": 4928,
+      "constraints": 1166,
+      "complete_proto_matches_independent_reconstruction": true,
+      "initial_holes": 3,
+      "initial_objective": 79,
+      "holes_after_deleting_star": 169,
+      "model_sha256": "0c16626864a39d5357d1af296fb5be0ffb87b3d571689dee5ea412a150f5dfd3"
+    },
+    {
+      "point": 15,
+      "removed": 21,
+      "retained": 43,
+      "variables": 4928,
+      "constraints": 1164,
+      "complete_proto_matches_independent_reconstruction": true,
+      "initial_holes": 3,
+      "initial_objective": 87,
+      "holes_after_deleting_star": 175,
+      "model_sha256": "bd4fb166a87322d9d8b6db5b639c52f6eef9a9105708511dca5556616fdaedce"
+    }
+  ],
+  "solver_calls": 0,
+  "scope": "Only the two recorded retained-block neighborhoods. Hole variables are exact; objective prefers fewer holes before changed-star size. No unrestricted lower bound."
+}

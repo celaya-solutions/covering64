@@ -1,0 +1,6037 @@
+{
+  "source_sha256": "c8c92feb1fd3b0159aaa6ba41ea13f9df3d40041ba4a569d374b7135cf41e041",
+  "metadata_sha256": "24bf8213bb142df299cdacfa72cbded43d88fe78b57b78843c7a578894d2afbc",
+  "summary_sha256": "6c9324fda9d967e5a1764dee83233298e23f7fc0d0cc603f1f3104c99f591cf8",
+  "checked_states": 137,
+  "distinct_three_hole_families": 12,
+  "all_three_hole_families_have_forbidden_five_heavy_profile": true,
+  "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+  "structure_screen_sha256": "96cae8b07d43f4ad0bfbb73591f2123547fffbbb2e1def717f1bc848121661be",
+  "three_hole_families": [
+    {
+      "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 0,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0005732920253649354,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [],
+          "added": []
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "6f1aa5540c15ac3ad67d4adaaaa8e3751a3f011d6f117eadccec4aeb47545ec2",
+      "point_degree_multiset": [
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 498,
+        "2": 54,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0004783329786732793,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              5,
+              7,
+              13,
+              16
+            ],
+            [
+              2,
+              7,
+              10,
+              14,
+              15
+            ],
+            [
+              3,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              4,
+              6,
+              7,
+              8,
+              10
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              5,
+              7,
+              13,
+              16
+            ],
+            [
+              2,
+              7,
+              10,
+              14,
+              15
+            ],
+            [
+              3,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              4,
+              6,
+              7,
+              8,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "2cf21551dbaec3694b9cdaaa9010666fb20ee5ef4b32d92e7eeea592b54d75e5",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0004956669872626662,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              13
+            ],
+            [
+              1,
+              5,
+              7,
+              13,
+              16
+            ],
+            [
+              2,
+              7,
+              10,
+              14,
+              15
+            ],
+            [
+              4,
+              6,
+              7,
+              8,
+              10
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              13
+            ],
+            [
+              1,
+              5,
+              7,
+              13,
+              16
+            ],
+            [
+              2,
+              7,
+              10,
+              14,
+              15
+            ],
+            [
+              4,
+              6,
+              7,
+              8,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "784cabd86cefe85f2c411e69c64fb8a4b3bf5696101aedf9f1bd8cb58fa4845c",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        22
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 3,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0004778329748660326,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              8,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              15
+            ],
+            [
+              5,
+              7,
+              8,
+              13,
+              16
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              2,
+              7,
+              8,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              15
+            ],
+            [
+              5,
+              7,
+              8,
+              13,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "aee8e4315e2ae8461b71431f8286b2273ea9743ca361c2531ad6b6b30c955f63",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        22,
+        22
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            6
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0015310000162571669,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              2,
+              7,
+              8,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              15
+            ],
+            [
+              5,
+              7,
+              8,
+              13,
+              16
+            ],
+            [
+              7,
+              9,
+              11,
+              12,
+              15
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              2,
+              7,
+              8,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              15
+            ],
+            [
+              5,
+              7,
+              8,
+              13,
+              16
+            ],
+            [
+              7,
+              9,
+              11,
+              12,
+              15
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "7411d40b17f1ea3f0aac6f3d6eda1a337e53e6d01c514ba4084bf264c0b3eb99",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 498,
+        "2": 54,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 3,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0004794170381501317,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              2,
+              3,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              11,
+              14,
+              15
+            ],
+            [
+              4,
+              5,
+              7,
+              8,
+              10
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              2,
+              3,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              11,
+              14,
+              15
+            ],
+            [
+              4,
+              5,
+              7,
+              8,
+              10
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "ed34285bbb65cda06af55c6211f04791431e4378617366ffa140a8c340fefccd",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 498,
+        "2": 54,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0004341669846326113,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              2,
+              3,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              11,
+              14,
+              15
+            ],
+            [
+              4,
+              5,
+              7,
+              8,
+              10
+            ],
+            [
+              5,
+              7,
+              13,
+              14,
+              16
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              2,
+              3,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              11,
+              14,
+              15
+            ],
+            [
+              4,
+              5,
+              7,
+              8,
+              10
+            ],
+            [
+              5,
+              7,
+              13,
+              14,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "01a1442a14ecbe341f9035ce4b45cea6de4de7e5ceea6015873e4d0b35ed987f",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 0,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            6
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0005889169406145811,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ]
+          ]
+        },
+        "B": {
+          "removed": [],
+          "added": []
+        }
+      }
+    },
+    {
+      "sha256": "c54a014bcc25e5a4b60f51d7dbd1e51d0f48b1e10a8306c7d4d798f8edd949a9",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        22
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.0005345839308574796,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              11
+            ],
+            [
+              2,
+              3,
+              7,
+              14,
+              15
+            ],
+            [
+              3,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              14
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              11
+            ],
+            [
+              2,
+              3,
+              7,
+              14,
+              15
+            ],
+            [
+              3,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "4e0e988f3aa419ba96db77453e63f28bf5b87add1aa0a717abda28dc4cc17822",
+      "point_degree_multiset": [
+        19,
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 499,
+        "2": 52,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            6
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.00041904207319021225,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              11
+            ],
+            [
+              1,
+              5,
+              7,
+              13,
+              16
+            ],
+            [
+              3,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              14
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              6,
+              7,
+              11
+            ],
+            [
+              1,
+              5,
+              7,
+              13,
+              16
+            ],
+            [
+              3,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              14
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "e7c4d62552a80f3fcb0bc8337a2d40afd59a51556b1f3f5d3463cc8c31625d14",
+      "point_degree_multiset": [
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 498,
+        "2": 54,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            7
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            6
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.00047400000039488077,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              4,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              13,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              11
+            ],
+            [
+              5,
+              7,
+              12,
+              13,
+              16
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              4,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              13,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              11
+            ],
+            [
+              5,
+              7,
+              12,
+              13,
+              16
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "sha256": "3cc367bfa06e7ef2e955e3ebc241802108bfc67c1d78fdb9f64ad1d766916baa",
+      "point_degree_multiset": [
+        19,
+        19,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        21,
+        21
+      ],
+      "triple_multiplicity_histogram": {
+        "0": 3,
+        "1": 498,
+        "2": 54,
+        "6": 1,
+        "7": 4
+      },
+      "outside_elite": 4,
+      "forbidden_five_heavy_profile": true,
+      "structure": {
+        "heavy_triples": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            7
+          ],
+          [
+            [
+              2,
+              14,
+              15
+            ],
+            7
+          ],
+          [
+            [
+              4,
+              8,
+              10
+            ],
+            7
+          ],
+          [
+            [
+              5,
+              13,
+              16
+            ],
+            6
+          ],
+          [
+            [
+              9,
+              11,
+              12
+            ],
+            7
+          ]
+        ],
+        "forbidden_five_heavy_profile": true,
+        "forbidden_witnesses": [
+          [
+            [
+              1,
+              3,
+              6
+            ],
+            [
+              2,
+              14,
+              15
+            ],
+            [
+              4,
+              8,
+              10
+            ],
+            [
+              5,
+              13,
+              16
+            ],
+            [
+              9,
+              11,
+              12
+            ]
+          ]
+        ],
+        "contains_relabelled_core": true,
+        "mapping_images_of_1_to_16": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "search_complete": true,
+        "five_disjoint_heavy_families": 1,
+        "group_nodes": 6,
+        "elapsed_seconds": 0.00047400000039488077,
+        "seconds_budget": 2,
+        "useful_escape_structure": false,
+        "scope": "Structure screen; passing does not establish extendability or covering."
+      },
+      "original_core_overlap": 60,
+      "differences_from_starts": {
+        "A": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              9,
+              10
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              4,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              13,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              11
+            ],
+            [
+              5,
+              7,
+              9,
+              11,
+              12
+            ]
+          ]
+        },
+        "B": {
+          "removed": [
+            [
+              1,
+              3,
+              6,
+              7,
+              9
+            ],
+            [
+              2,
+              7,
+              14,
+              15,
+              16
+            ],
+            [
+              4,
+              7,
+              9,
+              11,
+              12
+            ],
+            [
+              5,
+              7,
+              13,
+              15,
+              16
+            ]
+          ],
+          "added": [
+            [
+              1,
+              3,
+              4,
+              6,
+              7
+            ],
+            [
+              2,
+              7,
+              13,
+              14,
+              15
+            ],
+            [
+              4,
+              7,
+              8,
+              10,
+              11
+            ],
+            [
+              5,
+              7,
+              9,
+              11,
+              12
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case": "A-f8-s2026104901",
+      "checked_states": 11,
+      "three_hole_states": [
+        {
+          "label": "initial",
+          "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 0,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                6
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0005732920253649354,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [],
+              "added": []
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "label": "repair-best-h3",
+          "sha256": "6f1aa5540c15ac3ad67d4adaaaa8e3751a3f011d6f117eadccec4aeb47545ec2",
+          "point_degree_multiset": [
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 498,
+            "2": 54,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                6
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0004783329786732793,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  5,
+                  7,
+                  13,
+                  16
+                ],
+                [
+                  2,
+                  7,
+                  10,
+                  14,
+                  15
+                ],
+                [
+                  3,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  10
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  5,
+                  7,
+                  13,
+                  16
+                ],
+                [
+                  2,
+                  7,
+                  10,
+                  14,
+                  15
+                ],
+                [
+                  3,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  10
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "label": "repair-equal-h3",
+          "sha256": "2cf21551dbaec3694b9cdaaa9010666fb20ee5ef4b32d92e7eeea592b54d75e5",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                6
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0004956669872626662,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  13
+                ],
+                [
+                  1,
+                  5,
+                  7,
+                  13,
+                  16
+                ],
+                [
+                  2,
+                  7,
+                  10,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  10
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  13
+                ],
+                [
+                  1,
+                  5,
+                  7,
+                  13,
+                  16
+                ],
+                [
+                  2,
+                  7,
+                  10,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  6,
+                  7,
+                  8,
+                  10
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "A-f16-s2026104902",
+      "checked_states": 17,
+      "three_hole_states": [
+        {
+          "label": "initial",
+          "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 0,
+          "forbidden_five_heavy_profile": true
+        },
+        {
+          "label": "repair-best-h3",
+          "sha256": "784cabd86cefe85f2c411e69c64fb8a4b3bf5696101aedf9f1bd8cb58fa4845c",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            22
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 3,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                6
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0004778329748660326,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  8,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  15
+                ],
+                [
+                  5,
+                  7,
+                  8,
+                  13,
+                  16
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  2,
+                  7,
+                  8,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  15
+                ],
+                [
+                  5,
+                  7,
+                  8,
+                  13,
+                  16
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "label": "repair-equal-h3",
+          "sha256": "aee8e4315e2ae8461b71431f8286b2273ea9743ca361c2531ad6b6b30c955f63",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            22,
+            22
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                6
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0015310000162571669,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  2,
+                  7,
+                  8,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  15
+                ],
+                [
+                  5,
+                  7,
+                  8,
+                  13,
+                  16
+                ],
+                [
+                  7,
+                  9,
+                  11,
+                  12,
+                  15
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  2,
+                  7,
+                  8,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  15
+                ],
+                [
+                  5,
+                  7,
+                  8,
+                  13,
+                  16
+                ],
+                [
+                  7,
+                  9,
+                  11,
+                  12,
+                  15
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "A-f32-s2026104903",
+      "checked_states": 40,
+      "three_hole_states": [
+        {
+          "label": "initial",
+          "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 0,
+          "forbidden_five_heavy_profile": true
+        },
+        {
+          "label": "repair-best-h3",
+          "sha256": "7411d40b17f1ea3f0aac6f3d6eda1a337e53e6d01c514ba4084bf264c0b3eb99",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 498,
+            "2": 54,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 3,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                6
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0004794170381501317,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  11,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  5,
+                  7,
+                  8,
+                  10
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  11,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  5,
+                  7,
+                  8,
+                  10
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "label": "repair-equal-h3",
+          "sha256": "ed34285bbb65cda06af55c6211f04791431e4378617366ffa140a8c340fefccd",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 498,
+            "2": 54,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                6
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0004341669846326113,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  11,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  5,
+                  7,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  14,
+                  16
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  2,
+                  3,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  11,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  5,
+                  7,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  14,
+                  16
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "B-f8-s2026104904",
+      "checked_states": 10,
+      "three_hole_states": [
+        {
+          "label": "initial",
+          "sha256": "01a1442a14ecbe341f9035ce4b45cea6de4de7e5ceea6015873e4d0b35ed987f",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 0,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                6
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0005889169406145811,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ]
+              ]
+            },
+            "B": {
+              "removed": [],
+              "added": []
+            }
+          }
+        },
+        {
+          "label": "repair-best-h3",
+          "sha256": "c54a014bcc25e5a4b60f51d7dbd1e51d0f48b1e10a8306c7d4d798f8edd949a9",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            22
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                6
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.0005345839308574796,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  11
+                ],
+                [
+                  2,
+                  3,
+                  7,
+                  14,
+                  15
+                ],
+                [
+                  3,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  14
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  11
+                ],
+                [
+                  2,
+                  3,
+                  7,
+                  14,
+                  15
+                ],
+                [
+                  3,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  14
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "label": "repair-equal-h3",
+          "sha256": "4e0e988f3aa419ba96db77453e63f28bf5b87add1aa0a717abda28dc4cc17822",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                6
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.00041904207319021225,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  11
+                ],
+                [
+                  1,
+                  5,
+                  7,
+                  13,
+                  16
+                ],
+                [
+                  3,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  14
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  11
+                ],
+                [
+                  1,
+                  5,
+                  7,
+                  13,
+                  16
+                ],
+                [
+                  3,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  14
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "B-f16-s2026104905",
+      "checked_states": 19,
+      "three_hole_states": [
+        {
+          "label": "initial",
+          "sha256": "01a1442a14ecbe341f9035ce4b45cea6de4de7e5ceea6015873e4d0b35ed987f",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 0,
+          "forbidden_five_heavy_profile": true
+        },
+        {
+          "label": "repair-best-h3",
+          "sha256": "e7c4d62552a80f3fcb0bc8337a2d40afd59a51556b1f3f5d3463cc8c31625d14",
+          "point_degree_multiset": [
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 498,
+            "2": 54,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                7
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                6
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.00047400000039488077,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  4,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  13,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  7,
+                  12,
+                  13,
+                  16
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  4,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  13,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  7,
+                  12,
+                  13,
+                  16
+                ]
+              ]
+            }
+          }
+        },
+        {
+          "label": "repair-equal-h3",
+          "sha256": "3cc367bfa06e7ef2e955e3ebc241802108bfc67c1d78fdb9f64ad1d766916baa",
+          "point_degree_multiset": [
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 498,
+            "2": 54,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 4,
+          "forbidden_five_heavy_profile": true,
+          "structure": {
+            "heavy_triples": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                7
+              ],
+              [
+                [
+                  2,
+                  14,
+                  15
+                ],
+                7
+              ],
+              [
+                [
+                  4,
+                  8,
+                  10
+                ],
+                7
+              ],
+              [
+                [
+                  5,
+                  13,
+                  16
+                ],
+                6
+              ],
+              [
+                [
+                  9,
+                  11,
+                  12
+                ],
+                7
+              ]
+            ],
+            "forbidden_five_heavy_profile": true,
+            "forbidden_witnesses": [
+              [
+                [
+                  1,
+                  3,
+                  6
+                ],
+                [
+                  2,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  8,
+                  10
+                ],
+                [
+                  5,
+                  13,
+                  16
+                ],
+                [
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            ],
+            "contains_relabelled_core": true,
+            "mapping_images_of_1_to_16": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16
+            ],
+            "search_complete": true,
+            "five_disjoint_heavy_families": 1,
+            "group_nodes": 6,
+            "elapsed_seconds": 0.00047400000039488077,
+            "seconds_budget": 2,
+            "useful_escape_structure": false,
+            "scope": "Structure screen; passing does not establish extendability or covering."
+          },
+          "original_core_overlap": 60,
+          "differences_from_starts": {
+            "A": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  4,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  13,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  7,
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            },
+            "B": {
+              "removed": [
+                [
+                  1,
+                  3,
+                  6,
+                  7,
+                  9
+                ],
+                [
+                  2,
+                  7,
+                  14,
+                  15,
+                  16
+                ],
+                [
+                  4,
+                  7,
+                  9,
+                  11,
+                  12
+                ],
+                [
+                  5,
+                  7,
+                  13,
+                  15,
+                  16
+                ]
+              ],
+              "added": [
+                [
+                  1,
+                  3,
+                  4,
+                  6,
+                  7
+                ],
+                [
+                  2,
+                  7,
+                  13,
+                  14,
+                  15
+                ],
+                [
+                  4,
+                  7,
+                  8,
+                  10,
+                  11
+                ],
+                [
+                  5,
+                  7,
+                  9,
+                  11,
+                  12
+                ]
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case": "B-f32-s2026104906",
+      "checked_states": 40,
+      "three_hole_states": [
+        {
+          "label": "initial",
+          "sha256": "01a1442a14ecbe341f9035ce4b45cea6de4de7e5ceea6015873e4d0b35ed987f",
+          "point_degree_multiset": [
+            19,
+            19,
+            19,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            20,
+            21,
+            21,
+            21
+          ],
+          "triple_multiplicity_histogram": {
+            "0": 3,
+            "1": 499,
+            "2": 52,
+            "3": 1,
+            "6": 1,
+            "7": 4
+          },
+          "outside_elite": 0,
+          "forbidden_five_heavy_profile": true
+        }
+      ]
+    }
+  ],
+  "rejected_damaged_records": [
+    {
+      "case": "A-f8-s2026104901",
+      "damaged_field": "holes",
+      "rejected": true
+    },
+    {
+      "case": "A-f8-s2026104901",
+      "damaged_field": "sha256",
+      "rejected": true
+    },
+    {
+      "case": "A-f8-s2026104901",
+      "damaged_field": "outside_elite",
+      "rejected": true
+    },
+    {
+      "case": "A-f16-s2026104902",
+      "damaged_field": "holes",
+      "rejected": true
+    },
+    {
+      "case": "A-f16-s2026104902",
+      "damaged_field": "sha256",
+      "rejected": true
+    },
+    {
+      "case": "A-f16-s2026104902",
+      "damaged_field": "outside_elite",
+      "rejected": true
+    },
+    {
+      "case": "A-f32-s2026104903",
+      "damaged_field": "holes",
+      "rejected": true
+    },
+    {
+      "case": "A-f32-s2026104903",
+      "damaged_field": "sha256",
+      "rejected": true
+    },
+    {
+      "case": "A-f32-s2026104903",
+      "damaged_field": "outside_elite",
+      "rejected": true
+    },
+    {
+      "case": "B-f8-s2026104904",
+      "damaged_field": "holes",
+      "rejected": true
+    },
+    {
+      "case": "B-f8-s2026104904",
+      "damaged_field": "sha256",
+      "rejected": true
+    },
+    {
+      "case": "B-f8-s2026104904",
+      "damaged_field": "outside_elite",
+      "rejected": true
+    },
+    {
+      "case": "B-f16-s2026104905",
+      "damaged_field": "holes",
+      "rejected": true
+    },
+    {
+      "case": "B-f16-s2026104905",
+      "damaged_field": "sha256",
+      "rejected": true
+    },
+    {
+      "case": "B-f16-s2026104905",
+      "damaged_field": "outside_elite",
+      "rejected": true
+    },
+    {
+      "case": "B-f32-s2026104906",
+      "damaged_field": "holes",
+      "rejected": true
+    },
+    {
+      "case": "B-f32-s2026104906",
+      "damaged_field": "sha256",
+      "rejected": true
+    },
+    {
+      "case": "B-f32-s2026104906",
+      "damaged_field": "outside_elite",
+      "rejected": true
+    }
+  ],
+  "global_lower_bound_claim": false
+}

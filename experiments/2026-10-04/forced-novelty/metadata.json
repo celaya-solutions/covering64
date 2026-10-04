@@ -1,0 +1,243 @@
+{
+  "version": "v1.0.0",
+  "date": "2026-10-04",
+  "source_revision": "0915d64e055400b21696991e978b3f7a622786f3",
+  "sources": {
+    "scripts/forced_novelty_heuristic.cpp": "52a4437589c1c18c2fb0df2573802520a963a843ec79a198eb1ecf230faaf9c2",
+    "scripts/heuristic_search.cpp": "90b88e246ed494d33b361f9e0792b720b752860dc6adcffa366e0996804c620a",
+    "experiments/2026-10-04/forced-novelty/campaign.py": "947c030ea03d749a503710bdc98f607948ff000f3a991c5f093c3d391f8b3d5a"
+  },
+  "artifacts": {
+    "experiments/scratch/forced-novelty-20261004/A-delta-controls.jsonl": "90ddfd78a0c72e644837f77b16abe29a508808df38af94c25d79167cf0fa8dc8",
+    "experiments/scratch/forced-novelty-20261004/B-delta-controls.jsonl": "a063540b3457f7cae7072af7809cc3ff5b70720f292f9b90dec903db72fcf60a",
+    "experiments/scratch/forced-novelty-20261004/inputs/A.txt": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "experiments/scratch/forced-novelty-20261004/inputs/B.txt": "01a1442a14ecbe341f9035ce4b45cea6de4de7e5ceea6015873e4d0b35ed987f",
+    "experiments/scratch/forced-novelty-20261004/inputs/bad-duplicate.txt": "cecdb76c99c94feeaa6303e6445444f2df1e88640814d23242cd87b216ecd7fe",
+    "experiments/scratch/forced-novelty-20261004/inputs/bad-malformed-token.txt": "c5d556faff0935fce316c260843b8bd517725b9a9fc931314fb475438d8d2ce0",
+    "experiments/scratch/forced-novelty-20261004/inputs/bad-out-of-range.txt": "51678432a99b54c4eda4ddaaa54307efaf04cc4d2640234c8ec93a5ab82d47be",
+    "experiments/scratch/forced-novelty-20261004/inputs/bad-wrong-cardinality.txt": "3351dbcf64e60852b6290ccf2a8af5b931fb18bd924b48e058910dedfa51fda6",
+    "experiments/scratch/forced-novelty-20261004/inputs/campaign.py": "947c030ea03d749a503710bdc98f607948ff000f3a991c5f093c3d391f8b3d5a",
+    "experiments/scratch/forced-novelty-20261004/inputs/compile.json": "06ed4873a665ff04ad934cd3120d9ef5bc0a6e861d1ac7222566dd6151624255",
+    "experiments/scratch/forced-novelty-20261004/inputs/compiler-version.txt": "2469ba9f244482376ca617ec02f3952d579ced096f9e4b407dee65eddb0dbca8",
+    "experiments/scratch/forced-novelty-20261004/inputs/elite66.txt": "63c82dacbc9be373879dedb60b6b9ae8a088c81ed858fa16de328aeffe927d5c",
+    "experiments/scratch/forced-novelty-20261004/inputs/forced_novelty_heuristic.cpp": "52a4437589c1c18c2fb0df2573802520a963a843ec79a198eb1ecf230faaf9c2",
+    "experiments/scratch/forced-novelty-20261004/inputs/heuristic_search.cpp": "90b88e246ed494d33b361f9e0792b720b752860dc6adcffa366e0996804c620a",
+    "experiments/scratch/forced-novelty-20261004/inputs/novelty": "739a37c8245d4f747152efcd9058fa819511ae8f43c243883707bde2ea6d42dd"
+  },
+  "cases": [
+    {
+      "label": "A",
+      "forced": 8,
+      "seed": 2026104901,
+      "seconds": 10
+    },
+    {
+      "label": "A",
+      "forced": 16,
+      "seed": 2026104902,
+      "seconds": 10
+    },
+    {
+      "label": "A",
+      "forced": 32,
+      "seed": 2026104903,
+      "seconds": 10
+    },
+    {
+      "label": "B",
+      "forced": 8,
+      "seed": 2026104904,
+      "seconds": 10
+    },
+    {
+      "label": "B",
+      "forced": 16,
+      "seed": 2026104905,
+      "seconds": 10
+    },
+    {
+      "label": "B",
+      "forced": 32,
+      "seed": 2026104906,
+      "seconds": 10
+    }
+  ],
+  "controls": [
+    {
+      "seed_family": "A",
+      "fresh_delta_recounts": 512,
+      "native_full_recounts_and_rollback_checks": 512,
+      "start": {
+        "path": "experiments/scratch/forced-novelty-20261004/inputs/A.txt",
+        "sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+        "holes": 3,
+        "uncovered": [
+          [
+            2,
+            7,
+            14
+          ],
+          [
+            2,
+            7,
+            15
+          ],
+          [
+            7,
+            14,
+            15
+          ]
+        ],
+        "blocks": 64,
+        "both_verifiers_agree": true,
+        "cover": false,
+        "profile": {
+          "heavy_triples": [
+            [
+              [
+                1,
+                3,
+                6
+              ],
+              7
+            ],
+            [
+              [
+                2,
+                14,
+                15
+              ],
+              6
+            ],
+            [
+              [
+                4,
+                8,
+                10
+              ],
+              7
+            ],
+            [
+              [
+                5,
+                13,
+                16
+              ],
+              7
+            ],
+            [
+              [
+                9,
+                11,
+                12
+              ],
+              7
+            ]
+          ],
+          "forbidden_five_heavy_profile": true
+        }
+      }
+    },
+    {
+      "seed_family": "B",
+      "fresh_delta_recounts": 512,
+      "native_full_recounts_and_rollback_checks": 512,
+      "start": {
+        "path": "experiments/scratch/forced-novelty-20261004/inputs/B.txt",
+        "sha256": "01a1442a14ecbe341f9035ce4b45cea6de4de7e5ceea6015873e4d0b35ed987f",
+        "holes": 3,
+        "uncovered": [
+          [
+            4,
+            7,
+            8
+          ],
+          [
+            4,
+            7,
+            10
+          ],
+          [
+            7,
+            8,
+            10
+          ]
+        ],
+        "blocks": 64,
+        "both_verifiers_agree": true,
+        "cover": false,
+        "profile": {
+          "heavy_triples": [
+            [
+              [
+                1,
+                3,
+                6
+              ],
+              7
+            ],
+            [
+              [
+                2,
+                14,
+                15
+              ],
+              7
+            ],
+            [
+              [
+                4,
+                8,
+                10
+              ],
+              6
+            ],
+            [
+              [
+                5,
+                13,
+                16
+              ],
+              7
+            ],
+            [
+              [
+                9,
+                11,
+                12
+              ],
+              7
+            ]
+          ],
+          "forbidden_five_heavy_profile": true
+        }
+      }
+    }
+  ],
+  "rejected_inputs": [
+    {
+      "control": "duplicate",
+      "exit": 2,
+      "error": "Duplicate block\n"
+    },
+    {
+      "control": "malformed-token",
+      "exit": 2,
+      "error": "Malformed block token\n"
+    },
+    {
+      "control": "out-of-range",
+      "exit": 2,
+      "error": "Malformed block\n"
+    },
+    {
+      "control": "wrong-cardinality",
+      "exit": 2,
+      "error": "Start needs at least 64 blocks\n"
+    }
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "optimization_runs": 0,
+  "scope": "Secondary exploratory diversity test. Temporary outside-elite/protection phase; then unrestricted fixed64 tabu repair. No global exclusion or lower bound."
+}

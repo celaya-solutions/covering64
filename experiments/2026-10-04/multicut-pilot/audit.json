@@ -1,0 +1,5127 @@
+{
+  "passed": true,
+  "checker_sha256": "9f9b894b7eeacc8424b58a3a17bd4e4252277d0c55d5c140c166767b7bfba0dd",
+  "source_checker_sha256": "ee18b0d081d3117fe4af36227deebe2ceeeb8ab5b9278b2736b452f64ed8ab7a",
+  "source_sha256": "83dbc55be2e2c020cd907834b4868a2af973f85a672df2ad3b605495b168005d",
+  "manifest_sha256": "c8a17c690e50daeb2c08922bcf203b851c545aa84922d3332643d98fa494eabc",
+  "result_sha256": "9b46b7fab5b7a843071720ed5e1ab21010e0e7d361554adcceb06cebdbfed4f8",
+  "states": 54,
+  "operations": 16,
+  "both_cover_checkers_on_every_saved_state": true,
+  "complete_lookahead_sets_checked": true,
+  "damaged_fields_rejected": 13,
+  "damage_controls": [
+    "holes",
+    "score",
+    "base_score",
+    "cut_lhs",
+    "cut_rhs",
+    "cut_violations",
+    "cut_weight",
+    "cut_count",
+    "cut_violation",
+    "cut_penalty",
+    "cut_denominator",
+    "unsupported_count",
+    "admissible_count"
+  ],
+  "raw_best": {
+    "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+    "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+    "holes": 10,
+    "score": 82,
+    "base_score": 82,
+    "cut_lhs": [
+      118980,
+      105064,
+      120023,
+      117981,
+      107670,
+      116304,
+      124586,
+      127936,
+      111777,
+      111182,
+      106701,
+      116697,
+      121652,
+      103956
+    ],
+    "cut_violation": 0,
+    "cut_violations": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "all14cuts_pass": true,
+    "cut_penalty": 0,
+    "unsupported_count": 0,
+    "admissible_count": 602,
+    "heavy_excess": 0,
+    "point_degrees": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "pair_count_profile": {
+      "4": 4,
+      "5": 84,
+      "6": 20,
+      "7": 12
+    },
+    "triple_count_profile": {
+      "0": 10,
+      "1": 484,
+      "2": 61,
+      "6": 1,
+      "7": 4
+    },
+    "heavy_outside_profiles_passed": true,
+    "checks": {
+      "package": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+      },
+      "standalone": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+      }
+    }
+  },
+  "score_best": {
+    "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+    "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+    "holes": 10,
+    "score": 82,
+    "base_score": 82,
+    "cut_lhs": [
+      118980,
+      105064,
+      120023,
+      117981,
+      107670,
+      116304,
+      124586,
+      127936,
+      111777,
+      111182,
+      106701,
+      116697,
+      121652,
+      103956
+    ],
+    "cut_violation": 0,
+    "cut_violations": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "all14cuts_pass": true,
+    "cut_penalty": 0,
+    "unsupported_count": 0,
+    "admissible_count": 602,
+    "heavy_excess": 0,
+    "point_degrees": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "pair_count_profile": {
+      "4": 4,
+      "5": 84,
+      "6": 20,
+      "7": 12
+    },
+    "triple_count_profile": {
+      "0": 10,
+      "1": 484,
+      "2": 61,
+      "6": 1,
+      "7": 4
+    },
+    "heavy_outside_profiles_passed": true,
+    "checks": {
+      "package": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+      },
+      "standalone": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+      }
+    }
+  },
+  "terminal": {
+    "sha256": "7b7beea5dd5e9c3ee614a5c4fa3570a26d75096d087ebf685cf4386d07188ce5",
+    "sidecar_sha256": "6b3b5b4b9d996e0678bf65ec99d3bf570ec45605ded70e175b6443f14bec7104",
+    "holes": 25,
+    "score": 173,
+    "base_score": 173,
+    "cut_lhs": [
+      139811,
+      138287,
+      123871,
+      114688,
+      101502,
+      119080,
+      122368,
+      125734,
+      119589,
+      115626,
+      120195,
+      127076,
+      122846,
+      121175
+    ],
+    "cut_violation": 0,
+    "cut_violations": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "all14cuts_pass": true,
+    "cut_penalty": 0,
+    "unsupported_count": 0,
+    "admissible_count": 680,
+    "heavy_excess": 0,
+    "point_degrees": [
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20
+    ],
+    "pair_count_profile": {
+      "4": 9,
+      "5": 77,
+      "6": 19,
+      "7": 15
+    },
+    "triple_count_profile": {
+      "0": 25,
+      "1": 454,
+      "2": 74,
+      "3": 2,
+      "4": 1,
+      "7": 4
+    },
+    "heavy_outside_profiles_passed": true,
+    "checks": {
+      "package": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "cbad5fad050b1566a50eab6745a8efe78c369cd10db3aa5ed9c7495b0c9a0399"
+      },
+      "standalone": {
+        "exit": 1,
+        "valid": false,
+        "sha256": "37297c21b2c2ab13117b10423eecfabef3304be7ab2458fd18e2e878e121986f"
+      }
+    }
+  },
+  "snapshots": {
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-best.txt": {
+      "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+      "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": [
+        118980,
+        105064,
+        120023,
+        117981,
+        107670,
+        116304,
+        124586,
+        127936,
+        111777,
+        111182,
+        106701,
+        116697,
+        121652,
+        103956
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 602,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 4,
+        "5": 84,
+        "6": 20,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control0-after.txt": {
+      "sha256": "e96e143c7be30c57bb350b3137987527f4f21c79e65c5c417ad9fd75011aed02",
+      "sidecar_sha256": "11763bb261e34b6adbc1c6c8c19542b7bb261b14e0f4f3f8e0cd599778d6b32c",
+      "holes": 18,
+      "score": 263,
+      "base_score": 133,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 8,
+        "5": 78,
+        "6": 20,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 18,
+        "1": 469,
+        "2": 67,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "47f1b7a2954eaa11bd41e92acd30b57a9504a4139432305cce561c6295d0722f"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ab885370e4549986bb2218f9d8377f98f0123aebafc94af23e83dc7b1aa5bb1f"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control0-before.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control0-rollback.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control1-after.txt": {
+      "sha256": "f3d0b2b33c0872e9a2ff669c3f95ecbab3e3872a5e2fefbe44c1f379c23d08c4",
+      "sidecar_sha256": "2f3b7ba9ea39f3ff7ee41f5c9889c1daf07681405692eda02b3209157c359a86",
+      "holes": 19,
+      "score": 275,
+      "base_score": 145,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 1,
+        "4": 6,
+        "5": 79,
+        "6": 20,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 19,
+        "1": 468,
+        "2": 66,
+        "3": 2,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "1b5ba5237f868d38b7da067a7bee488f61fe3c560c80505a4cf73a5357cab910"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "59b015b4280ac0e8ece6ab9d289359b9a8f6015d3549b08699cfda8b49cc90c0"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control1-before.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control1-rollback.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control2-after.txt": {
+      "sha256": "d86e199ee283fd12fa511e8931e86fec17a599071981464fc2b2fde00b40b8c4",
+      "sidecar_sha256": "6185a88af30a22708da4d7eba149367b6334a5b373dcbc8c25c6d146d3561be2",
+      "holes": 30,
+      "score": 349,
+      "base_score": 219,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 3,
+        "4": 9,
+        "5": 70,
+        "6": 21,
+        "7": 17
+      },
+      "triple_count_profile": {
+        "0": 30,
+        "1": 447,
+        "2": 75,
+        "3": 3,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8a58d1b8a1a0dbc3d786fdb44f8850424cd12a05377ecea4fd8165ae4de02bec"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f88e9e06097299b87d3a235055e8b4a9c1fdba81e1af5cef11b453a73ced2805"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control2-before.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control2-rollback.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control3-after.txt": {
+      "sha256": "706a7d4b82e97b3db01ba7cb3dba7e8369926e574f01ad414db36d7b828c183c",
+      "sidecar_sha256": "275896c2d2fdc8cc770c6f6b08aa0f2896e946305cd3eb7230ed2df1a81905b2",
+      "holes": 16,
+      "score": 178,
+      "base_score": 128,
+      "cut_lhs": [
+        118717,
+        100442,
+        112081,
+        110838,
+        111690,
+        120601,
+        127586,
+        128769,
+        115661,
+        115250,
+        104769,
+        118502,
+        125831,
+        114402
+      ],
+      "cut_violation": 4002,
+      "cut_violations": [
+        0,
+        4002,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 50,
+      "unsupported_count": 0,
+      "admissible_count": 587,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 8,
+        "5": 77,
+        "6": 22,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 16,
+        "1": 474,
+        "2": 63,
+        "3": 2,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e00a9e89ca28bbd65a0035e7c155df10018ff01f9aad94584668fcf212de3f44"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9fa798664ed634b542f4607b595b86be9dad5a7e26c644739f84decd4fd3cc2c"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control3-before.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-control3-rollback.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "857130dfc29769e50fd7e103f4b6d3b6e31a9717341986ef750c1e2dde837d33",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-final.txt": {
+      "sha256": "7b7beea5dd5e9c3ee614a5c4fa3570a26d75096d087ebf685cf4386d07188ce5",
+      "sidecar_sha256": "6b3b5b4b9d996e0678bf65ec99d3bf570ec45605ded70e175b6443f14bec7104",
+      "holes": 25,
+      "score": 173,
+      "base_score": 173,
+      "cut_lhs": [
+        139811,
+        138287,
+        123871,
+        114688,
+        101502,
+        119080,
+        122368,
+        125734,
+        119589,
+        115626,
+        120195,
+        127076,
+        122846,
+        121175
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 9,
+        "5": 77,
+        "6": 19,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 25,
+        "1": 454,
+        "2": 74,
+        "3": 2,
+        "4": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "cbad5fad050b1566a50eab6745a8efe78c369cd10db3aa5ed9c7495b0c9a0399"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "37297c21b2c2ab13117b10423eecfabef3304be7ab2458fd18e2e878e121986f"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-initial.txt": {
+      "sha256": "b48c3ce6653c92936ff824fc2d68e29b0ba080c985378c9c85b02418e6849c93",
+      "sidecar_sha256": "c4e42825b914256ea5b5ba1aaed40e0e7ca73175a53bb95aee698bed77ccbe99",
+      "holes": 10,
+      "score": 212,
+      "base_score": 82,
+      "cut_lhs": [
+        118449,
+        91904,
+        117279,
+        114589,
+        111869,
+        120222,
+        129216,
+        123882,
+        119938,
+        113176,
+        111340,
+        113043,
+        121281,
+        116718
+      ],
+      "cut_violation": 12540,
+      "cut_violations": [
+        0,
+        12540,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": false,
+      "cut_penalty": 130,
+      "unsupported_count": 0,
+      "admissible_count": 680,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 83,
+        "6": 19,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b7458e7dee26d09b2d1b805b547d9fd62fac4797d19b851b5138bb28215e1e94"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "564e58578fe83eb5afb28587f27e66fd3ff02887f77e99805e3f202632588f15"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-raw-best.txt": {
+      "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+      "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": [
+        118980,
+        105064,
+        120023,
+        117981,
+        107670,
+        116304,
+        124586,
+        127936,
+        111777,
+        111182,
+        106701,
+        116697,
+        121652,
+        103956
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 602,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 4,
+        "5": 84,
+        "6": 20,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-raw-h10-s82.txt": {
+      "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+      "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": [
+        118980,
+        105064,
+        120023,
+        117981,
+        107670,
+        116304,
+        124586,
+        127936,
+        111777,
+        111182,
+        106701,
+        116697,
+        121652,
+        103956
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 602,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 4,
+        "5": 84,
+        "6": 20,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-raw-h10-s84.txt": {
+      "sha256": "35536782608716423a333f07438001d5fc63ed409687ca1a826e41c275302bf9",
+      "sidecar_sha256": "e99fa1e1f00f2e55fdfe89a4ed429e1cbc797dfef68e0b5c88c1aa634e159f24",
+      "holes": 10,
+      "score": 84,
+      "base_score": 84,
+      "cut_lhs": [
+        120151,
+        112071,
+        115212,
+        121140,
+        108248,
+        116863,
+        121958,
+        129315,
+        110619,
+        109896,
+        111457,
+        113726,
+        122625,
+        110838
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 666,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 84,
+        "6": 17,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "91f37dd134f9df00ba42e72c330ff312384e2e719e9fa9e57c1b3c18062bff9e"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d30627836b3e8757cc1d27baf2cf9a81b5ba0f76eaba93b4f5b0b75ba0f6d2f6"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample0-after.txt": {
+      "sha256": "ac2b38fcfc4dc1ebc81c1e539d6316dd8f74723f7e04e01a88dda0d9645aecf4",
+      "sidecar_sha256": "d7e492287a36e2db6b2b8cfcb17faa921dca1cac5ce3895360549b537715d06d",
+      "holes": 46,
+      "score": 281,
+      "base_score": 281,
+      "cut_lhs": [
+        138930,
+        132282,
+        119553,
+        123637,
+        102036,
+        127613,
+        122383,
+        123081,
+        120262,
+        119796,
+        120835,
+        115031,
+        128425,
+        121291
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 612,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 13,
+        "5": 70,
+        "6": 22,
+        "7": 14,
+        "8": 1
+      },
+      "triple_count_profile": {
+        "0": 46,
+        "1": 411,
+        "2": 96,
+        "3": 3,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9759f6a427eed6c72600f803db02719df24973b1da6837592313ec3338eb9984"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e1c078fac1fdada4caa30f9249be5ee954e3e70dc6411a08364a16dfa5fd6366"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample0-before.txt": {
+      "sha256": "687fb8951bea4ef24e9e17112605366f7cb9cc6bdc256b5cf72fce116a4e2433",
+      "sidecar_sha256": "ad03256670a1608b0c541ee812c5de35c98dd4742aa7766e4a27fc3182eddb76",
+      "holes": 45,
+      "score": 280,
+      "base_score": 280,
+      "cut_lhs": [
+        142979,
+        139067,
+        124833,
+        134456,
+        103045,
+        125754,
+        122630,
+        121861,
+        117395,
+        113198,
+        125554,
+        113947,
+        125564,
+        123263
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 629,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 15,
+        "5": 66,
+        "6": 24,
+        "7": 14,
+        "8": 1
+      },
+      "triple_count_profile": {
+        "0": 45,
+        "1": 413,
+        "2": 95,
+        "3": 3,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e3b1c6c385b0cea0a214f7f22bb456a19866e5c8fe8b27fa0084da09b987387a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "0a808af3b629dba064fa9c84ae28e8af9d9dfbe1d3b3536b45346c1ad2f5b959"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample1-after.txt": {
+      "sha256": "21a8fa68f1bab89b8bfd1b5f2463459686ac656d6cb3fcdd19c3a35564c0b66b",
+      "sidecar_sha256": "c79dbda59810394cd294d9ede9fe5356dd57076eff565a9ea02df6e4b989be4c",
+      "holes": 59,
+      "score": 378,
+      "base_score": 378,
+      "cut_lhs": [
+        138953,
+        142413,
+        120058,
+        122003,
+        107134,
+        109288,
+        114936,
+        127436,
+        115938,
+        112186,
+        120735,
+        121900,
+        125995,
+        103522
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 556,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 3,
+        "4": 13,
+        "5": 62,
+        "6": 26,
+        "7": 15,
+        "8": 1
+      },
+      "triple_count_profile": {
+        "0": 59,
+        "1": 389,
+        "2": 101,
+        "3": 7,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "41b8cd4daa38512fe31c982e8e8b90822afbe46b71f9be137126d622d5387c4a"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "29e7a41228fb64f2de66ed8b05aaaa943941b497801f00da14ffc3b0c08a78cd"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample1-before.txt": {
+      "sha256": "19958f19a9b614ae16b597a286a5b0db2e296fe2772f34c6ce45d37ffc00bda7",
+      "sidecar_sha256": "28e42772e4e541f8c28eb5e6ca92eb9be3aa6ebeb8d0fcc5c645dd827ee10a2e",
+      "holes": 58,
+      "score": 374,
+      "base_score": 374,
+      "cut_lhs": [
+        138953,
+        142413,
+        120058,
+        122003,
+        107134,
+        109288,
+        114936,
+        127436,
+        115938,
+        112186,
+        120735,
+        121900,
+        125995,
+        103522
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 556,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 2,
+        "4": 14,
+        "5": 64,
+        "6": 23,
+        "7": 16,
+        "8": 1
+      },
+      "triple_count_profile": {
+        "0": 58,
+        "1": 392,
+        "2": 98,
+        "3": 8,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "33381a882fa8b1fb81ed3cc1d3b4c9cea07eacba9ddd7675a59108bc1dcca048"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3445b11501cff23fff95be6beda51a91c6bc091ea0d583620a449526d6ce44ba"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample10-after.txt": {
+      "sha256": "6f7d0687d7ecec5cd2ca5a26d3ed2bd180b70780156baf8fd2ab23fd744dec71",
+      "sidecar_sha256": "d21c61f309c9015d33041737ab77af30bba7e2fa93143d7be8a7e196e93ebf4e",
+      "holes": 52,
+      "score": 301,
+      "base_score": 301,
+      "cut_lhs": [
+        141792,
+        141066,
+        118129,
+        124796,
+        109536,
+        121337,
+        118293,
+        128584,
+        121032,
+        122036,
+        119858,
+        117106,
+        121670,
+        117688
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 726,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 12,
+        "5": 68,
+        "6": 28,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 52,
+        "1": 397,
+        "2": 106,
+        "3": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "334db643a3ac67940184f3486fa7361818cfdafff5b72f4671143b929efbb4a8"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9b9ae848338974a90c185b3f49b7adb6607105e606283e547db4562d0ac9e76e"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample10-before.txt": {
+      "sha256": "362bb40d173fa7b92eacee0290f6a14559f6ea209ac2c6b9e9970df7c99bf517",
+      "sidecar_sha256": "7299d6af577d766b6d85f1dfac811ad009a70dd0949cd06b543b27893bea132c",
+      "holes": 50,
+      "score": 305,
+      "base_score": 305,
+      "cut_lhs": [
+        141792,
+        141066,
+        118129,
+        124796,
+        109536,
+        121337,
+        118293,
+        128584,
+        121032,
+        122036,
+        119858,
+        117106,
+        121670,
+        117688
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 726,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 13,
+        "5": 68,
+        "6": 25,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 50,
+        "1": 403,
+        "2": 100,
+        "3": 3,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "7845b6250d1015f840c71d7720a15d962b68fb86a03cd9d12ca5137dbbf90440"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e49b20f7cf2a668bf82afe888a488ca06f0414f3dc982251a548073388424411"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample11-after.txt": {
+      "sha256": "d251a91a7057ce47aef50d3fc6cad971649ef2152eaa222d81a30458eb26039e",
+      "sidecar_sha256": "c9c2bc02b6d9e5a719c5892c86eeeb496fb5420a9f7bc143aa6fd40f49204426",
+      "holes": 63,
+      "score": 394,
+      "base_score": 394,
+      "cut_lhs": [
+        145950,
+        144792,
+        132005,
+        125692,
+        108783,
+        117624,
+        121011,
+        128184,
+        111837,
+        107385,
+        126384,
+        120334,
+        121703,
+        104702
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 571,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 17,
+        "5": 62,
+        "6": 25,
+        "7": 16
+      },
+      "triple_count_profile": {
+        "0": 63,
+        "1": 381,
+        "2": 105,
+        "3": 7,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8c66c0954403a26b3584c4cc2f9a3aabd98a1a7de35ac74267453f62a6b8cb63"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "c78924fcbf4b79954b2873162c7e0fd45961ff6f5f3a89ce36eed9588a074044"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample11-before.txt": {
+      "sha256": "c9ccaab3d5c661a37da791838c73885d8885b90a4e465da471a50fc1c9203b0e",
+      "sidecar_sha256": "5859439c5b850343f970294c00ff4aa318867d5874f819fa9b5f8cafc3d0fd39",
+      "holes": 62,
+      "score": 386,
+      "base_score": 386,
+      "cut_lhs": [
+        147410,
+        148546,
+        129342,
+        130925,
+        107937,
+        117880,
+        122642,
+        124521,
+        113147,
+        111937,
+        126614,
+        118082,
+        123339,
+        107692
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 612,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 18,
+        "5": 60,
+        "6": 26,
+        "7": 16
+      },
+      "triple_count_profile": {
+        "0": 62,
+        "1": 382,
+        "2": 106,
+        "3": 6,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "6ce9de9bf031cabfd0d3653d1495c65c0fe302a82917e3c54aa2ac31fc32d8be"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "c1617563f8d53d276082a22f6dbc5353c6770c1435586c573c403ba02f83a652"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample2-after.txt": {
+      "sha256": "9dd19a1ad8f4adca22418ad8998ef4b8a6dd13db25d35304b461e63d458696a9",
+      "sidecar_sha256": "e329532684c38d5f6dcfe1eaa0d986ea572084ecac8dfacdeacbf84997dc9893",
+      "holes": 69,
+      "score": 424,
+      "base_score": 424,
+      "cut_lhs": [
+        136513,
+        127491,
+        116219,
+        123757,
+        101966,
+        121622,
+        124231,
+        127607,
+        125143,
+        117914,
+        121275,
+        122559,
+        126115,
+        115764
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 596,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 16,
+        "5": 63,
+        "6": 26,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 69,
+        "1": 369,
+        "2": 112,
+        "3": 5,
+        "4": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ad09e9ad348707973fc96e29479497cb52a7b207d75216e653b1a6192e17f720"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "0db10aa373d013b9fa2ce14e74705c44939865d6b48ea94037a6ba8f8c38f46f"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample2-before.txt": {
+      "sha256": "85d2874f8af08c1c72f2274d805d63d232cb9063e07d88a7e5e1ecf6d7b9ae37",
+      "sidecar_sha256": "77bd2eba5154e7e2313dc9fa57ee04705bd46930fe38a6e227b1ce8ff79968cf",
+      "holes": 68,
+      "score": 429,
+      "base_score": 429,
+      "cut_lhs": [
+        136513,
+        127491,
+        116219,
+        123757,
+        101966,
+        121622,
+        124231,
+        127607,
+        125143,
+        117914,
+        121275,
+        122559,
+        126115,
+        115764
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 596,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 17,
+        "5": 60,
+        "6": 29,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 68,
+        "1": 373,
+        "2": 107,
+        "3": 7,
+        "4": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "72b27eae5af4c518050b1bbdc99ececddd3d9fcdd17e12d74266acb893061995"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ef803501a8eae775d7e2669d76a4b50815dca63900fd3049efc977e2d159167e"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample3-after.txt": {
+      "sha256": "6ef5bc1366ffd92bbcae0829d133ce5d073ded088c998e15be76f1c6061cae25",
+      "sidecar_sha256": "2b74189bb7113b12521d21a0529685aa1d5b17a00b2d726ad97ca09e4e420433",
+      "holes": 66,
+      "score": 418,
+      "base_score": 418,
+      "cut_lhs": [
+        140611,
+        141616,
+        120985,
+        126036,
+        104156,
+        120199,
+        120717,
+        123055,
+        125166,
+        111321,
+        122498,
+        114013,
+        124012,
+        126233
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 632,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 3,
+        "4": 14,
+        "5": 58,
+        "6": 30,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 66,
+        "1": 376,
+        "2": 106,
+        "3": 8,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "7cfc2fb4861a74bcba41f21c891a19209df65e17a121224c2afa274a3716f856"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f1e23ee58fa9a1db0a61f3b008f03355c3b2c0dc7d97e4ac162b659c63866f24"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample3-before.txt": {
+      "sha256": "3fab11da5c5c7e2e7537fa6b65ec0cf6d0192dfae1ee0518f02154f67739b49c",
+      "sidecar_sha256": "592f51b915a906253210b6992e0e64dbb8516d5ce1aef51b720603a955e28bcf",
+      "holes": 64,
+      "score": 423,
+      "base_score": 423,
+      "cut_lhs": [
+        134791,
+        137475,
+        127730,
+        127125,
+        106928,
+        117589,
+        117382,
+        118649,
+        123020,
+        106073,
+        126487,
+        115001,
+        123544,
+        115900
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 527,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 2,
+        "4": 16,
+        "5": 58,
+        "6": 28,
+        "7": 16
+      },
+      "triple_count_profile": {
+        "0": 64,
+        "1": 383,
+        "2": 98,
+        "3": 11,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ab3bd42fabc617f5bc7f8a0260d1cefbde8c30873a5c1fd1e04d8ff47d2285a2"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "32332e756b306908140f0c6bc0acbaa39ad54965e62200f2150a84ca97a2dfef"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample4-after.txt": {
+      "sha256": "9422aa3159a00528a7987879a0bf236115284bd19618cb9a89bd7cdd081bba3d",
+      "sidecar_sha256": "8f771fa595a4846517636754dfa7c3e138d554dd661a3e0d197e52dc0bff9849",
+      "holes": 59,
+      "score": 358,
+      "base_score": 358,
+      "cut_lhs": [
+        141865,
+        144280,
+        115758,
+        106134,
+        106963,
+        120208,
+        113534,
+        118797,
+        109640,
+        117137,
+        109108,
+        114534,
+        113600,
+        109889
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 537,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 18,
+        "5": 59,
+        "6": 28,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 59,
+        "1": 385,
+        "2": 109,
+        "3": 3,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9c1f8a643a7d07a9c70940253d7cf5a05e31878a31427b872263d69988f5cb38"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b57f408531292ac4e590f4f9e040261ce52df2aa4828bc8f974e820d60af44bc"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample4-before.txt": {
+      "sha256": "93b753e930f386a73bd2b42d094cc5ea7e094db1d2d3e8ad328eacd9dab71675",
+      "sidecar_sha256": "54c0f8e3dc2f38db9acb45bc7eceea24314a663bff34c800c71c390f2abfa778",
+      "holes": 58,
+      "score": 360,
+      "base_score": 360,
+      "cut_lhs": [
+        141865,
+        144280,
+        115758,
+        106134,
+        106963,
+        120208,
+        113534,
+        118797,
+        109640,
+        117137,
+        109108,
+        114534,
+        113600,
+        109889
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 537,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "3": 1,
+        "4": 16,
+        "5": 61,
+        "6": 26,
+        "7": 16
+      },
+      "triple_count_profile": {
+        "0": 58,
+        "1": 388,
+        "2": 106,
+        "3": 4,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "65de1ca3293e59638d50f8bef9347b2563753967f091f1bcb6cf58af8cce353f"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "c831d6e4aae827ae866f21b9a8e9d016c0c0a448006624f30d35045c88e61988"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample5-after.txt": {
+      "sha256": "19b7cb6aa8e0f17e6558980feffe889c953878c3979e3ee8509f1a2d58c0a07d",
+      "sidecar_sha256": "7a81ed3a7a9146f3fb042a461e04ffa9d816a90aec28fc97c21af0d73b131f14",
+      "holes": 56,
+      "score": 345,
+      "base_score": 345,
+      "cut_lhs": [
+        134729,
+        133999,
+        119568,
+        117120,
+        106507,
+        116258,
+        131606,
+        135597,
+        116699,
+        118074,
+        117515,
+        129128,
+        121952,
+        109604
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 649,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 19,
+        "5": 57,
+        "6": 29,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 56,
+        "1": 391,
+        "2": 106,
+        "3": 3,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "f46ea1572710fe18d63b8078d0652dd241cbd0908a604ae6e21783d795bb4bc3"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "e0cb9852ec04b0eb29a2ea5caab5dc4b503a8a33765a561905c13bd6cb64dc5e"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample5-before.txt": {
+      "sha256": "d79fd13d0be24637bcb96d1f46e7377635c061121331b1f1e5e67bad9fe57811",
+      "sidecar_sha256": "86f1d0e5a479b1a5d7846351e5215f217aee865fc38c386904160704d12733fd",
+      "holes": 55,
+      "score": 345,
+      "base_score": 345,
+      "cut_lhs": [
+        134729,
+        133999,
+        119568,
+        117120,
+        106507,
+        116258,
+        131606,
+        135597,
+        116699,
+        118074,
+        117515,
+        129128,
+        121952,
+        109604
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 649,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 19,
+        "5": 56,
+        "6": 31,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 55,
+        "1": 394,
+        "2": 103,
+        "3": 4,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "0e4ef62c5b7b7c87e7f2c3f8f4b736fc40b1c73035c8eb56ada317d89a42b334"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d900a064e6b616962acd059d68a71a5589ca0af4f3ed5c7ed434d42116a75028"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample6-after.txt": {
+      "sha256": "2911c2afe9b2fc24bde4082710f7612ff7639631734980aade41492de15a561e",
+      "sidecar_sha256": "c19bf6ef374ff39dac4eac0de3d43c66870d0d55a1094e8a984ac49806b8b2f4",
+      "holes": 49,
+      "score": 315,
+      "base_score": 315,
+      "cut_lhs": [
+        140555,
+        133763,
+        123049,
+        115402,
+        102330,
+        118261,
+        119085,
+        126501,
+        120559,
+        108331,
+        116500,
+        117931,
+        123676,
+        118014
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 554,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 15,
+        "5": 65,
+        "6": 25,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 49,
+        "1": 408,
+        "2": 94,
+        "3": 4,
+        "4": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "04c7849d6579afb9aeb6bf86d6fb840357ae8992d3b4f588bdc87d478e13b56d"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b99d28823934afd3c156962015a1c65333927ec9a12adc13e870f9dafa571f3c"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample6-before.txt": {
+      "sha256": "82640365d97ad66a8dd9526f137396dd5efa690e7b2de9f705b639f26522bdd6",
+      "sidecar_sha256": "bd5b24467b9f98fd65b24d9b5c7d59055521f99c24d8a37456001c420c1b9bff",
+      "holes": 49,
+      "score": 313,
+      "base_score": 313,
+      "cut_lhs": [
+        140555,
+        133763,
+        123049,
+        115402,
+        102330,
+        118261,
+        119085,
+        126501,
+        120559,
+        108331,
+        116500,
+        117931,
+        123676,
+        118014
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 554,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 14,
+        "5": 66,
+        "6": 26,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 49,
+        "1": 408,
+        "2": 93,
+        "3": 6,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a06b4939fc0359e5258f4440cc188919983c8aa93080f5d4b059dd3db3243db7"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a615b611efb4151e1aed28b272afd1db606093d29c0c32fbf9a5874208b3a8f4"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample7-after.txt": {
+      "sha256": "06c893be8c052c05ec5c504c4750872cac29124ac653bf6f3ffcc6fc3177e920",
+      "sidecar_sha256": "4d0659d384eccdb80030f20c6bd016d73c887af7399accf49721acdd94b97406",
+      "holes": 54,
+      "score": 344,
+      "base_score": 344,
+      "cut_lhs": [
+        139048,
+        142548,
+        123274,
+        117575,
+        101046,
+        123862,
+        122847,
+        130712,
+        114295,
+        112889,
+        115843,
+        118809,
+        127561,
+        121552
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 625,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 17,
+        "5": 59,
+        "6": 31,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 54,
+        "1": 398,
+        "2": 98,
+        "3": 6,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a54ec9cd7772b9a8fe8d0f19f54254a710836583e6dcf57f5afd4d4b14c476d4"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b8d90d4da2a97ca1d8bf2ade1548dec0fbb2d9d971690b1176a811ed0dd1d104"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample7-before.txt": {
+      "sha256": "9b51c1931d3f3deac6ace217602225a63d3fd08f485ac9684cf5d7090f00e668",
+      "sidecar_sha256": "afe619fed80c1e4010a68f29719e0512982303f659738f262eb57055fb7216b4",
+      "holes": 53,
+      "score": 346,
+      "base_score": 346,
+      "cut_lhs": [
+        139048,
+        142548,
+        123274,
+        117575,
+        101046,
+        123862,
+        122847,
+        130712,
+        114295,
+        112889,
+        115843,
+        118809,
+        127561,
+        121552
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 625,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 18,
+        "5": 57,
+        "6": 32,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 53,
+        "1": 401,
+        "2": 95,
+        "3": 7,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "25451d296ada8a2901f8801f166fbd1f7245abfec473ada9d2a860ff788f0388"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "81d4b0fe25f2f5c76236ec5ca197aacb34bccdbf7301bad34d75711a780135b8"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample8-after.txt": {
+      "sha256": "a60e50cb0d8350f37adea6d55b3df4761ffe211b03d9af8f1be664b02850b44b",
+      "sidecar_sha256": "f4e6e6dd1ddbba9f21e9d86601f2c0e3a2e84c6807095ef0bb156e64de134f5e",
+      "holes": 41,
+      "score": 245,
+      "base_score": 245,
+      "cut_lhs": [
+        134972,
+        139537,
+        115109,
+        126391,
+        104685,
+        126363,
+        113789,
+        119144,
+        121478,
+        115570,
+        124388,
+        108708,
+        132669,
+        125643
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 633,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 9,
+        "5": 74,
+        "6": 25,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 41,
+        "1": 420,
+        "2": 93,
+        "3": 2,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "de454f3c9d7ab3c4b8bdb6b399b24acf0d99a071f87dfe2037ac719a29c8508e"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "734b0fbddfc6341ec57caea0e2d11fd0cda93474a497579797b16a3288b8491c"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample8-before.txt": {
+      "sha256": "d5ce338d69b9624e4c30fde2544fa36a8c509165ad7274e0e1f1fff24bc0530b",
+      "sidecar_sha256": "220bf42ccc3f8dbab90f04ca445212297acf666fab9e81ed8fb111dffb28c53f",
+      "holes": 41,
+      "score": 240,
+      "base_score": 240,
+      "cut_lhs": [
+        134972,
+        139537,
+        115109,
+        126391,
+        104685,
+        126363,
+        113789,
+        119144,
+        121478,
+        115570,
+        124388,
+        108708,
+        132669,
+        125643
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 633,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 9,
+        "5": 74,
+        "6": 25,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 41,
+        "1": 419,
+        "2": 95,
+        "3": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d850767b830e93f813d17e43829a693a77d4882515e73d148c6b38c307055fd2"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "5f4ec11e077aa7ad49a8f81e3cd00760faceef9b3fc080047c60e0192000e608"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample9-after.txt": {
+      "sha256": "49b44fb30575c4fb8ac46c80a7347e2a5260e812570496ca779a8faa3169b5f8",
+      "sidecar_sha256": "2e9add6ffec8a07250aa87476ff2b6f634869093db94889e3073df7c63fe62ad",
+      "holes": 49,
+      "score": 301,
+      "base_score": 301,
+      "cut_lhs": [
+        130381,
+        131353,
+        117874,
+        126276,
+        97606,
+        123919,
+        126471,
+        130775,
+        119861,
+        114155,
+        121750,
+        116394,
+        124133,
+        121814
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 496,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 14,
+        "5": 68,
+        "6": 22,
+        "7": 16
+      },
+      "triple_count_profile": {
+        "0": 49,
+        "1": 406,
+        "2": 97,
+        "3": 4,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "5146d5c3944a39a6a83620897907041999bcc6555a265a48c9b7a887a1d1d3f9"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "4df94aec61221bbfd63a7b97d47df92b68fdb08cb7e5b916229882e083d55d55"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-sample9-before.txt": {
+      "sha256": "181a1eb863bf7f3ba75f17c7cef8e5e920d601213d31dbfd9b0b0cb708847f2a",
+      "sidecar_sha256": "5ac83db3b0b1fd5d0e226fa32402794b197733273c30adeb8c59e2514650c405",
+      "holes": 49,
+      "score": 305,
+      "base_score": 305,
+      "cut_lhs": [
+        130381,
+        131353,
+        117874,
+        126276,
+        97606,
+        123919,
+        126471,
+        130775,
+        119861,
+        114155,
+        121750,
+        116394,
+        124133,
+        121814
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 496,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 14,
+        "5": 68,
+        "6": 22,
+        "7": 16
+      },
+      "triple_count_profile": {
+        "0": 49,
+        "1": 406,
+        "2": 97,
+        "3": 4,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "ee21ba688494596090ce3fe158f7edc4b61f540f3c5fc9dac94580c9985110b3"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "a434687f14683d594eeb8641edd675dfc18c4b5eb20615dd37e4ab1267806378"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-best.txt": {
+      "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+      "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": [
+        118980,
+        105064,
+        120023,
+        117981,
+        107670,
+        116304,
+        124586,
+        127936,
+        111777,
+        111182,
+        106701,
+        116697,
+        121652,
+        103956
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 602,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 4,
+        "5": 84,
+        "6": 20,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s101-h13.txt": {
+      "sha256": "5cb53e79e7c6700b9a4220f412df6d685460de77c26b700616eabee0a1f34b08",
+      "sidecar_sha256": "39718a44dd8eb626fcafd35b548afa36d89c28ae8baf822643dbf9394d649f13",
+      "holes": 13,
+      "score": 101,
+      "base_score": 101,
+      "cut_lhs": [
+        118701,
+        106298,
+        119306,
+        117427,
+        106809,
+        120463,
+        124124,
+        128891,
+        117499,
+        115835,
+        107705,
+        114834,
+        118612,
+        115089
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 639,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 7,
+        "5": 79,
+        "6": 21,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 13,
+        "1": 478,
+        "2": 64,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2e6d8d266a7a2080d8a969b270eec5be524e2b6688a41876d7160d25a3aa129e"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "39e77dff98a860bf30856626803e4d8905510b933d6718995ef66118317d3868"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s104-h13.txt": {
+      "sha256": "3d4d60e72e4418e01e562c51e2b07fe0539006382784b5e3a595d32406947ea8",
+      "sidecar_sha256": "36b9e6a314c44a57728dcab5007557773cae893ce19c6ba00d28de2d9599bfcf",
+      "holes": 13,
+      "score": 104,
+      "base_score": 104,
+      "cut_lhs": [
+        119947,
+        105671,
+        120242,
+        116737,
+        106878,
+        116275,
+        124277,
+        128951,
+        115899,
+        107819,
+        107896,
+        117193,
+        124740,
+        117040
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 612,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 6,
+        "5": 81,
+        "6": 20,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 13,
+        "1": 479,
+        "2": 62,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "0549d21bb57751fdd9a3f8529470dc527fa37f8373114a48647527f76cd925e1"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "7999044a9d72d7034e9fff92ef3f69213f1fe49a9a1c06b098a976cdd5790b1a"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s106-h13.txt": {
+      "sha256": "aca0603c565f97c1bbd4912692d7757190e945e3bcba9bbb217a6a2cdea8a929",
+      "sidecar_sha256": "a665bfe038df43b97b616737059bbbce07373fb2a6fea50c3706496234d0c1ef",
+      "holes": 13,
+      "score": 106,
+      "base_score": 106,
+      "cut_lhs": [
+        112641,
+        105687,
+        122141,
+        115814,
+        109813,
+        118562,
+        126702,
+        124980,
+        114260,
+        116455,
+        109312,
+        116881,
+        121230,
+        119897
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 590,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 7,
+        "5": 80,
+        "6": 19,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 13,
+        "1": 479,
+        "2": 62,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "6a24600ed96d3b9aeebf8c817e7de6f94a88f914852bec19d936a9d7d2c4311b"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "39dee3d6ac607e6c618e9f0470739c359818f79b7492cbcfc0ae6893a178bfe4"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s111-h15.txt": {
+      "sha256": "547b2ccd86a1a81655ebbd2b3cd415f1c3238ec778550ac6c4e3e40d1c3b1e15",
+      "sidecar_sha256": "5b0571f454bf4cb4798d66e9c5156cc05e2ef0b757f112dad61822d23c48e235",
+      "holes": 15,
+      "score": 111,
+      "base_score": 111,
+      "cut_lhs": [
+        117360,
+        105553,
+        123911,
+        119247,
+        105191,
+        117984,
+        122412,
+        127001,
+        122857,
+        113128,
+        112845,
+        121064,
+        125784,
+        122295
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 643,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 7,
+        "5": 80,
+        "6": 19,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 15,
+        "1": 474,
+        "2": 66,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "45692d818527c933dd581272b54b96205821924afc6e658182ae649591ba2d4e"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "3f41a6c24ee215c087d6006e7db367c3a66870d44a31d592e5e4097cd4a95a79"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s123-h17.txt": {
+      "sha256": "ffed7dcee88660c7dbec3c9a84a8b678d29f36518da97411d2f58785bd183490",
+      "sidecar_sha256": "7efd4702fcc50db80eadee857843d30f3f8e809c1b46f9bc1f8e9d52733bff8a",
+      "holes": 17,
+      "score": 123,
+      "base_score": 123,
+      "cut_lhs": [
+        118104,
+        107705,
+        117077,
+        116771,
+        106255,
+        113816,
+        121376,
+        131084,
+        118276,
+        111774,
+        106257,
+        116872,
+        121809,
+        118753
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 566,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 8,
+        "5": 79,
+        "6": 18,
+        "7": 15
+      },
+      "triple_count_profile": {
+        "0": 17,
+        "1": 470,
+        "2": 68,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2e5c4b3e419af6905914f90b912734bfc89eab52c1aa769b7177d75cf14b3b30"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "4399d1beb46aef8bf43ad71dc8f778572eebaa26131a97067a7c5b9387ff6c5b"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s82-h10.txt": {
+      "sha256": "4382c01b0ebc7c5b9d6a2c38314ab58ea35962350052d521fd1d103d16c1d6fe",
+      "sidecar_sha256": "4e182a862915b25a6e2b4b8c9a7d1d183664e9bfab9dba12b9ac12bfff73b7f0",
+      "holes": 10,
+      "score": 82,
+      "base_score": 82,
+      "cut_lhs": [
+        118980,
+        105064,
+        120023,
+        117981,
+        107670,
+        116304,
+        124586,
+        127936,
+        111777,
+        111182,
+        106701,
+        116697,
+        121652,
+        103956
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 602,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 4,
+        "5": 84,
+        "6": 20,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "8028422e8589eb7348044b9fcc3c693f93e23aab2b997de44b607040988b27bd"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "2d44b3fd4fba817b424bcd2d7a28ee86228a4b2bbd40fed6f8c33e92d3c800db"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s84-h10.txt": {
+      "sha256": "35536782608716423a333f07438001d5fc63ed409687ca1a826e41c275302bf9",
+      "sidecar_sha256": "e99fa1e1f00f2e55fdfe89a4ed429e1cbc797dfef68e0b5c88c1aa634e159f24",
+      "holes": 10,
+      "score": 84,
+      "base_score": 84,
+      "cut_lhs": [
+        120151,
+        112071,
+        115212,
+        121140,
+        108248,
+        116863,
+        121958,
+        129315,
+        110619,
+        109896,
+        111457,
+        113726,
+        122625,
+        110838
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 666,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 84,
+        "6": 17,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 10,
+        "1": 484,
+        "2": 61,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "91f37dd134f9df00ba42e72c330ff312384e2e719e9fa9e57c1b3c18062bff9e"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "d30627836b3e8757cc1d27baf2cf9a81b5ba0f76eaba93b4f5b0b75ba0f6d2f6"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s87-h11.txt": {
+      "sha256": "7195cba79006ed41cda82b89324bff24497f4cd03d1bf739808f1739e1cf4009",
+      "sidecar_sha256": "f3ee0a2eff0753d45e5cc76dab24ab6081b148cf0dbdaf40c0b10e23f6b3b5ca",
+      "holes": 11,
+      "score": 87,
+      "base_score": 87,
+      "cut_lhs": [
+        118093,
+        106162,
+        114633,
+        122685,
+        105768,
+        120587,
+        129652,
+        127570,
+        120571,
+        113921,
+        115898,
+        114271,
+        122625,
+        116417
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 577,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 5,
+        "5": 82,
+        "6": 21,
+        "7": 12
+      },
+      "triple_count_profile": {
+        "0": 11,
+        "1": 482,
+        "2": 62,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "631a1844eca6a4e9232c708c3d26e2364ec050e2be6781a0f801d90f4beab11c"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "126a794de9d4f35d10e397e2c7913221ae0da345bd28c2ec40bb043205215767"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s94-h11.txt": {
+      "sha256": "3fd23212ed6b9d48f587bc881641a8da3fc863a06dffc6f69848aea14c809f6c",
+      "sidecar_sha256": "bbb174c54f5701f968c778089afe7d6ce23f8596f0fa805450a50a60e1ac5411",
+      "holes": 11,
+      "score": 94,
+      "base_score": 94,
+      "cut_lhs": [
+        112241,
+        104758,
+        125253,
+        116608,
+        104603,
+        117069,
+        127107,
+        127144,
+        119316,
+        116119,
+        112077,
+        119782,
+        126695,
+        118745
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 557,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 6,
+        "5": 82,
+        "6": 18,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 11,
+        "1": 483,
+        "2": 60,
+        "3": 1,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "39221e50c46c35d2faa31aaf3fd4b81a1aad6c39d746964343845ea27a13c189"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "b82affb26fb0e567c010ab491aba33a6c97e51f2d8b6373c0f82e71cf66d05f2"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s94-h12.txt": {
+      "sha256": "dfcb18516779c62db0986cdb3677d6c781c51d5ed561ca7ebc53fec07a92e8f7",
+      "sidecar_sha256": "7f62cc306b6cfafd7b572edf1e62cc980170313f202db4a98bff70e53f910f7b",
+      "holes": 12,
+      "score": 94,
+      "base_score": 94,
+      "cut_lhs": [
+        116715,
+        105137,
+        115799,
+        117621,
+        109886,
+        119260,
+        128804,
+        129718,
+        116163,
+        114723,
+        107983,
+        114887,
+        123015,
+        113280
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 626,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 6,
+        "5": 82,
+        "6": 18,
+        "7": 14
+      },
+      "triple_count_profile": {
+        "0": 12,
+        "1": 480,
+        "2": 63,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "81f526e2cf8039776a9c288946c045802aa1653608978a88107f9c54ba4f2cbe"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "977fb7d44356adfb29d626e0b58935ca4b7deaac10a2ee0fd5be55ecfeabae61"
+        }
+      }
+    },
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/multicut-pilot-v1.0.0/cycle-score-s99-h13.txt": {
+      "sha256": "28185197ddc61c0ce2debdc0d268d2ebeacf1021cf139c38310e1068b4a8dd7d",
+      "sidecar_sha256": "efb564ee7ec3366809529e1b8bdb2a76ad686b0d9aabdb0a9e48fe8532028862",
+      "holes": 13,
+      "score": 99,
+      "base_score": 99,
+      "cut_lhs": [
+        112069,
+        104833,
+        123857,
+        115761,
+        107623,
+        117128,
+        128322,
+        124328,
+        119325,
+        116668,
+        113472,
+        119412,
+        124557,
+        118145
+      ],
+      "cut_violation": 0,
+      "cut_violations": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "all14cuts_pass": true,
+      "cut_penalty": 0,
+      "unsupported_count": 0,
+      "admissible_count": 677,
+      "heavy_excess": 0,
+      "point_degrees": [
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "pair_count_profile": {
+        "4": 6,
+        "5": 81,
+        "6": 20,
+        "7": 13
+      },
+      "triple_count_profile": {
+        "0": 13,
+        "1": 478,
+        "2": 64,
+        "6": 1,
+        "7": 4
+      },
+      "heavy_outside_profiles_passed": true,
+      "checks": {
+        "package": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "9c125a59c84fd8e55eb3cfb333ab32cc6d162a20189167e93b890b8b002dc604"
+        },
+        "standalone": {
+          "exit": 1,
+          "valid": false,
+          "sha256": "6cde904297d5050b25a8cb5d44d6058e5a9e479bf1d8b0616241a98bdd656f44"
+        }
+      }
+    }
+  },
+  "scope": "Construction-only pilot. Positive hole counts are not covering witnesses; the fourteen cuts are only a regular-template score guide."
+}

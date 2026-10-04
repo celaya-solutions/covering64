@@ -1,0 +1,30 @@
+{
+  "manifest_sha256": "043c66a113ff48617433b66cba8faf713bb021cb634ca18a068a3ad7e8b2ab5c",
+  "attempts": [
+    {
+      "status": "INFEASIBLE",
+      "elastic": false,
+      "seconds": 0.17385779100004584,
+      "time_limit_seconds": 10,
+      "solver": "Glop solver v9.15.6755"
+    },
+    {
+      "status": "OPTIMAL",
+      "elastic": true,
+      "seconds": 0.20401850005146116,
+      "time_limit_seconds": 10,
+      "solver": "Glop solver v9.15.6755",
+      "objective": 16.68585525272344
+    }
+  ],
+  "exact_status": "RATIONAL_INFEASIBLE",
+  "source_model_sha256": "0c0f5066620924d9483f0b472d083165748f12fd0eccc9072161a0acbaa28fc4",
+  "scope": "One fixed-heavy regular-family LP diagnostic; no CP or global bound.",
+  "cp_solves": 0,
+  "dual_sha256": "070af44bef9e875421923afbf65f6ce0e9644e3207f9c1cb0edc3f0ccf1f56d9",
+  "gap": [
+    8269,
+    500
+  ],
+  "solver_seconds": 0.377876291051507
+}

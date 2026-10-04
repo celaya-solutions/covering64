@@ -1,0 +1,1476 @@
+{
+  "passed": true,
+  "source_sha256": "83dbc55be2e2c020cd907834b4868a2af973f85a672df2ad3b605495b168005d",
+  "previous_source_sha256": "5d6cc3b9ef091fa0f559ea8185e2eb765be3b24c4f7e0b28a1de4918a9f6968a",
+  "previous_gate_sha256": "e51aa0eefa0e6a57caf2767f4d4e7e654788b50873ec8d3f5f3d5a42f122f166",
+  "primary_audit_sha256": "eb1fd2737f43ae7ddd3fb13a940bf45b0bd986f22d15d5b8a030495757e68bd9",
+  "binaries": {
+    "search": "550ac0675f3073bbb3243fdbc10eb25166c5af9d825b23e60be7eebc36c13ec1",
+    "search-sanitized": "0b0730c4235bb3fea95ed15139e7e9f0e9923da15985d7de0478ff39654b0e45",
+    "search-original": "4b7227970589f5eb3f9b5db1b3521ee3908f68ef8cd71d04d31ea5df48d8aaef"
+  },
+  "binary_sha256": "550ac0675f3073bbb3243fdbc10eb25166c5af9d825b23e60be7eebc36c13ec1",
+  "terminal_save_calls_added": 3,
+  "other_body_changes": 0,
+  "identical_replayed_states": 286,
+  "identical_replayed_operations": 88,
+  "state_receipts": [
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "7637bfc803110ca51e23e86ea7940ea357caf758e497ce4cf1ac1a04aae18e81"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "1fbc0fb0d329ad46e9d3b289e6f0217d5e2fb9d9ef5fedb4f92604aa075c0edf"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "9d7d301e1ec22fdf9a932df73038421f03190d991ff53b9710dd8af145896448"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "c1adcbf66e7208273237266b25b9922fe0f53c83e3c307a9c190243b703f4841"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "d9bff4fa3b7cc6a97564906b5a504b9be2c108758896ca2e32a1537304b257c7"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "eb4967b2bab43f3b98ecf396dc1b120224c5018954130b6263d4c03e7d767c7a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "a02043dfd7046adc8270899e9baa77a372a9c302cfe7b2673d7c5124b0d6efa0"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "a3c3fe7113d12fae4891a54f1483a63e0ff20f699c24e890060b8de25dfa8faf"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "f635dd4d0604183919a769ddbbef8b27e670ccb93e07e80d8908cd668b8d75c9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "60039d69beedf89d1215e392a882d126318a1ff5541f14fa0e820f5fed2d4e7b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "4ffe18c5c9d499ab25344c6b9471275e4803aab6703c6f63416ac3c75e3ee99c"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "16757a33e0e780dfee890267389a703014a03d1c0cae5a4f4091e36eeb43409b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "932021389aeef92177a5b0573a0c9e3a6419217495d48c9592d08d548ab43128"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "8a32d16888e2631dcd5766c27cb8cb2797370182c51f2d4e0e4e05a7ad0d2678"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "c7224598d78d9e3760b79715887adecabff77f94d04cb6998226731f4460b521"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "ab055f95167e1eecd9f96f557a473b0e80997675138e7e833b01f588c5a0fc3b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "6b7fc126cda42671792b2592faf48183ea3a4bf5bccd697a4ee614e7f36cf245"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "6947a55cb6c5d598e6dbbb8365d121caaac7bd735b61d75e3b9c2f4caea0fc23"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "c9b15b13a5c493fc4c007851ea63121521075271eb72a6c7bab7ff1f00013545"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "aeafeb3d976f3ef9216358273bbdb0c94cb1feba8cefe4965c155371d02b1012"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "b71d8a33d304251f41c3b259263d2b8399018370e7472352b157256b1a85de0d"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "4806e278f4d50f6d488dd7ecc90d2256d13c757a68b9edeb3ec6222953ad112c"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "91ca197c02e29992b2f88bfdbe1a20f79d5cbfa8e9bc4e9aabdc88446e3cfc84"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "56e866dbc2f9986f951c72ac06b4a70c6fa496aa273d9de1ea547695a4314ab2"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "61f9d1960a30951ee46f8a546bb1f3ddee3e57eef80ec85c26dc70e31ae1a90f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "7637bfc803110ca51e23e86ea7940ea357caf758e497ce4cf1ac1a04aae18e81"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "1fbc0fb0d329ad46e9d3b289e6f0217d5e2fb9d9ef5fedb4f92604aa075c0edf"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "9d7d301e1ec22fdf9a932df73038421f03190d991ff53b9710dd8af145896448"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "c1adcbf66e7208273237266b25b9922fe0f53c83e3c307a9c190243b703f4841"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "d9bff4fa3b7cc6a97564906b5a504b9be2c108758896ca2e32a1537304b257c7"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "ed8ce0541cbe53aa8266d9d1a5dc610d04918e175070da9d1c21478eb5d0b404"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "eb4967b2bab43f3b98ecf396dc1b120224c5018954130b6263d4c03e7d767c7a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "a02043dfd7046adc8270899e9baa77a372a9c302cfe7b2673d7c5124b0d6efa0"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "a3c3fe7113d12fae4891a54f1483a63e0ff20f699c24e890060b8de25dfa8faf"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "f635dd4d0604183919a769ddbbef8b27e670ccb93e07e80d8908cd668b8d75c9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "60039d69beedf89d1215e392a882d126318a1ff5541f14fa0e820f5fed2d4e7b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "fdbd04a8b34a01483e86083cb4d13acfc4a560b4da33781b819be5104dad1b21"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "4ffe18c5c9d499ab25344c6b9471275e4803aab6703c6f63416ac3c75e3ee99c"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "16757a33e0e780dfee890267389a703014a03d1c0cae5a4f4091e36eeb43409b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "932021389aeef92177a5b0573a0c9e3a6419217495d48c9592d08d548ab43128"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "8a32d16888e2631dcd5766c27cb8cb2797370182c51f2d4e0e4e05a7ad0d2678"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "c7224598d78d9e3760b79715887adecabff77f94d04cb6998226731f4460b521"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "16a682afb5615167d39bc857a93edf2c3d343a2099368377d2da411c479e13e3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "ab055f95167e1eecd9f96f557a473b0e80997675138e7e833b01f588c5a0fc3b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "6b7fc126cda42671792b2592faf48183ea3a4bf5bccd697a4ee614e7f36cf245"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "6947a55cb6c5d598e6dbbb8365d121caaac7bd735b61d75e3b9c2f4caea0fc23"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "c9b15b13a5c493fc4c007851ea63121521075271eb72a6c7bab7ff1f00013545"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "aeafeb3d976f3ef9216358273bbdb0c94cb1feba8cefe4965c155371d02b1012"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "cf6d768e8d3e8ab1fc34cf6ffe9adff416f1b93b54a7071aa38f238538ec9cea"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "b71d8a33d304251f41c3b259263d2b8399018370e7472352b157256b1a85de0d"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "4806e278f4d50f6d488dd7ecc90d2256d13c757a68b9edeb3ec6222953ad112c"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "91ca197c02e29992b2f88bfdbe1a20f79d5cbfa8e9bc4e9aabdc88446e3cfc84"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "56e866dbc2f9986f951c72ac06b4a70c6fa496aa273d9de1ea547695a4314ab2"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "61f9d1960a30951ee46f8a546bb1f3ddee3e57eef80ec85c26dc70e31ae1a90f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "097b08f7e96688cc7a8b1ed2cdff4387d89945a309a62f4225c78f6dbdaa1ffd"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control0-after.txt",
+      "sha256": "69fa0b9548a43765ffe3a1ca31581c275f93f45bf854079e40abf78e079022b9",
+      "detail_sha256": "658ef57c5253a79f1ac094068d5131bd04424f2aed8fe7a3021e984c0a323f02"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control0-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control0-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control1-after.txt",
+      "sha256": "b70704ce49eeae3b814b9c5c7c1ac5ff25f110fa9b8e715a2f4b9f51fd252b20",
+      "detail_sha256": "ff8383de52c11350b1531ab28ea5f15b09c84b801b0ebb086dadf5b5027e5154"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control1-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control1-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control2-after.txt",
+      "sha256": "f765323549da420968d7e27b2a9998cdb0b7e3b2bd8435ebd7379ed02d8c6ce3",
+      "detail_sha256": "23b031240442cde46ab46702b687a8631388446edce6af7a619c5dd8cbd8d814"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control2-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control2-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control3-after.txt",
+      "sha256": "2edc68fcd62d10917046d8ee4ebd0d7062bce319678826604a78fb596deb6106",
+      "detail_sha256": "ff89c50e68ea3ccb8c3000efa62a5f0dc958cf3376058e7574141e8047470233"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control3-before.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-control3-rollback.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "653a655bb0c6bf3bf0f9e36144a977a0bb93078f9b38216814502902e1fdd061"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1/state-initial.txt",
+      "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "c93baf26b5fedf2649bc4621373d70c20a8582c786a9d423d9423ad70b055074"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "d1d8d0db6ec438a33e20915cec8aedb7d221f3daa741c8f00fa3486cc3c77e18"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "781031caf6268f52234a0f277b986e078c6a4eaf78c58443b32a9081eedc3f60"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "a3419e391b65f25762f2384664c7bdd882c970c312f05989d78e94ed73d0ceda"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ca9a5823a5920c84157fc5e31870537f88519ab060a2a77183c9b18fbd57ac33"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "624bc1748e893b7d1cfa0982240a0d51f7ce615b2157f64bf3c8990e4f5e412a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "624d9714e7bc4fcf2eec582e7a01ed1c9ba13754981352462313ddd58b7eb56e"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "258f06ac4f4c0385d941d6f0ac9570586ea7004f1e716446d9f32455fffa3ab2"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "7ad092b5d434a85d93a40d4d6e62553f4c19ccaa75684bba11f748957132ae2e"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "567b282edc5b11c8117371066dcf38469bce1c19ad24811f2e26c1caba0c3ca1"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "39cd9d5c06f39e37999f3d9b802905c5d2e0abc7cc0721be12744e9751c5dbcb"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "5be45db8afbda8f6bd4c471e91ab970db500341d9919ef7610f201aa4897cab5"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "444582360879a82637e208077f9c1232c7abaf41630c84bab9d2db687e4f2958"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "809fd4aef0e90028b7c0d2dabfe8a674a4f64f098ffe08836a6d5e87687b433b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "32b36699ea58cc1af8bd254d421bda8f9502a1f9a5b63cc351f33e3d02f6d9bf"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "7754a437d88f13287d5ca78f9f1a94afbd8e7dbd23159643fe600f7ae9dd4a0f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "f30a166904dd7299f64141f0f38a818b0dd42f68c1ea7832c50ca70cb126e12c"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "b34fce1ec733251780abd3442414d4198179622e8b0bb44d6aa246a391286169"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "9102951baa134fa45881a7cd21a8986d5bd82f2cc52210f52eff7dd17825ff22"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "e3d533205d10ee36868d6c45906da91b166d2a9c225abbfe069216c877e8e232"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "ea7362f40f04c94466b7b2e34609518a5db5106ee8370a5bae5550579865acee"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "4ac19c659a5a3fed207f799f638900c34cbdb3de41452afdc1e59c0e2122611f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "08cd4caf09c8dc31bc28135b48e48b007024720deffc9a01ef5cdb2459867b0a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "6a5a4f45e1e2a6fa0090f1149f6e2c3bdd87baa2f14c97e8b23f06bc511470d7"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "c83eb7c45ebd374a7344f791a40342d5941cb3971fa3b675659f39745c266c4f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "c93baf26b5fedf2649bc4621373d70c20a8582c786a9d423d9423ad70b055074"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "d1d8d0db6ec438a33e20915cec8aedb7d221f3daa741c8f00fa3486cc3c77e18"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "781031caf6268f52234a0f277b986e078c6a4eaf78c58443b32a9081eedc3f60"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "a3419e391b65f25762f2384664c7bdd882c970c312f05989d78e94ed73d0ceda"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ca9a5823a5920c84157fc5e31870537f88519ab060a2a77183c9b18fbd57ac33"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "2173a5665687018f51ec2cb51a63646a8eac2dfc0af60a7be799a036ccf2d44b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "624bc1748e893b7d1cfa0982240a0d51f7ce615b2157f64bf3c8990e4f5e412a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "624d9714e7bc4fcf2eec582e7a01ed1c9ba13754981352462313ddd58b7eb56e"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "258f06ac4f4c0385d941d6f0ac9570586ea7004f1e716446d9f32455fffa3ab2"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "7ad092b5d434a85d93a40d4d6e62553f4c19ccaa75684bba11f748957132ae2e"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "567b282edc5b11c8117371066dcf38469bce1c19ad24811f2e26c1caba0c3ca1"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3ede05efb715b1f32faf0b18a73280825de5aae60b961b1340f8a9c85f8a0582"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "39cd9d5c06f39e37999f3d9b802905c5d2e0abc7cc0721be12744e9751c5dbcb"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "5be45db8afbda8f6bd4c471e91ab970db500341d9919ef7610f201aa4897cab5"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "444582360879a82637e208077f9c1232c7abaf41630c84bab9d2db687e4f2958"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "809fd4aef0e90028b7c0d2dabfe8a674a4f64f098ffe08836a6d5e87687b433b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "32b36699ea58cc1af8bd254d421bda8f9502a1f9a5b63cc351f33e3d02f6d9bf"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "fad814fa7daeb4fcfed2b238434272dabd87747587b929e8e6c181e6efc30ef9"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "7754a437d88f13287d5ca78f9f1a94afbd8e7dbd23159643fe600f7ae9dd4a0f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "f30a166904dd7299f64141f0f38a818b0dd42f68c1ea7832c50ca70cb126e12c"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "b34fce1ec733251780abd3442414d4198179622e8b0bb44d6aa246a391286169"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "9102951baa134fa45881a7cd21a8986d5bd82f2cc52210f52eff7dd17825ff22"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "e3d533205d10ee36868d6c45906da91b166d2a9c225abbfe069216c877e8e232"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "dc7be6a3af37666eb2ff250931a9390f0bd45803235d3a3c28ba4ab6fb0c1492"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "ea7362f40f04c94466b7b2e34609518a5db5106ee8370a5bae5550579865acee"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "4ac19c659a5a3fed207f799f638900c34cbdb3de41452afdc1e59c0e2122611f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "08cd4caf09c8dc31bc28135b48e48b007024720deffc9a01ef5cdb2459867b0a"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "6a5a4f45e1e2a6fa0090f1149f6e2c3bdd87baa2f14c97e8b23f06bc511470d7"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "c83eb7c45ebd374a7344f791a40342d5941cb3971fa3b675659f39745c266c4f"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "965c7f4bb72da96ced40100722d151dbd283108dcf881a935cadee10c2254afc"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control0-after.txt",
+      "sha256": "71f291f6292b5303a6f6e7780911d64575b496945ceff3f14bd33f193d6b7a6c",
+      "detail_sha256": "19eb4de69677edcaa7a6548128570bcb8d7cfefe9292ea9e1271c4db13592e9e"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control0-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control0-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control1-after.txt",
+      "sha256": "ecab2d7e0017d770f7f56ec75bc9185b3b39f39bcb1f4c71c660f3f3331651a3",
+      "detail_sha256": "6427eb366e267942f7b9340cc83cc2faf592b1c27bb57f6ac2b85515e7a4723b"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control1-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control1-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control2-after.txt",
+      "sha256": "4e98cf5583c506a211f29511dd05bfdea2a065efd8bfabdfc645cc2c13cdf317",
+      "detail_sha256": "ceed69a30930e56bbd185ef654d0c6bf09b91e269008b6fa00d8424baff65830"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control2-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control2-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control3-after.txt",
+      "sha256": "4969ee2a449dd107425cd3d8990e5e4f3b957d83225e8be03747edd39e695505",
+      "detail_sha256": "d501ad8c05a88f97b0a4cc700286f9413f1bc4189cbe571454fb4ce9179708b3"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control3-before.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-control3-rollback.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "3c54cf305d649f50e5cc5980551b2a24961bf0bdfa97e22bc66fd4f7352d5ae7"
+    },
+    {
+      "path": "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1/state-initial.txt",
+      "sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+      "detail_sha256": "ac1e45166d20b348b65724d662b532b3deaf9dfa4a9f2f849026b30c0d205d61"
+    }
+  ],
+  "trace_sha256": {
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w1": "60fe5b420f65fd80682c027c82612e4e5e03b0f20927b8516d8f4c54b922def7",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-off-w10": "c2a17c3ed4975f79ac774b674340692980793e2e9b0e4e691c366bffc2e110ac",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1": "eb00b79bf91883a531ce8654f3c19a43678b27c4ccedb84da87a58176c863021",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w10": "a759daefdc499e4a57635850e6e5ce91b313c4345098d3ed27ab21fd76330fb1",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-on-w1000": "e56671bd99e2128874e690cfef7ea7398c6ecec2babb75f181838faa26c1cb14",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-original-off-w1": "c88310cbb5deaa85a7d0ee1ba6b285288bae0ca898b095239386b421bb292c6e",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w1": "fbd75cfc4e29ea91623dcc74d002fca033e10c04d9a370c51c543b9c7effa862",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-off-w10": "5f04d88c4639d64da5f6c7a391718a77b0372e56044104b0e63ed5cbaf94f0f4",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1": "4243139fb7f6704d7634d7933205549c8121a122dd02d2b6550e852e55586dee",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w10": "d88e9b4c45d3ec58663c3d37cc62b5428cc4a3f53eb7fc0003120988a830f99d",
+    "experiments/scratch/multicut-native-v1.4.1/controls/cycle-search-sanitized-on-w1000": "b8faab4bb3708f67d15555078c21b7be73b8b8544cde5e3017383674cd188509",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w1": "56aec9b6a728f2708cb17f1121b8fe3bc057945bb8dca3ad6d5432c2914d1a5b",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-off-w10": "e63b41f6838337c75f8110488e9e2fa26754e5f08e0dd4800d12d32455033883",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1": "71100848c57457ffc721fa33ff93f1c12064ee493b0de79b220a691db6d27c3d",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w10": "19468356f5cff19de39c1a4d88af4d379e6e89fe0711b251b3ebddb5ca0ac910",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-on-w1000": "f02679423781e2ae26cac720e6479a7a33d1f8e7714009f7333be91b05b8f7b5",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-original-off-w1": "0482f75a6247ef0a47ec7821b5c13e0ae28d5ad8cfd94d7499addbf0023a6bb0",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w1": "cadf87e702010eb9f48bb793ce834b0fc0c556aca6ff7cf5e2ce0e3c40cd1a8d",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-off-w10": "5075029c293e96f6acc97a38b825c8bf306b3c501c511c8a9f365a350df03066",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1": "87d33ee87a63e74e2a9c8119f10df1d244e6399128d28ee377c17c82f893ea4b",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w10": "9371d4d7125c7ea8ce51fba857eac92c43e1b6ec2527db0d10ca720c0b0abfea",
+    "experiments/scratch/multicut-native-v1.4.1/controls/matching-search-sanitized-on-w1000": "00556a324d25dbf9ac827391d3d1dc039ff44c9ce5dcd473daf0c977d20402ae"
+  },
+  "checker_sha256": "fa46c30dab5406b6b9eff3daac1c45d1061bbf638459c768607efb0a48bc44d9",
+  "optimization_runs": 0,
+  "scope": "Source-only terminal-save delta; state serialization already tested. No optimization or cover claim."
+}

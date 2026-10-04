@@ -1,0 +1,35 @@
+{
+  "index": 11,
+  "heavy_sha256": "817b67af75d6f83671d3b84b718088d3dd49e554287b4f68ce937e0e8e4ae6fb",
+  "seed_sha256": "7e39cf3109292c1871d095110c4f2560d1cb8f3e34ae3ba483c56800b594c732",
+  "model_sha256": "c21fb45d21d46e167b3839d32f87dc3331563958a0e9e77336d13ac8cee83e00",
+  "manifest_sha256": "9aaa0938f9cabef66e3fda488290436b8d4111cf90e457344af85d2f3d584228",
+  "runner_sha256": "002e87885ea0a4aee1460351aa59527bcc2e47061970d6a88de968c433539b47",
+  "lp_core_sha256": "35d379455244f2511b00d6fb8dff01de69c1c6a0ca2869c3c73c7e03ce5220d1",
+  "min_saved_holes": 61,
+  "exact_status": "RATIONAL_INFEASIBLE",
+  "attempts": [
+    {
+      "status": "INFEASIBLE",
+      "elastic": false,
+      "seconds": 0.11065887496806681,
+      "time_limit_seconds": 10,
+      "solver": "Glop solver v9.15.6755"
+    },
+    {
+      "status": "OPTIMAL",
+      "elastic": true,
+      "seconds": 0.14615595794748515,
+      "time_limit_seconds": 10,
+      "solver": "Glop solver v9.15.6755",
+      "objective": 18.988387951130417
+    }
+  ],
+  "numerical_dual_sha256": "df339992eedd03c17f768430dfed54f81aedbf7f88897a124280b09cb8b4d622",
+  "dual": "experiments/2026-10-03/cut-survivor-lp-screen/cases/11-817b67af75d6/dual.json",
+  "dual_sha256": "628e7692b0d4e2c7701e10851e62c56d98e555b244d6179715edb30c38732950",
+  "gap": [
+    4713,
+    250
+  ]
+}

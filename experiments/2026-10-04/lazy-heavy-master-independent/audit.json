@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "master_variables": 276,
+  "master_rows": 619,
+  "row_counts": {
+    "cardinality": 1,
+    "outside_degrees": 52,
+    "nonanchor_upper": 552,
+    "replayed_cuts": 14
+  },
+  "exact_full_proto_match": true,
+  "completion_rows": 697,
+  "ordinary_columns": 1200,
+  "heavy_columns": 276,
+  "source_review": {
+    "shift": "Subtract selected-heavy count from both finite bounds; keep upper INF.",
+    "lp": "1200 continuous variables in [0,1]; each phase has 10 second limit.",
+    "dual": "Positive signed rows use lower bounds, negative rows finite upper bounds.",
+    "cut": "heavy_sum >= constant - sum(max(0, ordinary_coefficient)).",
+    "separation": "Integer arithmetic checks shifted RHS, box, and source violation.",
+    "primal": "Exact rational rows/box; fractional completion is not an integer cover.",
+    "budget": "At most 10 iterations, 10 seconds CP and two 10 second LP phases each.",
+    "scope": "Regular four-sevenfold family, all six hub graphs; no CP exclusion theorem."
+  },
+  "source_sha256": "c2ab4ab2b0ea65f3022a7a05b51c54c86e7e28783035a72b17b9b646f511665c",
+  "manifest_sha256": "db7641a79067c6c4087bb42d212636779f2b6de793e87a3d58b475eaf65ec01a",
+  "master_sha256": "f985d40d65e43bbf51413820f002f17c408c69201041c67ed766d05c63f577e8",
+  "bundle_sha256": "67b98dc2d53d9427ea38e08fbcee13f52844e0043c96abbd2fedac5ecf1fb534",
+  "cut_gate_sha256": "38f510af157b05c6e21ee9120d15b5d0fc47d5eb08eea19f48c29037e27a76bd",
+  "oracle_sha256": "41532f815971ea48f3ed42a9ea4bce5c7c4054e139f5bbe13ade4ba108da7b76",
+  "lp_sha256": "35d379455244f2511b00d6fb8dff01de69c1c6a0ca2869c3c73c7e03ce5220d1",
+  "checker_sha256": "aecfbbdbfb4de5142868c75e6ddbc4c7732c433c139bd718b31034115a0107d9",
+  "optimization_runs": 0
+}

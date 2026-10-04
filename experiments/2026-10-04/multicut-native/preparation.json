@@ -1,0 +1,17 @@
+{
+  "source": "scripts/four_seven_template_cut_heuristic.cpp",
+  "source_sha256": "08efce024da6d66001beb1eb10bd45b865df99b29f22c6dc01d1199fc06c1b38",
+  "target": "scripts/four_seven_template_multicut_heuristic.cpp",
+  "target_sha256": "5d6cc3b9ef091fa0f559ea8185e2eb765be3b24c4f7e0b28a1de4918a9f6968a",
+  "bundle": "experiments/2026-10-03/cut-survivor-lp-screen/cut-bundle.json",
+  "bundle_sha256": "67b98dc2d53d9427ea38e08fbcee13f52844e0043c96abbd2fedac5ecf1fb534",
+  "bundle_gate_sha256": "38f510af157b05c6e21ee9120d15b5d0fc47d5eb08eea19f48c29037e27a76bd",
+  "preparer_sha256": "8062e6c1154eabce18e2b3bc3145182d62032daff71cb798f018045127c2760d",
+  "cuts": 14,
+  "heavy_blocks": 276,
+  "default_enabled": false,
+  "default_weight": 1,
+  "maximum_weight": 1000,
+  "guide": "weight * max_i ceil(max(0, rhs_i - lhs_i) / 1000)",
+  "search_launched": false
+}

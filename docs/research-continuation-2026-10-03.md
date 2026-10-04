@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.11.0
+Version:     v1.13.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
-Date:        2026-10-03
-SHA256:      54456e693d33f47cdb6b84e0fb95b3018e21b8590567ff1b8cca14cc79103e79
+Date:        2026-10-04
+SHA256:      743b3e17299ca1372631528a8eb8f52a36a2d68f2dc2bc2ce1891b73b636d359
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -482,3 +482,128 @@ audited before a short run. All current checked results are saved in the
 `new-construction-web`, `sqs-extension-independent`, `sqs-union-symmetry`, and
 `sqs-union-symmetry-pilot` folders. The complete regression suite passed 369 tests
 with three existing warnings, and Ruff passed.
+
+
+## Second checked heavy-tuple obstruction (October 4)
+
+The new ten-hole tuple passes the previous cut orbit, but its own strengthened
+completion is now excluded. Root reconstructed all 697 rows over 1200 ordinary
+variables and rejected six damaged models before the LP. The new dual has 542
+signed rows and denominator 1000. Its weighted lower bound is 12648/1000 while
+the ordinary unit box has maximum 108/1000, giving the exact gap 627/50.
+Root replayed every coefficient independently and rejected five damaged
+certificates. The full six-hub-graph model was used; no CP pilot was needed.
+
+This rules out only this fixed heavy tuple within the regular four-sevenfold
+family. It neither excludes a whole first-link representative nor changes the
+109-entry registry. A separate membership screen classifies all 24 anchor links
+under the six hub graphs. Five graphs hit checked exclusions. The remaining
+cycle graph has link IDs cycle-086, cycle-086, cycle-054 and cycle-099; those open
+links alone do not imply that their joint heavy tuple has a completion.
+
+The model, registry transports, LP source and dual are in
+`cut-pilot-heavy-completion/`. Root's reconstruction and exact dual receipt are
+in `cut-pilot-heavy-completion-independent/`. The second parametric cut was
+independently replayed. Its threshold is 104444; the source heavy tuple scores
+91904, an exact deficit of 12540/1000. The replay reconstructs all 697 incidence
+rows and checks 276 heavy and 1200 ordinary columns, preserving all six graphs.
+
+## Complete screen of the saved heavy patterns (October 4)
+
+The earlier native cut-guided pilot saved 45 files containing 32 distinct full
+states and 17 distinct heavy tuples. The first two checked cuts exclude five of
+these tuples. Testing all 31104 valid relabelings of both cuts excludes the same
+five tuples, with no additional exclusions.
+
+The other twelve tuples each have a separately checked rational contradiction
+in their full six-hub-graph completion LP. The 24 numerical LP phases took
+3.10136 solver seconds in total; exact replay, rather than the solver status,
+establishes these conditional exclusions. Their positive gaps range from
+11.299 to 20.410. None needed an integer-completion search.
+
+These twelve certificates give twelve further parametric cuts. Together with
+the original two, the fourteen-cut bundle excludes every heavy tuple saved by
+that pilot. Root independently reconstructed all fourteen models and replayed
+the coefficients and exact gaps, rejecting 28 damaged controls. These are
+necessary inequalities for the regular four-sevenfold family. They do not
+exclude the entire family, add first-link exclusions, or change the global
+covering-number bounds. Evidence is in `cut-survivor-lp-screen/` and the
+October 4 `cut-bundle-independent/` and `two-cut-orbit-screen/` folders.
+
+## SQS native and focused point repairs (October 4)
+
+The independently audited SQS-union native heuristic stays within the complete
+1744-block pool. One 60-second pilot, seed 2026104021, improved the greedy start
+from 31 to 23 missing triples. Both cover verifiers independently agreed on
+every saved best and final state. This is an incomplete restricted construction,
+not an improvement over the unrestricted three-hole partial.
+
+Four focused point-star repairs each ran for 30 seconds with one worker. They
+rebuild all blocks containing point 2 or point 15 of the original three-hole
+seed, fixing only the retained blocks and allowing all 4368 candidate blocks.
+All four runs returned the original three-hole state, with bound zero and no
+changed partial. Independent reconstruction checked both complete models and
+both cover verifiers agreed on their saved states. The novelty was focused
+neighborhood scheduling; broader earlier neighborhoods could already contain
+these point-star moves. The timeouts do not exclude either neighborhood.
+
+Fresh primary-source review of Dai's 2006 thesis, Table 7.2, confirms that a
+64-block result with cost three was already reported for this instance. Our
+three-hole plateau is therefore not a new covering result. The source review
+and a separate forced-replacement diversification method are recorded in
+`experiments/2026-10-04/local-search-methods/`.
+
+## Forced novelty and direct heavy-pattern learning (October 4)
+
+Six independent ten-second diversification runs forced 8, 16 or 32 incoming
+blocks outside the two-seed elite pool, protecting them during that phase and
+then releasing all blocks for tabu repair. The saved states contain twelve
+distinct three-hole families, including ten new labeled families. All twelve
+retain the exact same original 60-block core and the forbidden heavy-triple
+profile. All 137 saved-state records passed both covering checks. Labeled
+diversity therefore did not escape either obstruction. Evidence is in
+`forced-novelty/`; the source review distinguishes this experiment from Dai's
+original method and records the altered aspiration and saving behavior.
+
+A smaller master now chooses only the 276 heavy indicators. Its initial 619
+rows are the 28-block count, 52 local outside-point equalities, 552 supported
+nonanchor triple caps, and fourteen checked cuts. Every proposed pattern is
+then tested against the full 697-row ordinary completion LP. A checked signed
+dual supplies the next necessary cut when that completion is impossible.
+Independent reconstruction matched the complete master and every shifted LP
+row; no ordinary integrality or global feasibility claim is inferred.
+
+The first ten cases took 3.122 seconds and produced ten checked cuts. A separate
+continuation started with all 24 cuts and checked 100 more cases in 43.194
+seconds, reaching its iteration cap. All 100 new certificates and incremental
+models passed independent replay. No fractional completion appeared. The mean
+exact gap in the first and last ten cases was 21.7122 and 19.7248; these are
+descriptive observations, not a convergence guarantee. The resulting 124 cuts
+remain restricted to the regular four-sevenfold family. Large models and
+certificates stay in ignored scratch, with a compact hash index and source in
+`lazy-heavy-master-continuation/`.
+
+## Fourteen-cut native pilot and completion check (October 4)
+
+The native guide uses the largest positive violation among the original
+fourteen cuts, rounded up after division by 1000 and multiplied by ten. It
+changes only the search score. Legal moves and unconditional zero-hole
+acceptance remain intact. Independent preparation checked all 148248 templates,
+286 saved states and 88 operations, with optimized and sanitizer builds. A
+separate version adds actual terminal-state saving and preserves the earlier
+source and receipts.
+
+One 180-second cycle pilot, seed 2026104051, made 53830825 proposals. Its best
+state still has ten holes and score 82, but passes all fourteen cuts and has no
+unsupported triples. All 54 saved states passed independent score, profile and
+cover-verifier recounts. The terminal state has 25 holes. No cover was found.
+
+The new best tuple is nevertheless excluded by a fresh completion certificate.
+Root independently reconstructed its model and replayed 568 signed rows: the
+weighted lower bound is 16697/1000 and the ordinary box maximum is 159/1000,
+giving the positive gap 8269/500. Its numerical elastic objective is
+16.68585525272344, worse than the original ten-hole tuple's 10.627554709636422.
+Passing the finite cut collection did not imply improved completion fitness.
+The next bounded construction test ranks local link switches and measures the
+elastic completion objective directly. These results leave the unrestricted
+three-hole best, 109 first-link exclusions and the 64-block target unchanged.

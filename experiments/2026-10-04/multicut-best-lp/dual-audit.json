@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "model_sha256": "0c0f5066620924d9483f0b472d083165748f12fd0eccc9072161a0acbaa28fc4",
+  "dual_sha256": "070af44bef9e875421923afbf65f6ce0e9644e3207f9c1cb0edc3f0ccf1f56d9",
+  "checker_sha256": "aed2ae14b5ffd0c67ad3b6b8f5e25f1ca413af22da975e00a4d5365d4df8eabb",
+  "damaged_controls_rejected": 6,
+  "controls": [
+    "model_sha256",
+    "heavy_sha256",
+    "manifest_sha256",
+    "rhs_numerator",
+    "box_max_numerator",
+    "gap"
+  ],
+  "exact_replay": {
+    "rhs_numerator": 16697,
+    "box_max_numerator": 159,
+    "gap": [
+      8269,
+      500
+    ],
+    "signed_rows": 568,
+    "combined_columns_sha256": "d2bac3399deb2d7f929208355af2a466302fbe1dff3f40c90015b6ac121f49f5"
+  }
+}

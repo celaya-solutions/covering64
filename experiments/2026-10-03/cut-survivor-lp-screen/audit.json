@@ -1,0 +1,856 @@
+{
+  "passed": true,
+  "checker_sha256": "aed2ae14b5ffd0c67ad3b6b8f5e25f1ca413af22da975e00a4d5365d4df8eabb",
+  "manifest_sha256": "9aaa0938f9cabef66e3fda488290436b8d4111cf90e457344af85d2f3d584228",
+  "results_sha256": "60c767c860c9fcb129c4ab19449cbba4c1ab99ccd83153ac7a65cf8512d5b5ac",
+  "generic_oracle_sha256": "41532f815971ea48f3ed42a9ea4bce5c7c4054e139f5bbe13ade4ba108da7b76",
+  "independently_reconstructed_models": 12,
+  "certificates_replayed": 12,
+  "cases": [
+    {
+      "index": 0,
+      "heavy_sha256": "2ff8e2399857e58c763b46a1af015a68b66c37482070aab59473f821985bcbab",
+      "model_sha256": "d4c4a657d12272941e0a3bc4b875790d4f3b711592f6b7232357c756c53c02cb",
+      "dual_sha256": "7756a0b3263ad461b31d8583dd581902e6503d4ece9fe52a3781dd5bf244dbdd",
+      "passed": true,
+      "rhs_numerator": 16439,
+      "box_max_numerator": 69,
+      "gap": [
+        1637,
+        100
+      ],
+      "signed_rows": 530,
+      "combined_columns_sha256": "7e1584be7c14c1e44191d1d7d36331fccc051f7f12b70d7f297eb05b80e574fc"
+    },
+    {
+      "index": 1,
+      "heavy_sha256": "436d3e563865c794960f91f088aae8dc0a33866728a3c9ae4c559d62b260968f",
+      "model_sha256": "bc0eead1c318839306fa2f369c5fe71bcfa9e3eb22cf2dcb04bdede2c7d66eaf",
+      "dual_sha256": "e4304eb5f024b87b160f0483a6660cd4abb0de4d02bab21d8959369c4a93f008",
+      "passed": true,
+      "rhs_numerator": 18093,
+      "box_max_numerator": 116,
+      "gap": [
+        17977,
+        1000
+      ],
+      "signed_rows": 532,
+      "combined_columns_sha256": "a0a243f2da89f1eb1a7dd64d0ffa5417500cff1747afb9f46fe19ba26b541013"
+    },
+    {
+      "index": 2,
+      "heavy_sha256": "e32b0008b103b65fe0db7bf1a0bdf8ba10981d16c53e5261a1626bde8fb715d7",
+      "model_sha256": "5818b97cf3fe55200e55611218ad4703000f1c6594c20e0d954c67f40ade647a",
+      "dual_sha256": "e3feded3145a4f5c88408276911b0f8b1b3e8610ddeb129553b358f94bceb122",
+      "passed": true,
+      "rhs_numerator": 11471,
+      "box_max_numerator": 172,
+      "gap": [
+        11299,
+        1000
+      ],
+      "signed_rows": 527,
+      "combined_columns_sha256": "7310d369b7d6db4748e7aa7625ad0bd7f92dfa9f745a403106440a7dd14c0d03"
+    },
+    {
+      "index": 3,
+      "heavy_sha256": "dabecf9d9870fa774208d5ddea2394f1919f30887284c0d882269cdac2d6245e",
+      "model_sha256": "bdf1810cbfe005339fdabfb1f979d38fe02d2d01e92f5a73ce4bc0dc5b0681eb",
+      "dual_sha256": "02221908998f7a2612d61fbad513f0fd8e1f50508e656e649f2b2e0b867115e8",
+      "passed": true,
+      "rhs_numerator": 12109,
+      "box_max_numerator": 68,
+      "gap": [
+        12041,
+        1000
+      ],
+      "signed_rows": 530,
+      "combined_columns_sha256": "74b7f239a70458527d2ca9ef1301fa291e1b40165cefa0c2719ab58f03454aa8"
+    },
+    {
+      "index": 4,
+      "heavy_sha256": "17587e6eb1468f2f6b71c966cbb450e1f71ef7b19cacab26886162e7217eff43",
+      "model_sha256": "ccd29777f349aab50752f58596146495420d89e9217d660375024153c0506c2d",
+      "dual_sha256": "5143055053f8ab64468bb0927b5c9581f78f483f1a5d7a388060f2bff9882657",
+      "passed": true,
+      "rhs_numerator": 15300,
+      "box_max_numerator": 111,
+      "gap": [
+        15189,
+        1000
+      ],
+      "signed_rows": 539,
+      "combined_columns_sha256": "370047d080cc934757ed594f73b68c8ea0841b05fd2f6fa5ab46d713e127a8c5"
+    },
+    {
+      "index": 5,
+      "heavy_sha256": "1d1d2b11ba6e9213f8a028cbcb0d5c80e1acf21365e0d46f34c794ae829ee58f",
+      "model_sha256": "3318ed3ae2a9ac6d6637d338312bf3e4574fbb7e159239af1242d72f9e38f2e7",
+      "dual_sha256": "eb01439f2133fa43220c268f19ba85019239761a8b6b5c9b72234eed9114decc",
+      "passed": true,
+      "rhs_numerator": 15872,
+      "box_max_numerator": 151,
+      "gap": [
+        15721,
+        1000
+      ],
+      "signed_rows": 528,
+      "combined_columns_sha256": "c97b77e9e165d492c439449153c53c16d09d4a19ec8ce66cb4b98e2fca62b4e8"
+    },
+    {
+      "index": 6,
+      "heavy_sha256": "e05445be39b8cfbc3e000f569d8ee2d5ac9e694da50b355bb34f4cb64a1d3991",
+      "model_sha256": "2a8af445114a451bebaceb3b658b65273b8496991560326b4b9c8c472b63f881",
+      "dual_sha256": "3215fdc21a878bd66fc3691f1a82fe05ea83a2712dba6738e398228b52280180",
+      "passed": true,
+      "rhs_numerator": 20473,
+      "box_max_numerator": 63,
+      "gap": [
+        2041,
+        100
+      ],
+      "signed_rows": 550,
+      "combined_columns_sha256": "3540fa0c542e617750aef60067252270cc279aea33da34a8981f969c02ddfaca"
+    },
+    {
+      "index": 7,
+      "heavy_sha256": "3c4dcba7c7b3a468377fc3f51612241e5392c640cc4c864009c65cd592e12378",
+      "model_sha256": "0c1ab70f7560ac133f97efaf2df6b7a928af6ced0cd666355ab66ae140cfd83d",
+      "dual_sha256": "18f6e10f2b3b94dc875f2633a083bbd6f5564164315cb06f746c08379db7b4b1",
+      "passed": true,
+      "rhs_numerator": 16783,
+      "box_max_numerator": 236,
+      "gap": [
+        16547,
+        1000
+      ],
+      "signed_rows": 549,
+      "combined_columns_sha256": "91b002d8f129b6a1491bd2b9f4b31b198534a9bae045ea1ff0da1e7f434dc455"
+    },
+    {
+      "index": 8,
+      "heavy_sha256": "10e7e7381db4398d835bdfb93663c86e2f7ea31b3aee6fbf241064e23be4d53e",
+      "model_sha256": "70a82ae6b7d2658908537b466b564b3d3e47d04d4ca7059cf5fc16733321e8d3",
+      "dual_sha256": "b50e18b53ef0785c6378fd4291ed3f500d1427294a4e80431173b7799746bdb4",
+      "passed": true,
+      "rhs_numerator": 15558,
+      "box_max_numerator": 44,
+      "gap": [
+        7757,
+        500
+      ],
+      "signed_rows": 525,
+      "combined_columns_sha256": "ba131f4134bb2885f471677337261bd35ececa8d9894f8f9213f371f4f8aec7d"
+    },
+    {
+      "index": 9,
+      "heavy_sha256": "8f6d6eb0f6b1190caf511c8eae21199b6b5dfa21a1546507c022a5baa55b81e0",
+      "model_sha256": "6ad94e9a39ce8fcf60ce6fef6b46a3aab9e58bbd0f9e94a012884b86745635de",
+      "dual_sha256": "7706177238418ea00b95e0c10412965c1eedbbc2d193cf566f9e4c3e98ceb55e",
+      "passed": true,
+      "rhs_numerator": 18042,
+      "box_max_numerator": 108,
+      "gap": [
+        8967,
+        500
+      ],
+      "signed_rows": 540,
+      "combined_columns_sha256": "f0cc155b4dd98ccc9d94da796a6d7377705ba60be7f6a56a3e06a2c768e06011"
+    },
+    {
+      "index": 10,
+      "heavy_sha256": "1db1a6beafa5a152001f752e629a94f33eafd85bcb39a2f717d00c27c2be35d8",
+      "model_sha256": "88df163caffed2e3e01afe0ce097e8169379568fa74249d2a0a701a979598178",
+      "dual_sha256": "4895be5d05451bf02d6b8196d7ecab0cdb8b76aee77d2bdb0763386ab5cf9995",
+      "passed": true,
+      "rhs_numerator": 15405,
+      "box_max_numerator": 71,
+      "gap": [
+        7667,
+        500
+      ],
+      "signed_rows": 548,
+      "combined_columns_sha256": "2056934cbccaf31ed4f0bf35b9d807412daa17a2929bb6da43eb85c92a1c6484"
+    },
+    {
+      "index": 11,
+      "heavy_sha256": "817b67af75d6f83671d3b84b718088d3dd49e554287b4f68ce937e0e8e4ae6fb",
+      "model_sha256": "c21fb45d21d46e167b3839d32f87dc3331563958a0e9e77336d13ac8cee83e00",
+      "dual_sha256": "628e7692b0d4e2c7701e10851e62c56d98e555b244d6179715edb30c38732950",
+      "passed": true,
+      "rhs_numerator": 18989,
+      "box_max_numerator": 137,
+      "gap": [
+        4713,
+        250
+      ],
+      "signed_rows": 545,
+      "combined_columns_sha256": "f5e65c1df678d8547f76d6bf5ef906c45efe98e97bdb92a594835fe49c727ee4"
+    }
+  ],
+  "damaged_controls_rejected": 132,
+  "damaged_controls": [
+    {
+      "index": 0,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 0,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 1,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 2,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 3,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 4,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 5,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 6,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 7,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 8,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 9,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 10,
+      "damage": "wrong_claim",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_model",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_heavy",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_manifest",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "zero_denominator",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_rhs",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_box",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_gap",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "duplicate_weight",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "dropped_weight",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "bad_row_index",
+      "rejected": true
+    },
+    {
+      "index": 11,
+      "damage": "wrong_claim",
+      "rejected": true
+    }
+  ],
+  "solver_calls": 0,
+  "scope": "Twelve fixed-heavy regular-family contradictions; no unrestricted theorem."
+}
