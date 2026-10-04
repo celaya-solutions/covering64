@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.3.0
+Version:     v1.4.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      115647f1f2a915608cf625bf9e3f0599c6d09c7f45ea07e7556dcac3a64e6188
+SHA256:      5aa9f00e5667aa0cd8d02ef444bda8fe647b402f36b03033a7b88935b8829e65
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -13,9 +13,36 @@ License:     All Rights Reserved / Celaya Solutions
 # Research continuation
 
 No verified 64-block cover has been found. The strongest current first-link
-screen has 102 independently checked exclusions out of 258 cases in the regular
-four-sevenfold branch: 27 cycle and 75 matching. The remaining 156 are open.
+screen has 106 independently checked exclusions out of 258 cases in the regular
+four-sevenfold branch: 27 cycle and 79 matching. The remaining 152 are open.
 This is a branch result, not a global lower bound.
+
+The six exhaustive hub-count cases exclude matching-077 in all six. Every one
+of the 936 conditional records was checked against independently audited models.
+Seven initial numerical failures or certificate timeouts were repaired using
+the same frozen models; exact replay now confirms 419 conditional exclusions.
+The other 517 records are numerically LP-optimal only. Individual conditional
+exclusions do not exclude a first link unless all six hub cases are covered.
+
+The complete surviving-template hull screen checked all 156 representatives
+left by the odd-set pass. Independently replayed certificates exclude
+matching-017, matching-077 and matching-083. Matching-077 overlaps the hub-count
+result, so these two campaigns add three distinct first-link exclusions.
+All 153 remaining LP records are fractional. Their saved primal values were
+recounted using exact binary-float arithmetic; small residuals establish only
+numerical feasibility, never an integer covering witness. The combined proof
+ID inventory is saved in `four-seven-template-link-independent`.
+
+The degree-19 roadmap now separately covers a sole degree-19 point and two
+degree-19 points sharing either five or six blocks. The sole-point case has
+38 independently audited link/high-point models; all 38 LP relaxations are
+numerically optimal and fractional. The overlap-five factorization has
+4,578,210 ordered union classes, with anchor reversal not quotiented. Four
+sampled unions have independently audited full completion models. One sampled
+union, pilot-000, is excluded by a separately replayed exact dual with gap
+249957/1000000. The three other pilots each returned UNKNOWN after 300 seconds
+with two solver workers and supplied no integer candidate. These four samples
+do not exhaust the overlap-five branch.
 
 The five feature rules and thirteen additional facet families were proved from
 the original 100 checked exclusions and complete link classification. Their
@@ -37,7 +64,7 @@ group surviving the original 100 exclusions. Both whole-branch LPs remain
 numerically feasible with fractional block values. Their two numerical primals
 are stored and independently recounted; neither is a covering witness.
 
-The completed model changes passed `uv sync --frozen`, 306 tests plus 10 subtests,
+The completed model changes passed `uv sync --frozen`, 314 tests,
 and Ruff. Three existing SWIG deprecation warnings remain. Large raw models,
 full primal vectors and archived source/proof material remain in ignored scratch;
 small manifests and checked evidence are kept in Git. The isolated branch has
@@ -135,3 +162,17 @@ INFEASIBLE without an independently checked integer proof.
 The completed sources passed `uv sync --frozen`,273 tests and10 subtests, and
 Ruff. The three existing SWIG warnings remain. Primal inspection of the158
 remaining first-link LP cases is ongoing beyond this checkpoint. Goal64 is open.
+
+The combined-template priority screen tested the last open hub-count subcase
+for each of 23 first-link representatives. It produced one new independently
+replayed certificate: matching-032 at (m4,z)=(0,1), gap 7651/1000000. Together
+with its five previously checked hub cases, this excludes matching-032 entirely
+within the regular four-sevenfold branch. The 22 other priority LPs remain
+numerically optimal and fractional. This brings the combined total to 106
+excluded first links and 152 open; it supplies no covering witness.
+
+A separately audited catalog refresh uses all 106 checked exclusions. It removes
+1,512 matching templates per heavy group, leaving 12,690 and 55,528 total model
+variables. The cycle catalog and matrix are byte-identical to their originals.
+Direct re-enumeration, exact row reconstruction and 16 damaged controls passed.
+The refreshed models have no solver results at this checkpoint.

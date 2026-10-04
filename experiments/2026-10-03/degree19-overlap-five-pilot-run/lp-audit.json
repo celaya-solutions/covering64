@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "pilot-000",
+      "feasibility_status": "INFEASIBLE",
+      "checked_rows": 3063,
+      "columns": 4368,
+      "lp_summary_sha256": "10b34d17c24138fb116b76bdb2b76884813e7f4b69825ec692cf98a5fce973f1",
+      "feasibility_archive_sha256": "e41fe17aebcad707db15f17b691cd842cfec4ff72726700b4925dc494283bd41",
+      "solve_seconds_total": 1.966788333025761,
+      "excluded": true,
+      "independent_certificate_audit_sha256": "cb7d1671c0b969b1e55ab598eddaecde32ccfe4b6b84aab0e0c6cee414c19731",
+      "gap": [
+        249957,
+        1000000
+      ]
+    },
+    {
+      "id": "pilot-001",
+      "feasibility_status": "OPTIMAL",
+      "checked_rows": 3063,
+      "columns": 4368,
+      "lp_summary_sha256": "a6832faadf734b53fbb579bdbcde799a2d822eba69baca103a23f2cccb07d40e",
+      "feasibility_archive_sha256": "ce56b83f36c01aca148a542339401b6975cd6f01feced5927220f7b05cd5117e",
+      "solve_seconds_total": 0.0768967499025166,
+      "excluded": false,
+      "max_numerical_row_violation": 5.617728504603292e-14,
+      "max_domain_violation": 0.0,
+      "fractional_block_variables": 262
+    },
+    {
+      "id": "pilot-002",
+      "feasibility_status": "OPTIMAL",
+      "checked_rows": 3063,
+      "columns": 4368,
+      "lp_summary_sha256": "8bf14c1633f478b5a78358f344e8e762fe33a439dd320f03c873dbb8f40a3652",
+      "feasibility_archive_sha256": "bfcae890ae6768375a0ea44479b3aebe2c28a88e8545d9dc07b4455dae781187",
+      "solve_seconds_total": 0.08644424995873123,
+      "excluded": false,
+      "max_numerical_row_violation": 2.5202062658991053e-14,
+      "max_domain_violation": 0.0,
+      "fractional_block_variables": 263
+    },
+    {
+      "id": "pilot-003",
+      "feasibility_status": "OPTIMAL",
+      "checked_rows": 3063,
+      "columns": 4368,
+      "lp_summary_sha256": "62a5c2ef3605e2439366bc7b0d173f951a27359fc28f149dab57f75deed1fd16",
+      "feasibility_archive_sha256": "4788a79c95efbafec001263a5f0a9dc2d341a053d56eebcccf74550f9ba0f869",
+      "solve_seconds_total": 0.08457062498200685,
+      "excluded": false,
+      "max_numerical_row_violation": 2.62456723021387e-13,
+      "max_domain_violation": 0.0,
+      "fractional_block_variables": 263
+    }
+  ],
+  "metadata_sha256": "766209cfebf5d61c53b099025ed789dccbb1a61b2384628f432c4633e9aec922",
+  "scope": "One exactly excluded conditional pilot; three numerical fractional primals. No exact rational primal feasibility or integer cover claimed."
+}

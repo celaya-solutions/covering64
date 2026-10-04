@@ -1,0 +1,1071 @@
+{
+  "passed": true,
+  "hub_case": [
+    0,
+    1
+  ],
+  "models": [
+    {
+      "case": "cycle",
+      "model_sha256": "910e19f8cf46ba723ca4733b21374d1353e32044a924f4072c929df8eaca90d2",
+      "audited_model_sha256": "4813e1357dd907b6b559334d14c1dc923e372639c134f120a17a3a8d58604afe",
+      "identical_proto": true
+    },
+    {
+      "case": "matching",
+      "model_sha256": "e4041feb1849b89e51c22f4f6fe47f1a3435e6d2a6053b7aca636522593c2b2b",
+      "audited_model_sha256": "5addb2266d66a9bf8b30cac89ad325cf99e678c823d4ba4abae77a6e92502596",
+      "identical_proto": true
+    }
+  ],
+  "campaign_metadata_sha256": "248b517e004c608fc45b7ce6f5e06c97f64d694e87cdd49c8ba6409cbb176392",
+  "campaign_checker_sha256": "12449f70678a81bf4f8d91e8d70fde7962646275ec1be7f2555016eadac91bea",
+  "scope": "Only the archived fixed-link branches; no cover or global bound claim.",
+  "checker_sha256": "35099ca38db73c5d94709a07efba6d929b42562e738506f5d344a1499aa9ce63",
+  "metadata_sha256": "787ccdc7fd5720261f2718bfdcc8facaddf4d9adc86365610773b45be368e34d",
+  "results_sha256": "ef870defa0535cba5fa9b7b7acd19d51410d4e9a30aef7eb4a18103198fc79c3",
+  "records": 156,
+  "expected_records": 156,
+  "complete_selected_coverage": true,
+  "excluded": 17,
+  "checks": [
+    {
+      "case": "cycle",
+      "id": "cycle-000",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-001",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-004",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-005",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-006",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-008",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-012",
+      "gap": [
+        87813,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3395
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-013",
+      "gap": [
+        24153,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2463
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-015",
+      "gap": [
+        13503,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 903
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-017",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-020",
+      "gap": [
+        6459,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1428
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-021",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-022",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-023",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-024",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-025",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-026",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-027",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-029",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-030",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-031",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-032",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-033",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-034",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-035",
+      "gap": [
+        33,
+        50000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1010
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-036",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-037",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-038",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-039",
+      "gap": [
+        31321,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 740
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-040",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-041",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-042",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-043",
+      "gap": [
+        133677,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3319
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-044",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-045",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-046",
+      "gap": [
+        3923,
+        25000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3405
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-048",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-049",
+      "gap": [
+        53169,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1446
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-050",
+      "gap": [
+        62121,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 936
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-051",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-053",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-054",
+      "gap": [
+        6137,
+        100000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3467
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-055",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-056",
+      "gap": [
+        21267,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1747
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-057",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-058",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-059",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-060",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-061",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-062",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-063",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-065",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-066",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-068",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-069",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-070",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-073",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-074",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-075",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-077",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-079",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-081",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-082",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-083",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-085",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-086",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-087",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-088",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-089",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-090",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-091",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-092",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-093",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-094",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-095",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-096",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-097",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-098",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-099",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-100",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-101",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-102",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-104",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-105",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-106",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-107",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-108",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-109",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-110",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-111",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-112",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-114",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-115",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-116",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-117",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-121",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-122",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-123",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-124",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-125",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-126",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-127",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-000",
+      "gap": [
+        165121,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3446
+    },
+    {
+      "case": "matching",
+      "id": "matching-012",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-013",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-014",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-015",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-017",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-019",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-020",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-021",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-022",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-028",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-029",
+      "gap": [
+        5201,
+        100000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3377
+    },
+    {
+      "case": "matching",
+      "id": "matching-030",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-032",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-036",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-039",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-043",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-045",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-047",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-053",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-057",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-058",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-059",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-060",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-062",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-063",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-064",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-066",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-067",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-068",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-069",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-071",
+      "gap": [
+        4081,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2107
+    },
+    {
+      "case": "matching",
+      "id": "matching-072",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-073",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-077",
+      "gap": [
+        1227,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1427
+    },
+    {
+      "case": "matching",
+      "id": "matching-083",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-091",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-093",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-095",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-097",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-102",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-103",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-104",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-107",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-109",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-110",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-113",
+      "gap": [
+        11627,
+        125000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 902
+    },
+    {
+      "case": "matching",
+      "id": "matching-115",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-117",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-118",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-119",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-123",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-127",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-128",
+      "proves_infeasible": false,
+      "certificate": null
+    }
+  ]
+}

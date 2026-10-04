@@ -1,0 +1,151 @@
+{
+  "passed": true,
+  "representative": "matching-032",
+  "fully_excluded": true,
+  "certificate_replay": {
+    "gap": [
+      7651,
+      1000000
+    ],
+    "proves_infeasible": true,
+    "rows": 4559,
+    "columns": 61576,
+    "nonzero_weights": 2419
+  },
+  "all_six_cases": [
+    {
+      "hub_case": [
+        0,
+        1
+      ],
+      "source": "combined-template-hub",
+      "gap": [
+        7651,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 4559,
+      "columns": 61576,
+      "nonzero_weights": 2419
+    },
+    {
+      "hub_case": [
+        0,
+        0
+      ],
+      "source": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-0-audit.json",
+      "audit_sha256": "ccca716fe299717b7b458f6bbc41b07ea9fdda2c5fedcf3a01ff032c5169a29f",
+      "case": "matching",
+      "id": "matching-032",
+      "gap": [
+        153241,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1301
+    },
+    {
+      "hub_case": [
+        0,
+        2
+      ],
+      "source": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-2-audit.json",
+      "audit_sha256": "cdb56168009f4a9127346361b1810c177e54e3cb8010fb44f8da162ad91af456",
+      "case": "matching",
+      "id": "matching-032",
+      "gap": [
+        78937,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1675
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "source": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-0-audit.json",
+      "audit_sha256": "8b9859bacec037eede19206877abfa76c41f913dd8f83f842e643bd265e1f3cb",
+      "case": "matching",
+      "id": "matching-032",
+      "gap": [
+        248537,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3377
+    },
+    {
+      "hub_case": [
+        1,
+        1
+      ],
+      "source": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-1-audit.json",
+      "audit_sha256": "b68aa9191c9eabdaa21b4001db5ea5c5a2415c51096c1951ca229fc92ffebef6",
+      "case": "matching",
+      "id": "matching-032",
+      "gap": [
+        407781,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1512
+    },
+    {
+      "hub_case": [
+        1,
+        2
+      ],
+      "source": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-2-audit.json",
+      "audit_sha256": "3e2469f8be741e87e484985efdb35f709e851a93a01de0e91df93d9111e84e09",
+      "case": "matching",
+      "id": "matching-032",
+      "gap": [
+        198677,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3259
+    }
+  ],
+  "original_encoding_audit_sha256": "fe57e7e414426f9d9c5815d062aa82b56f363408582d8d88dc40967f1f2df7ef",
+  "original_matrix_sha256": "7bfcfd3b82f52016c9c594778d19443b2ed803c1f6e121461230bda28cbfb0ee",
+  "combined_matrix_sha256": "082b396c417bd96b4e04b06f6b0bbb760c995173887567babaa34e362112fdf8",
+  "certificate_sha256": "90520033a58f34eecf569e6df12f901162e8f51eb87b213d46ca157cf0d407ab",
+  "fixed_rows_sha256": "3a6c99f3479609772ede40fe7ba95bbe9862900fd46eb8d61f154f137c181b5e",
+  "fixed_ids": [
+    0,
+    4,
+    26,
+    38,
+    49,
+    65,
+    70
+  ],
+  "original_rows_preserved": 4550,
+  "hub_rows_checked": 2,
+  "damaged_controls_rejected": [
+    "rhs",
+    "box",
+    "gap",
+    "width",
+    "duplicate_weight",
+    "zero_denominator",
+    "out_of_range_row",
+    "nonboolean_claim"
+  ],
+  "checker_sha256": "2102bde8c2fd08d98b5416df1eb3d1507ac2b45b2ce4ad8ff2472d5af9bd795b",
+  "raw_checker_sha256": "35099ca38db73c5d94709a07efba6d929b42562e738506f5d344a1499aa9ce63",
+  "scope": "All six exhaustive hub cases exclude this fixed-first-link integer regular four-sevenfold representative. No full-branch or global bound."
+}

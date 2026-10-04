@@ -1,0 +1,159 @@
+{
+  "children": [
+    {
+      "hub_case": [
+        0,
+        0
+      ],
+      "records": 156,
+      "checked_exclusions": 69,
+      "numeric_optimal": 87,
+      "status_counts": {
+        "2": 69,
+        "0": 87
+      }
+    },
+    {
+      "hub_case": [
+        0,
+        1
+      ],
+      "records": 156,
+      "checked_exclusions": 17,
+      "numeric_optimal": 139,
+      "status_counts": {
+        "0": 139,
+        "2": 17
+      }
+    },
+    {
+      "hub_case": [
+        0,
+        2
+      ],
+      "records": 156,
+      "checked_exclusions": 21,
+      "numeric_optimal": 135,
+      "status_counts": {
+        "0": 135,
+        "2": 21
+      }
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "records": 156,
+      "checked_exclusions": 133,
+      "numeric_optimal": 18,
+      "status_counts": {
+        "2": 136,
+        "0": 18,
+        "4": 2
+      }
+    },
+    {
+      "hub_case": [
+        1,
+        1
+      ],
+      "records": 156,
+      "checked_exclusions": 97,
+      "numeric_optimal": 57,
+      "status_counts": {
+        "2": 98,
+        "0": 57,
+        "4": 1
+      }
+    },
+    {
+      "hub_case": [
+        1,
+        2
+      ],
+      "records": 156,
+      "checked_exclusions": 75,
+      "numeric_optimal": 81,
+      "status_counts": {
+        "0": 81,
+        "2": 75
+      }
+    }
+  ],
+  "records": 936,
+  "checked_conditional_exclusions": 412,
+  "numeric_optimal": 517,
+  "inconclusive": [
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "id": "cycle-049",
+      "lp_status": 4,
+      "phase_status": null
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "id": "cycle-056",
+      "lp_status": 4,
+      "phase_status": null
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "id": "cycle-079",
+      "lp_status": 2,
+      "phase_status": 6
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "id": "matching-000",
+      "lp_status": 2,
+      "phase_status": 6
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "id": "matching-103",
+      "lp_status": 2,
+      "phase_status": 6
+    },
+    {
+      "hub_case": [
+        1,
+        1
+      ],
+      "id": "cycle-074",
+      "lp_status": 4,
+      "phase_status": null
+    },
+    {
+      "hub_case": [
+        1,
+        1
+      ],
+      "id": "matching-000",
+      "lp_status": 2,
+      "phase_status": 6
+    }
+  ],
+  "new_fully_excluded_ids": [
+    "matching-077"
+  ],
+  "total_first_link_exclusions": 103,
+  "remaining_first_link_cases": 155,
+  "combined_audit_sha256": "d38b57a9fd62c1bde8859a91649cf3d80c263ef54d4f9ef82c1989b9bbde0f80",
+  "six_certificates_sha256": "06dbdf536533b2a7e46ae93d61e8174570ff5314d1b1ddfd316a3ab9f7860f56"
+}

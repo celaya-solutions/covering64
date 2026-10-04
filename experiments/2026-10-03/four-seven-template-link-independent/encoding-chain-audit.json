@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "encoding_audit_sha256": "fe57e7e414426f9d9c5815d062aa82b56f363408582d8d88dc40967f1f2df7ef",
+  "encoding_checker_sha256": "747c71af8b73b2e534b48ff2657610bb7e09709719ee80250b3b96422dc680ff",
+  "encoding_manifest_sha256": "21c243c87f44aebe780d8a48e330684d5fcaefbc2a587fa236516d64d8cfc38a",
+  "matching_matrix_sha256": "7bfcfd3b82f52016c9c594778d19443b2ed803c1f6e121461230bda28cbfb0ee",
+  "matching_catalog_sha256": "43aec09e1371277d25de149f159effc335a0357c30d1db618cae8cad1c634f49",
+  "certificates": [
+    {
+      "id": "matching-017",
+      "replay_sha256": "a3ba70935d0ae1998b0d0289cfa176ec89a158f890a653cbd1cf1536fdb90905",
+      "gap": [
+        1193423,
+        1000000000
+      ]
+    },
+    {
+      "id": "matching-077",
+      "replay_sha256": "ad0696cec1246cfe059b4e633b58696080b30217ffff1cea5a825d6440700c15",
+      "gap": [
+        161,
+        1000000
+      ]
+    },
+    {
+      "id": "matching-083",
+      "replay_sha256": "57c5963a2cf6b4c474822574e816fa1bee14771d828244692dc7c64441063b41",
+      "gap": [
+        19029,
+        1000000
+      ]
+    }
+  ],
+  "scope": "Each exact certificate uses the identical independently audited necessary template-hull encoding. Only its stated fixed-link integer regular four-sevenfold branch is excluded.",
+  "frozen_manifest_hash_rechecked": true
+}

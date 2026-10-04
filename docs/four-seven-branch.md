@@ -1,10 +1,10 @@
 ```
 Document:    The Regular Four-Sevenfold-Triple Branch
-Version:     v1.2.0
+Version:     v1.3.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      49e147d3ab276d46e31dab48cc9bc4b49f2842fda6f2464f0705bff4249fdc63
+SHA256:      0eaeafaece888d346150f0c3bff6f6826a96457b169637b6f3af3737007ea012
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -183,8 +183,8 @@ The first five feature rules and thirteen additional hull-facet families are
 safe integer-cover consequences of the original 100 checked exclusions. Both
 158-case screens stayed numerically feasible. The independently audited
 8,096-row odd-set extension then gave checked exclusions for matching-038 and
-matching-051, with positive exact gaps 8413/1000000 and 1007/200000. Current
-totals are 27 cycle and 75 matching exclusions, leaving 102 cycle and 54
+matching-051, with positive exact gaps 8413/1000000 and 1007/200000. The
+totals at that stage were 27 cycle and 75 matching exclusions, leaving 102 cycle and 54
 matching cases open. See `four-seven-blossom-screen` and
 `four-seven-blossom-independent` under the experiment directory.
 
@@ -193,3 +193,33 @@ original 100 exclusions, was independently checked against every labeled
 catalog member and every sparse marginal row. Its whole-branch LPs remain
 numerically feasible. No result here proves a global bound or supplies a
 64-block covering witness.
+
+## Hub-count and full-template screens
+
+The independent six-case hub-count campaign screened all 156 remaining first
+links. Exactly one, matching-077, has a positive checked certificate in all six
+cases. Later exact replay repaired all seven initially inconclusive numerical
+subcases, bringing the conditional exclusion count to 419 of 936. This leaves
+517 numerically LP-optimal conditional records; it adds no other complete
+first-link exclusion.
+
+The complete template-hull screen excluded matching-017, matching-077 and
+matching-083. Each certificate was independently replayed over 61,576 unit-box
+columns and 4,557 rows, with the frozen hull encoding separately audited.
+Their respective positive gaps are 1193423/1000000000, 161/1000000 and
+19029/1000000. The matching-077 exclusion overlaps the hub campaign.
+
+The union is therefore **106 distinct checked exclusions: 27 cycle and 78
+matching**. The remaining **152 cases: 102 cycle and 50 matching** are open.
+All numerical witnesses from the full-template screen remain fractional.
+Compact proof archives and the checked union inventory are in
+`four-seven-template-link-independent`; hub evidence and numerical repair
+replays are in `four-seven-hub-count-screen` under the dated experiment folder.
+
+The combined-template priority screen tested the last open hub-count subcase
+for each of 23 first-link representatives. It produced one new independently
+replayed certificate: matching-032 at (m4,z)=(0,1), gap 7651/1000000. Together
+with its five previously checked hub cases, this excludes matching-032 entirely
+within the regular four-sevenfold branch. The 22 other priority LPs remain
+numerically optimal and fractional. This brings the combined total to 106
+excluded first links and 152 open; it supplies no covering witness.

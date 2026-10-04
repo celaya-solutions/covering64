@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "id": "pilot-000",
+      "passed": true,
+      "model_sha256": "6fb92175f51a6ed5a47c015c25f3b66e33e09e76f4721edf7d7c75fe4fce653f",
+      "lp_rows_sha256": "39875b09b1c0b81e25b2a5fa8da302f125de6a448086ebe20f98f3e045935e41",
+      "rows_checked": 3063,
+      "variables_checked": 4368,
+      "all_free_blocks": 2002,
+      "fixed_blocks": 33,
+      "damaged_controls_rejected": [
+        "variable_order",
+        "variable_domain",
+        "free_block_fixed_zero",
+        "drop_coverage",
+        "weaken_coverage",
+        "anchor_degree",
+        "objective",
+        "conditional_row"
+      ]
+    },
+    {
+      "id": "pilot-001",
+      "passed": true,
+      "model_sha256": "61888c6bdad7179e40e4134927a60917a89018f2de8e1bb5a3d25bee9af4f5b2",
+      "lp_rows_sha256": "27b3c8becded2157f0162f7abda6a054367c0b1367f6502d591a3907997b1664",
+      "rows_checked": 3063,
+      "variables_checked": 4368,
+      "all_free_blocks": 2002,
+      "fixed_blocks": 33,
+      "damaged_controls_rejected": [
+        "variable_order",
+        "variable_domain",
+        "free_block_fixed_zero",
+        "drop_coverage",
+        "weaken_coverage",
+        "anchor_degree",
+        "objective",
+        "conditional_row"
+      ]
+    },
+    {
+      "id": "pilot-002",
+      "passed": true,
+      "model_sha256": "393a88f12760356004ef7d2ff4ad2edd905900220649e6d51e1e6cf5d5b73c2e",
+      "lp_rows_sha256": "ad09a47ba985ef6d23145f6b65ba2b70ce0ac9afe94351fa66b876d5d1706cb0",
+      "rows_checked": 3063,
+      "variables_checked": 4368,
+      "all_free_blocks": 2002,
+      "fixed_blocks": 33,
+      "damaged_controls_rejected": [
+        "variable_order",
+        "variable_domain",
+        "free_block_fixed_zero",
+        "drop_coverage",
+        "weaken_coverage",
+        "anchor_degree",
+        "objective",
+        "conditional_row"
+      ]
+    },
+    {
+      "id": "pilot-003",
+      "passed": true,
+      "model_sha256": "a0f18fa92a286eb92a438e91097ee7d00d5f886d65f29f622d81b58512a799c6",
+      "lp_rows_sha256": "d0fc294199c32f27f87e143f33b7e6be4ca466314d50e75ad0a22810dfcf4149",
+      "rows_checked": 3063,
+      "variables_checked": 4368,
+      "all_free_blocks": 2002,
+      "fixed_blocks": 33,
+      "damaged_controls_rejected": [
+        "variable_order",
+        "variable_domain",
+        "free_block_fixed_zero",
+        "drop_coverage",
+        "weaken_coverage",
+        "anchor_degree",
+        "objective",
+        "conditional_row"
+      ]
+    }
+  ],
+  "checker_sha256": "848ec5a488839a0790d2751151f8a17d2a9366d667134c85828ef99bc418bfae",
+  "manifest_sha256": "bf42ffedf84052966e52c581704ad34ec783ae6b81beafb8cf0faee7fb4a5b3a",
+  "factorization_audit_sha256": "f7a3184ae38be644c0768cf8632743245d1db9f48a6a7989c2e60a2bdc3f8c12",
+  "scope": "Exactly four conditional 33-block pilot unions. Full Boolean and LP encodings checked; no solver run, cover, or branch exclusion claimed."
+}

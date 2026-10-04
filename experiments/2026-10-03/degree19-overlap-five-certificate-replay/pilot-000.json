@@ -1,0 +1,51 @@
+{
+  "valid": true,
+  "pilot": "pilot-000",
+  "checker_sha256": "d54e928e8241a8545c308aec70002d624ebfa7c53714558632fae4a7c0e60e2c",
+  "matrix_sha256": "39875b09b1c0b81e25b2a5fa8da302f125de6a448086ebe20f98f3e045935e41",
+  "certificate_sha256": "d3744ac1e8bdae9ecd8e563cad21024e4770ff21159ed246fb02066b7e2744ec",
+  "variable_domains": "All 4368 variables lie in [0,1].",
+  "replay": {
+    "checked_columns": 4368,
+    "checked_rows": 3063,
+    "nonzero_row_weights": 2840,
+    "rhs_numerator": 49766047,
+    "box_max_numerator": 49516090,
+    "exact_gap": [
+      249957,
+      1000000
+    ],
+    "combined_vector_sha256": "812faac9aee5a21e511d9a1c2aea7dd5ecf5aa2986b9bf18938f0b8c582f53ec"
+  },
+  "damaged_controls": [
+    {
+      "control": "changed reported gap",
+      "rejected": true
+    },
+    {
+      "control": "duplicate row weight",
+      "rejected": true
+    },
+    {
+      "control": "invalid row ID",
+      "rejected": true
+    },
+    {
+      "control": "changed weighted bound",
+      "rejected": true
+    },
+    {
+      "control": "changed box maximum",
+      "rejected": true
+    },
+    {
+      "control": "changed denominator",
+      "rejected": true
+    },
+    {
+      "control": "changed matrix coefficient",
+      "rejected": true
+    }
+  ],
+  "scope": "Exact contradiction for the supplied independently audited overlap-five pilot matrix only. This replay does not prove the exhaustiveness of pilot selection or independently reconstruct its branch reduction."
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Completed38-case sole-degree19 LP screen; numerical feasibility is not a cover.",
+  "cases": 38,
+  "exact_exclusions": 0,
+  "covers": 0,
+  "numerically_feasible": 38,
+  "fractional_cases": 38,
+  "maximum_row_violation": 3.6504133049675147e-13,
+  "maximum_domain_violation": 0,
+  "total_elapsed_seconds": 6.576529584941454,
+  "maximum_case_elapsed_seconds": 0.27276916697155684,
+  "results_sha256": "89204d6e6991ffed6032aa7440d76d3c3a65cca7d1717ba66ee60b654b571e6f",
+  "raw_archive": "experiments/scratch/single19-lp-v1.0.0",
+  "metadata_sha256": "89ba9b4a3c062f59d0a3a60adb53fbf102b7909113238f055981c744bced5463",
+  "finalizer_sha256": "dd2d7ebc9ff2aabe1cd5a20398b7beb692b5a6e928352621db6e0d575ef18e93",
+  "finalization_note": "All38 solves, per-case results, and primals were saved before the original runner's final summary writer failed when applying relative_to(absolute ROOT) to a relative path. This separate finalizer checks the intact records and does not rerun any solver."
+}

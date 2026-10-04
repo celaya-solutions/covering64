@@ -1,0 +1,1419 @@
+{
+  "passed": true,
+  "hub_case": [
+    1,
+    2
+  ],
+  "models": [
+    {
+      "case": "cycle",
+      "model_sha256": "237052c76d1d76ae3f61979509075e88c482b23cc847237aa0a842b4d253cb1f",
+      "audited_model_sha256": "7f9a9ebcac3041441bb0d0a6f782ad5e869c8b79af5a6e8391293cdaca4e66a7",
+      "identical_proto": true
+    },
+    {
+      "case": "matching",
+      "model_sha256": "2a9bd295955c0c4e2ec1e7782f62326fa05ad773de12e7c37b71e173d6e44381",
+      "audited_model_sha256": "5fd585ea1e07fd9a9982ab4abc9a1784d17b13e05dc4dc45eb20eeefb102bdf5",
+      "identical_proto": true
+    }
+  ],
+  "campaign_metadata_sha256": "248b517e004c608fc45b7ce6f5e06c97f64d694e87cdd49c8ba6409cbb176392",
+  "campaign_checker_sha256": "12449f70678a81bf4f8d91e8d70fde7962646275ec1be7f2555016eadac91bea",
+  "scope": "Only the archived fixed-link branches; no cover or global bound claim.",
+  "checker_sha256": "35099ca38db73c5d94709a07efba6d929b42562e738506f5d344a1499aa9ce63",
+  "metadata_sha256": "e516ab4496f7fde6e68867ffa4e0423a851aa162a780d7e03362da369fc99b47",
+  "results_sha256": "e2d817188dc9e56dd2ca6aed48f1ab7109b0eafea63c1e8c25fdb7120bb39953",
+  "records": 156,
+  "expected_records": 156,
+  "complete_selected_coverage": true,
+  "excluded": 75,
+  "checks": [
+    {
+      "case": "cycle",
+      "id": "cycle-000",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-001",
+      "gap": [
+        439717,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 725
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-004",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-005",
+      "gap": [
+        5877,
+        50000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1007
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-006",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-008",
+      "gap": [
+        154809,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1917
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-012",
+      "gap": [
+        261581,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2883
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-013",
+      "gap": [
+        75267,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 951
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-015",
+      "gap": [
+        176717,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 697
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-017",
+      "gap": [
+        12483,
+        100000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3410
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-020",
+      "gap": [
+        263279,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1451
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-021",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-022",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-023",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-024",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-025",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-026",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-027",
+      "gap": [
+        61317,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2703
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-029",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-030",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-031",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-032",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-033",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-034",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-035",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-036",
+      "gap": [
+        10581,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2396
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-037",
+      "gap": [
+        27197,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 873
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-038",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-039",
+      "gap": [
+        29763,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2048
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-040",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-041",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-042",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-043",
+      "gap": [
+        66903,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2355
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-044",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-045",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-046",
+      "gap": [
+        189479,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2930
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-048",
+      "gap": [
+        52897,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 833
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-049",
+      "gap": [
+        124709,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1790
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-050",
+      "gap": [
+        513603,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 885
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-051",
+      "gap": [
+        77393,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 986
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-053",
+      "gap": [
+        15491,
+        200000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1184
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-054",
+      "gap": [
+        519601,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1889
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-055",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-056",
+      "gap": [
+        4637,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 866
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-057",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-058",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-059",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-060",
+      "gap": [
+        212691,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2592
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-061",
+      "gap": [
+        264363,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 869
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-062",
+      "gap": [
+        245023,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1331
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-063",
+      "gap": [
+        99437,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3531
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-065",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-066",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-068",
+      "gap": [
+        15991,
+        62500
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2719
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-069",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-070",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-073",
+      "gap": [
+        2919,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3193
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-074",
+      "gap": [
+        60907,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 1671
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-075",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-077",
+      "gap": [
+        36903,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 722
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-079",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-081",
+      "gap": [
+        8477,
+        125000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 729
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-082",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-083",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-085",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-086",
+      "gap": [
+        40761,
+        125000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3437
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-087",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-088",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-089",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-090",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-091",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-092",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-093",
+      "gap": [
+        40681,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 651
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-094",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-095",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-096",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-097",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-098",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-099",
+      "gap": [
+        103099,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 975
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-100",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-101",
+      "gap": [
+        102961,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3422
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-102",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-104",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-105",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-106",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-107",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-108",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-109",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-110",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-111",
+      "gap": [
+        220687,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3402
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-112",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-114",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-115",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-116",
+      "gap": [
+        71533,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2674
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-117",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-121",
+      "gap": [
+        11087,
+        50000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 733
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-122",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-123",
+      "gap": [
+        22521,
+        62500
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 857
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-124",
+      "gap": [
+        99477,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 2994
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-125",
+      "gap": [
+        359209,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12399,
+      "columns": 4768,
+      "nonzero_weights": 3328
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-126",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "cycle",
+      "id": "cycle-127",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-000",
+      "gap": [
+        623549,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1186
+    },
+    {
+      "case": "matching",
+      "id": "matching-012",
+      "gap": [
+        76089,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1402
+    },
+    {
+      "case": "matching",
+      "id": "matching-013",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-014",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-015",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-017",
+      "gap": [
+        146749,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3329
+    },
+    {
+      "case": "matching",
+      "id": "matching-019",
+      "gap": [
+        183759,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2234
+    },
+    {
+      "case": "matching",
+      "id": "matching-020",
+      "gap": [
+        45389,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3535
+    },
+    {
+      "case": "matching",
+      "id": "matching-021",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-022",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-028",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-029",
+      "gap": [
+        217109,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1223
+    },
+    {
+      "case": "matching",
+      "id": "matching-030",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-032",
+      "gap": [
+        198677,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3259
+    },
+    {
+      "case": "matching",
+      "id": "matching-036",
+      "gap": [
+        122627,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2431
+    },
+    {
+      "case": "matching",
+      "id": "matching-039",
+      "gap": [
+        15381,
+        100000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2156
+    },
+    {
+      "case": "matching",
+      "id": "matching-043",
+      "gap": [
+        7817,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1971
+    },
+    {
+      "case": "matching",
+      "id": "matching-045",
+      "gap": [
+        63473,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1404
+    },
+    {
+      "case": "matching",
+      "id": "matching-047",
+      "gap": [
+        37667,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 833
+    },
+    {
+      "case": "matching",
+      "id": "matching-053",
+      "gap": [
+        161,
+        20000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1379
+    },
+    {
+      "case": "matching",
+      "id": "matching-057",
+      "gap": [
+        9801,
+        200000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1777
+    },
+    {
+      "case": "matching",
+      "id": "matching-058",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-059",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-060",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-062",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-063",
+      "gap": [
+        124711,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2993
+    },
+    {
+      "case": "matching",
+      "id": "matching-064",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-066",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-067",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-068",
+      "gap": [
+        15549,
+        125000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 839
+    },
+    {
+      "case": "matching",
+      "id": "matching-069",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-071",
+      "gap": [
+        251777,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2529
+    },
+    {
+      "case": "matching",
+      "id": "matching-072",
+      "gap": [
+        240691,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1503
+    },
+    {
+      "case": "matching",
+      "id": "matching-073",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-077",
+      "gap": [
+        192553,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1238
+    },
+    {
+      "case": "matching",
+      "id": "matching-083",
+      "gap": [
+        46601,
+        200000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1769
+    },
+    {
+      "case": "matching",
+      "id": "matching-091",
+      "gap": [
+        60263,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3457
+    },
+    {
+      "case": "matching",
+      "id": "matching-093",
+      "gap": [
+        14131,
+        50000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 626
+    },
+    {
+      "case": "matching",
+      "id": "matching-095",
+      "gap": [
+        77959,
+        200000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 631
+    },
+    {
+      "case": "matching",
+      "id": "matching-097",
+      "gap": [
+        7293,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1631
+    },
+    {
+      "case": "matching",
+      "id": "matching-102",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-103",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-104",
+      "proves_infeasible": false,
+      "certificate": null
+    },
+    {
+      "case": "matching",
+      "id": "matching-107",
+      "gap": [
+        58697,
+        200000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3324
+    },
+    {
+      "case": "matching",
+      "id": "matching-109",
+      "gap": [
+        11559,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3316
+    },
+    {
+      "case": "matching",
+      "id": "matching-110",
+      "gap": [
+        63241,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1511
+    },
+    {
+      "case": "matching",
+      "id": "matching-113",
+      "gap": [
+        243277,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2511
+    },
+    {
+      "case": "matching",
+      "id": "matching-115",
+      "gap": [
+        487,
+        40000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2895
+    },
+    {
+      "case": "matching",
+      "id": "matching-117",
+      "gap": [
+        19671,
+        62500
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3261
+    },
+    {
+      "case": "matching",
+      "id": "matching-118",
+      "gap": [
+        386633,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3152
+    },
+    {
+      "case": "matching",
+      "id": "matching-119",
+      "gap": [
+        1729,
+        50000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1919
+    },
+    {
+      "case": "matching",
+      "id": "matching-123",
+      "gap": [
+        9337,
+        250000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3268
+    },
+    {
+      "case": "matching",
+      "id": "matching-127",
+      "gap": [
+        331749,
+        1000000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 956
+    },
+    {
+      "case": "matching",
+      "id": "matching-128",
+      "gap": [
+        306983,
+        500000
+      ],
+      "proves_infeasible": true,
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1445
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "representative": "matching-077",
+  "case": "matching",
+  "gap": [
+    161,
+    1000000
+  ],
+  "proves_infeasible": true,
+  "rows": 4557,
+  "columns": 61576,
+  "nonzero_weights": 2553,
+  "fixed_ids": [
+    4,
+    5,
+    17,
+    29,
+    39,
+    45,
+    77
+  ],
+  "matrix_sha256": "7bfcfd3b82f52016c9c594778d19443b2ed803c1f6e121461230bda28cbfb0ee",
+  "fixed_rows_sha256": "7dcf04e71d3eb0ed7633f75f1c6a43d9a81b55f93eb3b853f1532f3a65d5f8f7",
+  "certificate_sha256": "49a83211aa7abf9b83ed8d9e696b9750378f022c35143b6d6264f9617a7104ee",
+  "checker_sha256": "5402a00c72ea8973eed3f83f867c4c9ca33ef44fddb4c875e011ac29c3290779",
+  "raw_checker_sha256": "35099ca38db73c5d94709a07efba6d929b42562e738506f5d344a1499aa9ce63",
+  "damaged_controls_rejected": [
+    "rhs",
+    "box",
+    "gap",
+    "width",
+    "duplicate_weight",
+    "zero_denominator",
+    "out_of_range_row",
+    "nonboolean_claim"
+  ],
+  "scope": "Exact certificate and fixed-row replay only. Applicability to integer regular four-sevenfold covers also requires the separate full-template encoding audit for this exact base matrix. No unrestricted bound."
+}

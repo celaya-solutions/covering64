@@ -1,0 +1,19 @@
+{
+  "checker_sha256": "3cae0e249c14db0b21b6b863532c39fcb622f9d0133eb7636f4ad10c96b61983",
+  "results_sha256": "89204d6e6991ffed6032aa7440d76d3c3a65cca7d1717ba66ee60b654b571e6f",
+  "damaged_controls_rejected": [
+    "missing value",
+    "NaN value",
+    "infinite value",
+    "Boolean value",
+    "negative domain",
+    "upper domain",
+    "broken fixed block",
+    "missing case",
+    "duplicate case"
+  ],
+  "maximum_row_violation": 3.6502745270894366e-13,
+  "maximum_domain_violation": 0.0,
+  "exact_feasible_vectors": 0,
+  "scope": "Exact arithmetic on saved IEEE754 binary values confirms residuals within1e-7. Nonzero residuals remain numerical feasibility only; fractional vectors are not integer covering witnesses."
+}

@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "manifest_sha256": "84183ee44ed2916ffd18d64b5f113774e4eda47bad5e82c6c79b1b3a64db5bdf",
+  "checker_sha256": "670a30d527525c33dca90a953e06499b1bda94235099004a172fe6f000ccf67e",
+  "checked_exclusions": 106,
+  "original_encoding_audit_sha256": "fe57e7e414426f9d9c5815d062aa82b56f363408582d8d88dc40967f1f2df7ef",
+  "cases": [
+    {
+      "case": "cycle",
+      "passed": true,
+      "templates_per_group": 25020,
+      "complete_transported_catalogs": 4,
+      "alternative_maps_checked": 8,
+      "base_rows_preserved": 4270,
+      "hull_rows_reconstructed": 280,
+      "columns": 104848,
+      "catalog_sha256": "465c6c2186d5c8700ca476d6fa0fd60e0633cbc4d526cb40d91602be5b494d2c",
+      "matrix_sha256": "27061fc3af3e1933b05b8c71c5fabef5229129d0ab57c73cf1cb9c9b282cf88d",
+      "group_catalogs_sha256": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35"
+    },
+    {
+      "case": "matching",
+      "passed": true,
+      "templates_per_group": 12690,
+      "complete_transported_catalogs": 4,
+      "alternative_maps_checked": 8,
+      "base_rows_preserved": 4270,
+      "hull_rows_reconstructed": 280,
+      "columns": 55528,
+      "catalog_sha256": "8a715fd88ef51f31662c6026a0575c72f1a9ffd610ba476a356de12c77fefff5",
+      "matrix_sha256": "ee2072837ae28bcce599c60975995a5c88b3fc3eb635352abc089b3eb6d78bab",
+      "group_catalogs_sha256": "56729c9fff19eb98acaa1507295bff7daa639047ddbbd2934cfb06fe3115c4c1"
+    }
+  ],
+  "damaged_controls": [
+    {
+      "case": "cycle",
+      "mutation": "missing template",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "wrong template orbit",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "wrong width",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "wrong box",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "changed base",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "changed marginal sign",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "changed map",
+      "rejected": true
+    },
+    {
+      "case": "cycle",
+      "mutation": "missing transported template",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "missing template",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "wrong template orbit",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "wrong width",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "wrong box",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "changed base",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "changed marginal sign",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "changed map",
+      "rejected": true
+    },
+    {
+      "case": "matching",
+      "mutation": "missing transported template",
+      "rejected": true
+    }
+  ],
+  "scope": "Complete surviving catalogs and exact projected hull matrices only; no solve."
+}

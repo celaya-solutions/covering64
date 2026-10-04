@@ -1,0 +1,602 @@
+{
+  "valid": true,
+  "solver_calls": 0,
+  "runner_sha256": "9d4689c59d12c7326cf5a7e03cafe9d09eb7c5698db1f085446cd57d02fca661",
+  "checker_sha256": "4cd207b45f00265d0bb9cc1f53ede0b572121f09405a84a9548e10b13749eee5",
+  "plan_sha256": "9653d367494c23fe4018990aa7ad142b1ccf9d0a495b634049f395a31912772c",
+  "earlier_preflight_sha256": "dc1dd91cc3b505229daabe266e7136479d6c05b1bebf823662da81ed3d1605e7",
+  "source_input_hashes": {
+    "original_audit_sha256": "aec2287a1ecc4e127625db7d6374585050f2daae036b8d42a4043d49fbed89e4",
+    "blossom_audit_sha256": "9cdcddd068fc74b54dc0b10d909c1a9b2d582039fdf576ea35910906fa7601eb",
+    "selected_sha256": "27c0e77561c37b86dd60b85427256b30f6ce9433a87edd39c41ed73dc69e601d",
+    "matrix_audit_sha256": "fe57e7e414426f9d9c5815d062aa82b56f363408582d8d88dc40967f1f2df7ef"
+  },
+  "priority_representatives": 23,
+  "models": [
+    {
+      "case": "cycle",
+      "hub_case": [
+        0,
+        1
+      ],
+      "phase_one": false,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "4b39f4bc8580b6104bfe6089139fe76ad6ad44c12cdfc7b65b9ad0894fa73cc8",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 104848,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "e78108cb5125da358829bc4b4a4f80a2715207425f579f94be9a10f143d788c7",
+      "proto_sha256": "ffb5ec4085abc34cb9340d5e3d588186f583420b7a04ded6350d1878acdf82c8",
+      "transitions": [
+        "cycle-060",
+        "cycle-061",
+        "cycle-063",
+        "cycle-068",
+        "cycle-086",
+        "cycle-123",
+        "cycle-125"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "cycle",
+      "hub_case": [
+        0,
+        1
+      ],
+      "phase_one": true,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "a2ef87115303497dc77d8a72030766391a7fdd12e38b2e6130dc0fabdb65a12c",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 104862,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "b69c6a12f1f71abfd6538e3b264398c5b1e2684eba51b445537c2f9ef73fa1f0",
+      "proto_sha256": "8fc3d76469436861089d4930c75bbcaec831c14bb877293baed5471088092aed",
+      "transitions": [
+        "cycle-060",
+        "cycle-061",
+        "cycle-063",
+        "cycle-068",
+        "cycle-086",
+        "cycle-123",
+        "cycle-125"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed slack domain",
+          "rejected": true
+        },
+        {
+          "control": "changed slack objective",
+          "rejected": true
+        },
+        {
+          "control": "changed slack sign",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "cycle",
+      "hub_case": [
+        0,
+        2
+      ],
+      "phase_one": false,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "4b39f4bc8580b6104bfe6089139fe76ad6ad44c12cdfc7b65b9ad0894fa73cc8",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 104848,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "4f84aad389c7252dee92d91a79ec520856b8b1ff5a287e5e96593a04f7a50943",
+      "proto_sha256": "0cf3c01ff9610d27a93483f13ee27baacd0ccb679525f4f9a5c21f3ecd35bd80",
+      "transitions": [
+        "cycle-012",
+        "cycle-013",
+        "cycle-015",
+        "cycle-020",
+        "cycle-039",
+        "cycle-043",
+        "cycle-046",
+        "cycle-050",
+        "cycle-054"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "cycle",
+      "hub_case": [
+        0,
+        2
+      ],
+      "phase_one": true,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "a2ef87115303497dc77d8a72030766391a7fdd12e38b2e6130dc0fabdb65a12c",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 104862,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "12d77aa1bb3c2e1260ef20e5068c17eb5abfa61d8aa0eec484e43e0163f8267b",
+      "proto_sha256": "b71106045fb56a1dda67a122c8b1ea2dedd16537cca3b71f3947fe4e2cdafb9a",
+      "transitions": [
+        "cycle-012",
+        "cycle-013",
+        "cycle-015",
+        "cycle-020",
+        "cycle-039",
+        "cycle-043",
+        "cycle-046",
+        "cycle-050",
+        "cycle-054"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed slack domain",
+          "rejected": true
+        },
+        {
+          "control": "changed slack objective",
+          "rejected": true
+        },
+        {
+          "control": "changed slack sign",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "hub_case": [
+        0,
+        1
+      ],
+      "phase_one": false,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "aa57271d6d52cb8d5edcbcb663c72b0782e0cd84933cd24eddf453337594867b",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 61576,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "8bcb47123d51066d624aa31710f4e100702cb03529887658267cc6c69dbc994b",
+      "proto_sha256": "7de8f32c6b879b36c591dbd5f4bd773b9a39b1ff09b3769cd95de10587c7cea3",
+      "transitions": [
+        "matching-032",
+        "matching-063",
+        "matching-095",
+        "matching-117"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "hub_case": [
+        0,
+        1
+      ],
+      "phase_one": true,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "a1c829170c7697d36ab0b7ab4a890844970cf21b8b7a2610d2293375f0655462",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 61590,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "325d5fd8230e38d8dc8bae533e266273e0e21d9b7ec54d356c23988763f3be1c",
+      "proto_sha256": "8794d50d2c8a2e424774467ba9f7ba61b1e35596b8f7eeda054b5fa669a8709f",
+      "transitions": [
+        "matching-032",
+        "matching-063",
+        "matching-095",
+        "matching-117"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed slack domain",
+          "rejected": true
+        },
+        {
+          "control": "changed slack objective",
+          "rejected": true
+        },
+        {
+          "control": "changed slack sign",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "hub_case": [
+        0,
+        2
+      ],
+      "phase_one": false,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "aa57271d6d52cb8d5edcbcb663c72b0782e0cd84933cd24eddf453337594867b",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 61576,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "9ca9ad5ef05f1c386ca2de54221196b38b5aba58bddde4e28ad303464619a24a",
+      "proto_sha256": "0f15288fd3b46256c93badd991a274e56d3b42723c797b66d5a1609ea128ca76",
+      "transitions": [
+        "matching-029",
+        "matching-071",
+        "matching-113"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        }
+      ]
+    },
+    {
+      "case": "matching",
+      "hub_case": [
+        0,
+        2
+      ],
+      "phase_one": true,
+      "original_prefix_audit": {
+        "original_prefix_sha256": "a1c829170c7697d36ab0b7ab4a890844970cf21b8b7a2610d2293375f0655462",
+        "hub_rows": 2,
+        "fixed_rows": 7,
+        "variables": 61590,
+        "rows": 4559
+      },
+      "combined_prefix_sha256": "92f42dfc77a0da43de108e0948b8a6adeb48be5c12cc8dc485a11f1656a0d329",
+      "proto_sha256": "f870136a9e7c3554f9e34e30d69c8833b8c4e56f3e5f8158d4bc70703260317d",
+      "transitions": [
+        "matching-029",
+        "matching-071",
+        "matching-113"
+      ],
+      "damaged_controls": [
+        {
+          "control": "changed original coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed original domain",
+          "rejected": true
+        },
+        {
+          "control": "changed original objective",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed first hub bound",
+          "rejected": true
+        },
+        {
+          "control": "changed second hub bound",
+          "rejected": true
+        },
+        {
+          "control": "missing hub row",
+          "rejected": true
+        },
+        {
+          "control": "extra row",
+          "rejected": true
+        },
+        {
+          "control": "stale fixed coefficient",
+          "rejected": true
+        },
+        {
+          "control": "changed slack domain",
+          "rejected": true
+        },
+        {
+          "control": "changed slack objective",
+          "rejected": true
+        },
+        {
+          "control": "changed slack sign",
+          "rejected": true
+        }
+      ]
+    }
+  ],
+  "transitions": 46,
+  "damaged_controls": 92,
+  "scope": "All eight feasibility/phase-one layouts retain byte-identical original hull prefixes and append exactly two hub equalities and seven fixed rows. No solver calls or infeasibility claims."
+}

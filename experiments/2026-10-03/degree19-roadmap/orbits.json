@@ -1,0 +1,737 @@
+{
+  "source_sha256": "b508cfe8781546a5c005d57375c0d1aa08b472f17a5e7bd1aabf79b32ad70385",
+  "automorphisms_sha256": "bd8dfb84bd5159dac483d65ca42bc18fb28a4e7c62c0f6828ff1912592fd8953",
+  "scope": "Valid full-link automorphism orbits preserve existence; four-class completeness comes from the separately replayed degree19 classification.",
+  "classes": [
+    {
+      "shape": 1,
+      "witness_sha256": "008feb4abfdd4f841b388f60921e202a91c31ac7783cdc1066eac54a82c77912",
+      "automorphism_count": 4,
+      "point_orbits": [
+        [
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12,
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "single19_cases": [
+        {
+          "id": "single19-shape1-high21-2",
+          "degree21_point": 2,
+          "orbit": [
+            2
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-3",
+          "degree21_point": 3,
+          "orbit": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-5",
+          "degree21_point": 5,
+          "orbit": [
+            5
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-6",
+          "degree21_point": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-7",
+          "degree21_point": 7,
+          "orbit": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-9",
+          "degree21_point": 9,
+          "orbit": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-11",
+          "degree21_point": 11,
+          "orbit": [
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "id": "single19-shape1-high21-15",
+          "degree21_point": 15,
+          "orbit": [
+            15,
+            16
+          ]
+        }
+      ],
+      "overlap5_cases": [
+        {
+          "id": "double19-overlap5-shape1-second-3",
+          "second_anchor": 3,
+          "orbit": [
+            3,
+            4
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape1-second-5",
+          "second_anchor": 5,
+          "orbit": [
+            5
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape1-second-6",
+          "second_anchor": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape1-second-7",
+          "second_anchor": 7,
+          "orbit": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape1-second-9",
+          "second_anchor": 9,
+          "orbit": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape1-second-11",
+          "second_anchor": 11,
+          "orbit": [
+            11,
+            12,
+            13,
+            14
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape1-second-15",
+          "second_anchor": 15,
+          "orbit": [
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "shape": 4,
+      "witness_sha256": "747e6e1fb714443883666c1bcdf30243a89d2b9b406ea511130c839d27fa440b",
+      "automorphism_count": 2,
+      "point_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "single19_cases": [
+        {
+          "id": "single19-shape4-high21-2",
+          "degree21_point": 2,
+          "orbit": [
+            2
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-3",
+          "degree21_point": 3,
+          "orbit": [
+            3
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-4",
+          "degree21_point": 4,
+          "orbit": [
+            4
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-5",
+          "degree21_point": 5,
+          "orbit": [
+            5
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-6",
+          "degree21_point": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-7",
+          "degree21_point": 7,
+          "orbit": [
+            7
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-8",
+          "degree21_point": 8,
+          "orbit": [
+            8
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-9",
+          "degree21_point": 9,
+          "orbit": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-10",
+          "degree21_point": 10,
+          "orbit": [
+            10,
+            12
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-13",
+          "degree21_point": 13,
+          "orbit": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "single19-shape4-high21-15",
+          "degree21_point": 15,
+          "orbit": [
+            15,
+            16
+          ]
+        }
+      ],
+      "overlap5_cases": [
+        {
+          "id": "double19-overlap5-shape4-second-3",
+          "second_anchor": 3,
+          "orbit": [
+            3
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-4",
+          "second_anchor": 4,
+          "orbit": [
+            4
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-5",
+          "second_anchor": 5,
+          "orbit": [
+            5
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-6",
+          "second_anchor": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-7",
+          "second_anchor": 7,
+          "orbit": [
+            7
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-8",
+          "second_anchor": 8,
+          "orbit": [
+            8
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-9",
+          "second_anchor": 9,
+          "orbit": [
+            9,
+            11
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-10",
+          "second_anchor": 10,
+          "orbit": [
+            10,
+            12
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-13",
+          "second_anchor": 13,
+          "orbit": [
+            13,
+            14
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape4-second-15",
+          "second_anchor": 15,
+          "orbit": [
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "shape": 44,
+      "witness_sha256": "38da723db275653d9eb260899e16aafb6326c549ab192e1266acabb3b4b83bd8",
+      "automorphism_count": 2,
+      "point_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "single19_cases": [
+        {
+          "id": "single19-shape44-high21-2",
+          "degree21_point": 2,
+          "orbit": [
+            2
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-3",
+          "degree21_point": 3,
+          "orbit": [
+            3
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-4",
+          "degree21_point": 4,
+          "orbit": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-6",
+          "degree21_point": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-7",
+          "degree21_point": 7,
+          "orbit": [
+            7
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-8",
+          "degree21_point": 8,
+          "orbit": [
+            8
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-9",
+          "degree21_point": 9,
+          "orbit": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-11",
+          "degree21_point": 11,
+          "orbit": [
+            11,
+            13
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-12",
+          "degree21_point": 12,
+          "orbit": [
+            12,
+            14
+          ]
+        },
+        {
+          "id": "single19-shape44-high21-15",
+          "degree21_point": 15,
+          "orbit": [
+            15,
+            16
+          ]
+        }
+      ],
+      "overlap5_cases": [
+        {
+          "id": "double19-overlap5-shape44-second-3",
+          "second_anchor": 3,
+          "orbit": [
+            3
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-4",
+          "second_anchor": 4,
+          "orbit": [
+            4,
+            5
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-6",
+          "second_anchor": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-7",
+          "second_anchor": 7,
+          "orbit": [
+            7
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-8",
+          "second_anchor": 8,
+          "orbit": [
+            8
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-9",
+          "second_anchor": 9,
+          "orbit": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-11",
+          "second_anchor": 11,
+          "orbit": [
+            11,
+            13
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-12",
+          "second_anchor": 12,
+          "orbit": [
+            12,
+            14
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape44-second-15",
+          "second_anchor": 15,
+          "orbit": [
+            15,
+            16
+          ]
+        }
+      ]
+    },
+    {
+      "shape": 47,
+      "witness_sha256": "25631a5b2b783bc2963f9927fee464e83e857b39f1d45f6df6cc0b617f4c322d",
+      "automorphism_count": 4,
+      "point_orbits": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          13,
+          14,
+          15,
+          16
+        ]
+      ],
+      "single19_cases": [
+        {
+          "id": "single19-shape47-high21-2",
+          "degree21_point": 2,
+          "orbit": [
+            2
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-3",
+          "degree21_point": 3,
+          "orbit": [
+            3
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-4",
+          "degree21_point": 4,
+          "orbit": [
+            4
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-5",
+          "degree21_point": 5,
+          "orbit": [
+            5
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-6",
+          "degree21_point": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-7",
+          "degree21_point": 7,
+          "orbit": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-9",
+          "degree21_point": 9,
+          "orbit": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-11",
+          "degree21_point": 11,
+          "orbit": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "single19-shape47-high21-13",
+          "degree21_point": 13,
+          "orbit": [
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "overlap5_cases": [
+        {
+          "id": "double19-overlap5-shape47-second-3",
+          "second_anchor": 3,
+          "orbit": [
+            3
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-4",
+          "second_anchor": 4,
+          "orbit": [
+            4
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-5",
+          "second_anchor": 5,
+          "orbit": [
+            5
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-6",
+          "second_anchor": 6,
+          "orbit": [
+            6
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-7",
+          "second_anchor": 7,
+          "orbit": [
+            7,
+            8
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-9",
+          "second_anchor": 9,
+          "orbit": [
+            9,
+            10
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-11",
+          "second_anchor": 11,
+          "orbit": [
+            11,
+            12
+          ]
+        },
+        {
+          "id": "double19-overlap5-shape47-second-13",
+          "second_anchor": 13,
+          "orbit": [
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ]
+    }
+  ],
+  "single19_cases": 38,
+  "overlap5_anchor_cases": 34
+}
