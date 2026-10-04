@@ -1,0 +1,48 @@
+{
+  "certificate_sha256": "5a5880b2f47da5504a903f4b4f9c71d3cdc0e9c8228d047d52297dcbf29d7ecb",
+  "checker_sha256": "a281da3d21849f135d318c752cbad3ceb5bfc58783f918bd84fabf1799a723a5",
+  "damaged_certificates_rejected": [
+    "duplicate_pair",
+    "wrong_carrier",
+    "removed_forced",
+    "inflated_bound",
+    "Boolean_carrier",
+    "wrong_union",
+    "wrong_source_hash"
+  ],
+  "disjoint_pairs": 56,
+  "disjoint_support_blocks": 127,
+  "dual_verifier_receipts": [
+    {
+      "blocks": 64,
+      "dual_verifiers_agree": true,
+      "holes": 9,
+      "path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue-runtime-independent/family-a0a737c4010f68fc.txt",
+      "sha256": "a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc",
+      "valid": false
+    },
+    {
+      "blocks": 64,
+      "dual_verifiers_agree": true,
+      "holes": 10,
+      "path": "experiments/2026-10-04/native-five-core-record-pilot/seed-2026105602/search-final-weak64.txt",
+      "sha256": "85f6e38a537691442cf6097a68b1364a755ac1ba8312d61adfc88c26abb6a90e",
+      "valid": false
+    },
+    {
+      "blocks": 128,
+      "dual_verifiers_agree": true,
+      "holes": 0,
+      "path": "experiments/2026-10-04/h9-h10-union-prescreen/union-128.txt",
+      "sha256": "4d4323a67f9f7cdb002db0fddff10d36d321ba46e3c19e75d22b56735d9ffdb7",
+      "valid": true
+    }
+  ],
+  "forced_blocks": 15,
+  "lower_bound": 71,
+  "optimizer_launches": 0,
+  "package_verifier_sha256": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+  "passed": true,
+  "scope": "At least 71 blocks required within this exact 128-block union; no global bound.",
+  "standalone_verifier_sha256": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950"
+}

@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.32.0
+Version:     v1.33.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      f1c74d8333ad03d406cff355280bc28864e05ed478820705280d6a11c7b614dd
+SHA256:      d1f61e9eb31b1da2eec4f6983dc806817c2a8eb27fc319ff37b29b23e589c2d4
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -12,13 +12,13 @@ License:     All Rights Reserved / Celaya Solutions
 
 # Research continuation
 
-No verified 64-block cover has been found. The latest checked native pilot
-improved the best saved partial satisfying the five named core caps and weak
-pair rules from11 holes to9, with D2max23 and D2sum29. A checked local search
-then kept9 holes and improved D2max to19, with D2sum25. The128-block union of the
-two earlier H11 families was excluded by an independently replayed bound73.
-These are partial-family and restricted-pool results, not a solution or a
-global lower bound.
+No verified64-block cover has been found. The latest checked native pilot
+found a64-block partial with6 holes and maximum triple multiplicity3. This
+certifies escape from every relabeling of each old60-block core, but the
+partial fails the weak pair rules. The best saved family meeting those rules
+and the six named caps remains H9/D2max19. The current public repository
+archive still lists an upper size of65. These are partial-family, finite-search
+and source-check results, not a solution or a global lower bound.
 
 The strongest current first-link
 screen has 109 independently checked exclusions out of 258 cases in the regular
@@ -1132,3 +1132,33 @@ Of the64 original blocks,63 each contain a private triple absent from every one 
 The producer certificate `h9-start-structural-profile/profile.json` has SHA256 `317797810b797e341ce62992334a8816e46e9051d33d41ab60c8078e0ee15d38`. Independent reconstruction checked23 fields, all28 distinct hole masks,4,060 three-mask multisets, all private-triple witnesses and22 damaged controls. Its receipt `h9-start-structural-independent/review.json` has SHA256 `a6ed0173e9e61a700bbe77d3b3599fcdcd34f593f49ef392b2f53721d9cb1c6c`.
 
 A separate finite inventory of the21 queue families finds exactly one satisfying the weak rules, the five earlier named caps and the new named cap59: `a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc`. Fresh counts and both verifiers confirm H9/D2max19/D2sum27, minimum pair count5, D3=D4=0 and six overlaps[1,0,1,1,1,59]. It is five replacements from f5f24. It ties the declared(H,D2max) best; its D2sum27 differs from the representative's25 and is not a ranking tie-break. All21 families have maximum triple multiplicity3. The inventory has SHA256 `de1653eca6de927e511efd316d0893f870e9e8731afc6bd5091a72042c287b55`; its original pending-proof wording is preserved separately from the later completed proof. These six named-image checks do not establish escape from all images of the newer cores.
+
+
+## Current public archive resolves the target listing (October 4)
+
+The site's advertised public whole-archive download answered the direct-page uncertainty from the earlier refresh. At2026-10-04T21:17:36.981055Z, `https://coveringrepository.com/download_archive_vkt.aspx` returned171,741 bytes with SHA256 `f9071fd1b35e2b0ff2f8a4e83a4ecf60c28d25823f4e1f031cd5cd2c26b882a5`. It contains9,490 unique records; line395 is `16\t05\t03\t03\t\t65`. Thus the current public archive lists an upper size of65 for C(16,5,3). All100 records from the previously fetched recent ordinary table match this archive, including October4 improvements. This confirms a current target listing, not a new lower bound, dated attribution, proof of optimality or claim that every unlisted result is absent. The supplemental receipt `current-repository-target-followup/source-checks.json` has SHA256 `ed0849813e9c34cb8cfc994c99f268712d33305d3787e2a061bdb6cc360c3175`.
+
+## Pair-deficit and balanced-cut diagnostics (October 4)
+
+The separate note `docs/zero-d2-counting-consequences.md` proves that zero stronger-pair deficit forces every multiplicity-five pair to extend to all14 third points with counts(2,1,...,1). Any hole must therefore use three pairs of multiplicity at least6. Exact64 has total pair excess40, and a replication19 point has incident excess1, so its link is fully covered. This does not prove that global zero D2 implies full coverage; every candidate still needs the ordinary full coverage check.
+
+For every balanced8+8 partition, a five-block's internal triple count equals1.5 times its internal pair count minus5. A full64 cover therefore needs at least288 internal pair incidences, or at most32 crossing units in the weighted excess-pair graph above the pair floor5. This extends the existing simple regular-graph cut check without assuming regularity. A fresh finite scan of all6,435 complement-paired bisections finds maximum crossing excess28 for a0a737 and30 for85f6, so neither start violates this necessary condition. The independent profile `balanced-cut-start-profile-independent/profile.json` has SHA256 `b341f6e89dcb9d81bb8411c3f83590b988aa97229b04ab1251db7aaf2547d10b`. No optimizer was used for these diagnostics.
+
+
+## Reused native search finds a six-hole structural escape (October 4)
+
+Two independently gated300-second starts reused the frozen five-core native binary and base driver without a rebuild or live-policy change. Seed2026105901 started from a0a737 H9/D2max19; seed2026105902 started from85f6 H10/D2max22. Both preserve the complete Belic65 incumbent separately. The sixth named cap59 is postclassification of saved exact64 families only; both initial eligible fallbacks remain available. The frozen manifest has SHA256 `13b26e00b3743ad33cbd94553079d1bb60b6fdf43b5f2bc79dd8ceab1c3f9241`, and the focused independent GO has SHA256 `a8eb72f6a5f5d0fcee63d302ffaa2dd47fa8db270a9d76003eaa2312bfdd88e2`.
+
+Both calls ended normally with no cover, watchdog or retry. Elapsed times were300.00744404201396 and300.0049812500365 seconds. The weak-qualified records remained the two starts, so the declared(H,D2max) rank did not improve. The raw and five-cap records reached H6 and H8. They fail the weak pair conditions and must remain distinct from the qualified H9 result. The unchanged five-cap recorder may suppress other six-cap-eligible live states; this experiment does not identify the best six-cap state over the whole walk.
+
+The first raw result is `native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt`, SHA256 `2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855`. Both covering verifiers and direct counts confirm64 distinct blocks,6 holes, covered triple multiplicities1:476,2:70,3:8, and pair multiplicities4:3,5:78,6:36,7:2,8:1. Its actual D2max14, D2sum498, D3=80 and D4=72 explain why the weak bucket rejects it. Named overlaps are[0,2,2,1,0,0]. Since maximum triple multiplicity is3, the independently replayed five-disjoint-heavy-support argument bounds overlap by45 with every relabeling of each old60-block core. This does not cover all relabelings of the newer cores.
+
+Among the pinned historical inventory, prior native results and H9 queue, an H5 raw family already passed the named caps, so H6 is not a new raw named-cap record. However, the best earlier saved family certified by the all-relabel heavy-support argument to have overlap at most55 with every old core image had8 holes. H6 improves that explicitly checked inventory class to6. It remains a partial family, not a new covering design. The separate first-run audit has SHA256 `5c3e29456812491ac13e2dacdf1352848c141cc2722fc6fc24acfe53ce10a4f0`.
+
+The final independent audit checked10 distinct families across28 references, both initial fallbacks,64 logged mutations,24 damaged trace controls, source/budget/bucket bindings and the saved sixth-cap classification. Exactly two saved families qualify under the weak rules and all six named caps, both unchanged starts. The producer result has SHA256 `59f4d29bc851c1d56a4fa7b881d68643f7442fd0b6e0fab43e46668a97e570d9`; `native-h9-h10-reuse-runtime-independent/postcheck.json` has SHA256 `d3c7b5a61d8c689b0299030a83247480537f741e2161570a2fe698259a9b358a`; saved classification SHA256 is `774797ec188abf3e0d86650c09c3278c8ae4e010a3aaeeee6258551fe0d3f2b2`.
+
+## The next two-start union is also too small a pool (October 4)
+
+The a0a737 and85f6 starts share no blocks, and their128-block union covers all560 triples. A finite support certificate forces15 columns through singleton supports, then identifies56 further pairwise disjoint two-column supports, all disjoint from the forced columns. Summing those71 covering rows proves that every cover restricted to this exact pool needs at least71 blocks. No model, LP or covering solver was needed. This neither proves71 is attainable in the pool nor limits the unrestricted problem.
+
+The certificate `h9-h10-union-prescreen/certificate.json` has SHA256 `5a5880b2f47da5504a903f4b4f9c71d3cdc0e9c8228d047d52297dcbf29d7ecb`. A separate replay rejected seven damaged certificates and checked both source families with both verifiers; its receipt has SHA256 `1fad82c0da1ba17189a1737f1cef4a883b0880c1b921b4b69590a955674c2009`. Root reconstructed every triple support and all127 distinct support columns independently; `root-replay.json` has SHA256 `0b843686d80305275f8988f7a3339222b8f6cb4264a36766a006d88abf95e5cf`. An eight-column augmentation is only a proposal; its feasibility has not been tested.

@@ -1,0 +1,137 @@
+{
+  "block_type_identities": [
+    {
+      "left_block_points": 0,
+      "pairs": 10,
+      "triples": 10
+    },
+    {
+      "left_block_points": 1,
+      "pairs": 6,
+      "triples": 4
+    },
+    {
+      "left_block_points": 2,
+      "pairs": 4,
+      "triples": 1
+    },
+    {
+      "left_block_points": 3,
+      "pairs": 4,
+      "triples": 1
+    },
+    {
+      "left_block_points": 4,
+      "pairs": 6,
+      "triples": 4
+    },
+    {
+      "left_block_points": 5,
+      "pairs": 10,
+      "triples": 10
+    }
+  ],
+  "existing_simple_regular_case": "scripts/check_independent_clebsch.py:99-125",
+  "families": [
+    {
+      "bisections": 6435,
+      "cut_histogram": {
+        "12": 7,
+        "14": 38,
+        "16": 258,
+        "18": 787,
+        "20": 1641,
+        "22": 2078,
+        "24": 1249,
+        "26": 349,
+        "28": 28
+      },
+      "first_maximum": {
+        "cut_weight": 28,
+        "left": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          10,
+          11,
+          14
+        ],
+        "right": [
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          15,
+          16
+        ],
+        "same_half_holes": 3,
+        "same_half_repeated_excess": 9
+      },
+      "holes": 9,
+      "maximizing_bisections": 28,
+      "maximum_cut": 28,
+      "pair_excess_total": 40,
+      "pair_floor": 5,
+      "path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue-runtime-independent/family-a0a737c4010f68fc.txt",
+      "sha256": "a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc",
+      "violations_of_full_cover_necessary_bound": 0
+    },
+    {
+      "bisections": 6435,
+      "cut_histogram": {
+        "10": 5,
+        "12": 27,
+        "14": 118,
+        "16": 403,
+        "18": 902,
+        "20": 1398,
+        "22": 1595,
+        "24": 1244,
+        "26": 575,
+        "28": 163,
+        "30": 5
+      },
+      "first_maximum": {
+        "cut_weight": 30,
+        "left": [
+          1,
+          2,
+          3,
+          4,
+          8,
+          11,
+          12,
+          16
+        ],
+        "right": [
+          5,
+          6,
+          7,
+          9,
+          10,
+          13,
+          14,
+          15
+        ],
+        "same_half_holes": 3,
+        "same_half_repeated_excess": 6
+      },
+      "holes": 10,
+      "maximizing_bisections": 5,
+      "maximum_cut": 30,
+      "pair_excess_total": 40,
+      "pair_floor": 5,
+      "path": "experiments/2026-10-04/native-five-core-record-pilot/seed-2026105602/search-final-weak64.txt",
+      "sha256": "85f6e38a537691442cf6097a68b1364a755ac1ba8312d61adfc88c26abb6a90e",
+      "violations_of_full_cover_necessary_bound": 0
+    }
+  ],
+  "full_cover_necessary_bound": 32,
+  "optimizer_launches": 0,
+  "passed": true,
+  "scope": "Weighted pair excess, no regularity assumption; necessary only. Neither start excluded."
+}

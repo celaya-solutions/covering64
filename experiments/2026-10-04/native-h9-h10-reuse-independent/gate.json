@@ -1,0 +1,43 @@
+{
+  "base_runner_sha256": "c0052cbf52dc40eb3547d40df7c619e8187698e932541180d7101a3133f03ba3",
+  "best_six_cap_state_in_live_walk_claim": false,
+  "binary_sha256": "079eaf578f1e7b29c4408185e77953b4d337d722e428e12b7c653392e1c2163c",
+  "budget": {
+    "max_runs": 2,
+    "relaunch": false,
+    "seconds_per_run": 300,
+    "seeds": [
+      2026105901,
+      2026105902
+    ],
+    "simultaneous_processes": 1,
+    "stop_after_first_complete_at_most_64": true,
+    "termination_grace_seconds": 5,
+    "unused_budget_reallocated": false,
+    "watchdog_seconds": 315
+  },
+  "complete_bucket_unconditional_dual_validation_inherited": true,
+  "decision": "GO",
+  "independent_check_path": "experiments/2026-10-04/native-h9-h10-reuse-independent/check.py",
+  "independent_check_sha256": "036d01aec8321ca7aa22063c8c274d306ffd1e611535328bf1dc5a5c53d045a8",
+  "independent_checks_path": "experiments/2026-10-04/native-h9-h10-reuse-independent/checks.json",
+  "independent_checks_sha256": "5525cdfbb8bb9388e85a990dd0d866c875cc0223d58ba5b69affcef463106855",
+  "inherited_gate_sha256": "10477409a380ff6fc6a912b6349c7e8e418dcc8b3afab84fe3fab0f5f8eb0e59",
+  "initial_fallbacks_preserved_independently_of_launch_count": true,
+  "initial_sha256s": [
+    "a0a737c4010f68fcd5bfba8ccc7c20b4b8d9f06a96bb0086c7a63dbfc43f5ecc",
+    "85f6e38a537691442cf6097a68b1364a755ac1ba8312d61adfc88c26abb6a90e"
+  ],
+  "launch_authority": "Root only: one campaign, two sequential runs at most, no retry, restart, budget transfer, or extension.",
+  "manifest_sha256": "13b26e00b3743ad33cbd94553079d1bb60b6fdf43b5f2bc79dd8ceab1c3f9241",
+  "native_process_launches": 0,
+  "native_record_policy_unchanged": true,
+  "optimizer_launches": 0,
+  "passed": true,
+  "reviewed_at_utc": "2026-10-04T21:14:39.185959+00:00",
+  "runner_sha256": "b8e056e81204523ab91bef179d66304ce5642ce196999ef43012c77ffd664f32",
+  "scope": "Frozen five-cap native search and dual validator reused unchanged. Sixth-cap classification applies only to saved exact64 records; both prequalified input fallbacks are preserved separately and do not count as native saved references.",
+  "sixth_cap_proof_review_sha256": "a6ed0173e9e61a700bbe77d3b3599fcdcd34f593f49ef392b2f53721d9cb1c6c",
+  "sixth_cap_saved_exact64_only": true,
+  "starts_receipt_sha256": "5ffc16c887a338c8eff63cf38709257b2d9b785baa404920964e5f1d105f46c0"
+}

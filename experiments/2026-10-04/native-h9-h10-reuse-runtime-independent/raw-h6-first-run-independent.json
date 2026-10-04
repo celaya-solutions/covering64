@@ -1,0 +1,241 @@
+{
+  "heavy_triples_ge6": [],
+  "historical_comparison": {
+    "all_relabel_old_four_bound55": {
+      "best_sha256s": [
+        "7929bbae102405aec915c4d7b01a0d95c895234980da2c3f70ef1cedefb90db3"
+      ],
+      "families": 75,
+      "minimum_holes": 8
+    },
+    "five_named": {
+      "best_sha256s": [
+        "9dbfcbb4cfb7163fafda777c84fc18ffd5bdfd2a6d11d81fd6eb31c92a833809"
+      ],
+      "families": 88,
+      "minimum_holes": 5
+    },
+    "four_named": {
+      "best_sha256s": [
+        "9dbfcbb4cfb7163fafda777c84fc18ffd5bdfd2a6d11d81fd6eb31c92a833809"
+      ],
+      "families": 117,
+      "minimum_holes": 5
+    }
+  },
+  "historical_exact64_distinct_families": 248,
+  "historical_receipts": [
+    {
+      "family_count": 205,
+      "path": "experiments/2026-10-04/h11-common-core-saved-inventory-independent/inventory.json",
+      "sha256": "720e1856a16aaf32b3fbf456a37e644d626a849aa0ae5e3bd7b989bd6680cece"
+    },
+    {
+      "family_count": 27,
+      "path": "experiments/2026-10-04/native-five-core-record-runtime-independent/postcheck.json",
+      "sha256": "5d79cdfc0820086e14281538398506c674ce9ecb241e1b3b3739b7aabb067862"
+    },
+    {
+      "family_count": 21,
+      "path": "experiments/2026-10-04/weak-pair-h9-d23-neutral-queue-runtime-independent/postcheck.json",
+      "sha256": "89142fc4522bf21bbf4c34dd06a855113474b54d73b6f793250d207d72ec47f6"
+    }
+  ],
+  "maximum_triple_multiplicity": 3,
+  "metrics": {
+    "D2max": 14,
+    "D2sum": 498,
+    "D3": 80,
+    "D4": 72,
+    "core_overlaps": [
+      0,
+      2,
+      2,
+      1
+    ],
+    "holes": 6,
+    "minimum_pair_count": 4
+  },
+  "missing_triples": [
+    [
+      1,
+      7,
+      10
+    ],
+    [
+      4,
+      5,
+      6
+    ],
+    [
+      4,
+      6,
+      9
+    ],
+    [
+      4,
+      10,
+      12
+    ],
+    [
+      5,
+      6,
+      9
+    ],
+    [
+      5,
+      10,
+      12
+    ]
+  ],
+  "named_overlaps": [
+    0,
+    2,
+    2,
+    1,
+    0,
+    0
+  ],
+  "old_core_all_relabel_proofs": [
+    {
+      "carrier_sets_disjoint": true,
+      "heavy_triples": [
+        [
+          1,
+          3,
+          6
+        ],
+        [
+          2,
+          14,
+          15
+        ],
+        [
+          4,
+          8,
+          10
+        ],
+        [
+          5,
+          13,
+          16
+        ],
+        [
+          9,
+          11,
+          12
+        ]
+      ],
+      "index": 0,
+      "maximum_overlap_every_relabeling": 45
+    },
+    {
+      "carrier_sets_disjoint": true,
+      "heavy_triples": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          5,
+          6,
+          7
+        ],
+        [
+          13,
+          14,
+          15
+        ]
+      ],
+      "index": 1,
+      "maximum_overlap_every_relabeling": 45
+    },
+    {
+      "carrier_sets_disjoint": true,
+      "heavy_triples": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          5,
+          6,
+          7
+        ],
+        [
+          13,
+          14,
+          15
+        ],
+        [
+          8,
+          12,
+          16
+        ],
+        [
+          9,
+          10,
+          11
+        ]
+      ],
+      "index": 2,
+      "maximum_overlap_every_relabeling": 45
+    },
+    {
+      "carrier_sets_disjoint": true,
+      "heavy_triples": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4,
+          7,
+          12
+        ],
+        [
+          5,
+          8,
+          11
+        ],
+        [
+          10,
+          14,
+          15
+        ],
+        [
+          9,
+          13,
+          16
+        ]
+      ],
+      "index": 3,
+      "maximum_overlap_every_relabeling": 45
+    }
+  ],
+  "optimizer_launches": 0,
+  "package_valid": false,
+  "passed": true,
+  "path": "experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+  "scope": "First-run raw64 saved family; independently counted, not weak-qualified. Comparison limited to three pinned pre-pilot inventories. Old-core all-relabel bound proven from disjoint heavy supports, not claimed for later fifth/sixth cores.",
+  "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+  "standalone_valid": false,
+  "triple_histogram": {
+    "1": 476,
+    "2": 70,
+    "3": 8
+  }
+}

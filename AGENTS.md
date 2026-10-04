@@ -4,7 +4,7 @@ Version:     v1.0.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      f9c9c2bb0aa17ef4a14e448a4870376570333023db4715dce7c15f88ee004b52
+SHA256:      24511cfd1f570700bb0fb21164f1d1e7f79e34277a44b79121592f7ed25f4c36
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,9 +78,9 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit1477bb9 saves the checked H9 partial, completed construction trials, common-core cap and independently replayed73-block union bound.
+Commit 9f34828 saves the checked H9 deficit improvement, radius-four obstruction and six-cap start inventory.
 The H9 queue finished8 centers/16 shells, improving D2max23 to19 with9 holes; no cover. A checked radius-four obstruction around f5f24 gives its exact64 overlap cap59. The sole saved six-cap/weak-qualified tie is a0a737 (H9/D2max19/D2sum27); the old representative e2a004 has D2sum25 but fails the sixth cap. See the continued report and independent receipts.
-Next: two fresh native starts are in preparation, with the sixth cap classifying saved records only. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
+The two fresh native starts finished normally with no cover or qualified-rank gain. Raw H6 escapes every old-core relabel by the checked heavy-support bound but fails pair floors; its focused pair repair is under finite review. The current public archive lists65. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 
