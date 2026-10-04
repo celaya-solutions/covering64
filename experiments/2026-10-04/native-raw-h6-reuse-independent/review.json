@@ -1,0 +1,699 @@
+{
+  "budget": {
+    "max_runs": 1,
+    "relaunch": false,
+    "seconds_per_run": 300,
+    "seeds": [
+      2026106101
+    ],
+    "simultaneous_processes": 1,
+    "stop_after_first_complete_at_most_64": true,
+    "termination_grace_seconds": 5,
+    "unused_budget_reallocated": false,
+    "watchdog_seconds": 315
+  },
+  "checker_sha256": "bbd2c07847571345f1f78bd367f8cc5dd03cdd52fcbb4ea966692b33855f784b",
+  "classifier_cases": [
+    {
+      "name": "no_weak",
+      "passed": true,
+      "synthetic_metadata_only": true
+    },
+    {
+      "name": "later_first_weak",
+      "passed": true,
+      "synthetic_metadata_only": true
+    }
+  ],
+  "control_replays": [
+    {
+      "initial_roles": [
+        "complete",
+        "raw64",
+        "admissible64"
+      ],
+      "steps": 0,
+      "terminal": {
+        "action_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "admissible64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "complete": {
+          "cardinality": 65,
+          "core_overlaps": [
+            60,
+            0,
+            1,
+            1,
+            1
+          ],
+          "holes": 0
+        },
+        "current": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "event": "finished",
+        "fallbacks": 0,
+        "iterations": 0,
+        "max_cardinality": 64,
+        "max_weight": 1,
+        "min_cardinality": 64,
+        "mutations": 0,
+        "novelties": 0,
+        "raw64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "seconds": 0.00130775,
+        "weak64": null,
+        "weak_D2max": null,
+        "weight_updates": 0
+      },
+      "weak_initial_and_final_absent": true
+    },
+    {
+      "initial_roles": [
+        "complete",
+        "raw64",
+        "admissible64"
+      ],
+      "steps": 8,
+      "terminal": {
+        "action_counts": [
+          0,
+          0,
+          0,
+          3,
+          3,
+          2
+        ],
+        "admissible64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "complete": {
+          "cardinality": 65,
+          "core_overlaps": [
+            60,
+            0,
+            1,
+            1,
+            1
+          ],
+          "holes": 0
+        },
+        "current": {
+          "cardinality": 63,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 14
+        },
+        "event": "finished",
+        "fallbacks": 4,
+        "iterations": 8,
+        "max_cardinality": 64,
+        "max_weight": 4,
+        "min_cardinality": 62,
+        "mutations": 13,
+        "novelties": 0,
+        "raw64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "seconds": 0.00101037,
+        "weak64": null,
+        "weak_D2max": null,
+        "weight_updates": 3
+      },
+      "weak_initial_and_final_absent": true
+    }
+  ],
+  "initial": {
+    "classification": {
+      "D2max": 14,
+      "D2sum": 498,
+      "D3": 80,
+      "D4": 72,
+      "cardinality": 64,
+      "holes": 6,
+      "minimum_pair_count": 4,
+      "pair_histogram": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "six_named_caps_apply": true,
+      "six_named_caps_pass": true,
+      "six_named_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "triple_histogram": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "weak_qualified": false,
+      "weak_six_cap_qualified": false
+    },
+    "ids": [
+      64,
+      85,
+      218,
+      277,
+      279,
+      287,
+      383,
+      454,
+      544,
+      551,
+      625,
+      664,
+      803,
+      817,
+      899,
+      988,
+      1039,
+      1058,
+      1158,
+      1267,
+      1361,
+      1424,
+      1431,
+      1532,
+      1613,
+      1689,
+      1720,
+      1760,
+      1958,
+      2017,
+      2102,
+      2145,
+      2210,
+      2287,
+      2348,
+      2400,
+      2496,
+      2504,
+      2706,
+      2746,
+      2811,
+      2815,
+      2842,
+      2887,
+      3054,
+      3132,
+      3171,
+      3209,
+      3266,
+      3346,
+      3539,
+      3564,
+      3625,
+      3692,
+      3727,
+      3766,
+      3947,
+      3994,
+      4075,
+      4166,
+      4212,
+      4261,
+      4296,
+      4315
+    ],
+    "metrics": {
+      "cardinality": 64,
+      "core_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "holes": 6
+    },
+    "package": {
+      "blocks": 64,
+      "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "covered": 554,
+      "k": 5,
+      "multiplicities": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "pair_multiplicities": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "replication": {
+        "1": 21,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 19,
+        "6": 19,
+        "7": 21,
+        "8": 20,
+        "9": 20,
+        "10": 21,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "covered_subsets": 554,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 21,
+        "10": 21,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 19,
+        "6": 19,
+        "7": 21,
+        "8": 20,
+        "9": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "uncovered_count": 6,
+      "valid": false
+    }
+  },
+  "manifest_sha256": "6d497a1b7081c1891ea61de71103254c2b439474abe5c58780080f743f487712",
+  "passed": true,
+  "pins_verified": 138,
+  "real_native_launches": 0,
+  "scope": "Raw H6 remains weak-ineligible. Initial weak bucket and best saved weak family may be absent; later first weak record is allowed. Complete65 is separate. Sixth cap only postclassifies saved exact64 records. Frozen live walk, weights, RNG, objective, and five-cap policy remain unchanged.",
+  "separate_complete65": {
+    "classification": null,
+    "ids": [
+      1,
+      83,
+      247,
+      313,
+      360,
+      434,
+      492,
+      500,
+      505,
+      512,
+      523,
+      785,
+      786,
+      860,
+      927,
+      975,
+      1007,
+      1205,
+      1283,
+      1312,
+      1443,
+      1581,
+      1601,
+      1650,
+      1762,
+      1799,
+      1864,
+      1880,
+      1913,
+      2028,
+      2061,
+      2126,
+      2236,
+      2258,
+      2338,
+      2398,
+      2417,
+      2489,
+      2510,
+      2686,
+      2877,
+      2946,
+      3020,
+      3055,
+      3085,
+      3172,
+      3289,
+      3329,
+      3351,
+      3366,
+      3400,
+      3481,
+      3524,
+      3672,
+      3712,
+      3778,
+      3836,
+      3869,
+      3898,
+      3928,
+      3938,
+      4041,
+      4062,
+      4221,
+      4257
+    ],
+    "metrics": {
+      "cardinality": 65,
+      "core_overlaps": [
+        60,
+        0,
+        1,
+        1,
+        1
+      ],
+      "holes": 0
+    },
+    "package": {
+      "blocks": 65,
+      "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "covered": 560,
+      "k": 5,
+      "multiplicities": {
+        "1": 497,
+        "2": 56,
+        "3": 2,
+        "7": 5
+      },
+      "pair_multiplicities": {
+        "5": 88,
+        "6": 14,
+        "7": 18
+      },
+      "replication": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 21,
+        "14": 20,
+        "15": 22,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 650,
+      "triples": 560,
+      "uncovered": [],
+      "v": 16,
+      "valid": true
+    },
+    "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+    "standalone": {
+      "blocks": 65,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "1": 497,
+        "2": 56,
+        "3": 2,
+        "7": 5
+      },
+      "covered_subsets": 560,
+      "covers_all_subsets": true,
+      "expected_blocks": 65,
+      "expected_subset_incidences": 650,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 21,
+        "14": 20,
+        "15": 22,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 21,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21
+      },
+      "required_subsets": 560,
+      "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "total_subset_incidences": 650,
+      "uncovered": [],
+      "uncovered_count": 0,
+      "valid": true
+    }
+  },
+  "watchdog_controls": [
+    {
+      "case": "normal",
+      "events": [
+        [
+          "communicate",
+          315
+        ]
+      ]
+    },
+    {
+      "case": "terminate",
+      "events": [
+        [
+          "communicate",
+          315
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "communicate",
+          5
+        ]
+      ]
+    },
+    {
+      "case": "kill",
+      "events": [
+        [
+          "communicate",
+          315
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "communicate",
+          5
+        ],
+        [
+          "kill"
+        ],
+        [
+          "communicate",
+          null
+        ]
+      ]
+    }
+  ]
+}

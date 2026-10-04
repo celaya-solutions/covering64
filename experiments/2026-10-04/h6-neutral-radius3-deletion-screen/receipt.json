@@ -1,0 +1,185 @@
+{
+  "binary_sha256": "c9a9a595dab6b8c2e56f503057f166d17f7ec31d206d2b2059deb3ea79b03164",
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/screen",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/deletions.tsv"
+  ],
+  "compile_command": [
+    "clang++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/h6-neutral-radius3-deletion-screen/screen.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/screen"
+  ],
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "controls_rejected": [
+    "duplicate",
+    "short",
+    "extra-label",
+    "malformed",
+    "label-range",
+    "order"
+  ],
+  "driver_sha256": "af7296d7c2877e1b69379ca7c2959e8938b9e86587a60cc52e521aa99654ae92",
+  "input_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+  "internal_seconds": 28,
+  "optimizer_calls": 0,
+  "production_screen_calls": 1,
+  "raw_files": {
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/compile-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/compile-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/compiler-version.txt": "2469ba9f244482376ca617ec02f3952d579ced096f9e4b407dee65eddb0dbca8",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/deletions.tsv": "119eb4437395607a453ab95e24986e96e7d23b5d8966721e4e610adaeea3caec",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/invalid-duplicate.txt": "655a6ab0bfbac944174382916038bc811a6b5b3e324b9bb383c91dd46da1057e",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/invalid-extra-label.txt": "086c17c9981f4fea6bb4f0a412e20eca027791744e9d8339f3940555729a35d8",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/invalid-label-range.txt": "58efd208a76925ca9f2d0eccc9dec9b34afa07d463d1832f98a4fad8ada9cc0c",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/invalid-malformed.txt": "7e7b4d85cafa5f52f84bb8e3861848768be5f542ea919a621b406b49d7e29e57",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/invalid-order.txt": "db756a7c0384f70ea9e4bf6616f6b2a99cde37bbd62b7afdc4083d9a238f2c1d",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/invalid-short.txt": "7a29e7ad006e5e67cb51d75fb4178877c19c34b3bd1aa479147b52ef8708b6e6",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/screen": "c9a9a595dab6b8c2e56f503057f166d17f7ec31d206d2b2059deb3ea79b03164",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/h6-neutral-radius3-deletion-screen-20261004/stdout.json": "4c88e9abf3a67d6c5a06179f75edddcc6bdc6d2bd4ca2fd654909934ec13c4d1"
+  },
+  "replacement_tuples_enumerated": 0,
+  "returncode": 0,
+  "scope": "Deletion-only coverage workload for exact replacement distances1,2,3 from the pinned rawH6 family, targetH<=6. No pair/weak/core restrictions. No replacement tuple enumeration or full-search preparation/launch.",
+  "source_revision": "614ab2a22f503efc5df9a3b3d2fa821e2f12f63d",
+  "source_sha256": "d3c4632756418f16f7c906a041533df242eb1507982120d992ea1ebf7029a171",
+  "summary": {
+    "complete": true,
+    "replacement_tuples_enumerated": 0,
+    "seconds": 0.363421,
+    "shells": [
+      {
+        "complete": true,
+        "deletions": 64,
+        "distance": 1,
+        "excluded": 63,
+        "floor_histogram": {
+          "5": 1
+        },
+        "maximum_pool": 3,
+        "minimum_pool": 3,
+        "necessary_tuples": 3,
+        "pool_histogram": {
+          "3": 1
+        },
+        "residual_hole_histogram": {
+          "10": 4,
+          "11": 3,
+          "12": 12,
+          "13": 11,
+          "14": 16,
+          "15": 12,
+          "16": 6
+        },
+        "survivors": 1
+      },
+      {
+        "complete": true,
+        "deletions": 2016,
+        "distance": 2,
+        "excluded": 2002,
+        "floor_histogram": {
+          "4": 4,
+          "5": 6,
+          "6": 4
+        },
+        "maximum_pool": 23,
+        "minimum_pool": 2,
+        "necessary_tuples": 1043,
+        "pool_histogram": {
+          "2": 6,
+          "23": 4,
+          "3": 1,
+          "4": 2,
+          "5": 1
+        },
+        "residual_hole_histogram": {
+          "14": 4,
+          "15": 12,
+          "16": 50,
+          "17": 75,
+          "18": 154,
+          "19": 229,
+          "20": 319,
+          "21": 334,
+          "22": 323,
+          "23": 267,
+          "24": 161,
+          "25": 73,
+          "26": 15
+        },
+        "survivors": 14
+      },
+      {
+        "complete": true,
+        "deletions": 41664,
+        "distance": 3,
+        "excluded": 41311,
+        "floor_histogram": {
+          "3": 8,
+          "4": 25,
+          "5": 192,
+          "6": 111,
+          "7": 17
+        },
+        "maximum_pool": 50,
+        "minimum_pool": 3,
+        "necessary_tuples": 185917,
+        "pool_histogram": {
+          "10": 4,
+          "11": 4,
+          "12": 4,
+          "13": 6,
+          "14": 6,
+          "16": 1,
+          "17": 2,
+          "20": 2,
+          "23": 4,
+          "25": 8,
+          "3": 88,
+          "31": 4,
+          "33": 8,
+          "34": 1,
+          "4": 71,
+          "5": 45,
+          "50": 4,
+          "6": 28,
+          "7": 29,
+          "8": 34
+        },
+        "residual_hole_histogram": {
+          "19": 12,
+          "20": 56,
+          "21": 178,
+          "22": 421,
+          "23": 921,
+          "24": 1727,
+          "25": 2637,
+          "26": 3930,
+          "27": 5058,
+          "28": 5842,
+          "29": 6036,
+          "30": 5347,
+          "31": 4203,
+          "32": 2853,
+          "33": 1597,
+          "34": 640,
+          "35": 186,
+          "36": 20
+        },
+        "survivors": 353
+      }
+    ],
+    "target_holes": 6
+  },
+  "wall_seconds": 0.36657583399210125,
+  "watchdog_fired": false,
+  "watchdog_seconds": 30
+}

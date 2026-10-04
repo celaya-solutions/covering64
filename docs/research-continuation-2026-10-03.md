@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.34.0
+Version:     v1.35.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      eb2f24c43bc45967d430c9a9d882e096667c2de479fb09355cb26df17cdbf85f
+SHA256:      a5558cc0e33564d969bc71e9157581e09ea7c8493f13df28d9132c8e9fcb3114
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1191,3 +1191,54 @@ All six holes of2d018f meet the pivot pair(6,10). The new local model fixes ever
 The audited model has4,928 variables and1,242 rows: exact64,560 two-way hole indicators,120 pair-floor-five rows, a hole ceiling6 and an objective minimizing holes. It adds no D2/D3/D4, named-core or degree-profile restrictions. The complete initial H6 hint is intentionally infeasible only on pair rows1164,1175,1221, for pairs(4,6),(5,6),(10,12). It is never treated as a feasible incumbent. The manifest has SHA256 `29014890a28ed880861ced497d635d8d0ec75b6b5e815cac2e068ac0c2dc60dc`; the independent GO has SHA256 `7e52c187e94ee9a5761e65fbe5912230cbf00f7cd2048df49b0f5adb7a7000aa`. Review checked every domain/row, the exact objective/hint,16 damaged models and three mocked watchdog paths.
 
 The sole120-second/four-worker call, seed2026106001, returned UNKNOWN with zero callbacks, final vectors or saved families. Native time was120.01227200000001 seconds; wrapper elapsed120.39716295793187. The process exited normally with no watchdog, retry or budget transfer. The reported objective field6.0 is not a feasible solution. The producer result has SHA256 `3add8432ae877dc87f8d24292fbb81df9bf986dd4c0b1184a6410a7c0352a537`; `h6-two-point-star-repair-runtime-independent/postcheck.json` has SHA256 `d86f6d098e29f3d8b06061ea770eedf3ec4841296ff40f70af18ddac65be92f1`. Independent runtime checks confirmed raw/proto/source/parameter bindings, all empty solution fields, the infeasible initial hint and seven malformed vector/flag controls. This timeout excludes neither this neighborhood nor an unrestricted64-block cover.
+
+
+## Exact four-block coverage repair (October 4)
+
+The next deletion-only screen completed all635,376 four-block removal sets in1.42649 native seconds. The top-four bound rejected633,208 sets, leaving2,168. The necessary adder pools range from4 to364 and contain3,697,940,975 unordered addition quadruples before further bounds. Four pools of size364 alone account for2,877,879,004. No replacement tuple was examined in this screen. Its receipt has SHA256 `d9b9ff8db84089e8f32201e4e826d298ec5c67f1c1bbc323058b1f89adb13107`.
+
+An independent native recount rebuilt all4,304 adder scores from the original triple-owner masks at every deletion, finishing all635,376 sets in5.34796 seconds and matching every aggregate. Separate Python replay checked every uncovered-set row, all2,168 surviving pools and127 excluded cases. The independent audit has SHA256 `c3dfd94222cf4b2c12b2233c3959fe12e76fdb9672458a8bb9bf3d7ac0bd96b1`; its native receipt has SHA256 `6f5c775a78ace4b39974ea3ff6085ed6d8b0ea4a4b2da5628ba283b0359e0a2b`. This confirms workload and safe screen data, not feasibility.
+
+A separate exact-distance-four enumerator adds a stronger bound at each ordered addition prefix. It recomputes each remaining adder's gain into the currently uncovered residual; the sum of the largest remaining gains still overestimates any completion. The associated necessary individual-gain floor also preserves every successful tuple. Every full block keeps its identity even when two blocks have equal masks. Pair, deficit, degree and core metrics remain postclassification only. Independent complete-family enumeration of the saved v7 controls agrees on1,554,0 and43 candidates, using a different traversal from the producer's drop/add oracle.
+
+Root checked all180 pins and launched one59-second-internal/60-second-watchdog call under gate `57dbbdc7d8cf7eb51cf8df6a9bea8d59c4f5642d9ef71ef1ed2d41c6b10fc4c5`, bound to manifest `05d72d833e4005aad2b06af0bc4064bd03fac53a2c3030009f2665efd9c77111` and independent review `f7b737199d0cc3fd373668f7f792cd560f2fed5e97fd87810da0f033e60112c6`. It completed all635,376 deletions, with633,208 top-four exclusions,31,516 prefix nodes,28,021 prefix exclusions and1,047,902 residual-gain evaluations. Every branch was excluded before a full four-adder leaf; no candidate or cover was found. Native time was5.0625 seconds; wrapper elapsed5.066140750073828, with no watchdog.
+
+The result `h6-strict-hole-radius4-prefix-pilot/result.json` has SHA256 `88690b98d6bafba7955139e5f059a2ff0a6433301b9acd184e33318b0adcadb6`. Independent runtime audit `h6-radius4-runtime-independent/audit.json` has SHA256 `f40fc017b296c70dfbe9fdc0095ab788bb8f572e205d109d2aa6bcce5f615b1f`; it checks frozen bindings, saved counters and complete deletion accounting without rerunning the search. This run alone covers exact distance4. Together with the separate completed distance1–3 run, it excludes improvement below6 holes through four replacements of the same pinned H6 family. Equal-hole moves, more distant repairs and unrestricted existence remain open.
+
+## Feasible-hint star continuation (October 4)
+
+The warm continuation retains the earlier fixed memberships, domains and all other rows. It raises the hole ceiling from6 to9, changes13 hint values to the known pair-floor-five H9 family `a579aa11`, and uses seed2026106002. The hint satisfies the model but still fails D3 and is not a cover. The frozen manifest has SHA256 `b2ddc08cc5cd816046b2e49621bcc475c9d60b99c61ed7d7b266b28553d584d1`, and the independent GO has SHA256 `a03d8a46c9ea8c91ace7d6e4f5e438701c167fe1c226ac8a8a2386fd5730b4de`.
+
+The sole120-second, four-worker call returned FEASIBLE with objective9 and bound0. Its one callback and final vector both equal the supplied H9 hint: one distinct saved family and zero new families. Native time was120.00696 seconds; wrapper elapsed121.29440245893784, with no watchdog. No improvement or cover was found. The result has SHA256 `b75aeabe07e529dd3e5318d95e433021bb38b2c8dc19e10de7c4c2b2e6bd46ff`; the independent runtime audit has SHA256 `681b3ce3efcff2b5a3391a26ad5dcfc6f203ec54c323b8167fc832f3f9a05eae`. This is an inconclusive bounded optimization run, not an exclusion of the fixed-star neighborhood.
+
+## Equal-hole three-block workload screen (October 4)
+
+A fresh deletion-only screen targets at most6 holes from raw H6, without pair, weak or core restrictions. At exact distances1,2,3 it leaves1,14,353 surviving deletion sets and3,1,043,185,917 necessary addition tuples, respectively. Across all43,744 deletions,43,376 are excluded and368 survive. The total186,963 possible tuples is small enough to justify a separate finite search. The screen itself examined no replacement tuple and found no new family.
+
+The screen completed in0.363421 native seconds. Separate replay rebuilt every residual uncovered set and every survivor pool, directly checked88 excluded samples and rejected six malformed controls. The receipt has SHA256 `eedf9fd83631aa3d9540333ce463d6319d1d9451b4927179be51acb2c2954978`; replay SHA256 is `ec9c83333a18c0c48305710a558bb4783987fb067354818b37071049950c5370`.
+
+The separately frozen neutral enumerator then completed all186,963 necessary tuples in0.289718 native seconds,0.2935813330113888 wrapper seconds. It retained exactly three distinct H6 candidates, all at distance1, and none at distances2 or3. No candidate satisfies the weak pair rules, and none is a cover. The manifest has SHA256 `8fe4a7f2d272e62e9594c888f9c995271689476c69c51bed84a8f31618cc0acf`; independent GO has SHA256 `4b07b30815a96e8f2d50c1c512347dadb397f951143a6557970a151c10382ec3`. All178 pins passed root's check. Separate whole-family fixture enumeration matched3,551,450 and6,880 saved candidates, including zero-demand cases. No watchdog fired, no candidate was omitted from the ledger, and the sole production result has SHA256 `2278e972b73f823f454502eaa7a750b2a809831954382562bf90d850ce6e16e6`.
+
+Each new center is one replacement from the original. Any strict improvement reached by at most three further replacements would be within the already-excluded strict radius4 of the original. Thus another strict radius3 run from these centers would repeat an existing exclusion; a larger move or a different construction is needed.
+
+Independent runtime audit SHA256 is `35ab77861fca91817e9f2ce4a22fc1175f92b029d415684c44b27005d4862e91`. It rechecked178 pins, complete shell accounting and all three saved candidates with both verifiers and fresh metric counts. The four families share63 blocks and are pairwise one replacement apart. Every alternative ties the input at H6/D2max14/D2sum498/D3=80/D4=72 and maximum triple multiplicity3. No better weak-repair seed emerged.
+
+A further deletion-only neutral screen at exact distance4 finished all635,376 deletions in6.75588 seconds. It excludes629,917 and leaves5,459 pools, of sizes4–1,470, with816,777,496,562 necessary quadruples before prefix bounds. Four largest pools account for775,075,572,180. Every residual uncovered set and surviving pool was recounted separately, with127 excluded score samples. Receipt SHA256 is `385a95c0324740aa05484fa128e15944358e691491fc2f7100b34b79ea268623`; replay SHA256 is `13b4ea121f6c27929cb9c65c7643208a73337d925acf5e477f2a9598b8e917b3`. No replacement tuple or prefix was explored. The loose workload bound does not promise completion or bound saved endpoint volume, so the full neutral exact-four run is deferred.
+
+## Fractional screen of the sixteen Clebsch recipes (October 4)
+
+All sixteen previously classified regular-tournament excess representatives were checked in a new continuous relaxation. Each model has all4,368 five-block variables in[0,1] and560 exact triple-demand rows, with demand2 on its80 excess triples and1 elsewhere. Summing the rows forces the variable sum64; point and pair totals also follow. This is only the saved recipe, not an unrestricted reduction. The source and exact representative-seed list were independently reviewed before the sole batch.
+
+All sixteen GLOP calls returned OPTIMAL for the zero objective, with560 fractional columns in each saved vector. The largest row residual is1.96698213272839e-12 and no bound violation was observed. These numerical fractional solutions are not integer covers or rational certificates. No profile was excluded, and the fifteen untested integer representatives remain untested. Solver time totaled17.8898922924418 seconds; the wrapper took18.46554608293809 under a100-second watchdog, with no retry or timeout. Source, versions, hashes and full vectors are retained in `clebsch-profile-lp-prescreen/`.
+
+Independent replay rebuilt the full lexicographic incidence matrix and all triple, pair, point, bound and total64 residuals for every vector at tolerance1e-8. Each has560 positive fractional coefficients and3,808 exact zeros, with no coefficient near1. Eight damaged-vector controls were rejected. The saved orbit checker also replayed all1,024 profiles,80 actions,16 orbits and representative-seed bindings. The review has SHA256 `427f64b6e9c7e03545a1dd72ebba96588e8d462de35cbb089aec9e11986d41d9`. This confirms the numerical diagnostic only.
+
+## Fresh native start from raw H6 (October 4)
+
+The next native pilot reuses the checked five-core binary unchanged, starting from raw H6 instead of a weak-qualified input. It keeps the complete Belic65 incumbent separate. The initial weak bucket is absent, so its saved-record classifier explicitly permits a null best weak family and retains the raw H6 fallback. Both zero-step and eight-step controls pass with this missing bucket. The sixth cap continues to classify saved records only, without claiming an optimum over every live state.
+
+The manifest has SHA256 `6d497a1b7081c1891ea61de71103254c2b439474abe5c58780080f743f487712`; independent GO has SHA256 `d47012d138f7623edb2659af590a83069cb2825d0f7637ba8545f67e9508794e`. Root rechecked all138 pinned files and launched exactly one300-second call, seed2026106101, with a315-second watchdog and5-second grace. It finished after300.001 native seconds and300.0120745829772 wrapper seconds, with no watchdog. The native no-cover exit1 was handled by the runner as specified.
+
+The raw and five-cap records retain the original H6 family. The new best saved weak-qualified family has11 holes and D2max26, SHA256 `616b37190ee722bbd393821b4750d9279764deb992df4acf7a0c5a271d5b4344`, worse than the separate global qualified fallback H9/D19. The classifier records seven distinct families across12 references, including four weak-qualified H11 records, the known complete65, original rawH6 and the final62-block H38 state. No cover of size64 or less was found. The result has SHA256 `8626d2045747ce3b630ac155ed0ee5b06de69b342b5bf645f1d17e63202cf4e2`; saved-only classification has SHA256 `83128ecd55b59d71133288c5fb5bfd9b04d8d8844e7504bc65bb26a21f2d25c7`.
+
+Independent runtime receipt SHA256 is `85f4a4848082e333c89349132da8d960aa6942744f26bc636c33de00c655b15b`. It rechecks all seven distinct families and12 references,32 trace mutations and24 damaged controls. The weak records progress H11/D29 through D28,D27,D26. The reviewer confirms the absent initial weak bucket, separate complete incumbent, native exit1 versus wrapper exit0, no watchdog/restart and unchanged global fallback. No live search was repeated.

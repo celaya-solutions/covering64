@@ -1,0 +1,5645 @@
+{
+  "bounded_control_calls": 2,
+  "classifier_controls": [
+    {
+      "case": "no_weak_saved",
+      "passed": true,
+      "report_sha256": "c4bee9dcb40b71d7250f88ba76c7eee587b933b24939cfaa17d47296f84b386c",
+      "synthetic_assembly": true
+    },
+    {
+      "case": "later_first_weak_fixture",
+      "passed": true,
+      "report_sha256": "7a209c4382b7628a3bfa4102a42d3bb08afa57b6441fa50d6d10d78390b2c669",
+      "synthetic_assembly": true
+    },
+    {
+      "case": "complete_before_caps_metadata_only",
+      "passed": true,
+      "synthetic_metadata_not_a_witness": true
+    }
+  ],
+  "controls": [
+    {
+      "binary_sha256": "6a3c9a15b8a4421f098873e115ac3fd999fe2917659e581c549100a8aef70c0f",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-five-core-record-pilot-20261004/control-zero",
+        "/Users/chriscelaya/Documents/covering64-search/data/baselines/belic-1997.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+        "2026106101",
+        "300",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search"
+      ],
+      "elapsed_seconds": 0.03708662500139326,
+      "final": {
+        "action_counts": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "admissible64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "complete": {
+          "cardinality": 65,
+          "core_overlaps": [
+            60,
+            0,
+            1,
+            1,
+            1
+          ],
+          "holes": 0
+        },
+        "current": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "event": "finished",
+        "fallbacks": 0,
+        "iterations": 0,
+        "max_cardinality": 64,
+        "max_weight": 1,
+        "min_cardinality": 64,
+        "mutations": 0,
+        "novelties": 0,
+        "raw64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "seconds": 0.00130775,
+        "weak64": null,
+        "weak_D2max": null,
+        "weight_updates": 0
+      },
+      "final_rows": {
+        "admissible64": {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-admissible64.txt",
+          "role": "final_admissible64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        "complete": {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 0,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1799,
+            1864,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2236,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3400,
+            3481,
+            3524,
+            3672,
+            3712,
+            3778,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4221,
+            4257
+          ],
+          "metrics": {
+            "cardinality": 65,
+            "core_overlaps": [
+              60,
+              0,
+              1,
+              1,
+              1
+            ],
+            "holes": 0
+          },
+          "package": {
+            "blocks": 65,
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "covered": 560,
+            "k": 5,
+            "multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "pair_multiplicities": {
+              "5": 88,
+              "6": 14,
+              "7": 18
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 650,
+            "triples": 560,
+            "uncovered": [],
+            "v": 16,
+            "valid": true
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-complete.txt",
+          "role": "final_complete",
+          "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+          "standalone": {
+            "blocks": 65,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "covered_subsets": 560,
+            "covers_all_subsets": true,
+            "expected_blocks": 65,
+            "expected_subset_incidences": 650,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "total_subset_incidences": 650,
+            "uncovered": [],
+            "uncovered_count": 0,
+            "valid": true
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        "current": {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-current.txt",
+          "role": "final_current",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        "raw64": {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-raw64.txt",
+          "role": "final_raw64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        "weak64": null
+      },
+      "initial_weak_bucket_present": false,
+      "seed": 2026106101,
+      "snapshots": [
+        {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 0,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1799,
+            1864,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2236,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3400,
+            3481,
+            3524,
+            3672,
+            3712,
+            3778,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4221,
+            4257
+          ],
+          "metrics": {
+            "cardinality": 65,
+            "core_overlaps": [
+              60,
+              0,
+              1,
+              1,
+              1
+            ],
+            "holes": 0
+          },
+          "package": {
+            "blocks": 65,
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "covered": 560,
+            "k": 5,
+            "multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "pair_multiplicities": {
+              "5": 88,
+              "6": 14,
+              "7": 18
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 650,
+            "triples": 560,
+            "uncovered": [],
+            "v": 16,
+            "valid": true
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-record-1-complete.txt",
+          "role": "complete",
+          "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+          "standalone": {
+            "blocks": 65,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "covered_subsets": 560,
+            "covers_all_subsets": true,
+            "expected_blocks": 65,
+            "expected_subset_incidences": 650,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "total_subset_incidences": 650,
+            "uncovered": [],
+            "uncovered_count": 0,
+            "valid": true
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-record-2-raw64.txt",
+          "role": "raw64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-record-3-admissible64.txt",
+          "role": "admissible64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-current.txt",
+          "role": "final_current",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 0,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1799,
+            1864,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2236,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3400,
+            3481,
+            3524,
+            3672,
+            3712,
+            3778,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4221,
+            4257
+          ],
+          "metrics": {
+            "cardinality": 65,
+            "core_overlaps": [
+              60,
+              0,
+              1,
+              1,
+              1
+            ],
+            "holes": 0
+          },
+          "package": {
+            "blocks": 65,
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "covered": 560,
+            "k": 5,
+            "multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "pair_multiplicities": {
+              "5": 88,
+              "6": 14,
+              "7": 18
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 650,
+            "triples": 560,
+            "uncovered": [],
+            "v": 16,
+            "valid": true
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-complete.txt",
+          "role": "final_complete",
+          "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+          "standalone": {
+            "blocks": 65,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "covered_subsets": 560,
+            "covers_all_subsets": true,
+            "expected_blocks": 65,
+            "expected_subset_incidences": 650,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "total_subset_incidences": 650,
+            "uncovered": [],
+            "uncovered_count": 0,
+            "valid": true
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-raw64.txt",
+          "role": "final_raw64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-0/search-final-admissible64.txt",
+          "role": "final_admissible64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        }
+      ],
+      "steps": 0,
+      "success": false
+    },
+    {
+      "binary_sha256": "c04381c2ec6fb18c4441764e52ee25f0e0d4b075691b748e887634230e959515",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-five-core-record-pilot-20261004/control-eight",
+        "/Users/chriscelaya/Documents/covering64-search/data/baselines/belic-1997.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+        "2026106101",
+        "300",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search"
+      ],
+      "elapsed_seconds": 0.02345249999780208,
+      "final": {
+        "action_counts": [
+          0,
+          0,
+          0,
+          3,
+          3,
+          2
+        ],
+        "admissible64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "complete": {
+          "cardinality": 65,
+          "core_overlaps": [
+            60,
+            0,
+            1,
+            1,
+            1
+          ],
+          "holes": 0
+        },
+        "current": {
+          "cardinality": 63,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 14
+        },
+        "event": "finished",
+        "fallbacks": 4,
+        "iterations": 8,
+        "max_cardinality": 64,
+        "max_weight": 4,
+        "min_cardinality": 62,
+        "mutations": 13,
+        "novelties": 0,
+        "raw64": {
+          "cardinality": 64,
+          "core_overlaps": [
+            0,
+            2,
+            2,
+            1,
+            0
+          ],
+          "holes": 6
+        },
+        "seconds": 0.00101037,
+        "weak64": null,
+        "weak_D2max": null,
+        "weight_updates": 3
+      },
+      "final_rows": {
+        "admissible64": {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-admissible64.txt",
+          "role": "final_admissible64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        "complete": {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 0,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1799,
+            1864,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2236,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3400,
+            3481,
+            3524,
+            3672,
+            3712,
+            3778,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4221,
+            4257
+          ],
+          "metrics": {
+            "cardinality": 65,
+            "core_overlaps": [
+              60,
+              0,
+              1,
+              1,
+              1
+            ],
+            "holes": 0
+          },
+          "package": {
+            "blocks": 65,
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "covered": 560,
+            "k": 5,
+            "multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "pair_multiplicities": {
+              "5": 88,
+              "6": 14,
+              "7": 18
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 650,
+            "triples": 560,
+            "uncovered": [],
+            "v": 16,
+            "valid": true
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-complete.txt",
+          "role": "final_complete",
+          "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+          "standalone": {
+            "blocks": 65,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "covered_subsets": 560,
+            "covers_all_subsets": true,
+            "expected_blocks": 65,
+            "expected_subset_incidences": 650,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "total_subset_incidences": 650,
+            "uncovered": [],
+            "uncovered_count": 0,
+            "valid": true
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        "current": {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 14,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2368,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2842,
+            2887,
+            3054,
+            3106,
+            3132,
+            3171,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 63,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 14
+          },
+          "package": {
+            "blocks": 63,
+            "canonical_sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+            "covered": 546,
+            "k": 5,
+            "multiplicities": {
+              "0": 14,
+              "1": 469,
+              "2": 71,
+              "3": 5,
+              "4": 1
+            },
+            "pair_multiplicities": {
+              "4": 10,
+              "5": 74,
+              "6": 33,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 20,
+              "2": 19,
+              "3": 20,
+              "4": 20,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 19,
+              "10": 21,
+              "11": 19,
+              "12": 21,
+              "13": 20,
+              "14": 18,
+              "15": 19,
+              "16": 19
+            },
+            "t": 3,
+            "total_incidences": 630,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                2,
+                14
+              ],
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                1,
+                14,
+                15
+              ],
+              [
+                2,
+                7,
+                14
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                9,
+                10
+              ],
+              [
+                3,
+                9,
+                11
+              ],
+              [
+                4,
+                5,
+                14
+              ],
+              [
+                4,
+                5,
+                16
+              ],
+              [
+                4,
+                14,
+                16
+              ],
+              [
+                5,
+                14,
+                16
+              ],
+              [
+                6,
+                9,
+                11
+              ],
+              [
+                6,
+                10,
+                11
+              ],
+              [
+                7,
+                14,
+                15
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-current.txt",
+          "role": "final_current",
+          "sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+          "standalone": {
+            "blocks": 63,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 14,
+              "1": 469,
+              "2": 71,
+              "3": 5,
+              "4": 1
+            },
+            "covered_subsets": 546,
+            "covers_all_subsets": false,
+            "expected_blocks": 63,
+            "expected_subset_incidences": 630,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 21,
+              "11": 19,
+              "12": 21,
+              "13": 20,
+              "14": 18,
+              "15": 19,
+              "16": 19,
+              "2": 19,
+              "3": 20,
+              "4": 20,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 19
+            },
+            "required_subsets": 560,
+            "source_sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+            "total_subset_incidences": 630,
+            "uncovered": [
+              [
+                1,
+                2,
+                14
+              ],
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                1,
+                14,
+                15
+              ],
+              [
+                2,
+                7,
+                14
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                9,
+                10
+              ],
+              [
+                3,
+                9,
+                11
+              ],
+              [
+                4,
+                5,
+                14
+              ],
+              [
+                4,
+                5,
+                16
+              ],
+              [
+                4,
+                14,
+                16
+              ],
+              [
+                5,
+                14,
+                16
+              ],
+              [
+                6,
+                9,
+                11
+              ],
+              [
+                6,
+                10,
+                11
+              ],
+              [
+                7,
+                14,
+                15
+              ]
+            ],
+            "uncovered_count": 14,
+            "valid": false
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        "raw64": {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-raw64.txt",
+          "role": "final_raw64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        "weak64": null
+      },
+      "initial_weak_bucket_present": false,
+      "seed": 2026106101,
+      "snapshots": [
+        {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 0,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1799,
+            1864,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2236,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3400,
+            3481,
+            3524,
+            3672,
+            3712,
+            3778,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4221,
+            4257
+          ],
+          "metrics": {
+            "cardinality": 65,
+            "core_overlaps": [
+              60,
+              0,
+              1,
+              1,
+              1
+            ],
+            "holes": 0
+          },
+          "package": {
+            "blocks": 65,
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "covered": 560,
+            "k": 5,
+            "multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "pair_multiplicities": {
+              "5": 88,
+              "6": 14,
+              "7": 18
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 650,
+            "triples": 560,
+            "uncovered": [],
+            "v": 16,
+            "valid": true
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-record-1-complete.txt",
+          "role": "complete",
+          "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+          "standalone": {
+            "blocks": 65,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "covered_subsets": 560,
+            "covers_all_subsets": true,
+            "expected_blocks": 65,
+            "expected_subset_incidences": 650,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "total_subset_incidences": 650,
+            "uncovered": [],
+            "uncovered_count": 0,
+            "valid": true
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-record-2-raw64.txt",
+          "role": "raw64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-record-3-admissible64.txt",
+          "role": "admissible64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 14,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2368,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2842,
+            2887,
+            3054,
+            3106,
+            3132,
+            3171,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 63,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 14
+          },
+          "package": {
+            "blocks": 63,
+            "canonical_sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+            "covered": 546,
+            "k": 5,
+            "multiplicities": {
+              "0": 14,
+              "1": 469,
+              "2": 71,
+              "3": 5,
+              "4": 1
+            },
+            "pair_multiplicities": {
+              "4": 10,
+              "5": 74,
+              "6": 33,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 20,
+              "2": 19,
+              "3": 20,
+              "4": 20,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 19,
+              "10": 21,
+              "11": 19,
+              "12": 21,
+              "13": 20,
+              "14": 18,
+              "15": 19,
+              "16": 19
+            },
+            "t": 3,
+            "total_incidences": 630,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                2,
+                14
+              ],
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                1,
+                14,
+                15
+              ],
+              [
+                2,
+                7,
+                14
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                9,
+                10
+              ],
+              [
+                3,
+                9,
+                11
+              ],
+              [
+                4,
+                5,
+                14
+              ],
+              [
+                4,
+                5,
+                16
+              ],
+              [
+                4,
+                14,
+                16
+              ],
+              [
+                5,
+                14,
+                16
+              ],
+              [
+                6,
+                9,
+                11
+              ],
+              [
+                6,
+                10,
+                11
+              ],
+              [
+                7,
+                14,
+                15
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-current.txt",
+          "role": "final_current",
+          "sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+          "standalone": {
+            "blocks": 63,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 14,
+              "1": 469,
+              "2": 71,
+              "3": 5,
+              "4": 1
+            },
+            "covered_subsets": 546,
+            "covers_all_subsets": false,
+            "expected_blocks": 63,
+            "expected_subset_incidences": 630,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 21,
+              "11": 19,
+              "12": 21,
+              "13": 20,
+              "14": 18,
+              "15": 19,
+              "16": 19,
+              "2": 19,
+              "3": 20,
+              "4": 20,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 19
+            },
+            "required_subsets": 560,
+            "source_sha256": "e9053bfd1e335361c918e73d25d4f6adbe9f4fef68739fc70fe4a40bd649b45c",
+            "total_subset_incidences": 630,
+            "uncovered": [
+              [
+                1,
+                2,
+                14
+              ],
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                1,
+                14,
+                15
+              ],
+              [
+                2,
+                7,
+                14
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                9,
+                10
+              ],
+              [
+                3,
+                9,
+                11
+              ],
+              [
+                4,
+                5,
+                14
+              ],
+              [
+                4,
+                5,
+                16
+              ],
+              [
+                4,
+                14,
+                16
+              ],
+              [
+                5,
+                14,
+                16
+              ],
+              [
+                6,
+                9,
+                11
+              ],
+              [
+                6,
+                10,
+                11
+              ],
+              [
+                7,
+                14,
+                15
+              ]
+            ],
+            "uncovered_count": 14,
+            "valid": false
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": false,
+          "historical_comparison": {
+            "D2max": null,
+            "D2sum": null,
+            "hash_in_inventory": false,
+            "holes": 0,
+            "in_inventory_scope": false,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1799,
+            1864,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2236,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3400,
+            3481,
+            3524,
+            3672,
+            3712,
+            3778,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4221,
+            4257
+          ],
+          "metrics": {
+            "cardinality": 65,
+            "core_overlaps": [
+              60,
+              0,
+              1,
+              1,
+              1
+            ],
+            "holes": 0
+          },
+          "package": {
+            "blocks": 65,
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "covered": 560,
+            "k": 5,
+            "multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "pair_multiplicities": {
+              "5": 88,
+              "6": 14,
+              "7": 18
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 650,
+            "triples": 560,
+            "uncovered": [],
+            "v": 16,
+            "valid": true
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-complete.txt",
+          "role": "final_complete",
+          "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+          "standalone": {
+            "blocks": 65,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "1": 497,
+              "2": 56,
+              "3": 2,
+              "7": 5
+            },
+            "covered_subsets": 560,
+            "covers_all_subsets": true,
+            "expected_blocks": 65,
+            "expected_subset_incidences": 650,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 22,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 21,
+              "5": 20,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+            "total_subset_incidences": 650,
+            "uncovered": [],
+            "uncovered_count": 0,
+            "valid": true
+          },
+          "weak_metrics": null,
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-raw64.txt",
+          "role": "final_raw64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        },
+        {
+          "cap_admissible": true,
+          "historical_comparison": {
+            "D2max": 14,
+            "D2sum": 498,
+            "hash_in_inventory": false,
+            "holes": 6,
+            "in_inventory_scope": true,
+            "qualified_baseline_rank": [
+              11,
+              27
+            ],
+            "qualified_rank_improvement": false,
+            "scope": "Frozen finite saved-family inventory at H<=11; no isomorphism claim"
+          },
+          "ids": [
+            64,
+            85,
+            218,
+            277,
+            279,
+            287,
+            383,
+            454,
+            544,
+            551,
+            625,
+            664,
+            803,
+            817,
+            899,
+            988,
+            1039,
+            1058,
+            1158,
+            1267,
+            1361,
+            1424,
+            1431,
+            1532,
+            1613,
+            1689,
+            1720,
+            1760,
+            1958,
+            2017,
+            2102,
+            2145,
+            2210,
+            2287,
+            2348,
+            2400,
+            2496,
+            2504,
+            2706,
+            2746,
+            2811,
+            2815,
+            2842,
+            2887,
+            3054,
+            3132,
+            3171,
+            3209,
+            3266,
+            3346,
+            3539,
+            3564,
+            3625,
+            3692,
+            3727,
+            3766,
+            3947,
+            3994,
+            4075,
+            4166,
+            4212,
+            4261,
+            4296,
+            4315
+          ],
+          "metrics": {
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1,
+              0
+            ],
+            "holes": 6
+          },
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "covered": 554,
+            "k": 5,
+            "multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 78,
+              "6": 36,
+              "7": 2,
+              "8": 1
+            },
+            "replication": {
+              "1": 21,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/scratch/native-raw-h6-reuse-pilot-20261004/control-2026106101-8/search-final-admissible64.txt",
+          "role": "final_admissible64",
+          "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 6,
+              "1": 476,
+              "2": 70,
+              "3": 8
+            },
+            "covered_subsets": 554,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 21,
+              "10": 21,
+              "11": 20,
+              "12": 20,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 19,
+              "6": 19,
+              "7": 21,
+              "8": 20,
+              "9": 20
+            },
+            "required_subsets": 560,
+            "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                10
+              ],
+              [
+                4,
+                5,
+                6
+              ],
+              [
+                4,
+                6,
+                9
+              ],
+              [
+                4,
+                10,
+                12
+              ],
+              [
+                5,
+                6,
+                9
+              ],
+              [
+                5,
+                10,
+                12
+              ]
+            ],
+            "uncovered_count": 6,
+            "valid": false
+          },
+          "weak_metrics": {
+            "D2max": 14,
+            "D2sum": 498,
+            "D3": 80,
+            "D4": 72,
+            "cardinality": 64,
+            "core_overlaps": [
+              0,
+              2,
+              2,
+              1
+            ],
+            "holes": 6,
+            "minimum_pair_count": 4
+          },
+          "weak_qualified": false
+        }
+      ],
+      "steps": 8,
+      "success": false
+    }
+  ],
+  "native_search_calls": 0,
+  "passed": true,
+  "prepare_sha256": "81001a184a96a59ac5784676b9e46efe1f04a56af5e84dd21a1b50b298a1b050",
+  "runner_sha256": "82f1d4e312433b5170af8bf24d8dbc8edc4a6162d863a7513353d7b0ad0bb98b",
+  "scope": "Two existing zero/eight-step control binaries only; classifier fixtures are synthetic assemblies.",
+  "step_limits": [
+    0,
+    8
+  ],
+  "timed_optimization_launched": false,
+  "unchanged_base_runner_sha256": "c0052cbf52dc40eb3547d40df7c619e8187698e932541180d7101a3133f03ba3"
+}

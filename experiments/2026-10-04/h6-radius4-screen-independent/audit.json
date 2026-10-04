@@ -1,0 +1,198 @@
+{
+  "all_survivor_pools_directly_recounted": 2168,
+  "checker_sha256": "6ea2b54706bc9b34d46e350ffd9fbf7299c976be78450f83943a7f21527ce5be",
+  "deletion_rows_recounted_twice": 635376,
+  "direct_python_adder_score_rows": 2295,
+  "excluded_rows_additionally_sampled_in_python": 127,
+  "full_universe_native_adder_score_rows": 635376,
+  "largest_pools": [
+    {
+      "dropped": [
+        64,
+        277,
+        287,
+        1532
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        64,
+        277,
+        625,
+        4212
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        64,
+        279,
+        287,
+        1532
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        64,
+        279,
+        625,
+        4212
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        64,
+        287,
+        1039,
+        1532
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        64,
+        287,
+        1158,
+        1532
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        64,
+        625,
+        1039,
+        4212
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        64,
+        625,
+        1158,
+        4212
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        277,
+        287,
+        1532,
+        2887
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        277,
+        625,
+        2887,
+        4212
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        277,
+        1039,
+        3209,
+        4075
+      ],
+      "pool": 364
+    },
+    {
+      "dropped": [
+        277,
+        1158,
+        3209,
+        4075
+      ],
+      "pool": 364
+    },
+    {
+      "dropped": [
+        279,
+        287,
+        1532,
+        2887
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        279,
+        625,
+        2887,
+        4212
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        279,
+        1039,
+        3209,
+        4075
+      ],
+      "pool": 364
+    },
+    {
+      "dropped": [
+        279,
+        1158,
+        3209,
+        4075
+      ],
+      "pool": 364
+    },
+    {
+      "dropped": [
+        287,
+        1039,
+        1532,
+        2887
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        287,
+        1158,
+        1532,
+        2887
+      ],
+      "pool": 177
+    },
+    {
+      "dropped": [
+        625,
+        1039,
+        2887,
+        4212
+      ],
+      "pool": 178
+    },
+    {
+      "dropped": [
+        625,
+        1158,
+        2887,
+        4212
+      ],
+      "pool": 178
+    }
+  ],
+  "native_recount_sha256": "6f5c775a78ace4b39974ea3ff6085ed6d8b0ea4a4b2da5628ba283b0359e0a2b",
+  "necessary_addition_quadruples": 3697940975,
+  "passed": true,
+  "pool177_178_tuple_contribution": 639654400,
+  "pool364_tuple_contribution": 2877879004,
+  "producer_receipt_sha256": "d9b9ff8db84089e8f32201e4e826d298ec5c67f1c1bbc323058b1f89adb13107",
+  "replacement_tuples_enumerated": 0,
+  "scope": "Full independent deletion-only recount rebuilds scores from original triple owners for every deletion. Python recounts every deletion's uncovered triples and directly checks all survivor pools plus sampled exclusions. No addition tuple is examined. The3.7billion necessary tuples do not establish that unpruned exact-distance4 replacement enumeration fits60seconds."
+}

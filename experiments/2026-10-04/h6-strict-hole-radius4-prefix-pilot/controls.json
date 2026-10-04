@@ -1,0 +1,175 @@
+{
+  "binary_sha256": "a1778fbbe4d0f50332652339d76be46c7c74046d8e5bd33244ebff4f442eecd4",
+  "fixtures": [
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-1.txt",
+        "10",
+        "9",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-1-run",
+        "10",
+        "4",
+        "--fixture-v",
+        "7"
+      ],
+      "holes": 10,
+      "ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "input_sha256": "fe0c0ef7c167edc2fd5b47ad79d07cd273fc3b4a38e3bf5d20f60d81c72869fe",
+      "ledger_sha256": "fea8bb7e8b18359ae20a2057bc85f44cb729186b9f0fab0ccc6f2dd139f17ab0",
+      "native_summary": {
+        "candidates": 1554,
+        "seconds": 0.133193,
+        "shells": [
+          {
+            "candidates": 1554,
+            "complete": true,
+            "deletions": 1,
+            "distance": 4,
+            "excluded": 0,
+            "gain_evaluations": 3179,
+            "prefix_excluded": 122,
+            "prefix_nodes": 2223,
+            "tuples": 1554
+          }
+        ],
+        "status": "complete"
+      },
+      "oracle_candidates": 1554,
+      "oracle_tuples": 2380
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-2.txt",
+        "4",
+        "3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-2-run",
+        "10",
+        "4",
+        "--fixture-v",
+        "7"
+      ],
+      "holes": 4,
+      "ids": [
+        0,
+        1,
+        9,
+        20
+      ],
+      "input_sha256": "699ce2b8111723a97dc0bfb6a5f5b263f7522d3dc18a043bf7659245a61fa2f2",
+      "ledger_sha256": "9be6088184f0684d006ad9c99368ad7da108e075e96393a7cea2829b3dffa323",
+      "native_summary": {
+        "candidates": 0,
+        "seconds": 0.000450292,
+        "shells": [
+          {
+            "candidates": 0,
+            "complete": true,
+            "deletions": 1,
+            "distance": 4,
+            "excluded": 0,
+            "gain_evaluations": 1723,
+            "prefix_excluded": 313,
+            "prefix_nodes": 392,
+            "tuples": 0
+          }
+        ],
+        "status": "complete"
+      },
+      "oracle_candidates": 0,
+      "oracle_tuples": 2380
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-3.txt",
+        "2",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-3-run",
+        "10",
+        "5",
+        "--fixture-v",
+        "7"
+      ],
+      "holes": 2,
+      "ids": [
+        0,
+        1,
+        4,
+        9,
+        20
+      ],
+      "input_sha256": "863509056598de5ea7088414319cfe79128fa48b99fbf6016e1c633e9a42c617",
+      "ledger_sha256": "58177efbe2186209f988756d65d6d2efe95b0bf1eb6840ed8497785a0c5fefb0",
+      "native_summary": {
+        "candidates": 43,
+        "seconds": 0.00469712,
+        "shells": [
+          {
+            "candidates": 43,
+            "complete": true,
+            "deletions": 5,
+            "distance": 4,
+            "excluded": 0,
+            "gain_evaluations": 5487,
+            "prefix_excluded": 1006,
+            "prefix_nodes": 1398,
+            "tuples": 43
+          }
+        ],
+        "status": "complete"
+      },
+      "oracle_candidates": 43,
+      "oracle_tuples": 9100
+    }
+  ],
+  "passed": true,
+  "production_prefixes_explored": 0,
+  "production_replacement_tuples": 0,
+  "production_search_launched": false,
+  "rejected_controls": [
+    "duplicate",
+    "unsorted",
+    "out-of-range",
+    "extra-label",
+    "malformed",
+    "wrong-holes",
+    "nan-budget"
+  ],
+  "source_sha256": "4712f488a53382e0fcabfc8f89d6546e544787f6a41201577bc1852b5b545335",
+  "zero_budget": {
+    "candidates": 0,
+    "seconds": 0.000346041,
+    "shells": [
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 4,
+        "excluded": 0,
+        "gain_evaluations": 0,
+        "prefix_excluded": 0,
+        "prefix_nodes": 0,
+        "tuples": 0
+      }
+    ],
+    "status": "timeout"
+  },
+  "zero_budget_command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/search",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/fixture-1.txt",
+    "10",
+    "9",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius4-prefix-pilot-20261004/zero-budget",
+    "0",
+    "4",
+    "--fixture-v",
+    "7"
+  ]
+}

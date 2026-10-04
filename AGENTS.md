@@ -4,7 +4,7 @@ Version:     v1.1.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      94f1978579bf84a6de229886f78c50130d1f01e8d44b98cbc85b3b2095dccb72
+SHA256:      5d05effb58cdf650451ec9318d27ad279d7f434536e181a049e445a52f704811
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,9 +78,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit d2bfd84 saves the checked H6 escape, unchanged qualified H9 result, current65 public listing and union bound71.
-Qualified best remains H9/D2max19; raw H6 escapes every old-core relabel but fails pair floors. All strict improvements within three replacements of H6 were excluded by a checked coverage-only enumeration. Its three B*-anchored two-swap pair repairs fail D3; the {6,10} star pilot returned UNKNOWN with no candidates.
-Next: a stronger exact-four search and a feasible-H9-hint star continuation are being prepared. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
+The H6 strict search excludes improvement through four replacements. Its complete neutral radius-three search finds only three one-swap alternatives, all with the same failing pair metrics. The fresh 300-second H6 native run retains raw H6; its best new weak record H11/D26 does not improve the separate H9/D19 fallback. The warm-star run retains its H9 input; all16 Clebsch recipe relaxations are fractional, not covers.
+Next: assess neutral exact-four workload and the four local point-link classes of the Clebsch recipe. No 64-block cover or global exclusion. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 

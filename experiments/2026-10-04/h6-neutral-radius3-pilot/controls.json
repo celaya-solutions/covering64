@@ -1,0 +1,249 @@
+{
+  "binary_sha256": "5469b30c3648033d8f365ca982d5cd7cf5ebd7bee157461d8f73d5ad1ec039b1",
+  "compile_command": [
+    "clang++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/h6-neutral-radius3-pilot/search.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-neutral-radius3-pilot-20261004/search"
+  ],
+  "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "fixtures": [
+    {
+      "candidate_count": 3551,
+      "exact_sets_match": true,
+      "fixture_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "initial_holes": 10,
+      "input_path": "experiments/scratch/h6-neutral-radius3-pilot-20261004/fixture-0.txt",
+      "input_sha256": "fe0c0ef7c167edc2fd5b47ad79d07cd273fc3b4a38e3bf5d20f60d81c72869fe",
+      "ledger_sha256": "c7152a3224b6c865f068a3c1a006e2f17c48e9339c78865dc977dd7ec22685f2",
+      "native": {
+        "candidates": 3551,
+        "seconds": 0.381446,
+        "shells": [
+          {
+            "candidates": 65,
+            "complete": true,
+            "deletions": 4,
+            "distance": 1,
+            "excluded": 0,
+            "tuples": 65
+          },
+          {
+            "candidates": 795,
+            "complete": true,
+            "deletions": 6,
+            "distance": 2,
+            "excluded": 0,
+            "tuples": 816
+          },
+          {
+            "candidates": 2691,
+            "complete": true,
+            "deletions": 4,
+            "distance": 3,
+            "excluded": 0,
+            "tuples": 2720
+          }
+        ],
+        "status": "complete"
+      },
+      "output_path": "experiments/scratch/h6-neutral-radius3-pilot-20261004/fixture-0-output",
+      "unpruned_oracle_tuples": 3604,
+      "witness_inventory_sha256": "84e4adf8aa573c712bf10c0bd362b08c169c86220193dbc1a3d4f6467a7a92d7"
+    },
+    {
+      "candidate_count": 450,
+      "exact_sets_match": true,
+      "fixture_ids": [
+        0,
+        1,
+        4,
+        9,
+        20
+      ],
+      "initial_holes": 2,
+      "input_path": "experiments/scratch/h6-neutral-radius3-pilot-20261004/fixture-1.txt",
+      "input_sha256": "863509056598de5ea7088414319cfe79128fa48b99fbf6016e1c633e9a42c617",
+      "ledger_sha256": "80f5a68f50df041c226cb8d86121ae4fd208178bc626fee30f8cf1a290e70f86",
+      "native": {
+        "candidates": 450,
+        "seconds": 0.0522913,
+        "shells": [
+          {
+            "candidates": 18,
+            "complete": true,
+            "deletions": 5,
+            "distance": 1,
+            "excluded": 1,
+            "tuples": 18
+          },
+          {
+            "candidates": 102,
+            "complete": true,
+            "deletions": 10,
+            "distance": 2,
+            "excluded": 0,
+            "tuples": 621
+          },
+          {
+            "candidates": 330,
+            "complete": true,
+            "deletions": 10,
+            "distance": 3,
+            "excluded": 0,
+            "tuples": 5600
+          }
+        ],
+        "status": "complete"
+      },
+      "output_path": "experiments/scratch/h6-neutral-radius3-pilot-20261004/fixture-1-output",
+      "unpruned_oracle_tuples": 6880,
+      "witness_inventory_sha256": "9f93092767abbb089bfda0f409142f6028a6c6cba6a153a79614d5bae1afeb72"
+    },
+    {
+      "candidate_count": 6880,
+      "exact_sets_match": true,
+      "fixture_ids": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "initial_holes": 15,
+      "input_path": "experiments/scratch/h6-neutral-radius3-pilot-20261004/fixture-2.txt",
+      "input_sha256": "e9df08cee2ad251d05877879ca2221d2fc8f246bfadd3b5e0fb43aebb6aefc79",
+      "ledger_sha256": "5a8ac47a8a9cf0532c0b52c05df56d638939ca32416ec3ce53485f3db2bb3518",
+      "native": {
+        "candidates": 6880,
+        "seconds": 0.960488,
+        "shells": [
+          {
+            "candidates": 80,
+            "complete": true,
+            "deletions": 5,
+            "distance": 1,
+            "excluded": 0,
+            "tuples": 80
+          },
+          {
+            "candidates": 1200,
+            "complete": true,
+            "deletions": 10,
+            "distance": 2,
+            "excluded": 0,
+            "tuples": 1200
+          },
+          {
+            "candidates": 5600,
+            "complete": true,
+            "deletions": 10,
+            "distance": 3,
+            "excluded": 0,
+            "tuples": 5600
+          }
+        ],
+        "status": "complete"
+      },
+      "output_path": "experiments/scratch/h6-neutral-radius3-pilot-20261004/fixture-2-output",
+      "unpruned_oracle_tuples": 6880,
+      "witness_inventory_sha256": "9745a9b43af5fd081ffe14ecb54ac4cdd6f78936093d948e368de3c339d2e606"
+    }
+  ],
+  "passed": true,
+  "production_replacement_tuples": 0,
+  "production_search_launched": false,
+  "rejected_controls": [
+    "duplicate",
+    "short-row",
+    "long-row",
+    "label-zero",
+    "label-seventeen",
+    "unsorted-labels",
+    "unsorted-family",
+    "malformed-label",
+    "missing-block",
+    "extra-block",
+    "blank-row",
+    "nan-seconds",
+    "infinite-seconds",
+    "negative-seconds",
+    "over-budget",
+    "wrong-holes",
+    "non-neutral-target"
+  ],
+  "source_sha256": "ced6fccc4e33f893819f2a011bee637c98400b5c8361012984d2b651af9c7d69",
+  "watchdog_controls": [
+    {
+      "elapsed_seconds": 0.02547604194842279,
+      "killed": false,
+      "name": "normal",
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "finished\n",
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "elapsed_seconds": 1.005131333018653,
+      "killed": false,
+      "name": "terminate",
+      "returncode": -15,
+      "stderr": "",
+      "stdout": "ready\n",
+      "terminated": true,
+      "watchdog": true
+    },
+    {
+      "elapsed_seconds": 1.1047337499912828,
+      "killed": true,
+      "name": "kill",
+      "returncode": -9,
+      "stderr": "",
+      "stdout": "ready\n",
+      "terminated": true,
+      "watchdog": true
+    }
+  ],
+  "zero_budget": {
+    "candidates": 0,
+    "seconds": 0.000921375,
+    "shells": [
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 1,
+        "excluded": 0,
+        "tuples": 0
+      },
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 2,
+        "excluded": 0,
+        "tuples": 0
+      },
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 3,
+        "excluded": 0,
+        "tuples": 0
+      }
+    ],
+    "status": "timeout"
+  }
+}

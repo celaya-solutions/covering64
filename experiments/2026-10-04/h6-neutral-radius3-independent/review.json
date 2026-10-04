@@ -1,0 +1,113 @@
+{
+  "actual_H6_replacement_tuples": 0,
+  "checker_sha256": "469156006367c1f255534353bf9c44282f6cd8dd20354b96d40a8ace5dc8694d",
+  "fixtures": [
+    {
+      "candidates": 3551,
+      "exact_identity_hole_drop_add_match": true,
+      "initial_holes": 10,
+      "initial_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "neighborhood_tuples": 3604,
+      "redundant_block_ids": [],
+      "whole_families_checked": 5985
+    },
+    {
+      "candidates": 450,
+      "exact_identity_hole_drop_add_match": true,
+      "initial_holes": 2,
+      "initial_ids": [
+        0,
+        1,
+        4,
+        9,
+        20
+      ],
+      "neighborhood_tuples": 6880,
+      "redundant_block_ids": [],
+      "whole_families_checked": 20349
+    },
+    {
+      "candidates": 6880,
+      "exact_identity_hole_drop_add_match": true,
+      "initial_holes": 15,
+      "initial_ids": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "neighborhood_tuples": 6880,
+      "redundant_block_ids": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "whole_families_checked": 20349
+    }
+  ],
+  "malformed_controls_receipt_count": 17,
+  "manifest_sha256": "8fe4a7f2d272e62e9594c888f9c995271689476c69c51bed84a8f31618cc0acf",
+  "native_body_only_target_budget_changes": true,
+  "passed": true,
+  "pins_verified": 178,
+  "real_native_launches": 0,
+  "scope": "Coverage-only exact distances 1,2,3 with H<=6. Original-complement additions, complete distinct tuple enumeration, safe top-sum/floor including zero demand. One 30s native call, 35s watchdog plus 5s grace. Weak endpoints and six named caps are separate postclassification; no global conclusion.",
+  "watchdog_checks": [
+    {
+      "case": "normal",
+      "events": [
+        [
+          "communicate",
+          35
+        ]
+      ]
+    },
+    {
+      "case": "terminate",
+      "events": [
+        [
+          "communicate",
+          35
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "communicate",
+          5
+        ]
+      ]
+    },
+    {
+      "case": "kill",
+      "events": [
+        [
+          "communicate",
+          35
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "communicate",
+          5
+        ],
+        [
+          "kill"
+        ],
+        [
+          "communicate",
+          null
+        ]
+      ]
+    }
+  ]
+}

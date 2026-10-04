@@ -1,0 +1,847 @@
+{
+  "best_known_model_feasible_holes": 9,
+  "best_saved_holes": 9,
+  "callbacks": 1,
+  "checker_sha256": "a035d956213ba49806c1b8769b31661adad06246560b2c540ad729ff855f4af5",
+  "cover_found": false,
+  "damage_controls": {
+    "boolean": true,
+    "false_hole": true,
+    "float": true,
+    "outside_domain": true
+  },
+  "gate_sha256": "a03d8a46c9ea8c91ace7d6e4f5e438701c167fe1c226ac8a8a2386fd5730b4de",
+  "initial": {
+    "classification": {
+      "D2max": 21,
+      "D2sum": 38,
+      "D3": 1,
+      "D4": 0,
+      "cardinality": 64,
+      "holes": 9,
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 85,
+        "6": 32,
+        "7": 1,
+        "8": 2
+      },
+      "six_named_caps_apply": true,
+      "six_named_caps_pass": true,
+      "six_named_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "triple_histogram": {
+        "0": 9,
+        "1": 467,
+        "2": 80,
+        "3": 3,
+        "4": 1
+      },
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          3,
+          10,
+          16
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          6,
+          9,
+          14
+        ],
+        [
+          6,
+          9,
+          16
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          9,
+          12,
+          14
+        ],
+        [
+          10,
+          11,
+          14
+        ]
+      ],
+      "weak_qualified": false,
+      "weak_six_cap_qualified": false
+    },
+    "feasible_in_model": true,
+    "role": "Known H9 partial input; not a cover or a new solver result.",
+    "sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+    "verifiers": {
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+        "covered": 551,
+        "k": 5,
+        "multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "replication": {
+          "1": 21,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "covered_subsets": 551,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "source_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "uncovered_count": 9,
+        "valid": false
+      }
+    }
+  },
+  "manifest_sha256": "b2ddc08cc5cd816046b2e49621bcc475c9d60b99c61ed7d7b266b28553d584d1",
+  "new_saved_families": 0,
+  "outcome": {
+    "bound": 0.0,
+    "callbacks": 1,
+    "objective": 9.0,
+    "status": "FEASIBLE",
+    "wall_seconds": 120.00696
+  },
+  "passed": true,
+  "prior_unknown_objective_is_incumbent": false,
+  "prior_unknown_reported_objective": 6.0,
+  "raw_hashes_checked": 14,
+  "real_optimizer_calls": 0,
+  "result_sha256": "b75aeabe07e529dd3e5318d95e433021bb38b2c8dc19e10de7c4c2b2e6bd46ff",
+  "returncode": 0,
+  "saved": [
+    {
+      "classification": {
+        "D2max": 21,
+        "D2sum": 38,
+        "D3": 1,
+        "D4": 0,
+        "cardinality": 64,
+        "holes": 9,
+        "minimum_pair_count": 5,
+        "pair_histogram": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "six_named_caps_apply": true,
+        "six_named_caps_pass": true,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "weak_qualified": false,
+        "weak_six_cap_qualified": false
+      },
+      "feasible_in_model": true,
+      "sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+      "vector": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/callback-001.json",
+      "vector_sha256": "5654a4d850a9bfddc09ec394ce569fa1fbf52b11eacca5e745fbc092e5c1ae6d",
+      "verifiers": {
+        "package": {
+          "blocks": 64,
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "covered": 551,
+          "k": 5,
+          "multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "pair_multiplicities": {
+            "5": 85,
+            "6": 32,
+            "7": 1,
+            "8": 2
+          },
+          "replication": {
+            "1": 21,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        "standalone": {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "covered_subsets": 551,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 21,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19
+          },
+          "required_subsets": 560,
+          "source_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "uncovered_count": 9,
+          "valid": false
+        }
+      },
+      "witness": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/callback-001.txt"
+    },
+    {
+      "classification": {
+        "D2max": 21,
+        "D2sum": 38,
+        "D3": 1,
+        "D4": 0,
+        "cardinality": 64,
+        "holes": 9,
+        "minimum_pair_count": 5,
+        "pair_histogram": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "six_named_caps_apply": true,
+        "six_named_caps_pass": true,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "weak_qualified": false,
+        "weak_six_cap_qualified": false
+      },
+      "feasible_in_model": true,
+      "sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+      "vector": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/final-vector.json",
+      "vector_sha256": "5654a4d850a9bfddc09ec394ce569fa1fbf52b11eacca5e745fbc092e5c1ae6d",
+      "verifiers": {
+        "package": {
+          "blocks": 64,
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "covered": 551,
+          "k": 5,
+          "multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "pair_multiplicities": {
+            "5": 85,
+            "6": 32,
+            "7": 1,
+            "8": 2
+          },
+          "replication": {
+            "1": 21,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        "standalone": {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "covered_subsets": 551,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 21,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19
+          },
+          "required_subsets": 560,
+          "source_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "uncovered_count": 9,
+          "valid": false
+        }
+      },
+      "witness": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/final-vector.txt"
+    }
+  ],
+  "saved_vectors": 2,
+  "scope": "Independent replay of one fixed-star continuation. H9 input is model feasible but partial. Prior UNKNOWN objective6 is not an incumbent. All caps and weak metrics are postclassification. No unrestricted or nonexistence conclusion.",
+  "unique_saved_families": 1,
+  "watchdog_fired": false
+}

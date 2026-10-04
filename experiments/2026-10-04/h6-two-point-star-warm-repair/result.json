@@ -1,0 +1,424 @@
+{
+  "calls": 1,
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/h6-two-point-star-warm-repair/run.py",
+    "--child",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/h6-two-point-star-warm-repair-independent/gate.json"
+  ],
+  "cover_found": false,
+  "elapsed_seconds": 121.29440245893784,
+  "gate_sha256": "a03d8a46c9ea8c91ace7d6e4f5e438701c167fe1c226ac8a8a2386fd5730b4de",
+  "manifest_sha256": "b2ddc08cc5cd816046b2e49621bcc475c9d60b99c61ed7d7b266b28553d584d1",
+  "outcome": {
+    "bound": 0.0,
+    "callbacks": 1,
+    "objective": 9.0,
+    "status": "FEASIBLE",
+    "wall_seconds": 120.00696
+  },
+  "raw_files": {
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/initial-vector.json": "5654a4d850a9bfddc09ec394ce569fa1fbf52b11eacca5e745fbc092e5c1ae6d",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/model.pbtxt": "8d53ff219ca367869a888f6d6dfe984fa32e7e430929ae5dadf4fe88c87dfa8e",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/parameters.pbtxt": "08baa1f07091438829adc40a965226ba348e9ed4481ab188b0f74627ea953eb1",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/callback-001.json": "5654a4d850a9bfddc09ec394ce569fa1fbf52b11eacca5e745fbc092e5c1ae6d",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/callback-001.txt": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/child-started.json": "db830b832ae312ddc286894d6e6d777c9a870df327b796aa4dce3e1bb47bf2ca",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/final-vector.json": "5654a4d850a9bfddc09ec394ce569fa1fbf52b11eacca5e745fbc092e5c1ae6d",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/final-vector.txt": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/launch.json": "2251b27171c5b6b4a011f92542d6ea1f9c2dce07fa267278460aca40e4750812",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/outcome.json": "42b6da3cc7613ae5c0109125abb535b4454601c5f3245acde70a800437ea2e4a",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/parameters.pbtxt": "08baa1f07091438829adc40a965226ba348e9ed4481ab188b0f74627ea953eb1",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/response.pbtxt": "a0989240063e2fa0efee61669843e1268fc66154ffd7f24d6c2c8af565fb07f4",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/stdout.log": "10f1bced3aa35ee182d99985b7d03aeab45d328310013d2b4f941475f91b4d62"
+  },
+  "relaunch": false,
+  "returncode": 0,
+  "saved": [
+    {
+      "holes": 9,
+      "sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+      "vector": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/callback-001.json",
+      "verifiers": [
+        {
+          "blocks": 64,
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "covered": 551,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "pair_multiplicities": {
+            "5": 85,
+            "6": 32,
+            "7": 1,
+            "8": 2
+          },
+          "replication": {
+            "1": 21,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "covered_subsets": 551,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 21,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19
+          },
+          "required_subsets": 560,
+          "source_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "uncovered_count": 9,
+          "valid": false
+        }
+      ],
+      "witness": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/callback-001.txt"
+    },
+    {
+      "holes": 9,
+      "sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+      "vector": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/final-vector.json",
+      "verifiers": [
+        {
+          "blocks": 64,
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "covered": 551,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "pair_multiplicities": {
+            "5": 85,
+            "6": 32,
+            "7": 1,
+            "8": 2
+          },
+          "replication": {
+            "1": 21,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 9,
+            "1": 467,
+            "2": 80,
+            "3": 3,
+            "4": 1
+          },
+          "covered_subsets": 551,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 21,
+            "10": 21,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 19,
+            "2": 20,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 21,
+            "8": 20,
+            "9": 19
+          },
+          "required_subsets": 560,
+          "source_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              1,
+              7,
+              10
+            ],
+            [
+              3,
+              10,
+              16
+            ],
+            [
+              4,
+              6,
+              9
+            ],
+            [
+              5,
+              6,
+              9
+            ],
+            [
+              6,
+              9,
+              14
+            ],
+            [
+              6,
+              9,
+              16
+            ],
+            [
+              6,
+              12,
+              16
+            ],
+            [
+              9,
+              12,
+              14
+            ],
+            [
+              10,
+              11,
+              14
+            ]
+          ],
+          "uncovered_count": 9,
+          "valid": false
+        }
+      ],
+      "witness": "experiments/scratch/h6-two-point-star-warm-repair-20261004/run-1/final-vector.txt"
+    }
+  ],
+  "scope": "Same fixed {6,10} outside memberships as the prior star model; exact64, exact hole flags, pair floor5, H<=9, minimize H. Only model deltas are the hole ceiling6 to9 and full feasible H9 hint. No D2/D3/D4, core or degree restrictions. One call; no retry, extension or budget transfer.",
+  "watchdog_fired": false
+}

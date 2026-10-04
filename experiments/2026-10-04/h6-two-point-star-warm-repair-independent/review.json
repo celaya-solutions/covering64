@@ -1,0 +1,289 @@
+{
+  "changed_block_ids": [
+    2859,
+    3054,
+    3106,
+    4075
+  ],
+  "changed_hint_values": 13,
+  "checker_sha256": "80f632cee76cc5b3dafa13e16331c5a2d00dd262e9dc7a4e182c0b1fc89ee63d",
+  "controls": {
+    "bool_vector": true,
+    "cap": true,
+    "cardinality": true,
+    "domain": true,
+    "false_hole": true,
+    "float_vector": true,
+    "hint": true,
+    "hole_enforcement": true,
+    "invalid_domain": true,
+    "kill_relaunch": true,
+    "normal_relaunch": true,
+    "objective": true,
+    "pair_floor": true,
+    "short_vector": true,
+    "terminate_relaunch": true
+  },
+  "hint_feasible": true,
+  "hint_holes": 9,
+  "manifest_sha256": "b2ddc08cc5cd816046b2e49621bcc475c9d60b99c61ed7d7b266b28553d584d1",
+  "mock_watchdog_traces": [
+    {
+      "adapter_child_dispatch": true,
+      "events": [
+        [
+          "wait",
+          140
+        ]
+      ],
+      "name": "normal"
+    },
+    {
+      "adapter_child_dispatch": true,
+      "events": [
+        [
+          "wait",
+          140
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "wait",
+          5
+        ]
+      ],
+      "name": "terminate"
+    },
+    {
+      "adapter_child_dispatch": true,
+      "events": [
+        [
+          "wait",
+          140
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "wait",
+          5
+        ],
+        [
+          "kill"
+        ],
+        [
+          "wait",
+          null
+        ]
+      ],
+      "name": "kill"
+    }
+  ],
+  "only_constraint_delta": {
+    "new_cap": 9,
+    "old_cap": 6,
+    "row": 1241
+  },
+  "outside_memberships_preserved": 2002,
+  "outside_selected": 30,
+  "package": {
+    "blocks": 64,
+    "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+    "covered": 551,
+    "k": 5,
+    "multiplicities": {
+      "0": 9,
+      "1": 467,
+      "2": 80,
+      "3": 3,
+      "4": 1
+    },
+    "pair_multiplicities": {
+      "5": 85,
+      "6": 32,
+      "7": 1,
+      "8": 2
+    },
+    "replication": {
+      "1": 21,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 21,
+      "8": 20,
+      "9": 19,
+      "10": 21,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 19,
+      "15": 20,
+      "16": 19
+    },
+    "t": 3,
+    "total_incidences": 640,
+    "triples": 560,
+    "uncovered": [
+      [
+        1,
+        7,
+        10
+      ],
+      [
+        3,
+        10,
+        16
+      ],
+      [
+        4,
+        6,
+        9
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        6,
+        9,
+        14
+      ],
+      [
+        6,
+        9,
+        16
+      ],
+      [
+        6,
+        12,
+        16
+      ],
+      [
+        9,
+        12,
+        14
+      ],
+      [
+        10,
+        11,
+        14
+      ]
+    ],
+    "v": 16,
+    "valid": false
+  },
+  "pair_floor": 5,
+  "parameter_delta_only_seed": [
+    2026106001,
+    2026106002
+  ],
+  "passed": true,
+  "pins_verified": 25,
+  "previous_unknown": {
+    "objective_is_incumbent": false,
+    "reported_objective": 6.0,
+    "result_sha256": "3add8432ae877dc87f8d24292fbb81df9bf986dd4c0b1184a6410a7c0352a537",
+    "saved_candidates": 0
+  },
+  "real_native_launches": 0,
+  "real_solver_calls": 0,
+  "rows": 1242,
+  "scope": "Same fixed star, feasible H9 hint and H<=9. Prior UNKNOWN objective 6 is not an incumbent. One 120s four-worker call, seed 2026106002, 140s watchdog plus 5s grace; root owns launch.",
+  "standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 9,
+      "1": 467,
+      "2": 80,
+      "3": 3,
+      "4": 1
+    },
+    "covered_subsets": 551,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 21,
+      "10": 21,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 19,
+      "15": 20,
+      "16": 19,
+      "2": 20,
+      "3": 20,
+      "4": 20,
+      "5": 20,
+      "6": 20,
+      "7": 21,
+      "8": 20,
+      "9": 19
+    },
+    "required_subsets": 560,
+    "source_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        1,
+        7,
+        10
+      ],
+      [
+        3,
+        10,
+        16
+      ],
+      [
+        4,
+        6,
+        9
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        6,
+        9,
+        14
+      ],
+      [
+        6,
+        9,
+        16
+      ],
+      [
+        6,
+        12,
+        16
+      ],
+      [
+        9,
+        12,
+        14
+      ],
+      [
+        10,
+        11,
+        14
+      ]
+    ],
+    "uncovered_count": 9,
+    "valid": false
+  },
+  "variables": 4928
+}

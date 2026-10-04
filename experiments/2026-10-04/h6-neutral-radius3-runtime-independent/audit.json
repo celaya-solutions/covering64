@@ -1,0 +1,1045 @@
+{
+  "all_three_pairwise_distance1": true,
+  "candidate_count": 3,
+  "candidates": [
+    {
+      "added_blocks": [
+        [
+          4,
+          5,
+          6,
+          9,
+          14
+        ]
+      ],
+      "added_ids": [
+        3102
+      ],
+      "degree_histogram": {
+        "19": 3,
+        "20": 10,
+        "21": 3
+      },
+      "distance": 1,
+      "endpoint_weak_qualified": false,
+      "holes": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          16
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          4,
+          14,
+          16
+        ],
+        [
+          5,
+          10,
+          12
+        ],
+        [
+          5,
+          14,
+          16
+        ]
+      ],
+      "maximum_triple_multiplicity": 3,
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0
+        ],
+        "holes": 6
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "7746887b0f7c7f6192bfcfcc4f0edbfa26fce46b4d2004cdc4ed9bd301ca6bb4",
+        "covered": 554,
+        "k": 5,
+        "multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "pair_multiplicities": {
+          "4": 3,
+          "5": 78,
+          "6": 36,
+          "7": 2,
+          "8": 1
+        },
+        "replication": {
+          "1": 21,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            16
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            4,
+            14,
+            16
+          ],
+          [
+            5,
+            10,
+            12
+          ],
+          [
+            5,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "pair_histogram": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "path": "experiments/2026-10-04/h6-neutral-radius3-pilot/candidates/candidate-1.txt",
+      "removed_blocks": [
+        [
+          4,
+          5,
+          9,
+          14,
+          16
+        ]
+      ],
+      "removed_ids": [
+        3209
+      ],
+      "sha256": "7746887b0f7c7f6192bfcfcc4f0edbfa26fce46b4d2004cdc4ed9bd301ca6bb4",
+      "six_caps_pass": true,
+      "six_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "7746887b0f7c7f6192bfcfcc4f0edbfa26fce46b4d2004cdc4ed9bd301ca6bb4",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "7746887b0f7c7f6192bfcfcc4f0edbfa26fce46b4d2004cdc4ed9bd301ca6bb4",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            16
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            4,
+            14,
+            16
+          ],
+          [
+            5,
+            10,
+            12
+          ],
+          [
+            5,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      },
+      "triple_histogram": {
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "weak_metrics": {
+        "D2max": 14,
+        "D2sum": 498,
+        "D3": 80,
+        "D4": 72,
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          1
+        ],
+        "holes": 6,
+        "minimum_pair_count": 4
+      },
+      "weak_six_cap_qualified": false
+    },
+    {
+      "added_blocks": [
+        [
+          4,
+          5,
+          6,
+          9,
+          16
+        ]
+      ],
+      "added_ids": [
+        3104
+      ],
+      "degree_histogram": {
+        "19": 3,
+        "20": 10,
+        "21": 3
+      },
+      "distance": 1,
+      "endpoint_weak_qualified": false,
+      "holes": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          14
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          4,
+          14,
+          16
+        ],
+        [
+          5,
+          10,
+          12
+        ],
+        [
+          5,
+          14,
+          16
+        ]
+      ],
+      "maximum_triple_multiplicity": 3,
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0
+        ],
+        "holes": 6
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "688b0e7a142dee82de5576c2b9963f421b42ff0caca27fda6ae572b2e84ec1ec",
+        "covered": 554,
+        "k": 5,
+        "multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "pair_multiplicities": {
+          "4": 3,
+          "5": 78,
+          "6": 36,
+          "7": 2,
+          "8": 1
+        },
+        "replication": {
+          "1": 21,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            14
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            4,
+            14,
+            16
+          ],
+          [
+            5,
+            10,
+            12
+          ],
+          [
+            5,
+            14,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "pair_histogram": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "path": "experiments/2026-10-04/h6-neutral-radius3-pilot/candidates/candidate-2.txt",
+      "removed_blocks": [
+        [
+          4,
+          5,
+          9,
+          14,
+          16
+        ]
+      ],
+      "removed_ids": [
+        3209
+      ],
+      "sha256": "688b0e7a142dee82de5576c2b9963f421b42ff0caca27fda6ae572b2e84ec1ec",
+      "six_caps_pass": true,
+      "six_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "688b0e7a142dee82de5576c2b9963f421b42ff0caca27fda6ae572b2e84ec1ec",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "688b0e7a142dee82de5576c2b9963f421b42ff0caca27fda6ae572b2e84ec1ec",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            14
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            4,
+            14,
+            16
+          ],
+          [
+            5,
+            10,
+            12
+          ],
+          [
+            5,
+            14,
+            16
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      },
+      "triple_histogram": {
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "weak_metrics": {
+        "D2max": 14,
+        "D2sum": 498,
+        "D3": 80,
+        "D4": 72,
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          1
+        ],
+        "holes": 6,
+        "minimum_pair_count": 4
+      },
+      "weak_six_cap_qualified": false
+    },
+    {
+      "added_blocks": [
+        [
+          4,
+          5,
+          6,
+          14,
+          16
+        ]
+      ],
+      "added_ids": [
+        3124
+      ],
+      "degree_histogram": {
+        "19": 3,
+        "20": 10,
+        "21": 3
+      },
+      "distance": 1,
+      "endpoint_weak_qualified": false,
+      "holes": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          9
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "maximum_triple_multiplicity": 3,
+      "metrics": {
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0
+        ],
+        "holes": 6
+      },
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "f7a82e5ea0ba9db75a1514eda5fa63eda9fe2fe5610c0e6b2ef893fd63a5efe0",
+        "covered": 554,
+        "k": 5,
+        "multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "pair_multiplicities": {
+          "4": 3,
+          "5": 78,
+          "6": 36,
+          "7": 2,
+          "8": 1
+        },
+        "replication": {
+          "1": 21,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            9
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            5,
+            10,
+            12
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "pair_histogram": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "path": "experiments/2026-10-04/h6-neutral-radius3-pilot/candidates/candidate-3.txt",
+      "removed_blocks": [
+        [
+          4,
+          5,
+          9,
+          14,
+          16
+        ]
+      ],
+      "removed_ids": [
+        3209
+      ],
+      "sha256": "f7a82e5ea0ba9db75a1514eda5fa63eda9fe2fe5610c0e6b2ef893fd63a5efe0",
+      "six_caps_pass": true,
+      "six_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0,
+        0
+      ],
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "f7a82e5ea0ba9db75a1514eda5fa63eda9fe2fe5610c0e6b2ef893fd63a5efe0",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "source_sha256": "f7a82e5ea0ba9db75a1514eda5fa63eda9fe2fe5610c0e6b2ef893fd63a5efe0",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            9
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            5,
+            10,
+            12
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      },
+      "triple_histogram": {
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "weak_metrics": {
+        "D2max": 14,
+        "D2sum": 498,
+        "D3": 80,
+        "D4": 72,
+        "cardinality": 64,
+        "core_overlaps": [
+          0,
+          2,
+          2,
+          1
+        ],
+        "holes": 6,
+        "minimum_pair_count": 4
+      },
+      "weak_six_cap_qualified": false
+    }
+  ],
+  "checker_sha256": "2c70df9e70bdefd6a18cf5aa2804b2b1293d8da030458ab8aad76f28c917ad97",
+  "complete_neutral_radius3": true,
+  "counter_sha256": "28621d4eb7d63971206f5ba4e1d99fa855222cd291b52242f636f318bc835ab2",
+  "endpoint_weak_count": 0,
+  "gate_sha256": "4b07b30815a96e8f2d50c1c512347dadb397f951143a6557970a151c10382ec3",
+  "initial": {
+    "metrics": {
+      "cardinality": 64,
+      "core_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "holes": 6
+    },
+    "package": {
+      "blocks": 64,
+      "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "covered": 554,
+      "k": 5,
+      "multiplicities": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "pair_multiplicities": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "replication": {
+        "1": 21,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 19,
+        "6": 19,
+        "7": 21,
+        "8": 20,
+        "9": 20,
+        "10": 21,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    "pair_histogram": {
+      "4": 3,
+      "5": 78,
+      "6": 36,
+      "7": 2,
+      "8": 1
+    },
+    "path": "experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+    "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "six_caps_pass": true,
+    "six_overlaps": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "covered_subsets": 554,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 21,
+        "10": 21,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 19,
+        "6": 19,
+        "7": 21,
+        "8": 20,
+        "9": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "uncovered_count": 6,
+      "valid": false
+    },
+    "weak_metrics": {
+      "D2max": 14,
+      "D2sum": 498,
+      "D3": 80,
+      "D4": 72,
+      "cardinality": 64,
+      "core_overlaps": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "holes": 6,
+      "minimum_pair_count": 4
+    },
+    "weak_six_cap_qualified": false
+  },
+  "manifest_sha256": "8fe4a7f2d272e62e9594c888f9c995271689476c69c51bed84a8f31618cc0acf",
+  "native": {
+    "candidates": 3,
+    "seconds": 0.289718,
+    "shells": [
+      {
+        "candidates": 3,
+        "complete": true,
+        "deletions": 64,
+        "distance": 1,
+        "excluded": 63,
+        "tuples": 3
+      },
+      {
+        "candidates": 0,
+        "complete": true,
+        "deletions": 2016,
+        "distance": 2,
+        "excluded": 2002,
+        "tuples": 1043
+      },
+      {
+        "candidates": 0,
+        "complete": true,
+        "deletions": 41664,
+        "distance": 3,
+        "excluded": 41311,
+        "tuples": 185917
+      }
+    ],
+    "status": "complete"
+  },
+  "passed": true,
+  "prior_strict_radius4_audit_sha256": "f40fc017b296c70dfbe9fdc0095ab788bb8f572e205d109d2aa6bcce5f615b1f",
+  "rehash_pin_count": 178,
+  "result_sha256": "2278e972b73f823f454502eaa7a750b2a809831954382562bf90d850ce6e16e6",
+  "scope": "Full saved runtime and candidate audit. Exactly3 non-original H<=6 families occur within replacement distance3; all are one-block neighbors, pair-bad, and tied on D2/D3/D4. A radius3 call from any cannot reach H<=5 because it stays inside the original strict-radius4 exclusion. A strict4 improvement from any would necessarily be at original distance5.",
+  "search_reruns": 0,
+  "shared_core_size": 63
+}

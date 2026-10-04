@@ -1,0 +1,234 @@
+{
+  "candidate_audits": [],
+  "checker_sha256": "28621d4eb7d63971206f5ba4e1d99fa855222cd291b52242f636f318bc835ab2",
+  "combined_complete_radius4": true,
+  "complete_exact_distance4": true,
+  "gate_sha256": "57dbbdc7d8cf7eb51cf8df6a9bea8d59c4f5642d9ef71ef1ed2d41c6b10fc4c5",
+  "initial_recount": {
+    "metrics": {
+      "cardinality": 64,
+      "core_overlaps": [
+        0,
+        2,
+        2,
+        1,
+        0
+      ],
+      "holes": 6
+    },
+    "package": {
+      "blocks": 64,
+      "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "covered": 554,
+      "k": 5,
+      "multiplicities": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "pair_multiplicities": {
+        "4": 3,
+        "5": 78,
+        "6": 36,
+        "7": 2,
+        "8": 1
+      },
+      "replication": {
+        "1": 21,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 19,
+        "6": 19,
+        "7": 21,
+        "8": 20,
+        "9": 20,
+        "10": 21,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    "pair_histogram": {
+      "4": 3,
+      "5": 78,
+      "6": 36,
+      "7": 2,
+      "8": 1
+    },
+    "path": "experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+    "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "six_caps_pass": true,
+    "six_overlaps": [
+      0,
+      2,
+      2,
+      1,
+      0,
+      0
+    ],
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 6,
+        "1": 476,
+        "2": 70,
+        "3": 8
+      },
+      "covered_subsets": 554,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 21,
+        "10": 21,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 19,
+        "6": 19,
+        "7": 21,
+        "8": 20,
+        "9": 20
+      },
+      "required_subsets": 560,
+      "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          7,
+          10
+        ],
+        [
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          6,
+          9
+        ],
+        [
+          4,
+          10,
+          12
+        ],
+        [
+          5,
+          6,
+          9
+        ],
+        [
+          5,
+          10,
+          12
+        ]
+      ],
+      "uncovered_count": 6,
+      "valid": false
+    },
+    "weak_metrics": {
+      "D2max": 14,
+      "D2sum": 498,
+      "D3": 80,
+      "D4": 72,
+      "cardinality": 64,
+      "core_overlaps": [
+        0,
+        2,
+        2,
+        1
+      ],
+      "holes": 6,
+      "minimum_pair_count": 4
+    },
+    "weak_six_cap_qualified": false
+  },
+  "launch_sha256": "8de82739dc8ad50efe554d20afa493941203d5b680d5fc92e0d4479ae5b30c91",
+  "ledger_sha256": "9be6088184f0684d006ad9c99368ad7da108e075e96393a7cea2829b3dffa323",
+  "manifest_sha256": "05d72d833e4005aad2b06af0bc4064bd03fac53a2c3030009f2665efd9c77111",
+  "native": {
+    "candidates": 0,
+    "seconds": 5.0625,
+    "shells": [
+      {
+        "candidates": 0,
+        "complete": true,
+        "deletions": 635376,
+        "distance": 4,
+        "excluded": 633208,
+        "gain_evaluations": 1047902,
+        "prefix_excluded": 28021,
+        "prefix_nodes": 31516,
+        "tuples": 0
+      }
+    ],
+    "status": "complete"
+  },
+  "passed": true,
+  "prior_radius3_audit_sha256": "b887ab8a333a5b6ffdd767b462997523efc532dfe0750806db0cd931251aa6e3",
+  "prior_radius3_result_sha256": "075a3f18257a88e3d2a3df2ae759cd3d38ccf79c0fd56caa8a32c37ecb519de8",
+  "rehash_pin_count": 180,
+  "result_sha256": "88690b98d6bafba7955139e5f059a2ff0a6433301b9acd184e33318b0adcadb6",
+  "scope": "Runtime evidence and accounting checked against frozen source/gate. All635376 deletion sets completed; safe prefix bounds excluded every survivor branch before a full addition tuple. No at-most5-hole neighbor exists at exact distance4; combined with the separately audited1,2,3 shells this covers radius4 of the named H6 family. Prefix counters are checked from saved output, not independently rerun. Equal-hole moves and larger neighborhoods are outside scope.",
+  "screen_audit_sha256": "c3dfd94222cf4b2c12b2233c3959fe12e76fdb9672458a8bb9bf3d7ac0bd96b1",
+  "search_or_prefix_reruns": 0,
+  "strict_improvement_candidates": 0
+}
