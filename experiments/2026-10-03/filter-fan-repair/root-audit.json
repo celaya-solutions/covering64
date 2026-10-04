@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "source_sha256": "2b674c341bc8e0e6214cb015dd60d573aa374d65a800bd765a6b27e2a5b7226e",
+  "binary_sha256": "5ca6db3d7fcfe59004e907ad412817048be0b4d69a8ebd739decb2ca306e230d",
+  "fresh_trace_sha256": "f44a22191bafa3735ac0faa6ea0e72e4576dc1b1c058e1fa57b25c7c45aeea3c",
+  "fresh_traces": 43,
+  "fresh_moves": 43,
+  "fresh_compile": [
+    "clang++",
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra",
+    "-Werror"
+  ],
+  "seed": 2026103991,
+  "seconds": 2,
+  "static_review": "Exact swap delta handles shared triples; tree keeps fixed weights; no incidence/symmetry restrictions; full prefix rollback preserves slot order. Greedy and beam have different acceptance policies."
+}

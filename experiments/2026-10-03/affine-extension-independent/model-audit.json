@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "checker_sha256": "eae9c723fff29b99c1e6f011f792e67ea5852693333cb8c1fd251caf64202a55",
+  "independent_constructor_sha256": "31719d83b37ac2c106e103224dbdf874c76476f2884ae0d2550be88f660f018f",
+  "manifest_sha256": "0a43aa7f7a294f7fd2f174fa88653f50e90f9ca47daab55dbfe17c5914ff5a26",
+  "pool_sha256": "733d336edbb793c8fa0fb1c228b8ab72b2dd512e61683c0b7a6600b3318a22ed",
+  "model_sha256": "9459e51fb196332ac5a7e555dfde1a95dc195643ff8365b6655bffbcd153bc5e",
+  "variables": 288,
+  "rows": 561,
+  "damaged_controls": [
+    {
+      "control": "missing variable",
+      "rejected": "variable count"
+    },
+    {
+      "control": "duplicate block identity",
+      "rejected": "lexicographic block names"
+    },
+    {
+      "control": "nonBoolean domain",
+      "rejected": "Boolean domains"
+    },
+    {
+      "control": "missing coverage row",
+      "rejected": "constraint count"
+    },
+    {
+      "control": "wrong block target",
+      "rejected": "row bounds"
+    },
+    {
+      "control": "wrong coefficient",
+      "rejected": "row variables or coefficients"
+    },
+    {
+      "control": "vacuous coverage",
+      "rejected": "row bounds"
+    },
+    {
+      "control": "unapproved extra field",
+      "rejected": "extra model fields"
+    }
+  ],
+  "scope": "Exact64 feasibility inside independently reconstructed 288-block pool. No imposed circle/extension split, degree profile or symmetry. No solver call."
+}

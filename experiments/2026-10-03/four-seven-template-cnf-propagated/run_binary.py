@@ -1,9 +1,9 @@
-# Document:    Bounded Restricted SAT and Independent DRAT Checks
-# Version:     v1.0.1
+# Document:    Bounded Propagated Matching-063 Binary DRAT Pilot
+# Version:     v1.0.0
 # Author:      Celaya Solutions
 # Contact:     hello@celayasolutions.com
 # Date:        2026-10-03
-# SHA256:      [pending]
+# SHA256:      2a0ba7a39c452d9898554bcfa5d25e6aee20992c6bbd033be7f0a824be8dedf9
 # Chain:       n/a
 # Tx:          [not anchored]
 # License:     All Rights Reserved / Celaya Solutions
@@ -21,8 +21,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-INDEPENDENT = HERE.parent / "four-seven-template-cnf-independent"
-OUTPUT = ROOT / "experiments/scratch/four-seven-template-drat-v1.0.0"
+INDEPENDENT = HERE.parent / "four-seven-template-cnf-propagated-independent"
+TOOL_DIR = HERE.parent / "four-seven-template-cnf"
+OUTPUT = ROOT / "experiments/scratch/four-seven-template-propagated-binary-drat-v1.0.0"
 SECONDS = 300
 MAX_FILE = 512 * 1024 * 1024
 
@@ -128,7 +129,6 @@ def run(meta, solver, checker, seed):
     proof = folder / "proof.drat"
     command = [
         str(solver),
-        "--no-binary",
         f"--seed={seed}",
         "-t",
         str(SECONDS),
@@ -172,7 +172,7 @@ def run(meta, solver, checker, seed):
     if solved["exit"] == 20 and not solved["forced_termination"]:
         require("s UNSATISFIABLE" in result_lines and proof.exists(), "missing UNSAT output")
         checked = bounded(
-            [str(checker), str(cnf), str(proof), "-t", str(SECONDS)], folder / "checker"
+            [str(checker), str(cnf), str(proof), "-i", "-t", str(SECONDS)], folder / "checker"
         )
         checked["verified"] = (
             checked["exit"] == 0
@@ -197,6 +197,7 @@ def run(meta, solver, checker, seed):
         "proof": str(proof.relative_to(ROOT)) if proof.exists() else None,
         "proof_sha256": sha(proof) if proof.exists() else None,
         "proof_bytes": proof.stat().st_size if proof.exists() else 0,
+        "proof_format": "binary_drat",
         "checker": checked,
         "witness": witness,
         "scope": "Only this audited restricted CP projection. Incomplete or unchecked proofs "
@@ -222,39 +223,49 @@ def main():
     require(not OUTPUT.exists(), "new proof campaign required")
     manifest = json.loads((HERE / "manifest.json").read_text())
     audit = json.loads((INDEPENDENT / "audit.json").read_text())
-    tools = json.loads((HERE / "tools.json").read_text())
+    tool_meta = json.loads((TOOL_DIR / "tools.json").read_text())
     require(
         audit["passed"] is True and audit["manifest_sha256"] == sha(HERE / "manifest.json"),
-        "CNF translation audit incomplete",
+        "independent propagation and CNF audit incomplete",
     )
-    require(audit["checker_sha256"] == sha(INDEPENDENT / "check.py"), "CNF audit source changed")
+    require(audit["checker_sha256"] == sha(INDEPENDENT / "check.py"), "audit source changed")
+    require(manifest["builder_sha256"] == sha(HERE / "build.py"), "propagation source changed")
+    require(manifest["encoder_sha256"] == sha(TOOL_DIR / "build.py"), "encoder source changed")
     require(
-        tools["passed"] is True and tools["source_sha256"] == sha(HERE / "prepare_tools.py"),
-        "tool controls changed",
+        tool_meta["passed"] is True
+        and tool_meta["source_sha256"] == sha(TOOL_DIR / "prepare_tools.py"),
+        "proof tool controls changed",
     )
     paths = {}
-    for tool in tools["tools"]:
+    for tool in tool_meta["tools"]:
         path = ROOT / tool["binary"]
         require(sha(path) == tool["binary_sha256"], "proof tool binary changed")
         paths[tool["name"]] = path
+    binary = json.loads((HERE / "binary-controls.json").read_text())
+    require(binary["passed"] is True, "binary proof controls incomplete")
+    require(
+        binary["checker_sha256"] == sha(HERE / "prepare_binary_controls.py"),
+        "control source changed",
+    )
+    require(binary["tools_sha256"] == sha(TOOL_DIR / "tools.json"), "binary control tools changed")
+    meta = next(m for m in manifest["cases"] if m["case"] == "matching-063")
+    require(meta["hub_case"] == [0, 1], "wrong pilot case")
     OUTPUT.mkdir(parents=True)
     for name in [
-        "run.py",
+        "run_binary.py",
         "build.py",
         "manifest.json",
-        "prepare_tools.py",
-        "tools.json",
+        "binary-controls.json",
+        "prepare_binary_controls.py",
     ]:
         (OUTPUT / name).write_bytes((HERE / name).read_bytes())
+    for name in ["prepare_tools.py", "tools.json"]:
+        (OUTPUT / name).write_bytes((TOOL_DIR / name).read_bytes())
     (OUTPUT / "independent-check.py").write_bytes((INDEPENDENT / "check.py").read_bytes())
     (OUTPUT / "independent-audit.json").write_bytes((INDEPENDENT / "audit.json").read_bytes())
-    results = []
-    for meta, seed in zip(manifest["cases"], [2026103901, 2026103902], strict=True):
-        results.append(run(meta, paths["cadical"], paths["drat-trim"], seed))
-        save(OUTPUT / "results.json", results)
-        save(HERE / "proof-results.json", results)
-        if results[-1]["witness"]:
-            break
+    result = run(meta, paths["cadical"], paths["drat-trim"], 2026104001)
+    save(OUTPUT / "results.json", [result])
+    save(HERE / "binary-proof-results.json", [result])
 
 
 if __name__ == "__main__":

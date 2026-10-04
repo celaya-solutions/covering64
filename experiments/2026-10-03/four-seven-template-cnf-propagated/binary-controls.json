@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "checker_sha256": "d356be5e016ce2dfac17d0808492a4511bcbf6f17cd079a5e6780dd16a07692c",
+  "tools_sha256": "c3551eac21c41482965d7527dda36a8384808cad954b1f0959e5a62d2db48a05",
+  "solver": {
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+      "--seed=2026104001",
+      "-t",
+      "5",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/unsat.cnf",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/unsat.drat"
+    ],
+    "exit": 20,
+    "stdout_sha256": "b7e0ef1917d0a1ea1aa6dffca54fb4b675f57c3c454fde2db4aff224944efd74",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "verified": false
+  },
+  "proof_sha256": "6e8f3aa6e5cd1134ac162f6ccd0be67a9459a4b2fffe7e618a0a5ba50e0ae807",
+  "proof_bytes": 8,
+  "checks": [
+    {
+      "name": "valid",
+      "expected": true,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/unsat.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/unsat.drat",
+        "-i",
+        "-t",
+        "5"
+      ],
+      "exit": 0,
+      "stdout_sha256": "9a65892edd2b7c80713e551b16ae3fcd2e963093efd19a281dd61d089a2fde1d",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true
+    },
+    {
+      "name": "empty",
+      "expected": false,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/unsat.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/empty.drat",
+        "-i",
+        "-t",
+        "5"
+      ],
+      "exit": 1,
+      "stdout_sha256": "06e379e833daf307080d9ec1878747cfb850e56e12a5de5ec2d1f35923ddefbf",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": false
+    },
+    {
+      "name": "wrong-model",
+      "expected": false,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/sat.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-binary-controls-v1.0.0/unsat.drat",
+        "-i",
+        "-t",
+        "5"
+      ],
+      "exit": 1,
+      "stdout_sha256": "319aed5b0d3ca9b4ecba6b392d52ce859a2889701457062409f447787dee3c75",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": false
+    }
+  ],
+  "scope": "Tiny binary proof controls only; no research solve."
+}

@@ -1,0 +1,40 @@
+{
+  "version": "v1.0.0",
+  "created_utc": "2026-10-04T03:09:32.783357+00:00",
+  "source_revision": "5df903825002fb7916857bcac8ade6fe60289ce9",
+  "builder_sha256": "2013ccbc46df2f77ac7379ddfa5b0d52ea8264e968ec026aa0b27ee17358b29e",
+  "ortools_version": "9.15.6755",
+  "pool": "experiments/scratch/inversive-plane-pool-20261003/pool.json",
+  "pool_sha256": "733d336edbb793c8fa0fb1c228b8ab72b2dd512e61683c0b7a6600b3318a22ed",
+  "model": "experiments/scratch/inversive-plane-pool-20261003/exact64.pbtxt",
+  "model_sha256": "9459e51fb196332ac5a7e555dfde1a95dc195643ff8365b6655bffbcd153bc5e",
+  "variables": 288,
+  "rows": 561,
+  "target_blocks": 64,
+  "circles": 48,
+  "extensions": 240,
+  "affine_lines": 20,
+  "collinear_triples": 80,
+  "noncollinear_triples": 480,
+  "triple_support_distribution": {
+    "4": 480,
+    "12": 80
+  },
+  "global_variable_order": "Increasing global lexicographic five-block IDs",
+  "positive_controls": {
+    "plane17": {
+      "blocks": 68,
+      "sha256": "d2e64313cbb5b5699146a0e4c940b04e8654f86a301d135703af959da3480d4f",
+      "package_valid": true,
+      "standalone_valid": true
+    },
+    "pool68": {
+      "blocks": 68,
+      "sha256": "43b5c9177b407d9a200a302f3bba710bd6619496e8818738a93591ddbcf87892",
+      "package_valid": true,
+      "standalone_valid": true
+    }
+  },
+  "solver_calls": 0,
+  "scope": "Only the 288-block algebraic pool. No symmetry, incidence profile, circle-count or extension-count restriction; no global completeness claim."
+}

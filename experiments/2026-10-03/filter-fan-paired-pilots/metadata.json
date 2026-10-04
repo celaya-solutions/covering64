@@ -1,0 +1,26 @@
+{
+  "version": "v1.0.0",
+  "started_utc": "2026-10-04T02:57:34.440894+00:00",
+  "seeds": [
+    2026100361,
+    2026100362,
+    2026100363,
+    2026100364,
+    2026100365,
+    2026100366
+  ],
+  "modes": [
+    "beam",
+    "greedy"
+  ],
+  "seconds_per_run": 30,
+  "maximum_concurrent_searches": 2,
+  "source_sha256": "2b674c341bc8e0e6214cb015dd60d573aa374d65a800bd765a6b27e2a5b7226e",
+  "binary_sha256": "5ca6db3d7fcfe59004e907ad412817048be0b4d69a8ebd739decb2ca306e230d",
+  "root_audit_sha256": "c9ff01794f73116415589af1af51591d4164371c291f3a6613d7b912442ddf96",
+  "runner_sha256": "4d6ff340ed57c611a9eb8b89ec95e0bbb8cb9e96912ac24d06869aa5b39d2277",
+  "source_revision": "7d130a4e6af150b25021e24e889e353f93adc951",
+  "policy_caveat": "Greedy accepts its best component move including worsening ones; beam commits only a raw-improving prefix. This compares whole policies, not an isolated beam-width effect.",
+  "finished_utc": "2026-10-04T03:03:20.127428+00:00",
+  "results_sha256": "ed7783b3f9d6fe5f6e8e053d42f58e2a8fe0c30fdc4a26104e1e0d96c0b6e7dc"
+}

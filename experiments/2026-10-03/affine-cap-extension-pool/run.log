@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-04T03:26:31.794656+00:00",
+  "seed": 2026103971,
+  "requested_seconds": 300,
+  "workers": 8,
+  "ortools_version": "9.15.6755",
+  "model_sha256": "499a80a8911a33c0effb543dadd5edd0b89c98fd235cbf1ccd379afde620a2be",
+  "pool_sha256": "d88f826ebae519e09b5e6a0a0c1fcde1420ce5116a15de4c2b5430f0e1ec569a",
+  "model_audit_sha256": "1ff1f9eb1270ac5c64feab56c4a3ad57b78b1b1e2e5b46a388cec6f6ec16f625",
+  "runner_sha256": "083e925399e28b94f74466cca7738cb197d5bc9de9f6d97f3cc22e4ab21d2ec2",
+  "source_revision": "5df903825002fb7916857bcac8ade6fe60289ce9",
+  "finished_utc": "2026-10-04T03:31:31.836380+00:00",
+  "status": "UNKNOWN",
+  "elapsed_seconds": 300.0205697499914,
+  "solver_wall_seconds": 300.02201,
+  "conflicts": 32,
+  "branches": 12602,
+  "independently_proved_infeasible": false,
+  "witness": null,
+  "checks": null,
+  "artifact_sha256": {
+    "parameters.pbtxt": "2249f48e2d201d9da37d6f51f3b8fcb7eb6ef1ca0b121b794a734979acba85da",
+    "response.pbtxt": "fcf7e975ecc6823f03661aa2f2169d770312e70e8523568defd7bab926f1953d",
+    "solver.log": "d4883735d368e490876e2bd2eb709d61fb1271418b615a299941f0b01042b092"
+  },
+  "scope": "This 528-block pool only. UNKNOWN is inconclusive; CP-SAT INFEASIBLE is not an independently checked theorem. No global lower bound."
+}

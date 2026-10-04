@@ -1,0 +1,986 @@
+[
+  {
+    "seed": 2026100361,
+    "mode": "beam",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100361",
+      "30",
+      "beam",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100361-beam/search"
+    ],
+    "started_utc": "2026-10-04T02:57:34.453335+00:00",
+    "finished_utc": "2026-10-04T02:58:04.804085+00:00",
+    "process_wall_seconds": 30.322021457948722,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 854,
+      "proposals": 1457196416,
+      "retained": 117822,
+      "max_depth": 12,
+      "elapsed": 30.0001,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100361,
+        "seconds": 30,
+        "mode": "beam",
+        "width": 12,
+        "fan": 6,
+        "depth": 12,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 854,
+        "proposals": 1457196416,
+        "retained": 117822,
+        "max_depth": 12,
+        "elapsed": 30.0001,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "57a177f6a59c14fc01aaecccf4477dd4fece84d2bd52dced7f1229f3941abaa3",
+    "trace_sha256": "bccfdf7e474cd1cf2c2532f745d4dc77e119a059b9f9a0287de7c0a0b7f63925",
+    "trace_bytes": 2614102,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 854,
+      "moves": 854,
+      "degree_changes": 854,
+      "seconds": 0.4761197919724509,
+      "trace_sha256": "bccfdf7e474cd1cf2c2532f745d4dc77e119a059b9f9a0287de7c0a0b7f63925",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100361,
+    "mode": "greedy",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100361",
+      "30",
+      "greedy",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100361-greedy/search"
+    ],
+    "started_utc": "2026-10-04T02:57:34.453424+00:00",
+    "finished_utc": "2026-10-04T02:58:04.809639+00:00",
+    "process_wall_seconds": 30.32838591595646,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 53511,
+      "proposals": 1551125760,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 30,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100361,
+        "seconds": 30,
+        "mode": "greedy",
+        "width": 1,
+        "fan": 1,
+        "depth": 1,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 53511,
+        "proposals": 1551125760,
+        "retained": 0,
+        "max_depth": 1,
+        "elapsed": 30,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "6e2b2d534c6b36367646a56575e33016070c976a33ba541305204543938c99b9",
+    "trace_sha256": "1e57aae8c969f06f69dfc06788eded443ce593ade6b69b3961da3c71a55072a0",
+    "trace_bytes": 163849135,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 53511,
+      "moves": 53511,
+      "degree_changes": 53511,
+      "seconds": 28.645953790983185,
+      "trace_sha256": "1e57aae8c969f06f69dfc06788eded443ce593ade6b69b3961da3c71a55072a0",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100362,
+    "mode": "beam",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100362",
+      "30",
+      "beam",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100362-beam/search"
+    ],
+    "started_utc": "2026-10-04T02:58:04.878422+00:00",
+    "finished_utc": "2026-10-04T02:58:34.975256+00:00",
+    "process_wall_seconds": 30.027708208072,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 683,
+      "proposals": 1165797760,
+      "retained": 94254,
+      "max_depth": 12,
+      "elapsed": 30.0004,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100362,
+        "seconds": 30,
+        "mode": "beam",
+        "width": 12,
+        "fan": 6,
+        "depth": 12,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 683,
+        "proposals": 1165797760,
+        "retained": 94254,
+        "max_depth": 12,
+        "elapsed": 30.0004,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "2b874e248f6ee1c18431bcf14ba86ec8d76d5ccf998f42136d55142c1b66641f",
+    "trace_sha256": "a7fdf43ba7c9a29769e59f22d2f3b6ccff2eda856c44eb10ead1ce44b5e1e5fa",
+    "trace_bytes": 2090611,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 683,
+      "moves": 683,
+      "degree_changes": 683,
+      "seconds": 0.3193321250146255,
+      "trace_sha256": "a7fdf43ba7c9a29769e59f22d2f3b6ccff2eda856c44eb10ead1ce44b5e1e5fa",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100362,
+    "mode": "greedy",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100362",
+      "30",
+      "greedy",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100362-greedy/search"
+    ],
+    "started_utc": "2026-10-04T02:58:04.878449+00:00",
+    "finished_utc": "2026-10-04T02:58:34.965709+00:00",
+    "process_wall_seconds": 30.008169875014573,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 42934,
+      "proposals": 1244993920,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 30.0001,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100362,
+        "seconds": 30,
+        "mode": "greedy",
+        "width": 1,
+        "fan": 1,
+        "depth": 1,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 42934,
+        "proposals": 1244993920,
+        "retained": 0,
+        "max_depth": 1,
+        "elapsed": 30.0001,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "55e93f4e382a71ce62ef1b91e8a24fab69554ab3492932513e3b425ad61c9571",
+    "trace_sha256": "39837794161c46e9020eec77270d3b79c4b50cf51500ad1f8eca1a6208fa8a97",
+    "trace_bytes": 131485542,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 42934,
+      "moves": 42934,
+      "degree_changes": 42934,
+      "seconds": 23.974841249990277,
+      "trace_sha256": "39837794161c46e9020eec77270d3b79c4b50cf51500ad1f8eca1a6208fa8a97",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100363,
+    "mode": "beam",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100363",
+      "30",
+      "beam",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100363-beam/search"
+    ],
+    "started_utc": "2026-10-04T02:58:35.072752+00:00",
+    "finished_utc": "2026-10-04T02:59:05.157016+00:00",
+    "process_wall_seconds": 30.053148917038925,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 745,
+      "proposals": 1270560000,
+      "retained": 102738,
+      "max_depth": 12,
+      "elapsed": 30.0002,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100363,
+        "seconds": 30,
+        "mode": "beam",
+        "width": 12,
+        "fan": 6,
+        "depth": 12,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 745,
+        "proposals": 1270560000,
+        "retained": 102738,
+        "max_depth": 12,
+        "elapsed": 30.0002,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "9010015b28561158e891910265b4b20e96e06c4ef762d3112e30d69fbc3aebb9",
+    "trace_sha256": "3ecd573440437e432dc36fec3e15d050548df4954f6dc78f38d7905e15fc7ff8",
+    "trace_bytes": 2280418,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 745,
+      "moves": 745,
+      "degree_changes": 745,
+      "seconds": 0.4980519589735195,
+      "trace_sha256": "3ecd573440437e432dc36fec3e15d050548df4954f6dc78f38d7905e15fc7ff8",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100363,
+    "mode": "greedy",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100363",
+      "30",
+      "greedy",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100363-greedy/search"
+    ],
+    "started_utc": "2026-10-04T02:58:35.072821+00:00",
+    "finished_utc": "2026-10-04T02:59:05.140521+00:00",
+    "process_wall_seconds": 30.03697741695214,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 46664,
+      "proposals": 1352739584,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 30,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100363,
+        "seconds": 30,
+        "mode": "greedy",
+        "width": 1,
+        "fan": 1,
+        "depth": 1,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 46664,
+        "proposals": 1352739584,
+        "retained": 0,
+        "max_depth": 1,
+        "elapsed": 30,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "516fe156ba85bf12eed89bed4facb555d3b032c83a4b22860b56abbdca3a1602",
+    "trace_sha256": "cc8b9356482aedab8004b43f2aebe2f997d862a168ec6e0414bfae4d9dd63d94",
+    "trace_bytes": 142910166,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 46664,
+      "moves": 46664,
+      "degree_changes": 46664,
+      "seconds": 24.587939416989684,
+      "trace_sha256": "cc8b9356482aedab8004b43f2aebe2f997d862a168ec6e0414bfae4d9dd63d94",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100364,
+    "mode": "beam",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100364",
+      "30",
+      "beam",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100364-beam/search"
+    ],
+    "started_utc": "2026-10-04T02:59:05.200519+00:00",
+    "finished_utc": "2026-10-04T02:59:35.296611+00:00",
+    "process_wall_seconds": 30.058021749951877,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 825,
+      "proposals": 1407405440,
+      "retained": 113802,
+      "max_depth": 12,
+      "elapsed": 30.0001,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100364,
+        "seconds": 30,
+        "mode": "beam",
+        "width": 12,
+        "fan": 6,
+        "depth": 12,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 825,
+        "proposals": 1407405440,
+        "retained": 113802,
+        "max_depth": 12,
+        "elapsed": 30.0001,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "44e600b0de11b089df003f853d9e6a2a210689597da99aaf33965b6e125f470c",
+    "trace_sha256": "910e481cca1363cf49d4a88101cdc26cd5fe2b973b0b87467b35db4747baa90d",
+    "trace_bytes": 2525338,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 825,
+      "moves": 825,
+      "degree_changes": 825,
+      "seconds": 0.4177319590235129,
+      "trace_sha256": "910e481cca1363cf49d4a88101cdc26cd5fe2b973b0b87467b35db4747baa90d",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100364,
+    "mode": "greedy",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100364",
+      "30",
+      "greedy",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100364-greedy/search"
+    ],
+    "started_utc": "2026-10-04T02:59:05.200562+00:00",
+    "finished_utc": "2026-10-04T02:59:35.294192+00:00",
+    "process_wall_seconds": 30.054577250033617,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 52064,
+      "proposals": 1505671936,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 30.0001,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100364,
+        "seconds": 30,
+        "mode": "greedy",
+        "width": 1,
+        "fan": 1,
+        "depth": 1,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 52064,
+        "proposals": 1505671936,
+        "retained": 0,
+        "max_depth": 1,
+        "elapsed": 30.0001,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "3cbecce5ea9db188b297eec501ba7cfc270a077a6b7712a2f0c4602db4b0dbeb",
+    "trace_sha256": "9902ab5b8dbcaf518cf36acc69d9ff41b658033d1388e22feeacf9fa216fd438",
+    "trace_bytes": 159444517,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 52064,
+      "moves": 52064,
+      "degree_changes": 52064,
+      "seconds": 29.523766875034198,
+      "trace_sha256": "9902ab5b8dbcaf518cf36acc69d9ff41b658033d1388e22feeacf9fa216fd438",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100365,
+    "mode": "beam",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100365",
+      "30",
+      "beam",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100365-beam/search"
+    ],
+    "started_utc": "2026-10-04T02:59:35.381092+00:00",
+    "finished_utc": "2026-10-04T03:00:05.420951+00:00",
+    "process_wall_seconds": 30.013212791993283,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 730,
+      "proposals": 1244935552,
+      "retained": 100668,
+      "max_depth": 12,
+      "elapsed": 30.0001,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100365,
+        "seconds": 30,
+        "mode": "beam",
+        "width": 12,
+        "fan": 6,
+        "depth": 12,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 730,
+        "proposals": 1244935552,
+        "retained": 100668,
+        "max_depth": 12,
+        "elapsed": 30.0001,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "9ad9d1259e2ed21b910600a10eba890c070a9d6c4a74e83b66ddd590800a81ef",
+    "trace_sha256": "f71c3a667fd9acfe5a4fd5de35a1874510b5023487b78c1bcf622e3c484376f2",
+    "trace_bytes": 2234500,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 730,
+      "moves": 730,
+      "degree_changes": 730,
+      "seconds": 0.5091754999011755,
+      "trace_sha256": "f71c3a667fd9acfe5a4fd5de35a1874510b5023487b78c1bcf622e3c484376f2",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100365,
+    "mode": "greedy",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100365",
+      "30",
+      "greedy",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100365-greedy/search"
+    ],
+    "started_utc": "2026-10-04T02:59:35.381128+00:00",
+    "finished_utc": "2026-10-04T03:00:05.457850+00:00",
+    "process_wall_seconds": 30.050691416021436,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 45954,
+      "proposals": 1332415104,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 30,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100365,
+        "seconds": 30,
+        "mode": "greedy",
+        "width": 1,
+        "fan": 1,
+        "depth": 1,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 45954,
+        "proposals": 1332415104,
+        "retained": 0,
+        "max_depth": 1,
+        "elapsed": 30,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "b6c69f98c5eca1f9b22c4838f073b7648f0b2b499128e5209ca0717f5a038cda",
+    "trace_sha256": "21f8b96e98380c8119b3e892f8f5534d2dea2cfb14358e20be83b7d1900de98e",
+    "trace_bytes": 140735127,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 45954,
+      "moves": 45954,
+      "degree_changes": 45954,
+      "seconds": 28.11367049999535,
+      "trace_sha256": "21f8b96e98380c8119b3e892f8f5534d2dea2cfb14358e20be83b7d1900de98e",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100366,
+    "mode": "beam",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100366",
+      "30",
+      "beam",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100366-beam/search"
+    ],
+    "started_utc": "2026-10-04T03:00:05.513225+00:00",
+    "finished_utc": "2026-10-04T03:00:35.568581+00:00",
+    "process_wall_seconds": 30.021135332994163,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 712,
+      "proposals": 1214237568,
+      "retained": 98184,
+      "max_depth": 12,
+      "elapsed": 30.0001,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100366,
+        "seconds": 30,
+        "mode": "beam",
+        "width": 12,
+        "fan": 6,
+        "depth": 12,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 712,
+        "proposals": 1214237568,
+        "retained": 98184,
+        "max_depth": 12,
+        "elapsed": 30.0001,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "603f98abd4c240b8531e5178c9a6ff2f79709fcb028dc8ac06a6567cc68565d9",
+    "trace_sha256": "ea47ca50e49c2db57cf724ef3e619abe4788b2f101047bdac576307241569090",
+    "trace_bytes": 2179373,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 712,
+      "moves": 712,
+      "degree_changes": 712,
+      "seconds": 0.3975546659203246,
+      "trace_sha256": "ea47ca50e49c2db57cf724ef3e619abe4788b2f101047bdac576307241569090",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  },
+  {
+    "seed": 2026100366,
+    "mode": "greedy",
+    "budget_seconds": 30,
+    "single_thread": true,
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+      "2026100366",
+      "30",
+      "greedy",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-paired-pilots-20261003/2026100366-greedy/search"
+    ],
+    "started_utc": "2026-10-04T03:00:05.513264+00:00",
+    "finished_utc": "2026-10-04T03:00:35.570997+00:00",
+    "process_wall_seconds": 30.023611790966243,
+    "native": {
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 44619,
+      "proposals": 1294526592,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 30,
+      "interrupted": false
+    },
+    "events": [
+      {
+        "seed": 2026100366,
+        "seconds": 30,
+        "mode": "greedy",
+        "width": 1,
+        "fan": 1,
+        "depth": 1,
+        "start_deficit": 3
+      },
+      {
+        "event": "final",
+        "best_deficit": 3,
+        "trees": 44619,
+        "proposals": 1294526592,
+        "retained": 0,
+        "max_depth": 1,
+        "elapsed": 30,
+        "interrupted": false
+      }
+    ],
+    "best_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "canonical_sha256": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "valid_cover": false,
+    "missing_triples": [
+      [
+        2,
+        7,
+        14
+      ],
+      [
+        2,
+        7,
+        15
+      ],
+      [
+        7,
+        14,
+        15
+      ]
+    ],
+    "stdout_sha256": "86d9ce004e36ea7808ecdd2bc5e13a44fe57c5a395827b6ee4b3113667c22d5f",
+    "trace_sha256": "a9f45d9a29111d69dadffad7f0c915c19abb45bf7a7b3d44aa7ccdb15bacefbf",
+    "trace_bytes": 136623390,
+    "best_double_verified": true,
+    "replay": {
+      "passed": true,
+      "all_saved_traces_replayed": true,
+      "traces": 44619,
+      "moves": 44619,
+      "degree_changes": 44619,
+      "seconds": 27.012493167072535,
+      "trace_sha256": "a9f45d9a29111d69dadffad7f0c915c19abb45bf7a7b3d44aa7ccdb15bacefbf",
+      "checker_sha256": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e"
+    }
+  }
+]

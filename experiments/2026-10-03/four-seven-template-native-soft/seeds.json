@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "name": "matching",
+      "catalog_path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "source_catalog_path": "experiments/scratch/four-seven-template-hull-refresh-108-20261003/matching/group-catalogs.json.gz",
+      "source_catalog_sha256": "84775683be806305fa6502e114b139c2b73eff31e9a2a3d798276176768744aa",
+      "templates_per_group": 12042,
+      "seed": 2026100381,
+      "seconds": 300,
+      "workers": 1,
+      "seed_path": "experiments/2026-10-03/four-seven-template-native-soft/matching-seed.txt",
+      "seed_sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+      "initial_holes": 21,
+      "template_ids_1based": [
+        451,
+        4896,
+        7373,
+        4203
+      ],
+      "parent_best_path": "experiments/2026-10-03/four-seven-template-native/matching-best.txt",
+      "parent_audit_sha256": "86cd939cac2f8402ae5f0107805a1f087f9993733672b9fd9c060c7804359028"
+    },
+    {
+      "name": "cycle",
+      "catalog_path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "source_catalog_path": "experiments/scratch/four-seven-template-hull-refresh-108-20261003/cycle/group-catalogs.json.gz",
+      "source_catalog_sha256": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35",
+      "templates_per_group": 25020,
+      "seed": 2026100382,
+      "seconds": 300,
+      "workers": 1,
+      "seed_path": "experiments/2026-10-03/four-seven-template-native-soft/cycle-seed.txt",
+      "seed_sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+      "initial_holes": 19,
+      "template_ids_1based": [
+        21609,
+        13873,
+        9403,
+        3270
+      ],
+      "parent_best_path": "experiments/2026-10-03/four-seven-template-native/cycle-best.txt",
+      "parent_audit_sha256": "86cd939cac2f8402ae5f0107805a1f087f9993733672b9fd9c060c7804359028"
+    }
+  ],
+  "scope": "Copy independently verified v1.0 best states; unchanged complete108 catalogs."
+}

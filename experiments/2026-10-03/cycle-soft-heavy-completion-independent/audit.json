@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checker_sha256": "4eaf205860ea8fa88af995a79f6f124ead0e2c5674921533e0d36882db8941d6",
+  "manifest_sha256": "1c3121dea28c9eb19fbaf65e3ca59d4b15fc0164f1150ec488733ddf9ff4ab3b",
+  "model_sha256": "ac8931997f965440408e1c975deba00a747e049f2f45b6d38e3ee2f675e5fbb9",
+  "source_base_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9",
+  "seed_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+  "seed_holes": 12,
+  "seed_score": 92,
+  "pair_l1": 12,
+  "nonheavy_excess": 4,
+  "fixed_heavy_blocks": 28,
+  "ordinary_blocks_fixed": 0,
+  "variables": 4768,
+  "constraints": 4298,
+  "damaged_controls": [
+    {
+      "control": "base domain",
+      "rejected": "base changed"
+    },
+    {
+      "control": "missing fix",
+      "rejected": "dimensions"
+    },
+    {
+      "control": "wrong variable",
+      "rejected": "heavy equality differs"
+    },
+    {
+      "control": "wrong coefficient",
+      "rejected": "heavy equality differs"
+    },
+    {
+      "control": "wrong bound",
+      "rejected": "heavy equality differs"
+    },
+    {
+      "control": "new model field",
+      "rejected": "base changed"
+    }
+  ],
+  "scope": "One four-template combination only. All ordinary completion choices free. No solver call and no exclusion or covering witness."
+}

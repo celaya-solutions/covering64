@@ -1,0 +1,451 @@
+{
+  "version": "v1.0.0",
+  "passed": true,
+  "recorded_utc": "2026-10-04T02:48:52.594000+00:00",
+  "source_revision": "7d130a4e6af150b25021e24e889e353f93adc951",
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "commands": [
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/scripts/check_cover.py",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "--v",
+        "16",
+        "--k",
+        "5",
+        "--t",
+        "3"
+      ],
+      "label": "seed-check",
+      "returncode": 1,
+      "elapsed": 0.027537666959688067
+    },
+    {
+      "command": [
+        "clang++",
+        "--version"
+      ],
+      "label": "compiler",
+      "returncode": 0,
+      "elapsed": 0.014503957936540246
+    },
+    {
+      "command": [
+        "clang++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O2",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/filter-fan-repair/search.cpp",
+        "-o",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search"
+      ],
+      "label": "compile-release",
+      "returncode": 0,
+      "elapsed": 1.088247667066753
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "--self-test",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/release"
+      ],
+      "label": "controls-release",
+      "returncode": 0,
+      "elapsed": 0.5120509169064462
+    },
+    {
+      "command": [
+        "clang++",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-O1",
+        "-g",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/filter-fan-repair/search.cpp",
+        "-o",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search-san"
+      ],
+      "label": "compile-sanitizer",
+      "returncode": 0,
+      "elapsed": 2.1884366249432787
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search-san",
+        "--self-test",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/sanitizer"
+      ],
+      "label": "controls-sanitizer",
+      "returncode": 0,
+      "elapsed": 0.6928672080393881
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-63-blocks.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "63-blocks",
+      "returncode": 2,
+      "elapsed": 0.0051455829525366426
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-65-blocks.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "65-blocks",
+      "returncode": 2,
+      "elapsed": 0.005031791981309652
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-duplicate-block.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "duplicate-block",
+      "returncode": 2,
+      "elapsed": 0.00543729099445045
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-duplicate-point.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "duplicate-point",
+      "returncode": 2,
+      "elapsed": 0.005578916985541582
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-zero-point.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "zero-point",
+      "returncode": 2,
+      "elapsed": 0.004617917002178729
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-large-point.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "large-point",
+      "returncode": 2,
+      "elapsed": 0.0048357920022681355
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-short-block.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "short-block",
+      "returncode": 2,
+      "elapsed": 0.004737584036774933
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-bad-token.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "bad-token",
+      "returncode": 2,
+      "elapsed": 0.004485707962885499
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid-empty.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "empty",
+      "returncode": 2,
+      "elapsed": 0.004944375017657876
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "0",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "zero-time",
+      "returncode": 2,
+      "elapsed": 0.005036499933339655
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "-1",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "negative-time",
+      "returncode": 2,
+      "elapsed": 0.004629959003068507
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "nan",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "nan-time",
+      "returncode": 2,
+      "elapsed": 0.004706250037997961
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "1junk",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "junk-time",
+      "returncode": 2,
+      "elapsed": 0.005246749962680042
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "-1",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "negative-seed",
+      "returncode": 2,
+      "elapsed": 0.004754166933707893
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "0.001",
+        "unknown",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid"
+      ],
+      "label": "bad-mode",
+      "returncode": 2,
+      "elapsed": 0.004669208079576492
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/invalid",
+        "0",
+        "6",
+        "12"
+      ],
+      "label": "bad-width",
+      "returncode": 2,
+      "elapsed": 0.005038916016928852
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "0.001",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/missing/output"
+      ],
+      "label": "unwritable-output",
+      "returncode": 2,
+      "elapsed": 0.004720374941825867
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search-san",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "0.25",
+        "beam",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/beam"
+      ],
+      "label": "beam",
+      "returncode": 0,
+      "elapsed": 0.27301458292640746
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/scripts/check_cover.py",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/beam-best.txt",
+        "--v",
+        "16",
+        "--k",
+        "5",
+        "--t",
+        "3"
+      ],
+      "label": "beam-check",
+      "returncode": 1,
+      "elapsed": 0.02920433389954269
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search-san",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt",
+        "2026100360",
+        "0.25",
+        "greedy",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/greedy"
+      ],
+      "label": "greedy",
+      "returncode": 0,
+      "elapsed": 0.2750784589443356
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/scripts/check_cover.py",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/greedy-best.txt",
+        "--v",
+        "16",
+        "--k",
+        "5",
+        "--t",
+        "3"
+      ],
+      "label": "greedy-check",
+      "returncode": 1,
+      "elapsed": 0.028069082996807992
+    },
+    {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/filter-fan-repair/check_traces.py",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/release-traces.jsonl",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/sanitizer-traces.jsonl",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/beam-traces.jsonl",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/greedy-traces.jsonl",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/interrupted-traces.jsonl",
+        "--output",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/replay.json"
+      ],
+      "label": "replay",
+      "returncode": 0,
+      "elapsed": 3.52197491703555
+    }
+  ],
+  "invalid_inputs_rejected": [
+    "63-blocks",
+    "65-blocks",
+    "duplicate-block",
+    "duplicate-point",
+    "zero-point",
+    "large-point",
+    "short-block",
+    "bad-token",
+    "empty",
+    "zero-time",
+    "negative-time",
+    "nan-time",
+    "junk-time",
+    "negative-seed",
+    "bad-mode",
+    "bad-width",
+    "unwritable-output"
+  ],
+  "smoke": [
+    {
+      "mode": "beam",
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 2,
+      "proposals": 2323200,
+      "retained": 204,
+      "max_depth": 12,
+      "elapsed": 0.250305,
+      "interrupted": false
+    },
+    {
+      "mode": "greedy",
+      "event": "final",
+      "best_deficit": 3,
+      "trees": 93,
+      "proposals": 2401408,
+      "retained": 0,
+      "max_depth": 1,
+      "elapsed": 0.250334,
+      "interrupted": false
+    }
+  ],
+  "interrupted": true,
+  "independent_replay": {
+    "passed": true,
+    "traces": 2017,
+    "replayed_moves": 12577,
+    "moves_changing_point_degrees": 12577
+  },
+  "hashes": {
+    "experiments/2026-10-03/filter-fan-repair/search.cpp": "2b674c341bc8e0e6214cb015dd60d573aa374d65a800bd765a6b27e2a5b7226e",
+    "experiments/2026-10-03/filter-fan-repair/check_traces.py": "3a4950dd339726d95c3ea763b211f2006c631305f082c7ab0b3671b53b21f00e",
+    "experiments/2026-10-03/filter-fan-repair/preflight.py": "d87709507788cdad97c19dae6253a72bcd9621a8b3c6c9a8e7a5aa2c3cbe8a40",
+    "experiments/scratch/heuristic-tabu-2026100301-deficit-3.txt": "d6dcfd2f1778f76c90ca67698865f683a44a6b69ddacad8f77cc4ee9021eacdf",
+    "experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search": "5ca6db3d7fcfe59004e907ad412817048be0b4d69a8ebd739decb2ca306e230d",
+    "experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/search-san": "2fe81ac484f9e3314de1129e32d85216ff652a64bacd76aa31fd624dc57a8dae",
+    "experiments/scratch/filter-fan-repair-v1.0.0-final-20261003/replay.json": "e602cca25fda7e2e4c33a1b5efcd097be81f103ebe798d53f39d64ca6488e1ec"
+  },
+  "scope": "Preflight and 0.25-second smoke only. Paired pilots require root review."
+}

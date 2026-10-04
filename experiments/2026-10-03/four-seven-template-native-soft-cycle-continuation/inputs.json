@@ -1,0 +1,65 @@
+{
+  "version": "v1.0.0",
+  "seed": 2026103972,
+  "seconds": 600,
+  "workers": 1,
+  "binary_path": "experiments/scratch/four-seven-template-native-v1.1.0/search",
+  "source_revision": "5df903825002fb7916857bcac8ade6fe60289ce9",
+  "native_environment": {
+    "source_sha256": "f20f5140aad14cb46f24cc49feb1d46decb90d18635ac413755b9fdebc0b51ed",
+    "source_revision": "5df903825002fb7916857bcac8ade6fe60289ce9",
+    "binaries": {
+      "search": "994e85a2b4afbfc7ca14b8c65304f5da66b9713dc99ac899634e8ab3727e0e0e",
+      "search-sanitize": "8b2b96d66847c6ba1117c67d2c5e8af5e7044ddb1d9f32cd32b163c699d109e4"
+    },
+    "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+    "platform": "Darwin Christophers-MacBook-Pro.local 27.0.0 Darwin Kernel Version 27.0.0: Wed Aug  5 22:04:40 PDT 2026; root:xnu-13432.1.6.501.1~1/RELEASE_ARM64_T6050 arm64\n",
+    "native_threads_per_process": 1,
+    "maximum_native_processes": 2,
+    "optimized_flags": [
+      "-std=c++17",
+      "-O3",
+      "-Wall",
+      "-Wextra",
+      "-Werror"
+    ],
+    "sanitizer_flags": [
+      "-std=c++17",
+      "-O1",
+      "-g",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-fsanitize=address,undefined",
+      "-fno-omit-frame-pointer"
+    ],
+    "source_snapshots": {
+      "controls.py": "024498fb60a9abe24268878911eef374ab9e8aff579e558d2a53b2accf23473d",
+      "run.py": "f269c0a5083feb36043895ba61b3f4544e7a60596fb88108b0d10b7acc108ead",
+      "audit.py": "179bf7d4e686134a05161d05817eaa1b0b5e75bb20a89d916ff1736f0b32479e",
+      "score-controls.py": "f39e4c04d00a6153a47107afaea6a2a2eefec166dd2f6cd39bf285b7a74e0523",
+      "diagnose.py": "cedcde4f37aef7bafb66e13e67eb02853110b6072d1127a0f6a0115d87edd7d9"
+    },
+    "seeds_sha256": "3b0bbb2bc3ce70416df5ffc95f59fe46226fd10473ec69ca9ec9686637ad9c25"
+  },
+  "files": {
+    "experiments/2026-10-03/four-seven-template-native-soft-cycle-continuation/run.py": "e35bd0fca8663492d3c8d389c5fe3da9710656ed487fa35d8a4bfb9cbc3dd9e0",
+    "experiments/2026-10-03/four-seven-template-native-soft-cycle-continuation/seeds.json": "de1fb0e6f1f17ece712b58bb19ab834eca7304a2c425ee3dbd14a8eb77726ef4",
+    "experiments/2026-10-03/four-seven-template-native-soft-cycle-continuation/cycle-seed.txt": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+    "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+    "experiments/scratch/four-seven-template-hull-refresh-108-20261003/cycle/group-catalogs.json.gz": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35",
+    "experiments/2026-10-03/four-seven-template-native-soft/cycle-raw-best.txt": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+    "experiments/scratch/four-seven-template-native-v1.1.0/search": "994e85a2b4afbfc7ca14b8c65304f5da66b9713dc99ac899634e8ab3727e0e0e",
+    "scripts/four_seven_template_soft_heuristic.cpp": "f20f5140aad14cb46f24cc49feb1d46decb90d18635ac413755b9fdebc0b51ed",
+    "experiments/2026-10-03/four-seven-template-native-soft/manifest.json": "7ec7ccf38365542fb3d325109cf46627239632a3033426029e49a89677b3b495",
+    "experiments/2026-10-03/four-seven-template-native-soft/seeds.json": "3b0bbb2bc3ce70416df5ffc95f59fe46226fd10473ec69ca9ec9686637ad9c25",
+    "experiments/2026-10-03/four-seven-template-native-soft/audit.py": "179bf7d4e686134a05161d05817eaa1b0b5e75bb20a89d916ff1736f0b32479e",
+    "experiments/2026-10-03/four-seven-template-native-soft/diagnose.py": "cedcde4f37aef7bafb66e13e67eb02853110b6072d1127a0f6a0115d87edd7d9",
+    "experiments/2026-10-03/four-seven-template-native-soft/pilot-audit.json": "22f8c77a52df7cc32874da938c130afa4fbd38cbe71697625abdee9e33e4b679",
+    "experiments/2026-10-03/four-seven-template-native-soft/summary.json": "1dcc765d95a7d724acc757f89ef23fb9606b06178888cafb9819bc8e20dbf9ad",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "uv.lock": "7c16c4cf38ece8bf42885d1bab9698ced20c0411036f43b2f21f1e8cb2c5e180"
+  },
+  "scope": "One cycle continuation only; unchanged v1.1 native source, binary, catalog and scoring."
+}

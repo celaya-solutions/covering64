@@ -1,0 +1,480 @@
+{
+  "passed": true,
+  "ordinary_candidates": 18,
+  "support_blocks": 7,
+  "replay": [
+    {
+      "block": [
+        3,
+        4,
+        5,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        6,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        7,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        8,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        11,
+        12,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        11,
+        15,
+        16
+      ],
+      "blockers": [
+        {
+          "pair": [
+            4,
+            11
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        5,
+        8,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        5,
+        11,
+        12,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 3,
+          "budget": 1
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        5,
+        11,
+        15,
+        16
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        6,
+        8,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        6,
+        11,
+        12,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 3,
+          "budget": 1
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        6,
+        11,
+        15,
+        16
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        7,
+        8,
+        11,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        7,
+        11,
+        12,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 3,
+          "budget": 1
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        7,
+        11,
+        15,
+        16
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        8,
+        11,
+        12,
+        15
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        8,
+        11,
+        15,
+        16
+      ],
+      "blockers": [
+        {
+          "pair": [
+            8,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    },
+    {
+      "block": [
+        3,
+        11,
+        12,
+        15,
+        16
+      ],
+      "blockers": [
+        {
+          "pair": [
+            3,
+            12
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            3,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        },
+        {
+          "pair": [
+            12,
+            15
+          ],
+          "excess": 2,
+          "budget": 1
+        }
+      ]
+    }
+  ],
+  "certificate_sha256": "452a3adfc3f216ef91cea3889f09457f907cb5a56a5deca1403ea24372f66ee2",
+  "checker_sha256": "9e69fdbde426fb026cdbec7c8d74cc72657ad1c513882f324fd9ae01207b58b7",
+  "scope": "Fixed heavy tuple, regular point degree 20; anchor-pair budgets only"
+}

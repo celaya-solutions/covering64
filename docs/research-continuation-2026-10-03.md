@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.6.0
+Version:     v1.8.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      8ceeda6b19b427bc71e03b4417ecd071d35ea407006e08bfcbe49d082f3472bb
+SHA256:      cce07915619a73f9bfabd32624aad0fc6b6eb983c692a1bc4140e4b6d57907ea
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -13,8 +13,8 @@ License:     All Rights Reserved / Celaya Solutions
 # Research continuation
 
 No verified 64-block cover has been found. The strongest current first-link
-screen has 108 independently checked exclusions out of 258 cases in the regular
-four-sevenfold branch: 27 cycle and 81 matching. The remaining 150 are open.
+screen has 109 independently checked exclusions out of 258 cases in the regular
+four-sevenfold branch: 27 cycle and 82 matching. The remaining 149 are open.
 This is a branch result, not a global lower bound.
 
 The six exhaustive hub-count cases exclude matching-077 in all six. Every one
@@ -247,3 +247,79 @@ verified the full source-audit chain, checked 1,189 small signed/weighted rows o
 4,756 assignments, and rejected six damaged clause fixtures. The translation
 gate covers 7,531,645 clauses across both models. It proves encoding equivalence
 only; the proof-producing searches and proof-check results remain separate work.
+
+## First checked integer exclusion and new construction pools
+
+Matching-029 is now excluded in all six hub cases. The last case, (0,2), has a
+CaDiCaL proof accepted by the separate pinned DRAT-trim checker. Root replayed
+the binding and the other five exact rational certificates, including all
+model, CNF, proof, tool and log hashes. The immutable new union has **109 checked
+first-link exclusions and 149 open**, comprising 102 cycle and 47 matching.
+This remains only the regular four-sevenfold branch. The saved native solver
+time for the new case is 192.38 seconds; a lost Python timing receipt remains
+unknown. The first matching-063 proof run timed out and is not an exclusion.
+
+The first soft-score template pilots preserve all original legal moves and
+score holes, pair-target errors and nonheavy overcoverage separately. Matching
+reached 17 raw holes (score 116), with a separate score-best at 19 holes (106).
+Cycle reached 12 holes with score 92. All 118 saved states and 32 move traces
+were independently recounted and checked by both covering verifiers; no cover
+was found. A longer cycle continuation uses a new immutable run and the same
+audited source, catalog and score.
+
+A source-backed filter-and-fan search tried linked block-replacement paths from
+the unrestricted three-hole seed. All twelve approved 30-second runs stayed at
+three holes. Their 290,295 saved traces/moves and all best witnesses were checked.
+The paired policies differ in acceptance as well as branching, so this is not
+an isolated measurement of beam width. The large raw traces stay outside Git.
+
+Two independent finite-field constructions agree on the Steiner 3-(17,5,1)
+design, its 48 finite circles and 20 four-point affine lines. The pool containing
+those circles and all 240 line extensions has 288 five-point blocks. Its exact64
+pilot returned UNKNOWN after 60.006202 solver seconds. A broader pool contains
+all 288 five-point caps and the 240 line extensions. Its 528-variable model and
+separate necessary point/pair cuts passed independent reconstruction and damaged
+controls. The broader incidence-cut construction pilot returned UNKNOWN after 300.02201 solver seconds with eight workers. No witness or exclusion resulted.
+
+A smaller matching-063 CNF also passed independent deduction and clause checks:
+2,928 row-reason steps establish 15,663 Boolean values; substitution preserves
+all original constraints and reduces the CNF to 2,285,639 clauses. This is an
+equivalent restricted encoding, not an infeasibility proof. Its new bounded
+binary-proof pilot and separate certificate check remain active work.
+
+## Completed continuation and construction diagnosis
+
+The unchanged 600-second cycle continuation made 490,972,432 proposals and 981
+restarts. Both best states remained the same 12-hole, score-92 seed. All 40
+saved states and 16 operation records passed the independent audit and both
+covering checkers confirmed their positive deficits. These are checked partial
+states, not covering witnesses.
+
+Fixing only that seed's 28 heavy blocks leaves all 36 ordinary choices free.
+The independently reconstructed completion model returned CP-SAT INFEASIBLE in
+presolve (0.014561 solver seconds, one worker, seed 2026104101). This solver
+response alone is not a proof certificate; the diagnosed scope is this one
+heavy-template combination.
+
+A new finite counting check excludes choosing exactly one extension of each
+affine line while retaining at most 46 of the fixed 48 circles. Every pair of
+removed circles has a conflicting secant line, verified over all 1,128 pairs.
+Thus that specific construction subcase needs at least 67 blocks. This does not
+extend to multiple extensions per line or to the unrestricted covering problem.
+See `affine-single-extension-obstruction` for the argument and complete audit.
+
+The checkpoint passed `uv sync --frozen`, all 314 tests (three existing SWIG
+warnings), and Ruff. The 64-block target remains open. The best unrestricted
+partial still misses three triples.
+
+The cycle-heavy conflict now has a separate finite certificate, independently
+replayed from seven supporting blocks. All 18 allowed ordinary blocks that
+could cover `(3,11,15)` exceed a forced anchor-pair excess budget. This proves
+that this heavy tuple cannot complete within the degree-20 family, without
+assuming hub-to-hub pair counts. It does not exclude a full first-link case.
+
+A second independent geometric count checks all 1,712,304 five-circle omissions
+in the fixed 48-circle pool. With exactly 21 extensions, the maximum incidence
+capacity is 46 versus the required 50. Thus both the 20-extension and
+21-extension subcases are excluded for a 64-block cover in that pool. The
+six-family construction and all other unrestricted families remain open.

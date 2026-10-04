@@ -1,0 +1,478 @@
+{
+  "passed": true,
+  "case": "matching-029",
+  "checked_hub_cases": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ]
+  ],
+  "fixed_ids": [
+    0,
+    4,
+    26,
+    38,
+    47,
+    63,
+    77
+  ],
+  "fixed_blocks": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      9
+    ],
+    [
+      1,
+      2,
+      3,
+      6,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      7,
+      13
+    ],
+    [
+      1,
+      2,
+      3,
+      8,
+      14
+    ],
+    [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    [
+      1,
+      2,
+      3,
+      15,
+      16
+    ]
+  ],
+  "cnf_audit_sha256": "d9d5ec77c773c9c0ccc49031837e3cd8916a5d9ecd0d35f7ba42494f077e30b6",
+  "hub_split_audit_sha256": "a431938c8cd043538a17e65336284b76c490f69d3d7011d8e9ec0d8380a4b3e8",
+  "tools_sha256": "c3551eac21c41482965d7527dda36a8384808cad954b1f0959e5a62d2db48a05",
+  "receipt_sha256": "8dc01d57e660343fc09d6a5260b2e578d006802e335ab0e632491d6bf0fbc275",
+  "proof_sha256": "55c1f867fd61b9034f30a1ee1d433c1c5ec19a20bcb72999df80a5778e5e326f",
+  "proof_bytes": 274200211,
+  "prior_five_certificates_sha256": "2261d097c292ba2d65ed625315061d87215ed01870423149173692e41fb2729b",
+  "lp_checks": [
+    {
+      "hub_case": [
+        0,
+        0
+      ],
+      "audit_sha256": "ccca716fe299717b7b458f6bbc41b07ea9fdda2c5fedcf3a01ff032c5169a29f",
+      "gap": [
+        332781,
+        500000
+      ],
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2623
+    },
+    {
+      "hub_case": [
+        0,
+        1
+      ],
+      "audit_sha256": "24fb3b920b8e1f1cbb04b344fe976b9654d27428444842b3d779bcd2198ad9f9",
+      "gap": [
+        5201,
+        100000
+      ],
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 3377
+    },
+    {
+      "hub_case": [
+        1,
+        0
+      ],
+      "audit_sha256": "8b9859bacec037eede19206877abfa76c41f913dd8f83f842e643bd265e1f3cb",
+      "gap": [
+        374723,
+        250000
+      ],
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1041
+    },
+    {
+      "hub_case": [
+        1,
+        1
+      ],
+      "audit_sha256": "b68aa9191c9eabdaa21b4001db5ea5c5a2415c51096c1951ca229fc92ffebef6",
+      "gap": [
+        6781,
+        10000
+      ],
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 2150
+    },
+    {
+      "hub_case": [
+        1,
+        2
+      ],
+      "audit_sha256": "3e2469f8be741e87e484985efdb35f709e851a93a01de0e91df93d9111e84e09",
+      "gap": [
+        217109,
+        1000000
+      ],
+      "rows": 12423,
+      "columns": 4768,
+      "nonzero_weights": 1223
+    }
+  ],
+  "bindings": [
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cnf/manifest.json",
+      "sha256": "b7e5e8efc0f643f86eb7b254f0e6ad2408582712c8c6a384f47b674e5c1fc2cf",
+      "bytes": 2378
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cnf-independent/check.py",
+      "sha256": "64ccc4c6bccd7222ae2b4808999f1072bb754a948e69d9899b700bacea0acac0",
+      "bytes": 13338
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cnf/build.py",
+      "sha256": "4fc5f86cf00426c1abae09a76c8c1f641560f9d8e9232be29a0d8369329af26c",
+      "bytes": 9748
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-restricted/manifest.json",
+      "sha256": "38e8854797e5775bec5da9834218b2a4a8ded191274d4a472e047505f06378dc",
+      "bytes": 6901
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-restricted/check_independent.py",
+      "sha256": "c467ec0b3b1e078b201f3f9735264babdac77a3ad3debd1d071d7f57a3cadf03",
+      "bytes": 7842
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-restricted/build.py",
+      "sha256": "b33ea0e60a309b39af0837d3ceeef5704fb001caa751d4130eba628b51c28ce9",
+      "bytes": 7980
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-restricted/manifest.json",
+      "sha256": "38e8854797e5775bec5da9834218b2a4a8ded191274d4a472e047505f06378dc",
+      "bytes": 6901
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-restricted/independent-audit.json",
+      "sha256": "594641767d810c30f233ef6854433f84a6dde1793691e7e8046a8b6df7b8f04f",
+      "bytes": 3139
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-proposal/manifest.json",
+      "sha256": "f50b6693a81d65b6b21526b0f2a2fcc33ac141bd5afd5e9c9400e9973800faed",
+      "bytes": 2639
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-template-cp-proposal/independent-audit.json",
+      "sha256": "bddc317f432eca9793a5f82e0788c00e9ce18d884d68817da6f1b843ac6a1026",
+      "bytes": 3600
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-029.pbtxt",
+      "sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+      "bytes": 18912705
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cp-v1.0.0-prepared/matching-boolean-templates.pbtxt",
+      "sha256": "8a1c633f6f885a738349baa0f91d0b155400158c3f6ebca71fe8f072a436143c",
+      "bytes": 18903673
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-029-added-rows.json",
+      "sha256": "732451b9c859c8e46373483201706e1bb7be834ee0627b4bab2998f034739a1b",
+      "bytes": 6558
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cnf-v1.0.0/matching-029.cnf",
+      "sha256": "884167e3dbf6ad9ac16672511e29d1362469ec5a3f7839c1fcddf5a7b074a589",
+      "bytes": 76410492
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-cnf-v1.0.0/matching-029-rows.json.gz",
+      "sha256": "b36bd00355b2c4f963b396c257884ff7edf9515f977c2a0489776ab8b452e2f3",
+      "bytes": 402356
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/proof.drat",
+      "sha256": "55c1f867fd61b9034f30a1ee1d433c1c5ec19a20bcb72999df80a5778e5e326f",
+      "bytes": 274200211
+    },
+    {
+      "path": "experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+      "sha256": "84847be83c87d6967271f1835bfb17ef74f0a23d406254cd5377e90983c205f4",
+      "bytes": 1492984
+    },
+    {
+      "path": "experiments/scratch/proof-tools-20261003/cadical-source.tar.gz",
+      "sha256": "9d3ebf4ea9cc4751dc2aa218f97e615b3a07668b32d81efe98a00ef6466c1dab",
+      "bytes": 885789
+    },
+    {
+      "path": "experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+      "sha256": "d9ae0d6d99e7496ba33d7bfff6f0b6817de314c80995cf9ef417a0dc969a6f13",
+      "bytes": 70120
+    },
+    {
+      "path": "experiments/scratch/proof-tools-20261003/drat-trim-source.tar.gz",
+      "sha256": "29d2ddad9926786151c88ebadc312b9b86aab23b0a027e93ef6a20e1a36f93df",
+      "bytes": 7294411
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/solver.stdout.log",
+      "sha256": "732ff6de66a2c546bbb9cb289d553385a0ac72eae0569f29349f779321f3cfa3",
+      "bytes": 25945
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/solver.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/checker.stdout.log",
+      "sha256": "0997c5378bfff08ea700535c80553ecb48a4455a914cedc5e00d4626655807f4",
+      "bytes": 481
+    },
+    {
+      "path": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/checker.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-0-audit.json",
+      "sha256": "ccca716fe299717b7b458f6bbc41b07ea9fdda2c5fedcf3a01ff032c5169a29f",
+      "bytes": 27431
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-0/metadata.json",
+      "sha256": "dda5f74f7ad84bf98f408a712e9c4b2b5e7389c51ee9171716a80d5b3025e1d8",
+      "bytes": 9329574
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-0/representatives.json",
+      "sha256": "27c0e77561c37b86dd60b85427256b30f6ce9433a87edd39c41ed73dc69e601d",
+      "bytes": 87813
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-0/matching-base.pbtxt",
+      "sha256": "abf4221405f06a574110ca4d2baaf6f98d4f4375e2b60168da9cff59ebbf92ca",
+      "bytes": 3280144
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-0/matching-rows.json.gz",
+      "sha256": "c88e50a2f92490a67eeaa93eae4a85376fbdc63089ff945cc13eee3fcd2507b5",
+      "bytes": 207328
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-0/results.json.gz",
+      "sha256": "24566c2f9c2794c1db62c670e196267044c1b8149da9c805f9c1a8f8a52dcd05",
+      "bytes": 921754
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-hub-count-screen/m4-0-z-1-audit.json",
+      "sha256": "24fb3b920b8e1f1cbb04b344fe976b9654d27428444842b3d779bcd2198ad9f9",
+      "bytes": 22160
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-1/metadata.json",
+      "sha256": "787ccdc7fd5720261f2718bfdcc8facaddf4d9adc86365610773b45be368e34d",
+      "bytes": 9329574
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-1/representatives.json",
+      "sha256": "27c0e77561c37b86dd60b85427256b30f6ce9433a87edd39c41ed73dc69e601d",
+      "bytes": 87813
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-1/matching-base.pbtxt",
+      "sha256": "e4041feb1849b89e51c22f4f6fe47f1a3435e6d2a6053b7aca636522593c2b2b",
+      "bytes": 3280144
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-1/matching-rows.json.gz",
+      "sha256": "5bd8e5ce5e429266f569cf0c2c13c12a5e11e0cd6e5bbb1d90ffb61605f56585",
+      "bytes": 207330
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-0-z-1/results.json.gz",
+      "sha256": "ef870defa0535cba5fa9b7b7acd19d51410d4e9a30aef7eb4a18103198fc79c3",
+      "bytes": 261763
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-0-audit.json",
+      "sha256": "8b9859bacec037eede19206877abfa76c41f913dd8f83f842e643bd265e1f3cb",
+      "bytes": 34007
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-0/metadata.json",
+      "sha256": "c3d879ed12584ba2026bb316944fcec137aa60005ab56f27ce2bb7b8357f4db3",
+      "bytes": 9329574
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-0/representatives.json",
+      "sha256": "27c0e77561c37b86dd60b85427256b30f6ce9433a87edd39c41ed73dc69e601d",
+      "bytes": 87813
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-0/matching-base.pbtxt",
+      "sha256": "6d06515ac54754ff4dd197c72421f3f8f9c9f569b4a5996a115ca5ef8c5fcbfd",
+      "bytes": 3280144
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-0/matching-rows.json.gz",
+      "sha256": "6fd7cfd2f4c0653800674e192b89097bbf7024615f83f750fc0879f70ec800e3",
+      "bytes": 207331
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-0/results.json.gz",
+      "sha256": "c21cb9ca533386b8df4019b47e269f5ae8228de2e154b095e39d16c9fcafe57d",
+      "bytes": 1895032
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-1-audit.json",
+      "sha256": "b68aa9191c9eabdaa21b4001db5ea5c5a2415c51096c1951ca229fc92ffebef6",
+      "bytes": 30286
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-1/metadata.json",
+      "sha256": "af90079d53bd2388aaf0b0ec8b9c75901fc1b1e041754af4f266273f2e6780bd",
+      "bytes": 9329574
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-1/representatives.json",
+      "sha256": "27c0e77561c37b86dd60b85427256b30f6ce9433a87edd39c41ed73dc69e601d",
+      "bytes": 87813
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-1/matching-base.pbtxt",
+      "sha256": "26dadc3178f89a181551ff5baced3cde9355e88a5b366d332c5a6d29afb6aa94",
+      "bytes": 3280144
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-1/matching-rows.json.gz",
+      "sha256": "b0954b77082b23d830cdee54383ff110f6dd7da5399f0bac149ce052c76e9ff3",
+      "bytes": 207333
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-1/results.json.gz",
+      "sha256": "05c4f861ef18a3ecad8577997baa6db02b5b17dac884968b62fe453f42a2e57d",
+      "bytes": 1456203
+    },
+    {
+      "path": "experiments/2026-10-03/four-seven-hub-count-screen/m4-1-z-2-audit.json",
+      "sha256": "3e2469f8be741e87e484985efdb35f709e851a93a01de0e91df93d9111e84e09",
+      "bytes": 28048
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-2/metadata.json",
+      "sha256": "e516ab4496f7fde6e68867ffa4e0423a851aa162a780d7e03362da369fc99b47",
+      "bytes": 9329574
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-2/representatives.json",
+      "sha256": "27c0e77561c37b86dd60b85427256b30f6ce9433a87edd39c41ed73dc69e601d",
+      "bytes": 87813
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-2/matching-base.pbtxt",
+      "sha256": "2a9bd295955c0c4e2ec1e7782f62326fa05ad773de12e7c37b71e173d6e44381",
+      "bytes": 3280144
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-2/matching-rows.json.gz",
+      "sha256": "e04bdd24e0bd0b68898770d4b9159f9c6eb68cb0c45b6eda32e2d867171d3c53",
+      "bytes": 207332
+    },
+    {
+      "path": "experiments/scratch/four-seven-hub-campaign-v1.0.0/m4-1-z-2/results.json.gz",
+      "sha256": "e2d817188dc9e56dd2ca6aed48f1ab7109b0eafea63c1e8c25fdb7120bb39953",
+      "bytes": 1069623
+    }
+  ],
+  "damaged_controls": [
+    {
+      "mutation": "unchecked receipt",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong hub",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong fixed block",
+      "rejected": true
+    },
+    {
+      "mutation": "wrong CNF",
+      "rejected": true
+    },
+    {
+      "mutation": "failed checker",
+      "rejected": true
+    },
+    {
+      "mutation": "missing acceptance",
+      "rejected": true
+    },
+    {
+      "mutation": "missing or duplicate hub case",
+      "rejected": true
+    },
+    {
+      "mutation": "missing or duplicate hub case",
+      "rejected": true
+    }
+  ],
+  "checker_sha256": "e27b0b20c4d14ffac48279cd7d2be1e0928645bdd4a1cda0b27ca04fd9d8fca5",
+  "prior_registry_sha256": "2809b2f39fac1971ca6bf3997e789a4a41463b62394e7525e5d282d084527f88",
+  "scope": "All six hub cases excluded for matching-029 within the normalized regular four-sevenfold branch only. DRAT verification receipt is bound, not rerun. No unrestricted theorem or cover."
+}

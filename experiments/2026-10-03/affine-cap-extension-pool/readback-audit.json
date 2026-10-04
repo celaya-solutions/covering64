@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "checker_sha256": "46609d96d83bf9880df3a69cc137c59cb6ad2b872e006e0d124fb65bb54a4c8c",
+  "result_sha256": "0e49dd724f407da0a6ddd84d3c35940448f40f12e02314be76ec7c6314bcb6a7",
+  "status": "UNKNOWN",
+  "solver_calls": 0,
+  "damaged_controls": [
+    {
+      "field": "status",
+      "rejected": true
+    },
+    {
+      "field": "requested_seconds",
+      "rejected": true
+    },
+    {
+      "field": "workers",
+      "rejected": true
+    },
+    {
+      "field": "seed",
+      "rejected": true
+    },
+    {
+      "field": "branches",
+      "rejected": true
+    },
+    {
+      "field": "model_sha256",
+      "rejected": true
+    },
+    {
+      "field": "independently_proved_infeasible",
+      "rejected": true
+    }
+  ],
+  "scope": "Frozen restricted solver result readback only."
+}

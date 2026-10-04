@@ -1,0 +1,262 @@
+{
+  "version": "v1.0.1",
+  "builder_sha256": "b42a5bdc153ad59fcdef36773e9a99fc283f1ce2a7170504fce14330bd9374d6",
+  "git_revision": "5df903825002fb7916857bcac8ade6fe60289ce9",
+  "ortools_version": "9.15.6755",
+  "case": "cycle",
+  "source_seed": "experiments/2026-10-03/four-seven-template-native-soft/cycle-raw-best.txt",
+  "source_seed_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+  "seed_holes": 12,
+  "seed_score": 92,
+  "pilot_summary_sha256": "1dcc765d95a7d724acc757f89ef23fb9606b06178888cafb9819bc8e20dbf9ad",
+  "pilot_audit_sha256": "22f8c77a52df7cc32874da938c130afa4fbd38cbe71697625abdee9e33e4b679",
+  "template_ids_1based": [
+    20588,
+    13504,
+    5835,
+    20047
+  ],
+  "fixed_ids": [
+    6,
+    9,
+    14,
+    25,
+    35,
+    70,
+    74,
+    814,
+    876,
+    1356,
+    1876,
+    2300,
+    2347,
+    2593,
+    3011,
+    3076,
+    3081,
+    3242,
+    3578,
+    3586,
+    3596,
+    3838,
+    4046,
+    4077,
+    4173,
+    4241,
+    4245,
+    4311
+  ],
+  "fixed_blocks": [
+    [
+      1,
+      2,
+      3,
+      4,
+      11
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      14
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      6,
+      9
+    ],
+    [
+      1,
+      2,
+      3,
+      7,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      12,
+      15
+    ],
+    [
+      1,
+      2,
+      3,
+      13,
+      16
+    ],
+    [
+      1,
+      4,
+      9,
+      10,
+      11
+    ],
+    [
+      1,
+      5,
+      6,
+      7,
+      14
+    ],
+    [
+      1,
+      11,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      5,
+      6,
+      7,
+      13
+    ],
+    [
+      2,
+      9,
+      10,
+      11,
+      16
+    ],
+    [
+      2,
+      10,
+      13,
+      14,
+      15
+    ],
+    [
+      3,
+      5,
+      6,
+      7,
+      15
+    ],
+    [
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      3,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      4,
+      5,
+      13,
+      14,
+      15
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    [
+      5,
+      6,
+      7,
+      9,
+      12
+    ],
+    [
+      5,
+      6,
+      7,
+      10,
+      16
+    ],
+    [
+      5,
+      9,
+      10,
+      11,
+      14
+    ],
+    [
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      6,
+      9,
+      13,
+      14,
+      15
+    ],
+    [
+      7,
+      9,
+      10,
+      11,
+      13
+    ],
+    [
+      7,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      15
+    ],
+    [
+      8,
+      13,
+      14,
+      15,
+      16
+    ]
+  ],
+  "source_catalog": "experiments/scratch/four-seven-template-hull-refresh-108-20261003/cycle/group-catalogs.json.gz",
+  "source_catalog_sha256": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35",
+  "source_base": "experiments/scratch/four-seven-link-lp-full/cycle-base.pbtxt",
+  "source_base_sha256": "5cbaba3a581ab485a1ebd5adc3a328ff53c963a414fadc773bb9687abead02d9",
+  "base_manifest_sha256": "f50b6693a81d65b6b21526b0f2a2fcc33ac141bd5afd5e9c9400e9973800faed",
+  "base_audit_sha256": "bddc317f432eca9793a5f82e0788c00e9ce18d884d68817da6f1b843ac6a1026",
+  "model": "experiments/scratch/cycle-soft-heavy-completion-v1.0.1/cycle-heavy-completion.pbtxt",
+  "model_sha256": "ac8931997f965440408e1c975deba00a747e049f2f45b6d38e3ee2f675e5fbb9",
+  "variables": 4768,
+  "preserved_rows": 4270,
+  "added_equalities": 28,
+  "rows": 4298,
+  "original_proto_preserved": true,
+  "ordinary_blocks_fixed": 0,
+  "scope": "Prepared restricted heavy-combination completion diagnostic only. No solve, exclusion or cover."
+}

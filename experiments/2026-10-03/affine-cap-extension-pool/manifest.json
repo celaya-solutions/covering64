@@ -1,0 +1,48 @@
+{
+  "version": "v1.0.0",
+  "created_utc": "2026-10-04T03:18:20.006566+00:00",
+  "builder_sha256": "0cb8ec146730ad3b1caf5297a48432c99a54de2639825d35a590b2624be9005d",
+  "source_pool_sha256": "733d336edbb793c8fa0fb1c228b8ab72b2dd512e61683c0b7a6600b3318a22ed",
+  "source_audit_sha256": "45ff6e9c85b8b83467b333357e9b6425d1c6571d39c0d9d9927b9532a7a4f45b",
+  "source_revision": "5df903825002fb7916857bcac8ade6fe60289ce9",
+  "ortools_version": "9.15.6755",
+  "pool": "experiments/scratch/affine-cap-extension-pool-20261003/pool.json",
+  "pool_sha256": "d88f826ebae519e09b5e6a0a0c1fcde1420ce5116a15de4c2b5430f0e1ec569a",
+  "caps": 288,
+  "extensions": 240,
+  "full_universe_collinear_count_distribution": {
+    "1": 2400,
+    "0": 288,
+    "2": 1440,
+    "4": 240
+  },
+  "triple_support_distribution": {
+    "9": 480,
+    "12": 80
+  },
+  "models": [
+    {
+      "name": "base",
+      "path": "experiments/scratch/affine-cap-extension-pool-20261003/exact64-base.pbtxt",
+      "sha256": "f6a2a4f11b5760692f659e212e661dd5cc81c069876e9df91ed260b0a27d0613",
+      "variables": 528,
+      "rows": 561,
+      "target_blocks": 64,
+      "added_point_rows": 0,
+      "added_pair_rows": 0
+    },
+    {
+      "name": "incidence-cuts",
+      "path": "experiments/scratch/affine-cap-extension-pool-20261003/exact64-incidence-cuts.pbtxt",
+      "sha256": "499a80a8911a33c0effb543dadd5edd0b89c98fd235cbf1ccd379afde620a2be",
+      "variables": 528,
+      "rows": 697,
+      "target_blocks": 64,
+      "added_point_rows": 16,
+      "added_pair_rows": 120
+    }
+  ],
+  "safe_cut_argument": "Each pair has 14 triples, while a block through that pair covers only 3, hence pair incidence is at least 5. For a fixed point, summing its 15 pair incidences gives 4 times its block incidence, so 4r>=75 and integer r>=19.",
+  "solver_calls": 0,
+  "scope": "Only the 528-block cap/line-extension pool. The optional incidence inequalities are necessary for every covering; no exact profile, cap count, extension count or symmetry is imposed. No global claim."
+}

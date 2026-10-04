@@ -1,0 +1,827 @@
+{
+  "version": "v1.0.0",
+  "manifest_sha256": "1c3121dea28c9eb19fbaf65e3ca59d4b15fc0164f1150ec488733ddf9ff4ab3b",
+  "point_degrees": 20,
+  "heavy_blocks": [
+    [
+      1,
+      2,
+      3,
+      4,
+      11
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      14
+    ],
+    [
+      1,
+      2,
+      3,
+      5,
+      8
+    ],
+    [
+      1,
+      2,
+      3,
+      6,
+      9
+    ],
+    [
+      1,
+      2,
+      3,
+      7,
+      10
+    ],
+    [
+      1,
+      2,
+      3,
+      12,
+      15
+    ],
+    [
+      1,
+      2,
+      3,
+      13,
+      16
+    ],
+    [
+      1,
+      4,
+      9,
+      10,
+      11
+    ],
+    [
+      1,
+      5,
+      6,
+      7,
+      14
+    ],
+    [
+      1,
+      11,
+      13,
+      14,
+      15
+    ],
+    [
+      2,
+      5,
+      6,
+      7,
+      13
+    ],
+    [
+      2,
+      9,
+      10,
+      11,
+      16
+    ],
+    [
+      2,
+      10,
+      13,
+      14,
+      15
+    ],
+    [
+      3,
+      5,
+      6,
+      7,
+      15
+    ],
+    [
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      3,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      4,
+      5,
+      13,
+      14,
+      15
+    ],
+    [
+      5,
+      6,
+      7,
+      8,
+      11
+    ],
+    [
+      5,
+      6,
+      7,
+      9,
+      12
+    ],
+    [
+      5,
+      6,
+      7,
+      10,
+      16
+    ],
+    [
+      5,
+      9,
+      10,
+      11,
+      14
+    ],
+    [
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    [
+      6,
+      9,
+      13,
+      14,
+      15
+    ],
+    [
+      7,
+      9,
+      10,
+      11,
+      13
+    ],
+    [
+      7,
+      13,
+      14,
+      15,
+      16
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      15
+    ],
+    [
+      8,
+      13,
+      14,
+      15,
+      16
+    ]
+  ],
+  "support_blocks": [
+    [
+      1,
+      2,
+      3,
+      4,
+      11
+    ],
+    [
+      1,
+      2,
+      3,
+      12,
+      15
+    ],
+    [
+      1,
+      4,
+      9,
+      10,
+      11
+    ],
+    [
+      3,
+      5,
+      6,
+      7,
+      15
+    ],
+    [
+      3,
+      12,
+      13,
+      14,
+      15
+    ],
+    [
+      8,
+      9,
+      10,
+      11,
+      15
+    ],
+    [
+      8,
+      13,
+      14,
+      15,
+      16
+    ]
+  ],
+  "uncovered_triple": [
+    3,
+    11,
+    15
+  ],
+  "ordinary_candidate_count": 18,
+  "blocked_candidates": [
+    {
+      "block": [
+        3,
+        4,
+        5,
+        11,
+        15
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            5,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        6,
+        11,
+        15
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            6,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        7,
+        11,
+        15
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            7,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        8,
+        11,
+        15
+      ],
+      "pair": [
+        4,
+        11
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            1,
+            4,
+            11
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            4,
+            11
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        11,
+        12,
+        15
+      ],
+      "pair": [
+        3,
+        12
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        4,
+        11,
+        15,
+        16
+      ],
+      "pair": [
+        4,
+        11
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            1,
+            4,
+            11
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            4,
+            11
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        5,
+        8,
+        11,
+        15
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            5,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        5,
+        11,
+        12,
+        15
+      ],
+      "pair": [
+        3,
+        12
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        5,
+        11,
+        15,
+        16
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            5,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        6,
+        8,
+        11,
+        15
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            6,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        6,
+        11,
+        12,
+        15
+      ],
+      "pair": [
+        3,
+        12
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        6,
+        11,
+        15,
+        16
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            6,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        7,
+        8,
+        11,
+        15
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            7,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        7,
+        11,
+        12,
+        15
+      ],
+      "pair": [
+        3,
+        12
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        7,
+        11,
+        15,
+        16
+      ],
+      "pair": [
+        3,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            7,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        8,
+        11,
+        12,
+        15
+      ],
+      "pair": [
+        3,
+        12
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          3
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        8,
+        11,
+        15,
+        16
+      ],
+      "pair": [
+        8,
+        15
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            8,
+            11,
+            15
+          ],
+          2
+        ],
+        [
+          [
+            8,
+            15,
+            16
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "block": [
+        3,
+        11,
+        12,
+        15,
+        16
+      ],
+      "pair": [
+        3,
+        12
+      ],
+      "pair_target": 5,
+      "excess_budget": 1,
+      "partial_excess": 2,
+      "excess_triples": [
+        [
+          [
+            3,
+            12,
+            15
+          ],
+          3
+        ]
+      ]
+    }
+  ],
+  "scope": "One fixed heavy-template tuple in the degree20 native family. Only anchor-touching pair targets are used; hub-only targets are not assumed. No first-link registry change."
+}

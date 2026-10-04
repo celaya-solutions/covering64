@@ -1,0 +1,27 @@
+{
+  "status": "INFEASIBLE",
+  "elapsed_seconds": 0.015387773513793945,
+  "native_wall_time": 0.014561000000000001,
+  "response_sha256": "2a12e249aa653f191aae1f34195f39787246cf62fda1ea554cac832e07b766a5",
+  "witness": null,
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/cycle-soft-heavy-completion/run.py",
+    "--child"
+  ],
+  "exit": 0,
+  "forced_termination": false,
+  "wrapper_elapsed_seconds": 0.34918928146362305,
+  "seed": 2026104101,
+  "native_time_limit_seconds": 60,
+  "hard_wait_seconds": 90,
+  "workers": 1,
+  "ortools_version": "9.15.6755",
+  "model_sha256": "ac8931997f965440408e1c975deba00a747e049f2f45b6d38e3ee2f675e5fbb9",
+  "manifest_sha256": "1c3121dea28c9eb19fbaf65e3ca59d4b15fc0164f1150ec488733ddf9ff4ab3b",
+  "gate_sha256": "b9b976bff00df6b9db27e085ee93b65353ddd5a8526d6758e462bb578aee525b",
+  "stdout_sha256": "c72281e699d74e827610479313617b64fe87909c340e512e566d9e16a80eb953",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "witness_checks": [],
+  "scope": "Only this fixed 28-heavy-block completion. UNKNOWN or unchecked CP-SAT INFEASIBLE makes no exclusion."
+}

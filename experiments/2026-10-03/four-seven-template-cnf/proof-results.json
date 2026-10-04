@@ -1,0 +1,116 @@
+[
+  {
+    "case": "matching-029",
+    "hub_case": [
+      0,
+      2
+    ],
+    "fixed_ids": [
+      0,
+      4,
+      26,
+      38,
+      47,
+      63,
+      77
+    ],
+    "status": "UNSAT_DRAT_VERIFIED",
+    "seed": 2026103901,
+    "cnf_sha256": "884167e3dbf6ad9ac16672511e29d1362469ec5a3f7839c1fcddf5a7b074a589",
+    "solver": {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+        "--no-binary",
+        "--seed=2026103901",
+        "-t",
+        "300",
+        "-w",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/solution.sol",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cnf-v1.0.0/matching-029.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/proof.drat"
+      ],
+      "exit": 20,
+      "elapsed_seconds": null,
+      "started_unix": null,
+      "native_reported_real_seconds": 192.38,
+      "forced_termination": false,
+      "native_time_limit_seconds": 300,
+      "hard_wait_seconds": 330,
+      "maximum_file_bytes": 536870912,
+      "stdout_sha256": "732ff6de66a2c546bbb9cb289d553385a0ac72eae0569f29349f779321f3cfa3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "recovery": "Original wrapper expected status on stdout; -w placed it in solution.sol. No solver rerun. Python timing receipt was not saved before that guard, so those two timing fields are unknown; native rounded time is retained."
+    },
+    "proof": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/proof.drat",
+    "proof_sha256": "55c1f867fd61b9034f30a1ee1d433c1c5ec19a20bcb72999df80a5778e5e326f",
+    "proof_bytes": 274200211,
+    "checker": {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/drat-trim/drat-trim",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cnf-v1.0.0/matching-029.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-drat-v1.0.0/matching-029/proof.drat",
+        "-t",
+        "300"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 264.7333369255066,
+      "started_unix": 1791083052.1113,
+      "forced_termination": false,
+      "native_time_limit_seconds": 300,
+      "hard_wait_seconds": 330,
+      "maximum_file_bytes": 536870912,
+      "stdout_sha256": "0997c5378bfff08ea700535c80553ecb48a4455a914cedc5e00d4626655807f4",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "verified": true
+    },
+    "witness": null,
+    "scope": "Only this audited restricted CP projection; combining a complete first-link exclusion still requires its five other checked hub cases."
+  },
+  {
+    "case": "matching-063",
+    "hub_case": [
+      0,
+      1
+    ],
+    "fixed_ids": [
+      3,
+      4,
+      18,
+      29,
+      39,
+      61,
+      67
+    ],
+    "status": "INCONCLUSIVE",
+    "seed": 2026103902,
+    "cnf_sha256": "e3b7a8c358f902c088455954144819f5ada3efa799cccd7ca7fddaad95dbf107",
+    "solver": {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+        "--no-binary",
+        "--seed=2026103902",
+        "-t",
+        "300",
+        "-w",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-drat-v1.0.0/matching-063/solution.sol",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cnf-v1.0.0/matching-063.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-drat-v1.0.0/matching-063/proof.drat"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 300.0789520740509,
+      "started_unix": 1791083317.038004,
+      "forced_termination": false,
+      "native_time_limit_seconds": 300,
+      "hard_wait_seconds": 330,
+      "maximum_file_bytes": 536870912,
+      "stdout_sha256": "14d0fbd31cfa92463769fbb0eae34d2d1047f4d4e24fd3dc00b4b4f519c848e5",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "proof": "experiments/scratch/four-seven-template-drat-v1.0.0/matching-063/proof.drat",
+    "proof_sha256": "2d1312dcf067b086671a0c61445fe916aa63ca2136d52202cdb8f72f244c0842",
+    "proof_bytes": 343322046,
+    "checker": null,
+    "witness": null,
+    "scope": "Only this audited restricted CP projection. Incomplete or unchecked proofs make no exclusion; any combined first-link exclusion needs the other five proofs."
+  }
+]

@@ -1,0 +1,49 @@
+[
+  {
+    "case": "matching-063",
+    "hub_case": [
+      0,
+      1
+    ],
+    "fixed_ids": [
+      3,
+      4,
+      18,
+      29,
+      39,
+      61,
+      67
+    ],
+    "status": "INCONCLUSIVE",
+    "seed": 2026104001,
+    "cnf_sha256": "d4396cc0d4e1ae536970ffc0732980ec07d3819cb5e28d8bf0854045f64aec54",
+    "solver": {
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/proof-tools-20261003/cadical/build/cadical",
+        "--seed=2026104001",
+        "-t",
+        "300",
+        "-w",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-propagated-binary-drat-v1.0.0/matching-063/solution.sol",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-063.cnf",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-propagated-binary-drat-v1.0.0/matching-063/proof.drat"
+      ],
+      "exit": 0,
+      "elapsed_seconds": 300.0684607028961,
+      "started_unix": 1791084339.581582,
+      "forced_termination": false,
+      "native_time_limit_seconds": 300,
+      "hard_wait_seconds": 330,
+      "maximum_file_bytes": 536870912,
+      "stdout_sha256": "608d8b33daa30e1812fecded89d9acab7ea32b720dee80b6ba0a55cc0e48ee9c",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "proof": "experiments/scratch/four-seven-template-propagated-binary-drat-v1.0.0/matching-063/proof.drat",
+    "proof_sha256": "d229b7290cc0086df853e1051c144f2392b60e67f6c9fc780942d223293e23f9",
+    "proof_bytes": 123770022,
+    "proof_format": "binary_drat",
+    "checker": null,
+    "witness": null,
+    "scope": "Only this audited restricted CP projection. Incomplete or unchecked proofs make no exclusion; any combined first-link exclusion needs the other five proofs."
+  }
+]

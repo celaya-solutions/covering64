@@ -1,0 +1,90 @@
+[
+  {
+    "name": "matching",
+    "zero_cover_checks": [],
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.1.0/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-soft/matching-seed.txt",
+      "2026100381",
+      "300",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching"
+    ],
+    "seed": 2026100381,
+    "requested_seconds": 300,
+    "elapsed_seconds": 300.07492876052856,
+    "started_unix": 1791083652.4564722,
+    "exit": 1,
+    "native_result": {
+      "event": "finished",
+      "best_holes": 17,
+      "best_raw_score": 116,
+      "best_score": 106,
+      "best_score_holes": 19,
+      "proposals": 236459969,
+      "seconds": 300,
+      "restarts": 472,
+      "sampled_operations": 12,
+      "attempted": [
+        82765407,
+        59114185,
+        35469442,
+        59110935
+      ],
+      "accepted": [
+        476282,
+        190442,
+        3441,
+        141071
+      ]
+    },
+    "best_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+    "raw_best_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+    "score_best_sha256": "cf7d58181497c229fec8d0dec728ca90515ddb643cab82e8e7fb08ce3a8f5b1a",
+    "log_sha256": "9f4b09dc85926abef474ce04af74ab35816089fefdd196d36e6bd77ad63cf5b7"
+  },
+  {
+    "name": "cycle",
+    "zero_cover_checks": [],
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.1.0/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-soft/cycle-seed.txt",
+      "2026100382",
+      "300",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle"
+    ],
+    "seed": 2026100382,
+    "requested_seconds": 300,
+    "elapsed_seconds": 300.1356978416443,
+    "started_unix": 1791083652.456727,
+    "exit": 1,
+    "native_result": {
+      "event": "finished",
+      "best_holes": 12,
+      "best_raw_score": 92,
+      "best_score": 92,
+      "best_score_holes": 12,
+      "proposals": 234822903,
+      "seconds": 300,
+      "restarts": 469,
+      "sampled_operations": 12,
+      "attempted": [
+        82178808,
+        58712755,
+        35230339,
+        58701001
+      ],
+      "accepted": [
+        470336,
+        187510,
+        3461,
+        135566
+      ]
+    },
+    "best_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+    "raw_best_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+    "score_best_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+    "log_sha256": "c66bf016d27f0ecb7518a951ecd094cd8e02983ef48f1dcb9d0d3a28375d0969"
+  }
+]

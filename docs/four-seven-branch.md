@@ -1,10 +1,10 @@
 ```
 Document:    The Regular Four-Sevenfold-Triple Branch
-Version:     v1.5.0
+Version:     v1.7.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      2e283867d7d3317ae3bc652cf19690d6ab34932c7c2ee8b13b1ee3c2f4ea132c
+SHA256:      d74e6e3da13aa0596e7a14a77f62b606a30f37da77ac01674fc4947fb190fb2f
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -259,3 +259,23 @@ Their ordinary-block variables are fractional, so their feasibility would not
 be a covering witness. Separately, the restricted CP-to-CNF translation passed
 an independent full clause audit. A negative SAT solver response still needs
 its independently checked certificate before it can count as an exclusion.
+
+# Checked integer exclusion and scored search
+
+The checked union is now **109 excluded first links and 149 open**: 102 cycle
+and 47 matching. Matching-029 combines five previously checked exact LP
+certificates with a separately accepted DRAT certificate for the (0,2) hub
+case. All six cases, their fixed blocks and their source encodings are bound
+in four-seven-template-drat-exclusions-109. Earlier 108 registries and catalogs
+remain unchanged. This is a restricted-branch result, not a global lower bound.
+
+The first soft-score whole-template pilots reached 17 matching holes and
+12 cycle holes. They preserve the same legal moves and point degrees; pair
+and overcoverage terms affect ranking only. No covering witness was found.
+The best unrestricted partial remains at three holes.
+
+The 600-second soft cycle continuation retained the same 12-hole state after
+490,972,432 proposals. Fixing its 28 heavy blocks in the audited base model gave
+a one-worker CP-SAT presolve INFEASIBLE response, scoped to that combination.
+The propagated matching-063 binary-proof pilot timed out without a checked
+certificate. Neither result changes the 109-entry checked exclusion union.

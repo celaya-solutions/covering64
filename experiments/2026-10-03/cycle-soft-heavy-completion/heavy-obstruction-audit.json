@@ -1,0 +1,50 @@
+{
+  "heavy_blocks": 28,
+  "support_blocks": 7,
+  "target": [
+    3,
+    11,
+    15
+  ],
+  "ordinary_blocks": 1200,
+  "blocked_candidates": 18,
+  "passed": true,
+  "checker_sha256": "d9654b92b672d081155b9f7d8f938be86e3d0375cb19551bef143d7d4cb59169",
+  "certificate_sha256": "452a3adfc3f216ef91cea3889f09457f907cb5a56a5deca1403ea24372f66ee2",
+  "manifest_sha256": "1c3121dea28c9eb19fbaf65e3ca59d4b15fc0164f1150ec488733ddf9ff4ab3b",
+  "damaged_controls": [
+    {
+      "control": "wrong degree",
+      "rejected": true
+    },
+    {
+      "control": "missing candidate",
+      "rejected": true
+    },
+    {
+      "control": "duplicate candidate",
+      "rejected": true
+    },
+    {
+      "control": "missing support",
+      "rejected": true
+    },
+    {
+      "control": "hub-only pair",
+      "rejected": true
+    },
+    {
+      "control": "wrong pair target",
+      "rejected": true
+    },
+    {
+      "control": "wrong excess",
+      "rejected": true
+    },
+    {
+      "control": "damaged heavy block",
+      "rejected": true
+    }
+  ],
+  "scope": "One native degree20 heavy tuple only. Every candidate for one missing triple exceeds a proved anchor-pair excess budget. No solver or hub-pair assumption."
+}

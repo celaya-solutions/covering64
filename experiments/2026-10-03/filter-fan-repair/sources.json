@@ -1,0 +1,47 @@
+{
+  "version": "v1.0.0",
+  "sources": [
+    {
+      "filename": "rego-glover-2010.pdf",
+      "url": "https://leeds-faculty.colorado.edu/glover/fred%20pubs/399%20-%20ejection%20chain%20%26%20filter-and-fan%20w%20rego%20ANOR.pdf",
+      "final_url": "https://leeds-faculty.colorado.edu/glover/fred%20pubs/399%20-%20ejection%20chain%20%26%20filter-and-fan%20w%20rego%20ANOR.pdf",
+      "retrieved_utc": "2026-10-04T02:33:24.455435+00:00",
+      "http_status": 200,
+      "bytes": 1000433,
+      "sha256": "be5feccae174d9da6f10174510a2b4468f90ced532f7cc7ff2b8ef4b98dac1b0"
+    },
+    {
+      "filename": "glover-publications.html",
+      "url": "https://leeds-faculty.colorado.edu/glover/Publications-541.htm",
+      "final_url": "https://leeds-faculty.colorado.edu/glover/Publications-541.htm",
+      "retrieved_utc": "2026-10-04T02:33:33.022559+00:00",
+      "http_status": 200,
+      "bytes": 408892,
+      "sha256": "6bb7050ecf57f195a949b61da34c3637991804b7ac62afb7c63869cd076ad861"
+    },
+    {
+      "filename": "crossref-rego-glover-2010.json",
+      "url": "https://api.crossref.org/works/10.1007/s10479-009-0656-7",
+      "final_url": "https://api.crossref.org/works/10.1007/s10479-009-0656-7",
+      "retrieved_utc": "2026-10-04T02:33:33.854014+00:00",
+      "http_status": 200,
+      "bytes": 24471,
+      "sha256": "d886ba717c8484380f498446b740082797ac0f09de5c74c60847d74f8260aee0"
+    }
+  ],
+  "raw_directory": "experiments/scratch/repair-chain-literature-20261003",
+  "code_revision": "7d130a4e6af150b25021e24e889e353f93adc951",
+  "inspected_code_sha256": {
+    "scripts/heuristic_search.cpp": "90b88e246ed494d33b361f9e0792b720b752860dc6adcffa366e0996804c620a",
+    "scripts/essential_regular_heuristic.cpp": "91245745dd7b52032c0b6352edef29096be16fd13c7c5b102d7d3bf72351d78e",
+    "scripts/fixed_link_profile_heuristic.cpp": "e3c13c3d7bac16cc9318663539f0d5c3cdcfb7c5a64740e898c17bd529f0722c",
+    "scripts/four_seven_template_heuristic.cpp": "9a58b77cb44d561728a63e9d7e835866f4a0dbfd6306608ee4f85009e65361a1",
+    "docs/heuristic-search.md": "5ee65a13eaf99c80147004b7ffdc59a24d67d998dece217ec3862babcadc4f06"
+  },
+  "access_limits": [
+    "Google returned a JavaScript redirect page; DuckDuckGo presented a human challenge; neither was bypassed.",
+    "Bing broad query produced irrelevant results. Crossref and OpenAlex public metadata APIs supplied title/DOI leads.",
+    "The Springer page for configuration-checking DOI10.1007/s11432-015-5377-8 returned a browser challenge. No algorithm details from that paper are claimed.",
+    "No researchers contacted, no accounts created, no publication, and no large source archives downloaded."
+  ]
+}

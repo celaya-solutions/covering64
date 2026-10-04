@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "name": "cycle",
+      "catalog_path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "source_catalog_path": "experiments/scratch/four-seven-template-hull-refresh-108-20261003/cycle/group-catalogs.json.gz",
+      "source_catalog_sha256": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35",
+      "templates_per_group": 25020,
+      "seed": 2026103972,
+      "seconds": 600,
+      "workers": 1,
+      "seed_path": "experiments/2026-10-03/four-seven-template-native-soft-cycle-continuation/cycle-seed.txt",
+      "seed_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+      "initial_holes": 12,
+      "template_ids_1based": [
+        20588,
+        13504,
+        5835,
+        20047
+      ],
+      "parent_best_path": "experiments/2026-10-03/four-seven-template-native-soft/cycle-raw-best.txt",
+      "parent_audit_sha256": "22f8c77a52df7cc32874da938c130afa4fbd38cbe71697625abdee9e33e4b679",
+      "initial_score": 92
+    }
+  ],
+  "scope": "One unchanged-score cycle continuation from independently verified12-hole baseline."
+}

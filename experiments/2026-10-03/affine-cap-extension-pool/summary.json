@@ -1,0 +1,48 @@
+{
+  "version": "v1.0.0",
+  "complete": true,
+  "pilot_status": "UNKNOWN",
+  "witness": null,
+  "requested_seconds": 300,
+  "solver_wall_seconds": 300.02201,
+  "workers": 8,
+  "seed": 2026103971,
+  "readback_passed": true,
+  "damaged_result_controls": 7,
+  "six_norm_families_verified": true,
+  "models": [
+    {
+      "name": "base",
+      "path": "experiments/scratch/affine-cap-extension-pool-20261003/exact64-base.pbtxt",
+      "sha256": "f6a2a4f11b5760692f659e212e661dd5cc81c069876e9df91ed260b0a27d0613",
+      "variables": 528,
+      "rows": 561,
+      "target_blocks": 64,
+      "added_point_rows": 0,
+      "added_pair_rows": 0
+    },
+    {
+      "name": "incidence-cuts",
+      "path": "experiments/scratch/affine-cap-extension-pool-20261003/exact64-incidence-cuts.pbtxt",
+      "sha256": "499a80a8911a33c0effb543dadd5edd0b89c98fd235cbf1ccd379afde620a2be",
+      "variables": 528,
+      "rows": 697,
+      "target_blocks": 64,
+      "added_point_rows": 16,
+      "added_pair_rows": 120
+    }
+  ],
+  "hashes": {
+    "manifest.json": "c610842c667ffd973c0d30749b1cfa5c346a9e544ec6488a1a1650badc4a83bd",
+    "run.py": "083e925399e28b94f74466cca7738cb197d5bc9de9f6d97f3cc22e4ab21d2ec2",
+    "result.json": "0e49dd724f407da0a6ddd84d3c35940448f40f12e02314be76ec7c6314bcb6a7",
+    "readback-audit.json": "2e8bc8aceb3fc04f89b5f89eb28d3ef1feb126482b74029f41f865b8bf5255d4",
+    "norm_families.py": "78826d2308183c69de04f7b00e98c28a1e99415e3a23720430e365bc33dc97b3",
+    "norm-families.json": "09285f8165c0769efb60cc55127e5aa7b7f4e7d37991a731b57ce7a4d3f7fe0b",
+    "README.md": "8ce456da132a8a72144dc1858a694c0d5b0235d1c1c3a1f4a93a196300373f92"
+  },
+  "independently_proved_infeasible": false,
+  "global_lower_bound": false,
+  "solver_calls": 1,
+  "scope": "One restricted 528-pool pilot; base model unrun; no count profile or family assumptions imposed."
+}

@@ -1,0 +1,80 @@
+{
+  "version": "v1.0.0",
+  "builder_sha256": "c71e05192248f301dd36502b15a11c93a735c466d0f5a1c2d2634c4235d84136",
+  "encoder_sha256": "4fc5f86cf00426c1abae09a76c8c1f641560f9d8e9232be29a0d8369329af26c",
+  "restricted_manifest_sha256": "38e8854797e5775bec5da9834218b2a4a8ded191274d4a472e047505f06378dc",
+  "restricted_audit_sha256": "594641767d810c30f233ef6854433f84a6dde1793691e7e8046a8b6df7b8f04f",
+  "cases": [
+    {
+      "case": "matching-029",
+      "hub_case": [
+        0,
+        2
+      ],
+      "fixed_ids": [
+        0,
+        4,
+        26,
+        38,
+        47,
+        63,
+        77
+      ],
+      "source_model": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-029.pbtxt",
+      "source_model_sha256": "659ac049ef29cd79fc5bb748ed2ae2c96fee7ad767050f0de51dd88c33d48c7e",
+      "residual_model": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-029-residual.pbtxt",
+      "residual_model_sha256": "a5077b2087e8f1aa80f9257ff25ece06b1dcd1298d15fd02a486f0e6ee9ff29c",
+      "reasons": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-029-reasons.json.gz",
+      "reasons_sha256": "008b8c95b01606e4d3ee59fe9af335d710aaa6c6bf792322841591d5d1107311",
+      "propagated_variables": 15663,
+      "propagation_steps": 2925,
+      "propagation_contradiction": false,
+      "original_variables": 55528,
+      "original_constraints": 4559,
+      "residual_constraints": 20222,
+      "cnf": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-029.cnf",
+      "cnf_sha256": "343573ecc48531e2e0f900df8bc61dd6fda3ac05c60e9696ef433e478373eefd",
+      "cnf_bytes": 45515594,
+      "variables": 709162,
+      "clauses": 2286622,
+      "row_trace": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-029-rows.json.gz",
+      "row_trace_sha256": "45f35c74e5e46115d5d9b72a8f8f8e6724d1ce85b2ef40cd20157f01cb87b810"
+    },
+    {
+      "case": "matching-063",
+      "hub_case": [
+        0,
+        1
+      ],
+      "fixed_ids": [
+        3,
+        4,
+        18,
+        29,
+        39,
+        61,
+        67
+      ],
+      "source_model": "experiments/scratch/four-seven-template-cp-restricted-v1.0.0/matching-063.pbtxt",
+      "source_model_sha256": "a01c62de3d38598b25cd8453d31f5037de28ee57e4ad13f55443b046ea3dea36",
+      "residual_model": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-063-residual.pbtxt",
+      "residual_model_sha256": "344d34e3632c3aa64256499b7a81bbe90caad1ddb335bf445507e589f3b89368",
+      "reasons": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-063-reasons.json.gz",
+      "reasons_sha256": "ff6a60006e0cf83c3ff75a4105b2ec3753cdcbe8f2c153b824bc60325bc1d3ba",
+      "propagated_variables": 15663,
+      "propagation_steps": 2928,
+      "propagation_contradiction": false,
+      "original_variables": 55528,
+      "original_constraints": 4559,
+      "residual_constraints": 20222,
+      "cnf": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-063.cnf",
+      "cnf_sha256": "d4396cc0d4e1ae536970ffc0732980ec07d3819cb5e28d8bf0854045f64aec54",
+      "cnf_bytes": 45494573,
+      "variables": 708916,
+      "clauses": 2285639,
+      "row_trace": "experiments/scratch/four-seven-template-cnf-propagated-v1.0.0/matching-063-rows.json.gz",
+      "row_trace_sha256": "f4ebc90af33c648bb0226a34be9e49296b53f5a6d18fd9a84954ac994a3f0ce0"
+    }
+  ],
+  "scope": "Preparation only. Each propagated value has an original-row arithmetic reason; all values remain explicit units. Independent propagation/translation audit required."
+}

@@ -1,0 +1,2749 @@
+{
+  "passed": true,
+  "checker_sha256": "3b0b584c1b44bba0cc9ea861af47122d3cb45b9f886f3b0c59e030bf73b40f2c",
+  "gate_sha256": "7b6a7d3cb83b7aa709f3ca35905219ba4dfb47d759686f86976278f7d06b4bd7",
+  "source_sha256": "f20f5140aad14cb46f24cc49feb1d46decb90d18635ac413755b9fdebc0b51ed",
+  "cases": [
+    {
+      "case": "matching",
+      "states": [
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-best.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 3,
+          "score": 116
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control0-after.txt",
+          "sha256": "99fbe812a6f3cdffa91ad14451f18072e83341b8a99c1a050b1797aeaf129231",
+          "holes": 28,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 36,
+          "nonheavy_excess": 4,
+          "score": 196
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control0-before.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control0-rollback.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control1-after.txt",
+          "sha256": "c2d9ca70fad6182a7e7ab5e24db9314bb8d8bd5a8219cb64976d58b90f31fdd3",
+          "holes": 25,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 32,
+          "nonheavy_excess": 4,
+          "score": 177
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control1-before.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control1-rollback.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control2-after.txt",
+          "sha256": "f852d6db310eb0ce2c9b526773668e1d824712ed88b11acac26c9243ecd98bc3",
+          "holes": 35,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 44,
+          "nonheavy_excess": 6,
+          "score": 249
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control2-before.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control2-rollback.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control3-after.txt",
+          "sha256": "f164ecb49dbb0398f9d65025ee060ba099d145e3b2d96220ea6b0c97b097063e",
+          "holes": 32,
+          "template_ids_1based": [
+            10462,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 38,
+          "nonheavy_excess": 10,
+          "score": 248
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control3-before.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-control3-rollback.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-initial.txt",
+          "sha256": "ef280e57b90080f27321d84e64124f350b91a7955434714bdd00f7c3aee79508",
+          "holes": 21,
+          "template_ids_1based": [
+            451,
+            4896,
+            7373,
+            4203
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 155
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-best.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 3,
+          "score": 116
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-h17-s116.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 3,
+          "score": 116
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-h17-s118.txt",
+          "sha256": "472e12459fbf1f6d62a6bc959fd8dd9b2cfede7021826d9045f91979277ebe1c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            2922
+          ],
+          "pair_l1": 18,
+          "nonheavy_excess": 3,
+          "score": 118
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-h19-s125.txt",
+          "sha256": "8e113bf493646b85ad94c08cbf27a99cd1f0692785d4de6ccded4f13eb24125d",
+          "holes": 19,
+          "template_ids_1based": [
+            842,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 20,
+          "nonheavy_excess": 2,
+          "score": 125
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-h19-s127.txt",
+          "sha256": "8ffe99b78d5c416b1defb1e15867a57cea370a38d4be0b931d31ef163cae3bc8",
+          "holes": 19,
+          "template_ids_1based": [
+            842,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 22,
+          "nonheavy_excess": 2,
+          "score": 127
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-h20-s136.txt",
+          "sha256": "16ba2eef6ccee98127ee4dc00142fe135afd55f0b2575a8e84bb206e3b8f0cce",
+          "holes": 20,
+          "template_ids_1based": [
+            5961,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 2,
+          "score": 136
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-raw-h21-s146.txt",
+          "sha256": "470a869b8a657104248f737a5183bccdd2eddcfeba6fb8b1cac979be288e8165",
+          "holes": 21,
+          "template_ids_1based": [
+            10660,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 3,
+          "score": 146
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample0-after.txt",
+          "sha256": "39e080d861ff0d9e479e5d25e9ca8152fbaa7261eff6d468c1930e8b14b65ec8",
+          "holes": 48,
+          "template_ids_1based": [
+            2018,
+            7394,
+            9386,
+            4217
+          ],
+          "pair_l1": 40,
+          "nonheavy_excess": 1,
+          "score": 285
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample0-before.txt",
+          "sha256": "e71141dbf66c5daa7d3f15fea9df0f50c5f86d83240603b986a4fccb4e419265",
+          "holes": 48,
+          "template_ids_1based": [
+            2018,
+            7394,
+            9386,
+            4217
+          ],
+          "pair_l1": 42,
+          "nonheavy_excess": 1,
+          "score": 287
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample1-after.txt",
+          "sha256": "349d2af8ae617297bd4675d55e52da048e240bfad6ba232fe74401285a4dd8ef",
+          "holes": 43,
+          "template_ids_1based": [
+            10250,
+            11152,
+            6849,
+            7870
+          ],
+          "pair_l1": 32,
+          "nonheavy_excess": 4,
+          "score": 267
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample1-before.txt",
+          "sha256": "3e8cfe2e60d8fc2da6c553f922e83a48292c88254ee5f5d771b98a6ea66575eb",
+          "holes": 43,
+          "template_ids_1based": [
+            10250,
+            11152,
+            6849,
+            7870
+          ],
+          "pair_l1": 34,
+          "nonheavy_excess": 4,
+          "score": 269
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample10-after.txt",
+          "sha256": "fe8092f5dc3c773e6d6350e2cc613f5b32317155a367b9b674364227054f46d2",
+          "holes": 43,
+          "template_ids_1based": [
+            126,
+            931,
+            9666,
+            2872
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 5,
+          "score": 266
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample10-before.txt",
+          "sha256": "aae2dee856778b96fe3b034699de3b64dc7d26bc440cc4744a335eecb68bf2f9",
+          "holes": 43,
+          "template_ids_1based": [
+            126,
+            931,
+            9666,
+            2872
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 5,
+          "score": 266
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample11-after.txt",
+          "sha256": "3289d8901b5b384a32541382c5bbbf7bc2cdf4fb3d7c495abf792329ed4e2f8c",
+          "holes": 44,
+          "template_ids_1based": [
+            5962,
+            11663,
+            953,
+            5995
+          ],
+          "pair_l1": 32,
+          "nonheavy_excess": 4,
+          "score": 272
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample11-before.txt",
+          "sha256": "9b7cf2beab17e9c1744da31d156ece0bb889898217334ca7815ca4705934b353",
+          "holes": 45,
+          "template_ids_1based": [
+            5962,
+            11663,
+            953,
+            5995
+          ],
+          "pair_l1": 32,
+          "nonheavy_excess": 3,
+          "score": 272
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample2-after.txt",
+          "sha256": "1315eaa16e40c7cbcf5430821c72265710e2d993165ac34c7e59af42895bdfc9",
+          "holes": 54,
+          "template_ids_1based": [
+            9267,
+            8770,
+            11750,
+            8052
+          ],
+          "pair_l1": 36,
+          "nonheavy_excess": 3,
+          "score": 321
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample2-before.txt",
+          "sha256": "50c04349643dd198e81ea760f7e2b1444e59668e5734f23d371896cced9694d8",
+          "holes": 54,
+          "template_ids_1based": [
+            9267,
+            8770,
+            11750,
+            8052
+          ],
+          "pair_l1": 36,
+          "nonheavy_excess": 2,
+          "score": 316
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample3-after.txt",
+          "sha256": "3c7da737f80dbd1712efe01f84e48d3a327b9ccbd0940c432a43f5c4baf68fb8",
+          "holes": 67,
+          "template_ids_1based": [
+            6304,
+            1941,
+            3700,
+            3730
+          ],
+          "pair_l1": 58,
+          "nonheavy_excess": 8,
+          "score": 433
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample3-before.txt",
+          "sha256": "6158ef30492f388e5ec9ab16848def9071d8db22756d88b99abb3b9d23752ab6",
+          "holes": 65,
+          "template_ids_1based": [
+            6304,
+            1583,
+            3700,
+            3730
+          ],
+          "pair_l1": 54,
+          "nonheavy_excess": 9,
+          "score": 424
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample4-after.txt",
+          "sha256": "a4678c8d4c832705f1954ac9e0149bd0774b306cf271892e8cfe097b6c1be4e0",
+          "holes": 38,
+          "template_ids_1based": [
+            4526,
+            5815,
+            11793,
+            10317
+          ],
+          "pair_l1": 28,
+          "nonheavy_excess": 3,
+          "score": 233
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample4-before.txt",
+          "sha256": "7153c7b3fa0df4b0db367dac71dff4e2319d6e9ee91b61db73481c8d3c995d98",
+          "holes": 35,
+          "template_ids_1based": [
+            4526,
+            5815,
+            11793,
+            10317
+          ],
+          "pair_l1": 20,
+          "nonheavy_excess": 2,
+          "score": 205
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample5-after.txt",
+          "sha256": "63dd03214f0eaaaa50129ab6e9c228f0396cc99451b1989800824a2f0f0e6d76",
+          "holes": 42,
+          "template_ids_1based": [
+            4746,
+            6545,
+            1066,
+            7465
+          ],
+          "pair_l1": 28,
+          "nonheavy_excess": 1,
+          "score": 243
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample5-before.txt",
+          "sha256": "80dc2743f86bd7af68b169c152447a002ce80f62ad27e07e411f015a7141c486",
+          "holes": 43,
+          "template_ids_1based": [
+            4746,
+            6545,
+            1066,
+            7465
+          ],
+          "pair_l1": 28,
+          "nonheavy_excess": 1,
+          "score": 248
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample6-after.txt",
+          "sha256": "b1002dba30b5fac5ac79c7188bd0e2eedc82a2ef4b329f4d1f03bd4a10ee0ae0",
+          "holes": 57,
+          "template_ids_1based": [
+            58,
+            84,
+            3255,
+            5303
+          ],
+          "pair_l1": 48,
+          "nonheavy_excess": 5,
+          "score": 358
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample6-before.txt",
+          "sha256": "fe2d69329d0922e8a4c3a6e2ba24a95133b95bc1c4819a39330b6e3e45c03a6d",
+          "holes": 56,
+          "template_ids_1based": [
+            58,
+            10616,
+            3255,
+            5303
+          ],
+          "pair_l1": 44,
+          "nonheavy_excess": 6,
+          "score": 354
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample7-after.txt",
+          "sha256": "0d91a57c98de55e0332e446973f624be149955d9b51bafacc71c07a44c0a888a",
+          "holes": 53,
+          "template_ids_1based": [
+            5932,
+            3668,
+            11012,
+            668
+          ],
+          "pair_l1": 38,
+          "nonheavy_excess": 6,
+          "score": 333
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample7-before.txt",
+          "sha256": "7862152528bbd073ba9277031a6619af8ef5bfd7d31c81173410dea403ced5a8",
+          "holes": 51,
+          "template_ids_1based": [
+            5932,
+            3668,
+            11288,
+            668
+          ],
+          "pair_l1": 34,
+          "nonheavy_excess": 3,
+          "score": 304
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample8-after.txt",
+          "sha256": "b2e1ec033d91c737992ecf581587b0338454ef53b2e406434faddc20e03739c0",
+          "holes": 55,
+          "template_ids_1based": [
+            5714,
+            5833,
+            1606,
+            1825
+          ],
+          "pair_l1": 42,
+          "nonheavy_excess": 5,
+          "score": 342
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample8-before.txt",
+          "sha256": "d6587227568006a2778e1889f38cabb9df6b5655f1953fe1f6867b0f95a41fc1",
+          "holes": 57,
+          "template_ids_1based": [
+            5714,
+            5833,
+            1606,
+            1825
+          ],
+          "pair_l1": 38,
+          "nonheavy_excess": 6,
+          "score": 353
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample9-after.txt",
+          "sha256": "fab0755fa9af752445f2a0171228416a947cea8380c3974ed23e7631e6142f3e",
+          "holes": 51,
+          "template_ids_1based": [
+            7214,
+            7173,
+            3963,
+            3646
+          ],
+          "pair_l1": 42,
+          "nonheavy_excess": 6,
+          "score": 327
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-sample9-before.txt",
+          "sha256": "561c25d5cb227443c422aec8ddbbaeda771ee38e158b5912de66c21d9e551dd2",
+          "holes": 49,
+          "template_ids_1based": [
+            7214,
+            7173,
+            3963,
+            3646
+          ],
+          "pair_l1": 44,
+          "nonheavy_excess": 7,
+          "score": 324
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-best.txt",
+          "sha256": "cf7d58181497c229fec8d0dec728ca90515ddb643cab82e8e7fb08ce3a8f5b1a",
+          "holes": 19,
+          "template_ids_1based": [
+            5062,
+            6184,
+            4154,
+            7215
+          ],
+          "pair_l1": 6,
+          "nonheavy_excess": 1,
+          "score": 106
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s106-h19.txt",
+          "sha256": "cf7d58181497c229fec8d0dec728ca90515ddb643cab82e8e7fb08ce3a8f5b1a",
+          "holes": 19,
+          "template_ids_1based": [
+            5062,
+            6184,
+            4154,
+            7215
+          ],
+          "pair_l1": 6,
+          "nonheavy_excess": 1,
+          "score": 106
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s108-h19.txt",
+          "sha256": "20321a9134e5805b154b242c09afeb44d1116a9de451e72bcd2cc0988c840dc6",
+          "holes": 19,
+          "template_ids_1based": [
+            5062,
+            6184,
+            4154,
+            5809
+          ],
+          "pair_l1": 8,
+          "nonheavy_excess": 1,
+          "score": 108
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s114-h19.txt",
+          "sha256": "e06203179e226b8f66f60da956c20fbced6a40108263163845598bde2947ce7f",
+          "holes": 19,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "pair_l1": 14,
+          "nonheavy_excess": 1,
+          "score": 114
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s116-h17.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 3,
+          "score": 116
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s116-h20.txt",
+          "sha256": "154924c4bb918b1a2fc56aba0ca03dd587a61a58bbda03079befcc21fcbc34b4",
+          "holes": 20,
+          "template_ids_1based": [
+            1654,
+            6155,
+            3460,
+            3330
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 0,
+          "score": 116
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s119-h20.txt",
+          "sha256": "a9a2c27e74cb05f9763caaef750e016878b9a38febfb6923067a37485262f78e",
+          "holes": 20,
+          "template_ids_1based": [
+            5910,
+            4896,
+            11293,
+            4613
+          ],
+          "pair_l1": 14,
+          "nonheavy_excess": 1,
+          "score": 119
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s123-h20.txt",
+          "sha256": "b44e026cd0d4e808ff55647dcc8110fefe0449ea4bb93a2e710430ceac0a9b6a",
+          "holes": 20,
+          "template_ids_1based": [
+            5910,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 18,
+          "nonheavy_excess": 1,
+          "score": 123
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s125-h19.txt",
+          "sha256": "8e113bf493646b85ad94c08cbf27a99cd1f0692785d4de6ccded4f13eb24125d",
+          "holes": 19,
+          "template_ids_1based": [
+            842,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 20,
+          "nonheavy_excess": 2,
+          "score": 125
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s127-h19.txt",
+          "sha256": "8ffe99b78d5c416b1defb1e15867a57cea370a38d4be0b931d31ef163cae3bc8",
+          "holes": 19,
+          "template_ids_1based": [
+            842,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 22,
+          "nonheavy_excess": 2,
+          "score": 127
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s135-h21.txt",
+          "sha256": "0e0b27a1bc6f8ed26044e66ce625b1a70bbe19720294c68866f16618e6f55ac6",
+          "holes": 21,
+          "template_ids_1based": [
+            5916,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 20,
+          "nonheavy_excess": 2,
+          "score": 135
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s136-h20.txt",
+          "sha256": "16ba2eef6ccee98127ee4dc00142fe135afd55f0b2575a8e84bb206e3b8f0cce",
+          "holes": 20,
+          "template_ids_1based": [
+            5961,
+            4896,
+            11293,
+            4203
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 2,
+          "score": 136
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s139-h23.txt",
+          "sha256": "4fc536e94372c6741fb6669149cc1ec36eba3f1a05f837efaa3336e6a61020b2",
+          "holes": 23,
+          "template_ids_1based": [
+            11809,
+            4896,
+            11293,
+            3737
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 0,
+          "score": 139
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/matching-score-s149-h24.txt",
+          "sha256": "75d76a59634fbf83477ea59e7594ddc7d0de9229071fa396eb19e2d0229fec62",
+          "holes": 24,
+          "template_ids_1based": [
+            11809,
+            4896,
+            11293,
+            3737
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 1,
+          "score": 149
+        }
+      ],
+      "operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply",
+          "before": {
+            "holes": 21,
+            "pair_l1": 30,
+            "nonheavy_excess": 4,
+            "score": 155
+          },
+          "after": {
+            "holes": 28,
+            "pair_l1": 36,
+            "nonheavy_excess": 4,
+            "score": 196
+          }
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply",
+          "before": {
+            "holes": 21,
+            "pair_l1": 30,
+            "nonheavy_excess": 4,
+            "score": 155
+          },
+          "after": {
+            "holes": 25,
+            "pair_l1": 32,
+            "nonheavy_excess": 4,
+            "score": 177
+          }
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply",
+          "before": {
+            "holes": 21,
+            "pair_l1": 30,
+            "nonheavy_excess": 4,
+            "score": 155
+          },
+          "after": {
+            "holes": 35,
+            "pair_l1": 44,
+            "nonheavy_excess": 6,
+            "score": 249
+          }
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply",
+          "before": {
+            "holes": 21,
+            "pair_l1": 30,
+            "nonheavy_excess": 4,
+            "score": 155
+          },
+          "after": {
+            "holes": 32,
+            "pair_l1": 38,
+            "nonheavy_excess": 10,
+            "score": 248
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 48,
+            "pair_l1": 42,
+            "nonheavy_excess": 1,
+            "score": 287
+          },
+          "after": {
+            "holes": 48,
+            "pair_l1": 40,
+            "nonheavy_excess": 1,
+            "score": 285
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 43,
+            "pair_l1": 34,
+            "nonheavy_excess": 4,
+            "score": 269
+          },
+          "after": {
+            "holes": 43,
+            "pair_l1": 32,
+            "nonheavy_excess": 4,
+            "score": 267
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 54,
+            "pair_l1": 36,
+            "nonheavy_excess": 2,
+            "score": 316
+          },
+          "after": {
+            "holes": 54,
+            "pair_l1": 36,
+            "nonheavy_excess": 3,
+            "score": 321
+          }
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 65,
+            "pair_l1": 54,
+            "nonheavy_excess": 9,
+            "score": 424
+          },
+          "after": {
+            "holes": 67,
+            "pair_l1": 58,
+            "nonheavy_excess": 8,
+            "score": 433
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 35,
+            "pair_l1": 20,
+            "nonheavy_excess": 2,
+            "score": 205
+          },
+          "after": {
+            "holes": 38,
+            "pair_l1": 28,
+            "nonheavy_excess": 3,
+            "score": 233
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 43,
+            "pair_l1": 28,
+            "nonheavy_excess": 1,
+            "score": 248
+          },
+          "after": {
+            "holes": 42,
+            "pair_l1": 28,
+            "nonheavy_excess": 1,
+            "score": 243
+          }
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 56,
+            "pair_l1": 44,
+            "nonheavy_excess": 6,
+            "score": 354
+          },
+          "after": {
+            "holes": 57,
+            "pair_l1": 48,
+            "nonheavy_excess": 5,
+            "score": 358
+          }
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 51,
+            "pair_l1": 34,
+            "nonheavy_excess": 3,
+            "score": 304
+          },
+          "after": {
+            "holes": 53,
+            "pair_l1": 38,
+            "nonheavy_excess": 6,
+            "score": 333
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 57,
+            "pair_l1": 38,
+            "nonheavy_excess": 6,
+            "score": 353
+          },
+          "after": {
+            "holes": 55,
+            "pair_l1": 42,
+            "nonheavy_excess": 5,
+            "score": 342
+          }
+        },
+        {
+          "mode": 1,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 49,
+            "pair_l1": 44,
+            "nonheavy_excess": 7,
+            "score": 324
+          },
+          "after": {
+            "holes": 51,
+            "pair_l1": 42,
+            "nonheavy_excess": 6,
+            "score": 327
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 43,
+            "pair_l1": 26,
+            "nonheavy_excess": 5,
+            "score": 266
+          },
+          "after": {
+            "holes": 43,
+            "pair_l1": 26,
+            "nonheavy_excess": 5,
+            "score": 266
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 45,
+            "pair_l1": 32,
+            "nonheavy_excess": 3,
+            "score": 272
+          },
+          "after": {
+            "holes": 44,
+            "pair_l1": 32,
+            "nonheavy_excess": 4,
+            "score": 272
+          }
+        }
+      ],
+      "damaged_fields": [
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        }
+      ],
+      "final": {
+        "event": "finished",
+        "best_holes": 17,
+        "best_raw_score": 116,
+        "best_score": 106,
+        "best_score_holes": 19,
+        "proposals": 236459969,
+        "seconds": 300,
+        "restarts": 472,
+        "sampled_operations": 12,
+        "attempted": [
+          82765407,
+          59114185,
+          35469442,
+          59110935
+        ],
+        "accepted": [
+          476282,
+          190442,
+          3441,
+          141071
+        ]
+      }
+    },
+    {
+      "case": "cycle",
+      "states": [
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-best.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 92
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control0-after.txt",
+          "sha256": "2bdddbc2afb8917fecd2b87124bf38ced86fc396c2e4c2dbde45459d3b94031b",
+          "holes": 24,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 28,
+          "nonheavy_excess": 3,
+          "score": 163
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control0-before.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control0-rollback.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control1-after.txt",
+          "sha256": "9b5001139bbfb6e7a996a3aab7a6ef321400cb491e951c4f5256753504660b0a",
+          "holes": 25,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 175
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control1-before.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control1-rollback.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control2-after.txt",
+          "sha256": "7d8b76474c08c9d56427d93e3d83b2c651302bcf50024f3e5881a1fd2f693d76",
+          "holes": 38,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 40,
+          "nonheavy_excess": 5,
+          "score": 255
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control2-before.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control2-rollback.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control3-after.txt",
+          "sha256": "d28e701b903a950118fa6441e8003046d7626f38f4c38a6133885b09a66218af",
+          "holes": 30,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            8216
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 3,
+          "score": 195
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control3-before.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-control3-rollback.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-initial.txt",
+          "sha256": "1e83b3800db74cb2f034d0910864116fdc4811c4077540272a90714511083eda",
+          "holes": 19,
+          "template_ids_1based": [
+            21609,
+            13873,
+            9403,
+            3270
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 3,
+          "score": 134
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-best.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 92
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h12-s92.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 92
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h13-s101.txt",
+          "sha256": "2256de39ad2ffa7b0cace6e74639ee2ebf018cf378db16af9dc561bd1cc347c1",
+          "holes": 13,
+          "template_ids_1based": [
+            20588,
+            13504,
+            11941,
+            11929
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 4,
+          "score": 101
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h13-s99.txt",
+          "sha256": "d5592a8911f090eebac792d9f649c4ea7d5d3c0143a921fa9f449c94b39fb98b",
+          "holes": 13,
+          "template_ids_1based": [
+            20588,
+            13504,
+            11941,
+            20047
+          ],
+          "pair_l1": 14,
+          "nonheavy_excess": 4,
+          "score": 99
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h16-s101.txt",
+          "sha256": "1398d80e61f90ae15eb5f64cf77e3001ed4eda80d3b838dccf9246b56f94fba8",
+          "holes": 16,
+          "template_ids_1based": [
+            23164,
+            10590,
+            9866,
+            3171
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 1,
+          "score": 101
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h16-s103.txt",
+          "sha256": "eb9f4fb256171522eae7df56a030efc0a52cda44f11041e72b3d71323297c3ed",
+          "holes": 16,
+          "template_ids_1based": [
+            23164,
+            10590,
+            9866,
+            3171
+          ],
+          "pair_l1": 18,
+          "nonheavy_excess": 1,
+          "score": 103
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h17-s117.txt",
+          "sha256": "b3ffd5baf4fbb30de12229aa3c1090e5270e2e010e802090a7dbd4e663d7289f",
+          "holes": 17,
+          "template_ids_1based": [
+            11093,
+            9108,
+            23726,
+            2539
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 117
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-raw-h18-s131.txt",
+          "sha256": "149c006ea98532ddd42411da4f618c1aad6bb28f812ef6a1d29993f019435852",
+          "holes": 18,
+          "template_ids_1based": [
+            11093,
+            9108,
+            23726,
+            1285
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 5,
+          "score": 131
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample0-after.txt",
+          "sha256": "a3f8ce1b470c37da7974f7944ca1797e12cc2972f2be5ee4802c305138a8a8cf",
+          "holes": 39,
+          "template_ids_1based": [
+            24734,
+            11255,
+            10045,
+            10277
+          ],
+          "pair_l1": 20,
+          "nonheavy_excess": 0,
+          "score": 215
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample0-before.txt",
+          "sha256": "73dbbf49a2c1bf4478fc23d3edf4d6885415d38d39d4eb49a0dbf09117c9262e",
+          "holes": 38,
+          "template_ids_1based": [
+            24734,
+            11255,
+            10045,
+            10277
+          ],
+          "pair_l1": 22,
+          "nonheavy_excess": 0,
+          "score": 212
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample1-after.txt",
+          "sha256": "9962bf111b8fd51814f26c59bf98b6494cc8722e88b958231256a58d96bb7d47",
+          "holes": 49,
+          "template_ids_1based": [
+            13487,
+            11250,
+            10955,
+            22500
+          ],
+          "pair_l1": 30,
+          "nonheavy_excess": 4,
+          "score": 295
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample1-before.txt",
+          "sha256": "3097a86b6f69d77588ab24173b5370e2e91722b02f6df8796d01d027932be36a",
+          "holes": 47,
+          "template_ids_1based": [
+            13487,
+            11250,
+            10955,
+            22500
+          ],
+          "pair_l1": 28,
+          "nonheavy_excess": 4,
+          "score": 283
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample10-after.txt",
+          "sha256": "907177b3ecfb3e63843ffbedc8cd9a7775fa212e9d12dfec13d0ad664ea31bc0",
+          "holes": 47,
+          "template_ids_1based": [
+            21754,
+            22048,
+            22741,
+            12944
+          ],
+          "pair_l1": 36,
+          "nonheavy_excess": 6,
+          "score": 301
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample10-before.txt",
+          "sha256": "1135b6b57f8e4c3ea50156ac8c8979632dda59e75b957a87ef4a89aa4274391f",
+          "holes": 47,
+          "template_ids_1based": [
+            21754,
+            22048,
+            22741,
+            12944
+          ],
+          "pair_l1": 40,
+          "nonheavy_excess": 5,
+          "score": 300
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample11-after.txt",
+          "sha256": "2f49b6e3070ea74017e1bbc84c64d4f2003d32e9170755d1274d30c7dfccbe3c",
+          "holes": 43,
+          "template_ids_1based": [
+            11030,
+            10844,
+            9315,
+            23179
+          ],
+          "pair_l1": 24,
+          "nonheavy_excess": 2,
+          "score": 249
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample11-before.txt",
+          "sha256": "ce9f1c6e82f6d26b015459571194697accbcad2d98daf79e0d130bf50f5fd933",
+          "holes": 42,
+          "template_ids_1based": [
+            11030,
+            10844,
+            9315,
+            23179
+          ],
+          "pair_l1": 22,
+          "nonheavy_excess": 0,
+          "score": 232
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample2-after.txt",
+          "sha256": "60e97607c18937e5795e233c2402805185e0a5a60d5bf875e36a19ae271ceffe",
+          "holes": 59,
+          "template_ids_1based": [
+            14879,
+            23067,
+            12270,
+            12637
+          ],
+          "pair_l1": 46,
+          "nonheavy_excess": 6,
+          "score": 371
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample2-before.txt",
+          "sha256": "be3d8032fc35a70170546f98163607c6db60f1a19cd48ed59a26ad1fdee90f34",
+          "holes": 59,
+          "template_ids_1based": [
+            14879,
+            23067,
+            12270,
+            12637
+          ],
+          "pair_l1": 46,
+          "nonheavy_excess": 7,
+          "score": 376
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample3-after.txt",
+          "sha256": "3c783631f43b807525dd4870c0598950d580b347a51acd11f478023139b43fa9",
+          "holes": 66,
+          "template_ids_1based": [
+            22173,
+            22122,
+            7783,
+            20654
+          ],
+          "pair_l1": 44,
+          "nonheavy_excess": 8,
+          "score": 414
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample3-before.txt",
+          "sha256": "65926f0bfe63673f2d1eb02ad12077839963ad9b183914271fe1e334cab41d8a",
+          "holes": 63,
+          "template_ids_1based": [
+            22173,
+            22122,
+            7783,
+            20654
+          ],
+          "pair_l1": 38,
+          "nonheavy_excess": 10,
+          "score": 403
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample4-after.txt",
+          "sha256": "cb459d7a4507b485571542595017af7220d6374988f5930ed738e51cc45ef48f",
+          "holes": 44,
+          "template_ids_1based": [
+            11646,
+            7834,
+            15906,
+            16877
+          ],
+          "pair_l1": 32,
+          "nonheavy_excess": 5,
+          "score": 277
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample4-before.txt",
+          "sha256": "599e74763a75e4990a26cb6482c822d9c1c3a2834bb66738232c2723febb28a0",
+          "holes": 42,
+          "template_ids_1based": [
+            11646,
+            7834,
+            15906,
+            16877
+          ],
+          "pair_l1": 32,
+          "nonheavy_excess": 6,
+          "score": 272
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample5-after.txt",
+          "sha256": "dff42d739a6a1e9fee4e51da4b7b8e4cd5a2b0fb2c407c8887f2aa9c781b2b37",
+          "holes": 64,
+          "template_ids_1based": [
+            18183,
+            22789,
+            3214,
+            303
+          ],
+          "pair_l1": 44,
+          "nonheavy_excess": 1,
+          "score": 369
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample5-before.txt",
+          "sha256": "aa43f3ab210389238d842a21138edbe656121ae3a78a34d5823d75d6b267e0e0",
+          "holes": 61,
+          "template_ids_1based": [
+            18183,
+            22789,
+            3214,
+            303
+          ],
+          "pair_l1": 42,
+          "nonheavy_excess": 1,
+          "score": 352
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample6-after.txt",
+          "sha256": "b75c3aa05a328b0475d6e02cde53b6b921e5cf01552f2cfafbaf50faaad330d5",
+          "holes": 50,
+          "template_ids_1based": [
+            12015,
+            4402,
+            5638,
+            20748
+          ],
+          "pair_l1": 34,
+          "nonheavy_excess": 2,
+          "score": 294
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample6-before.txt",
+          "sha256": "02764fdb42e4b59f8b4cf927bb37cf9cd9cbc3a162945ade053493d10a4e47ed",
+          "holes": 51,
+          "template_ids_1based": [
+            12015,
+            4402,
+            5638,
+            20748
+          ],
+          "pair_l1": 36,
+          "nonheavy_excess": 1,
+          "score": 296
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample7-after.txt",
+          "sha256": "b337b1a119ebc5eb54795d8260f0edf54759037dbccf768bc96b1d4470db2c43",
+          "holes": 34,
+          "template_ids_1based": [
+            12015,
+            6161,
+            6447,
+            21123
+          ],
+          "pair_l1": 22,
+          "nonheavy_excess": 0,
+          "score": 192
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample7-before.txt",
+          "sha256": "e8feb7c29d498111f864336a423a048bc842eaac1d5ef7f6af96b94db7ca1c86",
+          "holes": 36,
+          "template_ids_1based": [
+            12015,
+            6161,
+            6447,
+            21123
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 0,
+          "score": 206
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample8-after.txt",
+          "sha256": "17f22c58b3fd6547a71e5c971d38e373df2928bcc09ca54c806457723dbedf87",
+          "holes": 41,
+          "template_ids_1based": [
+            21995,
+            19670,
+            1809,
+            14019
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 4,
+          "score": 251
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample8-before.txt",
+          "sha256": "073d0ea0414c1c97d3ed01e0dd5fa82f5592f11a62f9191442d7704cf0edc001",
+          "holes": 42,
+          "template_ids_1based": [
+            21995,
+            19670,
+            1809,
+            14019
+          ],
+          "pair_l1": 26,
+          "nonheavy_excess": 3,
+          "score": 251
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample9-after.txt",
+          "sha256": "08d7a61714752e6202a229d93e4109ed59bc5a97cb656b0015ca49a05a1b2916",
+          "holes": 52,
+          "template_ids_1based": [
+            21995,
+            19670,
+            1809,
+            2455
+          ],
+          "pair_l1": 40,
+          "nonheavy_excess": 4,
+          "score": 320
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-sample9-before.txt",
+          "sha256": "889c800060058aef2b0cb5ccf4a0a88db160e7f60e0f69ad9aee381a91adeb19",
+          "holes": 50,
+          "template_ids_1based": [
+            21995,
+            19670,
+            1809,
+            20001
+          ],
+          "pair_l1": 42,
+          "nonheavy_excess": 5,
+          "score": 317
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-best.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 92
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s101-h13.txt",
+          "sha256": "2256de39ad2ffa7b0cace6e74639ee2ebf018cf378db16af9dc561bd1cc347c1",
+          "holes": 13,
+          "template_ids_1based": [
+            20588,
+            13504,
+            11941,
+            11929
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 4,
+          "score": 101
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s101-h16.txt",
+          "sha256": "1398d80e61f90ae15eb5f64cf77e3001ed4eda80d3b838dccf9246b56f94fba8",
+          "holes": 16,
+          "template_ids_1based": [
+            23164,
+            10590,
+            9866,
+            3171
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 1,
+          "score": 101
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s102-h18.txt",
+          "sha256": "e697ddb8aa88357b40bfc17906d833f45eee60a63cecd9617aa2dc32767c06c7",
+          "holes": 18,
+          "template_ids_1based": [
+            14164,
+            10590,
+            9866,
+            3171
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 0,
+          "score": 102
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s107-h18.txt",
+          "sha256": "7cd57276b12e9a7b32ad8f3a03f2dc8f2df188a5972ba7f6dd5faec1a694b2d8",
+          "holes": 18,
+          "template_ids_1based": [
+            14164,
+            10590,
+            9866,
+            3171
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 1,
+          "score": 107
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s112-h19.txt",
+          "sha256": "f3911c5ba566495fc4604edc2537516f45af2308dad1980ffa781c3fa614ed06",
+          "holes": 19,
+          "template_ids_1based": [
+            14164,
+            10590,
+            10060,
+            3171
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 1,
+          "score": 112
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s116-h19.txt",
+          "sha256": "c434f428c6b3f3a9954e7576bf70c24a585ebf640d4d5aef7111ec5ac236d55d",
+          "holes": 19,
+          "template_ids_1based": [
+            14164,
+            10590,
+            9904,
+            3171
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 1,
+          "score": 116
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s117-h17.txt",
+          "sha256": "b3ffd5baf4fbb30de12229aa3c1090e5270e2e010e802090a7dbd4e663d7289f",
+          "holes": 17,
+          "template_ids_1based": [
+            11093,
+            9108,
+            23726,
+            2539
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 117
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s131-h18.txt",
+          "sha256": "149c006ea98532ddd42411da4f618c1aad6bb28f812ef6a1d29993f019435852",
+          "holes": 18,
+          "template_ids_1based": [
+            11093,
+            9108,
+            23726,
+            1285
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 5,
+          "score": 131
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s131-h22.txt",
+          "sha256": "2d02fd4cb994ecd2db99b3d977ad7c60bf0a3bc74de266ad83e0828e2e8d266a",
+          "holes": 22,
+          "template_ids_1based": [
+            11083,
+            15374,
+            6384,
+            710
+          ],
+          "pair_l1": 16,
+          "nonheavy_excess": 1,
+          "score": 131
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s133-h22.txt",
+          "sha256": "71994e6ebbedc5962c7bd769453fac614eaebc70157a4fd6b4c9680b0b278f86",
+          "holes": 22,
+          "template_ids_1based": [
+            11083,
+            15374,
+            6384,
+            774
+          ],
+          "pair_l1": 18,
+          "nonheavy_excess": 1,
+          "score": 133
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s92-h12.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "pair_l1": 12,
+          "nonheavy_excess": 4,
+          "score": 92
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-native-v1.1.0/pilots/cycle-score-s99-h13.txt",
+          "sha256": "d5592a8911f090eebac792d9f649c4ea7d5d3c0143a921fa9f449c94b39fb98b",
+          "holes": 13,
+          "template_ids_1based": [
+            20588,
+            13504,
+            11941,
+            20047
+          ],
+          "pair_l1": 14,
+          "nonheavy_excess": 4,
+          "score": 99
+        }
+      ],
+      "operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply",
+          "before": {
+            "holes": 19,
+            "pair_l1": 24,
+            "nonheavy_excess": 3,
+            "score": 134
+          },
+          "after": {
+            "holes": 24,
+            "pair_l1": 28,
+            "nonheavy_excess": 3,
+            "score": 163
+          }
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply",
+          "before": {
+            "holes": 19,
+            "pair_l1": 24,
+            "nonheavy_excess": 3,
+            "score": 134
+          },
+          "after": {
+            "holes": 25,
+            "pair_l1": 30,
+            "nonheavy_excess": 4,
+            "score": 175
+          }
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply",
+          "before": {
+            "holes": 19,
+            "pair_l1": 24,
+            "nonheavy_excess": 3,
+            "score": 134
+          },
+          "after": {
+            "holes": 38,
+            "pair_l1": 40,
+            "nonheavy_excess": 5,
+            "score": 255
+          }
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply",
+          "before": {
+            "holes": 19,
+            "pair_l1": 24,
+            "nonheavy_excess": 3,
+            "score": 134
+          },
+          "after": {
+            "holes": 30,
+            "pair_l1": 30,
+            "nonheavy_excess": 3,
+            "score": 195
+          }
+        },
+        {
+          "mode": 1,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 38,
+            "pair_l1": 22,
+            "nonheavy_excess": 0,
+            "score": 212
+          },
+          "after": {
+            "holes": 39,
+            "pair_l1": 20,
+            "nonheavy_excess": 0,
+            "score": 215
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 47,
+            "pair_l1": 28,
+            "nonheavy_excess": 4,
+            "score": 283
+          },
+          "after": {
+            "holes": 49,
+            "pair_l1": 30,
+            "nonheavy_excess": 4,
+            "score": 295
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 59,
+            "pair_l1": 46,
+            "nonheavy_excess": 7,
+            "score": 376
+          },
+          "after": {
+            "holes": 59,
+            "pair_l1": 46,
+            "nonheavy_excess": 6,
+            "score": 371
+          }
+        },
+        {
+          "mode": 1,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 63,
+            "pair_l1": 38,
+            "nonheavy_excess": 10,
+            "score": 403
+          },
+          "after": {
+            "holes": 66,
+            "pair_l1": 44,
+            "nonheavy_excess": 8,
+            "score": 414
+          }
+        },
+        {
+          "mode": 1,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 42,
+            "pair_l1": 32,
+            "nonheavy_excess": 6,
+            "score": 272
+          },
+          "after": {
+            "holes": 44,
+            "pair_l1": 32,
+            "nonheavy_excess": 5,
+            "score": 277
+          }
+        },
+        {
+          "mode": 1,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 61,
+            "pair_l1": 42,
+            "nonheavy_excess": 1,
+            "score": 352
+          },
+          "after": {
+            "holes": 64,
+            "pair_l1": 44,
+            "nonheavy_excess": 1,
+            "score": 369
+          }
+        },
+        {
+          "mode": 1,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 51,
+            "pair_l1": 36,
+            "nonheavy_excess": 1,
+            "score": 296
+          },
+          "after": {
+            "holes": 50,
+            "pair_l1": 34,
+            "nonheavy_excess": 2,
+            "score": 294
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 36,
+            "pair_l1": 26,
+            "nonheavy_excess": 0,
+            "score": 206
+          },
+          "after": {
+            "holes": 34,
+            "pair_l1": 22,
+            "nonheavy_excess": 0,
+            "score": 192
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 42,
+            "pair_l1": 26,
+            "nonheavy_excess": 3,
+            "score": 251
+          },
+          "after": {
+            "holes": 41,
+            "pair_l1": 26,
+            "nonheavy_excess": 4,
+            "score": 251
+          }
+        },
+        {
+          "mode": 3,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 50,
+            "pair_l1": 42,
+            "nonheavy_excess": 5,
+            "score": 317
+          },
+          "after": {
+            "holes": 52,
+            "pair_l1": 40,
+            "nonheavy_excess": 4,
+            "score": 320
+          }
+        },
+        {
+          "mode": 2,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 47,
+            "pair_l1": 40,
+            "nonheavy_excess": 5,
+            "score": 300
+          },
+          "after": {
+            "holes": 47,
+            "pair_l1": 36,
+            "nonheavy_excess": 6,
+            "score": 301
+          }
+        },
+        {
+          "mode": 0,
+          "role": "accepted_sample",
+          "before": {
+            "holes": 42,
+            "pair_l1": 22,
+            "nonheavy_excess": 0,
+            "score": 232
+          },
+          "after": {
+            "holes": 43,
+            "pair_l1": 24,
+            "nonheavy_excess": 2,
+            "score": 249
+          }
+        }
+      ],
+      "damaged_fields": [
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        },
+        {
+          "field": "holes_before",
+          "rejected": true
+        },
+        {
+          "field": "holes_after",
+          "rejected": true
+        },
+        {
+          "field": "score_before",
+          "rejected": true
+        },
+        {
+          "field": "score_after",
+          "rejected": true
+        }
+      ],
+      "final": {
+        "event": "finished",
+        "best_holes": 12,
+        "best_raw_score": 92,
+        "best_score": 92,
+        "best_score_holes": 12,
+        "proposals": 234822903,
+        "seconds": 300,
+        "restarts": 469,
+        "sampled_operations": 12,
+        "attempted": [
+          82178808,
+          58712755,
+          35230339,
+          58701001
+        ],
+        "accepted": [
+          470336,
+          187510,
+          3461,
+          135566
+        ]
+      }
+    }
+  ],
+  "scope": "Saved native pilot states, score fields and operations only; no cover or exclusion."
+}

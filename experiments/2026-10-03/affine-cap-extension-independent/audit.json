@@ -1,0 +1,173 @@
+{
+  "passed": true,
+  "checker_sha256": "11a34715b0d4c5e70d9b97bb893fee0bd3b173cf3731a305742f92b0217cb464",
+  "manifest_sha256": "c610842c667ffd973c0d30749b1cfa5c346a9e544ec6488a1a1650badc4a83bd",
+  "pool_sha256": "d88f826ebae519e09b5e6a0a0c1fcde1420ce5116a15de4c2b5430f0e1ec569a",
+  "prior_pool_sha256": "913c47b15b1783472bf5c1a97e616a13504db7ee2b49d19804154d4b52724729",
+  "prior_gate_sha256": "5f2d149ea8d2e806c27817a22ac6f71924fcbc50f8cbb4ab822724b3a7260435",
+  "models": [
+    {
+      "name": "base",
+      "model_sha256": "f6a2a4f11b5760692f659e212e661dd5cc81c069876e9df91ed260b0a27d0613",
+      "passed": true,
+      "variables": 528,
+      "rows": 561,
+      "damaged_controls": [
+        {
+          "name": "missing variable",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "duplicate block identity",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "nonBoolean variable",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "missing coverage row",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "wrong cardinality",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "wrong coefficient",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "wrong support",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "vacuous coverage",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra upper bound",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "enforced coverage",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra hint",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra strategy",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra row name",
+          "rejected": "complete model differs from independent reconstruction"
+        }
+      ]
+    },
+    {
+      "name": "incidence-cuts",
+      "model_sha256": "499a80a8911a33c0effb543dadd5edd0b89c98fd235cbf1ccd379afde620a2be",
+      "passed": true,
+      "variables": 528,
+      "rows": 697,
+      "damaged_controls": [
+        {
+          "name": "missing variable",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "duplicate block identity",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "nonBoolean variable",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "missing coverage row",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "wrong cardinality",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "wrong coefficient",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "wrong support",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "vacuous coverage",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra upper bound",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "enforced coverage",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra hint",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra strategy",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "extra row name",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "degree equality20",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "weakened pair cut",
+          "rejected": "complete model differs from independent reconstruction"
+        },
+        {
+          "name": "stronger pair cut",
+          "rejected": "complete model differs from independent reconstruction"
+        }
+      ]
+    }
+  ],
+  "pool_controls": [
+    {
+      "removed_from": "pool",
+      "rejected": true
+    },
+    {
+      "removed_from": "supports",
+      "rejected": true
+    },
+    {
+      "removed_from": "point_rows",
+      "rejected": true
+    },
+    {
+      "removed_from": "pair_rows",
+      "rejected": true
+    },
+    {
+      "removed_from": "affine_lines",
+      "rejected": true
+    }
+  ],
+  "universe_blocks": 4368,
+  "caps": 288,
+  "extensions": 240,
+  "base_unchanged_after_stripping_cuts": true,
+  "cut_argument": "Each pair needs ceil(14/3)=5 blocks. For a point, 15 pair incidences sum to four times its degree; hence ceil(75/4)=19.",
+  "solver_calls": 0,
+  "scope": "Exact models within the 528-block pool only. No symmetry, fixed degree or cap/extension split. No global exclusion or proof claim."
+}

@@ -1,0 +1,92 @@
+{
+  "checker_sha256": "024498fb60a9abe24268878911eef374ab9e8aff579e558d2a53b2accf23473d",
+  "rejected": 17,
+  "controls": [
+    {
+      "name": "missing_block",
+      "exit": 2,
+      "error": "seed must contain64 distinct blocks"
+    },
+    {
+      "name": "duplicate_block",
+      "exit": 2,
+      "error": "seed must contain64 distinct blocks"
+    },
+    {
+      "name": "repeated_label",
+      "exit": 2,
+      "error": "repeated label"
+    },
+    {
+      "name": "outside_label",
+      "exit": 2,
+      "error": "label outside1..16"
+    },
+    {
+      "name": "extra_token",
+      "exit": 2,
+      "error": "extra seed token"
+    },
+    {
+      "name": "degree_preserving_forbidden_family",
+      "exit": 2,
+      "error": "invalid ordinary block or count"
+    },
+    {
+      "name": "missing_template",
+      "exit": 2,
+      "error": "catalog index mismatch"
+    },
+    {
+      "name": "extra_template",
+      "exit": 2,
+      "error": "extra catalog token"
+    },
+    {
+      "name": "duplicate_edge",
+      "exit": 2,
+      "error": "invalid or duplicate template edge"
+    },
+    {
+      "name": "wrong_group",
+      "exit": 2,
+      "error": "catalog index mismatch"
+    },
+    {
+      "name": "wrong_count",
+      "exit": 2,
+      "error": "wrong catalog count"
+    },
+    {
+      "name": "negative_seed",
+      "exit": 2,
+      "error": "unsigned integer argument required"
+    },
+    {
+      "name": "seed_suffix",
+      "exit": 2,
+      "error": "unsigned integer argument required"
+    },
+    {
+      "name": "budget_suffix",
+      "exit": 2,
+      "error": "positive finite budget required"
+    },
+    {
+      "name": "nan_budget",
+      "exit": 2,
+      "error": "positive finite budget required"
+    },
+    {
+      "name": "infinite_budget",
+      "exit": 2,
+      "error": "positive finite budget required"
+    },
+    {
+      "name": "zero_budget",
+      "exit": 2,
+      "error": "positive finite budget required"
+    }
+  ],
+  "independent_forbidden_family_rejected": true
+}
