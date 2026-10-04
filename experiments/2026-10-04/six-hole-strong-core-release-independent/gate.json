@@ -1,0 +1,357 @@
+{
+  "cases": [
+    {
+      "model_sha256": "61b89deea29857aee2a26d52977f83c22479bbebbcad156dc54c9d29791667af",
+      "name": "adaptive-952",
+      "only_model_deltas": [
+        "two core upper bounds 59 to 55",
+        "complete legal hint"
+      ],
+      "parameters_sha256": "f3fac98f6f589009eff6e49a240e2ea502c40dde199ce3c0a5b4d2e11c78d05b",
+      "pool_size": 952,
+      "rows": 1166,
+      "variables": 4948
+    },
+    {
+      "model_sha256": "a55f9fc51270ac500055f3dc673c3aca57d9658004662782ae68cbba55379841",
+      "name": "full-4368",
+      "only_model_deltas": [
+        "two core upper bounds 59 to 55",
+        "complete legal hint"
+      ],
+      "parameters_sha256": "f3fac98f6f589009eff6e49a240e2ea502c40dde199ce3c0a5b4d2e11c78d05b",
+      "pool_size": 4368,
+      "rows": 1166,
+      "variables": 4948
+    }
+  ],
+  "checker_sha256": "6427e52850387360a921abc8f689888deddcbaa3be2da6e9b900c43ded02cd77",
+  "core_cap_audit_sha256": "fec461fad7b3f53fade9beecec77c7146487e02f5bbb36f543f642d190edc5a8",
+  "damaged_controls_rejected": [
+    "weak_original_core",
+    "unproved_core54",
+    "changed_hole_weight",
+    "changed_hint",
+    "changed_profile",
+    "hidden_distance_row"
+  ],
+  "hint_all_five_heavy_scan": {
+    "five_heavy_obstructions": [],
+    "heavy_triples": [
+      {
+        "count": 7,
+        "triple": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "count": 7,
+        "triple": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "count": 7,
+        "triple": [
+          9,
+          10,
+          11
+        ]
+      },
+      {
+        "count": 7,
+        "triple": [
+          13,
+          14,
+          15
+        ]
+      }
+    ]
+  },
+  "hint_selection": {
+    "candidate_paths": 36,
+    "eligible_paths": 10,
+    "selected": {
+      "both_core_caps_pass": true,
+      "both_profile_cuts_pass": true,
+      "core_overlaps": [
+        1,
+        7
+      ],
+      "eligible": true,
+      "holes": 14,
+      "origin": "profile_postcheck",
+      "partition_counts": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          7,
+          7,
+          7,
+          7,
+          0
+        ]
+      ],
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-02-h14.txt",
+      "sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c"
+    }
+  },
+  "hint_verifiers": [
+    {
+      "blocks": 64,
+      "canonical_sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c",
+      "covered": 546,
+      "expected_block_count_matches": true,
+      "expected_blocks": 64,
+      "k": 5,
+      "multiplicities": {
+        "0": 14,
+        "1": 475,
+        "2": 65,
+        "3": 1,
+        "4": 1,
+        "7": 4
+      },
+      "pair_multiplicities": {
+        "4": 4,
+        "5": 85,
+        "6": 18,
+        "7": 13
+      },
+      "replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 19,
+        "2": 20,
+        "3": 21,
+        "4": 19,
+        "5": 21,
+        "6": 20,
+        "7": 21,
+        "8": 19,
+        "9": 21
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          6,
+          15
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          8,
+          11
+        ],
+        [
+          1,
+          8,
+          12
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          2,
+          11,
+          15
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          10,
+          16
+        ],
+        [
+          8,
+          11,
+          16
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 14,
+        "1": 475,
+        "2": 65,
+        "3": 1,
+        "4": 1,
+        "7": 4
+      },
+      "covered_subsets": 546,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 19,
+        "2": 20,
+        "3": 21,
+        "4": 19,
+        "5": 21,
+        "6": 20,
+        "7": 21,
+        "8": 19,
+        "9": 21
+      },
+      "required_subsets": 560,
+      "source_sha256": "e942f6018640e2ead11e6e1f4ec9c3d16cf64166ed504f680f2fd04207cd0e2c",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          6,
+          15
+        ],
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          8,
+          11
+        ],
+        [
+          1,
+          8,
+          12
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          9,
+          15
+        ],
+        [
+          2,
+          11,
+          15
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          10,
+          16
+        ],
+        [
+          8,
+          11,
+          16
+        ]
+      ],
+      "uncovered_count": 14,
+      "valid": false
+    }
+  ],
+  "independent_sources": {
+    "experiments/2026-10-04/heterogeneous-core-pool-independent/check.py": "b27be72f120f96b2a227415d025bace6fa8ec6ed3a1ab27006244bf5ac0e86c2",
+    "experiments/2026-10-04/heterogeneous-pool-independent/check.py": "7401e44ed7378ff58e8ef5eb3921062be806f9c196c8418c96e092501a2bae37",
+    "experiments/2026-10-04/heterogeneous-profile-pool-independent/check.py": "43145051c14ced94ac38d7820338289b8692fba0d0f60bb01295c5321b903956",
+    "experiments/2026-10-04/six-hole-pool-release-independent/check.py": "4d652bc381e638e62baefb80264fddde6cac8bc2298fae81e5d2533f28be70f1",
+    "experiments/2026-10-04/six-hole-strong-core-release-independent/check.py": "6427e52850387360a921abc8f689888deddcbaa3be2da6e9b900c43ded02cd77"
+  },
+  "manifest_sha256": "7b7266c9ed7a6c57a0959afd9b396af40aa3e89b5155efac8e26c006aa8f274d",
+  "optimizer_calls": 0,
+  "passed": true,
+  "scope": "Preparation gate: proved cap55, legal hint, and seed are the only changes. No optimizer calls.",
+  "source_sha256": "a570ebded365c26ffcc90ece8c3c27f72e182b4df5bb2ab46b813fa087738ebf"
+}

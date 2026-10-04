@@ -1,0 +1,1122 @@
+{
+  "cases": [
+    {
+      "model_sha256": "8752ea6582dc944d1b142edb28b6d1216e740c84e649fb6baf296166156e5857",
+      "name": "adaptive-952",
+      "parameters_sha256": "04e88f99c5e21e7c3a0b0ce9833c194f865522b78433a5175b99cc918f6882d2",
+      "pool_size": 952,
+      "rows": 1166,
+      "variables": 4948
+    },
+    {
+      "model_sha256": "958fd70d7aa2597f8a704098c6f5902bf5c9bb065ce0973712f40cd3c79beef7",
+      "name": "full-4368",
+      "parameters_sha256": "04e88f99c5e21e7c3a0b0ce9833c194f865522b78433a5175b99cc918f6882d2",
+      "pool_size": 4368,
+      "rows": 1166,
+      "variables": 4948
+    }
+  ],
+  "checker_sha256": "4d652bc381e638e62baefb80264fddde6cac8bc2298fae81e5d2533f28be70f1",
+  "damaged_controls_rejected": [
+    "cardinality",
+    "hidden_full_pool_restriction",
+    "core_upper_bound",
+    "one_sided_threshold",
+    "unconditional_seven_cap",
+    "wrong_hole_weight",
+    "wrong_core_preference",
+    "wrong_hint",
+    "extra_radius_row"
+  ],
+  "independent_sources": {
+    "experiments/2026-10-04/heterogeneous-core-pool-independent/check.py": "b27be72f120f96b2a227415d025bace6fa8ec6ed3a1ab27006244bf5ac0e86c2",
+    "experiments/2026-10-04/heterogeneous-pool-independent/check.py": "7401e44ed7378ff58e8ef5eb3921062be806f9c196c8418c96e092501a2bae37",
+    "experiments/2026-10-04/heterogeneous-profile-pool-independent/check.py": "43145051c14ced94ac38d7820338289b8692fba0d0f60bb01295c5321b903956",
+    "experiments/2026-10-04/six-hole-pool-release-independent/check.py": "4d652bc381e638e62baefb80264fddde6cac8bc2298fae81e5d2533f28be70f1"
+  },
+  "manifest_sha256": "84eac4c5110c0f98c7f8e0b01b3cc29dcc1f51003fdad9aa1b8e502813e2be8c",
+  "optimizer_calls": 0,
+  "passed": true,
+  "pool_derivation": {
+    "carriers": 720,
+    "distinct_holes": 12,
+    "elite": 277,
+    "source_states": 4,
+    "union": 952
+  },
+  "scope": "Preparation gate only; all slots released. Objective tie preference only. No optimization or global theorem.",
+  "source_sha256": "68d5f0ffc21d3f69ed6d99d6004d3b23ec2ef1213b977220173eaaea4d4d0f04",
+  "source_states": [
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/elite/best-10-h6.txt",
+      "profile": {
+        "degree_histogram": [
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            14
+          ],
+          [
+            21,
+            1
+          ]
+        ],
+        "holes": [
+          127,
+          337,
+          449,
+          450,
+          473,
+          553
+        ],
+        "pair_histogram": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            86
+          ],
+          [
+            6,
+            22
+          ],
+          [
+            7,
+            10
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            57
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            7,
+            3
+          ]
+        ]
+      },
+      "scan": {
+        "five_heavy_obstructions": [],
+        "heavy_triples": [
+          {
+            "count": 7,
+            "triple": [
+              1,
+              3,
+              6
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              4,
+              8,
+              10
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              5,
+              13,
+              16
+            ]
+          },
+          {
+            "count": 6,
+            "triple": [
+              9,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      "sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+      "verifiers": [
+        {
+          "blocks": 64,
+          "canonical_sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+          "covered": 554,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 57,
+            "3": 1,
+            "5": 1,
+            "6": 1,
+            "7": 3
+          },
+          "pair_multiplicities": {
+            "4": 2,
+            "5": 86,
+            "6": 22,
+            "7": 10
+          },
+          "replication": {
+            "1": 20,
+            "10": 20,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 20,
+            "16": 20,
+            "2": 20,
+            "3": 21,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 19
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              2,
+              4,
+              14
+            ],
+            [
+              4,
+              14,
+              15
+            ],
+            [
+              7,
+              9,
+              11
+            ],
+            [
+              7,
+              9,
+              12
+            ],
+            [
+              7,
+              14,
+              15
+            ],
+            [
+              12,
+              14,
+              15
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 57,
+            "3": 1,
+            "5": 1,
+            "6": 1,
+            "7": 3
+          },
+          "covered_subsets": 554,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 20,
+            "10": 20,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 20,
+            "16": 20,
+            "2": 20,
+            "3": 21,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 19
+          },
+          "required_subsets": 560,
+          "source_sha256": "254205ac63710eb339ab415d0b7337de5e152778587e47cd129afc0dfc86eec9",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              2,
+              4,
+              14
+            ],
+            [
+              4,
+              14,
+              15
+            ],
+            [
+              7,
+              9,
+              11
+            ],
+            [
+              7,
+              9,
+              12
+            ],
+            [
+              7,
+              14,
+              15
+            ],
+            [
+              12,
+              14,
+              15
+            ]
+          ],
+          "uncovered_count": 6,
+          "valid": false
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/elite-final-response.txt",
+      "profile": {
+        "degree_histogram": [
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            12
+          ],
+          [
+            21,
+            2
+          ]
+        ],
+        "holes": [
+          127,
+          157,
+          187,
+          337,
+          473,
+          553
+        ],
+        "pair_histogram": [
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            88
+          ],
+          [
+            6,
+            18
+          ],
+          [
+            7,
+            12
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "scan": {
+        "five_heavy_obstructions": [],
+        "heavy_triples": [
+          {
+            "count": 7,
+            "triple": [
+              1,
+              3,
+              6
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              4,
+              8,
+              10
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              5,
+              13,
+              16
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              9,
+              11,
+              12
+            ]
+          }
+        ]
+      },
+      "sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+      "verifiers": [
+        {
+          "blocks": 64,
+          "canonical_sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+          "covered": 554,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 58,
+            "5": 1,
+            "7": 4
+          },
+          "pair_multiplicities": {
+            "4": 2,
+            "5": 88,
+            "6": 18,
+            "7": 12
+          },
+          "replication": {
+            "1": 20,
+            "10": 20,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "2": 19,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 21
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              2,
+              4,
+              14
+            ],
+            [
+              2,
+              7,
+              14
+            ],
+            [
+              2,
+              12,
+              14
+            ],
+            [
+              4,
+              14,
+              15
+            ],
+            [
+              7,
+              14,
+              15
+            ],
+            [
+              12,
+              14,
+              15
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 58,
+            "5": 1,
+            "7": 4
+          },
+          "covered_subsets": 554,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 20,
+            "10": 20,
+            "11": 20,
+            "12": 20,
+            "13": 20,
+            "14": 19,
+            "15": 20,
+            "16": 21,
+            "2": 19,
+            "3": 20,
+            "4": 20,
+            "5": 20,
+            "6": 20,
+            "7": 20,
+            "8": 20,
+            "9": 21
+          },
+          "required_subsets": 560,
+          "source_sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              2,
+              4,
+              14
+            ],
+            [
+              2,
+              7,
+              14
+            ],
+            [
+              2,
+              12,
+              14
+            ],
+            [
+              4,
+              14,
+              15
+            ],
+            [
+              7,
+              14,
+              15
+            ],
+            [
+              12,
+              14,
+              15
+            ]
+          ],
+          "uncovered_count": 6,
+          "valid": false
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-pool/expanded/best-08-h6.txt",
+      "profile": {
+        "degree_histogram": [
+          [
+            19,
+            3
+          ],
+          [
+            20,
+            10
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "holes": [
+          313,
+          314,
+          449,
+          450,
+          514,
+          518
+        ],
+        "pair_histogram": [
+          [
+            4,
+            1
+          ],
+          [
+            5,
+            91
+          ],
+          [
+            6,
+            15
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "scan": {
+        "five_heavy_obstructions": [],
+        "heavy_triples": [
+          {
+            "count": 7,
+            "triple": [
+              1,
+              3,
+              6
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              2,
+              14,
+              15
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              4,
+              8,
+              10
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              5,
+              13,
+              16
+            ]
+          }
+        ]
+      },
+      "sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+      "verifiers": [
+        {
+          "blocks": 64,
+          "canonical_sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+          "covered": 554,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 58,
+            "5": 1,
+            "7": 4
+          },
+          "pair_multiplicities": {
+            "4": 1,
+            "5": 91,
+            "6": 15,
+            "7": 13
+          },
+          "replication": {
+            "1": 20,
+            "10": 20,
+            "11": 19,
+            "12": 19,
+            "13": 20,
+            "14": 21,
+            "15": 20,
+            "16": 20,
+            "2": 20,
+            "3": 20,
+            "4": 21,
+            "5": 20,
+            "6": 21,
+            "7": 20,
+            "8": 20,
+            "9": 19
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              4,
+              9,
+              11
+            ],
+            [
+              4,
+              9,
+              12
+            ],
+            [
+              7,
+              9,
+              11
+            ],
+            [
+              7,
+              9,
+              12
+            ],
+            [
+              9,
+              11,
+              16
+            ],
+            [
+              9,
+              12,
+              16
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 58,
+            "5": 1,
+            "7": 4
+          },
+          "covered_subsets": 554,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 20,
+            "10": 20,
+            "11": 19,
+            "12": 19,
+            "13": 20,
+            "14": 21,
+            "15": 20,
+            "16": 20,
+            "2": 20,
+            "3": 20,
+            "4": 21,
+            "5": 20,
+            "6": 21,
+            "7": 20,
+            "8": 20,
+            "9": 19
+          },
+          "required_subsets": 560,
+          "source_sha256": "690eff32788d824ee8ea8839f1ee5760ac11c243382ca52606f1a0827606a3ca",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              4,
+              9,
+              11
+            ],
+            [
+              4,
+              9,
+              12
+            ],
+            [
+              7,
+              9,
+              11
+            ],
+            [
+              7,
+              9,
+              12
+            ],
+            [
+              9,
+              11,
+              16
+            ],
+            [
+              9,
+              12,
+              16
+            ]
+          ],
+          "uncovered_count": 6,
+          "valid": false
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-04/heterogeneous-profile-postcheck/expanded-final-response.txt",
+      "profile": {
+        "degree_histogram": [
+          [
+            18,
+            1
+          ],
+          [
+            19,
+            1
+          ],
+          [
+            20,
+            11
+          ],
+          [
+            21,
+            3
+          ]
+        ],
+        "holes": [
+          313,
+          314,
+          449,
+          450,
+          514,
+          518
+        ],
+        "pair_histogram": [
+          [
+            4,
+            3
+          ],
+          [
+            5,
+            86
+          ],
+          [
+            6,
+            19
+          ],
+          [
+            7,
+            12
+          ]
+        ],
+        "triple_histogram": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            491
+          ],
+          [
+            2,
+            58
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            4
+          ]
+        ]
+      },
+      "scan": {
+        "five_heavy_obstructions": [],
+        "heavy_triples": [
+          {
+            "count": 7,
+            "triple": [
+              1,
+              3,
+              6
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              2,
+              14,
+              15
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              4,
+              8,
+              10
+            ]
+          },
+          {
+            "count": 7,
+            "triple": [
+              5,
+              13,
+              16
+            ]
+          }
+        ]
+      },
+      "sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+      "verifiers": [
+        {
+          "blocks": 64,
+          "canonical_sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+          "covered": 554,
+          "expected_block_count_matches": true,
+          "expected_blocks": 64,
+          "k": 5,
+          "multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 58,
+            "5": 1,
+            "7": 4
+          },
+          "pair_multiplicities": {
+            "4": 3,
+            "5": 86,
+            "6": 19,
+            "7": 12
+          },
+          "replication": {
+            "1": 20,
+            "10": 20,
+            "11": 19,
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 21,
+            "16": 20,
+            "2": 20,
+            "3": 21,
+            "4": 20,
+            "5": 20,
+            "6": 21,
+            "7": 20,
+            "8": 20,
+            "9": 18
+          },
+          "t": 3,
+          "total_incidences": 640,
+          "triples": 560,
+          "uncovered": [
+            [
+              4,
+              9,
+              11
+            ],
+            [
+              4,
+              9,
+              12
+            ],
+            [
+              7,
+              9,
+              11
+            ],
+            [
+              7,
+              9,
+              12
+            ],
+            [
+              9,
+              11,
+              16
+            ],
+            [
+              9,
+              12,
+              16
+            ]
+          ],
+          "v": 16,
+          "valid": false
+        },
+        {
+          "blocks": 64,
+          "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+          "canonical_sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+          "cardinality_matches": true,
+          "coverage_multiplicities": {
+            "0": 6,
+            "1": 491,
+            "2": 58,
+            "5": 1,
+            "7": 4
+          },
+          "covered_subsets": 554,
+          "covers_all_subsets": false,
+          "expected_blocks": 64,
+          "expected_subset_incidences": 640,
+          "parameters": {
+            "k": 5,
+            "t": 3,
+            "v": 16
+          },
+          "point_replication": {
+            "1": 20,
+            "10": 20,
+            "11": 19,
+            "12": 20,
+            "13": 20,
+            "14": 20,
+            "15": 21,
+            "16": 20,
+            "2": 20,
+            "3": 21,
+            "4": 20,
+            "5": 20,
+            "6": 21,
+            "7": 20,
+            "8": 20,
+            "9": 18
+          },
+          "required_subsets": 560,
+          "source_sha256": "3d9bff5a3158d1a481b96cd10c2ef7854f5d61cbefbad31a9ec10423732245ba",
+          "total_subset_incidences": 640,
+          "uncovered": [
+            [
+              4,
+              9,
+              11
+            ],
+            [
+              4,
+              9,
+              12
+            ],
+            [
+              7,
+              9,
+              11
+            ],
+            [
+              7,
+              9,
+              12
+            ],
+            [
+              9,
+              11,
+              16
+            ],
+            [
+              9,
+              12,
+              16
+            ]
+          ],
+          "uncovered_count": 6,
+          "valid": false
+        }
+      ]
+    }
+  ],
+  "threshold_truth_tables": [
+    {
+      "allowed": 217,
+      "cases": 243,
+      "forbidden": 26,
+      "partition": "original"
+    },
+    {
+      "allowed": 217,
+      "cases": 243,
+      "forbidden": 26,
+      "partition": "mapped"
+    }
+  ]
+}

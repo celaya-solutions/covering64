@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "commands": [
+    "uv sync --frozen",
+    "uv run pytest",
+    "uv run ruff check ."
+  ],
+  "pytest_passed": 369,
+  "warnings": 3,
+  "seconds": 235.28,
+  "source_revision_at_run": "b63d66240d4807c7079dbca6973fbd470e1f827a",
+  "package_code_changes_since_previous_regression": false,
+  "log_path": "experiments/scratch/profile-core-checkpoint-20261004-pytest.log",
+  "log_sha256": "38f0b5d8bff1516deef4bef265e86f78832b95b48b7e3eaceb83d693f5e1a390"
+}

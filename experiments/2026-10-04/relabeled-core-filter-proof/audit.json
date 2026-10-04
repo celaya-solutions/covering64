@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "optimization_calls": 0,
+  "source_sha256": "fbedda1accbaa54977b4cc1da48703601c01b82992788f01b76b5877da030008",
+  "scanner_sha256": "9cdcd511eb94954bb45c1cf209c5d51517b46c11e46b44a22ce7221d9309f74a",
+  "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+  "core_blocks": 60,
+  "core_disjoint_triples": [
+    [
+      1,
+      3,
+      6
+    ],
+    [
+      2,
+      14,
+      15
+    ],
+    [
+      4,
+      8,
+      10
+    ],
+    [
+      5,
+      13,
+      16
+    ],
+    [
+      9,
+      11,
+      12
+    ]
+  ],
+  "each_core_triple_count": 6,
+  "universe_blocks_checked": 4368,
+  "maximum_disjoint_triples_per_block": 1,
+  "pruned_vs_unpruned_controls": [
+    {
+      "shift": 0,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 3
+    },
+    {
+      "shift": 1,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 4
+    },
+    {
+      "shift": 2,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 10
+    },
+    {
+      "shift": 3,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 12
+    },
+    {
+      "shift": 4,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 13
+    },
+    {
+      "shift": 5,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 15
+    },
+    {
+      "shift": 6,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 11
+    },
+    {
+      "shift": 7,
+      "support": 12,
+      "partitions": 0,
+      "recursive_nodes": 7
+    }
+  ],
+  "deficit_boundary_controls": [
+    {
+      "first_count": 0,
+      "accepted": false
+    },
+    {
+      "first_count": 1,
+      "accepted": false
+    },
+    {
+      "first_count": 2,
+      "accepted": true
+    },
+    {
+      "first_count": 5,
+      "accepted": true
+    },
+    {
+      "first_count": 6,
+      "accepted": true
+    },
+    {
+      "first_count": 7,
+      "accepted": true
+    }
+  ],
+  "necessary_condition": "For overlap at least56 with a relabeled60-block core, five disjoint triples have total max(0,6-count) at most4.",
+  "contrapositive": "No such partition implies overlap at most55 for every core relabeling.",
+  "positive_partition_is_inconclusive": true,
+  "scope": "Source-assumption checks, proof review, and arithmetic enumeration controls. No construction search, no new covering witness, and no unrestricted bound."
+}

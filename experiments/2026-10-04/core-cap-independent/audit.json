@@ -1,0 +1,346 @@
+{
+  "current_core_translations": [
+    {
+      "core_global_ids": [
+        1,
+        83,
+        247,
+        313,
+        360,
+        434,
+        500,
+        505,
+        512,
+        523,
+        785,
+        786,
+        860,
+        927,
+        975,
+        1007,
+        1205,
+        1283,
+        1312,
+        1443,
+        1581,
+        1601,
+        1650,
+        1762,
+        1799,
+        1864,
+        1880,
+        1913,
+        2028,
+        2061,
+        2126,
+        2258,
+        2338,
+        2398,
+        2417,
+        2489,
+        2510,
+        2686,
+        2877,
+        2946,
+        3020,
+        3055,
+        3085,
+        3172,
+        3289,
+        3329,
+        3351,
+        3481,
+        3524,
+        3672,
+        3712,
+        3836,
+        3869,
+        3898,
+        3928,
+        3938,
+        4041,
+        4062,
+        4221,
+        4257
+      ],
+      "incidences_preserved": 43680,
+      "map_images": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "position": 0,
+      "recommended_upper_bound": 55,
+      "universe_blocks_bijective": 4368,
+      "universe_triples_bijective": 560
+    },
+    {
+      "core_global_ids": [
+        9,
+        17,
+        25,
+        35,
+        70,
+        74,
+        698,
+        720,
+        761,
+        814,
+        876,
+        960,
+        999,
+        1133,
+        1135,
+        1172,
+        1211,
+        1251,
+        1356,
+        1689,
+        1727,
+        1780,
+        1801,
+        1876,
+        1978,
+        1991,
+        2080,
+        2145,
+        2161,
+        2221,
+        2300,
+        2347,
+        2385,
+        2447,
+        2459,
+        2490,
+        2593,
+        2722,
+        2737,
+        2802,
+        2889,
+        2918,
+        2990,
+        3011,
+        3042,
+        3084,
+        3242,
+        3376,
+        3536,
+        3553,
+        3565,
+        3586,
+        3596,
+        3818,
+        3838,
+        4007,
+        4049,
+        4111,
+        4173,
+        4241
+      ],
+      "incidences_preserved": 43680,
+      "map_images": [
+        1,
+        7,
+        2,
+        10,
+        15,
+        3,
+        8,
+        11,
+        4,
+        9,
+        12,
+        16,
+        14,
+        6,
+        5,
+        13
+      ],
+      "position": 1,
+      "recommended_upper_bound": 55,
+      "universe_blocks_bijective": 4368,
+      "universe_triples_bijective": 560
+    }
+  ],
+  "damaged_controls_rejected": [
+    {
+      "label": "wrong_target",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/wrong_target.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "Wrong target",
+          "valid_certificate": false
+        },
+        "seconds": 0.0690175830386579,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"Wrong target\"}\n"
+      }
+    },
+    {
+      "label": "wrong_core_hash",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/wrong_core_hash.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "Wrong fixed core",
+          "valid_certificate": false
+        },
+        "seconds": 0.0699320420389995,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"Wrong fixed core\"}\n"
+      }
+    },
+    {
+      "label": "nonpermutation_generator",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/nonpermutation_generator.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "Bad point permutation",
+          "valid_certificate": false
+        },
+        "seconds": 0.07145670906174928,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"Bad point permutation\"}\n"
+      }
+    },
+    {
+      "label": "duplicate_orbit",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/duplicate_orbit.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "Overlapping or duplicate removal orbits",
+          "valid_certificate": false
+        },
+        "seconds": 1.0232817080104724,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"Overlapping or duplicate removal orbits\"}\n"
+      }
+    },
+    {
+      "label": "missing_orbit",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/missing_orbit.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "Some removal sets have no transported certificate",
+          "valid_certificate": false
+        },
+        "seconds": 1.005743999965489,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"Some removal sets have no transported certificate\"}\n"
+      }
+    },
+    {
+      "label": "missing_strict_bound",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/missing_strict_bound.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "False completeness declaration",
+          "valid_certificate": false
+        },
+        "seconds": 0.9996056250529364,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"False completeness declaration\"}\n"
+      }
+    },
+    {
+      "label": "duplicate_dual_weight",
+      "receipt": {
+        "command": [
+          "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+          "-I",
+          "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+          "/var/folders/v0/lhtftryj15n6kqdssqb38l1h0000gn/T/core-cap-controls-rxqpuz39/duplicate_dual_weight.json"
+        ],
+        "exit_code": 2,
+        "report": {
+          "error": "Duplicate weighted triple",
+          "valid_certificate": false
+        },
+        "seconds": 0.12204762501642108,
+        "stdout": "{\"valid_certificate\": false, \"error\": \"Duplicate weighted triple\"}\n"
+      }
+    }
+  ],
+  "derivation": "If a 64-block cover contains at least 56 core blocks, choose any 56 of them. The certificate for their four-block complement supplies positive rational weights on uncovered triples with total greater than 8 and load at most 1 on every possible added block. At most 8 other blocks cannot cover these triples. Therefore overlap is at most 55. Relabeling preserves the full block/triple incidence relation.",
+  "exact_replay": {
+    "command": [
+      "/Library/Frameworks/Python.framework/Versions/3.11/bin/python3",
+      "-I",
+      "/Users/chriscelaya/Documents/covering64-search/scripts/check_core_orbit_certificate.py",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/core-orbit/core-remove-4.json.gz"
+    ],
+    "exit_code": 0,
+    "report": {
+      "additional_blocks_allowed": 8,
+      "all_removal_sets_checked": 487635,
+      "complete_obstruction": true,
+      "maximum_core_blocks_in_any_64_cover": 55,
+      "minimum_exact_dual_bound": [
+        2035711,
+        250000
+      ],
+      "removed_count": 4,
+      "representatives": 8337,
+      "scope": "Only covers retaining the specified core subset; not unrestricted",
+      "subgroup_order": 60,
+      "uncertified_representatives": [],
+      "valid_certificate": true
+    },
+    "seconds": 1.0495838329661638,
+    "stdout": "{\n  \"valid_certificate\": true,\n  \"complete_obstruction\": true,\n  \"scope\": \"Only covers retaining the specified core subset; not unrestricted\",\n  \"removed_count\": 4,\n  \"representatives\": 8337,\n  \"all_removal_sets_checked\": 487635,\n  \"subgroup_order\": 60,\n  \"additional_blocks_allowed\": 8,\n  \"minimum_exact_dual_bound\": [\n    2035711,\n    250000\n  ],\n  \"uncertified_representatives\": [],\n  \"maximum_core_blocks_in_any_64_cover\": 55\n}\n"
+  },
+  "optimizer_calls": 0,
+  "passed": true,
+  "python_version": "3.11.9 (v3.11.9:de54cf5be3, Apr  2 2024, 07:12:50) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "recommended_upper_bound": 55,
+  "scope": "Valid necessary inequality for either named core in any 64-block cover, and every other point-permutation image. No global nonexistence theorem; no cap of 54 is claimed.",
+  "sources": {
+    "experiments/2026-10-03/core-orbit/core-remove-4.json.gz": "9997df71457bd6f4ca5567032cd026e3956d29235515acc330f05fddc6d9c298",
+    "experiments/2026-10-03/partial-core-holes/core.txt": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+    "experiments/2026-10-04/core-cap-independent/check.py": "707614d0f119402321de92507769f6f95804482b196e01802995dc9ba59587ee",
+    "experiments/2026-10-04/six-hole-pool-release/manifest.json": "84eac4c5110c0f98c7f8e0b01b3cc29dcc1f51003fdad9aa1b8e502813e2be8c",
+    "scripts/check_core_orbit_certificate.py": "5537b41e4447421e951d4f65c7f6d9ab0b9d629d06f259fd39dc4faceaf8d429"
+  }
+}

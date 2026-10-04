@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Saved checked graph-1 continuation and the graph-5 finite screen; 3,496 matching whole-link states remain for LP testing. Profile-filtered pools reached six holes without any five-heavy obstruction, but all improving single-block exchanges restore that obstruction. No 64-block cover; package regression remains 369 passing tests.
-Commit 278b2c6 is the previous checkpoint. Current bounded experiments test all 3,496 matching survivors and a matched 952/full-universe repair from checked six-hole seeds. Keep graph-specific caches/cuts separate, inspect final solver ties, and preserve ignored raw artifacts plus unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Independently closed the declared 46,436-state graph-5 whole-link neighborhood only; no 64-block cover. Fresh replay proves every relabeled old core has overlap at most 55 in a cover. Two weaker-cap pilots were corrected; the latest raw three-hole state contains a third relabeled 60-core and is excluded. Regression: 369 passing tests, Ruff clean.
+Commit b63d662 is the preceding merged checkpoint. Next pilots use three checked core/profile cuts; a global five-heavy filter is being prepared to avoid repeated relabel traps. Keep graph-specific cuts separate, inspect final ties, preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 

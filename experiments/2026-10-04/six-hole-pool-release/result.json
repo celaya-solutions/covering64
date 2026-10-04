@@ -1,0 +1,621 @@
+{
+  "cases": [
+    {
+      "best_composite_objective": 449,
+      "final": {
+        "composite_objective": 449,
+        "holes": 6,
+        "ids": [
+          1,
+          83,
+          247,
+          313,
+          360,
+          434,
+          500,
+          505,
+          512,
+          523,
+          785,
+          786,
+          860,
+          927,
+          975,
+          1007,
+          1205,
+          1283,
+          1312,
+          1443,
+          1581,
+          1601,
+          1650,
+          1762,
+          1778,
+          1799,
+          1880,
+          1913,
+          2028,
+          2061,
+          2126,
+          2258,
+          2338,
+          2398,
+          2417,
+          2489,
+          2510,
+          2686,
+          2877,
+          2946,
+          3020,
+          3055,
+          3085,
+          3172,
+          3289,
+          3329,
+          3351,
+          3366,
+          3443,
+          3481,
+          3524,
+          3672,
+          3712,
+          3777,
+          3836,
+          3869,
+          3898,
+          3928,
+          3938,
+          4041,
+          4062,
+          4190,
+          4221,
+          4257
+        ],
+        "original_core_overlap": 59,
+        "path": "experiments/2026-10-04/six-hole-pool-release/adaptive-952/final-response.txt",
+        "profile": {
+          "degree_histogram": [
+            [
+              19,
+              5
+            ],
+            [
+              20,
+              6
+            ],
+            [
+              21,
+              5
+            ]
+          ],
+          "holes": [
+            17,
+            50,
+            128,
+            158,
+            188,
+            219
+          ],
+          "pair_histogram": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              86
+            ],
+            [
+              6,
+              19
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "triple_histogram": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              494
+            ],
+            [
+              2,
+              51
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              6,
+              1
+            ],
+            [
+              7,
+              3
+            ]
+          ]
+        },
+        "sha256": "609eee3c3354d7b6f5e5886042e7dbe393df874d59634879f6afa3e71a1dbfcf"
+      },
+      "improvements": [
+        {
+          "composite_objective": 449,
+          "holes": 6,
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1779,
+            1799,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3481,
+            3524,
+            3672,
+            3712,
+            3777,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4190,
+            4221,
+            4257
+          ],
+          "original_core_overlap": 59,
+          "path": "experiments/2026-10-04/six-hole-pool-release/adaptive-952/best-00-h6-c59.txt",
+          "profile": {
+            "degree_histogram": [
+              [
+                19,
+                2
+              ],
+              [
+                20,
+                12
+              ],
+              [
+                21,
+                2
+              ]
+            ],
+            "holes": [
+              127,
+              157,
+              187,
+              337,
+              473,
+              553
+            ],
+            "pair_histogram": [
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                88
+              ],
+              [
+                6,
+                18
+              ],
+              [
+                7,
+                12
+              ]
+            ],
+            "triple_histogram": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                491
+              ],
+              [
+                2,
+                58
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                7,
+                4
+              ]
+            ]
+          },
+          "sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6"
+        }
+      ],
+      "name": "adaptive-952",
+      "objective_bound": 0.0,
+      "raw_files": {
+        "log": {
+          "path": "experiments/scratch/six-hole-pool-release-20261004/adaptive-952-solver.log",
+          "sha256": "70c7bb75d591069d81ba5dfaf036e65c27868f3a198b98e885b5b5446c707187"
+        },
+        "parameters": {
+          "path": "experiments/scratch/six-hole-pool-release-20261004/adaptive-952-parameters.pbtxt",
+          "sha256": "04e88f99c5e21e7c3a0b0ce9833c194f865522b78433a5175b99cc918f6882d2"
+        },
+        "response": {
+          "path": "experiments/scratch/six-hole-pool-release-20261004/adaptive-952-response.pbtxt",
+          "sha256": "d537aef12aa8bc29b98ba19d408b1de2cf817bb5272bcd779899b855d5cd3a37"
+        }
+      },
+      "reported_seconds": 120.027651,
+      "seconds": 120.02944720897358,
+      "status": "FEASIBLE"
+    },
+    {
+      "best_composite_objective": 449,
+      "final": {
+        "composite_objective": 449,
+        "holes": 6,
+        "ids": [
+          1,
+          83,
+          247,
+          313,
+          360,
+          430,
+          434,
+          500,
+          505,
+          512,
+          523,
+          785,
+          786,
+          860,
+          927,
+          975,
+          1007,
+          1205,
+          1283,
+          1312,
+          1443,
+          1581,
+          1601,
+          1650,
+          1762,
+          1779,
+          1799,
+          1880,
+          1913,
+          2028,
+          2061,
+          2126,
+          2190,
+          2258,
+          2338,
+          2398,
+          2417,
+          2489,
+          2510,
+          2686,
+          2877,
+          2946,
+          3020,
+          3055,
+          3085,
+          3172,
+          3247,
+          3289,
+          3329,
+          3351,
+          3481,
+          3524,
+          3672,
+          3712,
+          3720,
+          3836,
+          3869,
+          3898,
+          3928,
+          3938,
+          4041,
+          4062,
+          4221,
+          4257
+        ],
+        "original_core_overlap": 59,
+        "path": "experiments/2026-10-04/six-hole-pool-release/full-4368/final-response.txt",
+        "profile": {
+          "degree_histogram": [
+            [
+              18,
+              1
+            ],
+            [
+              19,
+              1
+            ],
+            [
+              20,
+              11
+            ],
+            [
+              21,
+              3
+            ]
+          ],
+          "holes": [
+            127,
+            157,
+            187,
+            337,
+            473,
+            553
+          ],
+          "pair_histogram": [
+            [
+              4,
+              3
+            ],
+            [
+              5,
+              86
+            ],
+            [
+              6,
+              19
+            ],
+            [
+              7,
+              12
+            ]
+          ],
+          "triple_histogram": [
+            [
+              0,
+              6
+            ],
+            [
+              1,
+              492
+            ],
+            [
+              2,
+              56
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              5,
+              1
+            ],
+            [
+              7,
+              4
+            ]
+          ]
+        },
+        "sha256": "84740692cc03489452bb84d32ab425a8c8cc07644ea959263fbfc857bcd18e02"
+      },
+      "improvements": [
+        {
+          "composite_objective": 449,
+          "holes": 6,
+          "ids": [
+            1,
+            83,
+            247,
+            313,
+            360,
+            434,
+            492,
+            500,
+            505,
+            512,
+            523,
+            785,
+            786,
+            860,
+            927,
+            975,
+            1007,
+            1205,
+            1283,
+            1312,
+            1443,
+            1581,
+            1601,
+            1650,
+            1762,
+            1779,
+            1799,
+            1880,
+            1913,
+            2028,
+            2061,
+            2126,
+            2258,
+            2338,
+            2398,
+            2417,
+            2489,
+            2510,
+            2686,
+            2877,
+            2946,
+            3020,
+            3055,
+            3085,
+            3172,
+            3289,
+            3329,
+            3351,
+            3366,
+            3481,
+            3524,
+            3672,
+            3712,
+            3777,
+            3836,
+            3869,
+            3898,
+            3928,
+            3938,
+            4041,
+            4062,
+            4190,
+            4221,
+            4257
+          ],
+          "original_core_overlap": 59,
+          "path": "experiments/2026-10-04/six-hole-pool-release/full-4368/best-00-h6-c59.txt",
+          "profile": {
+            "degree_histogram": [
+              [
+                19,
+                2
+              ],
+              [
+                20,
+                12
+              ],
+              [
+                21,
+                2
+              ]
+            ],
+            "holes": [
+              127,
+              157,
+              187,
+              337,
+              473,
+              553
+            ],
+            "pair_histogram": [
+              [
+                4,
+                2
+              ],
+              [
+                5,
+                88
+              ],
+              [
+                6,
+                18
+              ],
+              [
+                7,
+                12
+              ]
+            ],
+            "triple_histogram": [
+              [
+                0,
+                6
+              ],
+              [
+                1,
+                491
+              ],
+              [
+                2,
+                58
+              ],
+              [
+                5,
+                1
+              ],
+              [
+                7,
+                4
+              ]
+            ]
+          },
+          "sha256": "7da085510fbd080f371f5c49e13315c3a348c936856aa4eef294c4f1dbd64eb6"
+        }
+      ],
+      "name": "full-4368",
+      "objective_bound": 0.0,
+      "raw_files": {
+        "log": {
+          "path": "experiments/scratch/six-hole-pool-release-20261004/full-4368-solver.log",
+          "sha256": "04923fdc76cc5ea06cb2310837bcab52d6813b29b474efc94aa888f72c5312c7"
+        },
+        "parameters": {
+          "path": "experiments/scratch/six-hole-pool-release-20261004/full-4368-parameters.pbtxt",
+          "sha256": "04e88f99c5e21e7c3a0b0ce9833c194f865522b78433a5175b99cc918f6882d2"
+        },
+        "response": {
+          "path": "experiments/scratch/six-hole-pool-release-20261004/full-4368-response.pbtxt",
+          "sha256": "98a46e3ca4200ad8547aabdafe29689e33502e92ce515e8174598f73e698c673"
+        }
+      },
+      "reported_seconds": 120.026526,
+      "seconds": 120.02984633401502,
+      "status": "FEASIBLE"
+    }
+  ],
+  "gate_sha256": "0985c255c2e82ed13d763e2a28e634b412c3f783fa3445667bc0ec9677158cc7",
+  "global_lower_bound_claim": false,
+  "manifest_sha256": "84eac4c5110c0f98c7f8e0b01b3cc29dcc1f51003fdad9aa1b8e502813e2be8c",
+  "optimizer_calls": 2,
+  "source_sha256": "68d5f0ffc21d3f69ed6d99d6004d3b23ec2ef1213b977220173eaaea4d4d0f04"
+}

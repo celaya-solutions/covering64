@@ -1,0 +1,97 @@
+{
+  "optimizer_calls": 0,
+  "external_source_executions": 0,
+  "sources": [
+    {
+      "name": "gordon",
+      "url": "https://dmgordon.org/covering-designs/",
+      "retrieved_utc": "2026-10-04T10:19:33.938049+00:00",
+      "status": 200,
+      "resolved_url": "https://dmgordon.org/covering-designs/",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a5cc2312afc8dedd17c52410c34d518396d0a42982b2af429c8dc54f9e7170e3",
+      "bytes": 9200,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/gordon.html"
+    },
+    {
+      "name": "knuth",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs.html",
+      "retrieved_utc": "2026-10-04T10:19:33.938535+00:00",
+      "status": 200,
+      "resolved_url": "https://www-cs-faculty.stanford.edu/~knuth/programs.html",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "c5cfa5d740a6abe2153350f98963e9f482ab2479a8db8844b38e5327e6362a81",
+      "bytes": 40110,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/programs.html"
+    },
+    {
+      "name": "dlx3",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/dlx3.w",
+      "retrieved_utc": "2026-10-04T10:20:29.496371+00:00",
+      "status": 200,
+      "resolved_url": "https://www-cs-faculty.stanford.edu/~knuth/programs/dlx3.w",
+      "sha256": "0acc801044d60d9d951663e9270c420b8b43c40ad6f7c2819c65bd5dff9820b7",
+      "bytes": 43270,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/dlx3.w"
+    },
+    {
+      "name": "ssmcc",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/ssmcc.w",
+      "retrieved_utc": "2026-10-04T10:20:29.496805+00:00",
+      "status": 200,
+      "resolved_url": "https://www-cs-faculty.stanford.edu/~knuth/programs/ssmcc.w",
+      "sha256": "a932c2253c3bf3eac6a0b180cff97ef9132ef4543011b2ac0aebde760ac35cc4",
+      "bytes": 49749,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/ssmcc.w"
+    },
+    {
+      "name": "dlx5",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/dlx5.w",
+      "retrieved_utc": "2026-10-04T10:20:29.496972+00:00",
+      "status": 200,
+      "resolved_url": "https://www-cs-faculty.stanford.edu/~knuth/programs/dlx5.w",
+      "sha256": "187a2ebecf63a795eba9903ab539a2700eac68a5d1252b60a844714afc6b6892",
+      "bytes": 50366,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/dlx5.w"
+    },
+    {
+      "name": "ssmcc-wtd.ch",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/ssmcc-wtd.ch",
+      "retrieved_utc": "2026-10-04T10:27:50.149753+00:00",
+      "status": 200,
+      "sha256": "00291e8d1ab5e758fed4fc07c066ecb6a0353e66ecb578672e5fc25524d8030c",
+      "bytes": 3291,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/ssmcc-wtd.ch"
+    },
+    {
+      "name": "ssmcc-frb.ch",
+      "url": "https://www-cs-faculty.stanford.edu/~knuth/programs/ssmcc-frb.ch",
+      "retrieved_utc": "2026-10-04T10:27:50.650106+00:00",
+      "status": 200,
+      "sha256": "f88bd7cbc9d267d51b1068c91cde4eb5e680ff3dfea8d1259813f56cb893afb9",
+      "bytes": 9415,
+      "saved_path": "experiments/scratch/next-route-source-review-20261004/ssmcc-frb.ch"
+    }
+  ],
+  "current_target": {
+    "observed_utc": "2026-10-04T10:29:52+00:00",
+    "query_url": "https://coveringrepository.com/systems.aspx?v=16&k=5&t=3&m=3",
+    "resolved_url": "https://coveringrepository.com/systems.aspx",
+    "parameters": [
+      16,
+      5,
+      3,
+      3
+    ],
+    "blocks": 65,
+    "lower_bound": 61,
+    "creator": "Rade Belic",
+    "displayed_date": "06/08/1997",
+    "download_record": 108633,
+    "history_record": 110841,
+    "snapshot_path": "experiments/2026-10-04/next-route-source-review/target-table-snapshot.txt",
+    "snapshot_sha256": "4723371f0878595344aa7d8e890572181415e2b0485889f4de1c43b3292dec94",
+    "access_note": "Initial browser HTTP403 challenge later completed normally; final table and selected16,5,3,3 filters inspected."
+  },
+  "search_limits": "Bing queries were unhelpful and DuckDuckGo served challenges. No exhaustive literature search or nonexistence inference."
+}

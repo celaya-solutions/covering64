@@ -1,0 +1,28 @@
+{
+  "source_sha256": "a4f59fdb163afe8b1e8c26f8c26c77d9d62f10e06507b97b0de508bd89501163",
+  "input_files": {
+    "experiments/2026-10-04/g5-whole-link-tail-screen/screen.py": "a4f59fdb163afe8b1e8c26f8c26c77d9d62f10e06507b97b0de508bd89501163",
+    "experiments/2026-10-04/g5-whole-link-certificates/extract.py": "e40b038f8afa2542c0200b7be8fa2f101f887db0afb737cb740e982a14c749c2",
+    "experiments/2026-10-04/g5-whole-link-certificates/result.json": "1ee19f72b69e551bc655bce554cf55fb431bd94dad9bf2f0a11162bae046c81f",
+    "experiments/scratch/g5-whole-link-certificates-20261004/all-g5-cuts.json": "cde34265aac34b735dde6a52d2c28eb190fa20b31c4f1e588193b18b387e3568",
+    "experiments/2026-10-04/g5-whole-link-certificates/all-g5-cuts.compact.json.gz": "22311f1f765e46a4ffb6a92b01a54474a6e8d96056d9a511ec096340fdb43ea8",
+    "experiments/2026-10-04/g5-whole-link-pool/run.py": "cd9a991b8d190f215c22b6cea7d20401c3c2c91058798a4fe556f882c2e96df2",
+    "experiments/2026-10-04/g5-whole-link-pool/manifest.json": "2670103860a6240939933345c4627b8136f80f38e77946c4c5b8443a6dd32ac6",
+    "experiments/2026-10-04/g5-whole-link-pool/result.json": "91e0359aa2bfbc58d46da5f89ab64a682e4c4cb71902c8f0401b0db689bad8dd",
+    "experiments/2026-10-04/g5-whole-link-pool-independent/postcheck.json": "3db6431144b38c8a157512efe046a9f10f7549bd6e6a29a424af95cb759ca634",
+    "experiments/scratch/g5-whole-link-pool-preparation-20261004/pool.json.gz": "d313d333c4991173a6265895d216cae811e703c92813e55daf7a6fbe2df39287",
+    "experiments/scratch/g5-whole-link-pool-preparation-20261004/inventory.json.gz": "7cd0b0ca44676683f8722f948e0a766b78d9ee97f94b6c69aab9256cabfffb1b",
+    "experiments/2026-10-04/g5-larger-independent/audit.json": "0b3a77956ad71becd909576de2f87fd6379e7ef7a19d2fc7ec37025fee2570d2",
+    "experiments/2026-10-04/g5-larger-screen/whole-link-unexcluded.json.gz": "c0de0202440ca2c961ceae53e99d419b5ee75e9feeba705b12bd5b1e3b8c9ffb"
+  },
+  "graph_index": 5,
+  "family_sha256": "adfa2450b519435526830910dabfa2aa0dc5aa21e3fe08badb3fd3468382cd89",
+  "tail_states": 55,
+  "evaluated_states": 3441,
+  "new_planes": 3441,
+  "prior_planes": 720,
+  "denominator": 1000000,
+  "optimizer_calls": 0,
+  "source_revision": "b63d66240d4807c7079dbca6973fbd470e1f827a",
+  "scope": "Only the 55 frozen unevaluated fixed-g5 states. All certificate and coverage claims await independent replay."
+}
