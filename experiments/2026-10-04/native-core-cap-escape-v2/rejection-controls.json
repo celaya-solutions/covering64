@@ -1,0 +1,26 @@
+{
+  "binary_sha256": "3f0376d94eb5c919649c996991b74cd583934eed62cedebd3b55bbb7af2d799f",
+  "compile_command": [
+    "/usr/bin/clang++",
+    "-std=c++20",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "experiments/2026-10-04/native-core-cap-escape-v2/rejection-control.cpp",
+    "-o",
+    "experiments/scratch/native-core-cap-escape-v2-20261004/rejection-controls-sanitized"
+  ],
+  "compiler_sha256": "1c78dc864acfc0261dc1e27fe97fa5b224351e93bc89000e68b0f98924082057",
+  "entire_state_unchanged": true,
+  "frozen_search_source_sha256": "d80d069518fcd6774d9396f69200767ab5f9d3660f2893093c2924116c83bab5",
+  "manifest_sha256": "2e5212440a92ea66cdc819da4300e6b75496ddf7ef3cb412f77c3b27bfca7293",
+  "optimizer_calls": 0,
+  "passed": true,
+  "pre_mutation_rejections": 3,
+  "sanitizer_diagnostics": "",
+  "source_sha256": "685c0719dfdf74cf99717b4498946429eac3f178eb233a8e90138107a484e72d"
+}

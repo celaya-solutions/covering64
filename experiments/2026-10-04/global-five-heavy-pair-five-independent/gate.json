@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "checker_sha256": "bd02a76f2291f4571de44d94c8004530e7cd7105f63be2209423d250a4c9abd0",
+  "manifest_sha256": "734ce1904211c4af6b25927885143b0a3669461e5ceb5e0d02e07636e47f855c",
+  "source_sha256": "a6c97a430e57737bb4c682138e2f8fedb923248a314533428dc0778a5b47a626",
+  "runner_source_sha256": "7fe86396f79217223c02962cfb0f16789bee3911c366b9125d0ec12974ebb4b8",
+  "model_sha256": "7c40dea304362e250002ac93d9995630e9822bc5c25fa1435ba5cf1ae1716f79",
+  "parameters_sha256": "dd407e9b2b9b5467bfc45426162270489e7001d61797d072bb0ba7666018cca9",
+  "variables": 10488,
+  "rows": 103465,
+  "parent_gate_sha256": "47b9fed1ee3d9315f0f7b1bf56d87c85e8798d46305375bce8a371e80da6cbfa",
+  "unchanged_prefix_rows": 103345,
+  "pair_rows": 120,
+  "pair_support_size": 364,
+  "hint_holes": 6,
+  "hint_objective": 392,
+  "hint_minimum_pair_count": 5,
+  "hint_maximum_partition_weight": 22,
+  "hint_core_overlaps": [
+    2,
+    2,
+    0
+  ],
+  "damaged_rows_rejected": [
+    "weak_pair_minimum",
+    "missing_carrier",
+    "conditional_pair"
+  ],
+  "pair_bound_proof": "A fixed pair is in fourteen required triples. Each block through it covers three, hence at least ceiling(14/3)=5 blocks are necessary.",
+  "scope": "Only encoding and complete-hint validation; no solve or cover claim."
+}

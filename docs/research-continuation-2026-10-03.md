@@ -1,14 +1,13 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.20.0
+Version:     v1.21.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      8adad4c56928986226e6d3501278df3061f855e52b4b25b3f973a0d127f9846f
+SHA256:      9d6f91a7484e2da0ff8b7210640c6fc5595b8282645accd33730f1b0edecac31
 Chain:       n/a
 Tx:          [not anchored]
-License:     All Rights Reserved / Celaya Solutions
-```
+License:     All Rights Reserved / Celaya Solutions```
 
 # Research continuation
 
@@ -938,3 +937,15 @@ A new exact global encoding removes the need to enumerate named five-heavy parti
 The full recurrence has 21,845 states and 502,516 rows. Keeping only states reachable downward from the sixteen fifteen-point targets preserves every relevant partition and gives 4,410 states and 99,917 rows. Independent proof reconstruction matches the saved graph bytes, verifies both reachability directions, all 4,410 constructive paths, 79 threshold counts, 243 category patterns, 2,028 direct small cases and six full/trimmed comparisons. It also replays the existing theorem's 27,040 degree/hub assignments. Root separately checked the serialized 10,488-variable, 103,345-row model and complete ten-hole hint, retaining the previous three-core/named-filter prefix and objective unchanged.
 
 The sole declared global-DP pilot used 120 seconds, four workers and seed 2026104104. It reached search after about two seconds and returned FEASIBLE with the original objective 651 and ten-hole block family. All saved callback and final values, domains, active rows, exact thresholds and actual partition maxima were independently checked, including four covering-verifier calls and three damaged-assignment controls. There was no improvement or covering witness. Sources, proof controls, exact gate and outcome are in `global-five-heavy-dp-plan/`, `global-five-heavy-dp/` and `global-five-heavy-dp-independent/`. This is an encoding/result checkpoint, not a nonexistence theorem or a new global covering bound.
+
+## Core-cap escape and necessary pair-link cuts (October 4)
+
+The isolated native core-cap search keeps all 64 slots mutable and all 4,368 blocks eligible. It hard-rejects moves exceeding any of the three checked core caps, uses the prior global five-heavy traversal penalty, and records only profile-qualified best states. An independent preflight found missing final counters on zero-hole exits before any optimization. The unrun first revision is preserved; a second frozen revision emits and checks final best/current status on every exit. Independent sanitizer controls exercised 210 joint boundary cases, including 25 rejections, 92 commits and 93 rollbacks, all 13,104 core membership bits and malformed inputs.
+
+Exactly two sixty-second native runs used seeds 2026104201 and 2026104202. The first improved ten holes to nine after 318,360,448 proposals; the second retained ten after 297,376,832. They rejected 37 and 36 over-cap moves respectively. All seven saved/final records (four distinct families) were independently recounted and passed paired covering checks for their stated hole counts. Final-current diagnostics have 56 and 66 holes and are separate from best records. The new nine-hole family has no five-triple partition satisfying the necessary core-image deficit test, so it retains at most 55 blocks of every relabeling of the old core. It still has four pairs below five. This is a qualified escape from that core trap, not a covering witness. See `native-core-cap-escape-v2/` and `native-core-cap-escape-independent/`.
+
+A bounded inventory checked 202 paths representing 134 distinct families, with 17 distinct families passing the pair minimum, global profile filter and three named core caps. The best has six holes, all point degrees twenty, pair minimum five, global partition weight 22 and core overlaps [2,2,0]. Its exact historical source, runner, binary and inputs were recovered by recorded hashes. A sibling DP model adds exactly 120 pair-minimum-five rows to the unchanged 103,345-row parent, replaces its complete hint with this family, and retains all 4,368 block variables. The independent gate checks every carrier set and hint value, plus damaged-row controls. Its sole 120-second, four-worker run, seed 2026104105, retained six holes while reducing original-core overlap from two to one (objective 392 to 391). All three callback/final records, every active row, all actual global partition maxima and both covering verifiers were independently checked. See `pair-five-hint-inventory/`, `global-five-heavy-pair-five/` and its independent folder.
+
+Stronger local inequalities explain a remaining defect in these seeds. Write c(S) for the number of selected blocks containing S. For any pair P contained in a triple T, every cover satisfies 3*c(P)-c(T)>=13: the left side is exactly the sum of the other thirteen triple counts through P. For a quadruple Q containing P, every cover satisfies 3*c(P)-2*c(Q)>=12: its left side contains the twelve other triple counts and two nonnegative differences. These bounds need no equal-degree assumption. Their earlier local derivations were present in the regular-heavy report; only that report's later hub conclusions required regularity. Independent reconstruction checked 4,586,400 carrier-column identities, the complete 65-block benchmark and four damaged controls. The six-hole hint violates four pair-triple rows by one each, with c(P)=c(T)=6, and no pair-quadruple rows. None of the seventeen eligible inventory families passes both cut families. The nine-hole native family violates 56 triple rows and 48 quadruple rows. Proofs and direct-count diagnostics are in `pair-local-necessary-cuts-independent/` and `pair-five-hint-inventory/PAIR-LINK-DIAGNOSTICS.md`.
+
+The next isolated preparation uses explicit pair, triple and quadruple counts to impose these necessary inequalities in a smaller model. The six-hole block guidance is explicitly infeasible for those stronger rows and will not be described as a legal complete hint. No new global covering bound or nonexistence conclusion follows from the completed runs.

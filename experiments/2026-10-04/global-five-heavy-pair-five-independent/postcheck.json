@@ -1,0 +1,96 @@
+{
+  "passed": true,
+  "optimizer_calls": 0,
+  "source_sha256": "c38d2734e8bcf063a8f2861bc66a2277cb55263c1818447bdd2fa30b3d950af2",
+  "gate_sha256": "24108687ea0947f41fc13bffa21a22d3ab4792aa833a605a6778a09d1f38c951",
+  "result_sha256": "5d117a5f401e4c994a166d2475876437af1fef1d65da566d3585191860487cca",
+  "status": "FEASIBLE",
+  "seconds": 120.0117073750589,
+  "checked": [
+    {
+      "path": "experiments/2026-10-04/global-five-heavy-pair-five/full-4368/callback-000-h6-c2.txt",
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "holes": 6,
+      "core_overlaps": [
+        2,
+        2,
+        0
+      ],
+      "maximum_partition_weight": 22,
+      "minimum_point_degree": 20,
+      "minimum_pair_count": 5,
+      "pairs_below_five": 0,
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-pair-five-independent/state-00-package.json",
+          "sha256": "1d90bddeaa524a23f437e1575e867dbe26acb20db27210e886cf5ca993adb1a4",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        },
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-pair-five-independent/state-00-standalone.json",
+          "sha256": "5dc11254a4487985d822f83e4f3d9f878091291362704c18cc3df607b3b2b2d5",
+          "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de"
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-04/global-five-heavy-pair-five/full-4368/callback-001-h6-c1.txt",
+      "sha256": "888c7216cc4ff28c6f2127f25897a28e9b6b20273c996e87ef825c9e9e1200fd",
+      "holes": 6,
+      "core_overlaps": [
+        1,
+        2,
+        0
+      ],
+      "maximum_partition_weight": 22,
+      "minimum_point_degree": 20,
+      "minimum_pair_count": 5,
+      "pairs_below_five": 0,
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-pair-five-independent/state-01-package.json",
+          "sha256": "b47508b46c431d4dc9a8544cbcf123e933ca4d0e2b9034392b58b6aa3f7e778b",
+          "canonical_sha256": "888c7216cc4ff28c6f2127f25897a28e9b6b20273c996e87ef825c9e9e1200fd"
+        },
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-pair-five-independent/state-01-standalone.json",
+          "sha256": "f755484b4b65ddd2d45abaeb8adfb09ab44c224747568c674a489ca8825d1b0a",
+          "canonical_sha256": "888c7216cc4ff28c6f2127f25897a28e9b6b20273c996e87ef825c9e9e1200fd"
+        }
+      ]
+    },
+    {
+      "path": "experiments/2026-10-04/global-five-heavy-pair-five/full-4368/final-response-h6-c1.txt",
+      "sha256": "888c7216cc4ff28c6f2127f25897a28e9b6b20273c996e87ef825c9e9e1200fd",
+      "holes": 6,
+      "core_overlaps": [
+        1,
+        2,
+        0
+      ],
+      "maximum_partition_weight": 22,
+      "minimum_point_degree": 20,
+      "minimum_pair_count": 5,
+      "pairs_below_five": 0,
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-pair-five-independent/state-02-package.json",
+          "sha256": "b47508b46c431d4dc9a8544cbcf123e933ca4d0e2b9034392b58b6aa3f7e778b",
+          "canonical_sha256": "888c7216cc4ff28c6f2127f25897a28e9b6b20273c996e87ef825c9e9e1200fd"
+        },
+        {
+          "path": "experiments/2026-10-04/global-five-heavy-pair-five-independent/state-02-standalone.json",
+          "sha256": "f755484b4b65ddd2d45abaeb8adfb09ab44c224747568c674a489ca8825d1b0a",
+          "canonical_sha256": "888c7216cc4ff28c6f2127f25897a28e9b6b20273c996e87ef825c9e9e1200fd"
+        }
+      ]
+    }
+  ],
+  "damaged_assignments_rejected": [
+    "selected_block",
+    "global_threshold",
+    "fifteen_point_bound"
+  ],
+  "cover_found": false,
+  "scope": "All saved callbacks and final response. DP auxiliaries may exceed their least feasible values; all active rows, thresholds, domains and actual maxima checked."
+}

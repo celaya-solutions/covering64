@@ -67,7 +67,7 @@ no API key, $0).
 ## Research checkpoint 2026-10-04
 
 Independently closed the declared 46,436-state graph-5 whole-link neighborhood only; no 64-block cover. Fresh replay proves every relabeled old core has overlap at most 55 in a cover. Two weaker-cap pilots were corrected; the latest raw three-hole state contains a third relabeled 60-core and is excluded. Regression: 369 passing tests, Ruff clean.
-Commit fdd6279 saves the checked matching closure, corrected core bounds and relabel receipts. Three-core releases retained 12/10 holes. The independently checked global five-heavy DP pilot retained ten holes. Next: gated native search with all three core caps; pair-minimum-five constraints remain a possible follow-up. Keep graph-specific cuts separate, inspect final ties, preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
+Commit 3a11200 saves the prior global-filter checkpoint. Two checked native core-cap runs reached 9/10 holes; the new nine-hole family avoids every relabeled old-core trap but fails four pair minima. Pair-minimum DP retained six holes. Every one of 17 eligible saved families fails stronger unrestricted pair-link cuts. Next: gate the compact pair-two count model and isolated native pair-penalty search; preserve the weaker prepared count model unrun. Keep graph-specific cuts separate, inspect final ties, preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`.
 
 ## Independent construction checkpoint 2026-10-03
 

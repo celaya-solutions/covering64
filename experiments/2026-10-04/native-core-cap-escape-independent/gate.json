@@ -1,0 +1,571 @@
+{
+  "binary_sha256": "6520d509b7cafa9aab58cf01b38df147c0ff419c8442e6f745e1a3c59724b785",
+  "check_sha256": "23f4921f3619fcc0de60cf6b614b6916449c85018ffacdcf2b4c43fa309e20b0",
+  "checked_utc": "2026-10-04T11:48:30.739022+00:00",
+  "compile_command": [
+    "/usr/bin/clang++",
+    "-std=c++20",
+    "-O1",
+    "-g",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-Wall",
+    "-Wextra",
+    "-pedantic",
+    "-I",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-core-cap-escape-v2",
+    "-I",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-core-cap-independent-20261004",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-core-cap-escape-independent/control.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-core-cap-independent-20261004/independent-control"
+  ],
+  "control_sha256": "3b081a74cc0002e1c55440a75796088f5c90eab7ce85bfa374650b8ba6ba09ac",
+  "core_intersections": [
+    [
+      60,
+      0,
+      1
+    ],
+    [
+      0,
+      60,
+      8
+    ],
+    [
+      1,
+      8,
+      60
+    ]
+  ],
+  "core_rows": [
+    [
+      1,
+      83,
+      247,
+      313,
+      360,
+      434,
+      500,
+      505,
+      512,
+      523,
+      785,
+      786,
+      860,
+      927,
+      975,
+      1007,
+      1205,
+      1283,
+      1312,
+      1443,
+      1581,
+      1601,
+      1650,
+      1762,
+      1799,
+      1864,
+      1880,
+      1913,
+      2028,
+      2061,
+      2126,
+      2258,
+      2338,
+      2398,
+      2417,
+      2489,
+      2510,
+      2686,
+      2877,
+      2946,
+      3020,
+      3055,
+      3085,
+      3172,
+      3289,
+      3329,
+      3351,
+      3481,
+      3524,
+      3672,
+      3712,
+      3836,
+      3869,
+      3898,
+      3928,
+      3938,
+      4041,
+      4062,
+      4221,
+      4257
+    ],
+    [
+      9,
+      17,
+      25,
+      35,
+      70,
+      74,
+      698,
+      720,
+      761,
+      814,
+      876,
+      960,
+      999,
+      1133,
+      1135,
+      1172,
+      1211,
+      1251,
+      1356,
+      1689,
+      1727,
+      1780,
+      1801,
+      1876,
+      1978,
+      1991,
+      2080,
+      2145,
+      2161,
+      2221,
+      2300,
+      2347,
+      2385,
+      2447,
+      2459,
+      2490,
+      2593,
+      2722,
+      2737,
+      2802,
+      2889,
+      2918,
+      2990,
+      3011,
+      3042,
+      3084,
+      3242,
+      3376,
+      3536,
+      3553,
+      3565,
+      3586,
+      3596,
+      3818,
+      3838,
+      4007,
+      4049,
+      4111,
+      4173,
+      4241
+    ],
+    [
+      15,
+      27,
+      35,
+      47,
+      70,
+      74,
+      696,
+      734,
+      772,
+      791,
+      870,
+      960,
+      1024,
+      1110,
+      1151,
+      1202,
+      1211,
+      1278,
+      1297,
+      1672,
+      1727,
+      1786,
+      1841,
+      1875,
+      2014,
+      2032,
+      2083,
+      2142,
+      2159,
+      2221,
+      2254,
+      2299,
+      2404,
+      2434,
+      2476,
+      2574,
+      2594,
+      2671,
+      2731,
+      2835,
+      2842,
+      2887,
+      2951,
+      2984,
+      3012,
+      3207,
+      3348,
+      3376,
+      3589,
+      3593,
+      3599,
+      3831,
+      3836,
+      3990,
+      4040,
+      4164,
+      4176,
+      4303,
+      4342,
+      4361
+    ]
+  ],
+  "damaged_parser_controls": [
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-block_size.txt",
+      "sha256": "96eb49b44dddb81bb00df897656326433c3c30822e74d323ce7118b7bf52e8ad",
+      "stderr": "Malformed block\n"
+    },
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-count63.txt",
+      "sha256": "b00064e5f5e8ca42181a49f70c1d9b0a2b00423717bed33dadc981d47105bcb9",
+      "stderr": "Start needs at least 64 blocks\n"
+    },
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-count65.txt",
+      "sha256": "4cfbef74fd828a5116f8ac99214d0615055493ea6719b64c2cffcb45a8dee2ba",
+      "stderr": "Expected exactly64 blocks\n"
+    },
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-duplicate.txt",
+      "sha256": "ac5592b89d531e666161d6c2e2aa3e604fe3f179c0536ef5bcc0259d07e1c742",
+      "stderr": "Duplicate block\n"
+    },
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-label_high.txt",
+      "sha256": "7ae67e52fac2dac94cd54d9fe272184ecdb978a2367409e178da9d98a7f9e6aa",
+      "stderr": "Malformed block\n"
+    },
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-label_zero.txt",
+      "sha256": "fcad828d99381b3126ba42111121f3312c8d3ead2d6761a525d87923a2d9d555",
+      "stderr": "Malformed block\n"
+    },
+    {
+      "exit_code": 2,
+      "path": "experiments/scratch/native-core-cap-escape-v2-20261004/damaged-token.txt",
+      "sha256": "58a82fe57d32eaa6a8524b2089c44ae791584c7573ac90978feb808e47cb701a",
+      "stderr": "Malformed block token\n"
+    }
+  ],
+  "direct_sanitized_transition_controls": {
+    "cases": 210,
+    "commits": 92,
+    "joint_cap_vectors": 216,
+    "optimizer_calls": 0,
+    "passed": true,
+    "rejections": 25,
+    "rollbacks": 93
+  },
+  "final_status_review": {
+    "all_three_exit_paths_delegate_to_common_helper": true,
+    "first_revision_withheld": "Zero-hole exits omitted final event and counters.",
+    "positive_cover_status_tested": false,
+    "positive_cover_test_limit": "No valid64cover is available; no fake witness used.",
+    "runner_checks_both_return_codes_against_final_snapshots": true
+  },
+  "hint": {
+    "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+    "core_overlaps": [
+      1,
+      8,
+      55
+    ],
+    "forbidden_partitions": [],
+    "holes": 10,
+    "package": {
+      "blocks": 64,
+      "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "covered": 550,
+      "expected_block_count_matches": true,
+      "expected_blocks": 64,
+      "k": 5,
+      "multiplicities": {
+        "0": 10,
+        "1": 483,
+        "2": 62,
+        "5": 1,
+        "7": 4
+      },
+      "pair_multiplicities": {
+        "4": 3,
+        "5": 86,
+        "6": 19,
+        "7": 12
+      },
+      "replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          16
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          7,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          11,
+          12
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    "path": "experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt",
+    "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 10,
+        "1": 483,
+        "2": 62,
+        "5": 1,
+        "7": 4
+      },
+      "covered_subsets": 550,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21
+      },
+      "required_subsets": 560,
+      "source_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          16
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          7,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          11,
+          12
+        ]
+      ],
+      "uncovered_count": 10,
+      "valid": false
+    },
+    "uncovered": [
+      [
+        1,
+        7,
+        8
+      ],
+      [
+        1,
+        7,
+        16
+      ],
+      [
+        1,
+        9,
+        16
+      ],
+      [
+        2,
+        7,
+        11
+      ],
+      [
+        4,
+        8,
+        12
+      ],
+      [
+        4,
+        8,
+        16
+      ],
+      [
+        4,
+        12,
+        16
+      ],
+      [
+        6,
+        8,
+        12
+      ],
+      [
+        6,
+        12,
+        16
+      ],
+      [
+        7,
+        11,
+        12
+      ]
+    ]
+  },
+  "manifest_sha256": "2e5212440a92ea66cdc819da4300e6b75496ddf7ef3cb412f77c3b27bfca7293",
+  "membership_patterns": {
+    "0": 4197,
+    "1": 59,
+    "2": 52,
+    "4": 51,
+    "5": 1,
+    "6": 8
+  },
+  "native_table_entries_checked": 13104,
+  "optimizer_calls": 0,
+  "passed": true,
+  "raw_files": {
+    "experiments/scratch/native-core-cap-independent-20261004/build-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/native-core-cap-independent-20261004/build-stdout.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/native-core-cap-independent-20261004/control-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/native-core-cap-independent-20261004/control-stdout.txt": "d205247040688c78e102aac5a714e691346fe09e6b017df8aa43ddc414461034",
+    "experiments/scratch/native-core-cap-independent-20261004/expected.hpp": "6f16546e685ba24947d0f522d7495f9dab5b86c66f5a85efe788bf4411efb6bd",
+    "experiments/scratch/native-core-cap-independent-20261004/independent-control": "bf20c40a466280620b9b134942a281a89051af1e9906d766a445feedfe2c0a7e"
+  },
+  "runner_sha256": "dd498d11df24886366d38e953dd36c7294fc84ec321d036a7d87f4300e765239",
+  "scope": "Exact three-core membership and direct transition controls. No optimizer, connectivity or nonexistence claim.",
+  "source_sha256": "d80d069518fcd6774d9396f69200767ab5f9d3660f2893093c2924116c83bab5",
+  "unchanged_profile_functions": true,
+  "unchanged_proposal_temperature_restart_and_penalty": true
+}

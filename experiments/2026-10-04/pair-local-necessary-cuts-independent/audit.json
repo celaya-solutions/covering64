@@ -1,0 +1,2388 @@
+{
+  "carrier_quadruple_coefficient_checks": 3974880,
+  "carrier_triple_coefficient_checks": 611520,
+  "check_sha256": "a71803e9c0c254e281cfd7c0d59d37bf8893ec39914f16722fbf5f144160a26e",
+  "damaged_controls_rejected": [
+    "triple pair coefficient2",
+    "quad repetition coefficient1",
+    "triple rhs14",
+    "quad rhs13"
+  ],
+  "identities": [
+    "3*c(P)-c(P+a)=sum_{x outside P+a} c(P+x)",
+    "3*c(P)-2*c(P+a+b)=sum_{x outside P+a+b}c(P+x)+[c(P+a)-c(P+a+b)]+[c(P+b)-c(P+a+b)]"
+  ],
+  "implied_by_complete_coverage_constraints": true,
+  "noncarrier_columns": "All terms are zero since every counted superset contains P.",
+  "optimizer_calls": 0,
+  "parameters": {
+    "k": 5,
+    "t": 3,
+    "v": 16
+  },
+  "passed": true,
+  "prior_local_derivations": {
+    "interpretation": "The local counting already appears there; later hub conclusions use degree20. No general all-pair row implementation was found in the targeted indexed-source and Markdown searches.",
+    "path": "experiments/2026-10-03/regular-heavy-hub-bound/README.md",
+    "quadruple_line": 26,
+    "sha256": "a332b44e869ddb992ac18af5fa77152a0db1fdbf90bd3c947d68f54feb8f6a9d",
+    "triple_line": 20
+  },
+  "proof": "In a full cover every triple count is at least1. The two bracketed differences are nonnegative by containment. There are13 and12 terms respectively in the sums.",
+  "quadruple_cut_rows": 10920,
+  "scope": "Necessary for every full C(16,5,3) cover, any block count or degrees. No symmetry, regularity, incumbent or rotational assumption.",
+  "sharp_control_scope": "The4010-block cover tests the unrestricted inequality constant; it is not a64-block candidate or a new upper bound.",
+  "triple_cut_rows": 1680,
+  "use_in_partial_construction": "They exclude partial states even when hole variables allow missing triples; this is valid only as a target-cover restriction.",
+  "witness_checks": [
+    {
+      "blocks": 65,
+      "holes": 0,
+      "minimum_quad_lhs": 13,
+      "minimum_triple_lhs": 13,
+      "package": {
+        "blocks": 65,
+        "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+        "covered": 560,
+        "expected_block_count_matches": true,
+        "expected_blocks": 65,
+        "k": 5,
+        "multiplicities": {
+          "1": 497,
+          "2": 56,
+          "3": 2,
+          "7": 5
+        },
+        "pair_multiplicities": {
+          "5": 88,
+          "6": 14,
+          "7": 18
+        },
+        "replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 22,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 21,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 21
+        },
+        "t": 3,
+        "total_incidences": 650,
+        "triples": 560,
+        "uncovered": [],
+        "v": 16,
+        "valid": true
+      },
+      "path": "data/baselines/belic-1997.txt",
+      "quad_row_count": 10920,
+      "quad_violations": [],
+      "sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+      "standalone": {
+        "blocks": 65,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 497,
+          "2": 56,
+          "3": 2,
+          "7": 5
+        },
+        "covered_subsets": 560,
+        "covers_all_subsets": true,
+        "expected_blocks": 65,
+        "expected_subset_incidences": 650,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 22,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 21,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 21
+        },
+        "required_subsets": 560,
+        "source_sha256": "89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f",
+        "total_subset_incidences": 650,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "triple_row_count": 1680,
+      "triple_violations": []
+    },
+    {
+      "blocks": 4010,
+      "holes": 0,
+      "minimum_quad_lhs": 12,
+      "minimum_triple_lhs": 15,
+      "package": {
+        "blocks": 4010,
+        "canonical_sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+        "covered": 560,
+        "expected_block_count_matches": true,
+        "expected_blocks": 4010,
+        "k": 5,
+        "multiplicities": {
+          "1": 12,
+          "3": 2,
+          "66": 150,
+          "67": 30,
+          "69": 2,
+          "77": 358,
+          "78": 6
+        },
+        "pair_multiplicities": {
+          "287": 24,
+          "289": 4,
+          "352": 75,
+          "353": 15,
+          "355": 1,
+          "6": 1
+        },
+        "replication": {
+          "1": 1007,
+          "10": 1288,
+          "11": 1288,
+          "12": 1288,
+          "13": 1288,
+          "14": 1288,
+          "15": 1288,
+          "16": 1288,
+          "2": 1007,
+          "3": 1290,
+          "4": 1290,
+          "5": 1288,
+          "6": 1288,
+          "7": 1288,
+          "8": 1288,
+          "9": 1288
+        },
+        "t": 3,
+        "total_incidences": 40100,
+        "triples": 560,
+        "uncovered": [],
+        "v": 16,
+        "valid": true
+      },
+      "path": "experiments/scratch/pair-local-necessary-cuts-independent-20261004/quad-sharp-full-cover.txt",
+      "quad_row_count": 10920,
+      "quad_violations": [],
+      "sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+      "standalone": {
+        "blocks": 4010,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "1": 12,
+          "3": 2,
+          "66": 150,
+          "67": 30,
+          "69": 2,
+          "77": 358,
+          "78": 6
+        },
+        "covered_subsets": 560,
+        "covers_all_subsets": true,
+        "expected_blocks": 4010,
+        "expected_subset_incidences": 40100,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 1007,
+          "10": 1288,
+          "11": 1288,
+          "12": 1288,
+          "13": 1288,
+          "14": 1288,
+          "15": 1288,
+          "16": 1288,
+          "2": 1007,
+          "3": 1290,
+          "4": 1290,
+          "5": 1288,
+          "6": 1288,
+          "7": 1288,
+          "8": 1288,
+          "9": 1288
+        },
+        "required_subsets": 560,
+        "source_sha256": "5c41469af61c69097e6cbddbb8f1ae72c1356bd6a7e1e6f346cc5945f9b3244a",
+        "total_subset_incidences": 40100,
+        "uncovered": [],
+        "uncovered_count": 0,
+        "valid": true
+      },
+      "triple_row_count": 1680,
+      "triple_violations": []
+    },
+    {
+      "blocks": 64,
+      "holes": 6,
+      "minimum_quad_lhs": 13,
+      "minimum_triple_lhs": 12,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+        "covered": 554,
+        "expected_block_count_matches": true,
+        "expected_blocks": 64,
+        "k": 5,
+        "multiplicities": {
+          "0": 6,
+          "1": 491,
+          "2": 56,
+          "3": 2,
+          "5": 1,
+          "6": 2,
+          "7": 2
+        },
+        "pair_multiplicities": {
+          "5": 88,
+          "6": 24,
+          "7": 8
+        },
+        "replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            6,
+            10,
+            14
+          ],
+          [
+            6,
+            10,
+            15
+          ],
+          [
+            9,
+            14,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-03/reduced-family-heuristic/penalty-2026100363/search-control_before-1-h6.txt",
+      "quad_row_count": 10920,
+      "quad_violations": [],
+      "sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 491,
+          "2": 56,
+          "3": 2,
+          "5": 1,
+          "6": 2,
+          "7": 2
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 20,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 20,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "source_sha256": "797dada195b23eecc808798eb12c8e4e7ccd7edd026fbdf22dea5b341f9ea2de",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            4,
+            6,
+            7
+          ],
+          [
+            4,
+            6,
+            12
+          ],
+          [
+            6,
+            10,
+            14
+          ],
+          [
+            6,
+            10,
+            15
+          ],
+          [
+            9,
+            14,
+            16
+          ],
+          [
+            12,
+            13,
+            16
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      },
+      "triple_row_count": 1680,
+      "triple_violations": [
+        {
+          "lhs": 12,
+          "pair": [
+            4,
+            7
+          ],
+          "pair_count": 6,
+          "rhs": 13,
+          "superset": [
+            4,
+            7,
+            12
+          ],
+          "superset_count": 6,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            4,
+            12
+          ],
+          "pair_count": 6,
+          "rhs": 13,
+          "superset": [
+            4,
+            7,
+            12
+          ],
+          "superset_count": 6,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            10,
+            14
+          ],
+          "pair_count": 6,
+          "rhs": 13,
+          "superset": [
+            10,
+            14,
+            15
+          ],
+          "superset_count": 6,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            10,
+            15
+          ],
+          "pair_count": 6,
+          "rhs": 13,
+          "superset": [
+            10,
+            14,
+            15
+          ],
+          "superset_count": 6,
+          "violated": true
+        }
+      ]
+    },
+    {
+      "blocks": 64,
+      "holes": 9,
+      "minimum_quad_lhs": 10,
+      "minimum_triple_lhs": 11,
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+        "covered": 551,
+        "expected_block_count_matches": true,
+        "expected_blocks": 64,
+        "k": 5,
+        "multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 79,
+          "3": 5
+        },
+        "pair_multiplicities": {
+          "4": 4,
+          "5": 77,
+          "6": 34,
+          "7": 5
+        },
+        "replication": {
+          "1": 20,
+          "10": 20,
+          "11": 19,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 22,
+          "3": 19,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 20,
+          "8": 21,
+          "9": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            5,
+            13
+          ],
+          [
+            2,
+            6,
+            13
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            6,
+            11
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            4,
+            5,
+            9
+          ],
+          [
+            4,
+            5,
+            15
+          ],
+          [
+            6,
+            8,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search-h9.txt",
+      "quad_row_count": 10920,
+      "quad_violations": [
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            2,
+            5,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            3,
+            5,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            3,
+            5,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            3,
+            5,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            3,
+            6,
+            7
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            3,
+            6,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            3,
+            11,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            4,
+            5,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            4,
+            5,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            7,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            7,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            8,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            9,
+            10
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            9,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            10,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            1,
+            5,
+            11,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            2,
+            3,
+            4,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            2,
+            3,
+            6,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            2,
+            3,
+            6,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            2,
+            3,
+            9,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            2,
+            4,
+            5,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            4,
+            5,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            4,
+            6,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            4,
+            9,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            5,
+            6,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            5,
+            11,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            6,
+            7,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            6,
+            10,
+            13
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            6,
+            10,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            6,
+            12,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            6,
+            13,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            7,
+            10,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            7,
+            11,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            8,
+            11,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            8,
+            11,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            10,
+            11,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            3,
+            11,
+            14,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            6,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            7,
+            10
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            7,
+            13
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            10,
+            13
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            11,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            11,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 10,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 12,
+          "superset": [
+            4,
+            5,
+            12,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        }
+      ],
+      "sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 79,
+          "3": 5
+        },
+        "covered_subsets": 551,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 20,
+          "10": 20,
+          "11": 19,
+          "12": 20,
+          "13": 21,
+          "14": 20,
+          "15": 21,
+          "16": 20,
+          "2": 22,
+          "3": 19,
+          "4": 19,
+          "5": 19,
+          "6": 20,
+          "7": 20,
+          "8": 21,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "source_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            5,
+            6
+          ],
+          [
+            1,
+            5,
+            13
+          ],
+          [
+            2,
+            6,
+            13
+          ],
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            3,
+            6,
+            11
+          ],
+          [
+            3,
+            11,
+            13
+          ],
+          [
+            4,
+            5,
+            9
+          ],
+          [
+            4,
+            5,
+            15
+          ],
+          [
+            6,
+            8,
+            14
+          ]
+        ],
+        "uncovered_count": 9,
+        "valid": false
+      },
+      "triple_row_count": 1680,
+      "triple_violations": [
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            2,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            3,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            3,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            3,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            4,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            4,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            6
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            7
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            9
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            10
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            13
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            1,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            1,
+            5,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            2,
+            3,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            2,
+            3,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            2,
+            4,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            4,
+            5
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            4,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            4,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            5,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            5,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            7
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            9
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            10
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            11
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            11
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            13
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            6
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            6,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            7,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            8,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            9,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            10,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            11,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            11,
+            13
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            11,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            11,
+            15
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            3,
+            11
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            3,
+            11,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            6
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            7
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            8
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            9
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            10
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            11
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            12
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            13
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            14
+          ],
+          "superset_count": 1,
+          "violated": true
+        },
+        {
+          "lhs": 12,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            15
+          ],
+          "superset_count": 0,
+          "violated": true
+        },
+        {
+          "lhs": 11,
+          "pair": [
+            4,
+            5
+          ],
+          "pair_count": 4,
+          "rhs": 13,
+          "superset": [
+            4,
+            5,
+            16
+          ],
+          "superset_count": 1,
+          "violated": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2958 @@
+{
+  "binary_sha256": "6520d509b7cafa9aab58cf01b38df147c0ff419c8442e6f745e1a3c59724b785",
+  "cases": [
+    {
+      "best_eligible_holes": 9,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-core-cap-escape-v2-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt",
+        "2026104201",
+        "60",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search"
+      ],
+      "ended_utc": "2026-10-04T11:50:07.375896+00:00",
+      "exit_code": 1,
+      "raw_files": {
+        "experiments/scratch/native-core-cap-escape-v2-20261004/seed-2026104201-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/native-core-cap-escape-v2-20261004/seed-2026104201-stdout.jsonl": "4c3d2b7e03f36b0c071c4b388db8071cb7d745980a56907734a1eaad2a03f149"
+      },
+      "seed": 2026104201,
+      "snapshots": [
+        {
+          "core_overlaps": [
+            1,
+            8,
+            55
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 10,
+          "ids": [
+            3,
+            15,
+            27,
+            35,
+            39,
+            70,
+            74,
+            696,
+            734,
+            772,
+            791,
+            871,
+            960,
+            1024,
+            1097,
+            1110,
+            1151,
+            1211,
+            1278,
+            1297,
+            1672,
+            1727,
+            1786,
+            1841,
+            1875,
+            2014,
+            2032,
+            2083,
+            2142,
+            2159,
+            2254,
+            2277,
+            2299,
+            2404,
+            2434,
+            2476,
+            2574,
+            2594,
+            2671,
+            2731,
+            2835,
+            2842,
+            2887,
+            2951,
+            2984,
+            3012,
+            3081,
+            3207,
+            3242,
+            3348,
+            3376,
+            3510,
+            3589,
+            3593,
+            3599,
+            3831,
+            3836,
+            3990,
+            4164,
+            4176,
+            4201,
+            4303,
+            4342,
+            4361
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "covered": 550,
+            "k": 5,
+            "multiplicities": {
+              "0": 10,
+              "1": 483,
+              "2": 62,
+              "5": 1,
+              "7": 4
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 86,
+              "6": 19,
+              "7": 12
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 21,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 19,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                16
+              ],
+              [
+                1,
+                9,
+                16
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                4,
+                8,
+                12
+              ],
+              [
+                4,
+                8,
+                16
+              ],
+              [
+                4,
+                12,
+                16
+              ],
+              [
+                6,
+                8,
+                12
+              ],
+              [
+                6,
+                12,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search-h10.txt",
+          "role": "eligible_improvement",
+          "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 10,
+              "1": 483,
+              "2": 62,
+              "5": 1,
+              "7": 4
+            },
+            "covered_subsets": 550,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 19,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 21,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                16
+              ],
+              [
+                1,
+                9,
+                16
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                4,
+                8,
+                12
+              ],
+              [
+                4,
+                8,
+                16
+              ],
+              [
+                4,
+                12,
+                16
+              ],
+              [
+                6,
+                8,
+                12
+              ],
+              [
+                6,
+                12,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ]
+            ],
+            "uncovered_count": 10,
+            "valid": false
+          }
+        },
+        {
+          "core_overlaps": [
+            1,
+            0,
+            0
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 9,
+          "ids": [
+            43,
+            88,
+            221,
+            263,
+            270,
+            286,
+            295,
+            420,
+            473,
+            493,
+            609,
+            732,
+            759,
+            809,
+            920,
+            980,
+            1084,
+            1095,
+            1336,
+            1363,
+            1404,
+            1468,
+            1522,
+            1535,
+            1650,
+            1706,
+            1843,
+            1868,
+            1895,
+            1941,
+            1972,
+            1982,
+            2129,
+            2196,
+            2352,
+            2367,
+            2499,
+            2535,
+            2644,
+            2743,
+            2846,
+            2920,
+            2968,
+            2999,
+            3143,
+            3227,
+            3321,
+            3355,
+            3387,
+            3468,
+            3472,
+            3604,
+            3659,
+            3692,
+            3787,
+            3815,
+            3906,
+            3922,
+            3974,
+            4064,
+            4205,
+            4224,
+            4287,
+            4319
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+            "covered": 551,
+            "k": 5,
+            "multiplicities": {
+              "0": 9,
+              "1": 467,
+              "2": 79,
+              "3": 5
+            },
+            "pair_multiplicities": {
+              "4": 4,
+              "5": 77,
+              "6": 34,
+              "7": 5
+            },
+            "replication": {
+              "1": 20,
+              "2": 22,
+              "3": 19,
+              "4": 19,
+              "5": 19,
+              "6": 20,
+              "7": 20,
+              "8": 21,
+              "9": 19,
+              "10": 20,
+              "11": 19,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 21,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                5,
+                6
+              ],
+              [
+                1,
+                5,
+                13
+              ],
+              [
+                2,
+                6,
+                13
+              ],
+              [
+                3,
+                6,
+                9
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                11,
+                13
+              ],
+              [
+                4,
+                5,
+                9
+              ],
+              [
+                4,
+                5,
+                15
+              ],
+              [
+                6,
+                8,
+                14
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search-h9.txt",
+          "role": "eligible_improvement",
+          "sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 9,
+              "1": 467,
+              "2": 79,
+              "3": 5
+            },
+            "covered_subsets": 551,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 19,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 21,
+              "16": 20,
+              "2": 22,
+              "3": 19,
+              "4": 19,
+              "5": 19,
+              "6": 20,
+              "7": 20,
+              "8": 21,
+              "9": 19
+            },
+            "required_subsets": 560,
+            "source_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                5,
+                6
+              ],
+              [
+                1,
+                5,
+                13
+              ],
+              [
+                2,
+                6,
+                13
+              ],
+              [
+                3,
+                6,
+                9
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                11,
+                13
+              ],
+              [
+                4,
+                5,
+                9
+              ],
+              [
+                4,
+                5,
+                15
+              ],
+              [
+                6,
+                8,
+                14
+              ]
+            ],
+            "uncovered_count": 9,
+            "valid": false
+          }
+        },
+        {
+          "core_overlaps": [
+            1,
+            1,
+            1
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 56,
+          "ids": [
+            26,
+            84,
+            279,
+            314,
+            361,
+            399,
+            474,
+            605,
+            625,
+            742,
+            758,
+            836,
+            883,
+            945,
+            1037,
+            1113,
+            1122,
+            1257,
+            1268,
+            1408,
+            1485,
+            1712,
+            1735,
+            1777,
+            1803,
+            1903,
+            1933,
+            1954,
+            2083,
+            2098,
+            2112,
+            2200,
+            2363,
+            2389,
+            2433,
+            2481,
+            2587,
+            2722,
+            2783,
+            2787,
+            2858,
+            2891,
+            3020,
+            3029,
+            3106,
+            3155,
+            3193,
+            3196,
+            3317,
+            3377,
+            3467,
+            3570,
+            3571,
+            3660,
+            3719,
+            3803,
+            3890,
+            3960,
+            4124,
+            4185,
+            4201,
+            4213,
+            4297,
+            4314
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "a44f534ddb22da47e250d1c191d9dfaa58b0768d7ce9e65e59abe85b9914d9db",
+            "covered": 504,
+            "k": 5,
+            "multiplicities": {
+              "0": 56,
+              "1": 394,
+              "2": 88,
+              "3": 18,
+              "4": 4
+            },
+            "pair_multiplicities": {
+              "3": 3,
+              "4": 18,
+              "5": 50,
+              "6": 38,
+              "7": 8,
+              "8": 2,
+              "9": 1
+            },
+            "replication": {
+              "1": 19,
+              "2": 19,
+              "3": 18,
+              "4": 22,
+              "5": 19,
+              "6": 21,
+              "7": 20,
+              "8": 19,
+              "9": 22,
+              "10": 22,
+              "11": 18,
+              "12": 22,
+              "13": 20,
+              "14": 21,
+              "15": 19,
+              "16": 19
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                2,
+                8
+              ],
+              [
+                1,
+                3,
+                7
+              ],
+              [
+                1,
+                4,
+                16
+              ],
+              [
+                1,
+                5,
+                9
+              ],
+              [
+                1,
+                5,
+                10
+              ],
+              [
+                1,
+                5,
+                15
+              ],
+              [
+                1,
+                7,
+                12
+              ],
+              [
+                1,
+                11,
+                15
+              ],
+              [
+                1,
+                12,
+                14
+              ],
+              [
+                2,
+                3,
+                7
+              ],
+              [
+                2,
+                3,
+                8
+              ],
+              [
+                2,
+                3,
+                11
+              ],
+              [
+                2,
+                3,
+                12
+              ],
+              [
+                2,
+                3,
+                13
+              ],
+              [
+                2,
+                3,
+                14
+              ],
+              [
+                2,
+                6,
+                13
+              ],
+              [
+                2,
+                7,
+                8
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                2,
+                8,
+                13
+              ],
+              [
+                2,
+                9,
+                10
+              ],
+              [
+                2,
+                9,
+                16
+              ],
+              [
+                2,
+                10,
+                11
+              ],
+              [
+                2,
+                10,
+                12
+              ],
+              [
+                2,
+                10,
+                14
+              ],
+              [
+                2,
+                11,
+                13
+              ],
+              [
+                2,
+                11,
+                16
+              ],
+              [
+                2,
+                14,
+                15
+              ],
+              [
+                3,
+                4,
+                16
+              ],
+              [
+                3,
+                7,
+                14
+              ],
+              [
+                3,
+                8,
+                11
+              ],
+              [
+                3,
+                8,
+                16
+              ],
+              [
+                3,
+                10,
+                16
+              ],
+              [
+                3,
+                11,
+                13
+              ],
+              [
+                3,
+                14,
+                16
+              ],
+              [
+                4,
+                5,
+                15
+              ],
+              [
+                5,
+                7,
+                11
+              ],
+              [
+                5,
+                8,
+                16
+              ],
+              [
+                5,
+                9,
+                13
+              ],
+              [
+                5,
+                11,
+                13
+              ],
+              [
+                5,
+                11,
+                15
+              ],
+              [
+                5,
+                12,
+                13
+              ],
+              [
+                5,
+                12,
+                15
+              ],
+              [
+                5,
+                13,
+                16
+              ],
+              [
+                6,
+                7,
+                15
+              ],
+              [
+                6,
+                11,
+                12
+              ],
+              [
+                6,
+                11,
+                16
+              ],
+              [
+                6,
+                13,
+                14
+              ],
+              [
+                6,
+                13,
+                15
+              ],
+              [
+                7,
+                8,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ],
+              [
+                7,
+                11,
+                15
+              ],
+              [
+                7,
+                14,
+                15
+              ],
+              [
+                8,
+                10,
+                13
+              ],
+              [
+                8,
+                11,
+                16
+              ],
+              [
+                8,
+                15,
+                16
+              ],
+              [
+                11,
+                13,
+                15
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search-final-current.txt",
+          "role": "final_current",
+          "sha256": "a44f534ddb22da47e250d1c191d9dfaa58b0768d7ce9e65e59abe85b9914d9db",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "a44f534ddb22da47e250d1c191d9dfaa58b0768d7ce9e65e59abe85b9914d9db",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 56,
+              "1": 394,
+              "2": 88,
+              "3": 18,
+              "4": 4
+            },
+            "covered_subsets": 504,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 19,
+              "10": 22,
+              "11": 18,
+              "12": 22,
+              "13": 20,
+              "14": 21,
+              "15": 19,
+              "16": 19,
+              "2": 19,
+              "3": 18,
+              "4": 22,
+              "5": 19,
+              "6": 21,
+              "7": 20,
+              "8": 19,
+              "9": 22
+            },
+            "required_subsets": 560,
+            "source_sha256": "a44f534ddb22da47e250d1c191d9dfaa58b0768d7ce9e65e59abe85b9914d9db",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                2,
+                8
+              ],
+              [
+                1,
+                3,
+                7
+              ],
+              [
+                1,
+                4,
+                16
+              ],
+              [
+                1,
+                5,
+                9
+              ],
+              [
+                1,
+                5,
+                10
+              ],
+              [
+                1,
+                5,
+                15
+              ],
+              [
+                1,
+                7,
+                12
+              ],
+              [
+                1,
+                11,
+                15
+              ],
+              [
+                1,
+                12,
+                14
+              ],
+              [
+                2,
+                3,
+                7
+              ],
+              [
+                2,
+                3,
+                8
+              ],
+              [
+                2,
+                3,
+                11
+              ],
+              [
+                2,
+                3,
+                12
+              ],
+              [
+                2,
+                3,
+                13
+              ],
+              [
+                2,
+                3,
+                14
+              ],
+              [
+                2,
+                6,
+                13
+              ],
+              [
+                2,
+                7,
+                8
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                2,
+                8,
+                13
+              ],
+              [
+                2,
+                9,
+                10
+              ],
+              [
+                2,
+                9,
+                16
+              ],
+              [
+                2,
+                10,
+                11
+              ],
+              [
+                2,
+                10,
+                12
+              ],
+              [
+                2,
+                10,
+                14
+              ],
+              [
+                2,
+                11,
+                13
+              ],
+              [
+                2,
+                11,
+                16
+              ],
+              [
+                2,
+                14,
+                15
+              ],
+              [
+                3,
+                4,
+                16
+              ],
+              [
+                3,
+                7,
+                14
+              ],
+              [
+                3,
+                8,
+                11
+              ],
+              [
+                3,
+                8,
+                16
+              ],
+              [
+                3,
+                10,
+                16
+              ],
+              [
+                3,
+                11,
+                13
+              ],
+              [
+                3,
+                14,
+                16
+              ],
+              [
+                4,
+                5,
+                15
+              ],
+              [
+                5,
+                7,
+                11
+              ],
+              [
+                5,
+                8,
+                16
+              ],
+              [
+                5,
+                9,
+                13
+              ],
+              [
+                5,
+                11,
+                13
+              ],
+              [
+                5,
+                11,
+                15
+              ],
+              [
+                5,
+                12,
+                13
+              ],
+              [
+                5,
+                12,
+                15
+              ],
+              [
+                5,
+                13,
+                16
+              ],
+              [
+                6,
+                7,
+                15
+              ],
+              [
+                6,
+                11,
+                12
+              ],
+              [
+                6,
+                11,
+                16
+              ],
+              [
+                6,
+                13,
+                14
+              ],
+              [
+                6,
+                13,
+                15
+              ],
+              [
+                7,
+                8,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ],
+              [
+                7,
+                11,
+                15
+              ],
+              [
+                7,
+                14,
+                15
+              ],
+              [
+                8,
+                10,
+                13
+              ],
+              [
+                8,
+                11,
+                16
+              ],
+              [
+                8,
+                15,
+                16
+              ],
+              [
+                11,
+                13,
+                15
+              ]
+            ],
+            "uncovered_count": 56,
+            "valid": false
+          }
+        },
+        {
+          "core_overlaps": [
+            1,
+            0,
+            0
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 9,
+          "ids": [
+            43,
+            88,
+            221,
+            263,
+            270,
+            286,
+            295,
+            420,
+            473,
+            493,
+            609,
+            732,
+            759,
+            809,
+            920,
+            980,
+            1084,
+            1095,
+            1336,
+            1363,
+            1404,
+            1468,
+            1522,
+            1535,
+            1650,
+            1706,
+            1843,
+            1868,
+            1895,
+            1941,
+            1972,
+            1982,
+            2129,
+            2196,
+            2352,
+            2367,
+            2499,
+            2535,
+            2644,
+            2743,
+            2846,
+            2920,
+            2968,
+            2999,
+            3143,
+            3227,
+            3321,
+            3355,
+            3387,
+            3468,
+            3472,
+            3604,
+            3659,
+            3692,
+            3787,
+            3815,
+            3906,
+            3922,
+            3974,
+            4064,
+            4205,
+            4224,
+            4287,
+            4319
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+            "covered": 551,
+            "k": 5,
+            "multiplicities": {
+              "0": 9,
+              "1": 467,
+              "2": 79,
+              "3": 5
+            },
+            "pair_multiplicities": {
+              "4": 4,
+              "5": 77,
+              "6": 34,
+              "7": 5
+            },
+            "replication": {
+              "1": 20,
+              "2": 22,
+              "3": 19,
+              "4": 19,
+              "5": 19,
+              "6": 20,
+              "7": 20,
+              "8": 21,
+              "9": 19,
+              "10": 20,
+              "11": 19,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 21,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                5,
+                6
+              ],
+              [
+                1,
+                5,
+                13
+              ],
+              [
+                2,
+                6,
+                13
+              ],
+              [
+                3,
+                6,
+                9
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                11,
+                13
+              ],
+              [
+                4,
+                5,
+                9
+              ],
+              [
+                4,
+                5,
+                15
+              ],
+              [
+                6,
+                8,
+                14
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104201/search-final-best.txt",
+          "role": "final_best",
+          "sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 9,
+              "1": 467,
+              "2": 79,
+              "3": 5
+            },
+            "covered_subsets": 551,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 19,
+              "12": 20,
+              "13": 21,
+              "14": 20,
+              "15": 21,
+              "16": 20,
+              "2": 22,
+              "3": 19,
+              "4": 19,
+              "5": 19,
+              "6": 20,
+              "7": 20,
+              "8": 21,
+              "9": 19
+            },
+            "required_subsets": 560,
+            "source_sha256": "15db6bdbf8c6210c6754cbe52a1408dda6a279429bb5471cf03a1b68b24f0c46",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                5,
+                6
+              ],
+              [
+                1,
+                5,
+                13
+              ],
+              [
+                2,
+                6,
+                13
+              ],
+              [
+                3,
+                6,
+                9
+              ],
+              [
+                3,
+                6,
+                11
+              ],
+              [
+                3,
+                11,
+                13
+              ],
+              [
+                4,
+                5,
+                9
+              ],
+              [
+                4,
+                5,
+                15
+              ],
+              [
+                6,
+                8,
+                14
+              ]
+            ],
+            "uncovered_count": 9,
+            "valid": false
+          }
+        }
+      ],
+      "started_utc": "2026-10-04T11:49:07.264399+00:00",
+      "validation_error": null,
+      "wall_seconds": 60.00555058394093,
+      "watchdog": {
+        "deadline_seconds": 75,
+        "fired": false,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    },
+    {
+      "best_eligible_holes": 10,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-core-cap-escape-v2-20261004/search",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt",
+        "2026104202",
+        "60",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104202/search"
+      ],
+      "ended_utc": "2026-10-04T11:51:07.498456+00:00",
+      "exit_code": 1,
+      "raw_files": {
+        "experiments/scratch/native-core-cap-escape-v2-20261004/seed-2026104202-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/native-core-cap-escape-v2-20261004/seed-2026104202-stdout.jsonl": "9b3a6308d673cbd6708cef4cd7d373fd26a187034cbcba5909b5ce3649c4e9ff"
+      },
+      "seed": 2026104202,
+      "snapshots": [
+        {
+          "core_overlaps": [
+            1,
+            8,
+            55
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 10,
+          "ids": [
+            3,
+            15,
+            27,
+            35,
+            39,
+            70,
+            74,
+            696,
+            734,
+            772,
+            791,
+            871,
+            960,
+            1024,
+            1097,
+            1110,
+            1151,
+            1211,
+            1278,
+            1297,
+            1672,
+            1727,
+            1786,
+            1841,
+            1875,
+            2014,
+            2032,
+            2083,
+            2142,
+            2159,
+            2254,
+            2277,
+            2299,
+            2404,
+            2434,
+            2476,
+            2574,
+            2594,
+            2671,
+            2731,
+            2835,
+            2842,
+            2887,
+            2951,
+            2984,
+            3012,
+            3081,
+            3207,
+            3242,
+            3348,
+            3376,
+            3510,
+            3589,
+            3593,
+            3599,
+            3831,
+            3836,
+            3990,
+            4164,
+            4176,
+            4201,
+            4303,
+            4342,
+            4361
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "covered": 550,
+            "k": 5,
+            "multiplicities": {
+              "0": 10,
+              "1": 483,
+              "2": 62,
+              "5": 1,
+              "7": 4
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 86,
+              "6": 19,
+              "7": 12
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 21,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 19,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                16
+              ],
+              [
+                1,
+                9,
+                16
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                4,
+                8,
+                12
+              ],
+              [
+                4,
+                8,
+                16
+              ],
+              [
+                4,
+                12,
+                16
+              ],
+              [
+                6,
+                8,
+                12
+              ],
+              [
+                6,
+                12,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104202/search-h10.txt",
+          "role": "eligible_improvement",
+          "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 10,
+              "1": 483,
+              "2": 62,
+              "5": 1,
+              "7": 4
+            },
+            "covered_subsets": 550,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 19,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 21,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                16
+              ],
+              [
+                1,
+                9,
+                16
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                4,
+                8,
+                12
+              ],
+              [
+                4,
+                8,
+                16
+              ],
+              [
+                4,
+                12,
+                16
+              ],
+              [
+                6,
+                8,
+                12
+              ],
+              [
+                6,
+                12,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ]
+            ],
+            "uncovered_count": 10,
+            "valid": false
+          }
+        },
+        {
+          "core_overlaps": [
+            3,
+            1,
+            1
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 66,
+          "ids": [
+            3,
+            171,
+            237,
+            262,
+            344,
+            445,
+            517,
+            596,
+            648,
+            658,
+            759,
+            838,
+            968,
+            998,
+            1074,
+            1238,
+            1268,
+            1285,
+            1484,
+            1531,
+            1566,
+            1601,
+            1619,
+            1669,
+            1727,
+            1864,
+            1944,
+            1959,
+            2067,
+            2082,
+            2249,
+            2272,
+            2358,
+            2369,
+            2398,
+            2425,
+            2462,
+            2512,
+            2685,
+            2734,
+            2814,
+            2885,
+            2914,
+            2973,
+            3185,
+            3230,
+            3295,
+            3390,
+            3420,
+            3494,
+            3520,
+            3533,
+            3581,
+            3647,
+            3690,
+            3728,
+            3888,
+            3917,
+            3959,
+            3991,
+            4072,
+            4154,
+            4202,
+            4353
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "6cb6c21517939b026597fcfc882fa2334ece71032c6c6b6b1e69d7cc7427248c",
+            "covered": 494,
+            "k": 5,
+            "multiplicities": {
+              "0": 66,
+              "1": 364,
+              "2": 115,
+              "3": 14,
+              "4": 1
+            },
+            "pair_multiplicities": {
+              "3": 2,
+              "4": 18,
+              "5": 50,
+              "6": 39,
+              "7": 10,
+              "8": 1
+            },
+            "replication": {
+              "1": 18,
+              "2": 20,
+              "3": 21,
+              "4": 20,
+              "5": 20,
+              "6": 19,
+              "7": 20,
+              "8": 23,
+              "9": 19,
+              "10": 19,
+              "11": 19,
+              "12": 18,
+              "13": 22,
+              "14": 19,
+              "15": 21,
+              "16": 22
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                2,
+                15
+              ],
+              [
+                1,
+                3,
+                12
+              ],
+              [
+                1,
+                4,
+                12
+              ],
+              [
+                1,
+                4,
+                13
+              ],
+              [
+                1,
+                4,
+                14
+              ],
+              [
+                1,
+                4,
+                16
+              ],
+              [
+                1,
+                5,
+                12
+              ],
+              [
+                1,
+                6,
+                7
+              ],
+              [
+                1,
+                6,
+                10
+              ],
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                12
+              ],
+              [
+                1,
+                8,
+                15
+              ],
+              [
+                1,
+                9,
+                12
+              ],
+              [
+                1,
+                9,
+                15
+              ],
+              [
+                1,
+                12,
+                15
+              ],
+              [
+                2,
+                3,
+                6
+              ],
+              [
+                2,
+                3,
+                13
+              ],
+              [
+                2,
+                4,
+                10
+              ],
+              [
+                2,
+                4,
+                11
+              ],
+              [
+                2,
+                4,
+                13
+              ],
+              [
+                2,
+                5,
+                6
+              ],
+              [
+                2,
+                5,
+                13
+              ],
+              [
+                2,
+                6,
+                11
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                2,
+                8,
+                12
+              ],
+              [
+                2,
+                9,
+                13
+              ],
+              [
+                2,
+                9,
+                16
+              ],
+              [
+                2,
+                10,
+                12
+              ],
+              [
+                3,
+                4,
+                11
+              ],
+              [
+                3,
+                6,
+                9
+              ],
+              [
+                3,
+                7,
+                10
+              ],
+              [
+                3,
+                9,
+                16
+              ],
+              [
+                3,
+                10,
+                12
+              ],
+              [
+                3,
+                10,
+                16
+              ],
+              [
+                3,
+                12,
+                14
+              ],
+              [
+                3,
+                12,
+                15
+              ],
+              [
+                4,
+                5,
+                12
+              ],
+              [
+                4,
+                7,
+                14
+              ],
+              [
+                4,
+                7,
+                15
+              ],
+              [
+                4,
+                8,
+                9
+              ],
+              [
+                5,
+                7,
+                11
+              ],
+              [
+                5,
+                8,
+                9
+              ],
+              [
+                5,
+                9,
+                12
+              ],
+              [
+                5,
+                10,
+                12
+              ],
+              [
+                5,
+                11,
+                15
+              ],
+              [
+                5,
+                14,
+                15
+              ],
+              [
+                5,
+                15,
+                16
+              ],
+              [
+                6,
+                7,
+                9
+              ],
+              [
+                6,
+                9,
+                16
+              ],
+              [
+                6,
+                10,
+                13
+              ],
+              [
+                6,
+                11,
+                15
+              ],
+              [
+                6,
+                13,
+                14
+              ],
+              [
+                6,
+                14,
+                15
+              ],
+              [
+                7,
+                11,
+                14
+              ],
+              [
+                7,
+                12,
+                14
+              ],
+              [
+                8,
+                9,
+                16
+              ],
+              [
+                9,
+                10,
+                11
+              ],
+              [
+                9,
+                10,
+                14
+              ],
+              [
+                9,
+                11,
+                14
+              ],
+              [
+                9,
+                11,
+                16
+              ],
+              [
+                9,
+                12,
+                14
+              ],
+              [
+                10,
+                11,
+                12
+              ],
+              [
+                10,
+                12,
+                14
+              ],
+              [
+                10,
+                12,
+                15
+              ],
+              [
+                11,
+                12,
+                14
+              ],
+              [
+                11,
+                15,
+                16
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104202/search-final-current.txt",
+          "role": "final_current",
+          "sha256": "6cb6c21517939b026597fcfc882fa2334ece71032c6c6b6b1e69d7cc7427248c",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "6cb6c21517939b026597fcfc882fa2334ece71032c6c6b6b1e69d7cc7427248c",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 66,
+              "1": 364,
+              "2": 115,
+              "3": 14,
+              "4": 1
+            },
+            "covered_subsets": 494,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 18,
+              "10": 19,
+              "11": 19,
+              "12": 18,
+              "13": 22,
+              "14": 19,
+              "15": 21,
+              "16": 22,
+              "2": 20,
+              "3": 21,
+              "4": 20,
+              "5": 20,
+              "6": 19,
+              "7": 20,
+              "8": 23,
+              "9": 19
+            },
+            "required_subsets": 560,
+            "source_sha256": "6cb6c21517939b026597fcfc882fa2334ece71032c6c6b6b1e69d7cc7427248c",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                2,
+                15
+              ],
+              [
+                1,
+                3,
+                12
+              ],
+              [
+                1,
+                4,
+                12
+              ],
+              [
+                1,
+                4,
+                13
+              ],
+              [
+                1,
+                4,
+                14
+              ],
+              [
+                1,
+                4,
+                16
+              ],
+              [
+                1,
+                5,
+                12
+              ],
+              [
+                1,
+                6,
+                7
+              ],
+              [
+                1,
+                6,
+                10
+              ],
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                12
+              ],
+              [
+                1,
+                8,
+                15
+              ],
+              [
+                1,
+                9,
+                12
+              ],
+              [
+                1,
+                9,
+                15
+              ],
+              [
+                1,
+                12,
+                15
+              ],
+              [
+                2,
+                3,
+                6
+              ],
+              [
+                2,
+                3,
+                13
+              ],
+              [
+                2,
+                4,
+                10
+              ],
+              [
+                2,
+                4,
+                11
+              ],
+              [
+                2,
+                4,
+                13
+              ],
+              [
+                2,
+                5,
+                6
+              ],
+              [
+                2,
+                5,
+                13
+              ],
+              [
+                2,
+                6,
+                11
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                2,
+                8,
+                12
+              ],
+              [
+                2,
+                9,
+                13
+              ],
+              [
+                2,
+                9,
+                16
+              ],
+              [
+                2,
+                10,
+                12
+              ],
+              [
+                3,
+                4,
+                11
+              ],
+              [
+                3,
+                6,
+                9
+              ],
+              [
+                3,
+                7,
+                10
+              ],
+              [
+                3,
+                9,
+                16
+              ],
+              [
+                3,
+                10,
+                12
+              ],
+              [
+                3,
+                10,
+                16
+              ],
+              [
+                3,
+                12,
+                14
+              ],
+              [
+                3,
+                12,
+                15
+              ],
+              [
+                4,
+                5,
+                12
+              ],
+              [
+                4,
+                7,
+                14
+              ],
+              [
+                4,
+                7,
+                15
+              ],
+              [
+                4,
+                8,
+                9
+              ],
+              [
+                5,
+                7,
+                11
+              ],
+              [
+                5,
+                8,
+                9
+              ],
+              [
+                5,
+                9,
+                12
+              ],
+              [
+                5,
+                10,
+                12
+              ],
+              [
+                5,
+                11,
+                15
+              ],
+              [
+                5,
+                14,
+                15
+              ],
+              [
+                5,
+                15,
+                16
+              ],
+              [
+                6,
+                7,
+                9
+              ],
+              [
+                6,
+                9,
+                16
+              ],
+              [
+                6,
+                10,
+                13
+              ],
+              [
+                6,
+                11,
+                15
+              ],
+              [
+                6,
+                13,
+                14
+              ],
+              [
+                6,
+                14,
+                15
+              ],
+              [
+                7,
+                11,
+                14
+              ],
+              [
+                7,
+                12,
+                14
+              ],
+              [
+                8,
+                9,
+                16
+              ],
+              [
+                9,
+                10,
+                11
+              ],
+              [
+                9,
+                10,
+                14
+              ],
+              [
+                9,
+                11,
+                14
+              ],
+              [
+                9,
+                11,
+                16
+              ],
+              [
+                9,
+                12,
+                14
+              ],
+              [
+                10,
+                11,
+                12
+              ],
+              [
+                10,
+                12,
+                14
+              ],
+              [
+                10,
+                12,
+                15
+              ],
+              [
+                11,
+                12,
+                14
+              ],
+              [
+                11,
+                15,
+                16
+              ]
+            ],
+            "uncovered_count": 66,
+            "valid": false
+          }
+        },
+        {
+          "core_overlaps": [
+            1,
+            8,
+            55
+          ],
+          "eligible_record": true,
+          "global_profile_obstructions": [],
+          "holes": 10,
+          "ids": [
+            3,
+            15,
+            27,
+            35,
+            39,
+            70,
+            74,
+            696,
+            734,
+            772,
+            791,
+            871,
+            960,
+            1024,
+            1097,
+            1110,
+            1151,
+            1211,
+            1278,
+            1297,
+            1672,
+            1727,
+            1786,
+            1841,
+            1875,
+            2014,
+            2032,
+            2083,
+            2142,
+            2159,
+            2254,
+            2277,
+            2299,
+            2404,
+            2434,
+            2476,
+            2574,
+            2594,
+            2671,
+            2731,
+            2835,
+            2842,
+            2887,
+            2951,
+            2984,
+            3012,
+            3081,
+            3207,
+            3242,
+            3348,
+            3376,
+            3510,
+            3589,
+            3593,
+            3599,
+            3831,
+            3836,
+            3990,
+            4164,
+            4176,
+            4201,
+            4303,
+            4342,
+            4361
+          ],
+          "package": {
+            "blocks": 64,
+            "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "covered": 550,
+            "k": 5,
+            "multiplicities": {
+              "0": 10,
+              "1": 483,
+              "2": 62,
+              "5": 1,
+              "7": 4
+            },
+            "pair_multiplicities": {
+              "4": 3,
+              "5": 86,
+              "6": 19,
+              "7": 12
+            },
+            "replication": {
+              "1": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 21,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21,
+              "10": 20,
+              "11": 20,
+              "12": 19,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20
+            },
+            "t": 3,
+            "total_incidences": 640,
+            "triples": 560,
+            "uncovered": [
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                16
+              ],
+              [
+                1,
+                9,
+                16
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                4,
+                8,
+                12
+              ],
+              [
+                4,
+                8,
+                16
+              ],
+              [
+                4,
+                12,
+                16
+              ],
+              [
+                6,
+                8,
+                12
+              ],
+              [
+                6,
+                12,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ]
+            ],
+            "v": 16,
+            "valid": false
+          },
+          "path": "experiments/2026-10-04/native-core-cap-escape-v2/seed-2026104202/search-final-best.txt",
+          "role": "final_best",
+          "sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+          "standalone": {
+            "blocks": 64,
+            "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+            "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "cardinality_matches": true,
+            "coverage_multiplicities": {
+              "0": 10,
+              "1": 483,
+              "2": 62,
+              "5": 1,
+              "7": 4
+            },
+            "covered_subsets": 550,
+            "covers_all_subsets": false,
+            "expected_blocks": 64,
+            "expected_subset_incidences": 640,
+            "parameters": {
+              "k": 5,
+              "t": 3,
+              "v": 16
+            },
+            "point_replication": {
+              "1": 20,
+              "10": 20,
+              "11": 20,
+              "12": 19,
+              "13": 20,
+              "14": 20,
+              "15": 20,
+              "16": 20,
+              "2": 20,
+              "3": 20,
+              "4": 19,
+              "5": 21,
+              "6": 20,
+              "7": 20,
+              "8": 20,
+              "9": 21
+            },
+            "required_subsets": 560,
+            "source_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+            "total_subset_incidences": 640,
+            "uncovered": [
+              [
+                1,
+                7,
+                8
+              ],
+              [
+                1,
+                7,
+                16
+              ],
+              [
+                1,
+                9,
+                16
+              ],
+              [
+                2,
+                7,
+                11
+              ],
+              [
+                4,
+                8,
+                12
+              ],
+              [
+                4,
+                8,
+                16
+              ],
+              [
+                4,
+                12,
+                16
+              ],
+              [
+                6,
+                8,
+                12
+              ],
+              [
+                6,
+                12,
+                16
+              ],
+              [
+                7,
+                11,
+                12
+              ]
+            ],
+            "uncovered_count": 10,
+            "valid": false
+          }
+        }
+      ],
+      "started_utc": "2026-10-04T11:50:07.376873+00:00",
+      "validation_error": null,
+      "wall_seconds": 60.00494216696825,
+      "watchdog": {
+        "deadline_seconds": 75,
+        "fired": false,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    }
+  ],
+  "gate_sha256": "8bbe6c45ed2289648f66bbbdcc109d1eabeae4baad0dcba974b4493dc805c458",
+  "global_lower_bound_claim": false,
+  "manifest_sha256": "2e5212440a92ea66cdc819da4300e6b75496ddf7ef3cb412f77c3b27bfca7293",
+  "optimizer_calls": 2
+}

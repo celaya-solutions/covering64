@@ -1,0 +1,353 @@
+{
+  "control_execution_kind": "direct predicates and transitions",
+  "damaged_table_controls_rejected": [
+    "cap54",
+    "wrong_block_order",
+    "wrong_triple_order",
+    "wrong_membership",
+    "duplicate_id",
+    "missing_id",
+    "wrong_id",
+    "wrong_transport"
+  ],
+  "hint_verifiers": {
+    "package": {
+      "blocks": 64,
+      "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "covered": 550,
+      "k": 5,
+      "multiplicities": {
+        "0": 10,
+        "1": 483,
+        "2": 62,
+        "5": 1,
+        "7": 4
+      },
+      "pair_multiplicities": {
+        "4": 3,
+        "5": 86,
+        "6": 19,
+        "7": 12
+      },
+      "replication": {
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21,
+        "10": 20,
+        "11": 20,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20
+      },
+      "t": 3,
+      "total_incidences": 640,
+      "triples": 560,
+      "uncovered": [
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          16
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          7,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          11,
+          12
+        ]
+      ],
+      "v": 16,
+      "valid": false
+    },
+    "standalone": {
+      "blocks": 64,
+      "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+      "canonical_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "cardinality_matches": true,
+      "coverage_multiplicities": {
+        "0": 10,
+        "1": 483,
+        "2": 62,
+        "5": 1,
+        "7": 4
+      },
+      "covered_subsets": 550,
+      "covers_all_subsets": false,
+      "expected_blocks": 64,
+      "expected_subset_incidences": 640,
+      "parameters": {
+        "k": 5,
+        "t": 3,
+        "v": 16
+      },
+      "point_replication": {
+        "1": 20,
+        "10": 20,
+        "11": 20,
+        "12": 19,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "2": 20,
+        "3": 20,
+        "4": 19,
+        "5": 21,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 21
+      },
+      "required_subsets": 560,
+      "source_sha256": "011fcce3b4568a211a357c2e0a608a8f5f5b8cb801ace1c324024fc35a670adc",
+      "total_subset_incidences": 640,
+      "uncovered": [
+        [
+          1,
+          7,
+          8
+        ],
+        [
+          1,
+          7,
+          16
+        ],
+        [
+          1,
+          9,
+          16
+        ],
+        [
+          2,
+          7,
+          11
+        ],
+        [
+          4,
+          8,
+          12
+        ],
+        [
+          4,
+          8,
+          16
+        ],
+        [
+          4,
+          12,
+          16
+        ],
+        [
+          6,
+          8,
+          12
+        ],
+        [
+          6,
+          12,
+          16
+        ],
+        [
+          7,
+          11,
+          12
+        ]
+      ],
+      "uncovered_count": 10,
+      "valid": false
+    }
+  },
+  "malformed_controls": [
+    {
+      "label": "duplicate",
+      "returncode": 2,
+      "sha256": "ac5592b89d531e666161d6c2e2aa3e604fe3f179c0536ef5bcc0259d07e1c742",
+      "stderr": "Duplicate block\n"
+    },
+    {
+      "label": "label_zero",
+      "returncode": 2,
+      "sha256": "fcad828d99381b3126ba42111121f3312c8d3ead2d6761a525d87923a2d9d555",
+      "stderr": "Malformed block\n"
+    },
+    {
+      "label": "label_high",
+      "returncode": 2,
+      "sha256": "7ae67e52fac2dac94cd54d9fe272184ecdb978a2367409e178da9d98a7f9e6aa",
+      "stderr": "Malformed block\n"
+    },
+    {
+      "label": "token",
+      "returncode": 2,
+      "sha256": "58a82fe57d32eaa6a8524b2089c44ae791584c7573ac90978feb808e47cb701a",
+      "stderr": "Malformed block token\n"
+    },
+    {
+      "label": "block_size",
+      "returncode": 2,
+      "sha256": "96eb49b44dddb81bb00df897656326433c3c30822e74d323ce7118b7bf52e8ad",
+      "stderr": "Malformed block\n"
+    },
+    {
+      "label": "count63",
+      "returncode": 2,
+      "sha256": "b00064e5f5e8ca42181a49f70c1d9b0a2b00423717bed33dadc981d47105bcb9",
+      "stderr": "Start needs at least 64 blocks\n"
+    },
+    {
+      "label": "count65",
+      "returncode": 2,
+      "sha256": "4cfbef74fd828a5116f8ac99214d0615055493ea6719b64c2cffcb45a8dee2ba",
+      "stderr": "Expected exactly64 blocks\n"
+    }
+  ],
+  "native_blocks": 4368,
+  "native_membership_entries": 13104,
+  "native_triples": 560,
+  "optimizer_calls": 0,
+  "passed": true,
+  "profiles": {
+    "core_bad": {
+      "caps_pass": false,
+      "core_overlaps": [
+        1,
+        8,
+        60
+      ],
+      "forbidden": true,
+      "missing": 3
+    },
+    "hint": {
+      "caps_pass": true,
+      "core_overlaps": [
+        1,
+        8,
+        55
+      ],
+      "forbidden": false,
+      "missing": 10
+    },
+    "profile_bad": {
+      "caps_pass": true,
+      "core_overlaps": [
+        1,
+        7,
+        55
+      ],
+      "forbidden": true,
+      "missing": 8
+    }
+  },
+  "sanitizer_command": [
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-core-cap-escape-20261004/controls-sanitized",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-03-h10-c1.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/six-hole-strong-core-release/full-4368/best-04-h8-c1.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/six-hole-strong-core-release/full-4368/final-response.txt",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/native-core-cap-escape-20261004/control-record.txt"
+  ],
+  "sanitizer_diagnostics": "",
+  "transition_controls": {
+    "boundaries": 9,
+    "boundary_cap_rejections": 3,
+    "damaged_state_controls": 2,
+    "joint_membership_transitions": 35,
+    "membership_transitions": 24,
+    "moves": 4934,
+    "positive_profiles": 1906,
+    "record_rejection_controls": 4,
+    "restarts": 10,
+    "rollbacks": 2511,
+    "synthetic_profiles": 4000,
+    "untouched_core_rejections": 0
+  },
+  "watchdog_controls": [
+    {
+      "control_sha256": "6b064a50a06a996e8a5450ce3392a7a93ffdf47a2dae98805ede71caee3b384f",
+      "elapsed_seconds": 0.018389959004707634,
+      "label": "ordinary",
+      "returncode": 0,
+      "stdout": "ordinary\n",
+      "watchdog": {
+        "deadline_seconds": 0.5,
+        "fired": false,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": false
+      }
+    },
+    {
+      "control_sha256": "b11327b323589a9bf63d5ae29d5768b65774a52844c2ccb0cc5ca9cbbd259021",
+      "elapsed_seconds": 0.5065412090625614,
+      "label": "terminate",
+      "returncode": 0,
+      "stdout": "ready\n",
+      "watchdog": {
+        "deadline_seconds": 0.5,
+        "fired": true,
+        "kill_sent": false,
+        "relaunch": false,
+        "terminate_sent": true
+      }
+    },
+    {
+      "control_sha256": "a6965244b421bb94e7e3e9c104daf90a4a94e88c6da79f63f0cc1497d83b0995",
+      "elapsed_seconds": 0.7576855829684064,
+      "label": "kill",
+      "returncode": -9,
+      "stdout": "ready\n",
+      "watchdog": {
+        "deadline_seconds": 0.5,
+        "fired": true,
+        "kill_sent": true,
+        "relaunch": false,
+        "terminate_sent": true
+      }
+    }
+  ]
+}
