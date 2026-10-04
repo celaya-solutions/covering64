@@ -1,0 +1,24 @@
+{
+  "baseline_rejected_by_local_hole_bound": true,
+  "checker_sha256": "0183b10ab07f6c7766f23b453dad1a4db65f3dd5591daf01cabc9480787b7a67",
+  "damaged_controls_rejected": [
+    "short_vector",
+    "noninteger",
+    "block_domain",
+    "count_identity",
+    "hole_channel",
+    "deficit_domain",
+    "understated_deficit",
+    "cardinality"
+  ],
+  "manifest_sha256": "dd8ade21144046f04b2a9e03737e6a93382a95681e4f17c652c0aa4780be772c",
+  "no_objective_or_hint_created": true,
+  "optimizer_calls": 0,
+  "passed": true,
+  "prefix_vector_check": {
+    "enforced_rows_checked": 13845,
+    "rows_checked": 14405,
+    "variables_checked": 5728
+  },
+  "valid_auxiliary_slack_accepted": true
+}

@@ -1,0 +1,28 @@
+{
+  "decision": "RUNNER_GO",
+  "files": {
+    "experiments/2026-10-04/radius-four-feasibility-repair-v2/README.md": "34db3da7e941ac7024fba73554942de640466e88f45a2ac1238f62280c174210",
+    "experiments/2026-10-04/radius-four-feasibility-repair-v2/execute.py": "e6afbf195ff9a2f3f1ff2dcfd1f98f4dcb2c8ba07742c3a2df2840462e28b21b",
+    "experiments/2026-10-04/radius-four-feasibility-repair-v2/manifest.json": "dd8ade21144046f04b2a9e03737e6a93382a95681e4f17c652c0aa4780be772c",
+    "experiments/2026-10-04/radius-four-feasibility-repair-v2/prepare.py": "97c5bb59f1761d91f7ae607e0b0238b5a76682ed450619193107cf9e37fddd45",
+    "experiments/2026-10-04/radius-four-feasibility-repair-v2/runner-controls.json": "30d0d36d01aa89578f7a82160f1d87c8f0d46223ff69349ec51c1410900369f0",
+    "experiments/2026-10-04/radius-four-feasibility-repair-v2/runner_controls.py": "03de975cf2427a9295c9cc9446cbfdec4e1933dede0a0e7a082df9b78d60d0e5",
+    "experiments/2026-10-04/radius-four-runner-review/README.md": "fa25d93a1c7f4a446d2a0585882909a034bbd1d49621d9cf39c070a84dd1b5b3",
+    "experiments/2026-10-04/radius-four-runner-review/check.py": "2629a58471611673772ee99ccc85914bf2d3fb8cfd9828ef5c549b9b873f7756",
+    "experiments/2026-10-04/radius-four-runner-review/fake-controls-review.json": "14ba99006ee2c46d7d43e0dbde0977d7f0690c971e3f443b62677bda1f402357",
+    "experiments/2026-10-04/radius-four-runner-review/fake_controls.py": "bd8692e4dea890c82961ad5e5d22ae474da2ecf73e00bdfe42aafb56563a2496",
+    "experiments/2026-10-04/radius-four-runner-review/source-review.json": "2f8afd9d565fe3c40fbb5c804d9a28e75bd3233fe76ac8efb04f20945ed65851"
+  },
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_controls_sha256": "30d0d36d01aa89578f7a82160f1d87c8f0d46223ff69349ec51c1410900369f0",
+  "producer_manifest_sha256": "dd8ade21144046f04b2a9e03737e6a93382a95681e4f17c652c0aa4780be772c",
+  "real_process_launches": 0,
+  "resolved_issues": [
+    "V1 truncated child-result JSON could prevent terminal result and receipt recovery; v2 catches and records the parse error before recovery."
+  ],
+  "runner_path": "experiments/2026-10-04/radius-four-feasibility-repair-v2/execute.py",
+  "runner_sha256": "e6afbf195ff9a2f3f1ff2dcfd1f98f4dcb2c8ba07742c3a2df2840462e28b21b",
+  "scope": "Runner only; root owns model and parameters gate, sole execution, and post-run vector audit. No global proof or actual solver outcome.",
+  "unresolved_issues": []
+}

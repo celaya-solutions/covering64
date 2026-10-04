@@ -1,0 +1,6563 @@
+{
+  "checker_sha256": "885baee8e06385ee58703173e443bd0afd16ff102765058b76ed827d0e2786b6",
+  "comparisons": {
+    "tie-1": {
+      "d29": {
+        "D2max_change": -1,
+        "added_blocks": [
+          [
+            1,
+            6,
+            14,
+            15,
+            16
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ]
+        ],
+        "added_ids": [
+          1154,
+          3578
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              1,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              8,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              16
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              15,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "new_holes": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            2,
+            6,
+            8
+          ]
+        ],
+        "pair_histogram_changed": false,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ]
+        ],
+        "removed_ids": [
+          1142,
+          1871
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      },
+      "d31": {
+        "D2max_change": -3,
+        "added_blocks": [
+          [
+            1,
+            6,
+            14,
+            15,
+            16
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "added_ids": [
+          1154,
+          3578,
+          3752,
+          4202
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              1,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              15,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            2,
+            6,
+            8
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871,
+          3759,
+          4201
+        ],
+        "replacement_distance": 4,
+        "shared_blocks": 60,
+        "unchanged_hole_set": false
+      },
+      "d32": {
+        "D2max_change": -4,
+        "added_blocks": [
+          [
+            1,
+            6,
+            14,
+            15,
+            16
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ]
+        ],
+        "added_ids": [
+          1154,
+          3578
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              1,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              16
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              15,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            2,
+            6,
+            8
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      }
+    },
+    "tie-2": {
+      "d29": {
+        "D2max_change": -1,
+        "added_blocks": [
+          [
+            1,
+            11,
+            14,
+            15,
+            16
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ]
+        ],
+        "added_ids": [
+          1359,
+          3578
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              1,
+              6
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              8,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              16
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              16
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              15,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            5,
+            8,
+            11
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "new_holes": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "pair_histogram_changed": false,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ]
+        ],
+        "removed_ids": [
+          1142,
+          1871
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      },
+      "d31": {
+        "D2max_change": -3,
+        "added_blocks": [
+          [
+            1,
+            11,
+            14,
+            15,
+            16
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "added_ids": [
+          1359,
+          3578,
+          3752,
+          4202
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              1,
+              6
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              15,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "new_holes": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            2,
+            6,
+            8
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871,
+          3759,
+          4201
+        ],
+        "replacement_distance": 4,
+        "shared_blocks": 60,
+        "unchanged_hole_set": false
+      },
+      "d32": {
+        "D2max_change": -4,
+        "added_blocks": [
+          [
+            1,
+            11,
+            14,
+            15,
+            16
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ]
+        ],
+        "added_ids": [
+          1359,
+          3578
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              1,
+              6
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              16
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              16
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              16
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              15,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            1,
+            15,
+            16
+          ],
+          [
+            11,
+            14,
+            16
+          ]
+        ],
+        "new_holes": [
+          [
+            1,
+            6,
+            11
+          ],
+          [
+            2,
+            6,
+            8
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      }
+    },
+    "tie-3": {
+      "d29": {
+        "D2max_change": -1,
+        "added_blocks": [
+          [
+            2,
+            6,
+            7,
+            8,
+            15
+          ],
+          [
+            5,
+            7,
+            8,
+            9,
+            11
+          ]
+        ],
+        "added_ids": [
+          2042,
+          3697
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              9
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              6
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              8,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              8,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              11
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "new_holes": [
+          [
+            8,
+            9,
+            15
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            2,
+            7,
+            8,
+            9,
+            15
+          ]
+        ],
+        "removed_ids": [
+          1871,
+          2161
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      },
+      "d31": {
+        "D2max_change": -3,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            6,
+            7,
+            8,
+            15
+          ],
+          [
+            5,
+            7,
+            8,
+            9,
+            11
+          ],
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "added_ids": [
+          1142,
+          2042,
+          3697,
+          3752,
+          4202
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              9
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              6
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              8,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              14,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            8,
+            9,
+            15
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            2,
+            7,
+            8,
+            9,
+            15
+          ],
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871,
+          2161,
+          3759,
+          4201
+        ],
+        "replacement_distance": 5,
+        "shared_blocks": 59,
+        "unchanged_hole_set": false
+      },
+      "d32": {
+        "D2max_change": -4,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            6,
+            7,
+            8,
+            15
+          ],
+          [
+            5,
+            7,
+            8,
+            9,
+            11
+          ]
+        ],
+        "added_ids": [
+          1142,
+          2042,
+          3697
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              9
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              6
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              8,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            8,
+            9,
+            15
+          ]
+        ],
+        "pair_histogram_changed": false,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            2,
+            7,
+            8,
+            9,
+            15
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871,
+          2161
+        ],
+        "replacement_distance": 3,
+        "shared_blocks": 61,
+        "unchanged_hole_set": false
+      }
+    },
+    "tie-4": {
+      "d29": {
+        "D2max_change": -1,
+        "added_blocks": [
+          [
+            2,
+            3,
+            6,
+            7,
+            15
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ]
+        ],
+        "added_ids": [
+          1493,
+          3578
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              3
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              3,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              8,
+              11
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "new_holes": [
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            3,
+            6,
+            9
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            3,
+            6,
+            7,
+            9,
+            15
+          ]
+        ],
+        "removed_ids": [
+          1871,
+          2764
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      },
+      "d31": {
+        "D2max_change": -3,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            3,
+            6,
+            7,
+            15
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "added_ids": [
+          1142,
+          1493,
+          3578,
+          3752,
+          4202
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              3
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              3,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              14,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            3,
+            6,
+            9
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            3,
+            6,
+            7,
+            9,
+            15
+          ],
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871,
+          2764,
+          3759,
+          4201
+        ],
+        "replacement_distance": 5,
+        "shared_blocks": 59,
+        "unchanged_hole_set": false
+      },
+      "d32": {
+        "D2max_change": -4,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            3,
+            6,
+            7,
+            15
+          ],
+          [
+            5,
+            6,
+            7,
+            8,
+            11
+          ]
+        ],
+        "added_ids": [
+          1142,
+          1493,
+          3578
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              3
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              8
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              3,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            2,
+            6,
+            8
+          ],
+          [
+            3,
+            6,
+            9
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            5,
+            6,
+            7,
+            8
+          ],
+          [
+            3,
+            6,
+            7,
+            9,
+            15
+          ]
+        ],
+        "removed_ids": [
+          881,
+          1871,
+          2764
+        ],
+        "replacement_distance": 3,
+        "shared_blocks": 61,
+        "unchanged_hole_set": false
+      }
+    },
+    "tie-5": {
+      "d29": {
+        "D2max_change": -1,
+        "added_blocks": [
+          [
+            2,
+            3,
+            6,
+            7,
+            15
+          ],
+          [
+            7,
+            8,
+            9,
+            11,
+            15
+          ]
+        ],
+        "added_ids": [
+          1493,
+          4125
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              3
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              3,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              8,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              11
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            2,
+            3,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            3,
+            6,
+            9
+          ]
+        ],
+        "pair_histogram_changed": false,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            2,
+            7,
+            8,
+            9,
+            15
+          ],
+          [
+            3,
+            6,
+            7,
+            9,
+            15
+          ]
+        ],
+        "removed_ids": [
+          2161,
+          2764
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": false
+      },
+      "d31": {
+        "D2max_change": -3,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            3,
+            6,
+            7,
+            15
+          ],
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            8,
+            9,
+            11,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "added_ids": [
+          1142,
+          1493,
+          3752,
+          4125,
+          4202
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              3
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              3,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              14,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": false,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            7,
+            8,
+            9,
+            15
+          ],
+          [
+            3,
+            6,
+            7,
+            9,
+            15
+          ],
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "removed_ids": [
+          881,
+          2161,
+          2764,
+          3759,
+          4201
+        ],
+        "replacement_distance": 5,
+        "shared_blocks": 59,
+        "unchanged_hole_set": false
+      },
+      "d32": {
+        "D2max_change": -4,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            2,
+            3,
+            6,
+            7,
+            15
+          ],
+          [
+            7,
+            8,
+            9,
+            11,
+            15
+          ]
+        ],
+        "added_ids": [
+          1142,
+          1493,
+          4125
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              3
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              2,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              2,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              6
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              3,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              3,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              6,
+              9
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            2,
+            3,
+            15
+          ],
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            3,
+            6,
+            9
+          ],
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            2,
+            7,
+            8,
+            9,
+            15
+          ],
+          [
+            3,
+            6,
+            7,
+            9,
+            15
+          ]
+        ],
+        "removed_ids": [
+          881,
+          2161,
+          2764
+        ],
+        "replacement_distance": 3,
+        "shared_blocks": 61,
+        "unchanged_hole_set": false
+      }
+    },
+    "tie-6": {
+      "d29": {
+        "D2max_change": -1,
+        "added_blocks": [
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "added_ids": [
+          3759,
+          4201
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [],
+        "new_holes": [],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "removed_ids": [
+          3752,
+          4202
+        ],
+        "replacement_distance": 2,
+        "shared_blocks": 62,
+        "unchanged_hole_set": true
+      },
+      "d31": {
+        "D2max_change": -3,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ]
+        ],
+        "added_ids": [
+          1142
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              8,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ]
+        ],
+        "removed_ids": [
+          881
+        ],
+        "replacement_distance": 1,
+        "shared_blocks": 63,
+        "unchanged_hole_set": false
+      },
+      "d32": {
+        "D2max_change": -4,
+        "added_blocks": [
+          [
+            1,
+            6,
+            11,
+            14,
+            15
+          ],
+          [
+            5,
+            7,
+            10,
+            15,
+            16
+          ],
+          [
+            7,
+            9,
+            12,
+            14,
+            16
+          ]
+        ],
+        "added_ids": [
+          1142,
+          3759,
+          4201
+        ],
+        "changed_pair_deficits": [
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              1,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              8
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              11
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              5,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              6,
+              15
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              8,
+              11
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              9,
+              14
+            ]
+          },
+          {
+            "after": 1,
+            "before": 0,
+            "change": 1,
+            "pair": [
+              10,
+              12
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              11,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              12,
+              14
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              15
+            ]
+          },
+          {
+            "after": 0,
+            "before": 1,
+            "change": -1,
+            "pair": [
+              14,
+              16
+            ]
+          }
+        ],
+        "filled_holes": [
+          [
+            6,
+            14,
+            15
+          ]
+        ],
+        "new_holes": [
+          [
+            5,
+            8,
+            11
+          ]
+        ],
+        "pair_histogram_changed": true,
+        "point_histogram_changed": true,
+        "removed_blocks": [
+          [
+            1,
+            5,
+            6,
+            8,
+            11
+          ],
+          [
+            5,
+            7,
+            10,
+            12,
+            15
+          ],
+          [
+            7,
+            9,
+            12,
+            15,
+            16
+          ]
+        ],
+        "removed_ids": [
+          881,
+          3752,
+          4202
+        ],
+        "replacement_distance": 3,
+        "shared_blocks": 61,
+        "unchanged_hole_set": false
+      }
+    }
+  },
+  "distances_to_all_d29_ties": {
+    "tie-1": [
+      {
+        "incoming": 1142,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1143,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1154,
+        "replacement_distance": 1
+      },
+      {
+        "incoming": 1359,
+        "replacement_distance": 2
+      }
+    ],
+    "tie-2": [
+      {
+        "incoming": 1142,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1143,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1154,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1359,
+        "replacement_distance": 1
+      }
+    ],
+    "tie-3": [
+      {
+        "incoming": 1142,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1143,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1154,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1359,
+        "replacement_distance": 3
+      }
+    ],
+    "tie-4": [
+      {
+        "incoming": 1142,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1143,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1154,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1359,
+        "replacement_distance": 3
+      }
+    ],
+    "tie-5": [
+      {
+        "incoming": 1142,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1143,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1154,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1359,
+        "replacement_distance": 3
+      }
+    ],
+    "tie-6": [
+      {
+        "incoming": 1142,
+        "replacement_distance": 2
+      },
+      {
+        "incoming": 1143,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1154,
+        "replacement_distance": 3
+      },
+      {
+        "incoming": 1359,
+        "replacement_distance": 3
+      }
+    ]
+  },
+  "enumeration_calls": 0,
+  "helper_controls": {
+    "core_heavy_triples": [
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        2,
+        14,
+        15
+      ],
+      [
+        4,
+        8,
+        10
+      ],
+      [
+        5,
+        13,
+        16
+      ],
+      [
+        9,
+        11,
+        12
+      ]
+    ],
+    "core_sha256": "7011e57be2714b1e1a16d4419ecb55a0160e25806f5db5dd786891aa17d0a5db",
+    "distinct_explicit_core_images": 242,
+    "passed": true,
+    "positive_core_control": true,
+    "pruned_vs_exhaustive_controls": [
+      {
+        "matches": 0,
+        "shift": 0
+      },
+      {
+        "matches": 0,
+        "shift": 1
+      },
+      {
+        "matches": 1,
+        "shift": 2
+      },
+      {
+        "matches": 0,
+        "shift": 3
+      },
+      {
+        "matches": 0,
+        "shift": 4
+      },
+      {
+        "matches": 0,
+        "shift": 5
+      },
+      {
+        "matches": 0,
+        "shift": 6
+      }
+    ],
+    "zero_count_negative_control": true
+  },
+  "input_files": {
+    "experiments/2026-10-04/native-variable-cardinality/manifest.json": "f79075467ba41b46e53491c032044a23fe9766c680309055c1ff5d0697ec354b",
+    "experiments/2026-10-04/native-variable-cardinality/seed-2026104702/search-final-admissible64.txt": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+    "experiments/2026-10-04/six-hole-strong-core-release-independent/relabels.py": "9cdcd511eb94954bb45c1cf209c5d51517b46c11e46b44a22ce7221d9309f74a",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/README.md": "de03bf11f53bd85e6a2bcd34031dfdbbf0a4bbe67bc15956abc2381cd3434e16",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/check.py": "8fbc8e4bca442ffaa87d75e2a9eb3f26dce929d0ecb063f27989f867ca65d442",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/diagnostic.json": "2b2dd335c596222a3b6a597a6ee41edde500cc224172a866041378c9fd39d490",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/final-family.txt": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/final-package.json": "8a5f4ee5a67b372df0dff71df9cedf235ab077efec0b35436ae688575e410582",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/final-standalone.json": "a41b664463645bbd6f4793e6dd6c23a2ad60189c169e8f99d27d86615a728b53",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/manifest.json": "bf4ecc8092a39c50fcb4d6918352cf0aa0c9d0d705ed70f17cc3e8746566e9f8",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/relabel-screen.json": "3f1dfad8d7599cd2507e6633af895bf0977446831c021c97a854c16b2d4be8ec",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/start-package.json": "457aa8d2f741bb107588bbe1cca88725a0007eb80751ed89056d0b1d43f77967",
+    "experiments/2026-10-04/soft-pair-h12-relabel-novelty/start-standalone.json": "bf8e47e828b7d8ed74d5e27d1e79bf653cf611925984ba6478ea5a57cc636026",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/README.md": "d6671d105d53dceb364cb701c94c4b2c1ea16b94bd3b17a1094cb4af9916e81a",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/check.py": "a00c1965737e75741edc2d82780f3cc5fb0ac6eb4d6c12272f768d0370ece302",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/diagnostic.json": "3451948e6c171a0d242147c0fd80d7597328c17cd52c283fe1a5ae1fead8d653",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/final-family.txt": "a00c567a97a00429063ec599728e8b16fe3ed2c230c9eaffdf99939d7632563c",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/final-package.json": "fc06c7f6cc15662d2cc7edae5bc3a8827988fd6edca5acffddb41ebb89350dae",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/final-standalone.json": "3b263955a68e357bdf5fdc298dd7a0e59740d2da80004af61b90521967acc7e5",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/manifest.json": "882e2eff54d1e1a62df3056466e1e1504bf88ef409289bb1824438f626660b07",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/relabel-screen.json": "f9bd4ab7ad5883f663d017ad5848091652dbabdf635183a02192e6c9f3256318",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/start-package.json": "8a5f4ee5a67b372df0dff71df9cedf235ab077efec0b35436ae688575e410582",
+    "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/start-standalone.json": "a41b664463645bbd6f4793e6dd6c23a2ad60189c169e8f99d27d86615a728b53",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/README.md": "b4a06c6ebc7801f313c10e372779dc12b32460582820a3da9c679315cd2f318f",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/check.py": "fa9301f7ad252f64a70657d6e443815b5e6b13c5e5e7297691687cb2cd0942a4",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1142-package.json": "e8049c224dc82fd5d87f32d2eab666047874bc32033fc173e18c96f7a8c7ad69",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1142-relabel.json": "cddb4eb10f1d6fa7dd177cacf5c906e9b18f3d65b81ffb8b31a17a4fbd5e4063",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1142-standalone.json": "cc79b42bc128db1cd94d652d1055889029f4d3aa13cef18e8ff8263d3dd8863f",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1143-package.json": "b08ba955f2be60df591a6499502f05a2ec73b2d009a3f5f32756a6e5ecb46414",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1143-relabel.json": "32312302253cf595e3b9be804ddc5895b76a05ccca4ad27d741f177d7d62a19d",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1143-standalone.json": "87a0bca508d5846ec71d5ef9bf5e8adf6060de10fb0a5c1f416788c97c20d805",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1154-package.json": "fda93745942466708e015dc1a9a694fa0e306fad563b305ba4120e6f234a254b",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1154-relabel.json": "8f59515807f3faf467c4870dce6a62fef91640c34b7dab275a7c04e48587a87f",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1154-standalone.json": "ffb9595b9a88342f37708bda1b52f98b6123bf281c4fb139fac1e0b05080f888",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1359-package.json": "7e74a114b3d08b22998beaf411437eeed59ab9305fc57ca52b1242b5cf0babb7",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1359-relabel.json": "1fc26614b31ca78915394f2b61aea6678f2826e8771ac096b7f5bc5ee0e40423",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/incoming-1359-standalone.json": "5bd87f40a3973498e8b09780ee76c3cf62840e16eae608c359fd687a229855d6",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/manifest.json": "8de73d082aae946e5bc4c4c2a609de6a46f8ebe8916cd0b3f7780f2ad86aab00",
+    "experiments/2026-10-04/weak-pair-d29-relabel-screen/screen.json": "58fcd1e3705bacd56cefc9d511a3fbdb0aa43e5ea5e6dd178d64591dcc690d7e",
+    "experiments/2026-10-04/weak-pair-swap-scan-runtime-independent/postcheck.json": "a491a5ae273d2eab20bff3c3992771ce130d3293236eee62d9c05c6214e1207c",
+    "experiments/2026-10-04/weak-pair-swap-scan/best-representative.txt": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "experiments/2026-10-04/weak-pair-swap-scan/result.json": "183e01fc06bfffefb869b932439398e1bacc1075b33e9d8e07d7dec7aaf654ad",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/best-representative.txt": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/control.cpp": "ceceadc8b0d4e759bb6d8a26193bac336340033a48466ab03d3fb6ed731f4802",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/controls.json": "a957c0fedf415fce39e39932ec2106491b92690b6d1bf8ba91303297bf0f260d",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/cores.hpp": "054c89d9fed5fdc8e3b511c6452ae3fb14df4b40e64c993772401a264f30e92d",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/kernel.hpp": "d374d813225b03d8ac9085255f9c0548e14a31a611bdc7ec5abeb0cce2040fd3",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/manifest.json": "0f006df5844a67bf5595378e8dc156890a117ecab613b5e2ead9f74b463d9287",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/prepare.py": "4f07f82dbcf4ec0630f2c760754e523a50d49083434bd878955b8b4313f1bb5a",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/result.json": "d766613497903306106f45807b8ec7ccd8ead762f49f976acc17c0035f1a640e",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/run.py": "b9811d75f7918864f53357a9ec295ec0eb75947eb89e4121c362d5dc79813ec2",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/scan.hpp": "65d59df903e5da7a646a3764f469905ec6705e958d680d9c98eb17445734d560",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/search.cpp": "05009e12fb1cb4706087ec9686a720308d873e4d1b0f7bcccc494a547f3b8ca1",
+    "experiments/2026-10-04/weak-pair-two-swap-scan-v2/two_scan.hpp": "6edfc9c8deec7f111dec978e6eb0fe6154e99323b6a647f511cc1d7d3ed769a6",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/build-controls.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/build-controls.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/build-scan.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/build-scan.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/build-zero-control.stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/build-zero-control.stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/candidate-audit.json": "38f6c65c1b638f9ae7aa7544c048046463e8157d0f48eef946e5a55d9c3f1c07",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/controls": "9aaea54ba88062d1261119715d14291028910f6a9708a3f0b59625878d396756",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/controls.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/controls.stdout.json": "765b4d198c3dc7a8e4759efe576bede1d7977f137b80c4270f944400ea05aac6",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/representative-standalone.json": "b66c42bb7489842df5923c640f6628707810bf32e1b14bfe9ee27c6c29948d73",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/scan": "0b38f62a4b189965248eea7c5dfbc8499c22804d7abf83c0b386f24c2edfda1c",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/scan-ties.json": "8e2ab7894fc638ffb0cddf39edc5646079d92f633884e27f785fab506997fe2b",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/start.json": "3ed54400a26fd0f640e27453a15ebe541afe74ff468b8de844196029316d0a0b",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/stdout.jsonl": "59cdfc801f798cd9a6e4b8235645f5a187318be86731da1ddb390b02c924be77",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/synthetic-recorder-ties.json": "bad99820b3bb152a1e17794d2450c268006cea3b67b98a2494c57da5928344b7",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/synthetic-recorder.stdout.jsonl": "6d8c42d15ad599f99ad2d5ba83f8a2236e7490e3ded60ee391db77638cec38bd",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/zero-control": "e005208d2ac2ed94c72c1a87e7c11097aa6238ced0a60efb9db1cb0a516cbfb2",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/zero-control-output-ties.json": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/zero.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/weak-pair-two-swap-scan-v2-20261004/zero.stdout.jsonl": "6eacfa803a6d97a5f7e115b1ffbc9e4bb6844959d350fd78fb8177c8da950371",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "uv.lock": "7c16c4cf38ece8bf42885d1bab9698ced20c0411036f43b2f21f1e8cb2c5e180"
+  },
+  "optimizer_calls": 0,
+  "pairwise_replacement_distances": [
+    {
+      "left": "tie-1",
+      "replacement_distance": 1,
+      "right": "tie-2"
+    },
+    {
+      "left": "tie-1",
+      "replacement_distance": 3,
+      "right": "tie-3"
+    },
+    {
+      "left": "tie-1",
+      "replacement_distance": 2,
+      "right": "tie-4"
+    },
+    {
+      "left": "tie-1",
+      "replacement_distance": 4,
+      "right": "tie-5"
+    },
+    {
+      "left": "tie-1",
+      "replacement_distance": 4,
+      "right": "tie-6"
+    },
+    {
+      "left": "tie-2",
+      "replacement_distance": 3,
+      "right": "tie-3"
+    },
+    {
+      "left": "tie-2",
+      "replacement_distance": 2,
+      "right": "tie-4"
+    },
+    {
+      "left": "tie-2",
+      "replacement_distance": 4,
+      "right": "tie-5"
+    },
+    {
+      "left": "tie-2",
+      "replacement_distance": 4,
+      "right": "tie-6"
+    },
+    {
+      "left": "tie-3",
+      "replacement_distance": 3,
+      "right": "tie-4"
+    },
+    {
+      "left": "tie-3",
+      "replacement_distance": 3,
+      "right": "tie-5"
+    },
+    {
+      "left": "tie-3",
+      "replacement_distance": 4,
+      "right": "tie-6"
+    },
+    {
+      "left": "tie-4",
+      "replacement_distance": 2,
+      "right": "tie-5"
+    },
+    {
+      "left": "tie-4",
+      "replacement_distance": 4,
+      "right": "tie-6"
+    },
+    {
+      "left": "tie-5",
+      "replacement_distance": 4,
+      "right": "tie-6"
+    }
+  ],
+  "passed": true,
+  "producer_final": {
+    "accounted": 18668272896,
+    "best_rank": [
+      12,
+      28
+    ],
+    "best_ties": 6,
+    "complete": true,
+    "eligible_generated": 1109680,
+    "evaluated": 1109680,
+    "event": "final",
+    "last_evaluated_ordinal": 18631191169,
+    "legal": 413275,
+    "outer_completed": 8676864,
+    "outer_started": 8676864,
+    "outer_total": 8676864,
+    "pair_floor_pruned": 18667163216,
+    "pending_eligible": 0,
+    "reason": "complete",
+    "seconds": 4.21857,
+    "strict_improvement_records": 1,
+    "strictly_improving_neighbors": 6,
+    "support_bins": [
+      3130966,
+      5253780,
+      174,
+      0,
+      1540,
+      9099,
+      19731,
+      261574
+    ],
+    "support_shell_bins": [
+      6734779457,
+      11308008406,
+      355565,
+      0,
+      3086978,
+      20070740,
+      41677165,
+      560294585
+    ],
+    "total": 18668272896
+  },
+  "producer_result_sha256": "d766613497903306106f45807b8ec7ccd8ead762f49f976acc17c0035f1a640e",
+  "profiles": {
+    "d29": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 29,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 29,
+          "violated_pairs": 29,
+          "violated_rows": 29
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1142,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 84,
+        "6": 32,
+        "7": 4
+      },
+      "path": "experiments/2026-10-04/weak-pair-swap-scan/best-representative.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      "point_histogram": {
+        "19": 5,
+        "20": 6,
+        "21": 5
+      },
+      "relabel_screen_sha256": "cddb4eb10f1d6fa7dd177cacf5c906e9b18f3d65b81ffb8b31a17a4fbd5e4063",
+      "sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          5,
+          8,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/d29-package.json",
+          "sha256": "e8049c224dc82fd5d87f32d2eab666047874bc32033fc173e18c96f7a8c7ad69"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/d29-standalone.json",
+          "sha256": "cc79b42bc128db1cd94d652d1055889029f4d3aa13cef18e8ff8263d3dd8863f"
+        }
+      ]
+    },
+    "d31": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 31,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 31,
+          "violated_pairs": 31,
+          "violated_rows": 31
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        881,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3759,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4201,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 82,
+        "6": 36,
+        "7": 2
+      },
+      "path": "experiments/2026-10-04/soft-pair-hole-priority-relabel-novelty/final-family.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          19
+        ],
+        [
+          16,
+          20
+        ]
+      ],
+      "point_histogram": {
+        "19": 5,
+        "20": 6,
+        "21": 5
+      },
+      "relabel_screen_sha256": "1a1c89f6fb70d04cf18c772b5a1232376dd7d54aaf4fc4cfecb58dc551f21949",
+      "sha256": "a00c567a97a00429063ec599728e8b16fe3ed2c230c9eaffdf99939d7632563c",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          6,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/d31-package.json",
+          "sha256": "fc06c7f6cc15662d2cc7edae5bc3a8827988fd6edca5acffddb41ebb89350dae"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/d31-standalone.json",
+          "sha256": "3b263955a68e357bdf5fdc298dd7a0e59740d2da80004af61b90521967acc7e5"
+        }
+      ]
+    },
+    "d32": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 32,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 32,
+          "violated_pairs": 32,
+          "violated_rows": 32
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        881,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 85,
+        "6": 30,
+        "7": 5
+      },
+      "path": "experiments/2026-10-04/soft-pair-h12-relabel-novelty/final-family.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          21
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          19
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      "point_histogram": {
+        "19": 6,
+        "20": 4,
+        "21": 6
+      },
+      "relabel_screen_sha256": "bbb235fbb2a7263c26e2292c6a8928d5d99b989f31aa0a3ac3d6d44413f10847",
+      "sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          6,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/d32-package.json",
+          "sha256": "8a5f4ee5a67b372df0dff71df9cedf235ab077efec0b35436ae688575e410582"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/d32-standalone.json",
+          "sha256": "a41b664463645bbd6f4793e6dd6c23a2ad60189c169e8f99d27d86615a728b53"
+        }
+      ]
+    },
+    "tie-1": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 28,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 28,
+          "violated_pairs": 28,
+          "violated_rows": 28
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1154,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 84,
+        "6": 32,
+        "7": 4
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-1.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          20
+        ]
+      ],
+      "point_histogram": {
+        "19": 5,
+        "20": 6,
+        "21": 5
+      },
+      "relabel_screen_sha256": "878a07eb0c52b28b11a70adefe952493d52fa3bde45999105afca11e0e56a1f0",
+      "sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-1-package.json",
+          "sha256": "f4bd3794bd42d8c7904f730ebf751282c1af988e9938cb840418fb81ba09dcbc"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-1-standalone.json",
+          "sha256": "b66c42bb7489842df5923c640f6628707810bf32e1b14bfe9ee27c6c29948d73"
+        }
+      ]
+    },
+    "tie-2": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 28,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 28,
+          "violated_pairs": 28,
+          "violated_rows": 28
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1174,
+        1230,
+        1247,
+        1347,
+        1359,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 84,
+        "6": 32,
+        "7": 4
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-2.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          20
+        ]
+      ],
+      "point_histogram": {
+        "19": 5,
+        "20": 6,
+        "21": 5
+      },
+      "relabel_screen_sha256": "e9c2829d8092f6b0dd8ee03c3ed6104db17864e861ba53e6ab57edfe0f07b0b1",
+      "sha256": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          6,
+          11
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          6,
+          14,
+          15
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-2-package.json",
+          "sha256": "231578dfb0e68b42588df8c8900ab4c2b5df3dd4d38c8cdcd8ce614434ebd761"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-2-standalone.json",
+          "sha256": "751599bfaf35a4b74e86a06bcfed3593578b708cbf21c4b4d615e50c80b0d4bf"
+        }
+      ]
+    },
+    "tie-3": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 28,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 28,
+          "violated_pairs": 28,
+          "violated_rows": 28
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        0,
+        1,
+        3
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1142,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2042,
+        2057,
+        2140,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3697,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 85,
+        "6": 30,
+        "7": 5
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-3.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          19
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      "point_histogram": {
+        "19": 6,
+        "20": 4,
+        "21": 6
+      },
+      "relabel_screen_sha256": "c3b57617934fd3d43d6b80e67be65a2a68554f4b286ffcdbe7e3e45e26d3050c",
+      "sha256": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          8,
+          9,
+          15
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-3-package.json",
+          "sha256": "b733010b819e18c6ae0862edc244befd6b56c1937e60121ab92b72e8638242a7"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-3-standalone.json",
+          "sha256": "aebfee3019cded25288536cb8d3387374a34b7bb8ca87f93b42ee23f9c61ef20"
+        }
+      ]
+    },
+    "tie-4": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 28,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 28,
+          "violated_pairs": 28,
+          "violated_rows": 28
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1142,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1493,
+        1511,
+        1659,
+        1789,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3578,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 83,
+        "6": 34,
+        "7": 3
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-4.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      "point_histogram": {
+        "19": 5,
+        "20": 6,
+        "21": 5
+      },
+      "relabel_screen_sha256": "ba1f072abee0dff157f841f5747f42df493c9366fa055adc9d2a6fa386e030ce",
+      "sha256": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          6,
+          8
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-4-package.json",
+          "sha256": "a1a59f4984b3ba902b981ab06305bd02bbdaa60fd5e630803e38fae63ab8e7b0"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-4-standalone.json",
+          "sha256": "7eed5b469780469cab816a599d33ebdbb77a57f575eb9b859579e0b86f292455"
+        }
+      ]
+    },
+    "tie-5": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 28,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 28,
+          "violated_pairs": 28,
+          "violated_rows": 28
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        0,
+        1,
+        1
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1142,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1493,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3752,
+        3870,
+        3936,
+        4040,
+        4063,
+        4125,
+        4158,
+        4202,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 84,
+        "6": 32,
+        "7": 4
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-5.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          20
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          21
+        ],
+        [
+          12,
+          21
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          15,
+          21
+        ],
+        [
+          16,
+          19
+        ]
+      ],
+      "point_histogram": {
+        "19": 5,
+        "20": 6,
+        "21": 5
+      },
+      "relabel_screen_sha256": "7406e4cc3f353b9ef5152ed671ec225f2b4259106a7e4ea4c45da16800a42936",
+      "sha256": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          5,
+          8,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-5-package.json",
+          "sha256": "983d2f654a7a5ff3d906aec478667d140da6d52a49934b576363a42af470307e"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-5-standalone.json",
+          "sha256": "aad59700bc61ba67545d334fa5107d2db7517705aa904693012f4c66560254d4"
+        }
+      ]
+    },
+    "tie-6": {
+      "cardinality": 64,
+      "deficits": {
+        "quad": {
+          "full_row_sum": 0,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "single": {
+          "full_row_sum": 0,
+          "rows": 1680,
+          "sum_of_per_pair_maxima": 0,
+          "violated_pairs": 0,
+          "violated_rows": 0
+        },
+        "two_triple": {
+          "full_row_sum": 28,
+          "rows": 10920,
+          "sum_of_per_pair_maxima": 28,
+          "violated_pairs": 28,
+          "violated_rows": 28
+        }
+      },
+      "four_named_core_overlaps": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "holes": 12,
+      "ids": [
+        46,
+        123,
+        155,
+        222,
+        357,
+        407,
+        437,
+        545,
+        633,
+        676,
+        713,
+        740,
+        980,
+        1020,
+        1082,
+        1142,
+        1174,
+        1230,
+        1247,
+        1347,
+        1391,
+        1429,
+        1459,
+        1511,
+        1659,
+        1789,
+        1871,
+        1962,
+        2028,
+        2057,
+        2140,
+        2161,
+        2218,
+        2285,
+        2306,
+        2402,
+        2432,
+        2660,
+        2687,
+        2764,
+        2869,
+        2875,
+        2960,
+        3036,
+        3053,
+        3135,
+        3227,
+        3313,
+        3374,
+        3437,
+        3502,
+        3527,
+        3556,
+        3606,
+        3615,
+        3665,
+        3759,
+        3870,
+        3936,
+        4040,
+        4063,
+        4158,
+        4201,
+        4277
+      ],
+      "minimum_pair_count": 5,
+      "pair_histogram": {
+        "5": 81,
+        "6": 38,
+        "7": 1
+      },
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-6.txt",
+      "point_counts": [
+        [
+          1,
+          20
+        ],
+        [
+          2,
+          20
+        ],
+        [
+          3,
+          19
+        ],
+        [
+          4,
+          19
+        ],
+        [
+          5,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          7,
+          21
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          9,
+          21
+        ],
+        [
+          10,
+          19
+        ],
+        [
+          11,
+          20
+        ],
+        [
+          12,
+          20
+        ],
+        [
+          13,
+          19
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          16,
+          20
+        ]
+      ],
+      "point_histogram": {
+        "19": 4,
+        "20": 8,
+        "21": 4
+      },
+      "relabel_screen_sha256": "647da33c22d5da717ff933f6d44b64502464481f49a7e9f6fe26e7c339f0d35a",
+      "sha256": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+      "uncovered_triples": [
+        [
+          1,
+          4,
+          14
+        ],
+        [
+          1,
+          9,
+          13
+        ],
+        [
+          1,
+          15,
+          16
+        ],
+        [
+          2,
+          3,
+          15
+        ],
+        [
+          2,
+          9,
+          14
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          3,
+          11,
+          13
+        ],
+        [
+          5,
+          6,
+          12
+        ],
+        [
+          5,
+          8,
+          11
+        ],
+        [
+          9,
+          10,
+          11
+        ],
+        [
+          10,
+          12,
+          14
+        ],
+        [
+          11,
+          14,
+          16
+        ]
+      ],
+      "verifiers": [
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-6-package.json",
+          "sha256": "c0a025fcffe5473edd2df228b2f369552ffb949c392466aa9fb37931e32311b0"
+        },
+        {
+          "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-6-standalone.json",
+          "sha256": "f69c4962067b42159ad330855cf2fa23c0e494f2e7c8012c5d593ce30899b360"
+        }
+      ]
+    }
+  },
+  "relabel_screens": {
+    "d29": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "d31": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "d32": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "tie-1": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "tie-2": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "tie-3": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "tie-4": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "tie-5": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    },
+    "tie-6": {
+      "all_relabel_cap55_certified_by_necessary_condition": true,
+      "distinct_explicit_core_images": 242,
+      "explicit_core_violations": [],
+      "explicit_image_scope": "Both named core images and every single point transposition of each",
+      "explicit_map_attempts": 242,
+      "maximum_explicit_overlap": 4,
+      "necessary_enumeration_nodes": 1,
+      "necessary_partition_count": 0,
+      "necessary_partitions": [],
+      "scope": "No necessary partition proves cap55 for every point relabeling. A necessary partition alone is inconclusive. Explicit violations bind a full map."
+    }
+  },
+  "representative_path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/representative.txt",
+  "representative_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+  "saved_ties": [
+    {
+      "name": "tie-1",
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-1.txt",
+      "preservation": "Canonical reconstruction from pinned D29 and recorded swap; byte hash matches producer's saved tie hash.",
+      "recorded_swap": {
+        "canonical_sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+        "incoming": [
+          1154,
+          3578
+        ],
+        "metrics": {
+          "D2max": 28,
+          "D2sum": 28,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": [
+          1142,
+          1871
+        ],
+        "package_valid": false,
+        "sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f",
+        "shell_ordinal": 7875299848,
+        "standalone_valid": false
+      },
+      "sha256": "c6d132069270ead505488fa863a12a0f16a82e289c989a1c4d5961b13826e06f"
+    },
+    {
+      "name": "tie-2",
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-2.txt",
+      "preservation": "Canonical reconstruction from pinned D29 and recorded swap; byte hash matches producer's saved tie hash.",
+      "recorded_swap": {
+        "canonical_sha256": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+        "incoming": [
+          1359,
+          3578
+        ],
+        "metrics": {
+          "D2max": 28,
+          "D2sum": 28,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": [
+          1142,
+          1871
+        ],
+        "package_valid": false,
+        "sha256": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74",
+        "shell_ordinal": 7875915712,
+        "standalone_valid": false
+      },
+      "sha256": "78ae13e4345b986a36e9f584cfedd0e19c56b709008a059897aacd357447ac74"
+    },
+    {
+      "name": "tie-3",
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-3.txt",
+      "preservation": "Canonical reconstruction from pinned D29 and recorded swap; byte hash matches producer's saved tie hash.",
+      "recorded_swap": {
+        "canonical_sha256": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+        "incoming": [
+          2042,
+          3697
+        ],
+        "metrics": {
+          "D2max": 28,
+          "D2sum": 28,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            0,
+            1,
+            3
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": [
+          1871,
+          2161
+        ],
+        "package_valid": false,
+        "sha256": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235",
+        "shell_ordinal": 12202132241,
+        "standalone_valid": false
+      },
+      "sha256": "1fc7775c3bc913e8944b72d88d19a7a4afcc862ea6b94810d70fc681cd1bb235"
+    },
+    {
+      "name": "tie-4",
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-4.txt",
+      "preservation": "Canonical reconstruction from pinned D29 and recorded swap; byte hash matches producer's saved tie hash.",
+      "recorded_swap": {
+        "canonical_sha256": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+        "incoming": [
+          1493,
+          3578
+        ],
+        "metrics": {
+          "D2max": 28,
+          "D2sum": 28,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": [
+          1871,
+          2764
+        ],
+        "package_valid": false,
+        "sha256": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9",
+        "shell_ordinal": 12274821950,
+        "standalone_valid": false
+      },
+      "sha256": "40e9c134a9ea2fcbca08d607ff311fa86fefd6792b3f45ee6eea9f930acf72e9"
+    },
+    {
+      "name": "tie-5",
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-5.txt",
+      "preservation": "Canonical reconstruction from pinned D29 and recorded swap; byte hash matches producer's saved tie hash.",
+      "recorded_swap": {
+        "canonical_sha256": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+        "incoming": [
+          1493,
+          4125
+        ],
+        "metrics": {
+          "D2max": 28,
+          "D2sum": 28,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            0,
+            1,
+            1
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": [
+          2161,
+          2764
+        ],
+        "package_valid": false,
+        "sha256": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59",
+        "shell_ordinal": 13849032009,
+        "standalone_valid": false
+      },
+      "sha256": "3d81cc9436a345982a0611d3750e3296610c4fc2101b7eaa942e8d122383fd59"
+    },
+    {
+      "name": "tie-6",
+      "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/tie-6.txt",
+      "preservation": "Canonical reconstruction from pinned D29 and recorded swap; byte hash matches producer's saved tie hash.",
+      "recorded_swap": {
+        "canonical_sha256": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+        "incoming": [
+          3759,
+          4201
+        ],
+        "metrics": {
+          "D2max": 28,
+          "D2sum": 28,
+          "D3": 0,
+          "D4": 0,
+          "cardinality": 64,
+          "core_overlaps": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "holes": 12,
+          "minimum_pair_count": 5
+        },
+        "outgoing": [
+          3752,
+          4202
+        ],
+        "package_valid": false,
+        "sha256": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b",
+        "shell_ordinal": 18464371200,
+        "standalone_valid": false
+      },
+      "sha256": "8309fef9444cfab55f225afd3d06425d76388be477337026062ece792716bf0b"
+    }
+  ],
+  "scope": "Six saved D28/H12 two-swap ties and three prior families, each still a noncover. No optimizer or neighborhood enumeration is replayed. All-relabel certificates apply only to each exact 64-block family. No hard-zero qualification, center change for the frozen radius-four run, or global lower-bound claim.",
+  "summary_of": {
+    "path": "experiments/2026-10-04/weak-pair-d28-relabel-novelty/audit.json",
+    "sha256": "ad20c60f68ef9fb9b25dd4ab25b984124d9fb89103589610ed86d145d486f198",
+    "backup_path": "experiments/scratch/d28-relabel-checkpoint-20261004/full-audit.json",
+    "omitted": "Detailed per-pair arrays only; exact full audit bytes preserved outside Git."
+  }
+}

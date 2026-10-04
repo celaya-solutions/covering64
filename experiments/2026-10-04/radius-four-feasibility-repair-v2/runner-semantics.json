@@ -1,0 +1,14 @@
+{
+  "conditional_route": "Root launches only after two-swap terminal with no <=11 candidate.",
+  "cp_sat_seconds": 300,
+  "hint_entries": 0,
+  "objective": null,
+  "optimizer_calls": 1,
+  "records": "Save every callback and final full vector, witness, fresh metrics including D3/D4, exact row checks, and both verifier receipts; no objective score.",
+  "scope": "Radius <=4 around the frozen D29 representative, inherited soft rows and four named core caps, <=11 holes. No explicit hard quadruple rows. Partial success is not a cover; timeout/UNKNOWN is inconclusive; no global inference.",
+  "seed": 2026105201,
+  "stop_policy": "CP-SAT feasibility may finish on the first <=11-hole partial. Callback explicitly stops only on a dual-verified actual cover. No relaunch or budget transfer, even if a partial is found early.",
+  "termination_grace_seconds": 5,
+  "watchdog_seconds": 330,
+  "workers": 4
+}

@@ -1,0 +1,23 @@
+{
+  "check_type": "AST assertions and direct source review; not a solver execution",
+  "checker_sha256": "2629a58471611673772ee99ccc85914bf2d3fb8cfd9828ef5c549b9b873f7756",
+  "checks": {
+    "actual_recount_and_dual_verifier_before_cover_classification": true,
+    "all_5728_callback_and_final_values_saved": true,
+    "local_scope_and_no_global_proof_claim": true,
+    "malformed_terminal_file_recovery_present": true,
+    "partial_and_cover_flags_separate": true,
+    "raw_and_canonical_vector_checks_preserved": true,
+    "response_proto_and_stats_saved_on_normal_return": true,
+    "single_child_launch_outside_loops": true,
+    "single_solve_call_outside_loops": true,
+    "sole_explicit_stop_guarded_by_actual_cover": true,
+    "watchdog_330_grace_5_no_retry": true
+  },
+  "optimizer_calls": 0,
+  "passed": true,
+  "resolved_issue": "V1 could fail to write a terminal result after a watchdog interrupted child-result.json; v2 catches unreadable/malformed child terminal files and recovers complete receipts before reporting WATCHDOG_TIMEOUT or ERROR.",
+  "runner_path": "experiments/2026-10-04/radius-four-feasibility-repair-v2/execute.py",
+  "runner_sha256": "e6afbf195ff9a2f3f1ff2dcfd1f98f4dcb2c8ba07742c3a2df2840462e28b21b",
+  "scope_limit": "Runner only; model/parameter proof and post-run vector audit belong to root."
+}

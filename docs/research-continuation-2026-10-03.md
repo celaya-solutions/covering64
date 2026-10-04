@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.27.0
+Version:     v1.28.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      0f3250ef64dc120906598a3b0842ae40803059a47772b2884f22843d97fee809
+SHA256:      beed0259818bcd313c74802ad360609f35ef075d703a3b1ec44e4a0d04ab67b9
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1016,3 +1016,19 @@ The next preparation uses this idea for a complete two-block replacement neighbo
 The H12/D31 family shares62 blocks with the D32 input and preserves the exact same hole set. Its necessary-partition screen is empty, proving every relabeled old-core overlap is at most55. Independent screening also qualifies all four H12/D29 best ties; each has zero necessary partitions, pair minimum5, zero single/quad deficit and named overlaps[1,1,1,2]. All four ties are one replacement apart. Their receipts are in `soft-pair-hole-priority-relabel-novelty/` and `weak-pair-d29-relabel-screen/`. These partials are not complete covers.
 
 Fresh frozen dependency sync checked17 packages. All369 package tests passed in258.70 seconds with the three existing SWIG warnings, and Ruff passed. The test transcript and receipt are in `hole-priority-checkpoint-validation/`; experiments have their own separate controls and runtime audits.
+
+
+## Complete two-block neighborhood and a radius-four pilot (October 4)
+
+The new pair-deficit support rule is necessary and sufficient for repairing the pair floor after two removals and one addition: a remaining deficit above1 is impossible to repair with one block, and otherwise the second new block must contain every endpoint of the remaining deficient pairs. Sorted removal and addition pairs give unique exact-distance-two neighbors. Independent controls checked all6885 support masks and139776 superset incidences,31 partial states,60 full states,230000 direct counter comparisons,130769 completion checks,29 invalid operations and92 dual-verified control families. The v2 recorder additionally rejects inconsistent support-bin and interruption accounting. Original frozen v1 source is preserved and was never launched.
+
+The sole v2 pass from the pinned H12/D29 representative completed in4.21857 native seconds. It accounts for all18,668,272,896 exact-two-swap neighbors:18,667,163,216 fail the proved pair-floor reduction and1,109,680 receive full metric evaluation. Of those,413275 satisfy all declared weaker pair/core rules. Six neighbors improve the rank, all toH12/D28; one strict record and all six best ties were saved. No hole count improved and no cover was found. Independent runtime reconstruction checks each of the six distinct families with direct counts and both covering verifiers, with no exchange or hash aliases. It verifies the frozen source/loop/accounting evidence without repeating the entire enumeration. The result is only about this exact-distance-two neighborhood. The receipt in `weak-pair-two-swap-scan-v2-runtime-independent/postcheck.json` has SHA256 `c2922a53aae7a51154b2006f457d88df886ab115fa6b88993920d04c62eb8d41`.
+
+A separate local CP feasibility model keeps all4368 block variables and every original soft-model domain/row, clears all objective and hint fields, and appends only overlap with the frozen D29 representative at least60 and exact holes at most11. Equal cardinality makes the overlap row equivalent to at most4 block replacements. The three other D29 ties lie one replacement away, so each radius3 neighborhood lies within this radius4 neighborhood; no path-legality assumption is made. The inherited model has no explicit hard quadruple rows, so its candidate metrics must keep actual D4 separate from the native scan's stricter legal filter.
+
+Root's independent model gate compared the full unchanged5728-variable/14405-row prefix and checked both new rows, canonical center vector, absence of objective/hint fields, parameter-only seed change and frozen source/input hashes. Native OR-Tools optional-field getters can create empty messages; the audit and revised runner use field-presence checks to avoid changing the proto. Independent runner review found an interrupted JSON-write recovery bug in the unlaunched v1 preparation. V2 preserves the exact same model/parameters, fixes terminal-record recovery, and passes seven producer and six additional independent fake-process cases. Those recording-path fixtures are synthetic, not mathematical witnesses.
+
+The sole v2 radius-four call (seed2026105201,300 seconds,four workers) returned UNKNOWN without a callback or feasible partial. Its producer result SHA256 is `e99bc1784200f8691f268435f9e7b64515cbd38ca0e2fd04854395bc69eecc59`; independent runtime postcheck passed with SHA256 `cbb8fc3d601ed2addb0ed2bf1a5009096866310d61680bc364a20cfb6f5d366e`. It confirms300.009194 native seconds, zero callbacks/vectors/families, empty solution and other repeated response fields, one native solve, unchanged hashes and no watchdog firing. This timeout does not exclude the radius-four neighborhood or imply a global lower bound. The next preparation is a separate bounded descent campaign using the unchanged one- and two-swap kernels, with explicit complete-pass and strict-improvement rules. No64-block cover has been found.
+
+
+The sixH12/D28 ties were independently preserved, profiled and screened against every relabeling of the old core through the necessary-partition criterion. All six have zero necessary partitions and therefore overlap at most55 with every relabeled old core. Their pair-count histograms distinguish at least four isomorphism classes. Five change the actual hole set; the sixth keeps the D29 hole set and is one swap from the saved D31 family. The representative is four swaps from D31. These are different partial families with the same12 uncovered triples in count, not new covers. Sources and all six witnesses are in `weak-pair-d28-relabel-novelty/`, manifest SHA256 `d691cb2a5405e2fb8796455a6cf4d336e70aca000f362b536181c57ab1603f36`.

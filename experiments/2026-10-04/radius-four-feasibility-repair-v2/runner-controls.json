@@ -1,0 +1,125 @@
+{
+  "cases": [
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "ordinary-unknown",
+      "passed": true,
+      "recovered_records": 0,
+      "status": "UNKNOWN",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": false
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "feasible-partial-is-not-cover",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "OPTIMAL",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": true
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "actual-cover-flag",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "OPTIMAL",
+      "synthetic_cover_flag": true,
+      "synthetic_partial_flag": false
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": true,
+      "name": "malformed-terminal-recovers-partial",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "ERROR",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": true
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 1,
+        "wait": 2
+      },
+      "child_terminal_error_recorded": true,
+      "name": "terminate-during-terminal-write",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "WATCHDOG_TIMEOUT",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": true
+    },
+    {
+      "calls": {
+        "kill": 1,
+        "launch": 1,
+        "terminate": 1,
+        "wait": 3
+      },
+      "child_terminal_error_recorded": true,
+      "name": "kill-during-terminal-write",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "WATCHDOG_TIMEOUT",
+      "synthetic_cover_flag": true,
+      "synthetic_partial_flag": false
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 1,
+        "wait": 2
+      },
+      "child_terminal_error_recorded": false,
+      "name": "timeout-without-child-result",
+      "passed": true,
+      "recovered_records": 0,
+      "status": "WATCHDOG_TIMEOUT",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": false
+    }
+  ],
+  "checker_sha256": "03de975cf2427a9295c9cc9446cbfdec4e1933dede0a0e7a082df9b78d60d0e5",
+  "optimizer_calls": 0,
+  "passed": true,
+  "readonly_vector_validation": {
+    "baseline_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "hint_created": false,
+    "model_sha256": "b4d49337d5dc3fd330c84145817b1b00f52877924aabf6614ce4b573ddea4900",
+    "objective_created": false,
+    "passed": true,
+    "proto_bytes_unchanged": true,
+    "rows_checked": 14405,
+    "variables_checked": 5728
+  },
+  "real_child_launches": 0,
+  "runner_sha256": "e6afbf195ff9a2f3f1ff2dcfd1f98f4dcb2c8ba07742c3a2df2840462e28b21b",
+  "scope": "Synthetic recording-path controls only; no candidate, real process, solver, cover, or mathematical feasibility result is produced."
+}

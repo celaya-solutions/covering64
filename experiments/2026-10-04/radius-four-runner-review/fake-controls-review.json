@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "infeasible-is-status-only",
+      "passed": true,
+      "recovered_records": 0,
+      "status": "INFEASIBLE",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": false
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "model-invalid-is-status-only",
+      "passed": true,
+      "recovered_records": 0,
+      "status": "MODEL_INVALID",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": false
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "feasible-partial",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "FEASIBLE",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": true
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "nonzero-child-exit-overrides-status",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "ERROR",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": true
+    },
+    {
+      "calls": {
+        "kill": 1,
+        "launch": 1,
+        "terminate": 1,
+        "wait": 3
+      },
+      "child_terminal_error_recorded": true,
+      "name": "recover-mixed-complete-receipts",
+      "passed": true,
+      "recovered_records": 2,
+      "status": "WATCHDOG_TIMEOUT",
+      "synthetic_cover_flag": true,
+      "synthetic_partial_flag": true
+    },
+    {
+      "calls": {
+        "kill": 0,
+        "launch": 1,
+        "terminate": 0,
+        "wait": 1
+      },
+      "child_terminal_error_recorded": false,
+      "name": "missing-child-recovers-partial",
+      "passed": true,
+      "recovered_records": 1,
+      "status": "ERROR",
+      "synthetic_cover_flag": false,
+      "synthetic_partial_flag": true
+    }
+  ],
+  "native_solve_guard_calls": 0,
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_controls_source_sha256": "03de975cf2427a9295c9cc9446cbfdec4e1933dede0a0e7a082df9b78d60d0e5",
+  "readonly_validation": {
+    "baseline_sha256": "44e0ee69fb32f37eed00955e25c699a72430d85871ca03a348c0bf572edb7a0a",
+    "hint_created": false,
+    "model_sha256": "b4d49337d5dc3fd330c84145817b1b00f52877924aabf6614ce4b573ddea4900",
+    "objective_created": false,
+    "passed": true,
+    "proto_bytes_unchanged": true,
+    "rows_checked": 14405,
+    "variables_checked": 5728
+  },
+  "real_process_launches": 0,
+  "review_checker_sha256": "bd8692e4dea890c82961ad5e5d22ae474da2ecf73e00bdfe42aafb56563a2496",
+  "runner_sha256": "e6afbf195ff9a2f3f1ff2dcfd1f98f4dcb2c8ba07742c3a2df2840462e28b21b",
+  "scope": "Additional cases use the source-reviewed producer fake-process harness. They exercise reporting only and do not construct actual candidate families or covers."
+}

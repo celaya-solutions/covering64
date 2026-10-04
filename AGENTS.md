@@ -66,8 +66,8 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit 988d4a7 saves longer native starts and the soft H12 improvement. New independently checked work: hole-priority CP retained12 holes with deficit31; a complete275456 one-swap scan from H12/D32 reachedH12/D29 with four best ties and no hole improvement. H9/H10 fail pair floors; H12 qualifies under weaker pair rules but remains incomplete. No64 cover. See the continued research report for scope and receipts.
-Next: a separately gated complete two-swap scan from the D29 representative. Core caps classify exact64 records only. Preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. Historical transport v1 keeps one local E501 exception. Convert OR-Tools repeated containers to lists before negative-index reads; native domain[-1] may return0 even for[0,128].
+Commit ae75e5a saves the checked hole-priority and one-swap results. New complete two-swap scan safely accounts for18,668,272,896 neighbors and reachesH12/D28 with six ties, no hole improvement. All six pass the universal old-core screen; at least four are inequivalent. The local radius4 CP call returnedUNKNOWN after300 seconds with no candidate. No64 cover. See the continued report and independent receipts.
+Next: up to four deterministic descent rounds using the unchanged one-/two-swap kernels. Core caps classify exact64 records only. Preserve ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. Historical transport v1 keeps one E501 exception. OR-Tools: convert repeated containers to lists before negative reads; use has_solution_hint()/has_objective() before optional-message inspection, which otherwise mutates proto bytes.
 
 ## Independent construction checkpoint 2026-10-03
 

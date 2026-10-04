@@ -1,0 +1,40 @@
+{
+  "all_available_vectors_domains_rows_and_metrics_recounted": true,
+  "callbacks": 0,
+  "checker_sha256": "0183b10ab07f6c7766f23b453dad1a4db65f3dd5591daf01cabc9480787b7a67",
+  "configured_budget_seconds": 300,
+  "configured_seed": 2026105201,
+  "configured_workers": 4,
+  "cover_found": false,
+  "dual_verifier_calls": 0,
+  "feasible_partial_found": false,
+  "first_actual_cover_callback": null,
+  "gate_sha256": "3150b8caae0c68e7ca47d18b3c5642494ebf31d31e11bec6ee721995a7a3df6e",
+  "manifest_sha256": "dd8ade21144046f04b2a9e03737e6a93382a95681e4f17c652c0aa4780be772c",
+  "native_repeated_field_lengths": {
+    "additional_solutions": 0,
+    "solution": 0,
+    "sufficient_assumptions_for_infeasibility": 0,
+    "tightened_variables": 0
+  },
+  "native_status": "UNKNOWN",
+  "no_objective_or_hint": true,
+  "optimizer_calls_by_audit": 0,
+  "passed": true,
+  "reference_checker_sha256": "58d71a04451553ec33ee2fe252278b31ce04dfeb8cab77cb7fa814ade671641e",
+  "result_sha256": "e99bc1784200f8691f268435f9e7b64515cbd38ca0e2fd04854395bc69eecc59",
+  "saved_states": [],
+  "saved_vectors": 0,
+  "scope": "Only saved states from the bounded radius-four feasibility model. No solver called by audit. UNKNOWN/timeouts are inconclusive; no global theorem follows.",
+  "solver_wall_seconds": 300.00919400000004,
+  "status": "UNKNOWN",
+  "unique_families": 0,
+  "watchdog": {
+    "deadline_seconds": 330,
+    "fired": false,
+    "grace_seconds": 5,
+    "kill_sent": false,
+    "relaunch": false,
+    "terminate_sent": false
+  }
+}
