@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "model_reconstructions": 22,
+  "invalid_deletion_sets_rejected": 5,
+  "seed": 2026104251,
+  "positive_control_blocks": 68,
+  "control_verifiers": [
+    {
+      "checker": "package",
+      "returncode": 0,
+      "stdout_sha256": "bf956812da4390864513173d60d61aeb616abb725000cc457ad7a315c8b275c4"
+    },
+    {
+      "checker": "standalone",
+      "returncode": 0,
+      "stdout_sha256": "a7e1cbd24b35ebbf8fd35b005d2b1567925f3237499b471f1fcd3282320209b3"
+    }
+  ],
+  "builder_sha256": "9aaf86673b4d8eb3aa8e91fde1d7f5e84acc409454314e2f063ffea47542e8a4",
+  "checker_sha256": "61a27a9cc07241ea171a9d98d869526d9dddb69dfed307c1e409dd6d38c0ca49",
+  "scope": "Model preparation and known 68-block positive control; target64 is unsolved"
+}

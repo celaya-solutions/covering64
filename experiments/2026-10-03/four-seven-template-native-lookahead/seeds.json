@@ -1,0 +1,53 @@
+{
+  "cases": [
+    {
+      "name": "matching",
+      "catalog_path": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "source_catalog_path": "experiments/scratch/four-seven-template-hull-refresh-108-20261003/matching/group-catalogs.json.gz",
+      "source_catalog_sha256": "84775683be806305fa6502e114b139c2b73eff31e9a2a3d798276176768744aa",
+      "templates_per_group": 12042,
+      "seed": 2026103981,
+      "seconds": 300,
+      "workers": 1,
+      "seed_path": "experiments/2026-10-03/four-seven-template-native-lookahead/matching-seed.txt",
+      "seed_sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+      "initial_holes": 17,
+      "template_ids_1based": [
+        5062,
+        6847,
+        4154,
+        1831
+      ],
+      "parent_best_path": "experiments/2026-10-03/four-seven-template-native-soft/matching-raw-best.txt",
+      "parent_audit_sha256": "22f8c77a52df7cc32874da938c130afa4fbd38cbe71697625abdee9e33e4b679",
+      "initial_base_score": 116,
+      "role": "performance_smoke_only"
+    },
+    {
+      "name": "cycle",
+      "catalog_path": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "source_catalog_path": "experiments/scratch/four-seven-template-hull-refresh-108-20261003/cycle/group-catalogs.json.gz",
+      "source_catalog_sha256": "fd41d8be92b70c1aecaca1bf3ea99d1beff32528a949ef91bfa9d4d5705a3d35",
+      "templates_per_group": 25020,
+      "seed": 2026103982,
+      "seconds": 300,
+      "workers": 1,
+      "seed_path": "experiments/2026-10-03/four-seven-template-native-lookahead/cycle-seed.txt",
+      "seed_sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+      "initial_holes": 12,
+      "template_ids_1based": [
+        20588,
+        13504,
+        5835,
+        20047
+      ],
+      "parent_best_path": "experiments/2026-10-03/four-seven-template-native-soft/cycle-raw-best.txt",
+      "parent_audit_sha256": "22f8c77a52df7cc32874da938c130afa4fbd38cbe71697625abdee9e33e4b679",
+      "initial_base_score": 92,
+      "role": "single_authorized_pilot_after_gate"
+    }
+  ],
+  "scope": "Unchanged catalogs and independently checked v1.1 raw bests; only cycle is eligible for the new300s pilot."
+}

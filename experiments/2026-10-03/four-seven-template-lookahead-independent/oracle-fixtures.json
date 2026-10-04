@@ -1,0 +1,584 @@
+{
+  "seed": 2026104201,
+  "generator_sha256": "c50b51c00f5ca036525bdf297288d09f710362b6c51eec0f97aea504752ff336",
+  "oracle_sha256": "c6e14bd206c1354eb05ac700344651d0e90ebe1726e3ee9728e5f7e8adb2636f",
+  "fresh_tuples": [
+    {
+      "case": "matching",
+      "trial": 0,
+      "template_ids_1based": [
+        8494,
+        6615,
+        4573,
+        6611
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-00.txt",
+      "state_sha256": "622153a93c141908bf02a50a1bd47cf5ea1a90a2976e6bd588245a0b3536c25c",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-00.expected.json.gz",
+      "expected_sha256": "1a5bde2212870b7ce4d81fa91eb49cb8e68808b9d6fe7f2161b696b4b5c73ebf",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 322
+    },
+    {
+      "case": "matching",
+      "trial": 1,
+      "template_ids_1based": [
+        1839,
+        3546,
+        3603,
+        358
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-01.txt",
+      "state_sha256": "b05894e030963a3e039c6d3eb967934035408cf49b7a7e73e17b826a66e36032",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-01.expected.json.gz",
+      "expected_sha256": "d817d1e504bcae99a89803f09670b8b9bae949432e81c3c5e237da5e9b7a6a5d",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 322
+    },
+    {
+      "case": "matching",
+      "trial": 2,
+      "template_ids_1based": [
+        7372,
+        4574,
+        5991,
+        2876
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-02.txt",
+      "state_sha256": "2fd6c4c710f1307f33ea5930290957372df64182d11bc6831830b026adebca1c",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-02.expected.json.gz",
+      "expected_sha256": "cba8372992cc6231bbd0dad9eb4ecbd4361c84b5faafa5f5c468566c9c1baea9",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 322
+    },
+    {
+      "case": "matching",
+      "trial": 3,
+      "template_ids_1based": [
+        9323,
+        3511,
+        11648,
+        1328
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-03.txt",
+      "state_sha256": "e828d80054850b7172ef910f43b2cacfac9e12281da97fdfe7081b2eb89af109",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-03.expected.json.gz",
+      "expected_sha256": "197e7ca72ac18e644e7971ede5c3beb5880b3e6208bc7b2ece47dfb48a447820",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 323
+    },
+    {
+      "case": "matching",
+      "trial": 4,
+      "template_ids_1based": [
+        9586,
+        3443,
+        5334,
+        2253
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-04.txt",
+      "state_sha256": "b1ec313bdb3a9a0db0a74ec17bc123d053cdfeb6be0ddd6f80ecee243308f03a",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-04.expected.json.gz",
+      "expected_sha256": "38f8d609dd6d78f37288d6a606a4e456f0774ebddb0656d5b901158e622f3819",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 551,
+      "unsupported_count": 0
+    },
+    {
+      "case": "matching",
+      "trial": 5,
+      "template_ids_1based": [
+        7866,
+        11884,
+        3627,
+        1356
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-05.txt",
+      "state_sha256": "2f7d8ea16de43aed5aac5fa5d8bb4db65c8e7bdd90fb84340c3f6c2cfdd6ad2a",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-05.expected.json.gz",
+      "expected_sha256": "0400d5a298bdb6b58b75f6cd1d573e7d5e70ae2ffbcf2272eb2de11b95ab352b",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 447,
+      "unsupported_count": 1
+    },
+    {
+      "case": "matching",
+      "trial": 6,
+      "template_ids_1based": [
+        4718,
+        1946,
+        10815,
+        817
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-06.txt",
+      "state_sha256": "4a72e29352ea00ea139be05971fd997ce133b7869cc6da3634a2051e01784f79",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-06.expected.json.gz",
+      "expected_sha256": "ad993921b4c6d867f2750100dad72e09fa285626c7b46eb5e63dba80d25bef64",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 515,
+      "unsupported_count": 0
+    },
+    {
+      "case": "matching",
+      "trial": 7,
+      "template_ids_1based": [
+        1649,
+        6634,
+        10114,
+        1159
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-07.txt",
+      "state_sha256": "26329dfce267d92c8fc5f7fa16a73d8ebc16a436de2a4a34c1264d51d2968ab9",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-07.expected.json.gz",
+      "expected_sha256": "9ec15f5dc4487dc0a05c176740f43c4fe1bac3b2525e5aa08d144770b3b86aba",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 604,
+      "unsupported_count": 0
+    },
+    {
+      "case": "matching",
+      "trial": 8,
+      "template_ids_1based": [
+        9802,
+        5117,
+        11502,
+        11682
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-08.txt",
+      "state_sha256": "922d95bfa425c7f53af7b31e7963a8808a664cc142bb4f889da197c8dc3c5513",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-08.expected.json.gz",
+      "expected_sha256": "f8df2d5caf2530384d85e3d0d550a0d5ea69179c516f413d6f4829e5fceb23d7",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 321
+    },
+    {
+      "case": "matching",
+      "trial": 9,
+      "template_ids_1based": [
+        5066,
+        8298,
+        10084,
+        10882
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-09.txt",
+      "state_sha256": "c4d0d026f110feb6c3805e2bcb9604387f07c0bc5eed7e2b8e12599ae6f4b5ff",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-09.expected.json.gz",
+      "expected_sha256": "078108d880b8d3f6d387a94bdd3db2d191caa9a2812926b50d1b3c43c0f200ad",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 323
+    },
+    {
+      "case": "matching",
+      "trial": 10,
+      "template_ids_1based": [
+        4794,
+        2779,
+        6247,
+        11247
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-10.txt",
+      "state_sha256": "a1ab182923aeca1acc6d75e6bcd4d29c759dde1dfb945390293bae85368dc4b6",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-10.expected.json.gz",
+      "expected_sha256": "41b849d4d8204c28fd1371df69664b87f5ed16394261decc3b4b9d8c097cdf64",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 500,
+      "unsupported_count": 0
+    },
+    {
+      "case": "matching",
+      "trial": 11,
+      "template_ids_1based": [
+        5195,
+        4884,
+        6374,
+        11184
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-11.txt",
+      "state_sha256": "40b3d43f19e7e5ed9ba8e554b3d03ed9b6bad8b364fe9a1bc6cec082ef25a39a",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-11.expected.json.gz",
+      "expected_sha256": "7d804ab157f4f21fecd5f5c1f485865a4bc737b14b764ae11305125e683c4106",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 323
+    },
+    {
+      "case": "matching",
+      "trial": 12,
+      "template_ids_1based": [
+        5830,
+        8608,
+        2863,
+        9950
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-12.txt",
+      "state_sha256": "94aba16da2c877ecc4b8f470f2871a3b3f2051c48cd9007979f69236c8ac31ae",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-12.expected.json.gz",
+      "expected_sha256": "744548c2cce457b5c244e5b903bfa8eb6a056d4a2289da47c8ebd1d922fcdd59",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 323
+    },
+    {
+      "case": "matching",
+      "trial": 13,
+      "template_ids_1based": [
+        1990,
+        7917,
+        6172,
+        2248
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-13.txt",
+      "state_sha256": "9372344b60f23b82dbcabaed0e1958b62735a7ac429717b62085ee51b0e2f83a",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-13.expected.json.gz",
+      "expected_sha256": "bb341895b54638fc049b1c136d38e92563d3611db41cf36ca61bf1c02cbee7f0",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 323
+    },
+    {
+      "case": "matching",
+      "trial": 14,
+      "template_ids_1based": [
+        7801,
+        3038,
+        675,
+        3759
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-14.txt",
+      "state_sha256": "17890546db8923eb1bfd8f64cafa01c0a6910578607c26d0e7fa956d64ce1326",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-14.expected.json.gz",
+      "expected_sha256": "f6c6f3c9fde5901168207916c4905036cbb7345521b15a2192786d5e0aed498d",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 326
+    },
+    {
+      "case": "matching",
+      "trial": 15,
+      "template_ids_1based": [
+        4664,
+        6911,
+        5241,
+        7761
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-15.txt",
+      "state_sha256": "c9303b1ed5919efb54cc28db329fd3370fd9d444e6f67bfb8d5c94f1bb25c4d5",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-15.expected.json.gz",
+      "expected_sha256": "0aa69a572b6b600499fd49036bbb61d5416d319ae6763c81b59365bf6063aede",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "catalog_sha256": "e533eb85c0f0c2a1aad446d0f0dc72ebc0c11fe9add8a72b1177245d79ef2724",
+      "allowed_ordinary": 0,
+      "unsupported_count": 321
+    },
+    {
+      "case": "cycle",
+      "trial": 0,
+      "template_ids_1based": [
+        20080,
+        10653,
+        1203,
+        22263
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-00.txt",
+      "state_sha256": "0368aeb44bd15fd669459a495c44636565789e9a86ff67794dfc54e0ed19f8b9",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-00.expected.json.gz",
+      "expected_sha256": "520b412daa391be6e6f74b63855a4ba84178a41de4db1fd2ea0ac625f3d161b7",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 570,
+      "unsupported_count": 0
+    },
+    {
+      "case": "cycle",
+      "trial": 1,
+      "template_ids_1based": [
+        8940,
+        3689,
+        1194,
+        5002
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-01.txt",
+      "state_sha256": "1f8a82c468b94b635610a6372ce78af3543e886b298a9a9cfa4e78c386ddb769",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-01.expected.json.gz",
+      "expected_sha256": "e603df29fd47091bc059eb241e2833baaa471aca5acb0eba1ec3f66bccd32b85",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 0,
+      "unsupported_count": 321
+    },
+    {
+      "case": "cycle",
+      "trial": 2,
+      "template_ids_1based": [
+        12265,
+        5206,
+        1636,
+        24337
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-02.txt",
+      "state_sha256": "62137b73442805a1b1afc306a0ec39ddcac1ea221cdc50d880c9516b2b0d1885",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-02.expected.json.gz",
+      "expected_sha256": "a9d8259484f4113e68bc6f9cbe0616746f9a580b342e9686b289f4d9e7d8f20a",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 426,
+      "unsupported_count": 5
+    },
+    {
+      "case": "cycle",
+      "trial": 3,
+      "template_ids_1based": [
+        20735,
+        19304,
+        1423,
+        16917
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-03.txt",
+      "state_sha256": "621ef5443107b280d40a1ac6314fea37cdb69854408196c4eff9bc97035b89d0",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-03.expected.json.gz",
+      "expected_sha256": "83707528359b37ea748537330e889b266f7b16ac08c087ac5a26d96081acaec1",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 470,
+      "unsupported_count": 2
+    },
+    {
+      "case": "cycle",
+      "trial": 4,
+      "template_ids_1based": [
+        14575,
+        17082,
+        23297,
+        12503
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-04.txt",
+      "state_sha256": "67c43ba95a344bfee4a73c6d745eb1cc60a88bea975da9be60f0dfb26c21ccd1",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-04.expected.json.gz",
+      "expected_sha256": "6cde2eabf5694cbb960d8cd37e2c6f5b83b30bae25fe423b961d5c7c47dc7588",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 554,
+      "unsupported_count": 0
+    },
+    {
+      "case": "cycle",
+      "trial": 5,
+      "template_ids_1based": [
+        12422,
+        18929,
+        16340,
+        3917
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-05.txt",
+      "state_sha256": "273946a293c95f688344ef77e941dcb68105625b16e0c95514a05048d27abe63",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-05.expected.json.gz",
+      "expected_sha256": "318e24ed381e6db21c34be1d96fd745cad0a1136f58d7414ebce842787d25ba0",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 476,
+      "unsupported_count": 0
+    },
+    {
+      "case": "cycle",
+      "trial": 6,
+      "template_ids_1based": [
+        6862,
+        17413,
+        1310,
+        10163
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-06.txt",
+      "state_sha256": "87d40fd42dbad49bcd563ecb0daba91272b3bf9c4650063dfe93ecaf746d7e64",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-06.expected.json.gz",
+      "expected_sha256": "499bae98f73ec8293e6a4662dfa33576203401a999c8cdd6852da7cf393ffe58",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 420,
+      "unsupported_count": 1
+    },
+    {
+      "case": "cycle",
+      "trial": 7,
+      "template_ids_1based": [
+        7394,
+        11959,
+        21661,
+        17151
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-07.txt",
+      "state_sha256": "6f97a645d18021d7ae154bdf354c5bd7a6f1064e94bdf7becd754b70b84d78e6",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-07.expected.json.gz",
+      "expected_sha256": "8ae17456fe63881ee9c8cb906b56ae91c2fa3fb0161eb6436dfc968a5d84cf01",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 474,
+      "unsupported_count": 0
+    },
+    {
+      "case": "cycle",
+      "trial": 8,
+      "template_ids_1based": [
+        4781,
+        8091,
+        7643,
+        23798
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-08.txt",
+      "state_sha256": "e17b58e7dc156da58491c928d62c13537bc6d2934f0b96309316e5653ace8535",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-08.expected.json.gz",
+      "expected_sha256": "002bc61fc05a54bc624aa3589aa751dc54e0c169652d067bf2a40eeef228315c",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 466,
+      "unsupported_count": 1
+    },
+    {
+      "case": "cycle",
+      "trial": 9,
+      "template_ids_1based": [
+        7964,
+        5427,
+        697,
+        11687
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-09.txt",
+      "state_sha256": "637da60ff71bde2fb6c9d58415e6dc8f7029d86de031b1ace634996333469947",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-09.expected.json.gz",
+      "expected_sha256": "0ef4d7859cdafc9cbc1452996e4d83203cdf9f82ac6527a3447b36047e7cc1ef",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 0,
+      "unsupported_count": 321
+    },
+    {
+      "case": "cycle",
+      "trial": 10,
+      "template_ids_1based": [
+        20564,
+        4806,
+        5768,
+        22921
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-10.txt",
+      "state_sha256": "9259164aea34bcde052d6d0b00b1eb4ac6bcad132fb40a87fa289a0d548e8673",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-10.expected.json.gz",
+      "expected_sha256": "1dff9afc4855ee8a733748e2e57cb8a270ab3f5306761a2325ea5d4cb3dd56db",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 555,
+      "unsupported_count": 0
+    },
+    {
+      "case": "cycle",
+      "trial": 11,
+      "template_ids_1based": [
+        24344,
+        19076,
+        19536,
+        14487
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-11.txt",
+      "state_sha256": "14b83b7da94660fccefb2b73ac475e321f0f0fbf4a429c8aa63922aec3b3d7a7",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-11.expected.json.gz",
+      "expected_sha256": "8262f4e9942090369ba9422e25706ff29b5f79106f2794ff46e86329e076f8b1",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 0,
+      "unsupported_count": 320
+    },
+    {
+      "case": "cycle",
+      "trial": 12,
+      "template_ids_1based": [
+        10173,
+        1739,
+        23022,
+        17962
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-12.txt",
+      "state_sha256": "f7ac7ae5652c778f7267ebbc8b9847bc92d4c469fbf21e5fe3f23e8b5e5480c4",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-12.expected.json.gz",
+      "expected_sha256": "c7dbf4fc06dd1d83f95762dad0efea19850f848006952dea393b7eb924f3fc29",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 0,
+      "unsupported_count": 319
+    },
+    {
+      "case": "cycle",
+      "trial": 13,
+      "template_ids_1based": [
+        2623,
+        6229,
+        8115,
+        605
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-13.txt",
+      "state_sha256": "3a2e5b375b55cb85cc5947af9762180359dc4b105466b70f7bdf17da87156e19",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-13.expected.json.gz",
+      "expected_sha256": "2451f0eaac5c872112444ab26c91783ed1eb6ba36b74b5cc1327a44430aa8d5c",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 0,
+      "unsupported_count": 321
+    },
+    {
+      "case": "cycle",
+      "trial": 14,
+      "template_ids_1based": [
+        24434,
+        1919,
+        13183,
+        8872
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-14.txt",
+      "state_sha256": "4997cbd9cbf5e696f4eedd3b65a21d9c76d2fdd72371361a3303df0b4f69caa9",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-14.expected.json.gz",
+      "expected_sha256": "f0ade7eda8d91544b10dd8088265120d4c4468b411d2da924e54f1fc16b20ba2",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 485,
+      "unsupported_count": 0
+    },
+    {
+      "case": "cycle",
+      "trial": 15,
+      "template_ids_1based": [
+        14204,
+        22974,
+        20384,
+        23034
+      ],
+      "state": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-15.txt",
+      "state_sha256": "f3220f6327b415d339040ec051e49054e0630e89f06f2ad969d8acb0e0672897",
+      "expected": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-15.expected.json.gz",
+      "expected_sha256": "c66cbfb0fde7b56d928d7b87bd3190693e674a29c59075a79e9e99ef9deeee57",
+      "catalog": "experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "catalog_sha256": "a86a59269ef019be19ccf7db7f6e75ffb4fdcdedba88345e872f72218d2f3c37",
+      "allowed_ordinary": 673,
+      "unsupported_count": 0
+    }
+  ],
+  "scope": "Fresh independent oracle fixtures only; native comparison pending."
+}

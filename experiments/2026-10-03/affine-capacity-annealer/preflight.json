@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "utc": "2026-10-04T04:09:27.892115+00:00",
+  "source_sha256": "893ee64ef8ced52c13a0d2f5793982f7346e6fd74d6bbeb8f4824ee2aecc38d2",
+  "preflight_source_sha256": "94091fdcd7ee2193bf2b6320d0f3ad51549066a6f6ce809f19ca62969140e969",
+  "model_sha256": "e42529770438fb51629d885f58eb1b11a36f82c2a17bd94795b3defab810f3fd",
+  "binary_sha256": "4bd48a810e1890c06e88b09d8d5dc73ea36c0908e513f722fe57ea196d94dfce",
+  "sanitizer_sha256": "cffa886a3af9cf27c521f92469cf364639c0fecc4f5bc2efc649288c86a045af",
+  "oracle_source_sha256": "d885cf81c82d4171c932b8f4751de598861421ea15530ab3a176a6450a19fb33",
+  "geometry_source_sha256": "fc21e8a0acdc7c53d99c9f03b719bffba521e4ce3e1c5687d2c69c1cfc56ad6e",
+  "transitivity_sha256": "16f5d9dc54d65e2f893e5609bfc51021b5bfacdd87b3da085c025c1e73ab0eb2",
+  "oracle_cases_per_binary": 1000,
+  "state_audits": [
+    {
+      "swaps": 16000,
+      "rollbacks": 16000,
+      "damaged_states_rejected": 48
+    },
+    {
+      "swaps": 16000,
+      "rollbacks": 16000,
+      "damaged_states_rejected": 48
+    }
+  ],
+  "damaged_models_per_binary": 7,
+  "damaged_arguments_per_binary": 7,
+  "damaged_queries_per_binary": 5,
+  "smoke_seconds_per_binary": 0.02,
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "source_revision": "a2a1ab18cda19ad95dfefaaefe61f842456bb201",
+  "scope": "Heuristic search for necessary deleted-circle capacity candidates; not covering witnesses."
+}

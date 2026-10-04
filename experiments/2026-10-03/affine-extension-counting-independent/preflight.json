@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "utc": "2026-10-04T03:54:14.120566+00:00",
+  "seed": 2026103981,
+  "source_sha256": "2e0d4ae1b819d257b573310a9464cdab163fd1cffa6408e31e30bba2158ba713",
+  "runner_sha256": "d885cf81c82d4171c932b8f4751de598861421ea15530ab3a176a6450a19fb33",
+  "geometry_source_sha256": "fc21e8a0acdc7c53d99c9f03b719bffba521e4ce3e1c5687d2c69c1cfc56ad6e",
+  "model_sha256": "e42529770438fb51629d885f58eb1b11a36f82c2a17bd94795b3defab810f3fd",
+  "release_sha256": "f21e10f2982611f6fba14849f979b0c2a752d1f3ac37a8e50cd53917995c6758",
+  "sanitized_sha256": "fedb8bf98eef74b3890dd3f44d7f1e11ec60d5e0ed6ce0980e5b0893b5304b46",
+  "symmetry": {
+    "automorphisms": 240,
+    "circle_orbit_size": 48,
+    "fixed_circle_zero_based": 0,
+    "fixed_circle": [
+      1,
+      2,
+      3,
+      11,
+      14
+    ],
+    "evidence_sha256": "16f5d9dc54d65e2f893e5609bfc51021b5bfacdd87b3da085c025c1e73ab0eb2"
+  },
+  "random_oracle_cases_per_binary": 1000,
+  "damaged_models_per_binary": 7,
+  "damaged_queries_per_binary": 5,
+  "enumeration_prefix_oracle_cases": 1000,
+  "prefix_seconds": 0.007691541104577482,
+  "compiler": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "source_revision": "a2a1ab18cda19ad95dfefaaefe61f842456bb201",
+  "solver_calls": 0
+}

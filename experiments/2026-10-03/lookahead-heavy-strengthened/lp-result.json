@@ -1,0 +1,30 @@
+{
+  "runner_sha256": "369ed9077e1ef18b8ee5a3fbdb44fb50853d42099dfff7d7a97d57c170f2d57a",
+  "model_sha256": "069652fee5d3f4c56c1bdd30f71f98498c996c97d7ec0d05e10e962b86cd2edb",
+  "gate_sha256": "98b24926681e017d4703eb12103d9c95fdfc373f88d52afe7dcd0787d6014947",
+  "ortools_version": "9.15.6755",
+  "attempts": [
+    {
+      "status": "INFEASIBLE",
+      "elastic": false,
+      "seconds": 0.1090990409720689,
+      "time_limit_seconds": 30,
+      "solver": "Glop solver v9.15.6755"
+    },
+    {
+      "status": "OPTIMAL",
+      "elastic": true,
+      "seconds": 0.14418516610749066,
+      "time_limit_seconds": 30,
+      "solver": "Glop solver v9.15.6755",
+      "objective": 10.627554709636422
+    }
+  ],
+  "exact_status": "RATIONAL_INFEASIBLE",
+  "dual_sha256": "417d6571af18be0a393a8d92bac0e15c9992c7a30556c1cc040250330020f4d0",
+  "gap": [
+    5271,
+    500
+  ],
+  "scope": "Only the fixed-heavy regular four-sevenfold family. Numerical statuses alone do not prove feasibility or infeasibility."
+}

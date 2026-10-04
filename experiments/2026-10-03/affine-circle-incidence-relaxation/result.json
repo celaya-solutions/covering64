@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-04T04:04:37.002536+00:00",
+  "status": "UNKNOWN",
+  "seed": 2026103984,
+  "requested_seconds": 60,
+  "workers": 1,
+  "solver_wall_seconds": 60.002797,
+  "conflicts": 4566512,
+  "branches": 28224435,
+  "ortools_version": "9.15.6755",
+  "model_sha256": "dc4ec15af0972670faf5a1562c4aac184d16c1df51b53ca341f27ced02c91b37",
+  "pool_sha256": "454b787594b89d484e5000ba3279bf969b5fe6f4103aa0bd9cce60db10c379da",
+  "gate_sha256": "945cfff219272d0da8deacad63c303fb707e745cd86c6ea79e7810db08e6c985",
+  "runner_sha256": "d5efb9c60badfaf46bfaa104694068b6479e006fa336d00e22b29d0347aab93d",
+  "source_revision": "a2a1ab18cda19ad95dfefaaefe61f842456bb201",
+  "candidate": null,
+  "independently_proved_infeasible": false,
+  "scope": "Necessary incidence relaxation of original48-circle plus240-extension pool. Selected Boolean block variables in global lexicographic order. A retained circle satisfies its own row; a deleted circle requires at least10 selected extension incidences. Repeated coverage of the same triple is allowed by these rows.",
+  "global_lower_bound_claim": false,
+  "artifact_sha256": {
+    "gate.json": "945cfff219272d0da8deacad63c303fb707e745cd86c6ea79e7810db08e6c985",
+    "parameters.pbtxt": "96c3eeac77161ddcb01e0125c51fece219935b99a1768667bf9b35122717c9d3",
+    "response.pbtxt": "c27c43708babf1f2a545ba5979cc2122a88d519dce8e2638fadbe04a42e57c64",
+    "run.py": "d5efb9c60badfaf46bfaa104694068b6479e006fa336d00e22b29d0347aab93d",
+    "solver.log": "9cc6035ae32cb920b615b9681c8b3a22eea8d418deb82d07d3de8f9f1fa9eae0"
+  }
+}

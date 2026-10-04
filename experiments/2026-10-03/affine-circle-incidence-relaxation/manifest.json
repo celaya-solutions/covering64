@@ -1,0 +1,17 @@
+{
+  "utc": "2026-10-04T04:00:41.924543+00:00",
+  "source_revision": "a2a1ab18cda19ad95dfefaaefe61f842456bb201",
+  "builder_sha256": "20789f13014c4d5349e277a85af2092ca04691d7a3e27986fa45ddc853dd7b16",
+  "source_pool_sha256": "913c47b15b1783472bf5c1a97e616a13504db7ee2b49d19804154d4b52724729",
+  "pool_sha256": "454b787594b89d484e5000ba3279bf969b5fe6f4103aa0bd9cce60db10c379da",
+  "model_sha256": "dc4ec15af0972670faf5a1562c4aac184d16c1df51b53ca341f27ced02c91b37",
+  "ortools_version": "9.15.6755",
+  "variables": 288,
+  "constraints": 69,
+  "exact_cardinality_rows": 1,
+  "line_rows": 20,
+  "circle_rows": 48,
+  "model": "experiments/scratch/affine-circle-incidence-relaxation-20261003/exact64-incidence-relaxation.pbtxt",
+  "scope": "Necessary incidence relaxation of original48-circle plus240-extension pool. Selected Boolean block variables in global lexicographic order. A retained circle satisfies its own row; a deleted circle requires at least10 selected extension incidences. Repeated coverage of the same triple is allowed by these rows.",
+  "global_lower_bound_claim": false
+}

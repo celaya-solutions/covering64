@@ -1,0 +1,19 @@
+{
+  "independent_gate_path": "experiments/2026-10-03/four-seven-template-lookahead-independent/audit.json",
+  "independent_gate_sha256": "f99111de704af4f41df095b0c264f6fd0ca3b5cee2076f1bcae0e5e035d8e09d",
+  "native_source_sha256": "e9584eb88bb4bb744b7a2d83af26d1f3f3cf23c5efeeb42a1d94438582c4da35",
+  "performance": {
+    "audit_sha256": "150c5800680e4f567e1afc9dcb848afafffea50c0ab7eb05926f74fc53618c51",
+    "snapshots": 30,
+    "operations": 4
+  },
+  "sanitizers": {
+    "audit_sha256": "7b2782da730cb7899e3301de99a645a37488145122ce729aac52284c1888dc26",
+    "snapshots": 44,
+    "operations": 8
+  },
+  "damaged_inputs_sha256": "2095fed356d7aaf2511cf26479001ee8eef22c0416889530cb3dfb041c91cff9",
+  "native_diagnostic_stderr_empty": true,
+  "draft_provenance": "draft-* source/binaries/logs predate read-only cache-clear option; not final-source gate evidence.",
+  "audit_path_fix": "Initial primary audit stopped at missing legacy archive path before verifier output; corrected source and errors preserved in raw."
+}

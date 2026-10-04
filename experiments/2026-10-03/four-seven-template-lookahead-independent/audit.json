@@ -1,0 +1,1381 @@
+{
+  "passed": true,
+  "checker_sha256": "c84f662354a8cfeb5c183a8fdaaa4b5f0d74124674ede51e76246cd4e19e1ece",
+  "oracle_sha256": "c6e14bd206c1354eb05ac700344651d0e90ebe1726e3ee9728e5f7e8adb2636f",
+  "source_sha256": "e9584eb88bb4bb744b7a2d83af26d1f3f3cf23c5efeeb42a1d94438582c4da35",
+  "prior_gate_sha256": "7b6a7d3cb83b7aa709f3ca35905219ba4dfb47d759686f86976278f7d06b4bd7",
+  "fixture_manifest_sha256": "be307ebacb6e069f4dc4ab244c56eb1e156f03437d6f06db5f4d2c939d922b5c",
+  "build_command": [
+    "clang++",
+    "-std=c++17",
+    "-O1",
+    "-g",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "/Users/chriscelaya/Documents/covering64-search/scripts/four_seven_template_lookahead_heuristic.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize"
+  ],
+  "binary_sha256": "c475d720e2bd94ef98c487a66af9b2f334e98a21056a4e9086c281eaa0569343",
+  "fresh_tuples": [
+    {
+      "case": "matching",
+      "trial": 0,
+      "unsupported": 322,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-00.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-00",
+        "--lookahead-only"
+      ],
+      "log_sha256": "ca58ca3f4d26595d6ef0c993440f32d686f83bce75fe8d7d6e5ffbd88aec636c"
+    },
+    {
+      "case": "matching",
+      "trial": 1,
+      "unsupported": 322,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-01.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-01",
+        "--lookahead-only"
+      ],
+      "log_sha256": "2add252ab7c606446b31dcc54b4406545871410f1b3734b2bac63962dce3c461"
+    },
+    {
+      "case": "matching",
+      "trial": 2,
+      "unsupported": 322,
+      "admissible": 0,
+      "heavy_excess": 2,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-02.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-02",
+        "--lookahead-only"
+      ],
+      "log_sha256": "b4ae3cc6a87778128c15d8b69dd959f23823484cda52d8e40bd87c8804133dcb"
+    },
+    {
+      "case": "matching",
+      "trial": 3,
+      "unsupported": 323,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-03.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-03",
+        "--lookahead-only"
+      ],
+      "log_sha256": "e320140ca8dc99091ad46fdf845a82d56d7c9c9cc9a499b9bbb2684616ccd28f"
+    },
+    {
+      "case": "matching",
+      "trial": 4,
+      "unsupported": 0,
+      "admissible": 551,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-04.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-04",
+        "--lookahead-only"
+      ],
+      "log_sha256": "8481de46f0afd8ee497b54019242666f7d84cb6090d825480631d6ef1f28eb5a"
+    },
+    {
+      "case": "matching",
+      "trial": 5,
+      "unsupported": 1,
+      "admissible": 447,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-05.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-05",
+        "--lookahead-only"
+      ],
+      "log_sha256": "d99f72e13b0e8fbb3b0e426a7f3e7f4879e5607155125baab302c660fa0b5528"
+    },
+    {
+      "case": "matching",
+      "trial": 6,
+      "unsupported": 0,
+      "admissible": 515,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-06.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-06",
+        "--lookahead-only"
+      ],
+      "log_sha256": "4b6e477ca162e7ff3ae3abee8d2473dbc75ffd811e1f628461cb12867db49f55"
+    },
+    {
+      "case": "matching",
+      "trial": 7,
+      "unsupported": 0,
+      "admissible": 604,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-07.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-07",
+        "--lookahead-only"
+      ],
+      "log_sha256": "edbe71441908dc468a44a8821fa06f02edc212ad22248152f9af3b5c356134d6"
+    },
+    {
+      "case": "matching",
+      "trial": 8,
+      "unsupported": 321,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-08.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-08",
+        "--lookahead-only"
+      ],
+      "log_sha256": "651ff43c7e7d7d44943d45914c170af32bfcf382e2cf4da581740ff0edfc4bf3"
+    },
+    {
+      "case": "matching",
+      "trial": 9,
+      "unsupported": 323,
+      "admissible": 0,
+      "heavy_excess": 4,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-09.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-09",
+        "--lookahead-only"
+      ],
+      "log_sha256": "c8ac08aabd18adc62618603919d2724535d520cb8bbf4eb5369bf97d2bcbc612"
+    },
+    {
+      "case": "matching",
+      "trial": 10,
+      "unsupported": 0,
+      "admissible": 500,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-10.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-10",
+        "--lookahead-only"
+      ],
+      "log_sha256": "dd6423de93b208ce5794f8a6545778e8ff7dbb144e9eeb81e6a5f775528473c7"
+    },
+    {
+      "case": "matching",
+      "trial": 11,
+      "unsupported": 323,
+      "admissible": 0,
+      "heavy_excess": 2,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-11.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-11",
+        "--lookahead-only"
+      ],
+      "log_sha256": "0ef75e6d6014d11f2bc23b25bded773daa217e8609fe7e1ea5ae1182fe5cac98"
+    },
+    {
+      "case": "matching",
+      "trial": 12,
+      "unsupported": 323,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-12.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-12",
+        "--lookahead-only"
+      ],
+      "log_sha256": "5b9d270baa21831665849d243e5493cfb5f77fddf5dfe55245be1b05aac8841c"
+    },
+    {
+      "case": "matching",
+      "trial": 13,
+      "unsupported": 323,
+      "admissible": 0,
+      "heavy_excess": 2,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-13.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-13",
+        "--lookahead-only"
+      ],
+      "log_sha256": "984adf02d947bc2070a363b2b1b03e600b11ba221e232b8aa2903328fa85a115"
+    },
+    {
+      "case": "matching",
+      "trial": 14,
+      "unsupported": 326,
+      "admissible": 0,
+      "heavy_excess": 2,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-14.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-14",
+        "--lookahead-only"
+      ],
+      "log_sha256": "306c75018487c2fbdaec2509dc762677414529de94654e2473d15b96a4c55348"
+    },
+    {
+      "case": "matching",
+      "trial": 15,
+      "unsupported": 321,
+      "admissible": 0,
+      "heavy_excess": 3,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-15.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-tuple-15",
+        "--lookahead-only"
+      ],
+      "log_sha256": "5bf7321a426413b3cc065e6bc5758b82d4f9f5aef91518e6ac7d4e70a53b6927"
+    },
+    {
+      "case": "cycle",
+      "trial": 0,
+      "unsupported": 0,
+      "admissible": 570,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-00.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-00",
+        "--lookahead-only"
+      ],
+      "log_sha256": "c7feca1d692a1361aee2838f9fa07146fdc6b0a64c3e0437228467b2560ac007"
+    },
+    {
+      "case": "cycle",
+      "trial": 1,
+      "unsupported": 321,
+      "admissible": 0,
+      "heavy_excess": 3,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-01.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-01",
+        "--lookahead-only"
+      ],
+      "log_sha256": "07e0644050dd912a6ebb60e930106152c856895994e0080c6ac5b940967768ec"
+    },
+    {
+      "case": "cycle",
+      "trial": 2,
+      "unsupported": 5,
+      "admissible": 426,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-02.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-02",
+        "--lookahead-only"
+      ],
+      "log_sha256": "d9b6efb55fadc1254f0e230c8670811e1c3fed3eba036444869f6985b00823a5"
+    },
+    {
+      "case": "cycle",
+      "trial": 3,
+      "unsupported": 2,
+      "admissible": 470,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-03.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-03",
+        "--lookahead-only"
+      ],
+      "log_sha256": "06b8cd24fc245e200b6a757bf3bb6662d20d1cdf0216aee5242865a0fb12725c"
+    },
+    {
+      "case": "cycle",
+      "trial": 4,
+      "unsupported": 0,
+      "admissible": 554,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-04.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-04",
+        "--lookahead-only"
+      ],
+      "log_sha256": "7cf38e3d719d2e800073f4d478f8a9d46be6fc24f58f929a93cb2a4010e81ab5"
+    },
+    {
+      "case": "cycle",
+      "trial": 5,
+      "unsupported": 0,
+      "admissible": 476,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-05.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-05",
+        "--lookahead-only"
+      ],
+      "log_sha256": "6421807b46d2b758514060ff43d613046d530dc79be0624d1e86483b18e448eb"
+    },
+    {
+      "case": "cycle",
+      "trial": 6,
+      "unsupported": 1,
+      "admissible": 420,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-06.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-06",
+        "--lookahead-only"
+      ],
+      "log_sha256": "f9b6306f40e9c4a18afe0cff4861c24436633f0689842c32442dc2ffbdc29eaf"
+    },
+    {
+      "case": "cycle",
+      "trial": 7,
+      "unsupported": 0,
+      "admissible": 474,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-07.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-07",
+        "--lookahead-only"
+      ],
+      "log_sha256": "27e2bccd441e11063f3d1a5bb2c65e1d2ebe79731835da07398cc1a3fd64925a"
+    },
+    {
+      "case": "cycle",
+      "trial": 8,
+      "unsupported": 1,
+      "admissible": 466,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-08.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-08",
+        "--lookahead-only"
+      ],
+      "log_sha256": "f547fe299d5df366da09990975103162a1a7aaab0062bee168eb3b5a78e10451"
+    },
+    {
+      "case": "cycle",
+      "trial": 9,
+      "unsupported": 321,
+      "admissible": 0,
+      "heavy_excess": 2,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-09.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-09",
+        "--lookahead-only"
+      ],
+      "log_sha256": "649a9c94cbd11d026e1c7b8002b42a797fe177fb7c836fdd4f95519b886547b3"
+    },
+    {
+      "case": "cycle",
+      "trial": 10,
+      "unsupported": 0,
+      "admissible": 555,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-10.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-10",
+        "--lookahead-only"
+      ],
+      "log_sha256": "a49c25c5af336e39855777c8f342aa8fdfa6f54a0be816ee56220663b4869e50"
+    },
+    {
+      "case": "cycle",
+      "trial": 11,
+      "unsupported": 320,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-11.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-11",
+        "--lookahead-only"
+      ],
+      "log_sha256": "664914e6c825c7e9ff92af2da3ba67dd02efb09a4669ce6a8f0f3885822e205a"
+    },
+    {
+      "case": "cycle",
+      "trial": 12,
+      "unsupported": 319,
+      "admissible": 0,
+      "heavy_excess": 1,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-12.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-12",
+        "--lookahead-only"
+      ],
+      "log_sha256": "09fb4b3302c29cc78c2cc27f51aa9c90e38c51c97ecc8e62d86d1f6f99573971"
+    },
+    {
+      "case": "cycle",
+      "trial": 13,
+      "unsupported": 321,
+      "admissible": 0,
+      "heavy_excess": 3,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-13.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-13",
+        "--lookahead-only"
+      ],
+      "log_sha256": "8a0a6099ca736e1fdc7c77af11094d3e319d0ee7154602a3a39b64f2f8af0121"
+    },
+    {
+      "case": "cycle",
+      "trial": 14,
+      "unsupported": 0,
+      "admissible": 485,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-14.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-14",
+        "--lookahead-only"
+      ],
+      "log_sha256": "6caecf07cc91cc7ee6322b679b98b20afef235b3e1f98335c1e4b99409ab9142"
+    },
+    {
+      "case": "cycle",
+      "trial": 15,
+      "unsupported": 0,
+      "admissible": 673,
+      "heavy_excess": 0,
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-15.txt",
+        "2026104202",
+        "1",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-tuple-15",
+        "--lookahead-only"
+      ],
+      "log_sha256": "e42f26e124717705d3b0e817660fc59430dd1fdefdd4ee61750611f6a8dfd0ec"
+    }
+  ],
+  "fresh_smokes": [
+    {
+      "case": "matching",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-soft/matching-raw-best.txt",
+        "2026104203",
+        "0.25",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-cache"
+      ],
+      "states": [
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-best.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "653a655bb0c6bf3bf0f9e36144a977a0bb93078f9b38216814502902e1fdd061"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control0-after.txt",
+          "sha256": "18ed067bb8490b619924371b87af2240f75e40c113212cb6da57c595502357fa",
+          "holes": 26,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 188,
+          "base_score": 188,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "0c0d0298c7b909c27f1269e9b482448a5f8288e57addce0cbd28ce833f255fdb"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control0-before.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control0-rollback.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control1-after.txt",
+          "sha256": "db3a8265b098e06e4673878e9f0ef9696d882bee4685e298f7597ce4a252f4a9",
+          "holes": 26,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 176,
+          "base_score": 176,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "74c9fe0b98fad7974b346154817321957498f4c518abdd34f0cb4623a693d0bb"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control1-before.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control1-rollback.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control2-after.txt",
+          "sha256": "582337cbb34dbbae187d8ccba04aacedc6de0297c8b261a5ce9d23cfeb11304c",
+          "holes": 28,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 189,
+          "base_score": 189,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "35eaa4726cebdc74c0c203f5ae2dfe8ecfbfd083415dd1587a447512e3e8629f"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control2-before.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control2-rollback.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control3-after.txt",
+          "sha256": "e370811c39168bbfc9cad135b84e99bdfc882bf9d76d4827d3968cfe2d503439",
+          "holes": 26,
+          "template_ids_1based": [
+            1164,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 174,
+          "base_score": 174,
+          "unsupported": 0,
+          "admissible": 583,
+          "detail_sha256": "69375dc94ce953505234651c090a64b6536822aeb3e623acb431552dea371559"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control3-before.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-control3-rollback.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "653a655bb0c6bf3bf0f9e36144a977a0bb93078f9b38216814502902e1fdd061"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-initial.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "2d05ee24c9725200a02f4e1b2d799cda6f2c9766c1f6fcc754e9af190fbf864a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-raw-best.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "653a655bb0c6bf3bf0f9e36144a977a0bb93078f9b38216814502902e1fdd061"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/matching-fresh-score-best.txt",
+          "sha256": "0b8de63fc0856be1dbe9250570ae4349296fa7b05be6a4be8ce44e942f38272c",
+          "holes": 17,
+          "template_ids_1based": [
+            5062,
+            6847,
+            4154,
+            1831
+          ],
+          "score": 116,
+          "base_score": 116,
+          "unsupported": 0,
+          "admissible": 697,
+          "detail_sha256": "653a655bb0c6bf3bf0f9e36144a977a0bb93078f9b38216814502902e1fdd061"
+        }
+      ],
+      "operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply"
+        }
+      ],
+      "final": {
+        "event": "finished",
+        "best_holes": 17,
+        "best_raw_score": 116,
+        "best_score": 116,
+        "best_score_holes": 17,
+        "proposals": 11609,
+        "seconds": 0.251132,
+        "restarts": 0,
+        "raw_best_unsupported": 0,
+        "score_best_unsupported": 0,
+        "lookahead_hits": 68,
+        "lookahead_misses": 2914,
+        "lookahead_clears": 0,
+        "lookahead_cache_size": 2914,
+        "sampled_operations": 0,
+        "attempted": [
+          3948,
+          2888,
+          1812,
+          2961
+        ],
+        "accepted": [
+          6,
+          1,
+          0,
+          8
+        ]
+      }
+    },
+    {
+      "case": "cycle",
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/search-sanitize",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-soft/cycle-raw-best.txt",
+        "2026104203",
+        "0.25",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-cache"
+      ],
+      "states": [
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-best.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "bde7e8491d6d97615e4e48538864fcc8747d7f081fa5ba01721030f558f65027"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control0-after.txt",
+          "sha256": "1f1b1b9b869c433082e3899c07d655e78afe956304c1c7ff15393ee3b22d6d47",
+          "holes": 20,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 244,
+          "base_score": 144,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "0709fc1782845b8edd37fef27889494bf532f231d11fff97fc7b096bec82a059"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control0-before.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control0-rollback.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control1-after.txt",
+          "sha256": "34da4f98a6310a4eb4fa2342704ec7c8004bed6dea675aab23f0084d6e2da927",
+          "holes": 21,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 245,
+          "base_score": 145,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "2cfd3dcd8e220fc78ac7c8cae3ecfd6ebdbc410259642a42a75ef9c18ef297cb"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control1-before.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control1-rollback.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control2-after.txt",
+          "sha256": "fba1fb38580795650753cb381091875701fd19b14830769f551f450bc1cbbe83",
+          "holes": 27,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 287,
+          "base_score": 187,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "592600cea0f5b07b5c83796f83857b9a7322b4da9305b9e86b77049abc767ece"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control2-before.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control2-rollback.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control3-after.txt",
+          "sha256": "f11ba681be29538c594e96c9581cafb39b3d0e11bd8f3bd158686e2a8dc33b0c",
+          "holes": 20,
+          "template_ids_1based": [
+            20588,
+            634,
+            5835,
+            20047
+          ],
+          "score": 147,
+          "base_score": 147,
+          "unsupported": 0,
+          "admissible": 443,
+          "detail_sha256": "14f3a88603fd4ad18502e05b918ee7cbe96cb8bac2e30919cd7e0f838d487869"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control3-before.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-control3-rollback.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "bde7e8491d6d97615e4e48538864fcc8747d7f081fa5ba01721030f558f65027"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-initial.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "e9273306e830fea5e8ab81cccb4494f9b67dcd444edec6c214d8b25b9dd6e77e"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-raw-best.txt",
+          "sha256": "14d7168a8dda2bcff55f99c8bc46b29b1288881264e235c8045e0e42b717fc4b",
+          "holes": 12,
+          "template_ids_1based": [
+            20588,
+            13504,
+            5835,
+            20047
+          ],
+          "score": 192,
+          "base_score": 92,
+          "unsupported": 1,
+          "admissible": 542,
+          "detail_sha256": "bde7e8491d6d97615e4e48538864fcc8747d7f081fa5ba01721030f558f65027"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-best.txt",
+          "sha256": "38db7a99bc98b327e0b6d039a497616756e193e7f8cfe54c4e84a91e663874a6",
+          "holes": 15,
+          "template_ids_1based": [
+            13212,
+            12698,
+            5835,
+            20047
+          ],
+          "score": 107,
+          "base_score": 107,
+          "unsupported": 0,
+          "admissible": 683,
+          "detail_sha256": "a5efd8d729dba7138192909d77acea16ba8cfc4ec1e0deb35a830cf2184896c1"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-s107-h15.txt",
+          "sha256": "38db7a99bc98b327e0b6d039a497616756e193e7f8cfe54c4e84a91e663874a6",
+          "holes": 15,
+          "template_ids_1based": [
+            13212,
+            12698,
+            5835,
+            20047
+          ],
+          "score": 107,
+          "base_score": 107,
+          "unsupported": 0,
+          "admissible": 683,
+          "detail_sha256": "a5efd8d729dba7138192909d77acea16ba8cfc4ec1e0deb35a830cf2184896c1"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-s111-h15.txt",
+          "sha256": "bcc8e586972cebd7a24860535a9aa810146e60efedbeab863788149735a4941a",
+          "holes": 15,
+          "template_ids_1based": [
+            20588,
+            11149,
+            5835,
+            20047
+          ],
+          "score": 111,
+          "base_score": 111,
+          "unsupported": 0,
+          "admissible": 547,
+          "detail_sha256": "c34f44f0573d99f0b621a850282c1fab7ec1905c5b9d3015e4286e601ca5d901"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-s113-h14.txt",
+          "sha256": "aa70b961ce642479b04580d36f7ff04ec26abdf03b6ab08f098e08c56b781e2e",
+          "holes": 14,
+          "template_ids_1based": [
+            20588,
+            8088,
+            5835,
+            20047
+          ],
+          "score": 113,
+          "base_score": 113,
+          "unsupported": 0,
+          "admissible": 491,
+          "detail_sha256": "9966c206febdcd56487154d1c095b9a36b037a057f99e1d9fe6d06c7c8b7502a"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-s120-h16.txt",
+          "sha256": "7c445abfd60f8c4534fac783757c000625e66210783ff9b8409e1f00632d959f",
+          "holes": 16,
+          "template_ids_1based": [
+            20588,
+            19840,
+            5835,
+            20047
+          ],
+          "score": 120,
+          "base_score": 120,
+          "unsupported": 0,
+          "admissible": 499,
+          "detail_sha256": "1ecd25517d60b812f23439ba827d1da24d51472530f0c5461a937f8f20cda905"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-s123-h17.txt",
+          "sha256": "7d98d4defa459e48d76f9ba3bcaa0189e9de21fe9161a6f18f914002b489b7aa",
+          "holes": 17,
+          "template_ids_1based": [
+            20588,
+            16775,
+            5835,
+            20047
+          ],
+          "score": 123,
+          "base_score": 123,
+          "unsupported": 0,
+          "admissible": 564,
+          "detail_sha256": "a35be6d3650bee224553abea211ed8f2aaed6be5273ce781d58fd0bfbf7f4567"
+        },
+        {
+          "path": "experiments/scratch/four-seven-template-lookahead-independent-v1.0.0/cycle-fresh-score-s125-h17.txt",
+          "sha256": "fb9705c1be197dd5ecf3583caf2c9404db38eb3a2205daf902e96822304a091e",
+          "holes": 17,
+          "template_ids_1based": [
+            20588,
+            21682,
+            5835,
+            20047
+          ],
+          "score": 125,
+          "base_score": 125,
+          "unsupported": 0,
+          "admissible": 516,
+          "detail_sha256": "75b98bdc1862380e149da10330a2200d1e91474d4c9b414dd3803592702fdbc5"
+        }
+      ],
+      "operations": [
+        {
+          "mode": 0,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 1,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 2,
+          "role": "forced_apply"
+        },
+        {
+          "mode": 3,
+          "role": "forced_apply"
+        }
+      ],
+      "final": {
+        "event": "finished",
+        "best_holes": 12,
+        "best_raw_score": 192,
+        "best_score": 107,
+        "best_score_holes": 15,
+        "proposals": 8699,
+        "seconds": 0.251381,
+        "restarts": 0,
+        "raw_best_unsupported": 1,
+        "score_best_unsupported": 0,
+        "lookahead_hits": 126,
+        "lookahead_misses": 2201,
+        "lookahead_clears": 0,
+        "lookahead_cache_size": 2201,
+        "sampled_operations": 0,
+        "attempted": [
+          2975,
+          2165,
+          1357,
+          2202
+        ],
+        "accepted": [
+          2,
+          0,
+          0,
+          60
+        ]
+      }
+    }
+  ],
+  "cache_controls": [
+    {
+      "case": "matching",
+      "event": "cache_control",
+      "passed": true,
+      "test_limit": 2,
+      "production_limit": 100000,
+      "production_eviction_branch_count": 1,
+      "hits": 2,
+      "misses": 6
+    },
+    {
+      "case": "cycle",
+      "event": "cache_control",
+      "passed": true,
+      "test_limit": 2,
+      "production_limit": 100000,
+      "production_eviction_branch_count": 1,
+      "hits": 2,
+      "misses": 6
+    }
+  ],
+  "damaged_outputs": [
+    {
+      "field": "score",
+      "rejected": true
+    },
+    {
+      "field": "base_score",
+      "rejected": true
+    },
+    {
+      "field": "unsupported_count",
+      "rejected": true
+    },
+    {
+      "field": "admissible_count",
+      "rejected": true
+    },
+    {
+      "field": "heavy_excess",
+      "rejected": true
+    },
+    {
+      "field": "weight",
+      "rejected": true
+    },
+    {
+      "field": "holes",
+      "rejected": true
+    },
+    {
+      "field": "score",
+      "rejected": true
+    },
+    {
+      "field": "base_score",
+      "rejected": true
+    },
+    {
+      "field": "unsupported_count",
+      "rejected": true
+    },
+    {
+      "field": "admissible_count",
+      "rejected": true
+    },
+    {
+      "field": "heavy_excess",
+      "rejected": true
+    },
+    {
+      "field": "weight",
+      "rejected": true
+    },
+    {
+      "field": "holes",
+      "rejected": true
+    }
+  ],
+  "zero_hole_acceptance": "Executed native assertion with projected holes0 and positive score delta1000000; source bypass reviewed.",
+  "scope": "Construction gate for exact anchor-pair lookahead, full scores, cache and rollback only."
+}

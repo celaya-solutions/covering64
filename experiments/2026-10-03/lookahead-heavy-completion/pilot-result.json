@@ -1,0 +1,28 @@
+{
+  "status": "UNKNOWN",
+  "elapsed_seconds": 60.00517296791077,
+  "native_wall_time": 60.00275800000001,
+  "response_sha256": "ac337d7cbaf44ba4d063225ccc6514fdddaeef50312d836197abcb4fba0339ca",
+  "witness": null,
+  "command": [
+    "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/lookahead-heavy-completion/run.py",
+    "--child"
+  ],
+  "exit": 0,
+  "forced_termination": false,
+  "wrapper_elapsed_seconds": 60.50290369987488,
+  "seed": 2026104401,
+  "native_time_limit_seconds": 60,
+  "hard_wait_seconds": 90,
+  "workers": 1,
+  "ortools_version": "9.15.6755",
+  "model_sha256": "0f2148c72e8c1af5ae88e5842e630f00201934d3f059d5238fff00828d647257",
+  "manifest_sha256": "9595f35ffc10f9e2ad6038cf709c0f5e57f1bce3c2f6e7a6e3a128d28c3fb808",
+  "runner_sha256": "def4d2175e1aaf14c5bd6029b1abc142c9a27e8b7426b0088c98b940cca94d3d",
+  "gate_sha256": "62c818f723da41bcbf0ffc654cf5f330fcb44f433da01701b4244757a6a5e882",
+  "stdout_sha256": "c28b6dd19324877090700b5895d40be69695405f85658879ed99beb44d9c973b",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "witness_checks": [],
+  "scope": "Only this fixed 28-heavy-block completion. UNKNOWN or unchecked CP-SAT INFEASIBLE makes no exclusion."
+}

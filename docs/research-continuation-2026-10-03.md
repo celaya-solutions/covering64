@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.8.0
+Version:     v1.10.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      cce07915619a73f9bfabd32624aad0fc6b6eb983c692a1bc4140e4b6d57907ea
+SHA256:      b380878ab82eb494759b3992f89ad98aea24d9e5aebabcc5a76c68cb018c79d2
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -323,3 +323,56 @@ in the fixed 48-circle pool. With exactly 21 extensions, the maximum incidence
 capacity is 46 versus the required 50. Thus both the 20-extension and
 21-extension subcases are excluded for a 64-block cover in that pool. The
 six-family construction and all other unrestricted families remain open.
+
+## Anchor-only lookahead and completed geometric screens
+
+The new native variant penalizes heavy tuples having an uncovered triple that
+no individually admissible ordinary block can cover. Its admissibility rule
+uses only forced anchor-touching pair excess budgets; hub-pair targets remain
+soft. Independent fresh-tuple, score, rollback, cache-eviction and sanitizer
+checks passed before the single 300-second cycle pilot.
+
+That run improved the structured seed from 12 to 10 holes, score 78, with zero
+unsupported triples. It made 72,308,652 proposals and 144 restarts, exercising
+170 cache clears. All 54 saved states and 16 operation records passed the
+independent metric audit and both cover-verifier consistency checks. The best
+state is still incomplete. The unrestricted best remains three holes.
+
+A separate 1,200-variable, 577-row model fixes only this new tuple's 28 heavy
+blocks and chooses any 36 ordinary blocks, with no fixed hub graph. Root
+reconstructed every row and rejected six damaged models before its diagnostic.
+
+In the geometric pool, the complete fixed-circle capacity screens for 22, 23
+and 24 extensions checked 1,533,939; 10,737,573; and 62,891,499 deletion sets.
+Their maxima are 55, 66 and 75 versus requirements 60, 70 and 80. An independently
+replayed transitive action justifies fixing one omitted circle. Explicit linear
+maps transfer these exclusions to each individual circle family. They do not
+apply to the union of six circle families or the unrestricted block universe.
+
+A much smaller 69-row necessary relaxation returned UNKNOWN after 60.002797
+solver seconds, with one worker, and supplied no candidate. Six separate
+10-second capacity annealing pilots for nine through fourteen omitted circles
+found maxima 84, 93, 102, 111, 120, 129, below the required 90, 100, 110, 120, 130, 140.
+These are heuristic records, not exhaustive upper bounds. All 16 sets consisting
+of the fifteen circles through one point have exact capacity 138 at 31 extensions,
+also below the requirement 150. No capacity survivor was available for the
+prepared exact extension-completion builder.
+
+The hub-unrestricted fixed-heavy diagnostic returned UNKNOWN at its 60-second,
+one-worker limit (seed 2026104401), with no candidate. Independent recount of
+the frozen ten-hole tuple confirms 680 admissible ordinary blocks and zero
+unsupported triples. This does not establish that the tuple can be completed.
+
+## Checked completion obstruction
+
+The stronger fixed-heavy LP returned an exact rational separating certificate.
+Root independently reconstructed the strengthened model and replayed all 531
+signed rows against all 1,200 ordinary columns. The weighted lower bound is
+10629/1000, while the maximum over the unit box is 87/1000, leaving a positive
+gap 5271/500. Five damaged certificates were rejected.
+
+This proves that the ten-hole state's fixed 28 heavy blocks cannot complete in
+the regular four-sevenfold family, even with every hub graph allowed. It does
+not exclude a complete first-link representative or change the 109-entry
+first-link exclusion union. A reusable inequality in variable heavy patterns
+has not yet been derived or audited.

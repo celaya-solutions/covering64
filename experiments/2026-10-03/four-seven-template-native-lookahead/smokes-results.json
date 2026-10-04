@@ -1,0 +1,88 @@
+[
+  {
+    "name": "matching",
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-lookahead-v1.2.0/search-sanitize",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/matching-catalog.txt",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-lookahead/matching-seed.txt",
+      "2026103981",
+      "3",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-lookahead-v1.2.0/smokes/matching"
+    ],
+    "exit": 1,
+    "wall_seconds": 3.3541040420532227,
+    "stderr_bytes": 0,
+    "final": {
+      "event": "finished",
+      "best_holes": 17,
+      "best_raw_score": 116,
+      "best_score": 116,
+      "best_score_holes": 17,
+      "proposals": 167213,
+      "seconds": 3.00079,
+      "restarts": 0,
+      "raw_best_unsupported": 0,
+      "score_best_unsupported": 0,
+      "lookahead_hits": 3293,
+      "lookahead_misses": 38602,
+      "lookahead_clears": 0,
+      "lookahead_cache_size": 38602,
+      "sampled_operations": 0,
+      "attempted": [
+        58616,
+        41772,
+        25021,
+        41804
+      ],
+      "accepted": [
+        129,
+        40,
+        1,
+        43
+      ]
+    }
+  },
+  {
+    "name": "cycle",
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-lookahead-v1.2.0/search-sanitize",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-lookahead/cycle-seed.txt",
+      "2026103982",
+      "3",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-lookahead-v1.2.0/smokes/cycle"
+    ],
+    "exit": 1,
+    "wall_seconds": 3.6379756927490234,
+    "stderr_bytes": 0,
+    "final": {
+      "event": "finished",
+      "best_holes": 11,
+      "best_raw_score": 85,
+      "best_score": 85,
+      "best_score_holes": 11,
+      "proposals": 145096,
+      "seconds": 3.00085,
+      "restarts": 0,
+      "raw_best_unsupported": 0,
+      "score_best_unsupported": 0,
+      "lookahead_hits": 1951,
+      "lookahead_misses": 34508,
+      "lookahead_clears": 0,
+      "lookahead_cache_size": 34508,
+      "sampled_operations": 0,
+      "attempted": [
+        50868,
+        36146,
+        21842,
+        36240
+      ],
+      "accepted": [
+        18,
+        1,
+        0,
+        107
+      ]
+    }
+  }
+]

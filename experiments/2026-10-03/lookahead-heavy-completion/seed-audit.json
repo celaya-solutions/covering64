@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "checker_sha256": "e51e4bbbe0cf258eac2bcf382a459c697469e78d90970fada2dc12acce841d89",
+  "oracle_sha256": "c6e14bd206c1354eb05ac700344651d0e90ebe1726e3ee9728e5f7e8adb2636f",
+  "witness_sha256": "8bfb962deaeeede2032d9efac1783f7eaabde38aada16c8f5fecdd2f19f84ef3",
+  "sidecar_sha256": "6b54fd92f27796cb8750da0df0c9b0f038d8be3ccf949838553a56051b178083",
+  "holes": 10,
+  "missing_triples": [
+    [
+      1,
+      4,
+      10
+    ],
+    [
+      1,
+      4,
+      11
+    ],
+    [
+      1,
+      11,
+      15
+    ],
+    [
+      4,
+      5,
+      13
+    ],
+    [
+      4,
+      5,
+      14
+    ],
+    [
+      4,
+      6,
+      11
+    ],
+    [
+      4,
+      8,
+      12
+    ],
+    [
+      4,
+      8,
+      16
+    ],
+    [
+      5,
+      9,
+      14
+    ],
+    [
+      8,
+      12,
+      16
+    ]
+  ],
+  "fixed_heavy": 28,
+  "ordinary": 36,
+  "degree_20": true,
+  "heavy_uncovered_triples": 317,
+  "all_ordinary_candidates_recounted": 1200,
+  "complete_admissible_set_match": true,
+  "admissible_count": 680,
+  "complete_unsupported_set_match": true,
+  "unsupported_count": 0,
+  "scope": "Recount of one near-cover. Ten uncovered triples remain; this is not a cover."
+}

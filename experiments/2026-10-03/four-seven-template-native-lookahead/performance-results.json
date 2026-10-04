@@ -1,0 +1,45 @@
+[
+  {
+    "name": "cycle",
+    "command": [
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-lookahead-v1.2.0/search",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-v1.0.0/cycle-catalog.txt",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-03/four-seven-template-native-lookahead/cycle-seed.txt",
+      "2026103982",
+      "3",
+      "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/four-seven-template-native-lookahead-v1.2.0/performance/cycle"
+    ],
+    "exit": 1,
+    "wall_seconds": 3.2339818477630615,
+    "stderr_bytes": 0,
+    "final": {
+      "event": "finished",
+      "best_holes": 10,
+      "best_raw_score": 78,
+      "best_score": 78,
+      "best_score_holes": 10,
+      "proposals": 707533,
+      "seconds": 3.00013,
+      "restarts": 1,
+      "raw_best_unsupported": 0,
+      "score_best_unsupported": 0,
+      "lookahead_hits": 12075,
+      "lookahead_misses": 165549,
+      "lookahead_clears": 1,
+      "lookahead_cache_size": 65549,
+      "sampled_operations": 0,
+      "attempted": [
+        248300,
+        176453,
+        105954,
+        176826
+      ],
+      "accepted": [
+        502,
+        204,
+        4,
+        381
+      ]
+    }
+  }
+]

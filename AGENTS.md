@@ -66,4 +66,4 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-03
 
-Checkpoint 5df9038 saves the whole-template pilots, master relaxations and independently audited restricted CNF encodings; 314 tests and Ruff pass. The 64-block target remains open with 108 checked first-link exclusions; proof checking, scored-template and block-swap searches continue separately. See docs/research-continuation-2026-10-03.md.
+The continuation saves the audited ten-hole search and its exact fixed-heavy obstruction, geometric capacity screens and refreshed primary bounds. The 64-block target remains open, with 109 checked first-link exclusions; unfinished next work is the reusable heavy-pattern cut and joint partial-core model, neither yet implemented. Large raw evidence stays in ignored scratch; preserve unrelated `.ignore` and `opencode.json`.

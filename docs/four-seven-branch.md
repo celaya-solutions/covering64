@@ -1,10 +1,10 @@
 ```
 Document:    The Regular Four-Sevenfold-Triple Branch
-Version:     v1.7.0
+Version:     v1.9.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-03
-SHA256:      d74e6e3da13aa0596e7a14a77f62b606a30f37da77ac01674fc4947fb190fb2f
+SHA256:      4e341e701dd3bbe19a0b8b3c76cb06666cfa7ecdfdd5c4e47170b37995f357cf
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -279,3 +279,36 @@ The 600-second soft cycle continuation retained the same 12-hole state after
 a one-worker CP-SAT presolve INFEASIBLE response, scoped to that combination.
 The propagated matching-063 binary-proof pilot timed out without a checked
 certificate. Neither result changes the 109-entry checked exclusion union.
+
+## Anchor-only completion lookahead
+
+A separate scored native variant checks each heavy tuple's ordinary candidates
+against forced anchor-pair excess budgets. The necessary counts follow from
+regular degree 20 and the heavy links: two peer pairs have count 7, the own-hub
+pair has count 6, and every other anchor-touching pair has count 5. Their minimum
+sum is 80, exactly four times the point degree. Hub-to-hub counts are not imposed
+by this candidate filter.
+
+The gated 300-second cycle pilot reached ten holes, score 78 and zero unsupported
+triples. All 54 saved states and 16 operation records were checked. This improves
+a restricted partial state and supplies no cover. A separate exact completion
+model fixes its 28 heavy blocks while allowing every hub-pair pattern; its
+encoding passed full independent reconstruction. The checked first-link union
+remains 109 exclusions and 149 open representatives.
+
+The corresponding one-worker, 60-second completion diagnostic returned UNKNOWN
+with no witness. This is inconclusive and does not change any exclusion count.
+
+## Checked completion obstruction
+
+The stronger fixed-heavy LP returned an exact rational separating certificate.
+Root independently reconstructed the strengthened model and replayed all 531
+signed rows against all 1,200 ordinary columns. The weighted lower bound is
+10629/1000, while the maximum over the unit box is 87/1000, leaving a positive
+gap 5271/500. Five damaged certificates were rejected.
+
+This proves that the ten-hole state's fixed 28 heavy blocks cannot complete in
+the regular four-sevenfold family, even with every hub graph allowed. It does
+not exclude a complete first-link representative or change the 109-entry
+first-link exclusion union. A reusable inequality in variable heavy patterns
+has not yet been derived or audited.
