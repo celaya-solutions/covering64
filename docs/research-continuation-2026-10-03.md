@@ -7,7 +7,8 @@ Date:        2026-10-04
 SHA256:      9d6f91a7484e2da0ff8b7210640c6fc5595b8282645accd33730f1b0edecac31
 Chain:       n/a
 Tx:          [not anchored]
-License:     All Rights Reserved / Celaya Solutions```
+License:     All Rights Reserved / Celaya Solutions
+```
 
 # Research continuation
 
