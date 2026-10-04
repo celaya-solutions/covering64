@@ -1,0 +1,166 @@
+{
+  "all_vector_domains_rows_recounted": true,
+  "callbacks": 3,
+  "checker_sha256": "12a06a46bba3d34979c52c1fa0ef025e8dbeb4a3e5d62ff58b1b846813c71d17",
+  "configured_budget_seconds": 300,
+  "configured_seed": 2026104901,
+  "configured_workers": 4,
+  "dual_verifier_calls": 4,
+  "elapsed_seconds": 300.0118467499269,
+  "first_actual_zero_callback": null,
+  "gate_sha256": "be4b5b900e1de8238d70c4a7d88c17dcefa2c9d30b8d73655bbb25ca12820990",
+  "manifest_sha256": "3fbd306aeff1494adc4c76311d4d9cf23ce14216f2d9ab81a9e8bc0d8204fe46",
+  "objective_bound": 0.0,
+  "optimizer_calls_by_audit": 0,
+  "passed": true,
+  "reference_checker_sha256": "e9827db7e6f4197f087babfb259650c4993dcf5b0048f7e750f7a4d2b1c1f619",
+  "result_sha256": "b2af7c783fb889ee76cb2be10c9e3bb39c951b8a1884646333a20075f2f65132",
+  "saved_states": [
+    {
+      "actual_metrics": {
+        "D2max": 34,
+        "D2sum": 34,
+        "D3": 0,
+        "D4": 0,
+        "canonical_objective": 19086,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "auxiliary_slack": 0,
+      "label": "callback-0001",
+      "profile_maximum": 0,
+      "solver_objective": 19086.0,
+      "vector_sha256": "27cd1343b267c5f094c88a8e4a194f8f5eb19ea3f1b53bbbf1dd45692c344e33",
+      "verifiers": [
+        {
+          "canonical_sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0001-package.json",
+          "sha256": "457aa8d2f741bb107588bbe1cca88725a0007eb80751ed89056d0b1d43f77967"
+        },
+        {
+          "canonical_sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0001-standalone.json",
+          "sha256": "bf8e47e828b7d8ed74d5e27d1e79bf653cf611925984ba6478ea5a57cc636026"
+        }
+      ],
+      "witness_sha256": "330788e4a6f24e1852b047f5cd2447bfa83da66ea8c6daba3287eb53088c4b00"
+    },
+    {
+      "actual_metrics": {
+        "D2max": 32,
+        "D2sum": 32,
+        "D3": 0,
+        "D4": 0,
+        "canonical_objective": 17964,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "auxiliary_slack": 1,
+      "label": "callback-0002",
+      "profile_maximum": 0,
+      "solver_objective": 18525.0,
+      "vector_sha256": "4d9c2752af09c348e92ee2debd21d99cfb949b1c30133e6da881e22f5b6c870e",
+      "verifiers": [
+        {
+          "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0002-package.json",
+          "sha256": "8a5f4ee5a67b372df0dff71df9cedf235ab077efec0b35436ae688575e410582"
+        },
+        {
+          "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0002-standalone.json",
+          "sha256": "a41b664463645bbd6f4793e6dd6c23a2ad60189c169e8f99d27d86615a728b53"
+        }
+      ],
+      "witness_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970"
+    },
+    {
+      "actual_metrics": {
+        "D2max": 32,
+        "D2sum": 32,
+        "D3": 0,
+        "D4": 0,
+        "canonical_objective": 17964,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "auxiliary_slack": 0,
+      "label": "callback-0003",
+      "profile_maximum": 0,
+      "solver_objective": 17964.0,
+      "vector_sha256": "e4190d62aa3f48a71f9b39b7bd37b0bc0d67e8e625587dbfea33da001fd84d6c",
+      "verifiers": [
+        {
+          "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0002-package.json",
+          "sha256": "8a5f4ee5a67b372df0dff71df9cedf235ab077efec0b35436ae688575e410582"
+        },
+        {
+          "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0002-standalone.json",
+          "sha256": "a41b664463645bbd6f4793e6dd6c23a2ad60189c169e8f99d27d86615a728b53"
+        }
+      ],
+      "witness_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970"
+    },
+    {
+      "actual_metrics": {
+        "D2max": 32,
+        "D2sum": 32,
+        "D3": 0,
+        "D4": 0,
+        "canonical_objective": 17964,
+        "core_overlaps": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "holes": 12,
+        "minimum_pair_count": 5
+      },
+      "auxiliary_slack": 0,
+      "label": "final",
+      "profile_maximum": 0,
+      "solver_objective": 17964.0,
+      "vector_sha256": "e4190d62aa3f48a71f9b39b7bd37b0bc0d67e8e625587dbfea33da001fd84d6c",
+      "verifiers": [
+        {
+          "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0002-package.json",
+          "sha256": "8a5f4ee5a67b372df0dff71df9cedf235ab077efec0b35436ae688575e410582"
+        },
+        {
+          "canonical_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970",
+          "path": "experiments/2026-10-04/soft-pair-h12-postcheck/callback-0002-standalone.json",
+          "sha256": "a41b664463645bbd6f4793e6dd6c23a2ad60189c169e8f99d27d86615a728b53"
+        }
+      ],
+      "witness_sha256": "cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970"
+    }
+  ],
+  "saved_vectors": 4,
+  "scope": "Every saved full vector, domain, enforced row and actual metric is checked. Solver auxiliary deficits may have slack; actual zero is independently determined. No optimizer was called. No global lower-bound or infeasibility proof follows.",
+  "solver_auxiliary_slack_distinguished_from_actual_deficits": true,
+  "solver_wall_seconds": 300.01257400000003,
+  "status": "FEASIBLE",
+  "unique_families": 2
+}

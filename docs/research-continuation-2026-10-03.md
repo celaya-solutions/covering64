@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.25.0
+Version:     v1.26.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      3e9d99a4c5777b3b71b74eb0436d4661655630604c76d9a86fee91d633662fdd
+SHA256:      e44db19323dcd9b0cafd2e83fd6c29c283bdd44829b5a7e0b7656259feccf278
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -72,7 +72,7 @@ new experiments continue in the isolated research worktree.
 
 ## Earlier checkpoint record
 
-The goal is still open: no verified64-block C(16,5,3) cover has been found. The best unrestricted partial cover still covers557 of560 triples. The best point-essential regular candidate still covers552. No global nonexistence claim follows from these experiments.
+The goal is still open: no verified 64-block C(16,5,3) cover has been found. The best unrestricted partial cover still covers557 of560 triples. The best point-essential regular candidate still covers552. No global nonexistence claim follows from these experiments.
 
 ## Independently checked reductions
 
@@ -991,3 +991,12 @@ The best new admissible family, H12 (seed 2026104702, SHA256 `330788e4a6f24e1852
 Independent structural profiles distinguish H12 from the earlier all-relabel-core-free H9. H12 has point counts {19:5,20:6,21:5}, pair counts {5:83,6:34,7:3}, and satisfies every weaker single-triple and quad inequality. Its stronger deficit is 34 under both maximum-per-pair and full-row summation. H9 has point counts {19:5,20:7,21:3,22:1}, four pairs occurring only four times, and stronger deficit sums 23 and 639 respectively. Both remain noncovers. H12 improves the hole count of the available weaker-pair-qualified hints from 48/49 to 12; H9 remains the better raw-hole starting family outside every old-core relabeling. Exact counts and receipts are in `native-partial-start-profiles/`.
 
 The next preparations use those two different partial families as live native starting states while retaining Belic65 as a separate verified complete incumbent. A parallel soft-model preparation uses H12 as a complete feasible hint of objective 19,086 for the unchanged soft-pair model. These are search preparations, not completed optimizer results. No verified 64-block cover has been found.
+
+
+## Longer partial starts and a stronger H12 hint (October 4)
+
+The 300-second soft-pair call from H12 (four workers, seed 2026104901) returned FEASIBLE with three callbacks and a final vector. Independent replay checked all four complete 5,728-value vectors and every row; two distinct families were checked by both covering verifiers. Actual maximum-per-pair and full-row deficits improved from 34 to 32 while all 12 uncovered triples remained exactly unchanged. The change replaces block {4,5,7,10,15} with {5,7,10,12,15}; the other 63 blocks remain. Callback2 has one unit of valid auxiliary slack (solver deficit33 versus actual32); callback3 and the final vector use32. The final canonical objective is 17,964, the bound remains 0, and no actual-zero stronger-deficit hint was found. This is a surrogate improvement, not a reduction in missing triples. Sources, the independent gate, runtime checks, and relabel/novelty receipts are in the `soft-pair-h12-*` folders. A tracked exact-byte copy of the improved H12 family has SHA256 `cadb86e4f2243eada269dc314bca0bc5c238f5b0ca2bd9525dd0b67aad24c970`; it again has no necessary old-core partition, certifying every relabeled old-core overlap is at most 55.
+
+The separate partial-start native campaign completed exactly two sequential 300-second calls, retaining the verified Belic65 complete incumbent separately from the live64 partial. Seed 2026104801 kept its initial H9 after 39,293,091 iterations and ended 64/H18. Seed 2026104802 improved H12 to H10 after 42,912,188 iterations and ended 62/H32. Both live size ranges were 62 through 64, both had exactly four initial age-filter fallbacks, and neither found a cover. The independent postcheck verified all 18 saved/final paths (seven distinct families), zero-mutation starting records, the first 32 moves of each run, family metrics, both cover verifiers, frozen log hashes, and sequential/first-success stopping. These timings overlapped the soft CP run and are not a controlled speed comparison. See `native-variable-partial-start/` and its independent sibling. The new H10 has pair minimum 4 and fails the weaker pair inequalities, so it cannot replace H12 as a feasible hint for the current soft model.
+
+The next preparations target actual holes directly. A soft-model sibling retains every row/domain/core cap, but uses 15361 times the holes plus the deficit sum ; 120 auxiliaries bounded by 128 make 15361 strictly dominate every possible deficit difference. It stops only on an actual dual-verified cover. A separate finite scan will inspect the 275,456 one-block replacements of the improved H12 family and retain neighbors meeting the weaker necessary rules and four named core caps. Its conclusions will apply only to that local neighborhood. These preparations have not yet produced an optimizer result. No verified 64-block cover has been found.

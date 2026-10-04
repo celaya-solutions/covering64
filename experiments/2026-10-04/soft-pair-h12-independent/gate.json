@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "decision": "GO",
+  "optimizer_calls": 0,
+  "checker_sha256": "1d6f258a3a8b42bb80d54a2baaf16369ca0450296be939328410bbbad45af914",
+  "manifest_sha256": "3fbd306aeff1494adc4c76311d4d9cf23ce14216f2d9ab81a9e8bc0d8204fe46",
+  "model_sha256": "338c68fb6ab3bbca25042b7cbc39b37154c19ecd4adcaefe09440681819971aa",
+  "parameters_sha256": "c9f1decc5738f8550808b4810a144415f2ade4ca1d911a90d9ba67b0b938bb6f",
+  "hint_sha256": "86b3728301f56cc4ddb50e5c0244b3f157b69e5f8b08083298b66537a054989b",
+  "runner_sha256": "73890a5e9b22ba93595249ac1516d11f3911288c01963395744c91a2b0d967f8",
+  "prior_gate_sha256": "6d613f6ea9fe047cd2c49e595637bca88dfa871233f44117083ab1fc09b1e203",
+  "unchanged_model_except_hint": true,
+  "runner_ast_identical_after_output_path_and_input_hash_extension": true,
+  "hint_holes": 12,
+  "hint_d2_max_sum": 34,
+  "hint_d2_full_sum": 34,
+  "hint_objective": 19086,
+  "core_overlaps": [
+    1,
+    1,
+    1,
+    2
+  ],
+  "decreased_required_deficit_rejected": true,
+  "auxiliary_slack_accepted": true,
+  "budget_seconds": 300,
+  "workers": 4,
+  "seed": 2026104901,
+  "scope": "One root-owned run of the frozen soft model. A zero actual deficit with positive holes is only a qualified partial hint. No covering or lower-bound claim."
+}
