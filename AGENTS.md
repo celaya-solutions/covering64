@@ -1,10 +1,10 @@
 ```text
 Document:    Covering64 Research Workflow
-Version:     v1.0.0
+Version:     v1.1.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      24511cfd1f570700bb0fb21164f1d1e7f79e34277a44b79121592f7ed25f4c36
+SHA256:      94f1978579bf84a6de229886f78c50130d1f01e8d44b98cbc85b3b2095dccb72
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,9 +78,9 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit 9f34828 saves the checked H9 deficit improvement, radius-four obstruction and six-cap start inventory.
-The H9 queue finished8 centers/16 shells, improving D2max23 to19 with9 holes; no cover. A checked radius-four obstruction around f5f24 gives its exact64 overlap cap59. The sole saved six-cap/weak-qualified tie is a0a737 (H9/D2max19/D2sum27); the old representative e2a004 has D2sum25 but fails the sixth cap. See the continued report and independent receipts.
-The two fresh native starts finished normally with no cover or qualified-rank gain. Raw H6 escapes every old-core relabel by the checked heavy-support bound but fails pair floors; its focused pair repair is under finite review. The current public archive lists65. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
+Commit d2bfd84 saves the checked H6 escape, unchanged qualified H9 result, current65 public listing and union bound71.
+Qualified best remains H9/D2max19; raw H6 escapes every old-core relabel but fails pair floors. All strict improvements within three replacements of H6 were excluded by a checked coverage-only enumeration. Its three B*-anchored two-swap pair repairs fail D3; the {6,10} star pilot returned UNKNOWN with no candidates.
+Next: a stronger exact-four search and a feasible-H9-hint star continuation are being prepared. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 

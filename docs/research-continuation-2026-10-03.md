@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.33.0
+Version:     v1.34.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      d1f61e9eb31b1da2eec4f6983dc806817c2a8eb27fc319ff37b29b23e589c2d4
+SHA256:      eb2f24c43bc45967d430c9a9d882e096667c2de479fb09355cb26df17cdbf85f
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1162,3 +1162,32 @@ The final independent audit checked10 distinct families across28 references, bot
 The a0a737 and85f6 starts share no blocks, and their128-block union covers all560 triples. A finite support certificate forces15 columns through singleton supports, then identifies56 further pairwise disjoint two-column supports, all disjoint from the forced columns. Summing those71 covering rows proves that every cover restricted to this exact pool needs at least71 blocks. No model, LP or covering solver was needed. This neither proves71 is attainable in the pool nor limits the unrestricted problem.
 
 The certificate `h9-h10-union-prescreen/certificate.json` has SHA256 `5a5880b2f47da5504a903f4b4f9c71d3cdc0e9c8228d047d52297dcbf29d7ecb`. A separate replay rejected seven damaged certificates and checked both source families with both verifiers; its receipt has SHA256 `1fad82c0da1ba17189a1737f1cef4a883b0880c1b921b4b69590a955674c2009`. Root reconstructed every triple support and all127 distinct support columns independently; `root-replay.json` has SHA256 `0b843686d80305275f8988f7a3339222b8f6cb4264a36766a006d88abf95e5cf`. An eight-column augmentation is only a proposal; its feasibility has not been tested.
+
+
+## Focused pair repair of the six-hole family (October 4)
+
+The H6 family has exactly three underfilled pairs, (4,6),(5,6),(10,12), each of multiplicity4. Their five endpoints force the unique block B*=(4,5,6,10,12), lexicographic ID3106, for any one-addition pair-floor repair. Adding it gives a65-block H3 partial with pair floor5 and D3=D4=0; this is not the complete65 baseline. Removing any one original block then reopens at least two pair deficits, so no one-swap pair-floor repair exists.
+
+For a two-swap containing B*, the other new block must repair every pair deficit left by the two deleted blocks. Of all2,016 deletion pairs,733 leave a deficit greater than one and1,280 force more than five endpoints. Exactly three admit a distinct second block. Fresh counts and both verifiers give H11/D2max23/D2sum48, H9/D2max21/D2sum38 and H11/D2max23/D2sum48. Every candidate has pair floor5 and D4=0 but D3=1: pair(6,9) has multiplicity5 while triple(6,9,10) has multiplicity3. Thus none is weak-qualified. The H9 candidate has SHA256 `a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05`.
+
+This is a complete finite analysis only of one-swap pair-floor repairs and two-swaps containing B*. It excludes no unanchored two-swap, larger neighborhood or unrestricted cover. The producer profile `h6-anchored-pair-repair/profile.json` has SHA256 `4f7163a2648c9dd72e7e98b0b341bb76108c288e14ff50631ffe3b173e47eeea`. The independent review `h6-anchored-pair-repair-independent/review.json` has SHA256 `d675ce58ca1d8f6b87c38958e098cbb54b675c4f59b82771d6fc96ca1df2f25c`; it checked all five saved families,64 one-drop rows, all two-drop accounting and12 damaged reports. No optimization search was launched.
+
+
+## Coverage-only repair through three replacements (October 4)
+
+A finite deletion-only screen examined all41,664 triples of removed blocks separately for the a0a737 H9 and2d018f H6 starts. For each residual uncovered set U, the sum of the three largest distinct-adder coverage counts upper-bounds the possible repair. It leaves209 deletion triples for the H9 target of at most8 holes, and109 for the H6 target of at most5. A necessary individual-adder floor reduces the remaining unordered addition-triple workloads to279,150 and31,891 respectively. The screen did not examine replacement tuples. Both runs finished under their30-second caps. Separate replay checked all83,328 deletion/uncovered rows, all318 survivor score rows and66 sampled exclusions; this is the precise replay scope. The frozen run receipt has SHA256 `1037a8f8a33aa89585800dfffc784815db06f7c1b6d92e3e53d3aff708b74a54`, and supplementary replay SHA256 is `6bfa70c152d979a97e44d47927978730516a9ef6933dfc0da60e70c1145dbfd4`.
+
+The new H6 enumerator then covers exact replacement distances1,2,3. Every addition comes from the full4,304-block complement of the original64, without pair, degree, deficit or core filtering. It uses the safe top-k sum bound and the necessary floor given by residual demand minus the top-k-minus-one sum. Exact bitmask union checks every surviving addition tuple. Direct independent source review found no gap. Root's two separate unpruned v7 controls each enumerate1,329 exchanges; they match the native zero-candidate and735-candidate sets exactly. Malformed inputs, nonfinite budgets and zero-budget incompleteness are also checked. These are test fixtures, not target witnesses.
+
+Root verified174 pinned files and launched the sole run under gate `f83b487e6bdf7a16d06113fc5806e5b2aee436f22b22d15f4c6ac3ca05d1bd43`, against manifest `e2f01d7116d8795fff4f540a5b3a62eadb5db81f097afc86a7fc1091b3f96ef8`. All64,2,016 and41,664 deletion sets finished. Safe bounds excluded64,2,011 and41,555 respectively, leaving0,22 and31,891 exact addition tuples. No family with at most5 holes was found. Native time was0.310721 seconds, wrapper elapsed0.3149901250144467 seconds, with no watchdog and no unledgered candidate file.
+
+The result `h6-strict-hole-radius3-pilot/result.json` has SHA256 `075a3f18257a88e3d2a3df2ae759cd3d38ccf79c0fd56caa8a32c37ecb519de8`. Runtime audit SHA256 is `b887ab8a333a5b6ffdd767b462997523efc532dfe0750806db0cd931251aa6e3`; it rechecked all frozen bindings, receipts, the empty ledger and candidate sets, all shell counts and agreement with the earlier three-deletion screen, without rerunning the search. This excludes improvement below6 holes only within three replacements of this named H6 family. Neutral moves, distance4 and unrestricted existence remain open.
+
+
+## A two-point-star repair from H6 (October 4)
+
+All six holes of2d018f meet the pivot pair(6,10). The new local model fixes every one of the2,002 memberships avoiding both pivots, retaining30 selected blocks, and can rebuild34 selected blocks from all2,366 pivot-containing candidates. The fixed30 leave284 residual triples:196 meeting a pivot have78 free carriers each, and88 avoiding them have23. No empty or singleton support gives an immediate obstruction. These are only cheap structural checks, not a feasibility proof.
+
+The audited model has4,928 variables and1,242 rows: exact64,560 two-way hole indicators,120 pair-floor-five rows, a hole ceiling6 and an objective minimizing holes. It adds no D2/D3/D4, named-core or degree-profile restrictions. The complete initial H6 hint is intentionally infeasible only on pair rows1164,1175,1221, for pairs(4,6),(5,6),(10,12). It is never treated as a feasible incumbent. The manifest has SHA256 `29014890a28ed880861ced497d635d8d0ec75b6b5e815cac2e068ac0c2dc60dc`; the independent GO has SHA256 `7e52c187e94ee9a5761e65fbe5912230cbf00f7cd2048df49b0f5adb7a7000aa`. Review checked every domain/row, the exact objective/hint,16 damaged models and three mocked watchdog paths.
+
+The sole120-second/four-worker call, seed2026106001, returned UNKNOWN with zero callbacks, final vectors or saved families. Native time was120.01227200000001 seconds; wrapper elapsed120.39716295793187. The process exited normally with no watchdog, retry or budget transfer. The reported objective field6.0 is not a feasible solution. The producer result has SHA256 `3add8432ae877dc87f8d24292fbb81df9bf986dd4c0b1184a6410a7c0352a537`; `h6-two-point-star-repair-runtime-independent/postcheck.json` has SHA256 `d86f6d098e29f3d8b06061ea770eedf3ec4841296ff40f70af18ddac65be92f1`. Independent runtime checks confirmed raw/proto/source/parameter bindings, all empty solution fields, the infeasible initial hint and seven malformed vector/flag controls. This timeout excludes neither this neighborhood nor an unrestricted64-block cover.

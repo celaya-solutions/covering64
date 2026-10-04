@@ -1,0 +1,114 @@
+{
+  "binary_sha256": "f1e85662de28b30ed3ac6cb3474ed6551b6d8e664d5201ee4269059e63550b84",
+  "compile_command": [
+    "clang++",
+    "-O3",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/h6-strict-hole-radius3-pilot/search.cpp",
+    "-o",
+    "/Users/chriscelaya/Documents/covering64-search/experiments/scratch/h6-strict-hole-radius3-pilot-20261004/search"
+  ],
+  "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.27.1)\nTarget: arm64-apple-darwin27.0.0\nThread model: posix\nInstalledDir: /Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin\n",
+  "fixtures": [
+    {
+      "candidate_count": 2541,
+      "exact_sets_match": true,
+      "fixture_ids": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "initial_holes": 10,
+      "native": {
+        "candidates": 2541,
+        "seconds": 0.204274,
+        "shells": [
+          {
+            "candidates": 27,
+            "complete": true,
+            "deletions": 4,
+            "distance": 1,
+            "excluded": 0,
+            "tuples": 27
+          },
+          {
+            "candidates": 525,
+            "complete": true,
+            "deletions": 6,
+            "distance": 2,
+            "excluded": 0,
+            "tuples": 816
+          },
+          {
+            "candidates": 1989,
+            "complete": true,
+            "deletions": 4,
+            "distance": 3,
+            "excluded": 0,
+            "tuples": 2720
+          }
+        ],
+        "status": "complete"
+      },
+      "unpruned_oracle_tuples": 3604
+    }
+  ],
+  "passed": true,
+  "production_replacement_tuples": 0,
+  "production_search_launched": false,
+  "rejected_controls": [
+    "duplicate",
+    "short-row",
+    "long-row",
+    "label-zero",
+    "label-seventeen",
+    "unsorted-labels",
+    "unsorted-family",
+    "malformed-label",
+    "missing-block",
+    "extra-block",
+    "blank-row",
+    "nan-seconds",
+    "infinite-seconds",
+    "negative-seconds",
+    "over-budget",
+    "wrong-holes",
+    "non-strict-target"
+  ],
+  "source_sha256": "095ef928c61e3af42de8651407f576074679a9f9074331f7caae021c83a6093e",
+  "zero_budget": {
+    "candidates": 0,
+    "seconds": 0.000526541,
+    "shells": [
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 1,
+        "excluded": 0,
+        "tuples": 0
+      },
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 2,
+        "excluded": 0,
+        "tuples": 0
+      },
+      {
+        "candidates": 0,
+        "complete": false,
+        "deletions": 0,
+        "distance": 3,
+        "excluded": 0,
+        "tuples": 0
+      }
+    ],
+    "status": "timeout"
+  }
+}

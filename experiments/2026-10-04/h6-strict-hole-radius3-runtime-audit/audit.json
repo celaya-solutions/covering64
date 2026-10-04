@@ -1,0 +1,197 @@
+{
+  "checker_sha256": "6eeafb7247dc163302b733cdd9f532768741f5c4e15057116e3d05f053e3dab7",
+  "complete_radius3": true,
+  "gate_sha256": "f83b487e6bdf7a16d06113fc5806e5b2aee436f22b22d15f4c6ac3ca05d1bd43",
+  "initial_package": {
+    "blocks": 64,
+    "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "covered": 554,
+    "k": 5,
+    "multiplicities": {
+      "0": 6,
+      "1": 476,
+      "2": 70,
+      "3": 8
+    },
+    "pair_multiplicities": {
+      "4": 3,
+      "5": 78,
+      "6": 36,
+      "7": 2,
+      "8": 1
+    },
+    "replication": {
+      "1": 21,
+      "2": 20,
+      "3": 20,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 21,
+      "8": 20,
+      "9": 20,
+      "10": 21,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20
+    },
+    "t": 3,
+    "total_incidences": 640,
+    "triples": 560,
+    "uncovered": [
+      [
+        1,
+        7,
+        10
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        9
+      ],
+      [
+        4,
+        10,
+        12
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        5,
+        10,
+        12
+      ]
+    ],
+    "v": 16,
+    "valid": false
+  },
+  "initial_standalone": {
+    "blocks": 64,
+    "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+    "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "cardinality_matches": true,
+    "coverage_multiplicities": {
+      "0": 6,
+      "1": 476,
+      "2": 70,
+      "3": 8
+    },
+    "covered_subsets": 554,
+    "covers_all_subsets": false,
+    "expected_blocks": 64,
+    "expected_subset_incidences": 640,
+    "parameters": {
+      "k": 5,
+      "t": 3,
+      "v": 16
+    },
+    "point_replication": {
+      "1": 21,
+      "10": 21,
+      "11": 20,
+      "12": 20,
+      "13": 20,
+      "14": 20,
+      "15": 20,
+      "16": 20,
+      "2": 20,
+      "3": 20,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 21,
+      "8": 20,
+      "9": 20
+    },
+    "required_subsets": 560,
+    "source_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "total_subset_incidences": 640,
+    "uncovered": [
+      [
+        1,
+        7,
+        10
+      ],
+      [
+        4,
+        5,
+        6
+      ],
+      [
+        4,
+        6,
+        9
+      ],
+      [
+        4,
+        10,
+        12
+      ],
+      [
+        5,
+        6,
+        9
+      ],
+      [
+        5,
+        10,
+        12
+      ]
+    ],
+    "uncovered_count": 6,
+    "valid": false
+  },
+  "launch_sha256": "17120381148f6cb97d3ff10fd8c929dd908c30ae0a4aec012c588c4110d248a1",
+  "ledger_sha256": "9be6088184f0684d006ad9c99368ad7da108e075e96393a7cea2829b3dffa323",
+  "manifest_sha256": "e2f01d7116d8795fff4f540a5b3a62eadb5db81f097afc86a7fc1091b3f96ef8",
+  "native": {
+    "candidates": 0,
+    "seconds": 0.310721,
+    "shells": [
+      {
+        "candidates": 0,
+        "complete": true,
+        "deletions": 64,
+        "distance": 1,
+        "excluded": 64,
+        "tuples": 0
+      },
+      {
+        "candidates": 0,
+        "complete": true,
+        "deletions": 2016,
+        "distance": 2,
+        "excluded": 2011,
+        "tuples": 22
+      },
+      {
+        "candidates": 0,
+        "complete": true,
+        "deletions": 41664,
+        "distance": 3,
+        "excluded": 41555,
+        "tuples": 31891
+      }
+    ],
+    "status": "complete"
+  },
+  "passed": true,
+  "rehash_pin_count": 174,
+  "result_sha256": "075a3f18257a88e3d2a3df2ae759cd3d38ccf79c0fd56caa8a32c37ecb519de8",
+  "scope": "Runtime receipt, frozen pins, empty candidate ledger and files, shell completion counters, and prior k3 screen accounting checked. With the separately reviewed enumerator and independent fixture gate, no at-most5-hole family exists at exact replacement distance1,2,3 from this named H6 family. Equal-hole moves and larger neighborhoods remain outside this result.",
+  "screen_k3_counters_match": true,
+  "screen_replay_sha256": "6bfa70c152d979a97e44d47927978730516a9ef6933dfc0da60e70c1145dbfd4",
+  "search_reruns": 0,
+  "strict_improvement_candidates": 0
+}

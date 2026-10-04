@@ -1,0 +1,48 @@
+{
+  "dependencies": {
+    "experiments/2026-10-04/h6-anchored-pair-repair/check.py": "f008968d2afe25bc8f93aeb8376013bb7fc6cee1f86ab1f669865283395b82dc",
+    "experiments/2026-10-04/h6-anchored-pair-repair/profile.json": "4f7163a2648c9dd72e7e98b0b341bb76108c288e14ff50631ffe3b173e47eeea",
+    "experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+    "experiments/2026-10-04/two-point-star-repair-v2-runtime-independent/postcheck.json": "d6f35f60be4bb2090018ddaec0036e6a8305823e132faf5dd40e9a337621675a",
+    "experiments/2026-10-04/two-point-star-repair-v2/run.py": "708b31333b659e864f9ee4ab37c7ae9909833b13f7c64a229b4f6fbc6b2abdc7",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "src/covering64/cli.py": "1152cd8df7c218432238b2c48e4b4532db06ec03f3295412b08a461090fb95ec",
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb",
+    "uv.lock": "7c16c4cf38ece8bf42885d1bab9698ced20c0411036f43b2f21f1e8cb2c5e180"
+  },
+  "fixed_blocks": 2002,
+  "fixed_selected": 30,
+  "free_blocks": 2366,
+  "free_selected": 34,
+  "grace": 5,
+  "initial_hint_feasible": false,
+  "max_calls": 1,
+  "model": "experiments/scratch/h6-two-point-star-repair-20261004/model.pbtxt",
+  "model_sha256": "32f04e29da51daa7983f2f64b75b966fe5779eae0e830df1ef5af5d4434d0814",
+  "ortools_version": "9.15.6755",
+  "parameters": "experiments/scratch/h6-two-point-star-repair-20261004/parameters.pbtxt",
+  "parameters_sha256": "871be3961403e8ebdede9b54e4c3bc69038cdbd499799907f02661a4a0615db0",
+  "pivot": [
+    6,
+    10
+  ],
+  "prepared_files": {
+    "experiments/2026-10-04/h6-two-point-star-repair/README.md": "cd865334df298b9e90d0af58882cfdb43c2113a3f39f76dfd5eedf15f9d2378e",
+    "experiments/2026-10-04/h6-two-point-star-repair/controls.py": "8f2a549ea60e93d4592bce81dda63f086d37e6e97216ec34c870694b35541193",
+    "experiments/2026-10-04/h6-two-point-star-repair/initial-hint-audit.json": "664c0163470133a18f86779139c7778efd4137f84d3204e35c628ca1c90a985d",
+    "experiments/scratch/h6-two-point-star-repair-20261004/initial-vector.json": "4535c803fefb862dc46d22dbce0e146532f94ae5334fe82fd52fd3b7e51a857e",
+    "experiments/scratch/h6-two-point-star-repair-20261004/model.pbtxt": "32f04e29da51daa7983f2f64b75b966fe5779eae0e830df1ef5af5d4434d0814",
+    "experiments/scratch/h6-two-point-star-repair-20261004/parameters.pbtxt": "871be3961403e8ebdede9b54e4c3bc69038cdbd499799907f02661a4a0615db0"
+  },
+  "python_version": "3.13.15",
+  "rows": 1242,
+  "scope": "One fixed {6,10} star neighborhood: retain every outside-star membership; exact64, exact hole flags, pair floor5, H<=6, minimize H. No D2/D3/D4, core or degree-profile restrictions. One call, no retries or budget transfers. The initial hint is infeasible. No unrestricted, global nonexistence or novelty claim.",
+  "search_launches_during_preparation": 0,
+  "seconds": 120,
+  "seed": 2026106001,
+  "source_revision": "d2bfd843889e8b6f549881c7493fae196383b170",
+  "source_sha256": "b177c7986a8c35b03013f3bd8da18102151794a52d564c938033cf2a1e2943fd",
+  "variables": 4928,
+  "watchdog": 140,
+  "workers": 4
+}

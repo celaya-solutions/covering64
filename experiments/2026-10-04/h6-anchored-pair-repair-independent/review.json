@@ -1,0 +1,2560 @@
+{
+  "anchored_two_swap_deletion_pairs_checked": 2016,
+  "families": [
+    {
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+        "covered": 554,
+        "k": 5,
+        "multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "pair_multiplicities": {
+          "4": 3,
+          "5": 78,
+          "6": 36,
+          "7": 2,
+          "8": 1
+        },
+        "replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 19,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            5,
+            10,
+            12
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/native-h9-h10-reuse-pilot/seed-2026105901/search-final-raw64.txt",
+      "profile": {
+        "D2max": 14,
+        "D2sum": 498,
+        "D3": 80,
+        "D4": 72,
+        "cardinality": 64,
+        "exact64_weak_qualified": false,
+        "hole_count": 6,
+        "holes": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            5,
+            10,
+            12
+          ]
+        ],
+        "ids": [
+          64,
+          85,
+          218,
+          277,
+          279,
+          287,
+          383,
+          454,
+          544,
+          551,
+          625,
+          664,
+          803,
+          817,
+          899,
+          988,
+          1039,
+          1058,
+          1158,
+          1267,
+          1361,
+          1424,
+          1431,
+          1532,
+          1613,
+          1689,
+          1720,
+          1760,
+          1958,
+          2017,
+          2102,
+          2145,
+          2210,
+          2287,
+          2348,
+          2400,
+          2496,
+          2504,
+          2706,
+          2746,
+          2811,
+          2815,
+          2842,
+          2887,
+          3054,
+          3132,
+          3171,
+          3209,
+          3266,
+          3346,
+          3539,
+          3564,
+          3625,
+          3692,
+          3727,
+          3766,
+          3947,
+          3994,
+          4075,
+          4166,
+          4212,
+          4261,
+          4296,
+          4315
+        ],
+        "minimum_pair_count": 4,
+        "pair_histogram": {
+          "4": 3,
+          "5": 78,
+          "6": 36,
+          "7": 2,
+          "8": 1
+        },
+        "point_degrees": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 19,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "positive_D3_rows": [
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 1,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 2,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 3,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 5,
+            "triple_count": 0
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 7,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 8,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 9,
+            "triple_count": 0
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 10,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 11,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 12,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 13,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 14,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 15,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              4,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 16,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              4,
+              10
+            ],
+            "pair_count": 5,
+            "third_point": 5,
+            "triple_count": 3
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 1,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 2,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 3,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 4,
+            "triple_count": 0
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 7,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 8,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 9,
+            "triple_count": 0
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 10,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 11,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 12,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 13,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 14,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 15,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              5,
+              6
+            ],
+            "pair_count": 4,
+            "third_point": 16,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              5,
+              10
+            ],
+            "pair_count": 5,
+            "third_point": 4,
+            "triple_count": 3
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 1,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 2,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 3,
+            "triple_count": 1
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 4,
+            "triple_count": 0
+          },
+          {
+            "deficit": 1,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 5,
+            "triple_count": 0
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 6,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 7,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 8,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 9,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 11,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 13,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 14,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 15,
+            "triple_count": 1
+          },
+          {
+            "deficit": 2,
+            "pair": [
+              10,
+              12
+            ],
+            "pair_count": 4,
+            "third_point": 16,
+            "triple_count": 1
+          }
+        ],
+        "six_named_caps_apply": true,
+        "six_named_caps_pass": true,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "underfilled_pairs": [
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ]
+      },
+      "sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 6,
+          "1": 476,
+          "2": 70,
+          "3": 8
+        },
+        "covered_subsets": 554,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 19,
+          "5": 19,
+          "6": 19,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            4,
+            10,
+            12
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            5,
+            10,
+            12
+          ]
+        ],
+        "uncovered_count": 6,
+        "valid": false
+      }
+    },
+    {
+      "package": {
+        "blocks": 65,
+        "canonical_sha256": "c81de8ce0240fc96520575cdaad9f90c9d29e54f4f9318381f2712af222423e2",
+        "covered": 557,
+        "k": 5,
+        "multiplicities": {
+          "0": 3,
+          "1": 473,
+          "2": 76,
+          "3": 7,
+          "4": 1
+        },
+        "pair_multiplicities": {
+          "5": 77,
+          "6": 38,
+          "7": 3,
+          "8": 2
+        },
+        "replication": {
+          "1": 21,
+          "10": 22,
+          "11": 20,
+          "12": 21,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "t": 3,
+        "total_incidences": 650,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/h6-anchored-pair-repair/add-only-65.txt",
+      "profile": {
+        "D2max": 6,
+        "D2sum": 6,
+        "D3": 0,
+        "D4": 0,
+        "cardinality": 65,
+        "exact64_weak_qualified": false,
+        "hole_count": 3,
+        "holes": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ]
+        ],
+        "ids": [
+          64,
+          85,
+          218,
+          277,
+          279,
+          287,
+          383,
+          454,
+          544,
+          551,
+          625,
+          664,
+          803,
+          817,
+          899,
+          988,
+          1039,
+          1058,
+          1158,
+          1267,
+          1361,
+          1424,
+          1431,
+          1532,
+          1613,
+          1689,
+          1720,
+          1760,
+          1958,
+          2017,
+          2102,
+          2145,
+          2210,
+          2287,
+          2348,
+          2400,
+          2496,
+          2504,
+          2706,
+          2746,
+          2811,
+          2815,
+          2842,
+          2887,
+          3054,
+          3106,
+          3132,
+          3171,
+          3209,
+          3266,
+          3346,
+          3539,
+          3564,
+          3625,
+          3692,
+          3727,
+          3766,
+          3947,
+          3994,
+          4075,
+          4166,
+          4212,
+          4261,
+          4296,
+          4315
+        ],
+        "minimum_pair_count": 5,
+        "pair_histogram": {
+          "5": 77,
+          "6": 38,
+          "7": 3,
+          "8": 2
+        },
+        "point_degrees": {
+          "1": 21,
+          "10": 22,
+          "11": 20,
+          "12": 21,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "positive_D3_rows": [],
+        "six_named_caps_apply": false,
+        "six_named_caps_pass": null,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 3,
+          "1": 473,
+          "2": 76,
+          "3": 7,
+          "4": 1
+        },
+        "underfilled_pairs": []
+      },
+      "sha256": "c81de8ce0240fc96520575cdaad9f90c9d29e54f4f9318381f2712af222423e2",
+      "standalone": {
+        "blocks": 65,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "c81de8ce0240fc96520575cdaad9f90c9d29e54f4f9318381f2712af222423e2",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 3,
+          "1": 473,
+          "2": 76,
+          "3": 7,
+          "4": 1
+        },
+        "covered_subsets": 557,
+        "covers_all_subsets": false,
+        "expected_blocks": 65,
+        "expected_subset_incidences": 650,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 22,
+          "11": 20,
+          "12": 21,
+          "13": 20,
+          "14": 20,
+          "15": 20,
+          "16": 20,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 20
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 650,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ]
+        ],
+        "uncovered_count": 3,
+        "valid": false
+      }
+    },
+    {
+      "fixed_addition": [
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "forced_second_addition": [
+        2,
+        6,
+        13,
+        14,
+        16
+      ],
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "9d3625e8ef214038999844c353a6ec59debae9808a4c4e7c2aee5b7e991b3e6b",
+        "covered": 549,
+        "k": 5,
+        "multiplicities": {
+          "0": 11,
+          "1": 463,
+          "2": 82,
+          "3": 3,
+          "4": 1
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            2,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            13,
+            14
+          ],
+          [
+            10,
+            13,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/h6-anchored-pair-repair/candidate-01.txt",
+      "profile": {
+        "D2max": 23,
+        "D2sum": 48,
+        "D3": 1,
+        "D4": 0,
+        "cardinality": 64,
+        "exact64_weak_qualified": false,
+        "hole_count": 11,
+        "holes": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            2,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            13,
+            14
+          ],
+          [
+            10,
+            13,
+            16
+          ]
+        ],
+        "ids": [
+          64,
+          85,
+          218,
+          277,
+          279,
+          287,
+          383,
+          454,
+          544,
+          551,
+          625,
+          664,
+          803,
+          817,
+          899,
+          988,
+          1039,
+          1058,
+          1158,
+          1267,
+          1361,
+          1424,
+          1431,
+          1532,
+          1613,
+          1689,
+          1720,
+          1760,
+          1958,
+          2017,
+          2102,
+          2145,
+          2153,
+          2210,
+          2287,
+          2400,
+          2496,
+          2504,
+          2706,
+          2746,
+          2811,
+          2815,
+          2842,
+          2887,
+          3054,
+          3106,
+          3132,
+          3171,
+          3209,
+          3266,
+          3346,
+          3539,
+          3564,
+          3625,
+          3692,
+          3727,
+          3766,
+          3947,
+          3994,
+          4166,
+          4212,
+          4261,
+          4296,
+          4315
+        ],
+        "minimum_pair_count": 5,
+        "pair_histogram": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "point_degrees": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "positive_D3_rows": [
+          {
+            "deficit": 1,
+            "pair": [
+              6,
+              9
+            ],
+            "pair_count": 5,
+            "third_point": 10,
+            "triple_count": 3
+          }
+        ],
+        "six_named_caps_apply": true,
+        "six_named_caps_pass": true,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 11,
+          "1": 463,
+          "2": 82,
+          "3": 3,
+          "4": 1
+        },
+        "underfilled_pairs": []
+      },
+      "remaining_deficient_pairs": [
+        [
+          2,
+          14
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          16
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          10,
+          13,
+          14,
+          16
+        ],
+        [
+          6,
+          9,
+          12,
+          14,
+          16
+        ]
+      ],
+      "sha256": "9d3625e8ef214038999844c353a6ec59debae9808a4c4e7c2aee5b7e991b3e6b",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "9d3625e8ef214038999844c353a6ec59debae9808a4c4e7c2aee5b7e991b3e6b",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 11,
+          "1": 463,
+          "2": 82,
+          "3": 3,
+          "4": 1
+        },
+        "covered_subsets": 549,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            2,
+            10,
+            14
+          ],
+          [
+            2,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            13,
+            14
+          ],
+          [
+            10,
+            13,
+            16
+          ]
+        ],
+        "uncovered_count": 11,
+        "valid": false
+      }
+    },
+    {
+      "fixed_addition": [
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "forced_second_addition": [
+        3,
+        6,
+        11,
+        14,
+        16
+      ],
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+        "covered": 551,
+        "k": 5,
+        "multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/h6-anchored-pair-repair/candidate-02.txt",
+      "profile": {
+        "D2max": 21,
+        "D2sum": 38,
+        "D3": 1,
+        "D4": 0,
+        "cardinality": 64,
+        "exact64_weak_qualified": false,
+        "hole_count": 9,
+        "holes": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "ids": [
+          64,
+          85,
+          218,
+          277,
+          279,
+          287,
+          383,
+          454,
+          544,
+          551,
+          625,
+          664,
+          803,
+          817,
+          899,
+          988,
+          1039,
+          1058,
+          1158,
+          1267,
+          1361,
+          1424,
+          1431,
+          1532,
+          1613,
+          1689,
+          1720,
+          1760,
+          1958,
+          2017,
+          2102,
+          2145,
+          2210,
+          2287,
+          2348,
+          2400,
+          2496,
+          2504,
+          2706,
+          2746,
+          2811,
+          2815,
+          2842,
+          2859,
+          2887,
+          3106,
+          3132,
+          3171,
+          3209,
+          3266,
+          3346,
+          3539,
+          3564,
+          3625,
+          3692,
+          3727,
+          3766,
+          3947,
+          3994,
+          4166,
+          4212,
+          4261,
+          4296,
+          4315
+        ],
+        "minimum_pair_count": 5,
+        "pair_histogram": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "point_degrees": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "positive_D3_rows": [
+          {
+            "deficit": 1,
+            "pair": [
+              6,
+              9
+            ],
+            "pair_count": 5,
+            "third_point": 10,
+            "triple_count": 3
+          }
+        ],
+        "six_named_caps_apply": true,
+        "six_named_caps_pass": true,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "underfilled_pairs": []
+      },
+      "remaining_deficient_pairs": [
+        [
+          3,
+          14
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          11,
+          16
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          10,
+          11,
+          14,
+          16
+        ],
+        [
+          6,
+          9,
+          12,
+          14,
+          16
+        ]
+      ],
+      "sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "a579aa1176b5ab073db53208f3e2055df01b848fd82db94866ff870835428f05",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 9,
+          "1": 467,
+          "2": 80,
+          "3": 3,
+          "4": 1
+        },
+        "covered_subsets": 551,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            3,
+            10,
+            16
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            11,
+            14
+          ]
+        ],
+        "uncovered_count": 9,
+        "valid": false
+      }
+    },
+    {
+      "fixed_addition": [
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "forced_second_addition": [
+        6,
+        8,
+        14,
+        15,
+        16
+      ],
+      "package": {
+        "blocks": 64,
+        "canonical_sha256": "4e8db0a32bff6374395580ee881d646a16c1c95c1ddd52b79f05825f951f3417",
+        "covered": 549,
+        "k": 5,
+        "multiplicities": {
+          "0": 11,
+          "1": 463,
+          "2": 82,
+          "3": 3,
+          "4": 1
+        },
+        "pair_multiplicities": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "t": 3,
+        "total_incidences": 640,
+        "triples": 560,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            8,
+            10,
+            14
+          ],
+          [
+            8,
+            10,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            14,
+            15
+          ],
+          [
+            10,
+            15,
+            16
+          ]
+        ],
+        "v": 16,
+        "valid": false
+      },
+      "path": "experiments/2026-10-04/h6-anchored-pair-repair/candidate-03.txt",
+      "profile": {
+        "D2max": 23,
+        "D2sum": 48,
+        "D3": 1,
+        "D4": 0,
+        "cardinality": 64,
+        "exact64_weak_qualified": false,
+        "hole_count": 11,
+        "holes": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            8,
+            10,
+            14
+          ],
+          [
+            8,
+            10,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            14,
+            15
+          ],
+          [
+            10,
+            15,
+            16
+          ]
+        ],
+        "ids": [
+          64,
+          85,
+          218,
+          277,
+          279,
+          287,
+          383,
+          454,
+          544,
+          551,
+          625,
+          664,
+          803,
+          817,
+          899,
+          988,
+          1039,
+          1058,
+          1158,
+          1267,
+          1361,
+          1424,
+          1431,
+          1532,
+          1613,
+          1689,
+          1720,
+          1760,
+          1958,
+          2017,
+          2102,
+          2145,
+          2210,
+          2287,
+          2348,
+          2400,
+          2496,
+          2504,
+          2706,
+          2746,
+          2811,
+          2815,
+          2842,
+          2887,
+          3054,
+          3106,
+          3132,
+          3171,
+          3209,
+          3266,
+          3346,
+          3539,
+          3564,
+          3625,
+          3692,
+          3727,
+          3766,
+          3947,
+          3994,
+          4045,
+          4166,
+          4212,
+          4261,
+          4315
+        ],
+        "minimum_pair_count": 5,
+        "pair_histogram": {
+          "5": 85,
+          "6": 32,
+          "7": 1,
+          "8": 2
+        },
+        "point_degrees": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "positive_D3_rows": [
+          {
+            "deficit": 1,
+            "pair": [
+              6,
+              9
+            ],
+            "pair_count": 5,
+            "third_point": 10,
+            "triple_count": 3
+          }
+        ],
+        "six_named_caps_apply": true,
+        "six_named_caps_pass": true,
+        "six_named_overlaps": [
+          0,
+          2,
+          2,
+          1,
+          0,
+          0
+        ],
+        "triple_histogram": {
+          "0": 11,
+          "1": 463,
+          "2": 82,
+          "3": 3,
+          "4": 1
+        },
+        "underfilled_pairs": []
+      },
+      "remaining_deficient_pairs": [
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          9,
+          12,
+          14,
+          16
+        ],
+        [
+          8,
+          10,
+          14,
+          15,
+          16
+        ]
+      ],
+      "sha256": "4e8db0a32bff6374395580ee881d646a16c1c95c1ddd52b79f05825f951f3417",
+      "standalone": {
+        "blocks": 64,
+        "canonical_format": "sorted blocks, sorted labels, ASCII space separated, LF terminated",
+        "canonical_sha256": "4e8db0a32bff6374395580ee881d646a16c1c95c1ddd52b79f05825f951f3417",
+        "cardinality_matches": true,
+        "coverage_multiplicities": {
+          "0": 11,
+          "1": 463,
+          "2": 82,
+          "3": 3,
+          "4": 1
+        },
+        "covered_subsets": 549,
+        "covers_all_subsets": false,
+        "expected_blocks": 64,
+        "expected_subset_incidences": 640,
+        "parameters": {
+          "k": 5,
+          "t": 3,
+          "v": 16
+        },
+        "point_replication": {
+          "1": 21,
+          "10": 21,
+          "11": 20,
+          "12": 20,
+          "13": 20,
+          "14": 19,
+          "15": 20,
+          "16": 19,
+          "2": 20,
+          "3": 20,
+          "4": 20,
+          "5": 20,
+          "6": 20,
+          "7": 21,
+          "8": 20,
+          "9": 19
+        },
+        "required_subsets": 560,
+        "total_subset_incidences": 640,
+        "uncovered": [
+          [
+            1,
+            7,
+            10
+          ],
+          [
+            4,
+            6,
+            9
+          ],
+          [
+            5,
+            6,
+            9
+          ],
+          [
+            6,
+            9,
+            14
+          ],
+          [
+            6,
+            9,
+            16
+          ],
+          [
+            6,
+            12,
+            16
+          ],
+          [
+            8,
+            10,
+            14
+          ],
+          [
+            8,
+            10,
+            16
+          ],
+          [
+            9,
+            12,
+            14
+          ],
+          [
+            10,
+            14,
+            15
+          ],
+          [
+            10,
+            15,
+            16
+          ]
+        ],
+        "uncovered_count": 11,
+        "valid": false
+      }
+    }
+  ],
+  "independently_recomputed_fields": [
+    "add_only_65_partial",
+    "anchored_two_swap_candidates",
+    "anchored_two_swap_deletion_pairs",
+    "anchored_two_swap_support_rejections",
+    "anchored_two_swap_surviving_supports",
+    "anchored_two_swap_weak_qualified_count",
+    "initial",
+    "initial_sha256",
+    "manifest_sha256",
+    "native_search_calls",
+    "one_swap_complete_proof_rows",
+    "one_swap_pair_floor_repair_exists",
+    "optimizer_launches",
+    "package_verifier_sha256",
+    "passed",
+    "source_sha256",
+    "standalone_verifier_sha256",
+    "unique_all_three_pair_carrier",
+    "unique_carrier_global_id"
+  ],
+  "initial_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+  "manifest_sha256": "13b26e00b3743ad33cbd94553079d1bb60b6fdf43b5f2bc79dd8ceab1c3f9241",
+  "native_search_calls": 0,
+  "one_swap_checked": 64,
+  "optimizer_launches": 0,
+  "passed": true,
+  "producer_profile_sha256": "4f7163a2648c9dd72e7e98b0b341bb76108c288e14ff50631ffe3b173e47eeea",
+  "rejected_damage_controls": [
+    "missing_one_drop",
+    "missing_candidate",
+    "duplicate_candidate",
+    "wrong_carrier",
+    "wrong_carrier_id",
+    "false_one_swap_claim",
+    "wrong_pair_count",
+    "wrong_support_count",
+    "wrong_weak_count",
+    "non64_cap_verdict",
+    "damaged_candidate_D3",
+    "damaged_candidate_holes"
+  ],
+  "scope": "No one-swap pair-floor repair. Exactly three B*-anchored exact two-swap pair-floor repairs, all failing D3. Unanchored two-swaps not excluded. The 65-block H3 family is partial. No global existence conclusion.",
+  "source_sha256": "a00b126ca068cb13a8ab830e5bf221895c6e3eb1cfa663efd02a23279d890f32",
+  "support_rejections": {
+    "deficit_above_one": 733,
+    "support_above_five": 1280
+  },
+  "surviving_supports": [
+    {
+      "fixed_addition": [
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "forced_second_addition": [
+        2,
+        6,
+        13,
+        14,
+        16
+      ],
+      "remaining_deficient_pairs": [
+        [
+          2,
+          14
+        ],
+        [
+          2,
+          16
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          13,
+          16
+        ]
+      ],
+      "removed": [
+        [
+          2,
+          10,
+          13,
+          14,
+          16
+        ],
+        [
+          6,
+          9,
+          12,
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "fixed_addition": [
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "forced_second_addition": [
+        3,
+        6,
+        11,
+        14,
+        16
+      ],
+      "remaining_deficient_pairs": [
+        [
+          3,
+          14
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          11,
+          16
+        ]
+      ],
+      "removed": [
+        [
+          3,
+          10,
+          11,
+          14,
+          16
+        ],
+        [
+          6,
+          9,
+          12,
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "fixed_addition": [
+        4,
+        5,
+        6,
+        10,
+        12
+      ],
+      "forced_second_addition": [
+        6,
+        8,
+        14,
+        15,
+        16
+      ],
+      "remaining_deficient_pairs": [
+        [
+          6,
+          14
+        ],
+        [
+          6,
+          16
+        ],
+        [
+          8,
+          14
+        ],
+        [
+          8,
+          16
+        ],
+        [
+          14,
+          15
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "removed": [
+        [
+          6,
+          9,
+          12,
+          14,
+          16
+        ],
+        [
+          8,
+          10,
+          14,
+          15,
+          16
+        ]
+      ]
+    }
+  ],
+  "weak_qualified_candidates": 0
+}

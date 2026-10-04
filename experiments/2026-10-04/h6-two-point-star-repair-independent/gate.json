@@ -1,0 +1,65 @@
+{
+  "budget": {
+    "budget_transfer": false,
+    "grace_seconds": 5,
+    "max_calls": 1,
+    "relaunch": false,
+    "seconds": 120,
+    "seed": 2026106001,
+    "watchdog_seconds": 140,
+    "workers": 4
+  },
+  "damaged_models_rejected": 16,
+  "decision": "GO",
+  "exact_blocks": 64,
+  "exact_hole_flags": 560,
+  "extra_core_degree_D2_D3_D4_restrictions": false,
+  "fixed_memberships": 2002,
+  "fixed_selected": 30,
+  "free_memberships": 2366,
+  "free_selected": 34,
+  "independent_checker_path": "experiments/2026-10-04/h6-two-point-star-repair-independent/check.py",
+  "independent_checker_sha256": "35de474ea9d4327e5669ea4cdd8ea4b6ab0600d4769f61d541a544ad5a64a64d",
+  "independent_checks_path": "experiments/2026-10-04/h6-two-point-star-repair-independent/checks.json",
+  "independent_checks_sha256": "26b7a58dc545e662faec521a6493905b93938db898cbb51f473fc9225a377470",
+  "initial_hint_complete": true,
+  "initial_hint_feasible": false,
+  "initial_hint_violating_pair_rows": [
+    1164,
+    1175,
+    1221
+  ],
+  "initial_hint_violating_pairs": [
+    [
+      4,
+      6
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      10,
+      12
+    ]
+  ],
+  "initial_sha256": "2d018ffa5e3e424193a4197b23891b52fa59b7ca411d06108e0ab1666bb85855",
+  "launch_authority": "Root only: one call, no retry, restart, extension, or budget transfer.",
+  "manifest_sha256": "29014890a28ed880861ced497d635d8d0ec75b6b5e815cac2e068ac0c2dc60dc",
+  "maximum_holes": 6,
+  "mock_watchdog_paths_passed": 3,
+  "model_sha256": "32f04e29da51daa7983f2f64b75b966fe5779eae0e830df1ef5af5d4434d0814",
+  "native_process_launches": 0,
+  "objective": "minimize holes",
+  "optimizer_launches": 0,
+  "pair_floor": 5,
+  "parameters_sha256": "871be3961403e8ebdede9b54e4c3bc69038cdbd499799907f02661a4a0615db0",
+  "passed": true,
+  "pivot": [
+    6,
+    10
+  ],
+  "reviewed_at_utc": "2026-10-04T21:51:02.922345+00:00",
+  "runner_sha256": "b177c7986a8c35b03013f3bd8da18102151794a52d564c938033cf2a1e2943fd",
+  "scope": "This fixed {6,10} neighborhood only. UNKNOWN/timeouts are inconclusive; solver INFEASIBLE would remain an uncertified local result, not a global theorem."
+}

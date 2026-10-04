@@ -1,0 +1,60 @@
+{
+  "checker_sha256": "274f31395c8eceda02c08ace757edb1e09d056a876edc7c637f5fd81569e0ff4",
+  "passed": true,
+  "runs": [
+    {
+      "all_survivors_directly_recounted": 209,
+      "deletion_rows_recounted": 41664,
+      "direct_adder_score_rows": 242,
+      "excluded_deletions": 41455,
+      "excluded_rows_directly_sampled": 33,
+      "name": "a0a737-h9",
+      "necessary_addition_triples": 279150,
+      "surviving_deletions": 209,
+      "survivor_pool_histogram": {
+        "3": 88,
+        "4": 28,
+        "5": 21,
+        "6": 18,
+        "7": 11,
+        "8": 3,
+        "9": 3,
+        "10": 2,
+        "11": 3,
+        "12": 3,
+        "16": 2,
+        "27": 6,
+        "30": 1,
+        "37": 6,
+        "40": 2,
+        "41": 5,
+        "42": 2,
+        "43": 2,
+        "44": 2,
+        "72": 1
+      }
+    },
+    {
+      "all_survivors_directly_recounted": 109,
+      "deletion_rows_recounted": 41664,
+      "direct_adder_score_rows": 142,
+      "excluded_deletions": 41555,
+      "excluded_rows_directly_sampled": 33,
+      "name": "2d018f-h6",
+      "necessary_addition_triples": 31891,
+      "surviving_deletions": 109,
+      "survivor_pool_histogram": {
+        "3": 27,
+        "4": 47,
+        "5": 17,
+        "6": 4,
+        "7": 2,
+        "9": 4,
+        "23": 4,
+        "34": 4
+      }
+    }
+  ],
+  "runs_sha256": "1037a8f8a33aa89585800dfffc784815db06f7c1b6d92e3e53d3aff708b74a54",
+  "scope": "All deletion triples and uncovered counts independently recounted. All survivor rows and a deterministic excluded sample have direct full-universe adder scores checked. Not an independent recount of every excluded top-count. No replacement tuple search and no optimizer run."
+}

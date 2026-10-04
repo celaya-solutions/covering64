@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "binary_sha256": "f1e85662de28b30ed3ac6cb3474ed6551b6d8e664d5201ee4269059e63550b84",
+  "checker_sha256": "71a16a3f2dda79b5753f680589ece7ec599dcdfa0d01c01ed516fea1824985a0",
+  "fixture_initial_ids": [
+    0,
+    8,
+    20
+  ],
+  "fixture_holes": 8,
+  "target": 7,
+  "unpruned_tuple_counts": [
+    54,
+    459,
+    816
+  ],
+  "matching_candidates": 0,
+  "native_summary": {
+    "status": "complete",
+    "seconds": 0.000206959,
+    "candidates": 0,
+    "shells": [
+      {
+        "distance": 1,
+        "deletions": 3,
+        "excluded": 3,
+        "tuples": 0,
+        "candidates": 0,
+        "complete": true
+      },
+      {
+        "distance": 2,
+        "deletions": 3,
+        "excluded": 0,
+        "tuples": 84,
+        "candidates": 0,
+        "complete": true
+      },
+      {
+        "distance": 3,
+        "deletions": 1,
+        "excluded": 0,
+        "tuples": 816,
+        "candidates": 0,
+        "complete": true
+      }
+    ]
+  },
+  "zero_budget_is_incomplete": true,
+  "damaged_inputs": {
+    "duplicate": 2,
+    "out-of-range": 2,
+    "fractional": 2,
+    "extra-label": 2
+  },
+  "nan_budget_rejected": true,
+  "production_launches": 0,
+  "scope": "Independent unpruned v7 fixture enumeration and failure controls only."
+}

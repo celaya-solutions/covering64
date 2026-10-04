@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "launch_permitted": true,
+  "manifest_sha256": "e2f01d7116d8795fff4f540a5b3a62eadb5db81f097afc86a7fc1091b3f96ef8",
+  "pins_verified": 174,
+  "controls": [
+    {
+      "path": "experiments/2026-10-04/h6-strict-hole-radius3-independent/controls.json",
+      "sha256": "48bedd92aca9c9d6244fc45397a0eb1aeef4c435a69ab0b635bbcf9a6341b10b",
+      "matching_candidates": 0,
+      "unpruned_tuples": 1329
+    },
+    {
+      "path": "experiments/2026-10-04/h6-strict-hole-radius3-independent/positive-controls.json",
+      "sha256": "f4b0e476d717c0909ba2ef1a25ae8a12d139459d700136812afc831f061443f5",
+      "matching_candidates": 735,
+      "unpruned_tuples": 1329
+    }
+  ],
+  "native_source_sha256": "095ef928c61e3af42de8651407f576074679a9f9074331f7caae021c83a6093e",
+  "runner_sha256": "aefdfe65368a6397e0996bf0edcee0ba2b64370f85290e794243805bc4052cf1",
+  "source_reviews": [
+    "Root: coverage-only exactdistance enumeration and proof of both safe bounds",
+    "Independent exact_search: no actionable correctness gap; current source pins confirmed"
+  ],
+  "budget": {
+    "native_seconds": 59,
+    "processes": 1,
+    "relaunch": false,
+    "runs": 1,
+    "seed": null,
+    "watchdog_seconds": 60
+  },
+  "production_launches_before_gate": 0,
+  "launch_authority": "Root only. One run; no relaunch. All candidates dual checked; timeout never exhaustive.",
+  "reviewed_utc": "2026-10-04T21:49:36.436955+00:00"
+}

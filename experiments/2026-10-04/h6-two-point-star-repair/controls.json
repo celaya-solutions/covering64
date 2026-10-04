@@ -1,0 +1,86 @@
+{
+  "controls": {
+    "bool": true,
+    "callback_atomic_complete_vector_format": true,
+    "covered_marked_hole": true,
+    "flipped_frozen_membership": true,
+    "float": true,
+    "frozen_parameters_roundtrip": true,
+    "gate_decision_damage": true,
+    "gate_manifest_sha256_damage": true,
+    "gate_passed_damage": true,
+    "hole_cap_five": true,
+    "hole_marked_covered": true,
+    "infeasible_initial_vector_rejected": true,
+    "infeasible_mock_callback_rejected_on_replay": true,
+    "kill_relaunch_blocked": true,
+    "normal_relaunch_blocked": true,
+    "only_three_pair_rows_relaxed_accepts_initial": true,
+    "outside_domain": true,
+    "runner_digest_damage": true,
+    "second_child_start_blocked": true,
+    "short_vector": true,
+    "terminate_relaunch_blocked": true,
+    "unknown_saves_no_solution": true,
+    "valid_gate_preflight_only": true
+  },
+  "manifest_sha256": "29014890a28ed880861ced497d635d8d0ec75b6b5e815cac2e068ac0c2dc60dc",
+  "mock_solver_calls": 1,
+  "passed": true,
+  "real_optimization_calls": 0,
+  "runner_paths": [
+    {
+      "events": [
+        [
+          "wait",
+          140
+        ]
+      ],
+      "mock_processes": 1,
+      "name": "normal"
+    },
+    {
+      "events": [
+        [
+          "wait",
+          140
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "wait",
+          5
+        ]
+      ],
+      "mock_processes": 1,
+      "name": "terminate"
+    },
+    {
+      "events": [
+        [
+          "wait",
+          140
+        ],
+        [
+          "terminate"
+        ],
+        [
+          "wait",
+          5
+        ],
+        [
+          "kill"
+        ],
+        [
+          "wait",
+          null
+        ]
+      ],
+      "mock_processes": 1,
+      "name": "kill"
+    }
+  ],
+  "scope": "Preparation controls only. No candidate or feasible start claimed.",
+  "source_sha256": "8f2a549ea60e93d4592bce81dda63f086d37e6e97216ec34c870694b35541193"
+}
