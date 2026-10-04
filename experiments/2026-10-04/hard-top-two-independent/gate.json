@@ -1,0 +1,68 @@
+{
+  "checker_sha256": "51a3354a1a8736a503d8bd281b1b74e55a8a1017e6eecc0c2e47fb3ba6a4a3e4",
+  "decision": "GO",
+  "guidance_sha256": "7ca79ef60e017d6fbf57cdc1219643458a9f071e30a120f37afc6dd2b4ad44eb",
+  "manifest_sha256": "91400d274bf722afa92b208021909b0900903b8e10d99f74a6e5e609acb8d833",
+  "model_gate_sha256": "4b97b742319397164bd2ab8270ba246ee84fc25a33f456c63e9b481baf45eba2",
+  "model_sha256": "0121b0f0f7837880402e4df43079474d7a1491db16e925622bda476c8a558a8b",
+  "optimizer_calls_by_audit": 0,
+  "parameters_sha256": "7680ff36e2b4709758e249632dfe99ea51a06fa933b8104f47ac0d5a028b153f",
+  "passed": true,
+  "positive_feasible_control_available": false,
+  "producer_runner_controls_sha256": "c4b1ac4c6294d2e787949440714a717b103b04b8bf2edb91bb52418048a6ed1a",
+  "runner_manifest_sha256": "48397e1767b00b5a1fd9519fe98a7af5af19f1906f3b2e82a145c98083cdfe2d",
+  "runner_sha256": "bd3ee87c19233ecdc916700cbc64f22d7435bea302906dec607fc48cebaf7470",
+  "scope": "Gate is technically ready for one root-owned launch with the frozen bindings. No solve was called by this audit. No reuse, relaunch, additional budget or global infeasibility claim is authorized by this receipt.",
+  "source_review": "One solve call; exactly120s/4workers/seed2026104601. Every callback including ties and any feasible final vector saves all7408 actual solver values, the separate canonical z/y extension, the witness and a hashed receipt. All domains and active rows are evaluated. Exact first5608 values are recounted; z/y need not be canonical. Actual D2zero, pair floor, D3/D4, allfour caps and global profile are checked before accepting a saved state. Both independent cover verifiers run before a holes0 stop request. Positive-hole feasible hints do not stop this holes-minimizing run.",
+  "vector_rejections": [
+    {
+      "error": "linear row violation 1815",
+      "label": "H49_no_feasible_extension"
+    },
+    {
+      "error": "incomplete vector",
+      "label": "incomplete_vector"
+    },
+    {
+      "error": "variable domain violation 0",
+      "label": "damaged_block_domain"
+    }
+  ],
+  "wrong_gates_rejected": [
+    {
+      "damaged_binding": "decision",
+      "required_error": "independent GO required",
+      "returncode": 1
+    },
+    {
+      "damaged_binding": "manifest_sha256",
+      "required_error": "gate binding mismatch: manifest_sha256",
+      "returncode": 1
+    },
+    {
+      "damaged_binding": "model_sha256",
+      "required_error": "gate binding mismatch: model_sha256",
+      "returncode": 1
+    },
+    {
+      "damaged_binding": "parameters_sha256",
+      "required_error": "gate binding mismatch: parameters_sha256",
+      "returncode": 1
+    },
+    {
+      "damaged_binding": "guidance_sha256",
+      "required_error": "gate binding mismatch: guidance_sha256",
+      "returncode": 1
+    },
+    {
+      "damaged_binding": "runner_sha256",
+      "required_error": "gate binding mismatch: runner_sha256",
+      "returncode": 1
+    },
+    {
+      "damaged_binding": "runner_manifest_sha256",
+      "required_error": "gate binding mismatch: runner_manifest_sha256",
+      "returncode": 1
+    }
+  ]
+}

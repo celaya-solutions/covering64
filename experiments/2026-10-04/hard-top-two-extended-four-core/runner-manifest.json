@@ -1,0 +1,29 @@
+{
+  "budget_seconds": 120,
+  "callback_policy": "save every delivered callback including ties plus any feasible final vector",
+  "gate_bindings": [
+    "manifest_sha256",
+    "model_sha256",
+    "parameters_sha256",
+    "guidance_sha256",
+    "runner_sha256",
+    "runner_manifest_sha256"
+  ],
+  "guidance_sha256": "7ca79ef60e017d6fbf57cdc1219643458a9f071e30a120f37afc6dd2b4ad44eb",
+  "manifest_sha256": "91400d274bf722afa92b208021909b0900903b8e10d99f74a6e5e609acb8d833",
+  "model_sha256": "0121b0f0f7837880402e4df43079474d7a1491db16e925622bda476c8a558a8b",
+  "objective": "holes only",
+  "optimizer_calls": 0,
+  "parameters_sha256": "7680ff36e2b4709758e249632dfe99ea51a06fa933b8104f47ac0d5a028b153f",
+  "relaunch": "refuse existing raw run directory or result",
+  "runner_sha256": "bd3ee87c19233ecdc916700cbc64f22d7435bea302906dec607fc48cebaf7470",
+  "scope": "separate runner receipt; frozen model preparation manifest unchanged",
+  "seed": 2026104601,
+  "source_snapshot": "experiments/scratch/hard-top-two-extended-four-core-20261004/runner-sources/execute.py",
+  "sources": {
+    "experiments/2026-10-04/hard-top-two-extended-four-core/execute.py": "bd3ee87c19233ecdc916700cbc64f22d7435bea302906dec607fc48cebaf7470"
+  },
+  "status": "PREPARED ONLY; independent GO required; no Solve called",
+  "stop": "actual holes0 with both covering verifiers valid",
+  "workers": 4
+}

@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.23.0
+Version:     v1.24.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      72d170749a22d85ca7a0ac7b6741d63248e4795f9e348d9843000f7569eb40c9
+SHA256:      46dec7122d70e4c19bb9396568d9555cd30b6e9ef608e3a505181fa0edd40c51
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -974,6 +974,13 @@ The soft CP model retains exact pair/triple counts, exact hole flags, pair floor
 
 The sole 120-second, four-worker CP call (seed 2026104302) returned FEASIBLE without improvement. Its one callback and final vector both retain the same 49-hole family, deficit 74, full row sum 170 and objective 41,563; the objective bound is zero. Independent replay checked both complete 5,728-value assignments and all 14,405 rows, plus the two covering verifiers. There is no zero-deficit hint, 64-block cover, or infeasibility result. See `soft-strong-pair-four-core/`, `soft-pair-two-independent/` and `soft-pair-two-postcheck/`.
 
-A separate hard extended formulation is being prepared using the proved top-two identity. It will impose the same stronger-pair condition with 120 threshold variables and 1,680 positive-part auxiliaries. This is an equivalent representation; no performance gain has been established. No verified 64-block cover has been found.
+A separately checked hard extended formulation uses the proved top-two identity with 120 threshold variables and 1,680 positive-part auxiliaries. Its 7,408 variables and 3,605 rows retain the exact necessary pair condition and four checked core caps, with holes as the only objective. The single 120-second, four-worker run (seed 2026104601) returned UNKNOWN without callbacks or a feasible vector. The independent runtime audit verified the empty native solution, all hashes and the final status. This is an equivalent representation, but no search benefit has been measured and no infeasibility claim follows. See `hard-top-two-extended-four-core/` and `hard-top-two-independent/`.
 
 The completed checkpoint passed frozen dependency sync, all 369 tests (258.05 seconds), full Ruff and diff checks. The three existing SWIG deprecation warnings remain. The validation record is in `stronger-pair-checkpoint-validation/`.
+
+
+## Published add/drop method and the next construction pilot (October 4)
+
+A new primary-source review found the authors' implementation of NuSC (Luo, Xing, Cai and Hu; DOI 10.1109/TCYB.2022.3199147). The selected mechanism is a variable-cardinality two-drop/add-repair walk with dynamic weights, a redundancy score and configuration checking. At incumbent size 65 it may walk through 64, 62 and 63 selected blocks; it does not inherently make 65/66 excursions. The existing native search already has hole-driven weighted 78-carrier exchanges, so that part alone is not new. The author source has no forgetting/decay rule. Its source revision, exact algorithm references, GPLv3 license, retrieval limitations and other inspected primary leads are saved in `post-d2-literature/`. No upstream GPL code is copied into the tracked implementation.
+
+An independent implementation is being prepared for two 120-second seeds from the verified Belic 65-block cover. It records actual family sizes, complete incumbents, raw exact-64 partials and separate four-core-cap-admissible exact-64 partials. Core caps classify those exact-64 records only; they are not extrapolated to other sizes or imposed on intermediate trajectories. This preparation is not an optimizer result. No verified 64-block cover has been found.
