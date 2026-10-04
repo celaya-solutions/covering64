@@ -1,0 +1,180 @@
+{
+  "binary_variables": 4368,
+  "budget_transfer": false,
+  "calls": 8,
+  "cardinality": 64,
+  "cases": [
+    {
+      "center_offsets": [
+        1,
+        1,
+        8,
+        3,
+        8
+      ],
+      "index": 0,
+      "model_sha256": "0dff47772006cdb681224258634ac9230089b40836d91248b16030376b9d93bc",
+      "name": "case-01",
+      "parameters_sha256": "2b62751c4c17e0193307b1f938cb39964fd5f4caefd3a1d89af5215f219a77d7",
+      "point_link_core_type": "C4-leaf",
+      "seed": 2026106401
+    },
+    {
+      "center_offsets": [
+        1,
+        1,
+        8,
+        3,
+        15
+      ],
+      "index": 1,
+      "model_sha256": "3e3874dbb5899e171185e9c0e902fa119c7d661d7f7c5bc4f4560327a82e5f04",
+      "name": "case-02",
+      "parameters_sha256": "64d35e48a7208eefecd870b6a895d100d498e0c87e62d646d81dd55fb2111239",
+      "point_link_core_type": "C5",
+      "seed": 2026106402
+    },
+    {
+      "center_offsets": [
+        1,
+        1,
+        13,
+        3,
+        8
+      ],
+      "index": 2,
+      "model_sha256": "43e0548689baed04bf22975180de5d7a40a2d5f2efd4d92ddc3b4fa19c8d8472",
+      "name": "case-03",
+      "parameters_sha256": "de4785c8c3fce17af674d05451b8e6855549950679bd57db1b8faf19f558897a",
+      "point_link_core_type": "triangle-distinct-leaves",
+      "seed": 2026106403
+    },
+    {
+      "center_offsets": [
+        1,
+        1,
+        13,
+        3,
+        15
+      ],
+      "index": 3,
+      "model_sha256": "d424a5e515ec36c104bae2e8cc6801ca0493a914ec119ed9912530a3436e29b4",
+      "name": "case-04",
+      "parameters_sha256": "25d07e8dae47e8c67e02d4b28bd1c13a849d68e73038ef3f97c814066ccf4714",
+      "point_link_core_type": "C4-leaf",
+      "seed": 2026106404
+    },
+    {
+      "center_offsets": [
+        1,
+        3,
+        8,
+        3,
+        8
+      ],
+      "index": 4,
+      "model_sha256": "9089782a5784f0e0b46e8e6f3dcdf2c0a325f824ef71df14e7e477bf4720a96e",
+      "name": "case-05",
+      "parameters_sha256": "6d3181d0c72146c3a43d3030aef0a396b3d76c9ed8225cb51316cd2f8959b499",
+      "point_link_core_type": "C4-leaf",
+      "seed": 2026106405
+    },
+    {
+      "center_offsets": [
+        1,
+        3,
+        8,
+        3,
+        15
+      ],
+      "index": 5,
+      "model_sha256": "70f6e3760ee7a87036351b95c1953306795cf512e348634f718c212fab246194",
+      "name": "case-06",
+      "parameters_sha256": "a5bc21eb0a2fe7f2ca55a3ce5ee0418bad0ef8051967b9f2e911f94b0b8aecfc",
+      "point_link_core_type": "triangle-distinct-leaves",
+      "seed": 2026106406
+    },
+    {
+      "center_offsets": [
+        1,
+        3,
+        13,
+        3,
+        8
+      ],
+      "index": 6,
+      "model_sha256": "cb3bc91974c2677f39e426be7fa0c7ef4c7d25185508b46dd59010420bac0e35",
+      "name": "case-07",
+      "parameters_sha256": "6462c81b51c42d7cdccb1105c38f69be88ad80d0aebbfaa0c0a112aa34650917",
+      "point_link_core_type": "C5",
+      "seed": 2026106407
+    },
+    {
+      "center_offsets": [
+        1,
+        3,
+        13,
+        3,
+        15
+      ],
+      "index": 7,
+      "model_sha256": "a5326933bbad1a27eb41d77fc6f366f906c1429c7fae4c95e8e9012f5d0fa5d9",
+      "name": "case-08",
+      "parameters_sha256": "07f1aff67be194edaae82e9977e0a0567adfe7075979046f498762a336dff564",
+      "point_link_core_type": "C4-leaf",
+      "seed": 2026106408
+    }
+  ],
+  "cover_symmetry_constraints": null,
+  "fixed_links": null,
+  "fixed_neighborhoods": null,
+  "fixed_variables": 0,
+  "hint": null,
+  "native_seconds_per_call": 30,
+  "native_seconds_total_cap": 240,
+  "objective": null,
+  "ortools": "9.15.6755",
+  "pins": {
+    "experiments/2026-10-04/circulant-exact-profile-pilot/run.py": "68fbd3cd539d9d12589de39bef55ff66605f2d3d9227a86b5ed4773253cae0fc",
+    "experiments/2026-10-04/circulant-exact-profile-pilot/seed-check.json": "d3a28ecc1859cf3752564c3370c4904aac03df803f84cdea4154d0c4f3ccb2e4",
+    "experiments/2026-10-04/circulant-pair-graph-screen/README.md": "dee7e3434b0438201a25539d59415a6b39cb265f732475642e02526de8bdd499",
+    "experiments/2026-10-04/circulant-pair-graph-screen/build.py": "4a7901e6413c56ccefab9caf870c3b651a902aeb6f560a6097e5fe380b211ad0",
+    "experiments/2026-10-04/circulant-pair-graph-screen/geometry.json": "3476c522dcb2dfc01478d41da25a1a2c8766acaeb189f0341fe991949e3b6d23",
+    "experiments/2026-10-04/circulant-pair-graph-screen/profiles.json": "dec757aef695e80546c0408a5ebe116cb4666e9472e1e3b429d07bef2990a908",
+    "experiments/2026-10-04/circulant-pair-graph-screen/rejected-orbit-choices.json": "168861717eb0779006895cf488b6ebaedc37be9ed1369d9039ea911a273c5f95",
+    "experiments/2026-10-04/circulant-pair-graph-screen/screen.json": "c12a292954a417a09525dca7e0651d7e50db75920406c8de468a67f88daa54b9",
+    "experiments/2026-10-04/circulant-pair-graph-screen/summary.json": "27dd7ebf038525fa55b9c6ac631127b20ffbf6f424c4c20b4d784a93c1737d03",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/model.pbtxt": "0dff47772006cdb681224258634ac9230089b40836d91248b16030376b9d93bc",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/parameters.pbtxt": "2b62751c4c17e0193307b1f938cb39964fd5f4caefd3a1d89af5215f219a77d7",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/model.pbtxt": "3e3874dbb5899e171185e9c0e902fa119c7d661d7f7c5bc4f4560327a82e5f04",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/parameters.pbtxt": "64d35e48a7208eefecd870b6a895d100d498e0c87e62d646d81dd55fb2111239",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/model.pbtxt": "43e0548689baed04bf22975180de5d7a40a2d5f2efd4d92ddc3b4fa19c8d8472",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/parameters.pbtxt": "de4785c8c3fce17af674d05451b8e6855549950679bd57db1b8faf19f558897a",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/model.pbtxt": "d424a5e515ec36c104bae2e8cc6801ca0493a914ec119ed9912530a3436e29b4",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/parameters.pbtxt": "25d07e8dae47e8c67e02d4b28bd1c13a849d68e73038ef3f97c814066ccf4714",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/model.pbtxt": "9089782a5784f0e0b46e8e6f3dcdf2c0a325f824ef71df14e7e477bf4720a96e",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/parameters.pbtxt": "6d3181d0c72146c3a43d3030aef0a396b3d76c9ed8225cb51316cd2f8959b499",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/model.pbtxt": "70f6e3760ee7a87036351b95c1953306795cf512e348634f718c212fab246194",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/parameters.pbtxt": "a5bc21eb0a2fe7f2ca55a3ce5ee0418bad0ef8051967b9f2e911f94b0b8aecfc",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/model.pbtxt": "cb3bc91974c2677f39e426be7fa0c7ef4c7d25185508b46dd59010420bac0e35",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/parameters.pbtxt": "6462c81b51c42d7cdccb1105c38f69be88ad80d0aebbfaa0c0a112aa34650917",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/model.pbtxt": "a5326933bbad1a27eb41d77fc6f366f906c1429c7fae4c95e8e9012f5d0fa5d9",
+    "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/parameters.pbtxt": "07f1aff67be194edaae82e9977e0a0567adfe7075979046f498762a336dff564",
+    "scripts/check_cover.py": "755fecdc6978f94afa7bbaad299fc55bcfd4d4afe831951bdc70d1e81698e950",
+    "src/covering64/core.py": "3b49b76a0fe243efe8bbba5fdc0887b754e7e3cd24c177dfc7531c2036f22beb"
+  },
+  "python": "3.13.15",
+  "relaunch": false,
+  "retries": false,
+  "rows": 561,
+  "scope": "Eight exact profiles for the non-Clebsch circulant pair graph; conditional only.",
+  "sequential": true,
+  "source_revision": "25227dae4457b4b07121174f87622c7eef261e9f",
+  "termination_grace_seconds_per_call": 5,
+  "triple_demand_one": 480,
+  "triple_demand_two": 80,
+  "triple_rows": 560,
+  "variables": 4368,
+  "watchdog_seconds_per_call": 35,
+  "workers_per_call": 1
+}

@@ -1,0 +1,158 @@
+{
+  "arithmetic_review_sha256": "d83b9a199c51088a3242e9d42c303aa86ee1b5a0b1cd47846577f4bb78e7e928",
+  "cases": [
+    {
+      "fixed_variables": 0,
+      "index": 0,
+      "model_sha256": "0dff47772006cdb681224258634ac9230089b40836d91248b16030376b9d93bc",
+      "parameters_sha256": "2b62751c4c17e0193307b1f938cb39964fd5f4caefd3a1d89af5215f219a77d7",
+      "rows_checked": 561,
+      "seed": 2026106401,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 1,
+      "model_sha256": "3e3874dbb5899e171185e9c0e902fa119c7d661d7f7c5bc4f4560327a82e5f04",
+      "parameters_sha256": "64d35e48a7208eefecd870b6a895d100d498e0c87e62d646d81dd55fb2111239",
+      "rows_checked": 561,
+      "seed": 2026106402,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 2,
+      "model_sha256": "43e0548689baed04bf22975180de5d7a40a2d5f2efd4d92ddc3b4fa19c8d8472",
+      "parameters_sha256": "de4785c8c3fce17af674d05451b8e6855549950679bd57db1b8faf19f558897a",
+      "rows_checked": 561,
+      "seed": 2026106403,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 3,
+      "model_sha256": "d424a5e515ec36c104bae2e8cc6801ca0493a914ec119ed9912530a3436e29b4",
+      "parameters_sha256": "25d07e8dae47e8c67e02d4b28bd1c13a849d68e73038ef3f97c814066ccf4714",
+      "rows_checked": 561,
+      "seed": 2026106404,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 4,
+      "model_sha256": "9089782a5784f0e0b46e8e6f3dcdf2c0a325f824ef71df14e7e477bf4720a96e",
+      "parameters_sha256": "6d3181d0c72146c3a43d3030aef0a396b3d76c9ed8225cb51316cd2f8959b499",
+      "rows_checked": 561,
+      "seed": 2026106405,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 5,
+      "model_sha256": "70f6e3760ee7a87036351b95c1953306795cf512e348634f718c212fab246194",
+      "parameters_sha256": "a5bc21eb0a2fe7f2ca55a3ce5ee0418bad0ef8051967b9f2e911f94b0b8aecfc",
+      "rows_checked": 561,
+      "seed": 2026106406,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 6,
+      "model_sha256": "cb3bc91974c2677f39e426be7fa0c7ef4c7d25185508b46dd59010420bac0e35",
+      "parameters_sha256": "6462c81b51c42d7cdccb1105c38f69be88ad80d0aebbfaa0c0a112aa34650917",
+      "rows_checked": 561,
+      "seed": 2026106407,
+      "variables": 4368
+    },
+    {
+      "fixed_variables": 0,
+      "index": 7,
+      "model_sha256": "a5326933bbad1a27eb41d77fc6f366f906c1429c7fae4c95e8e9012f5d0fa5d9",
+      "parameters_sha256": "07f1aff67be194edaae82e9977e0a0567adfe7075979046f498762a336dff564",
+      "rows_checked": 561,
+      "seed": 2026106408,
+      "variables": 4368
+    }
+  ],
+  "checker_sha256": "b0deb466b2d2862a651303200ecf1b051c20a4883c066d62e3b2dd9cef1824c1",
+  "decision": "GO",
+  "launch_permitted": true,
+  "malformed_models_rejected": [
+    "fixed_variable",
+    "nonbinary_variable",
+    "duplicate_incidence",
+    "wrong_coefficient",
+    "weakened_demand",
+    "wrong_cardinality",
+    "guarded_row",
+    "added_link_restriction",
+    "objective",
+    "hint",
+    "assumption",
+    "search_strategy"
+  ],
+  "manifest_sha256": "129002dca2ab140a5be66a8879fd7d97fee41f4203ba186d93ca720b335aa7da",
+  "mock_runner_controls": [
+    {
+      "mock_calls": 8,
+      "passed": true,
+      "scenario": "normal"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "term"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "kill"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "nonzero"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "missing"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "model_invalid"
+    },
+    {
+      "mock_calls": 0,
+      "passed": true,
+      "scenario": "invalid_gate"
+    },
+    {
+      "mock_calls": 0,
+      "passed": true,
+      "scenario": "wrong_gate_manifest"
+    },
+    {
+      "mock_calls": 0,
+      "passed": true,
+      "scenario": "existing_child"
+    }
+  ],
+  "optimizer_calls": 0,
+  "passed": true,
+  "real_process_launches": 0,
+  "real_signals_sent": 0,
+  "reflection_profile_index_map": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "runner_sha256": "68fbd3cd539d9d12589de39bef55ff66605f2d3d9227a86b5ed4773253cae0fc",
+  "scope": "Eight fixed arithmetic excess profiles on a non-Clebsch circulant graph. All4368 block variables are free Boolean; exact64 and560 exact triple equations only. No local link, neighborhood, incidence, or block-family symmetry restriction. Profiles have reflection pairs; no nonisomorphism claim. Root alone may launch eight sequential30s one-worker calls. INFEASIBLE without an independent proof is not a theorem."
+}

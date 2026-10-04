@@ -1,0 +1,57 @@
+{
+  "all_recorded_cut_rows_checked": 71500,
+  "checker_sha256": "6a4c898ee755545575a4b3e5ba5ac3fbb6683621b3c21c01afe008cc2b30ccd8",
+  "core_profile_census": {
+    "C4-leaf": 4,
+    "C5": 2,
+    "triangle-distinct-leaves": 2
+  },
+  "damaged_controls_rejected": [
+    "missing",
+    "duplicate",
+    "zero_label",
+    "bool_label",
+    "nonsorted",
+    "nonpath"
+  ],
+  "distinct_from_clebsch": true,
+  "five_orbit_subsets_checked": 252,
+  "forbidden_excess_paths": 32,
+  "forced_excess_paths": 32,
+  "graph_edges": 40,
+  "graph_induced_paths": 160,
+  "graph_triangles": 0,
+  "graphs_checked": 21,
+  "invariant_profiles": 8,
+  "nonedge_common_neighbor_histogram": {
+    "1": 16,
+    "2": 48,
+    "3": 16
+  },
+  "optimizer_calls": 0,
+  "passed": true,
+  "point_links_checked": 128,
+  "producer_imported": false,
+  "producer_pins": {
+    "build.py": "4a7901e6413c56ccefab9caf870c3b651a902aeb6f560a6097e5fe380b211ad0",
+    "geometry.json": "3476c522dcb2dfc01478d41da25a1a2c8766acaeb189f0341fe991949e3b6d23",
+    "profiles.json": "dec757aef695e80546c0408a5ebe116cb4666e9472e1e3b429d07bef2990a908",
+    "rejected-orbit-choices.json": "168861717eb0779006895cf488b6ebaedc37be9ed1369d9039ea911a273c5f95",
+    "screen.json": "c12a292954a417a09525dca7e0651d7e50db75920406c8de468a67f88daa54b9",
+    "summary.json": "27dd7ebf038525fa55b9c6ac631127b20ffbf6f424c4c20b4d784a93c1737d03"
+  },
+  "profile_hashes_in_producer_order": [
+    "b3e7cc8ddfc201727d84a344dd015e49c826d7e75a6931b65a1f77ca69f10658",
+    "a509728be6e5c7c0cbef407432b008594a08450aac6c805eb243d5c8624ca498",
+    "939acea84d9eb8adff3516e273571c7409e17b7fd66cae1a0b60c985ec929e91",
+    "69218afed63ffedefa5d639aa97e75c04e0d7823772a2eb3bc9bbacd48e6790a",
+    "c61a527cc5056206976f3b14b06e08fad40249dc2aa028e8d3848562b0321d33",
+    "14811282ba6e1edaa995a7a0df3745276820099167e10de8661fde4db27ba53e",
+    "130f9b919524a150f5b1295fdc1e2522f1300a697e7d8fa582a22a68b703d4ba",
+    "f9f4e0e65a3fc46aad60fb862a60eb559fe845087a329eefbaab03137b6d72f5"
+  ],
+  "remaining_binary_nonedge_choices": 48,
+  "scope": "Necessary regular pair-profile arithmetic for this triangle-free graph; eight translation-invariant excess profiles, not all possible excess profiles. No block-family invariance imposed and no cover constructed.",
+  "tight32_cuts": 9,
+  "translation_orbits": 10
+}

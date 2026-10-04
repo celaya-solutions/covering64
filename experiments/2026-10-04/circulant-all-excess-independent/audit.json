@@ -1,0 +1,91 @@
+{
+  "automorphism_group_size": 32,
+  "checker_sha256": "6e37aecc902a5a8e56dff0fa418a6d55d76eb0bedee263168f29b64a08c0bd1a",
+  "cover_searches": 0,
+  "damage_controls": {
+    "bool_mask": "rejected",
+    "changed_choice": "rejected",
+    "duplicate_mask": "rejected",
+    "omitted_mask": "rejected",
+    "reversed_order": "rejected"
+  },
+  "elapsed_seconds": 0.6458191669080406,
+  "free_dimension": 18,
+  "integer_enumeration": {
+    "branches": 1623,
+    "forced_assignments": 22486,
+    "nodes": 3247,
+    "pruned": 324
+  },
+  "optimizer_calls": 0,
+  "orbit_count": 52,
+  "orbit_size_histogram": {
+    "2": 4,
+    "4": 1,
+    "8": 3,
+    "16": 9,
+    "32": 35
+  },
+  "original_eight_profiles": [
+    {
+      "choice_mask": 879496939776,
+      "orbit_representative": 879496939776,
+      "profile_index": 0
+    },
+    {
+      "choice_mask": 4764363033100,
+      "orbit_representative": 4764363033100,
+      "profile_index": 1
+    },
+    {
+      "choice_mask": 90746557525394,
+      "orbit_representative": 90746557525394,
+      "profile_index": 2
+    },
+    {
+      "choice_mask": 94631423618718,
+      "orbit_representative": 94631423618718,
+      "profile_index": 3
+    },
+    {
+      "choice_mask": 186843553091937,
+      "orbit_representative": 94631423618718,
+      "profile_index": 4
+    },
+    {
+      "choice_mask": 190728419185261,
+      "orbit_representative": 90746557525394,
+      "profile_index": 5
+    },
+    {
+      "choice_mask": 276710613677555,
+      "orbit_representative": 4764363033100,
+      "profile_index": 6
+    },
+    {
+      "choice_mask": 280595479770879,
+      "orbit_representative": 879496939776,
+      "profile_index": 7
+    }
+  ],
+  "output_hashes": {
+    "automorphisms.json": "66bf50ad962eb0f1a260320e2a8ff9fad3531022174632cfa07fd5dbb9bb8512",
+    "orbits.json": "d0aab8d3de76e07c23a71adb10d10b36e403275fd236f52522f38e0efac480d6"
+  },
+  "passed": true,
+  "point_link_core_tally": {
+    "C4-leaf": 6272,
+    "C5": 4768,
+    "triangle-distinct-leaves": 1248,
+    "triangle-path2": 8512
+  },
+  "producer_pins": {
+    "enumerate.py": "73a8f632af2318c1cba856bbda5de211331484929144f19fc0c4ec0530e661fa",
+    "geometry.json": "c1c9e6d640141238e03e2a37fb37155c1ee8f67868dd59fca8844fd93ec0a1a9",
+    "profiles.json": "9e29e1aa6769950297656c4b4a14bef14f04bd182500dfc15e56ffb38b9fef9e"
+  },
+  "profile_core_census_patterns": 24,
+  "profiles": 1300,
+  "rational_rank_verified": 30,
+  "scope": "All arithmetic excess profiles for this one graph; no cover existence claim."
+}

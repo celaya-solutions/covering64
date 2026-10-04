@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.36.0
+Version:     v1.37.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      14d17e4eeedb4251d1da0491e8aac8ef98218a97ff787031cb1f7f8210b885a7
+SHA256:      e985b84848308845f0c2021df2a853a77da90057535edbae84dd5104c5df11c9
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1274,3 +1274,25 @@ The certificate supplies192 explicit graph automorphisms taking a reference cycl
 Fixing fifteen neighbor pentads leaves258 compatible further choices:192 cycles,30 C4-with-leaf pentads,30 paths on five vertices, five stars and the missing neighbor pentad. Let their selected counts be a,b,c,d,e; let x count the selected cycles containing the omitted center. Exact edge incidences, cardinality and uncovered independent triples give c+d+5e=5 and b+3d+5e=5. At the omitted center, the fixed blocks supply five of its required twenty incidences. Each remaining cycle contributes two graph edges there, a C4-with-leaf contributes three and a star four. Thus x+b+d=15 and2x+3b+4d=30, forcing b=d=0 and then e=1. Fifteen selected neighbor pentads therefore force the sixteenth.
 
 An independent enumeration checks every candidate and identity contribution, all sixteen point-normalizing XOR maps, and a fresh replay of the preceding sixteen-neighbor certificate. Nineteen damaged inputs are rejected. Independent audit SHA256 is `bd811ed04a34265113bffa75fff4a00461bdec12c58dd21bdd83be83a64a8929`. Consequently, any64-block cover with this Clebsch pair profile contains at most fourteen of its sixteen neighbor pentads. This is a proved restriction within that pair profile, not a new unrestricted lower bound or a proof against all Clebsch-profile covers.
+
+## A different circulant pair graph (October 4)
+
+An exact arithmetic screen considers the21 degree-five Cayley graphs on Z16 with steps {±a,±b,8}, where1≤a<b≤7. Thirteen contain triangles; four more have a nonedge without a common center and cannot support the proposed triangle-free path-excess recipe. The four survivors, (a,b)=(1,3),(1,5),(3,7),(5,7), are one isomorphism type under explicit odd multiplications. Its nonedge common-neighbor histogram {1:16,2:48,3:16} distinguishes it from Clebsch, whose histogram is {2:80}. This is a finite classification of the21 stated choices only.
+
+The graph with steps{±1,±3,8} passes all seven/eight-cut bounds, with maxima31 and32. Nine tight balanced cuts forbid32 of its160 path triples. The eighty nonedges therefore have32 forced centers and48 binary choices, which must also supply four excess paths on every graph edge. Among24 translation-invariant center choices, exactly eight satisfy every condition. All128 point links are checked, with two C5, four C4-with-leaf and two triangle-with-distinct-leaves profile types. These are excess profiles; selected block families are not assumed invariant.
+
+Independent arithmetic review rebuilt every graph, cut histogram, center, path, pair load and point link. Its separate enumeration of all252 five-orbit subsets recovered the same eight profiles. The review has SHA256 `d83b9a199c51088a3242e9d42c303aa86ee1b5a0b1cd47846577f4bb78e7e928`; the producer summary has SHA256 `27dd7ebf038525fa55b9c6ac631127b20ffbf6f424c4c20b4d784a93c1737d03`. Reflection maps profile index i to7−i, so eight is not a nonisomorphism count.
+
+Eight conditional global models retain every4,368 lexicographic binary block variable, exact64 and560 exact triple-demand rows. They impose no local link, fixed neighborhood, hint, objective or cover-symmetry constraint. Root checked all27 pins and launched the sole sequential batch with30 seconds and one worker per profile, seeds2026106401–6408, under manifest `129002dca2ab140a5be66a8879fd7d97fee41f4203ba186d93ca720b335aa7da` and independent GO `63ac723a471129048deba2a1aaed69c010f76885f1538c61083ac13971ae5337`. The reviewer checked every serialized row and parameter, rejected12 damaged models and exercised nine mocked launcher scenarios. Each call has a35-second watchdog and5-second termination grace, with no retry or budget transfer.
+
+All eight calls returned UNKNOWN and saved no solution vector or candidate. Total native time was240.003671 seconds; wrapper time was244.48303966701496, with no error or watchdog. The terminal result has SHA256 `f69ad4fae2944eb35043cbe6a25beee33fc97e2e597f81cc46dd7a4b6987dd24`. Independent runtime review rechecked all27 preparation pins, exact commands and parameters, response protobufs, log/status agreement and empty candidate fields, and rejected seven damaged vectors. Its review has SHA256 `d5d7dc928448d772a960317473d21d84d0254f5f1e77bcde2a913f0e74d9e7c5`. These bounded runs are inconclusive and exclude none of the eight profiles.
+
+## Enumerating all excess profiles for the circulant graph (October 4)
+
+The broader finite calculation keeps all48 binary center choices, without translation invariance. After subtracting the first-center baseline, the forty exact edge-load equations have rational rank30. Exact Fraction elimination records all pivot operations through the resulting reduced rows, leaving18 free columns. Every feasible binary profile has a unique assignment to those free columns. Checking all262,144 assignments, and retaining those whose30 pivot values are binary, produces exactly1,300 profiles in0.29003058304078877 seconds. Every retained assignment is recounted against the original forty equations and all120 pair demands. No optimizer or cover search is called.
+
+The saved geometry contains the original integer system and exact rational reduced rows. The complete profile list has SHA256 `9e29e1aa6769950297656c4b4a14bef14f04bd182500dfc15e56ffb38b9fef9e`; the calculation receipt has SHA256 `df2ed9b00839bbdac0b455b226227108f487dd1d2ca6407c6798ad311b7ae882`. A separate integer row-bound and binary-branch enumerator reproduces all1,300 masks in3,247 nodes, with1,623 branches,324 pruned nodes and22,486 forces. Exact row reconstruction and rank modulo101 independently verify rank30; five damaged controls are rejected. Independent audit SHA256 is `0ac5ff70de498fd1f399eea6fc7988057d964a53ec0a614c276c0831bc1b3dd9`.
+
+The full graph automorphism group has32 elements. Any map fixing a point is determined by its action on its five neighbors: all ten nonneighbors have distinct neighbor subsets inside that set. Exhausting the120 neighbor permutations leaves identity and reflection; sixteen translations complete the group. Its explicitly checked action partitions the1,300 profiles into52 orbits: four of size2, one of size4, three of size8, nine of size16 and35 of size32. The original eight profiles occupy the four size-two orbits. The orbit data has SHA256 `d0aab8d3de76e07c23a71adb10d10b36e403275fd236f52522f38e0efac480d6`. Every cover with this pair graph can be transported to a representative excess profile; this does not require the cover itself to be invariant.
+
+All20,800 point links have one of the same four local core types:6,272 C4-with-leaf,8,512 triangle-with-path,4,768 C5 and1,248 triangle-with-distinct-leaves, with24 profile-level type-census patterns. These remain potential repeated-triple patterns for one named pair graph, not covers or an unrestricted reduction.

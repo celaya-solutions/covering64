@@ -1,0 +1,37 @@
+{
+  "command": [
+    "rg",
+    "--no-ignore",
+    "-l",
+    "202610640[1-8]",
+    "experiments",
+    "scripts",
+    "docs",
+    "--glob",
+    "*.py",
+    "--glob",
+    "*.json",
+    "--glob",
+    "*.md",
+    "--glob",
+    "*.pbtxt",
+    "--glob",
+    "*.log",
+    "--glob",
+    "!experiments/2026-10-04/circulant-exact-profile-pilot/**"
+  ],
+  "matching_files": [],
+  "optimizer_calls": 0,
+  "returncode": 1,
+  "scope": "Current recorded scripts, docs and experiment source/JSON/Markdown/protobuf/log files, including ignored scratch; excludes only this new producer directory. Does not recover missing historical artifacts.",
+  "seeds": [
+    2026106401,
+    2026106402,
+    2026106403,
+    2026106404,
+    2026106405,
+    2026106406,
+    2026106407,
+    2026106408
+  ]
+}

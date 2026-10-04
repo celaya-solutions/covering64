@@ -78,10 +78,11 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit 25227da saves the checked H6 plateau, unchanged native rerun, warm-star outcome and all16 fractional recipe checks; 369 tests and Ruff pass.
+Commit fb4dcd8 saves the checked exclusions of all256 chosen affine links and the Clebsch fifteen/sixteen-neighbor proofs. Ruff and all17 document hashes pass; package regression remains369 passing tests.
 The H6 strict search excludes improvement through four replacements. Its complete neutral radius-three search finds only three one-swap alternatives, all with the same failing pair metrics. The fresh 300-second H6 native run retains raw H6; its best new weak record H11/D26 does not improve the separate H9/D19 fallback. The warm-star run retains its H9 input; all16 Clebsch recipe relaxations are fractional, not covers.
 All256 chosen affine point links now have independently checked finite exclusions. Under the Clebsch pair profile, fifteen neighbor pentads force sixteen, whose separate finite certificate gives a contradiction; at most fourteen can occur. Alternate local constructions remain open. Neutral exact-four is deferred after its large workload screen.
-Next: independently audit and run the eight full excess-profile models for the non-Clebsch circulant graph with steps ±1,±3,8. No 64-block cover or global exclusion. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
+The non-Clebsch circulant graph with steps ±1,±3,8 has exactly1300 admissible excess profiles after tight cuts, in52 orbits under its32 graph automorphisms; two independent finite enumerators agree. Eight30-second fixed-profile calls all returned UNKNOWN, checked independently.
+Next: audit and run one model allowing all52 excess representatives, and screen all maps of the four chosen affine link witnesses at point1. These are separate routes; neither assumes invariant covers. No 64-block cover or global exclusion. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 

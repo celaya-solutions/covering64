@@ -1,0 +1,281 @@
+{
+  "elapsed_seconds": 244.48303966701496,
+  "finished_calls": 8,
+  "gate_sha256": "63ac723a471129048deba2a1aaed69c010f76885f1538c61083ac13971ae5337",
+  "manifest_sha256": "129002dca2ab140a5be66a8879fd7d97fee41f4203ba186d93ca720b335aa7da",
+  "planned_calls": 8,
+  "runs": [
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 0,
+        "native_seconds": 30.000373000000003,
+        "seed": 2026106401,
+        "solve_elapsed_seconds": 30.002442833036184,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "0"
+      ],
+      "elapsed_seconds": 30.561940207961015,
+      "index": 0,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/child-result.json": "a93025880642992070c0be405fcaa9ad04a5532769aaa53f70ef98e5f5bbcb8e",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/model.pbtxt": "0dff47772006cdb681224258634ac9230089b40836d91248b16030376b9d93bc",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/parameters.pbtxt": "2b62751c4c17e0193307b1f938cb39964fd5f4caefd3a1d89af5215f219a77d7",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/response.pbtxt": "5844354419569d1ee1ba844283e2b1ec510e528e5c03eb8dcb3620eaf3360231",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/solver.log": "e524e9ad840d8adf801082ed73fe0d5c2f92ad3edbfefdbe8a17ec95adaf500b",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-01/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106401,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 1,
+        "native_seconds": 30.000994000000002,
+        "seed": 2026106402,
+        "solve_elapsed_seconds": 30.00141666701529,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "1"
+      ],
+      "elapsed_seconds": 30.548968292074278,
+      "index": 1,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/child-result.json": "7d9af428e5dcb265c543ca9f4c9e6db5f7c4f1aa2e95cb6bd3b3f1ccff733f87",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/model.pbtxt": "3e3874dbb5899e171185e9c0e902fa119c7d661d7f7c5bc4f4560327a82e5f04",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/parameters.pbtxt": "64d35e48a7208eefecd870b6a895d100d498e0c87e62d646d81dd55fb2111239",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/response.pbtxt": "02703eb8cc6b17af99b3ab1558a143168f788af272bc065ba54e1cb475ece5bf",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/solver.log": "538776deb5a3bb789a718ca6689053e58757f3925bdec5e71d7873d5e1af1d0e",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-02/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106402,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 2,
+        "native_seconds": 30.000394000000004,
+        "seed": 2026106403,
+        "solve_elapsed_seconds": 30.00081695895642,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "2"
+      ],
+      "elapsed_seconds": 30.570194458938204,
+      "index": 2,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/child-result.json": "5f1defe41537915d34c74504f46d17a0ebbf9bd90753e719b52683e8a225d613",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/model.pbtxt": "43e0548689baed04bf22975180de5d7a40a2d5f2efd4d92ddc3b4fa19c8d8472",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/parameters.pbtxt": "de4785c8c3fce17af674d05451b8e6855549950679bd57db1b8faf19f558897a",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/response.pbtxt": "342dd5d30b24498c6b84b180adfd6ffceeff0089358220975113f9c771a281c0",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/solver.log": "9bb6eece9162ef87dbcc0fbd3a993db7f5f9f2e948a1b94c9b5ae39caef60bc4",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-03/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106403,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 3,
+        "native_seconds": 30.000279000000003,
+        "seed": 2026106404,
+        "solve_elapsed_seconds": 30.000648249988444,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "3"
+      ],
+      "elapsed_seconds": 30.536082500009798,
+      "index": 3,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/child-result.json": "b11ed3005f2bf56b5448d2f2bb51ac13b2046157581225f4dbc28dd75576add7",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/model.pbtxt": "d424a5e515ec36c104bae2e8cc6801ca0493a914ec119ed9912530a3436e29b4",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/parameters.pbtxt": "25d07e8dae47e8c67e02d4b28bd1c13a849d68e73038ef3f97c814066ccf4714",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/response.pbtxt": "5a94b2622a9339538c37d1fb6da6c4ee5d16ecea13ff9dd0ebb40bc085d97d7a",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/solver.log": "c22e91bb578699786bda8d955f52b90531a2a9f839257483ae60f8f61b1af618",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-04/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106404,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 4,
+        "native_seconds": 30.000505,
+        "seed": 2026106405,
+        "solve_elapsed_seconds": 30.00094483292196,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "4"
+      ],
+      "elapsed_seconds": 30.547337166965008,
+      "index": 4,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/child-result.json": "04f3acf03593af91bf694388380319557c2788805092676b57ed58cc9c5fec59",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/model.pbtxt": "9089782a5784f0e0b46e8e6f3dcdf2c0a325f824ef71df14e7e477bf4720a96e",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/parameters.pbtxt": "6d3181d0c72146c3a43d3030aef0a396b3d76c9ed8225cb51316cd2f8959b499",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/response.pbtxt": "dede5f1f0487073e7a2b5383f710aed886236e9671eeabc02d4d1046dadfb7ab",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/solver.log": "8f20f4e2e5961298ba9afc1758de56bf29806839709a033fd6b0fdf4f3ac045a",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-05/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106405,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 5,
+        "native_seconds": 30.000678,
+        "seed": 2026106406,
+        "solve_elapsed_seconds": 30.00113070802763,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "5"
+      ],
+      "elapsed_seconds": 30.559271667036228,
+      "index": 5,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/child-result.json": "3e8ca4b47b7f15b016583704bd284615e275c5832da537ffd69d4c495b1b9605",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/model.pbtxt": "70f6e3760ee7a87036351b95c1953306795cf512e348634f718c212fab246194",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/parameters.pbtxt": "a5bc21eb0a2fe7f2ca55a3ce5ee0418bad0ef8051967b9f2e911f94b0b8aecfc",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/response.pbtxt": "0918241723a950cdac71d4dc8f0b17d7f8b9267e5342f100192566e35a2cfc9d",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/solver.log": "d2c35c7e15d8ffbb18671be09acdf45e8f7f2cc3956f73587779538fc2a654a7",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-06/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106406,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 6,
+        "native_seconds": 30.00065,
+        "seed": 2026106407,
+        "solve_elapsed_seconds": 30.00115220900625,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "6"
+      ],
+      "elapsed_seconds": 30.550557458074763,
+      "index": 6,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/child-result.json": "d82b3168c5a9fb48f929a062f904a7a556b229f41af3ba0d6c3dc484abfcc008",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/model.pbtxt": "cb3bc91974c2677f39e426be7fa0c7ef4c7d25185508b46dd59010420bac0e35",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/parameters.pbtxt": "6462c81b51c42d7cdccb1105c38f69be88ad80d0aebbfaa0c0a112aa34650917",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/response.pbtxt": "b2e86dd79ee3fd9cafac057fab1537a60eed6d7c339ff749f00dcdd390db61cc",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/solver.log": "be31007fb2b47ff51e127bc7d96b311779d4b267bf5bb3162d43f1766ce51ec9",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-07/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106407,
+      "terminated": false,
+      "watchdog": false
+    },
+    {
+      "child": {
+        "complete64": false,
+        "independent_infeasibility_proof": false,
+        "index": 7,
+        "native_seconds": 29.999798000000002,
+        "seed": 2026106408,
+        "solve_elapsed_seconds": 30.000146792037413,
+        "status": "UNKNOWN"
+      },
+      "command": [
+        "/Users/chriscelaya/Documents/covering64-search/.venv/bin/python3",
+        "/Users/chriscelaya/Documents/covering64-search/experiments/2026-10-04/circulant-exact-profile-pilot/run.py",
+        "--child",
+        "--profile",
+        "7"
+      ],
+      "elapsed_seconds": 30.596097250003368,
+      "index": 7,
+      "killed": false,
+      "raw_files": {
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/child-result.json": "f8f6d14b19152a40f6dd61c4c007ed50cf2c0da3e7859771cf1fec3b31bea096",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/model.pbtxt": "a5326933bbad1a27eb41d77fc6f366f906c1429c7fae4c95e8e9012f5d0fa5d9",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/parameters.pbtxt": "07f1aff67be194edaae82e9977e0a0567adfe7075979046f498762a336dff564",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/response.pbtxt": "9b4f361e6443b53e75e8038a0093c7aaea6649df2613720df5a746fcdbbb17ea",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/solver.log": "98701f44e4d3b95ecd7071bea31818700d9be68593d498cecf4defce8331d657",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "experiments/scratch/circulant-exact-profile-pilot-20261004/case-08/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "returncode": 0,
+      "seed": 2026106408,
+      "terminated": false,
+      "watchdog": false
+    }
+  ]
+}
