@@ -1,0 +1,35 @@
+{
+  "command": [
+    "rg",
+    "--no-ignore",
+    "-l",
+    "202610660[1-4]",
+    "experiments",
+    "scripts",
+    "docs",
+    "--glob",
+    "*.json",
+    "--glob",
+    "*.py",
+    "--glob",
+    "*.md",
+    "--glob",
+    "*.log",
+    "--glob",
+    "*.txt",
+    "--glob",
+    "!**/novel-canonical-point-link-pilot/**"
+  ],
+  "first_precreation_search_also_had_no_matches": true,
+  "matches_outside_new_pilot": 0,
+  "returncode": 1,
+  "seeds": [
+    2026106601,
+    2026106602,
+    2026106603,
+    2026106604
+  ],
+  "stderr": "",
+  "stdout": "",
+  "tracked_and_ignored_text_included": true
+}

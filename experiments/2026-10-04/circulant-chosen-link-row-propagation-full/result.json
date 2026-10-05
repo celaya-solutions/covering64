@@ -1,0 +1,40 @@
+{
+  "complete": true,
+  "completed_cases": 10228,
+  "completed_prefix": [
+    0,
+    10228
+  ],
+  "completed_prefix_convention": "Half-open input survivor index interval",
+  "cursor_file": "experiments/scratch/circulant-chosen-link-row-propagation-full-v1.0.0/cursor.json",
+  "cursor_file_sha256": "f33601dee5aeac154728c0564714d1a5424f5f986eae62ff1838be89ac7fa0eb",
+  "elapsed_seconds_including_load_output_and_hashes": 16.369391459040344,
+  "full_iterative_passes": 1,
+  "interrupted_case": null,
+  "manifest_sha256": "b7110cbdd8db86b27d1c302267bc843f50aa0b40ae240b8862ebe4f2b5679ec2",
+  "next_survivor_index": 10228,
+  "optimizer_calls": 0,
+  "outcomes": {
+    "contradiction": 9132,
+    "survives_row_propagation": 1096
+  },
+  "proof_records": "experiments/scratch/circulant-chosen-link-row-propagation-full-v1.0.0/traces.jsonl.gz",
+  "proof_records_sha256": "9ec4968b2b33c91f452f0bfb5386bd76a476ad6679f8807a53717d7921f6590c",
+  "propagator_source_sha256": "ce9792cb21e26c29f87a208454a3a52fd241dfe322fd71ed8b50f71cd8893152",
+  "requested_cases": 10228,
+  "row_visits": 8726124,
+  "scope": "Only the frozen10228 single-pass survivors of the chosen four-witness image catalog.",
+  "source_sha256": "f2f92fee793b23803ee4dc71bd536f345d0e1d3a154735cf889b607b55184173",
+  "stop_reason": "complete",
+  "survivor_committed_bytes": 238894,
+  "survivor_meaning": "Row-bound fixed point only; no feasibility claim",
+  "survivor_records": 1096,
+  "survivor_records_path": "experiments/scratch/circulant-chosen-link-row-propagation-full-v1.0.0/survivors.jsonl.gz",
+  "survivor_records_sha256": "60e42a6855fc897130c80d8db8189cd9639e0981555386e5938ed02a5eda90ed",
+  "total_forcing_steps": 808987,
+  "trace_committed_bytes": 69863668,
+  "trace_records": 10228,
+  "verified_full_cover_candidates": [],
+  "wall_budget_respected": true,
+  "wall_budget_seconds": 45.0
+}

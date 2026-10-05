@@ -1,0 +1,36 @@
+{
+  "cursor": {
+    "completed_prefix": [
+      0,
+      10228
+    ],
+    "completed_prefix_convention": "Half-open input survivor index interval",
+    "interrupted_case": null,
+    "next_survivor_index": 10228,
+    "outcomes": {
+      "contradiction": 9132,
+      "survives_row_propagation": 1096
+    },
+    "row_visits": 8726124,
+    "survivor_committed_bytes": 238894,
+    "survivor_records": 1096,
+    "total_forcing_steps": 808987,
+    "trace_committed_bytes": 69863668,
+    "trace_records": 10228,
+    "verified_full_cover_candidates": []
+  },
+  "cursor_file_sha256": "f33601dee5aeac154728c0564714d1a5424f5f986eae62ff1838be89ac7fa0eb",
+  "elapsed_seconds": 16.39961666695308,
+  "grace_seconds": 5.0,
+  "kill_required": false,
+  "manifest_sha256": "b7110cbdd8db86b27d1c302267bc843f50aa0b40ae240b8862ebe4f2b5679ec2",
+  "raw_tail_policy": "Only committed byte prefixes are certified; retain any tail",
+  "result_present": true,
+  "result_sha256": "05a05fb907ad2b5e425977939e04ddb5c599abfa6dc9c4c203da2f9b76de6db2",
+  "retry_or_automatic_resume": false,
+  "returncode": 0,
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stdout_sha256": "b0af644a55b29ad7aa8d4eaca396a048dff908bc1b42a60c9e5f5d085e07b0a5",
+  "watchdog_fired": false,
+  "watchdog_seconds": 50.0
+}

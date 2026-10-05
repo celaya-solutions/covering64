@@ -1,0 +1,42 @@
+{
+  "canonical_families_per_class": 5184,
+  "catalog_summary_sha256": "e85200dbdf2a392d192973904bc638e4e55184cdc70e1f8cbe3c7643c19ecd6a",
+  "checked_sample_cases": 1000,
+  "checker_sha256": "245ddaa60a3149e1c4bc04ef384e3a5956276786022eac65473756c8c5c2421d",
+  "damage_controls_rejected": [
+    "duplicate_family_block",
+    "point_avoiding_block",
+    "wrong_partial",
+    "wrong_profile",
+    "wrong_domain",
+    "wrong_eligible_hash",
+    "wrong_insufficient_support_demand",
+    "wrong_forced_conflict_demand",
+    "wrong_survivor_forces"
+  ],
+  "elapsed_seconds": 1.934055250021629,
+  "families": 196992,
+  "family_census": {
+    "C4-leaf": 62208,
+    "C5": 41472,
+    "triangle-path2": 82944,
+    "triangle-two-leaves": 10368
+  },
+  "fibers": 38,
+  "full_pairs": 6739200,
+  "independent_engine_sha256": "34454b7922b3165000622ab7a810d316f2a511e1f0181e23a450b35209afbc95",
+  "new_pairs": 6543904,
+  "old_families": 5536,
+  "old_pairs": 195296,
+  "optimizer_calls": 0,
+  "outcomes": {
+    "forced_conflict": 162,
+    "insufficient_support": 813,
+    "survives_single_pass": 25
+  },
+  "passed": true,
+  "producer_imports": 0,
+  "producer_runs": 0,
+  "sample_receipt_sha256": "9ecae116eb215ec6901f1aa1d091385740f2319f0983a16f41a24b5a15353dc4",
+  "scope": "Four-core origin-deletion affine recipe only; sample is not a full screen."
+}

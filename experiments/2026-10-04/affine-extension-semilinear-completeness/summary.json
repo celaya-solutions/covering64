@@ -1,0 +1,70 @@
+{
+  "admissible_function_counts": {
+    "C4-leaf": 120,
+    "C5": 24,
+    "triangle-coincident-leaves-outside-scope": 60,
+    "triangle-path2": 120,
+    "triangle-two-leaves": 120
+  },
+  "all_affine_constructions_claimed": false,
+  "all_local_decompositions_claimed": false,
+  "canonical_image_counts": {
+    "C4-leaf": 5184,
+    "C5": 5184,
+    "triangle-path2": 5184,
+    "triangle-two-leaves": 5184
+  },
+  "cover_found": false,
+  "cover_search_calls": 0,
+  "elapsed_seconds": 0.5340694170445204,
+  "excluded_functions": {
+    "directed_two_cycle": 580,
+    "loop": 2101
+  },
+  "extension_settings_audit_delegated_separately": true,
+  "four_class_admissible_functions": 384,
+  "function_domain_size": 3125,
+  "input_hashes": {
+    "experiments/2026-10-04/affine-extension-point-variants/representatives.json": "2db5cd79692f83847e2951fb13b08acb72d4e7b9e7f3fdba1557f931a69b9a7d",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/canonical-images.json": "18a7eff11931df2dc25c17e2beb3ccb588c6fe29aaf753ece024c20e59607f8b",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/link-fibers.json": "26bf0612bcf1a17ecc72d2bd214235a2ddc4151e0b07444ba87bc58b5fa82f60",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/summary.json": "524b97a62174a671df5cf3de6c9962b01f1a9713d582ef54e486954518a049a3",
+    "experiments/2026-10-04/clebsch-point-link-construction/classes.json": "6916b285c1c53693b4f2f53bd0194afd6f2c936e1a10da3a236c5311ab86a2cc"
+  },
+  "invertible_GF4_matrices": 180,
+  "optimizer_calls": 0,
+  "orbit_size_histograms": {
+    "C4-leaf": {
+      "96": 54
+    },
+    "C5": {
+      "64": 1,
+      "320": 16
+    },
+    "triangle-path2": {
+      "96": 54
+    },
+    "triangle-two-leaves": {
+      "144": 36
+    }
+  },
+  "output_hashes": {
+    "function-conjugacies.json": "09d7d3bb93ffd28c93221dd20ffd3c1828ec097e77b973cee5a8096f7dd6fe26",
+    "orbit-certificates.json": "086dbcbe045a3ebddad6e32b7ddbed519197867a12d676f88484bdeaa79f4698",
+    "semilinear-maps.json": "63da24d8fb6c3def1383e3fc9c5d1e651137848eca0e76513d37305fd524f901",
+    "workload.json": "a89c88c779093bcd83bb17f5885b4ee8d7bef6b72291d5bbbda1fcf68f97e838"
+  },
+  "point_one_link_families": 196992,
+  "profile_link_pairs": 6739200,
+  "python_version": "3.13.15",
+  "raw_union": "experiments/scratch/affine-extension-semilinear-completeness-v1.0.0/canonical-image-unions.json.gz",
+  "raw_union_sha256": "aeceea27fc3bf819c97f8f9334887608a6b49eba2a1bc23c836330e1758d3174",
+  "raw_union_uncompressed_canonical_sha256": "6bf3f84b7d9d8c0f48308d411c9c039a57ee8cac3c7c977eeedb0e754c92d150",
+  "ray_permutations": 120,
+  "recipe_completeness_proved": true,
+  "scalar_lifts_per_ray_permutation": 3,
+  "scope": "AG(2,4) origin-deletion recipe with distinct centers and four saved core types",
+  "semilinear_maps": 360,
+  "source_revision": "2e2ff3b4c75bfe65c3845f5e771a4ec9262f1272",
+  "source_sha256": "27f6ae98ac58c2ff37dc23488ff4cd5a725b290f76fd7827f6a8db0974e7ba37"
+}

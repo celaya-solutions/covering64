@@ -1,0 +1,26 @@
+{
+  "benchmark_sha256": "1c1320160351c5d5ddfa0df5b10475846a444e6d58035e3a6621fafbb6572fa1",
+  "cases": 1000,
+  "damage_controls_rejected": [
+    "flipped_value",
+    "omitted_literal",
+    "wrong_row",
+    "bool_value",
+    "final_demand",
+    "removed_hash",
+    "survivor_omitted_step"
+  ],
+  "engine": "Independent row sets and direct integer bounds; no producer import",
+  "force_steps_replayed": 79165,
+  "manifest_sha256": "2421efc7f297a65c53dd587a44cd56e9e2c0d29161434226e3dcb5d98a0f719e",
+  "optimizer_calls": 0,
+  "outcomes": {
+    "contradiction": 893,
+    "survives_row_propagation": 107
+  },
+  "passed": true,
+  "scope": "Saved1000-case benchmark traces only; not the full10228 survivors",
+  "search_calls": 0,
+  "source_sha256": "198653227c4a1ef70f85d56f8f1e5a2c26efc68f6cf925a1dad7bb3837822d11",
+  "trace_sha256": "4634e0d79192d43448363cd6ea51c2fbf1ddc6fa8963b3272ced772ff047c7d7"
+}

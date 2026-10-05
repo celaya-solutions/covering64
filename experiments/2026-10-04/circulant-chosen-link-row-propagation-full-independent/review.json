@@ -1,0 +1,218 @@
+{
+  "actual_processes": 0,
+  "actual_propagation_calls": 0,
+  "actual_signals": 0,
+  "arithmetic_scope": "Frozen benchmark propagator independently checked on all saved 1000 benchmark cases; full runtime traces need separate replay.",
+  "benchmark_source_sha256": "ce9792cb21e26c29f87a208454a3a52fd241dfe322fd71ed8b50f71cd8893152",
+  "checker_sha256": "ced65f1277b98f6456719c8fb09894ed7446b5991e4f1d83e5b7877bde14d9cc",
+  "dependency_pins_checked": 22,
+  "durability_scope": "Atomic cursor and flushed gzip prefixes for process interruption; not a power-loss or storage-failure guarantee.",
+  "independent_benchmark_audit_sha256": "dcd303e56b7474a6155ac644603c3b3baa55adb0b2936ba624848d826510360a",
+  "manifest_sha256": "b7110cbdd8db86b27d1c302267bc843f50aa0b40ae240b8862ebe4f2b5679ec2",
+  "optimizer_calls": 0,
+  "passed": true,
+  "producer_files_sha256": "5b931c607fe5acd605568af83ecc41f2b45da93703c7886d0fe3110c4456c8c0",
+  "runner_sha256": "f2f92fee793b23803ee4dc71bd536f345d0e1d3a154735cf889b607b55184173",
+  "scope": "Only the frozen10228 single-pass survivors of the chosen four-witness image catalog.",
+  "watchdog_controls": [
+    {
+      "elapsed_seconds": 1,
+      "grace_seconds": 5.0,
+      "kill_required": false,
+      "returncode": 0,
+      "scenario": "normal",
+      "watchdog_fired": false,
+      "watchdog_seconds": 50.0
+    },
+    {
+      "elapsed_seconds": 1,
+      "grace_seconds": 5.0,
+      "kill_required": false,
+      "returncode": -15,
+      "scenario": "term",
+      "watchdog_fired": true,
+      "watchdog_seconds": 50.0
+    },
+    {
+      "elapsed_seconds": 1,
+      "grace_seconds": 5.0,
+      "kill_required": true,
+      "returncode": -9,
+      "scenario": "kill",
+      "watchdog_fired": true,
+      "watchdog_seconds": 50.0
+    },
+    {
+      "elapsed_seconds": 1,
+      "grace_seconds": 5.0,
+      "kill_required": false,
+      "returncode": 0,
+      "scenario": "term_exit_race",
+      "watchdog_fired": true,
+      "watchdog_seconds": 50.0
+    },
+    {
+      "elapsed_seconds": 1,
+      "grace_seconds": 5.0,
+      "kill_required": true,
+      "returncode": 0,
+      "scenario": "kill_exit_race",
+      "watchdog_fired": true,
+      "watchdog_seconds": 50.0
+    }
+  ],
+  "worker_controls": [
+    {
+      "completed_prefix": 3,
+      "crashed": false,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 3,
+      "scenario": "normal"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": false,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "cooperative_interruption"
+    },
+    {
+      "completed_prefix": 0,
+      "crashed": false,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 0,
+      "scenario": "stop_before_first"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": false,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 1,
+      "scenario": "stop_before_second"
+    },
+    {
+      "completed_prefix": 3,
+      "crashed": false,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 3,
+      "scenario": "verified_candidate"
+    },
+    {
+      "completed_prefix": 0,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 1,
+      "scenario": "candidate_verifier_failure"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "before_trace"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 113
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "mid_trace"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 224
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "after_trace"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 224
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "before_survivor"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 70,
+        "trace": 224
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "mid_survivor"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 138,
+        "trace": 224
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "after_survivor"
+    },
+    {
+      "completed_prefix": 1,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 138,
+        "trace": 224
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "before_cursor_replace"
+    },
+    {
+      "completed_prefix": 2,
+      "crashed": true,
+      "ignored_tail_bytes": {
+        "survivor": 0,
+        "trace": 0
+      },
+      "propagator_calls_mocked": 2,
+      "scenario": "after_cursor_replace"
+    }
+  ],
+  "wrapper_controls": [
+    {
+      "mocked_children": 1,
+      "retry_rejected": true,
+      "scenario": "complete"
+    },
+    {
+      "mocked_children": 1,
+      "retry_rejected": true,
+      "scenario": "killed"
+    }
+  ]
+}

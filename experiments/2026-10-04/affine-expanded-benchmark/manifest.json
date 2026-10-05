@@ -1,0 +1,49 @@
+{
+  "avoiding_point_one_block_domain": 3003,
+  "benchmark_cases": 1000,
+  "benchmark_selection": "1000 new-only pairs, midpoint strata across each of 38 fibers",
+  "cooperative_seconds": 10.0,
+  "core_function": "screen(data, ordinal), with locate and global_ids unchanged",
+  "core_source": "experiments/2026-10-04/circulant-chosen-link-support-screen/run.py",
+  "core_source_sha256": "5007aa2b9b38d980ecb4283aeb23c0873d770ee1e9036d3af0bab1045887428d",
+  "deadline_scope": "source/input validation, catalog reading, sampled-mask loading, scan",
+  "domain_data_fields": [
+    "fibers",
+    "boundaries",
+    "profile_masks",
+    "partial_masks",
+    "partial_indices",
+    "row_masks"
+  ],
+  "full_catalog_mask_loading_measured": false,
+  "full_pair_order": "fiber, then partial ID, then ascending profile ID within fiber",
+  "full_screen_authorized": false,
+  "input_hashes": {
+    "experiments/2026-10-04/affine-expanded-catalog/benchmark-plan.json": "c3e39b227aab62900b5530b565c43850c5def512a024a4a38a6f55d349aecdac",
+    "experiments/2026-10-04/affine-expanded-catalog/link-fibers.json": "65655c36f0daec34a7f5b9d62b5a44adfdb874774027fccdd30d09e1cdc20df6",
+    "experiments/2026-10-04/affine-expanded-catalog/old-to-new-ids.json": "6acb3d748a97fd7e0fee979c5e7fa806cefe5c48ad1f77b5b92eb6d44d7f69c6",
+    "experiments/2026-10-04/affine-expanded-catalog/summary.json": "e85200dbdf2a392d192973904bc638e4e55184cdc70e1f8cbe3c7643c19ecd6a",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/profiles.json": "24ccef8eb95cd04e683a575d60fcba854728615ee2ca6495f2bc6028fc56cf0f",
+    "experiments/2026-10-04/circulant-chosen-link-support-screen/manifest.json": "43b6248f4690cbc4ad057d89d8a6a8c5538ba4533d92c5241075d057e3fe0c9d",
+    "experiments/2026-10-04/circulant-chosen-link-support-screen/run.py": "5007aa2b9b38d980ecb4283aeb23c0873d770ee1e9036d3af0bab1045887428d",
+    "experiments/scratch/affine-expanded-catalog-v1.0.0/catalog-20xu16le.bin.gz": "c471737a4a906ec7e5591a7fecedc6094322c6d39e285f07d615121b84d09203"
+  },
+  "iteration": false,
+  "loading_scope": "read packed catalog; construct partial masks only for sampled IDs",
+  "module_constant_overrides": {
+    "TOTAL": {
+      "after": 6739200,
+      "before": 195296
+    }
+  },
+  "new_pair_count": 6543904,
+  "old_pair_count_skipped": 195296,
+  "optimizer": false,
+  "other_module_overrides": [],
+  "pair_count_including_old": 6739200,
+  "residual_rows": 455,
+  "selection_contains_old_pairs": false,
+  "source_revision": "2e2ff3b4c75bfe65c3845f5e771a4ec9262f1272",
+  "source_sha256": "141a1eafb5632f4fb162c31cd9c63bc63af9703c52d8ee254f649b905a5a7987",
+  "sum_selected_blocks": 44
+}

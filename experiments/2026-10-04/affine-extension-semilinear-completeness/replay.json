@@ -1,0 +1,44 @@
+{
+  "canonical_families": 20736,
+  "complete_replay": true,
+  "cover_search_calls": 0,
+  "damage_controls": [
+    {
+      "control": "damaged point permutation",
+      "reason": "field-map evaluation",
+      "rejected": true
+    },
+    {
+      "control": "missing semilinear map",
+      "reason": "complete map parameters",
+      "rejected": true
+    },
+    {
+      "control": "wrong semilinear lift",
+      "reason": "explicit semilinear lift",
+      "rejected": true
+    },
+    {
+      "control": "missing function",
+      "reason": "complete function domain",
+      "rejected": true
+    },
+    {
+      "control": "false orbit size",
+      "reason": "orbit size",
+      "rejected": true
+    },
+    {
+      "control": "missing union image",
+      "reason": "full image union",
+      "rejected": true
+    }
+  ],
+  "elapsed_seconds": 0.25471787503920496,
+  "functions": 444,
+  "optimizer_calls": 0,
+  "representative_orbits": 161,
+  "semilinear_maps": 360,
+  "source_sha256": "e9effd3fb8598f54106b372c171fbfc83d99360c3d267de7bc6ac64c8fb4e8be",
+  "summary_sha256": "15a674ea26f0d435f9776ce22ccf458cefe369288922c1f433fff93a45ed6da2"
+}

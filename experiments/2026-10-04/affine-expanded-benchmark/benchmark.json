@@ -1,0 +1,669 @@
+{
+  "cooperative_seconds": 10.0,
+  "cover_search_calls": 0,
+  "elapsed_seconds": 0.13564549991860986,
+  "full_catalog_mask_loading_measured": false,
+  "full_screen_cursor": null,
+  "full_screen_started": false,
+  "loading_scope": "read packed catalog; construct partial masks only for sampled IDs",
+  "loading_seconds": 0.055763499927707016,
+  "manifest_sha256": "6f828f40aef64b2e1c0e8f8e95341354b8e9d6787f8d193d4e185fb56debee06",
+  "operation_counts": {
+    "cardinality_support_checks": 1000,
+    "conflict_row_popcounts": 25669,
+    "support_row_popcounts": 149325,
+    "zero_row_unions": 68752
+  },
+  "optimizer_calls": 0,
+  "outcomes": {
+    "forced_conflict": 162,
+    "insufficient_support": 813,
+    "survives_single_pass": 25
+  },
+  "per_fiber": {
+    "0": {
+      "class": "triangle-path2",
+      "new_pair_population": 162816,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 164,
+        "support_row_popcounts": 2079,
+        "zero_row_unions": 1872
+      },
+      "outcomes": {
+        "forced_conflict": 3,
+        "insufficient_support": 24
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0015495388070121408
+    },
+    "1": {
+      "class": "triangle-path2",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 148,
+        "support_row_popcounts": 3025,
+        "zero_row_unions": 1852
+      },
+      "outcomes": {
+        "forced_conflict": 5,
+        "insufficient_support": 22
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0015697047347202897
+    },
+    "2": {
+      "class": "C4-leaf",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 164,
+        "support_row_popcounts": 3984,
+        "zero_row_unions": 1892
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 23
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0017984131118282676
+    },
+    "3": {
+      "class": "C5",
+      "new_pair_population": 189696,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 1009,
+        "support_row_popcounts": 3784,
+        "zero_row_unions": 1852
+      },
+      "outcomes": {
+        "forced_conflict": 3,
+        "insufficient_support": 23,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0018572083208709955
+    },
+    "4": {
+      "class": "C5",
+      "new_pair_population": 170240,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 616,
+        "support_row_popcounts": 2958,
+        "zero_row_unions": 1852
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 24,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0018510366789996624
+    },
+    "5": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 824,
+        "support_row_popcounts": 3756,
+        "zero_row_unions": 1839
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 22,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0017853350145742297
+    },
+    "6": {
+      "class": "triangle-path2",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 666,
+        "support_row_popcounts": 4325,
+        "zero_row_unions": 1847
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 22,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0017449160804972053
+    },
+    "7": {
+      "class": "triangle-path2",
+      "new_pair_population": 162816,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 515,
+        "support_row_popcounts": 4103,
+        "zero_row_unions": 1855
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 24,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0019145860569551587
+    },
+    "8": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 663,
+        "support_row_popcounts": 4990,
+        "zero_row_unions": 1850
+      },
+      "outcomes": {
+        "forced_conflict": 3,
+        "insufficient_support": 23,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0018219969933852553
+    },
+    "9": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 504,
+        "support_row_popcounts": 4583,
+        "zero_row_unions": 1854
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 23
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.001811207621358335
+    },
+    "10": {
+      "class": "triangle-two-leaves",
+      "new_pair_population": 196560,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 462,
+        "support_row_popcounts": 4186,
+        "zero_row_unions": 1842
+      },
+      "outcomes": {
+        "forced_conflict": 6,
+        "insufficient_support": 21
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0020909591112285852
+    },
+    "11": {
+      "class": "C4-leaf",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 27,
+        "conflict_row_popcounts": 564,
+        "support_row_popcounts": 5009,
+        "zero_row_unions": 1866
+      },
+      "outcomes": {
+        "forced_conflict": 3,
+        "insufficient_support": 23,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 27,
+      "screen_seconds": 0.0018510428490117192
+    },
+    "12": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 312,
+        "support_row_popcounts": 3502,
+        "zero_row_unions": 1810
+      },
+      "outcomes": {
+        "forced_conflict": 7,
+        "insufficient_support": 19
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0017269155941903591
+    },
+    "13": {
+      "class": "C5",
+      "new_pair_population": 194560,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 455,
+        "support_row_popcounts": 2458,
+        "zero_row_unions": 1783
+      },
+      "outcomes": {
+        "insufficient_support": 25,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0014530409825965762
+    },
+    "14": {
+      "class": "C5",
+      "new_pair_population": 170240,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 798,
+        "support_row_popcounts": 3454,
+        "zero_row_unions": 1794
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 21,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001683293841779232
+    },
+    "15": {
+      "class": "C4-leaf",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 34,
+        "support_row_popcounts": 3036,
+        "zero_row_unions": 1776
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 24
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001779956859536469
+    },
+    "16": {
+      "class": "C4-leaf",
+      "new_pair_population": 193344,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 186,
+        "support_row_popcounts": 2483,
+        "zero_row_unions": 1791
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 24
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001409461023285985
+    },
+    "17": {
+      "class": "C4-leaf",
+      "new_pair_population": 193344,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 520,
+        "support_row_popcounts": 4056,
+        "zero_row_unions": 1783
+      },
+      "outcomes": {
+        "forced_conflict": 6,
+        "insufficient_support": 20
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0016532931476831436
+    },
+    "18": {
+      "class": "C4-leaf",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1709,
+        "support_row_popcounts": 4343,
+        "zero_row_unions": 1768
+      },
+      "outcomes": {
+        "forced_conflict": 7,
+        "insufficient_support": 18,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0018254563910886645
+    },
+    "19": {
+      "class": "triangle-path2",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 580,
+        "support_row_popcounts": 3956,
+        "zero_row_unions": 1807
+      },
+      "outcomes": {
+        "forced_conflict": 6,
+        "insufficient_support": 20
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0018407480092719197
+    },
+    "20": {
+      "class": "triangle-path2",
+      "new_pair_population": 193344,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 600,
+        "support_row_popcounts": 4286,
+        "zero_row_unions": 1784
+      },
+      "outcomes": {
+        "forced_conflict": 5,
+        "insufficient_support": 20,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0016903720097616315
+    },
+    "21": {
+      "class": "triangle-path2",
+      "new_pair_population": 193344,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 407,
+        "support_row_popcounts": 4726,
+        "zero_row_unions": 1812
+      },
+      "outcomes": {
+        "forced_conflict": 6,
+        "insufficient_support": 20
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0017030396265909076
+    },
+    "22": {
+      "class": "triangle-path2",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1071,
+        "support_row_popcounts": 4928,
+        "zero_row_unions": 1778
+      },
+      "outcomes": {
+        "forced_conflict": 3,
+        "insufficient_support": 21,
+        "survives_single_pass": 2
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001764706801623106
+    },
+    "23": {
+      "class": "C5",
+      "new_pair_population": 170240,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1144,
+        "support_row_popcounts": 3710,
+        "zero_row_unions": 1747
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 22,
+        "survives_single_pass": 2
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0016359963919967413
+    },
+    "24": {
+      "class": "C5",
+      "new_pair_population": 194560,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1336,
+        "support_row_popcounts": 5353,
+        "zero_row_unions": 1798
+      },
+      "outcomes": {
+        "forced_conflict": 7,
+        "insufficient_support": 18,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0019191257888451219
+    },
+    "25": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 848,
+        "support_row_popcounts": 5086,
+        "zero_row_unions": 1796
+      },
+      "outcomes": {
+        "forced_conflict": 8,
+        "insufficient_support": 18
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001861869590356946
+    },
+    "26": {
+      "class": "C4-leaf",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 786,
+        "support_row_popcounts": 4065,
+        "zero_row_unions": 1790
+      },
+      "outcomes": {
+        "forced_conflict": 5,
+        "insufficient_support": 20,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0016597514040768147
+    },
+    "27": {
+      "class": "triangle-two-leaves",
+      "new_pair_population": 196560,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 609,
+        "support_row_popcounts": 2619,
+        "zero_row_unions": 1803
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 23,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001598917762748897
+    },
+    "28": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 771,
+        "support_row_popcounts": 4038,
+        "zero_row_unions": 1813
+      },
+      "outcomes": {
+        "forced_conflict": 5,
+        "insufficient_support": 20,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0019460850162431598
+    },
+    "29": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 842,
+        "support_row_popcounts": 5789,
+        "zero_row_unions": 1786
+      },
+      "outcomes": {
+        "forced_conflict": 10,
+        "insufficient_support": 16
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.001961667090654373
+    },
+    "30": {
+      "class": "C4-leaf",
+      "new_pair_population": 162816,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1461,
+        "support_row_popcounts": 4956,
+        "zero_row_unions": 1781
+      },
+      "outcomes": {
+        "forced_conflict": 6,
+        "insufficient_support": 18,
+        "survives_single_pass": 2
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.002046586014330387
+    },
+    "31": {
+      "class": "C4-leaf",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 800,
+        "support_row_popcounts": 3420,
+        "zero_row_unions": 1768
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 23,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0016210820758715272
+    },
+    "32": {
+      "class": "triangle-path2",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 994,
+        "support_row_popcounts": 3784,
+        "zero_row_unions": 1771
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 21,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0015942900208756328
+    },
+    "33": {
+      "class": "C5",
+      "new_pair_population": 170240,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 72,
+        "support_row_popcounts": 3259,
+        "zero_row_unions": 1769
+      },
+      "outcomes": {
+        "forced_conflict": 3,
+        "insufficient_support": 23
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0014772919239476323
+    },
+    "34": {
+      "class": "C5",
+      "new_pair_population": 189696,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1384,
+        "support_row_popcounts": 4689,
+        "zero_row_unions": 1803
+      },
+      "outcomes": {
+        "forced_conflict": 7,
+        "insufficient_support": 18,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0018232528818771243
+    },
+    "35": {
+      "class": "C4-leaf",
+      "new_pair_population": 178080,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 80,
+        "support_row_popcounts": 3393,
+        "zero_row_unions": 1798
+      },
+      "outcomes": {
+        "forced_conflict": 2,
+        "insufficient_support": 24
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0017633337993174791
+    },
+    "36": {
+      "class": "C4-leaf",
+      "new_pair_population": 142464,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 434,
+        "support_row_popcounts": 3466,
+        "zero_row_unions": 1791
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 22
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0015602509956806898
+    },
+    "37": {
+      "class": "C4-leaf",
+      "new_pair_population": 162816,
+      "operations": {
+        "cardinality_support_checks": 26,
+        "conflict_row_popcounts": 1137,
+        "support_row_popcounts": 3688,
+        "zero_row_unions": 1779
+      },
+      "outcomes": {
+        "forced_conflict": 4,
+        "insufficient_support": 21,
+        "survives_single_pass": 1
+      },
+      "sample_cases": 26,
+      "screen_seconds": 0.0016511668218299747
+    }
+  },
+  "planned_cases": 1000,
+  "processed_cases": 1000,
+  "raw_files": {
+    "experiments/scratch/affine-expanded-benchmark-v1.0.0/cases.jsonl.gz": "872c0613153c912530b4368a735f668e46d5c7ce2a2680930dcc664a28074369",
+    "experiments/scratch/affine-expanded-benchmark-v1.0.0/survivors.jsonl.gz": "02bb146ce942743a5e26d4e1cead68d6c7449e58b3b856ccafe086eb6c8b3624"
+  },
+  "sample_cursor": {
+    "next_full_pair_ordinal": null,
+    "next_sample_index": 1000
+  },
+  "sample_partial_masks_loaded": 1000,
+  "screen_function_seconds": 0.06629689724650234,
+  "source_sha256": "141a1eafb5632f4fb162c31cd9c63bc63af9703c52d8ee254f649b905a5a7987",
+  "sparse_sample_does_not_cover_an_ordinal_interval": true,
+  "status": "complete"
+}

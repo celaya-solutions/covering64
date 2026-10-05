@@ -1,0 +1,176 @@
+{
+  "mocked_watchdog_controls": [
+    {
+      "name": "normal",
+      "passed": true,
+      "signals": [],
+      "timeouts": [
+        35.0
+      ]
+    },
+    {
+      "name": "term",
+      "passed": true,
+      "signals": [
+        15
+      ],
+      "timeouts": [
+        35.0,
+        5.0
+      ]
+    },
+    {
+      "name": "kill",
+      "passed": true,
+      "signals": [
+        15,
+        9
+      ],
+      "timeouts": [
+        35.0,
+        5.0,
+        null
+      ]
+    },
+    {
+      "name": "term-race",
+      "passed": true,
+      "signals": [
+        15
+      ],
+      "timeouts": [
+        35.0,
+        5.0
+      ]
+    }
+  ],
+  "optimizer_calls": 0,
+  "passed": true,
+  "real_processes_launched": 0,
+  "real_signals_sent": 0,
+  "rejected_witness_controls": [
+    {
+      "case": 1,
+      "control": "old-image",
+      "reason": "every old image excluded",
+      "rejected": true
+    },
+    {
+      "case": 1,
+      "control": "duplicate",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 1,
+      "control": "short",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 1,
+      "control": "bad-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 1,
+      "control": "boolean-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 2,
+      "control": "old-image",
+      "reason": "every old image excluded",
+      "rejected": true
+    },
+    {
+      "case": 2,
+      "control": "duplicate",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 2,
+      "control": "short",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 2,
+      "control": "bad-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 2,
+      "control": "boolean-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 3,
+      "control": "old-image",
+      "reason": "every old image excluded",
+      "rejected": true
+    },
+    {
+      "case": 3,
+      "control": "duplicate",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 3,
+      "control": "short",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 3,
+      "control": "bad-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 3,
+      "control": "boolean-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 4,
+      "control": "old-image",
+      "reason": "every old image excluded",
+      "rejected": true
+    },
+    {
+      "case": 4,
+      "control": "duplicate",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 4,
+      "control": "short",
+      "reason": "twenty distinct local blocks",
+      "rejected": true
+    },
+    {
+      "case": 4,
+      "control": "bad-label",
+      "reason": "strict local labels",
+      "rejected": true
+    },
+    {
+      "case": 4,
+      "control": "boolean-label",
+      "reason": "strict local labels",
+      "rejected": true
+    }
+  ],
+  "runner_sha256": "5d763eaa3e8132bbaf2cf323d98c75e20dda1858597c964d46d6ab0641147b3c",
+  "source_sha256": "a813f41b8f9e1d3bd0925134016013fba0f1f34a05e18aaaed78f67801bd0084",
+  "watchdog_source_sha256": "a98252d012008a3c17d45b553783b564ecb0547509a88535eb37f800d4e2f316"
+}

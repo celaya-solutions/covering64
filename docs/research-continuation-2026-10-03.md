@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.38.0
+Version:     v1.39.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      7f8cbbfbc37e8cc0e3b843bde0a973fe5d73ecf4d9a22c090d7b45ac4eef8568
+SHA256:      9c8cf1dda2c8a12934f5fb87673f23916073543f94fb99c2a01c399623c983d9
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1316,3 +1316,33 @@ The full one-pass screen uses all3,003 point-avoiding pentads,455 exact residual
 All195,296 pairs finish in20.226166457985528 seconds of full child-process time, with no watchdog. There are156,846 insufficient-support exclusions,28,222 immediate forced-conflict exclusions and10,228 unresolved survivors. The result SHA256 is `aabd7d06c2a2b297b69086676e12a68ccfd6a532dcf5ea3aeca53d42fde958e3`. Large proof and survivor streams remain in ignored scratch, with SHA256 `632e8a7b23ef267323b3f414a8fd9ab7918973ec6913aba7045e9c915a283f6b` and `8914b935b63ccea864ab51f5d0837efcb0eed093b4bbdfc577ecdb2fc0ac2a0c`.
 
 A separate checker reconstructs row carriers from their66 possible completing pairs, replays every exclusion certificate and every survivor's455 row supports and immediate forces, and matches the complete survivor stream. It rejects six damaged controls without importing or rerunning the producer. The full runtime/proof audit has SHA256 `d2e5259ab156ff81111742f4c1d8068a436685278bac5fdc9f7a82af34df6137`. Thus185,068 named(profile,partial) combinations are excluded; the10,228 survivors are unproved, and no64-block cover has been found.
+
+## Repeated exact-row deductions on the original catalog (October 4)
+
+All 10,228 survivors of the first chosen-link support pass were rebuilt over all 3,003 point-avoiding pentads and 456 rows: 455 residual triple equations and the sum of 44 additional blocks. Repeated row bounds force free variables to zero when the selected count reaches demand, or to one when selected plus free reaches demand. A violated lower or upper bound supplies a finite contradiction. There is no failed-literal probing or optimizer.
+
+A stratified 1,000-case benchmark produced 893 contradictions and 107 quiescent survivors, with 79,165 forces and 852,114 row visits in 1.738119 seconds including load and output. Root independently replayed each trace with sets and integer bounds, reconstructed every input identity and sample ordinal, and rejected seven damaged traces. The final benchmark audit is `dcd303e56b7474a6155ac644603c3b3baa55adb0b2936ba624848d826510360a`.
+
+The full run was frozen under manifest `b7110cbdd8db86b27d1c302267bc843f50aa0b40ae240b8862ebe4f2b5679ec2`, with a 45-second cooperative budget and a separate 50-second process watchdog plus five-second grace. Independent review checked all 22 dependencies and 21 mocked process/cursor controls. Root verified GO `a233e41f4162ebc52cb578f538916f718b7da12c9942e66bef778d083a543145` before one launch. Completed gzip members and an atomic byte cursor identify every committed record.
+
+All 10,228 cases completed: **9,132 contradictions and 1,096 quiescent survivors**, with 808,987 forced steps and 8,726,124 row visits. There was no candidate, interruption or watchdog. Child time was 16.369391459 seconds; supervisor time was 16.399616667 seconds. Result SHA256 is `05a05fb907ad2b5e425977939e04ddb5c599abfa6dc9c4c203da2f9b76de6db2`; execution SHA256 is `4224cadcd489d985e7737933ba14854b7c4c77e183b621023ce7a9372f12872c`. The ignored trace and survivor streams have hashes `9ec4968b2b33c91f452f0bfb5386bd76a476ad6679f8807a53717d7921f6590c` and `60e42a6855fc897130c80d8db8189cd9639e0981555386e5938ed02a5eda90ed`.
+
+A separate saved-only replay checks every force, contradiction, fixed point, pass count, row visit, case identity, cursor offset and survivor record, with no producer imports or reruns. Eleven damaged controls are rejected. Its review SHA256 is `aceba1e0c1280be6154950dfe61e5545ff40035cb5307e3749b1ac97c630f92a`. These are independently checked exclusions of those exact profile/partial cases; the remaining fixed points do not prove feasibility. The survivor census is 410 C4-with-leaf, 658 triangle-with-path and 28 triangle-with-distinct-leaves; no C5 case remains in this original chosen-witness catalog.
+
+## Direct extension-point variants and exact recipe scope (October 4)
+
+Varying the extension point within each target ray of the four original affine recipes gives 972 raw settings. Exactly 297 have repeated centers and an excess-degree-seven vertex; 675 satisfy the required pair multiplicities and degrees. They give 161 local design orbits under the full excess-graph automorphism groups, including **157 new orbits** beyond the four chosen witnesses. The four classes have 162/54, 243/17, 162/54 and 108/36 valid-settings/orbits respectively (C4-with-leaf, C5, triangle-with-path, triangle-with-distinct-leaves). There are 651 valid settings outside the four old orbits.
+
+Separate reconstruction checks every setting and the entire orbit partition. All 161 representatives pass both local pair-cover verifiers. Their actual twenty-pentad partials pass both covering verifiers as partials, each covering 185 triples and leaving 375 holes; all residual demands are nonnegative. Twenty-two damaged controls are rejected. Representative SHA256 is `2db5cd79692f83847e2951fb13b08acb72d4e7b9e7f3fdba1557f931a69b9a7d`; independent review SHA256 is `8e792f53ff04e6511cc5d0ea7c1274a35d13af26fa570130128922c46938b9d9`. These local designs are not 64-block covers. Four prepared local-only CP pilots remain unlaunched because direct construction already found alternatives.
+
+A finite semilinear proof establishes completeness only for this precise recipe: delete the origin of AG(2,4), keep its fifteen off-origin lines, extend its five rays by distinct outside points, and require pair multiplicities one/two and one of the four named excess cores. All 3,125 ray-target functions are partitioned into 2,101 with loops, 580 with directed two-cycles, 384 in-scope functions (24 C5 and 120 in each other named class), and 60 functions with the fifth core (both leaves at one triangle vertex), outside scope. The 180 invertible GF(4) matrices and two Frobenius choices give 360 distinct semilinear maps, inducing every one of the 120 ray permutations with three scalar lifts. Each preserves the retained lines; explicit conjugacies reduce all 384 in-scope functions to the four recipes.
+
+Thus the 675 settings exhaust that stated construction up to relabeling. Full excess-group images give exactly 5,184 canonical families in each of the four classes, 20,736 total. A separate literal-GF(4)-table replay checks all 360 maps, 444 function certificates, 161 orbits and 20,736 families, and rejects six damaged controls. Summary SHA256 is `15a674ea26f0d435f9776ce22ccf458cefe369288922c1f433fff93a45ed6da2`; replay SHA256 is `a0adf28f9f31f49babaf8ee8e1362d8650b0532d10ea8d7393b082a92a9552e5`. Root separately recomputed the map/function counts, line preservation and all four complete family unions. This classifies neither all local decompositions nor all covers.
+
+## Expanded affine catalog and new-only support sample (October 4)
+
+Transport to the 38 point-one excess graphs yields **196,992 distinct twenty-pentad partials** and **6,739,200 compatible profile/partial pairs**. The original 5,536 families and 195,296 pairs are an exact subset, with a saved old-to-new ID mapping. Therefore 191,456 families and 6,543,904 pairs are new. The catalog stores twenty little-endian uint16 global lexicographic block IDs per family: 7,879,680 raw bytes and 2,720,667 gzip bytes. Catalog SHA256 is `c471737a4a906ec7e5591a7fecedc6094322c6d39e285f07d615121b84d09203`; summary SHA256 is `e85200dbdf2a392d192973904bc638e4e55184cdc70e1f8cbe3c7643c19ecd6a`.
+
+A deterministic stratified sample covers 1,000 new-only pairs across all 38 fibers. The unchanged earlier one-pass support function, with an explicit expanded-domain configuration, returns 813 insufficient-support contradictions, 162 immediate forced conflicts and 25 survivors. The full sample takes 0.13565 seconds including its 0.05576-second sampled-mask load; screen calls total 0.06630 seconds. These measurements do not include building every catalog mask. Receipt SHA256 is `9ecae116eb215ec6901f1aa1d091385740f2319f0983a16f41a24b5a15353dc4`.
+
+Root's independent checker inverts every family transport and recovers all 5,184 canonical families in each fiber, verifies every old-family mapping, profile compatibility, pair boundary and sample identity, and replays every sample certificate and the exact survivor stream. Nine damaged controls are rejected. Audit SHA256 is `66f1cf20c56a7099979ac1184862e9ac1db8f50f1646704121cdd314b00ab5bc`. The remaining new pairs have not been screened by this sample, and no 64-block cover has been found.

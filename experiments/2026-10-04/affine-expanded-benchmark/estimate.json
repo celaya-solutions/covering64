@@ -1,0 +1,54 @@
+{
+  "additional_pair_screen_calls": 0,
+  "catalog_compressed_sha256": "c471737a4a906ec7e5591a7fecedc6094322c6d39e285f07d615121b84d09203",
+  "estimated_full_new_pairs": {
+    "case_compressed_bytes": 505198970.8585931,
+    "case_uncompressed_bytes": 3241807967.293447,
+    "pairs": 6543904,
+    "survivor_compressed_bytes": 13259884.87616689,
+    "survivor_uncompressed_bytes": 71092232.20512822,
+    "total_minutes_with_streaming_preparation": 8.754746675961103,
+    "total_seconds_with_streaming_preparation": 525.2848005576661,
+    "weighted_screen_function_seconds": 433.9794413520108,
+    "writing_bookkeeping_seconds_by_emitted_bytes": 88.92761795567867,
+    "writing_bookkeeping_seconds_by_pair_count": 88.89960818949342
+  },
+  "input_hashes": {
+    "benchmark.json": "9ecae116eb215ec6901f1aa1d091385740f2319f0983a16f41a24b5a15353dc4",
+    "experiments/2026-10-04/affine-expanded-catalog/summary.json": "e85200dbdf2a392d192973904bc638e4e55184cdc70e1f8cbe3c7643c19ecd6a",
+    "experiments/scratch/affine-expanded-benchmark-v1.0.0/cases.jsonl.gz": "872c0613153c912530b4368a735f668e46d5c7ce2a2680930dcc664a28074369",
+    "experiments/scratch/affine-expanded-benchmark-v1.0.0/survivors.jsonl.gz": "02bb146ce942743a5e26d4e1cead68d6c7449e58b3b856ccafe086eb6c8b3624"
+  },
+  "limitations": [
+    "Point estimate only; no statistical interval or guaranteed runtime bound.",
+    "A short fixed sample may miss expensive cases and survivor-heavy regions.",
+    "No full pair screen, full output stream, or all-mask memory retention was measured.",
+    "File-system, memory, compression, scheduler, and thermal costs can change at scale.",
+    "Streaming preparation is measured, including its check and hash overhead."
+  ],
+  "measured": {
+    "all_masks_retained_in_memory": false,
+    "all_partial_mask_preparation_seconds": 2.3219777500489727,
+    "all_partial_masks_prepared_streaming": 196992,
+    "benchmark_loading_seconds": 0.055763499927707016,
+    "benchmark_other_seconds": 0.013585102744400501,
+    "benchmark_pairs": 1000,
+    "benchmark_screen_function_seconds": 0.06629689724650234,
+    "benchmark_total_seconds": 0.13564549991860986,
+    "case_compressed_bytes": 77166,
+    "case_uncompressed_bytes": 495166,
+    "prepared_57_byte_mask_stream_sha256": "7ea2fde3a54ffda254459131b08ae639bc8a44f1ab63cf22467c734884a03d21",
+    "survivor_compressed_bytes": 2039,
+    "survivor_uncompressed_bytes": 10932
+  },
+  "method": {
+    "compressed_bytes": "estimated raw bytes times the respective sampled gzip ratio",
+    "raw_bytes": "sum of each fiber population times its mean emitted JSONL bytes",
+    "screen": "sum of each fiber population times its measured mean screen-call time",
+    "startup": "add measured full streaming preparation and full sampled loading time",
+    "startup_overlap": "the added sampled loading also includes its 1000 partial masks",
+    "writing": "non-loading/non-screen overhead scaled by estimated emitted bytes"
+  },
+  "optimizer_calls": 0,
+  "source_sha256": "8ac26091cb15c912e085d3903d992c6448bc299f3ef2e0ca8bc072c767e2e9f5"
+}
