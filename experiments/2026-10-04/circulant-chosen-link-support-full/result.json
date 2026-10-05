@@ -1,0 +1,37 @@
+{
+  "complete": true,
+  "completed_cases": 195296,
+  "completed_prefix": [
+    0,
+    195296
+  ],
+  "completed_prefix_convention": "half-open ordinal interval",
+  "elapsed_seconds_including_load_and_output": 20.182739250012673,
+  "full_passes": 1,
+  "iterative_propagation_launched": false,
+  "manifest_sha256": "2c12c4372ef388026d7a6238b7789f72ad8dcaf74ba471035cb2dcdf86dc4439",
+  "next_pair_ordinal": 195296,
+  "operation_counts": {
+    "cardinality_support_checks": 195296,
+    "conflict_row_popcounts": 7331321,
+    "support_row_popcounts": 29700356,
+    "zero_row_unions": 13287360
+  },
+  "optimizer_calls": 0,
+  "outcomes": {
+    "forced_conflict": 28222,
+    "insufficient_support": 156846,
+    "survives_single_pass": 10228
+  },
+  "proof_records": "experiments/scratch/circulant-chosen-link-support-full-v1.0.0/cases.jsonl.gz",
+  "proof_records_sha256": "632e8a7b23ef267323b3f414a8fd9ab7918973ec6913aba7045e9c915a283f6b",
+  "requested_cases": 195296,
+  "scope": "Only all E_p-isomorphism images of the four chosen saved point links, across the supplied1300profiles.",
+  "source_sha256": "26ea6b120238721c832f28421dfc4df3964cb1e3f101a3a930db02a118753567",
+  "stop_reason": "complete",
+  "survivor_meaning": "No contradiction in this single pass; no feasibility claim.",
+  "survivor_records": "experiments/scratch/circulant-chosen-link-support-full-v1.0.0/survivors.jsonl.gz",
+  "survivor_records_sha256": "8914b935b63ccea864ab51f5d0837efcb0eed093b4bbdfc577ecdb2fc0ac2a0c",
+  "wall_budget_respected": true,
+  "wall_budget_seconds": 45.0
+}

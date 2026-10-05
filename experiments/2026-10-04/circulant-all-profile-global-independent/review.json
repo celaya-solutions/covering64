@@ -1,0 +1,83 @@
+{
+  "checker_sha256": "476260e61bd775d7874edcd30be4d7621bf129a12cdab8e0e88f3e58ac885643",
+  "choice_bits": 48,
+  "decision": "GO",
+  "enumeration_independent_audit_sha256": "0ac5ff70de498fd1f399eea6fc7988057d964a53ec0a614c276c0831bc1b3dd9",
+  "explicit_maps_checked": 32,
+  "free_cover_block_variables": 4368,
+  "launch_permitted": true,
+  "linear_rows": 561,
+  "malformed_models_rejected": [
+    "fixed_cover_block",
+    "fixed_choice_bit",
+    "reversed_selector_sign",
+    "changed_table_bit",
+    "wrong_table_column",
+    "nonzero_table_offset",
+    "negated_table",
+    "extra_table_cell",
+    "guarded_table",
+    "extra_link_row",
+    "objective",
+    "hint",
+    "assumption"
+  ],
+  "manifest_sha256": "c3a70ac81bc5174807c3ba150e6924d295a3b2730bec8947921f2176bcc67b72",
+  "mock_runner_controls": [
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "normal"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "term"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "kill"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "nonzero"
+    },
+    {
+      "mock_calls": 1,
+      "passed": true,
+      "scenario": "missing_child"
+    },
+    {
+      "mock_calls": 0,
+      "passed": true,
+      "scenario": "bad_gate"
+    },
+    {
+      "mock_calls": 0,
+      "passed": true,
+      "scenario": "wrong_manifest"
+    },
+    {
+      "mock_calls": 0,
+      "passed": true,
+      "scenario": "existing_child"
+    }
+  ],
+  "model_sha256": "6407fc9eebafae9ca34adf3b67c8d1876e6eb92ff905445f934713ad71190b2c",
+  "model_variables": 4416,
+  "optimizer_calls": 0,
+  "orbits_replayed": 52,
+  "parameters_sha256": "a3ef941977dbde95e721701b2482e1a9fe9e828c394d3cbec063c4e10860a85f",
+  "passed": true,
+  "producer_readme_sha256": "ea63a85509cf43cda34ae96b1bcaace32708f791d59141e6e2480080494e3df5",
+  "profile_orbit_maps_sha256": "013a5de72fd0cca85d94da99bb083a929fbf2df1fe95cace8bd03e0bb607e51a",
+  "profiles_replayed": 1300,
+  "real_process_launches": 0,
+  "real_signals_sent": 0,
+  "runner_sha256": "ab89c2a66fa72182b70fa59874f303cfc40dfb9432e2245322116ef7111ec3fb",
+  "scope": "Complete excess-profile representative reduction for the named circulant pair graph, using the independently enumerated1300 profiles and32 explicit graph automorphisms. Relabeling blocks with the profile is bijective; no cover invariance is assumed. No claim about other pair graphs or unrestricted existence. Root alone may launch one300s four-worker call. Solver INFEASIBLE is not a checked theorem.",
+  "table_rows": 1,
+  "table_sha256": "0ea1d3ae230b7046b978e6ee84fd0420cb96c48436659181346c879ac34ace79"
+}

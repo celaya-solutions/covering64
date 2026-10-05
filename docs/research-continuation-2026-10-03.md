@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.37.0
+Version:     v1.38.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      e985b84848308845f0c2021df2a853a77da90057535edbae84dd5104c5df11c9
+SHA256:      7f8cbbfbc37e8cc0e3b843bde0a973fe5d73ecf4d9a22c090d7b45ac4eef8568
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1289,10 +1289,30 @@ All eight calls returned UNKNOWN and saved no solution vector or candidate. Tota
 
 ## Enumerating all excess profiles for the circulant graph (October 4)
 
-The broader finite calculation keeps all48 binary center choices, without translation invariance. After subtracting the first-center baseline, the forty exact edge-load equations have rational rank30. Exact Fraction elimination records all pivot operations through the resulting reduced rows, leaving18 free columns. Every feasible binary profile has a unique assignment to those free columns. Checking all262,144 assignments, and retaining those whose30 pivot values are binary, produces exactly1,300 profiles in0.29003058304078877 seconds. Every retained assignment is recounted against the original forty equations and all120 pair demands. No optimizer or cover search is called.
+The broader finite calculation keeps all48 binary center choices, without translation invariance. After subtracting the first-center baseline, the forty exact edge-load equations have rational rank30. Exact Fraction elimination saves the reduced rows and pivot-column order, leaving18 free columns. Every feasible binary profile has a unique assignment to those free columns. Checking all262,144 assignments, and retaining those whose30 pivot values are binary, produces exactly1,300 profiles in0.29003058304078877 seconds. Every retained assignment is recounted against the original forty equations and all120 pair demands. No optimizer or cover search is called.
 
 The saved geometry contains the original integer system and exact rational reduced rows. The complete profile list has SHA256 `9e29e1aa6769950297656c4b4a14bef14f04bd182500dfc15e56ffb38b9fef9e`; the calculation receipt has SHA256 `df2ed9b00839bbdac0b455b226227108f487dd1d2ca6407c6798ad311b7ae882`. A separate integer row-bound and binary-branch enumerator reproduces all1,300 masks in3,247 nodes, with1,623 branches,324 pruned nodes and22,486 forces. Exact row reconstruction and rank modulo101 independently verify rank30; five damaged controls are rejected. Independent audit SHA256 is `0ac5ff70de498fd1f399eea6fc7988057d964a53ec0a614c276c0831bc1b3dd9`.
 
 The full graph automorphism group has32 elements. Any map fixing a point is determined by its action on its five neighbors: all ten nonneighbors have distinct neighbor subsets inside that set. Exhausting the120 neighbor permutations leaves identity and reflection; sixteen translations complete the group. Its explicitly checked action partitions the1,300 profiles into52 orbits: four of size2, one of size4, three of size8, nine of size16 and35 of size32. The original eight profiles occupy the four size-two orbits. The orbit data has SHA256 `d0aab8d3de76e07c23a71adb10d10b36e403275fd236f52522f38e0efac480d6`. Every cover with this pair graph can be transported to a representative excess profile; this does not require the cover itself to be invariant.
 
 All20,800 point links have one of the same four local core types:6,272 C4-with-leaf,8,512 triangle-with-path,4,768 C5 and1,248 triangle-with-distinct-leaves, with24 profile-level type-census patterns. These remain potential repeated-triple patterns for one named pair graph, not covers or an unrestricted reduction.
+
+## One model for all circulant excess classes (October 4)
+
+A new global model retains all4,368 lexicographic block variables and adds48 binary center-choice variables. Its562 constraints are exact64,560 exact conditional triple rows and a52-row allowed-assignment table. Each row of the table is one independently checked excess-profile orbit representative. The explicit32 graph automorphisms transport any cover with this named pair graph into one of those rows, so the reduction preserves existence for that pair graph without requiring an invariant cover. No block, link or neighborhood is fixed, and there is no hint or objective.
+
+Independent review checks every variable, conditional-row sign and table entry, replays all32 maps and all1,300 profile-to-representative witnesses, rejects13 damaged models and checks eight mocked launcher cases. Root verified all15 pins and launched one300-second/four-worker call with seed2026106501, under manifest `c3a70ac81bc5174807c3ba150e6924d295a3b2730bec8947921f2176bcc67b72` and GO `ea96ba6cff98ddb0723795745d40e7b0d0bebbe42f1126b89773f20be2b5325b`.
+
+The call returned UNKNOWN with no solution vector, candidate, retry or watchdog. Native time was300.131092 seconds and wrapper time300.6850745000411 seconds. Result SHA256 is `d926ee76ee85b3c6c3f3d739d8fd0b6ee3ad139041071fa0cda512c854d10375`. Independent runtime review checks all15 preparation pins, response/log agreement, the raw output index and empty candidate fields, and rejects14 damaged candidate controls. Its SHA256 is `1c1a8ac7b14d6c65162845abe54d9f2af0978ce0a9219b49671419b51f75e771`. This bounded run excludes no profile and establishes no general nonexistence result.
+
+## All maps of the four chosen circulant point links (October 4)
+
+At point one, the1,300 profiles induce38 distinct excess graphs:12 C4-with-leaf, eight C5,16 triangle-with-path and two triangle-with-distinct-leaves. For each, a new catalog keeps every excess-graph isomorphism image of the corresponding chosen canonical witness. The canonical image counts are96,320,96,144 respectively. All images are distinct. They give5,536 labeled twenty-pentad partials and195,296 compatible(profile,partial) pairs. This is a catalog of four specific witness orbits; it does not include every affine construction or every local decomposition.
+
+Root's independent checker exhausts center permutations and pendant-leaf bijections, reconstructs every profile fiber and label map, and directly recounts every partial's incidences. Each partial covers185 triples, with the eighty outside triples distinct. Five damaged inputs are rejected. Catalog audit SHA256 is `e832913ef7d0ead42fdcb9c75538654e6dedfdb81091dd44519fa900cfbfe158`. A deterministic1,000-pair benchmark then produces794 insufficient-support contradictions,141 immediate forced conflicts and65 single-pass survivors. An independent set-based replay matches every case and rejects12 damaged certificates.
+
+The full one-pass screen uses all3,003 point-avoiding pentads,455 exact residual triple rows and the required44 additional blocks. Zero-demand rows remove incompatible columns; insufficient row support is a contradiction, and any row whose support equals demand forces all its remaining columns. Conflicting forced columns give another finite contradiction. The screen makes no iterative deductions and calls no optimizer. Root launches it once under manifest `2c12c4372ef388026d7a6238b7789f72ad8dcaf74ba471035cb2dcdf86dc4439` and independent GO `5a19e29f6dec86514298dc00dc8e6bebaee3b21a0fb38a7bbf39dfa662ba1fa1`. Its45-second limit is a cooperative processing budget; a separate checked wrapper enforces a50-second process watchdog and5-second termination grace.
+
+All195,296 pairs finish in20.226166457985528 seconds of full child-process time, with no watchdog. There are156,846 insufficient-support exclusions,28,222 immediate forced-conflict exclusions and10,228 unresolved survivors. The result SHA256 is `aabd7d06c2a2b297b69086676e12a68ccfd6a532dcf5ea3aeca53d42fde958e3`. Large proof and survivor streams remain in ignored scratch, with SHA256 `632e8a7b23ef267323b3f414a8fd9ab7918973ec6913aba7045e9c915a283f6b` and `8914b935b63ccea864ab51f5d0837efcb0eed093b4bbdfc577ecdb2fc0ac2a0c`.
+
+A separate checker reconstructs row carriers from their66 possible completing pairs, replays every exclusion certificate and every survivor's455 row supports and immediate forces, and matches the complete survivor stream. It rejects six damaged controls without importing or rerunning the producer. The full runtime/proof audit has SHA256 `d2e5259ab156ff81111742f4c1d8068a436685278bac5fdc9f7a82af34df6137`. Thus185,068 named(profile,partial) combinations are excluded; the10,228 survivors are unproved, and no64-block cover has been found.

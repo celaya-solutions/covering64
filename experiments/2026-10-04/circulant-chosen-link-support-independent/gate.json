@@ -1,0 +1,53 @@
+{
+  "benchmark_cases_replayed": 1000,
+  "benchmark_source_sha256": "5007aa2b9b38d980ecb4283aeb23c0873d770ee1e9036d3af0bab1045887428d",
+  "catalog_audit_sha256": "e832913ef7d0ead42fdcb9c75538654e6dedfdb81091dd44519fa900cfbfe158",
+  "checker_sha256": "82675dd05c401c7a66326c3e412cc0ac8558d85582335f23f60fedf179eab198",
+  "complete_pair_domain": 195296,
+  "damage_controls": {
+    "invented_survival": "rejected",
+    "missing_force_support": "rejected",
+    "missing_forced_block": "rejected",
+    "missing_support": "rejected",
+    "wrong_demand": "rejected",
+    "wrong_domain": "rejected",
+    "wrong_force_demand": "rejected",
+    "wrong_force_row": "rejected",
+    "wrong_mask_hash": "rejected",
+    "wrong_ordinal": "rejected",
+    "wrong_profile": "rejected",
+    "wrong_survivor_count": "rejected"
+  },
+  "dependencies_checked": 13,
+  "external_wrapper": "experiments/2026-10-04/circulant-chosen-link-independent/launch_full.py",
+  "external_wrapper_sha256": "c780d84eaa535fe2fc6966ee175d5dee862cd858504b55710c667b71dc51747b",
+  "full_screen_launched": false,
+  "full_source_sha256": "26ea6b120238721c832f28421dfc4df3964cb1e3f101a3a930db02a118753567",
+  "launch_condition": "Root must use an external50-second watchdog plus5-second termination grace and save true process time.",
+  "launch_permitted": true,
+  "manifest_sha256": "2c12c4372ef388026d7a6238b7789f72ad8dcaf74ba471035cb2dcdf86dc4439",
+  "operation_counts": {
+    "cardinality_support_checks": 1000,
+    "conflict_row_popcounts": 42386,
+    "support_row_popcounts": 154217,
+    "zero_row_unions": 67984
+  },
+  "optimizer_calls": 0,
+  "outcomes": {
+    "forced_conflict": 141,
+    "insufficient_support": 794,
+    "survives_single_pass": 65
+  },
+  "passed": true,
+  "scope": "Only the full supplied chosen-link catalog; passing support is not feasibility.",
+  "source_review": {
+    "cooperative_stop_seconds": 44.5,
+    "cursor_half_open_prefix": true,
+    "hard_45_second_process_cap": false,
+    "recorded_processing_budget_seconds": 45,
+    "requires_external_termination_grace_seconds": 5,
+    "requires_external_watchdog_seconds": 50,
+    "single_full_ordinal_loop": true,
+    "single_screen_call_per_ordinal": true
+  }
+}

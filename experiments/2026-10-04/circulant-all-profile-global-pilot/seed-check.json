@@ -1,0 +1,28 @@
+{
+  "command": [
+    "rg",
+    "--no-ignore",
+    "-l",
+    "2026106501",
+    "experiments",
+    "scripts",
+    "docs",
+    "--glob",
+    "*.py",
+    "--glob",
+    "*.json",
+    "--glob",
+    "*.md",
+    "--glob",
+    "*.pbtxt",
+    "--glob",
+    "*.log",
+    "--glob",
+    "!experiments/2026-10-04/circulant-all-profile-global-pilot/**"
+  ],
+  "matching_files": [],
+  "optimizer_calls": 0,
+  "returncode": 1,
+  "scope": "Recorded source/JSON/Markdown/protobuf/log files in scripts, docs and experiments, including ignored scratch; excludes only this new producer folder. Missing historical artifacts are not recovered.",
+  "seed": 2026106501
+}

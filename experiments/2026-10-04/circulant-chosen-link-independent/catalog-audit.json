@@ -1,0 +1,41 @@
+{
+  "canonical_image_counts": {
+    "C4-leaf": 96,
+    "C5": 320,
+    "triangle-path2": 96,
+    "triangle-two-leaves": 144
+  },
+  "catalog_pins": {
+    "README.md": "c7e4e93c4fb583589391ef97aa4b1b10f5fc2c886c097f0291594234198a7640",
+    "build.py": "cfdcb612e32acf9da29a3d4b073fdb3fe183501d732f95ce41ae99208730a0a9",
+    "canonical-images.json": "18a7eff11931df2dc25c17e2beb3ccb588c6fe29aaf753ece024c20e59607f8b",
+    "link-fibers.json": "26bf0612bcf1a17ecc72d2bd214235a2ddc4151e0b07444ba87bc58b5fa82f60",
+    "partial-catalog.json": "cc799f7d289120ff4ebdf101e4f896bb512179a2424883a1e374ea7ace534667",
+    "profiles.json": "24ccef8eb95cd04e683a575d60fcba854728615ee2ca6495f2bc6028fc56cf0f",
+    "summary.json": "524b97a62174a671df5cf3de6c9962b01f1a9713d582ef54e486954518a049a3"
+  },
+  "covered_triples_per_partial": 185,
+  "damaged_controls_rejected": [
+    "missing_image",
+    "duplicate_block",
+    "bool_block_id",
+    "wrong_map",
+    "profile"
+  ],
+  "excess_graphs": 38,
+  "inputs_sha256": {
+    "experiments/2026-10-04/circulant-all-excess-profiles/geometry.json": "c1c9e6d640141238e03e2a37fb37155c1ee8f67868dd59fca8844fd93ec0a1a9",
+    "experiments/2026-10-04/circulant-all-excess-profiles/profiles.json": "9e29e1aa6769950297656c4b4a14bef14f04bd182500dfc15e56ffb38b9fef9e",
+    "experiments/2026-10-04/clebsch-point-link-construction/classes.json": "6916b285c1c53693b4f2f53bd0194afd6f2c936e1a10da3a236c5311ab86a2cc"
+  },
+  "optimizer_calls": 0,
+  "partial_families": 5536,
+  "passed": true,
+  "producer_imports": 0,
+  "profile_partial_pairs": 195296,
+  "profiles": 1300,
+  "scope": "All isomorphism images of four specific saved local witnesses only",
+  "source_revision": "60aec2a679f65519c9adeb9c0cbc5d4fea7d00f9",
+  "source_sha256": "7ff3287e67400a1ebb305e6622081cc95d7172b309c9d7b2771da5bb207fea71",
+  "triple_rows_recounted": 581280
+}

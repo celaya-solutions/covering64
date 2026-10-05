@@ -1,0 +1,52 @@
+{
+  "checker_sha256": "9a7a15f8a56f6c1c35e8ead989e0679a95c83f7e157fda3747bc9488cacd6ec0",
+  "gate_sha256": "ea96ba6cff98ddb0723795745d40e7b0d0bebbe42f1126b89773f20be2b5325b",
+  "launch_sha256": "bb695819433710996b234b380556973608e75249893c2e354e7a44c3dc7693b8",
+  "malformed_candidate_controls_rejected": [
+    "choice_0",
+    "choice_1",
+    "choice_2",
+    "choice_3",
+    "choice_4",
+    "choice_5",
+    "choice_6",
+    "blocks_0",
+    "blocks_1",
+    "blocks_2",
+    "blocks_3",
+    "blocks_4",
+    "blocks_5",
+    "blocks_6"
+  ],
+  "manifest_sha256": "c3a70ac81bc5174807c3ba150e6924d295a3b2730bec8947921f2176bcc67b72",
+  "model_gate_review_sha256": "83f3aa3089505bb38e2b06d0322373d0034a987bf591d8962370a8b0a0711ba3",
+  "native_requeries": 0,
+  "optimizer_calls": 0,
+  "passed": true,
+  "prepared_pins_checked": 15,
+  "producer_result_sha256": "d926ee76ee85b3c6c3f3d739d8fd0b6ee3ad139041071fa0cda512c854d10375",
+  "raw_files": {
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/child-result.json": "871b8f80e19a927b8f4be3b22bed2b624e9d56d1319357d54dbdf05467f2fd9d",
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/model.pbtxt": "6407fc9eebafae9ca34adf3b67c8d1876e6eb92ff905445f934713ad71190b2c",
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/parameters.pbtxt": "a3ef941977dbde95e721701b2482e1a9fe9e828c394d3cbec063c4e10860a85f",
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/response.pbtxt": "ebcf964bf122c2f2a09fcc92b5187035b426ce52858a4409b59c9978a9cf1fad",
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/solver.log": "fd71b7e4645024b823b246036fdce06960135fef3e307e47be90139b0657f5e6",
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/circulant-all-profile-global-pilot-20261004/stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "run": {
+    "branches": 3215239,
+    "candidate": null,
+    "conflicts": 5519,
+    "elapsed_seconds": 300.6850745000411,
+    "independent_infeasibility_proof": false,
+    "native_seconds": 300.131092,
+    "response_sha256": "ebcf964bf122c2f2a09fcc92b5187035b426ce52858a4409b59c9978a9cf1fad",
+    "returncode": 0,
+    "solver_log_sha256": "fd71b7e4645024b823b246036fdce06960135fef3e307e47be90139b0657f5e6",
+    "status": "UNKNOWN",
+    "watchdog": false
+  },
+  "runner_sha256": "ab89c2a66fa72182b70fa59874f303cfc40dfb9432e2245322116ef7111ec3fb",
+  "scope": "One complete-profile model for this named circulant pair graph; all52 representatives of1300 independently enumerated excess patterns. No cover invariance or fixed link. UNKNOWN is inconclusive; INFEASIBLE without a separately checked proof is not certified. No unrestricted conclusion."
+}

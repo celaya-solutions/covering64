@@ -1,0 +1,37 @@
+{
+  "cases_verified": 195296,
+  "checker_sha256": "34454b7922b3165000622ab7a810d316f2a511e1f0181e23a450b35209afbc95",
+  "complete_replay": true,
+  "damage_controls": {
+    "changed_forcing_demand": "rejected",
+    "missing_forcing_support": "rejected",
+    "missing_support": "rejected",
+    "wrong_domain_hash": "rejected",
+    "wrong_row_demand": "rejected",
+    "wrong_survivor_count": "rejected"
+  },
+  "gate_sha256": "5a19e29f6dec86514298dc00dc8e6bebaee3b21a0fb38a7bbf39dfa662ba1fa1",
+  "manifest_sha256": "2c12c4372ef388026d7a6238b7789f72ad8dcaf74ba471035cb2dcdf86dc4439",
+  "optimizer_calls": 0,
+  "outcomes": {
+    "forced_conflict": 28222,
+    "insufficient_support": 156846,
+    "survives_single_pass": 10228
+  },
+  "passed": true,
+  "producer_rerun": false,
+  "proof_records_sha256": "632e8a7b23ef267323b3f414a8fd9ab7918973ec6913aba7045e9c915a283f6b",
+  "replay_cooperative_budget_seconds": 120,
+  "replay_elapsed_seconds": 5.400178291019984,
+  "requested_cases": 195296,
+  "result_sha256": "aabd7d06c2a2b297b69086676e12a68ccfd6a532dcf5ea3aeca53d42fde958e3",
+  "scope": "All saved chosen-link records; no feasibility claim.",
+  "survivor_records_sha256": "8914b935b63ccea864ab51f5d0837efcb0eed093b4bbdfc577ecdb2fc0ac2a0c",
+  "survivors_verified": 10228,
+  "true_producer_elapsed_seconds": 20.226166457985528,
+  "verified_prefix": [
+    0,
+    195296
+  ],
+  "wrapper_runtime_sha256": "6e513bcd74b3db7704e4eeffb1303a62e6bbb75df7b4c9dad6589ff24a2b194f"
+}
