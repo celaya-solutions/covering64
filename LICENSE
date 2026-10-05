@@ -1,0 +1,36 @@
+covering64
+Copyright (c) 2026 Christopher Celaya / Celaya Solutions Research
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+Summary: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Scope. The license covers every file in this repository authored by
+Celaya Solutions Research: source code, documents, data, logs and proof
+certificates. Many files carry an older header line reading
+"License: All Rights Reserved / Celaya Solutions". Those headers predate
+this public release and are superseded by this license. They are left
+unchanged because their exact bytes are pinned by SHA-256 hashes elsewhere
+in the repository.
+
+Attribution. When you share or adapt this work, give this credit:
+
+  Celaya Solutions Research (Christopher Celaya), "covering64: research on
+  the covering number C(16,5,3)", 2026,
+  https://github.com/celaya-solutions/covering64
+
+and indicate whether you made changes. See CITATION.cff.
+
+Third-party material (not licensed by Celaya Solutions Research):
+
+- data/baselines/belic-1997.txt and data/provenance/ come from the La Jolla
+  Covering Repository v1.2 by Daniel M. Gordon (DOI 10.5281/zenodo.19735294),
+  licensed CC BY 4.0. The 65-block cover is credited to Rade Belić (1997).
+  See data/provenance/README.md and data/provenance/ljcr-LICENSE.txt.
+- Web pages saved as dated provenance under
+  experiments/2026-10-03/independent-primary-sources/ and
+  experiments/2026-10-03/independent-geometry/sources/ remain the property of
+  their publishers.
+- Tools such as OR-Tools, PySAT, CaDiCaL, Lingeling and drat-trim are used
+  under their own licenses and are not redistributed here.

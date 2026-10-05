@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.42.0
+Version:     v1.43.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-05
-SHA256:      84454f2bf8e2f0d6ac25873e08e3386407d092b2fbd0bf6e7791e526f12d04b8
+SHA256:      aef119a3fadcd3a4b4c2c607889a3c820a2d77d5f466091742a03831d48d8413
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1379,3 +1379,7 @@ Greedy LP dives on whole circulant profiles fail after five or six fixed point-o
 ## Lower-bound program: the forced 61-block structure (October 5)
 
 The program now works upward from the recorded lower bound of 61. `docs/lower-bound-61-structure.md` proves that a 61-block cover would have one point of degree 20 and fifteen of degree 19; its pairs with multiplicity six form a five-edge star at that point plus a perfect matching of the other ten points; every triple is covered once or twice, with exactly 50 doubled triples placed one per remaining pair and four per star or matching pair; and every degree-19 link is one of the four classified minimum C(15,4,2) covers. Standard tools do not settle this structure quickly: the LP relaxation is feasible, CP-SAT returned UNKNOWN after 600 seconds, and a compact SAT encoding stayed open after three million conflicts even with a classified link fixed. The probes are recorded in `experiments/2026-10-05/lower-bound-61-probes/`. The next step is a symmetry-reduced case split at the degree-20 point with independently checkable certificates. No bound has been improved yet.
+
+## Preliminary: no 61-block cover (October 5)
+
+Fix an A-point link to each of the four classified C(15,4,2) covers and leave the rest of the forced pair structure variable. CaDiCaL 1.9.5 returned UNSAT for all four resulting CNFs (144,553 variables and 512,424 clauses each; 1,045 to 1,255 seconds). With the lemmas of `docs/lower-bound-61-structure.md` this implies C(16,5,3) >= 62. These runs produced no proofs. Certification with Lingeling DRAT proofs checked by drat-trim, and an independently written CP-SAT formulation, are in progress under `experiments/2026-10-05/lb61-*`. Until they finish the bound is unverified. The repository is released publicly under CC BY 4.0.

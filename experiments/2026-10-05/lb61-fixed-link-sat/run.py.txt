@@ -1,0 +1,62 @@
+"""61-block model with one A-point's link fixed (point 1, center z=2) and the rest of E variable."""
+import sys, time
+from itertools import combinations
+from pysat.formula import IDPool
+from pysat.card import CardEnc, EncType
+from pysat.solvers import Solver
+cls=sys.argv[1]; budget=int(sys.argv[2])
+link=[tuple(map(int,l.split())) for l in open(f'experiments/2026-10-03/link-classification/{cls}') if l.strip()]
+assert len(link)==19 and all(b[0]==1 for b in link)
+BLOCKS=list(combinations(range(1,17),5)); TR=list(combinations(range(1,17),3)); PR=list(combinations(range(1,17),2))
+pool=IDPool(); clauses=[]
+x={B:pool.id(('x',B)) for B in BLOCKS}; d={T:pool.id(('d',T)) for T in TR}
+isA={v:pool.id(('A',v)) for v in range(3,17)}
+mt={p:pool.id(('m',p)) for p in combinations(range(3,17),2)}
+def counter(lits,K,tag):
+    prev=[None]*(K+1)
+    for i,l in enumerate(lits):
+        cur=[None]+[pool.id((tag,i,j)) for j in range(1,K+1)]
+        for j in range(1,K+1):
+            c=cur[j]
+            if prev[j] is not None: clauses.append([-prev[j],c])
+            if j==1: clauses.append([-l,c])
+            elif prev[j-1] is not None: clauses.append([-prev[j-1],-l,c])
+            a=[prev[j]] if prev[j] is not None else []
+            if j==1: clauses.append([-c]+a+[l])
+            elif prev[j-1] is not None:
+                clauses.append([-c]+a+[prev[j-1]]); clauses.append([-c]+a+[l])
+            else: clauses.append([-c]+a)
+        prev=cur
+    return prev
+linkset=set(link)
+for B in BLOCKS:
+    if 1 in B: clauses.append([x[B]] if B in linkset else [-x[B]])
+tin={T:[] for T in TR}
+for B in BLOCKS:
+    for T in combinations(B,3): tin[T].append(x[B])
+for T in TR:
+    s=counter(tin[T],3,('c',T)); clauses += [[s[1]],[-s[3]],[-s[2],d[T]],[s[2],-d[T]]]
+# E structure: 1-2 is an E edge; z=2 adjacent to the A points; every other point has one E neighbour.
+clauses += CardEnc.equals(lits=list(isA.values()), bound=4, vpool=pool, encoding=EncType.seqcounter).clauses
+for (u,v),m in mt.items(): clauses += [[-m,-isA[u]],[-m,-isA[v]]]
+for v in range(3,17):
+    partners=[mt[tuple(sorted((u,v)))] for u in range(3,17) if u!=v]
+    clauses += CardEnc.atmost(lits=partners, bound=1, vpool=pool, encoding=EncType.pairwise).clauses
+    clauses.append([isA[v]]+partners)      # M point has a partner
+def inE(p):
+    u,v=p
+    if p==(1,2): return True
+    if u==1: return False
+    if u==2: return isA[v]
+    return mt[p]
+for p in PR:
+    lits=[d[T] for T in TR if set(p)<=set(T)]
+    c=counter(lits,5,('p',p)); e=inE(p)
+    clauses.append([c[1]])
+    if e is True: clauses += [[c[4]],[-c[5]]]
+    elif e is False: clauses.append([-c[2]])
+    else: clauses += [[-e,c[4]],[-e,-c[5]],[e,-c[2]]]
+print(cls,'vars',pool.top,'clauses',len(clauses),flush=True)
+sv=Solver(name='cadical195', bootstrap_with=clauses); sv.conf_budget(budget)
+t=time.time(); r=sv.solve_limited()
+print(cls,'result',r,round(time.time()-t,1),'s',sv.accum_stats(),flush=True)

@@ -1,10 +1,10 @@
 ```text
 Document:    Covering64 Research Workflow
-Version:     v1.4.0
+Version:     v1.5.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      8c6104b45c3323be314b23580aa1e7de34a6b0d3a4ef89b012358c2893ce29db
+SHA256:      882eb8a3c75c65a7930fbd9590a9946e0b1474d1ddc43276944228c0602a2325
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,7 +78,7 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Affine recipe closed: the full new-only support screen (6543904 pairs), exact bounded-LP Farkas certificates for all208570 remaining cases, and integer-only replays exclude every one of the6739200 profile/link pairs of the stated affine recipe in the circulant {±1,±3,8} branch. The four held CP cases are among them and are withdrawn. Report v1.40.0 has the hashes. For any new fixed-link screen, run the bounded LP certificate first: it subsumes row propagation and is far cheaper than the parity/prime chain. CP-SAT single-worker models of small prescribed groups usually stay UNKNOWN; regular order-16 actions need several workers. The prescribed-group orbit search settled 579 of 665 groups with no 64-block invariant cover; 86 small groups (orders 3-20) stay UNKNOWN. An LP-certified link-tree pilot on circulant profile 0 needs about ten CPU hours per profile; find a cheaper node test before a full run. Lower-bound program (10-05): `docs/lower-bound-61-structure.md` proves the forced 61-block structure; plain LP, CP-SAT and SAT do not settle it, so split at the degree-20 point with checkable certificates.
+Affine recipe closed: the full new-only support screen (6543904 pairs), exact bounded-LP Farkas certificates for all208570 remaining cases, and integer-only replays exclude every one of the6739200 profile/link pairs of the stated affine recipe in the circulant {±1,±3,8} branch. The four held CP cases are among them and are withdrawn. Report v1.40.0 has the hashes. For any new fixed-link screen, run the bounded LP certificate first: it subsumes row propagation and is far cheaper than the parity/prime chain. CP-SAT single-worker models of small prescribed groups usually stay UNKNOWN; regular order-16 actions need several workers. The prescribed-group orbit search settled 579 of 665 groups with no 64-block invariant cover; 86 small groups (orders 3-20) stay UNKNOWN. An LP-certified link-tree pilot on circulant profile 0 needs about ten CPU hours per profile; find a cheaper node test before a full run. Lower-bound program (10-05): `docs/lower-bound-61-structure.md` proves the forced 61-block structure; plain LP, CP-SAT and SAT do not settle it, so split at the degree-20 point with checkable certificates. 10-05: CaDiCaL says all four fixed-link 61 cases are UNSAT (preliminary C>=62); certification (Lingeling DRAT + drat-trim, CP-SAT cross-check) runs under experiments/2026-10-05/lb61-*. Repo released under CC BY 4.0; keep that license line in new public-facing docs.
 The H6 strict search excludes improvement through four replacements. Its complete neutral radius-three search finds only three one-swap alternatives, all with the same failing pair metrics. The fresh 300-second H6 native run retains raw H6; its best new weak record H11/D26 does not improve the separate H9/D19 fallback. The warm-star run retains its H9 input; all16 Clebsch recipe relaxations are fractional, not covers.
 All256 chosen affine point links now have independently checked finite exclusions. Under the Clebsch pair profile, fifteen neighbor pentads force sixteen, whose separate finite certificate gives a contradiction; at most fourteen can occur. Alternate local constructions remain open. Neutral exact-four is deferred after its large workload screen.
 The non-Clebsch circulant graph with steps ±1,±3,8 has exactly1300 admissible excess profiles after tight cuts, in52 orbits under its32 graph automorphisms; two independent finite enumerators agree. Eight30-second fixed-profile calls all returned UNKNOWN, checked independently.

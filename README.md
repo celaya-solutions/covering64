@@ -1,18 +1,65 @@
+```text
+Document:    covering64: Research on the Covering Number C(16,5,3)
+Version:     v2.0.0
+Author:      Celaya Solutions
+Contact:     hello@celayasolutions.com
+Date:        2026-10-05
+SHA256:      f6f4bfe0fb005b704abc38c6b5134a0bbcc4c1064129b78d5c8a0130802a4dc9
+Chain:       n/a
+Tx:          [not anchored]
+License:     CC BY 4.0 / Celaya Solutions
+```
+
 # covering64
 
-Find 64 distinct five-element subsets of {1,...,16} covering all 560 triples.
-The verified archival benchmark uses 65 blocks; the supported lower bound is 61.
-No 64-block witness or global nonexistence proof has been obtained.
+Computer-assisted research on the covering number **C(16,5,3)**.
 
-This is a reconstructed starter package. The original temporary workspace reset,
-so the code was rebuilt from retained conversation records and checked again.
-The original commit history, attached report, dependency lock and raw experiment
-logs were not recovered. See [recovery notes](docs/recovery.md).
+## The problem
 
-## Setup
+A covering design C(v,k,t) is a smallest family of k-element subsets
+("blocks") of a v-element set such that every t-element subset lies in at least
+one block. This project studies **C(16,5,3)**: the fewest 5-element subsets of
+{1, ..., 16} that together contain all 560 triples.
 
-Install Python 3.11 or later and [uv](https://docs.astral.sh/uv/).
-Open a terminal in the extracted `covering64` folder:
+In plain words: sixteen people are split into teams of five. How few teams do
+you need so that every group of three people shares at least one team?
+
+**Known bounds: 61 <= C(16,5,3) <= 65.** The 65-block cover is due to Rade
+Belić (1997) and is archived in the La Jolla Covering Repository (Daniel M.
+Gordon). The lower bound 61 is the Schönheim bound. These are the values
+recorded by the Covering Repository as of October 2026.
+
+## Results so far (October 2026)
+
+1. **Preliminary: no 61-block cover exists, so C(16,5,3) >= 62.**
+   [docs/lower-bound-61-structure.md](docs/lower-bound-61-structure.md) proves
+   the rigid structure any 61-block cover must have: one point in 20 blocks and
+   fifteen in 19, forced pair and triple multiplicities, and at every
+   19-block point a minimum C(15,4,2) "link" from one of four known
+   isomorphism classes (Allston, Buskens and Stanton, 1988). Fixing one link in
+   each of the four classes, the SAT solver CaDiCaL 1.9.5 found all four
+   remaining problems unsatisfiable (17 to 21 minutes each).
+   **Status: not yet certified.** DRAT proofs (Lingeling, checked with
+   drat-trim) and an independent CP-SAT re-formulation are running. Until those
+   results are published here, treat this bound as unverified.
+2. **A structured branch is closed.** Within the regular branch whose
+   six-fold pairs form the circulant graph C16(+-1,+-3,8), every one of the
+   6,739,200 cases with an affine point link is excluded by checked support,
+   propagation and exact linear-programming certificates
+   ([report](docs/research-continuation-2026-10-03.md)).
+3. **No symmetric 64-block cover** exists for any of 579 settled permutation
+   groups, including every tested group of order at least 21
+   ([details](experiments/2026-10-04/km-prescribed-groups/README.md)).
+4. **No 64-block cover has been found.** The best search state misses 3 of the
+   560 triples. Near-optimal covers rely on a "seven-fold triple" pattern that
+   is provably impossible at 64 blocks, which explains why local search stalls.
+
+Every negative result is stated only for its exact scope. Solver timeouts and
+unchecked solver answers are never counted as proofs.
+
+## How to check
+
+Install Python 3.11+ and [uv](https://docs.astral.sh/uv/), then:
 
 ```sh
 uv sync --frozen
@@ -21,65 +68,34 @@ uv run covering64 verify data/baselines/belic-1997.txt --expected-blocks 65
 uv run python scripts/check_cover.py data/baselines/belic-1997.txt --expected-blocks 65
 ```
 
-The standalone checker uses no package code or solver state. Both verifiers
-must accept any claimed construction. The known benchmark SHA-256 is:
+Each experiment folder under `experiments/` has a README with its exact command,
+inputs, hashes and an independent checker. Large proof streams are regenerated
+by those scripts and are not stored in Git.
 
-```text
-89e4f68acba5d2cbee73e22d07dd1030e540b920fc7541619a065e998dc7d43f
-```
+## Repository map
 
-## Run research
+| Path | Contents |
+|---|---|
+| `docs/` | Research log, proofs of structural lemmas, evidence policy |
+| `experiments/` | Dated experiments: sources, receipts, certificates, checkers |
+| `src/covering64/` | Package: cover verification, models, search tools |
+| `scripts/` | Standalone checker and research tools |
+| `data/` | The archived 65-block cover and its provenance |
 
-```sh
-uv run covering64 model
-uv run covering64 solve --target 65 --hint data/baselines/belic-1997.txt --seconds 15
-uv run covering64 solve --target 64 --seconds 60 --seed 2 --workers 1 \
-  --output experiments/scratch/exact.json --save-witness experiments/scratch/candidate.txt
-uv run covering64 audit data/baselines/belic-1997.txt
-uv run covering64 search data/baselines/belic-1997.txt --remove 4 --attempts 100 \
-  --seconds-per-attempt 1 --seed 42 --output experiments/scratch/search.json
-uv run covering64 encode experiments/scratch/atmost64.cnf --target 64 \
-  --output experiments/scratch/cnf.json
-```
+## Credit, license and citation
 
-The CP-SAT formulation uses exactly the requested block count and the complete
-universe of 4,368 candidate blocks. Each of 560 triples must occur in a selected
-block. The default applies no symmetry constraint. An optional first-block
-normalization is justified by point relabeling. `OPTIMAL` means feasibility
-success in this model, not optimality of the mathematical covering number.
+Research directed by **Christopher Celaya, Celaya Solutions Research** (El
+Paso, Texas), working with AI coding agents (OpenAI Codex and Anthropic Claude
+Code).
 
-The proof CNF uses at most the requested number of blocks, equivalent to exact
-cardinality for existence because smaller covers can be padded with unused
-distinct blocks. A checked unrestricted UNSAT proof at 64, with the known
-65-block witness, would prove C(16,5,3)=65. A valid 64-block witness improves
-the upper bound; it does not establish the exact covering number.
+Released under [CC BY 4.0](LICENSE): you may share and adapt this work, but you
+must credit **Celaya Solutions Research (Christopher Celaya), covering64,
+2026, https://github.com/celaya-solutions/covering64** and note any changes.
+Citation metadata is in [CITATION.cff](CITATION.cff).
 
-To check a DRAT proof after separately installing a proof solver and checker:
+Built on the work of Daniel M. Gordon (La Jolla Covering Repository, CC BY 4.0),
+Rade Belić (the 65-block cover), J. L. Allston, R. W. Buskens and R. G. Stanton
+(classification of C(15,4,2) covers), and the authors of CaDiCaL, Lingeling,
+drat-trim, PySAT and Google OR-Tools.
 
-```sh
-DRAT_TRIM=/path/to/drat-trim bash scripts/verify_drat.sh INSTANCE.cnf PROOF.drat
-```
-
-No global proof has been checked. Timeouts, UNKNOWN and neighborhood-only
-infeasibility are not global nonexistence results. Consult the
-[campaign](docs/campaign.md) and [evidence policy](docs/evidence-policy.md).
-
-## Prior pilot
-
-The retained conversation records two unrestricted 20-second searches ending
-UNKNOWN, 48 larger exchanges with no improvement, and an exhaustive audit of
-65 deletions and 2,080 pairs with no compression of this witness. These are
-historical summaries, not recovered raw logs. Fresh rebuild verification is
-saved separately under `experiments/`.
-
-## Source and delivery
-
-The baseline comes from LJCR version 1.2,
-[DOI 10.5281/zenodo.19735294](https://doi.org/10.5281/zenodo.19735294), credited to
-Rade Belic on 6 August 1997. The source-data license is archived in provenance.
-The full 4.2 GB `covers.json` checksum remains unverified. The exact versioned
-entry is reproducibly retrievable with `python scripts/fetch_ljcr.py`.
-
-GitHub creation was previously rejected with HTTP 403. This package does not
-claim a remote repository exists. Its source ZIP can be extracted anywhere;
-initialize Git locally with `git init` if desired. No new-code license is selected.
+Questions or independent checks: hello@celayasolutions.com
