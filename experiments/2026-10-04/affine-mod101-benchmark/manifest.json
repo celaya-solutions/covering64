@@ -1,0 +1,37 @@
+{
+  "arithmetic": "NumPy int64 Gaussian elimination modulo101 with tracked456-row combinations",
+  "certificate_consistent": "dense field solution x with Ax=b modulo101; not a binary cover",
+  "certificate_contradiction": "dense y with yA=0 and yb nonzero modulo101",
+  "cooperative_seconds": 15.0,
+  "equations": "all455 residual triple rows and the sum44 row",
+  "expanded_cases": 4,
+  "finalize_reserve_seconds": 0.15,
+  "free_size_definition": "candidate count after zero-demand removal, before any forced cuts",
+  "full616_screen_authorized": false,
+  "input_hashes": {
+    "experiments/2026-10-04/affine-expanded-catalog/link-fibers.json": "65655c36f0daec34a7f5b9d62b5a44adfdb874774027fccdd30d09e1cdc20df6",
+    "experiments/2026-10-04/affine-expanded-catalog/summary.json": "e85200dbdf2a392d192973904bc638e4e55184cdc70e1f8cbe3c7643c19ecd6a",
+    "experiments/2026-10-04/affine-mod101-benchmark/plan.json": "3dbc3eafd965fa8f2a6d7c92f98c50350d07a1a3521e5c598de7d84f82aff3ac",
+    "experiments/2026-10-04/affine-mod2-pilot/executed-source.txt": "3e9e6a30089c9c995c049dc9ecce44d684ff049c2fabc790a7f4020b79ccb647",
+    "experiments/2026-10-04/affine-mod2-pilot/manifest.json": "dbf45a715ed80ef0ca0090abdfa06feb9c4fec786290934dee263d9b75602e5f",
+    "experiments/2026-10-04/affine-mod2-pilot/result.json": "aacc0a5cd51bc8315e8b72dd1f14d7376b4241237672fbbceceec6d7e3288c71",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/link-fibers.json": "26bf0612bcf1a17ecc72d2bd214235a2ddc4151e0b07444ba87bc58b5fa82f60",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/partial-catalog.json": "cc799f7d289120ff4ebdf101e4f896bb512179a2424883a1e374ea7ace534667",
+    "experiments/2026-10-04/circulant-chosen-link-catalog/profiles.json": "24ccef8eb95cd04e683a575d60fcba854728615ee2ca6495f2bc6028fc56cf0f",
+    "experiments/scratch/affine-expanded-catalog-v1.0.0/catalog-20xu16le.bin.gz": "c471737a4a906ec7e5591a7fecedc6094322c6d39e285f07d615121b84d09203"
+  },
+  "old_cases": 28,
+  "old_selection": "all six rare-core cases plus 11 domain-size quantiles per large core",
+  "optimizer_calls": 0,
+  "planned_cases": 32,
+  "pool_cases": 616,
+  "prime": 101,
+  "selection_tie_breakers": [
+    "GF2_nullity",
+    "pair_ordinal"
+  ],
+  "source_domain": "all3003 original avoiding-point blocks; only zero-demand removals",
+  "source_revision": "456ab498b12284ccb499b4a07bd8f686225311b7",
+  "source_sha256": "040cefb73c53c93381a0928b98cdd5ad900799590e12dcec0184bd9e1871db72",
+  "time_scope": "input validation, loading, matrix building, elimination, output"
+}

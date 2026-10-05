@@ -1,0 +1,20 @@
+{
+ "cases": 208570,
+ "certificates_sha256": "6bd6fb7868be952ab35fce6112ce5f302e7235ed31e21739976627e5ca2381eb",
+ "checker_sha256": "1f5b49912ff3d4bdbddeabc0ec86f052e2e739cb93492d353548caa72b0117f4",
+ "damaged_controls_rejected": [
+  "one multiplier changed",
+  "margin overstated",
+  "zero certificate",
+  "wrong profile",
+  "wrong partial",
+  "float multiplier",
+  "kept count changed"
+ ],
+ "outcomes": {
+  "lp_farkas_exclusion": 208570
+ },
+ "passed": true,
+ "scope": "Bounded-LP exclusions of fixed point-one link/profile completions in the circulant {+-1,+-3,8} excess branch only; not a global lower bound.",
+ "solver_imports": 0
+}

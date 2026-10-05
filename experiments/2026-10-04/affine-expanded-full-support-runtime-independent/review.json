@@ -1,0 +1,19 @@
+{
+ "cases": 6543904,
+ "checker_sha256": "08dd80800db06610c3dbbca638c1477b69e6de09cf9d9be2e0ce08fb21ca384d",
+ "cursor_prefix_hashes": {
+  "cases": "ec8d89fc9d9128d2ebe0eaef1fdfb11d124988386fa54ed4902658e270753787",
+  "ledger": "0b2a0efb3dd42781f86e1507a9a18e0d41f757268b588322740c7de414e5f054",
+  "survivors": "340a1bbf418a1a72a1cb4dced4a27b25e43b38add9614180a7d31bcb4af7ec04"
+ },
+ "frozen_record_checker_sha256": "34454b7922b3165000622ab7a810d316f2a511e1f0181e23a450b35209afbc95",
+ "outcomes": {
+  "forced_conflict": 983774,
+  "insufficient_support": 5352656,
+  "survives_single_pass": 207474
+ },
+ "passed": true,
+ "producer_imports": 0,
+ "scope": "Support-screen exclusions and survivors of the new-only affine pairs only.",
+ "survivors_matched": 207474
+}

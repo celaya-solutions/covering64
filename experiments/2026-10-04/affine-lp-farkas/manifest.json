@@ -1,0 +1,25 @@
+{
+ "cases": 208570,
+ "input_pins": {
+  "experiments/2026-10-04/affine-expanded-catalog/summary.json": "e85200dbdf2a392d192973904bc638e4e55184cdc70e1f8cbe3c7643c19ecd6a",
+  "experiments/2026-10-04/circulant-chosen-link-catalog/partial-catalog.json": "cc799f7d289120ff4ebdf101e4f896bb512179a2424883a1e374ea7ace534667",
+  "experiments/2026-10-04/circulant-chosen-link-catalog/profiles.json": "24ccef8eb95cd04e683a575d60fcba854728615ee2ca6495f2bc6028fc56cf0f"
+ },
+ "optimizer_role": "GLOP proposes duals only; exact integer arithmetic decides",
+ "ortools": "9.15.6755",
+ "python": "3.13.15",
+ "source_sha256": "e06fbfa99cd2a417067377bc7929507610f90a357be98f06241451b4c0fa34e8",
+ "streams": {
+  "expanded": [
+   "experiments/scratch/affine-expanded-full-support-v1.0.0/survivors.jsonl.gz",
+   "340a1bbf418a1a72a1cb4dced4a27b25e43b38add9614180a7d31bcb4af7ec04",
+   207474
+  ],
+  "original": [
+   "experiments/scratch/circulant-chosen-link-row-propagation-full-v1.0.0/survivors.jsonl.gz",
+   "60e42a6855fc897130c80d8db8189cd9639e0981555386e5938ed02a5eda90ed",
+   1096
+  ]
+ },
+ "workers": 8
+}

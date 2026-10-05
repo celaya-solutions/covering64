@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.39.0
+Version:     v1.40.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      9c8cf1dda2c8a12934f5fb87673f23916073543f94fb99c2a01c399623c983d9
+SHA256:      af1a223a45e191b1e62698a6a00af0aefd7cd41a7e095cdbbbee70aca69abda7
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -19,6 +19,11 @@ partial fails the weak pair rules. The best saved family meeting those rules
 and the six named caps remains H9/D2max19. The current public repository
 archive still lists an upper size of65. These are partial-family, finite-search
 and source-check results, not a solution or a global lower bound.
+
+The stated affine point-one recipe in the circulant {+-1,+-3,8} excess branch
+is now closed: all 6,739,200 profile/link pairs have independently checked
+support, propagation or bounded-LP exclusions. Other links, other excess graphs
+and covers outside that branch remain open.
 
 The strongest current first-link
 screen has 109 independently checked exclusions out of 258 cases in the regular
@@ -1346,3 +1351,17 @@ Transport to the 38 point-one excess graphs yields **196,992 distinct twenty-pen
 A deterministic stratified sample covers 1,000 new-only pairs across all 38 fibers. The unchanged earlier one-pass support function, with an explicit expanded-domain configuration, returns 813 insufficient-support contradictions, 162 immediate forced conflicts and 25 survivors. The full sample takes 0.13565 seconds including its 0.05576-second sampled-mask load; screen calls total 0.06630 seconds. These measurements do not include building every catalog mask. Receipt SHA256 is `9ecae116eb215ec6901f1aa1d091385740f2319f0983a16f41a24b5a15353dc4`.
 
 Root's independent checker inverts every family transport and recovers all 5,184 canonical families in each fiber, verifies every old-family mapping, profile compatibility, pair boundary and sample identity, and replays every sample certificate and the exact survivor stream. Nine damaged controls are rejected. Audit SHA256 is `66f1cf20c56a7099979ac1184862e9ac1db8f50f1646704121cdd314b00ab5bc`. The remaining new pairs have not been screened by this sample, and no 64-block cover has been found.
+
+## Parity, prime-101, full screen and bounded LP close the affine recipe (October 4)
+
+The parity pilot reduced the exact residual systems of the 1,096 original propagation survivors and 25 expanded-sample survivors modulo two, with zero-demand pruning only. It found 505 contradictions (484 original, 21 sample) and 616 consistent systems. A separate audit checks all 505 certificates and all 616 consistency claims and rejects sixteen damaged controls; its review SHA256 is `abfc1ee5faa0b1ec34f827d1f7f1fbcee287de6137c4a32ebcc89d5f46fae607`. Three of the four held conditional CP cases were among the contradictions.
+
+A stratified 32-case benchmark of the parity-consistent pool found four contradictions and 28 consistent systems modulo 101 in 1.61 seconds. Root's integer-only replay, with no producer import or NumPy, confirms all 32 outcomes and rejects eight damaged controls. Its review SHA256 is `441c65b2a52be0dbbba3e03aa85d2aca14c08cd7ea13fae78fec647b7c642d4e`.
+
+The gated v1.0.1 support runner then made its single pass over all 6,543,904 new-only pairs in 543.84 seconds, inside its 650-second budget with no watchdog action: **5,352,656 insufficient-support exclusions, 983,774 forced conflicts and 207,474 survivors**. Receipt SHA256 is `704c1aa8459ef6b23042cbd38bcc718ab1418ae2285b8940dac067ab51cfd288`; the committed case and survivor streams have SHA256 `ec8d89fc9d9128d2ebe0eaef1fdfb11d124988386fa54ed4902658e270753787` and `340a1bbf418a1a72a1cb4dced4a27b25e43b38add9614180a7d31bcb4af7ec04`. An independent replay reuses the frozen independent per-record checker with expanded partials, enumerates the new-only order itself, and verifies every record, the census and the survivor stream. Review SHA256 is `fab89baca86f464b730d85b404dae5712e70554cdb137ca9d12fb08f52c4188c`.
+
+Every remaining case fails the bounded linear relaxation. For a fixed link/profile system `Ax = b`, an integer vector `Y` with `b.Y - sum_j max(0, (A^T Y)_j) > 0` proves that no `x` with `0 <= x <= 1` exists. GLOP only proposes `Y`; exact integer arithmetic accepts it. All **208,570** remaining cases (1,096 original and 207,474 expanded) received certificates in 564.97 seconds; none stayed open. Margins are large (median 64.19 in a 2,000-case trial), so these systems are far from fractional feasibility. The certificate stream is ignored scratch data with SHA256 `6bd6fb7868be952ab35fce6112ce5f302e7235ed31e21739976627e5ca2381eb`; runner SHA256 is `e06fbfa99cd2a417067377bc7929507610f90a357be98f06241451b4c0fa34e8`. An integer-only replay with no solver import checks every certificate and the exact case list and rejects seven damaged controls. Review SHA256 is `2cce545244b85ea36e227caec3fdbf971f998a4f6876581557b083e81f81a029`.
+
+With the earlier independently checked exclusions (185,068 by the original support pass and 9,132 by repeated row propagation), every one of the **6,739,200** compatible profile/link pairs is excluded. Hence no 64-block cover has pair-excess graph C16(+-1,+-3,8) with exact triple multiplicities from one of its 1,300 admissible profiles and a point-one link in the stated affine recipe. The four held CP cases are among these exclusions, so that batch is withdrawn unlaunched. This closes the recipe, not the circulant branch: other point-one links, other excess graphs and covers outside the regular five/six pair-count branch remain open, and no global lower bound follows.
+
+The bounded LP test is much cheaper than the propagation, parity and prime-101 chain, and it subsumes row propagation. Later fixed-link screens should run it first and keep the exact integer certificate check.

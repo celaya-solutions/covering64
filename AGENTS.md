@@ -1,10 +1,10 @@
 ```text
 Document:    Covering64 Research Workflow
-Version:     v1.1.0
+Version:     v1.2.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      5d05effb58cdf650451ec9318d27ad279d7f434536e181a049e445a52f704811
+SHA256:      fba349665b3cdf9483105a6b7a0f0a1f7751f683264c1535bfeb7e0d463110a3
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,12 +78,12 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Commit 2e2ff3b saves the all52-profile global timeout and independently replayed support certificates for all195296 chosen-link pairs. Ruff and all10 document hashes pass; package regression remains369 passing tests.
+Affine recipe closed: the full new-only support screen (6543904 pairs), exact bounded-LP Farkas certificates for all208570 remaining cases, and integer-only replays exclude every one of the6739200 profile/link pairs of the stated affine recipe in the circulant {±1,±3,8} branch. The four held CP cases are among them and are withdrawn. Report v1.40.0 has the hashes. For any new fixed-link screen, run the bounded LP certificate first: it subsumes row propagation and is far cheaper than the parity/prime chain. CP-SAT single-worker models of small prescribed groups usually stay UNKNOWN; regular order-16 actions need several workers.
 The H6 strict search excludes improvement through four replacements. Its complete neutral radius-three search finds only three one-swap alternatives, all with the same failing pair metrics. The fresh 300-second H6 native run retains raw H6; its best new weak record H11/D26 does not improve the separate H9/D19 fallback. The warm-star run retains its H9 input; all16 Clebsch recipe relaxations are fractional, not covers.
 All256 chosen affine point links now have independently checked finite exclusions. Under the Clebsch pair profile, fifteen neighbor pentads force sixteen, whose separate finite certificate gives a contradiction; at most fourteen can occur. Alternate local constructions remain open. Neutral exact-four is deferred after its large workload screen.
 The non-Clebsch circulant graph with steps ±1,±3,8 has exactly1300 admissible excess profiles after tight cuts, in52 orbits under its32 graph automorphisms; two independent finite enumerators agree. Eight30-second fixed-profile calls all returned UNKNOWN, checked independently.
 The300-second all52-profile global call returned UNKNOWN, independently checked. All5536 maps of the four chosen point-one links give195296 profile/link pairs; a checked single support pass excludes185068 and leaves10228. The full proof streams remain in ignored scratch.
-The checked iterative pass excludes9132 more original cases and leaves1096. Direct affine variants give157 new local orbits; semilinear completeness holds only for the stated four-core recipe. The checked expanded catalog contains196992 families and6543904 new pairs; its1000-case support sample leaves25. Next: four conditional completion pilots and the bounded expanded support screen. Four local CP pilots were prepared but remain unlaunched because the finite construction already supplies alternatives. No 64-block cover or global exclusion. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
+The checked iterative pass excludes9132 more original cases and leaves1096. Direct affine variants give157 new local orbits; semilinear completeness holds only for the stated four-core recipe. The checked expanded catalog contains196992 families and6543904 new pairs; its1000-case support sample leaves25. Four local CP pilots were prepared but remain unlaunched because the finite construction already supplies alternatives. No 64-block cover or global exclusion. Preserve frozen sources, ignored proof archives and unrelated `.ignore`, `opencode.json`, and `.playwright-mcp/`. OR-Tools: convert repeated containers to lists before negative reads and check optional-field presence before inspection. Historical transport v1 keeps one E501 exception.
 
 ## Independent construction checkpoint 2026-10-03
 

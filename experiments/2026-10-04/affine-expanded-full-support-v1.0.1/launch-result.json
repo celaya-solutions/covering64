@@ -1,0 +1,52 @@
+{
+  "automatic_resume": false,
+  "automatic_retry": false,
+  "committed_cursor": {
+    "committed_batches": 6544,
+    "committed_cases": 6543904,
+    "files": {
+      "cases": {
+        "bytes": 401856973,
+        "sha256": "ec8d89fc9d9128d2ebe0eaef1fdfb11d124988386fa54ed4902658e270753787"
+      },
+      "ledger": {
+        "bytes": 4133813,
+        "sha256": "0b2a0efb3dd42781f86e1507a9a18e0d41f757268b588322740c7de414e5f054"
+      },
+      "survivors": {
+        "bytes": 13772126,
+        "sha256": "340a1bbf418a1a72a1cb4dced4a27b25e43b38add9614180a7d31bcb4af7ec04"
+      }
+    },
+    "last_commit_sha256": "da5125c555fadd694e8bc8ac54631ae1351864938e8d2fc650a75c0308b0ae8a",
+    "manifest_sha256": "53056e681503426c9f80b4c7a1aba1627408f5a439c75b4738b832b2ad63ac81",
+    "next_full_pair_ordinal": null,
+    "next_new_pair_index": 6543904,
+    "operation_counts": {
+      "cardinality_support_checks": 6543904,
+      "conflict_row_popcounts": 181695026,
+      "support_row_popcounts": 971716501,
+      "zero_row_unions": 450080448
+    },
+    "outcomes": {
+      "forced_conflict": 983774,
+      "insufficient_support": 5352656,
+      "survives_single_pass": 207474
+    },
+    "schema": "affine-gzip-commits-v1",
+    "source_sha256": "82519beeb3de034fab824945e10e40850bf87bfe50883ea93e8a4b7168a24f63"
+  },
+  "elapsed_seconds": 543.8758005830459,
+  "external_timeout": false,
+  "forced_kill_after_grace": false,
+  "gate_sha256": "1fa6625522dbeeaf1d9e5456b692739b572e5d5e659cdd9e1afe314a93571ebc",
+  "launcher_sha256": "f7c140d858654045d89dc0077360f654cd347adf5c1db2d6bf1e01e238a1163a",
+  "logs": {
+    "experiments/scratch/affine-expanded-full-launch-v1.0.0/stderr.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "experiments/scratch/affine-expanded-full-launch-v1.0.0/stdout.log": "c5bb9faec0eca1d983666664752c220255ca448552735007b6181952778e7155"
+  },
+  "manifest_sha256": "53056e681503426c9f80b4c7a1aba1627408f5a439c75b4738b832b2ad63ac81",
+  "returncode": 0,
+  "source_sha256": "82519beeb3de034fab824945e10e40850bf87bfe50883ea93e8a4b7168a24f63",
+  "within_650_seconds_including_child_receipt": true
+}

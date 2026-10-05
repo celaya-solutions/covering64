@@ -1,0 +1,30 @@
+{
+  "hits": [],
+  "paths_examined": 25269,
+  "scan_command": [
+    "rg",
+    "--files",
+    "--hidden",
+    "--no-ignore",
+    "experiments",
+    "-g",
+    "*.py",
+    "-g",
+    "*.json",
+    "-g",
+    "*.md",
+    "-g",
+    "*parameters*.pbtxt",
+    "-g",
+    "*.log"
+  ],
+  "scope": "All existing experiment Python, JSON, Markdown, parameter text and log files, including ignored scratch; before writing new source or audit.",
+  "seeds": [
+    2026106701,
+    2026106702,
+    2026106703,
+    2026106704
+  ],
+  "sorted_paths_sha256": "9f484ed8ed635f0dd5b2d2dd417faf856120544771a8a5e67737d35dacbae690",
+  "source_revision": "2e2ff3b4c75bfe65c3845f5e771a4ec9262f1272"
+}
