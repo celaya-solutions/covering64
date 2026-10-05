@@ -1,0 +1,29 @@
+"""LP relaxation of the 61 model with one A-point link fixed and E as fractional variables."""
+import sys, time
+from itertools import combinations
+from ortools.linear_solver import pywraplp
+BLOCKS=list(combinations(range(1,17),5)); TR=list(combinations(range(1,17),3)); PR=list(combinations(range(1,17),2))
+for cls in ['shape-1-class-0.txt','shape-4-class-0.txt','shape-44-class-0.txt','shape-47-class-0.txt']:
+    link={tuple(map(int,l.split())) for l in open(f'experiments/2026-10-03/link-classification/{cls}') if l.strip()}
+    s=pywraplp.Solver.CreateSolver('GLOP')
+    x={}
+    for B in BLOCKS:
+        if 1 in B: x[B]=s.NumVar(1,1,'') if B in link else s.NumVar(0,0,'')
+        else: x[B]=s.NumVar(0,1,'')
+    isA={v:s.NumVar(0,1,'') for v in range(3,17)}
+    mt={p:s.NumVar(0,1,'') for p in combinations(range(3,17),2)}
+    s.Add(sum(isA.values())==4)
+    for v in range(3,17):
+        s.Add(sum(mt[tuple(sorted((u,v)))] for u in range(3,17) if u!=v) + isA[v] == 1)
+    tin={T:[] for T in TR}; pin={p:[] for p in PR}
+    for B in BLOCKS:
+        for T in combinations(B,3): tin[T].append(x[B])
+        for p in combinations(B,2): pin[p].append(x[B])
+    for T in TR: s.Add(sum(tin[T])>=1); s.Add(sum(tin[T])<=2)
+    for p in PR:
+        u,v=p
+        e = 1 if p==(1,2) else (0 if u==1 else (isA[v] if u==2 else mt[p]))
+        s.Add(sum(pin[p]) == 5 + e)
+    s.Add(sum(x.values())==61)
+    t=time.time(); st=s.Solve()
+    print(cls, 'LP status', {0:'FEASIBLE',2:'INFEASIBLE'}.get(st,st), round(time.time()-t,2),'s', flush=True)

@@ -1,0 +1,35 @@
+import time, random
+from itertools import combinations
+from ortools.linear_solver import pywraplp
+BLOCKS=list(combinations(range(1,17),5)); TR=list(combinations(range(1,17),3)); PR=list(combinations(range(1,17),2))
+E={(i,16) for i in range(11,16)} | {(1,2),(3,4),(5,6),(7,8),(9,10)}
+lam={p:(6 if p in E else 5) for p in PR}
+s=pywraplp.Solver.CreateSolver('GLOP')
+x=[s.NumVar(0,1,'') for B in BLOCKS]
+tin={T:[] for T in TR}; pin={p:[] for p in PR}
+for j,B in enumerate(BLOCKS):
+    for T in combinations(B,3): tin[T].append(x[j])
+    for p in combinations(B,2): pin[p].append(x[j])
+for T in TR: s.Add(sum(tin[T])>=1); s.Add(sum(tin[T])<=2)
+for p in PR: s.Add(sum(pin[p])==lam[p])
+s.Add(sum(x)==61)
+def dive(seed, prefer):
+    rnd=random.Random(seed); fixed=[]
+    for depth in range(62):
+        st=s.Solve()
+        if st!=0:
+            for j in fixed: x[j].SetBounds(0,1)
+            return depth,'infeasible'
+        vals=[v.solution_value() for v in x]
+        cand=[j for j in range(len(BLOCKS)) if j not in fixed and vals[j]<1-1e-9 and (prefer is None or prefer in BLOCKS[j])]
+        if not cand: cand=[j for j in range(len(BLOCKS)) if j not in fixed and vals[j]<1-1e-9]
+        if not cand:
+            for j in fixed: x[j].SetBounds(0,1)
+            return depth,'integral'
+        top=max(vals[j] for j in cand); pick=rnd.choice([j for j in cand if vals[j]>=top-1e-9])
+        x[pick].SetBounds(1,1); fixed.append(pick)
+    for j in fixed: x[j].SetBounds(0,1)
+    return 62,'deep'
+for seed in range(4):
+    for prefer in (1, 16):
+        t=time.time(); print('seed',seed,'prefer point',prefer, dive(seed,prefer), round(time.time()-t,1),'s', flush=True)

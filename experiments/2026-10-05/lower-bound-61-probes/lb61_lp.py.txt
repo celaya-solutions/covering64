@@ -1,0 +1,18 @@
+"""61-block structure: z=16 has degree 20, star points 11..15, matching on 1..10."""
+import time
+from itertools import combinations
+from ortools.linear_solver import pywraplp
+BLOCKS=list(combinations(range(1,17),5)); TR=list(combinations(range(1,17),3)); PR=list(combinations(range(1,17),2))
+E={(i,16) for i in range(11,16)} | {(1,2),(3,4),(5,6),(7,8),(9,10)}
+lam={p:(6 if p in E else 5) for p in PR}
+s=pywraplp.Solver.CreateSolver('GLOP')
+x={B:s.NumVar(0,1,'') for B in BLOCKS}
+d={T:s.NumVar(0,1,'') for T in TR}
+inc={T:[] for T in TR}
+for B in BLOCKS:
+    for T in combinations(B,3): inc[T].append(x[B])
+for T in TR: s.Add(sum(inc[T]) - d[T] == 1)
+for p in PR:
+    s.Add(sum(d[T] for T in TR if set(p) <= set(T)) == 3*lam[p]-14)
+s.Add(sum(x.values()) == 61)
+t=time.time(); st=s.Solve(); print('LP status', st, '(0=optimal/feasible, 2=infeasible)', round(time.time()-t,2),'s')

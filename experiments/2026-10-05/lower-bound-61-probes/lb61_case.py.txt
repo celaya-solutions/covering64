@@ -1,0 +1,34 @@
+"""Test: fix the doubled triples through z=16 (graph X_z) and solve the 61 model."""
+import sys, time, random, itertools
+from itertools import combinations
+src=open('/private/tmp/claude-501/-Users-chriscelaya-Documents-ChatGPT-covering64/5988644e-0650-423b-9da5-dbd6316a58f6/scratchpad/lb61_sat2.py').read()
+cut=src.index("print('vars'")
+ns={}; exec(src[:cut], ns)
+from pysat.solvers import Solver
+A=[11,12,13,14,15]; M=list(range(1,11)); z=16
+def random_xz(rng, n2):
+    # random graph on A with n2 edges and max degree 4, then attach / match M points
+    while True:
+        edges=rng.sample(list(combinations(A,2)), n2)
+        deg={a:sum(a in e for e in edges) for a in A}
+        need={a:4-deg[a] for a in A}
+        if sum(need.values())<=10: break
+    pts=M[:]; rng.shuffle(pts)
+    xz=[tuple(sorted(e)) for e in edges]
+    i=0
+    for a in A:
+        for _ in range(need[a]): xz.append(tuple(sorted((a,pts[i])))); i+=1
+    rest=pts[i:]
+    for j in range(0,len(rest),2): xz.append(tuple(sorted((rest[j],rest[j+1]))))
+    assert len(xz)==15
+    return xz
+rng=random.Random(int(sys.argv[1])); n2=int(sys.argv[2]); budget=int(sys.argv[3])
+xz=set(random_xz(rng,n2))
+units=[]
+for u,w in combinations(A+M,2):
+    T=tuple(sorted((u,w,z)))
+    units.append(ns['d'][T] if tuple(sorted((u,w))) in xz else -ns['d'][T])
+s=Solver(name='cadical195', bootstrap_with=ns['clauses']+[[u] for u in units])
+s.conf_budget(budget)
+t=time.time(); r=s.solve_limited()
+print('seed',sys.argv[1],'n2',n2,'result',r, round(time.time()-t,1),'s', s.accum_stats(), flush=True)

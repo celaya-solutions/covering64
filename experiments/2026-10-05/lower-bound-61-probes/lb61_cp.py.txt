@@ -1,0 +1,21 @@
+import time, sys
+from itertools import combinations
+from ortools.sat.python import cp_model
+BLOCKS=list(combinations(range(1,17),5)); TR=list(combinations(range(1,17),3)); PR=list(combinations(range(1,17),2))
+E={(i,16) for i in range(11,16)} | {(1,2),(3,4),(5,6),(7,8),(9,10)}
+lam={p:(6 if p in E else 5) for p in PR}
+m=cp_model.CpModel()
+x={B:m.NewBoolVar('') for B in BLOCKS}
+d={T:m.NewBoolVar('') for T in TR}
+inc={T:[] for T in TR}
+for B in BLOCKS:
+    for T in combinations(B,3): inc[T].append(x[B])
+for T in TR: m.Add(sum(inc[T]) == 1 + d[T])
+for p in PR:
+    m.Add(sum(d[T] for T in TR if set(p) <= set(T)) == 3*lam[p]-14)
+m.Add(sum(x.values()) == 61)
+s=cp_model.CpSolver(); s.parameters.max_time_in_seconds=float(sys.argv[1]); s.parameters.num_workers=int(sys.argv[2])
+s.parameters.symmetry_level=int(sys.argv[3]) if len(sys.argv)>3 else 2
+s.parameters.log_search_progress=False
+t=time.time(); st=s.Solve(m)
+print(s.StatusName(st), round(time.time()-t,1), 's', s.NumBranches(), 'branches', s.NumConflicts(), 'conflicts')

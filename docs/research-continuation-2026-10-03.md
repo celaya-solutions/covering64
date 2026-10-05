@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.41.0
+Version:     v1.42.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
-Date:        2026-10-04
-SHA256:      7e48d80275f0d018849f1aab52ef95c86aa10959e96075c98f4d7a84d4c1806a
+Date:        2026-10-05
+SHA256:      84454f2bf8e2f0d6ac25873e08e3386407d092b2fbd0bf6e7791e526f12d04b8
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1375,3 +1375,7 @@ Of 665 groups distinct by orbit signature, 121 cannot reach 61 to 64 blocks, 451
 ## LP-certified link tree pilot (October 4)
 
 Greedy LP dives on whole circulant profiles fail after five or six fixed point-one blocks, so `circulant-link-lp-tree` searches one profile exhaustively: it branches on the open triple row with the fewest candidate blocks and closes nodes by support deficits or exact integer Farkas vectors. On profile 0 a 1,500-second pilot processed 2,922 nodes (2,614 Farkas and 93 support leaves) and finished only the first two of 78 root subtrees. An independent integer checker verifies both finished subtrees and rejects three damaged controls. At about half a second per LP call one profile needs roughly ten CPU hours, so all 52 profile orbits would need hundreds; the search needs a much cheaper node test first. No profile is excluded.
+
+## Lower-bound program: the forced 61-block structure (October 5)
+
+The program now works upward from the recorded lower bound of 61. `docs/lower-bound-61-structure.md` proves that a 61-block cover would have one point of degree 20 and fifteen of degree 19; its pairs with multiplicity six form a five-edge star at that point plus a perfect matching of the other ten points; every triple is covered once or twice, with exactly 50 doubled triples placed one per remaining pair and four per star or matching pair; and every degree-19 link is one of the four classified minimum C(15,4,2) covers. Standard tools do not settle this structure quickly: the LP relaxation is feasible, CP-SAT returned UNKNOWN after 600 seconds, and a compact SAT encoding stayed open after three million conflicts even with a classified link fixed. The probes are recorded in `experiments/2026-10-05/lower-bound-61-probes/`. The next step is a symmetry-reduced case split at the degree-20 point with independently checkable certificates. No bound has been improved yet.

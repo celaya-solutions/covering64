@@ -1,0 +1,59 @@
+"""Count links of z (20 quadruples on A u M with pair multiplicity 1 + [pair in X_z])
+for one random X_z, with the good-hub rule at each A point (3 of its 4 X_z neighbours
+share one quadruple with it)."""
+import sys, time, random
+from itertools import combinations
+A=[11,12,13,14,15]; M=list(range(1,11)); P=A+M
+def random_xz(rng, n2):
+    while True:
+        edges=rng.sample(list(combinations(A,2)), n2)
+        deg={a:sum(a in e for e in edges) for a in A}
+        need={a:4-deg[a] for a in A}
+        if sum(need.values())<=10: break
+    pts=M[:]; rng.shuffle(pts); xz=[tuple(sorted(e)) for e in edges]; i=0
+    for a in A:
+        for _ in range(need[a]): xz.append(tuple(sorted((a,pts[i])))); i+=1
+    rest=pts[i:]
+    for j in range(0,len(rest),2): xz.append(tuple(sorted((rest[j],rest[j+1]))))
+    return set(xz)
+rng=random.Random(int(sys.argv[1])); xz=random_xz(rng,int(sys.argv[2])); limit=float(sys.argv[3])
+pairs=list(combinations(P,2)); pid={p:i for i,p in enumerate(pairs)}
+demand=[1+(p in xz) for p in pairs]
+quads=list(combinations(P,4)); qpairs=[[pid[p] for p in combinations(q,2)] for q in quads]
+by_pair=[[] for _ in pairs]
+for qi,ps in enumerate(qpairs):
+    for p in ps: by_pair[p].append(qi)
+nbr={a:{u for e in xz if a in e for u in e if u!=a} for a in A}
+sols=0; nodes=0; t0=time.time(); chosen=[]
+def hub_ok():
+    for a in A:
+        qs=[quads[q] for q in chosen if a in quads[q]]
+        if len(qs)==6 and not any(len(nbr[a] & set(q))==3 for q in qs): return False
+    return True
+def rec(res, used):
+    global sols,nodes
+    nodes+=1
+    if time.time()-t0>limit: raise TimeoutError
+    best=None
+    for p,r in enumerate(res):
+        if r>0:
+            cands=[q for q in by_pair[p] if q not in used and all(res[x]>0 for x in qpairs[q])]
+            if len(cands)<r: return
+            if best is None or len(cands)<len(best[1]): best=(p,cands)
+            if len(cands)<=1: break
+    if best is None:
+        if len(chosen)==20 and hub_ok(): sols+=1
+        return
+    p,cands=best
+    for i,q in enumerate(cands):
+        for x in qpairs[q]: res[x]-=1
+        chosen.append(q)
+        if hub_ok(): rec(res, used | set(cands[:i]) | {q})
+        chosen.pop()
+        for x in qpairs[q]: res[x]+=1
+try:
+    rec(demand[:], frozenset())
+    status='complete'
+except TimeoutError:
+    status='timeout'
+print('seed',sys.argv[1],'n2',sys.argv[2],status,'solutions',sols,'nodes',nodes,round(time.time()-t0,1),'s')
