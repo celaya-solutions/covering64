@@ -1,10 +1,10 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.40.0
+Version:     v1.41.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      af1a223a45e191b1e62698a6a00af0aefd7cd41a7e095cdbbbee70aca69abda7
+SHA256:      7e48d80275f0d018849f1aab52ef95c86aa10959e96075c98f4d7a84d4c1806a
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -1365,3 +1365,13 @@ Every remaining case fails the bounded linear relaxation. For a fixed link/profi
 With the earlier independently checked exclusions (185,068 by the original support pass and 9,132 by repeated row propagation), every one of the **6,739,200** compatible profile/link pairs is excluded. Hence no 64-block cover has pair-excess graph C16(+-1,+-3,8) with exact triple multiplicities from one of its 1,300 admissible profiles and a point-one link in the stated affine recipe. The four held CP cases are among these exclusions, so that batch is withdrawn unlaunched. This closes the recipe, not the circulant branch: other point-one links, other excess graphs and covers outside the regular five/six pair-count branch remain open, and no global lower bound follows.
 
 The bounded LP test is much cheaper than the propagation, parity and prime-101 chain, and it subsumes row propagation. Later fixed-link screens should run it first and keep the exact integer certificate check.
+
+## Prescribed-group orbit search (October 4)
+
+A new orbit model asks whether any union of orbits of a prescribed permutation group is a cover with at most 64 blocks. It keeps one Boolean per block orbit and one row per triple orbit, drops dominated block orbits, adds the implied point-degree (at least 19) and pair (at least 5) rows per point or pair orbit, and bounds the total between 61 and the largest reachable orbit-size sum not exceeding 64. Candidates are every nontrivial cycle type of S16 and 150 random subgroup chains from each of eighteen ambient groups, including AGL(4,2), the Clebsch group, AGammaL(1,16), AGammaL(2,4), a Sylow 2-subgroup of S16, several wreath products, S6 and S5 actions, and PGL actions on 8+8, 12+4, 13+3 and 14+2 points.
+
+Of 665 groups distinct by orbit signature, 121 cannot reach 61 to 64 blocks, 451 have a numerical LP minimum above the reachable total and seven are CP-SAT INFEASIBLE after a 120-second, two-worker retry of the 87 groups left UNKNOWN at 20 seconds. The other 86, of orders 3 to 20, remain UNKNOWN. No group admits an invariant cover with at most 64 blocks; every group of order at least 21 is settled. An 80-block Z16 positive control passes both checkers. Results and the executed v1.1.0 source are in `experiments/2026-10-04/km-prescribed-groups/`. LP screens are floating-point and CP-SAT outcomes are not independently checked; nothing here constrains covers without these symmetries.
+
+## LP-certified link tree pilot (October 4)
+
+Greedy LP dives on whole circulant profiles fail after five or six fixed point-one blocks, so `circulant-link-lp-tree` searches one profile exhaustively: it branches on the open triple row with the fewest candidate blocks and closes nodes by support deficits or exact integer Farkas vectors. On profile 0 a 1,500-second pilot processed 2,922 nodes (2,614 Farkas and 93 support leaves) and finished only the first two of 78 root subtrees. An independent integer checker verifies both finished subtrees and rejects three damaged controls. At about half a second per LP call one profile needs roughly ten CPU hours, so all 52 profile orbits would need hundreds; the search needs a much cheaper node test first. No profile is excluded.

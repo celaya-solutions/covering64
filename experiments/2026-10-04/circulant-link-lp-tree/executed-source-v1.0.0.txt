@@ -1,0 +1,232 @@
+# Document:    LP-Certified Branching over Circulant Excess Profiles
+# Version:     v1.0.0
+# Author:      Celaya Solutions
+# Contact:     hello@celayasolutions.com
+# Date:        2026-10-04
+# SHA256:      [pending]
+# Chain:       n/a
+# Tx:          [not anchored]
+# License:     All Rights Reserved / Celaya Solutions
+
+"""Exhaust one circulant excess profile with an exact-cover tree and LP certificates.
+
+Within the regular branch with pair graph C16(+-1,+-3,8), a profile fixes every
+triple multiplicity mu_t in {1,2}. A cover is then a 0/1 vector x over the
+4,368 blocks with sum_{B contains t} x_B = mu_t for all 560 triples and
+sum x = 64.
+
+The tree branches on the triple row with residual demand and the fewest
+candidate blocks (ties prefer rows through point 1, then the lowest row). A
+candidate is a block not yet fixed that meets no saturated row. Child i fixes
+candidate i to one and candidates before it to zero, so the children partition
+every solution of the node by its first selected candidate.
+
+A node closes when some row has more residual demand than candidates, or when
+an integer vector Y has  b.Y - sum_j max(0, (A^T Y)_j) > 0  over the residual
+rows b and the candidate columns A. GLOP only proposes Y; exact integer
+arithmetic decides. A node with all demands met is a cover candidate and must
+pass both cover checkers.
+"""
+
+import argparse
+import gzip
+import json
+import sys
+import time
+from fractions import Fraction
+from hashlib import sha256
+from itertools import combinations
+from math import lcm
+from pathlib import Path
+
+import numpy as np
+from ortools.linear_solver import pywraplp
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parents[2]
+BASE = HERE.parent
+PROFILES = BASE / "circulant-chosen-link-catalog/profiles.json"
+PROFILES_SHA = "24ccef8eb95cd04e683a575d60fcba854728615ee2ca6495f2bc6028fc56cf0f"
+BLOCKS = tuple(combinations(range(1, 17), 5))
+TRIPLES = tuple(combinations(range(1, 17), 3))
+TRIPLE_ROW = {t: i for i, t in enumerate(TRIPLES)}
+ROWS = np.array([[TRIPLE_ROW[t] for t in combinations(b, 3)] for b in BLOCKS], dtype=np.int64)
+CARD = len(TRIPLES)
+POINT_ONE = np.array([t[0] == 1 for t in TRIPLES])
+DENOMINATORS = (12, 60, 840, 27720, 720720, 10**9)
+NBLOCKS = len(BLOCKS)
+
+
+def require(condition, message):
+    if not condition:
+        raise AssertionError(message)
+
+
+class Node:
+    """Residual state of one tree node: fixed ones and fixed zeros."""
+
+    def __init__(self, mu, ones, zeros):
+        self.ones = ones
+        self.zeros = zeros
+        used = np.zeros(CARD, dtype=np.int64)
+        for j in ones:
+            used[ROWS[j]] += 1
+        self.residual = mu - used
+        self.total = 64 - len(ones)
+        free = np.ones(NBLOCKS, dtype=bool)
+        free[list(ones)] = False
+        free[list(zeros)] = False
+        saturated = self.residual <= 0
+        free &= ~saturated[ROWS].any(axis=1)
+        self.columns = np.flatnonzero(free)
+
+    def overfull(self):
+        return bool((self.residual < 0).any()) or self.total < 0
+
+    def support_failure(self):
+        """A row whose residual demand exceeds its candidate count, if any."""
+        if self.total > len(self.columns):
+            return CARD
+        counts = np.bincount(ROWS[self.columns].ravel(), minlength=CARD)
+        bad = np.flatnonzero((self.residual > 0) & (counts < self.residual))
+        return int(bad[0]) if len(bad) else None
+
+    def branch_row(self):
+        counts = np.bincount(ROWS[self.columns].ravel(), minlength=CARD)
+        open_rows = np.flatnonzero(self.residual > 0)
+        if not len(open_rows):
+            return None, []
+        key = counts[open_rows] * 2 - POINT_ONE[open_rows]
+        row = int(open_rows[np.argmin(key)])
+        candidates = [int(j) for j in self.columns if row in ROWS[j]]
+        return row, candidates
+
+    def margin(self, y):
+        """Exact margin of an integer certificate y (length CARD + 1)."""
+        rhs = int(np.dot(self.residual[self.residual > 0], y[:CARD][self.residual > 0]))
+        rhs += self.total * int(y[CARD])
+        sums = y[ROWS[self.columns]].sum(axis=1) + y[CARD]
+        return rhs - int(sums[sums > 0].sum())
+
+
+def propose(node):
+    """GLOP maximizes the certificate margin with -1 <= y <= 1."""
+    solver = pywraplp.Solver.CreateSolver("GLOP")
+    active = [int(r) for r in np.flatnonzero(node.residual > 0)]
+    y = {r: solver.NumVar(-1, 1, "") for r in active}
+    y[CARD] = solver.NumVar(-1, 1, "")
+    objective = solver.Objective()
+    for r in active:
+        objective.SetCoefficient(y[r], int(node.residual[r]))
+    objective.SetCoefficient(y[CARD], node.total)
+    for j in node.columns:
+        w = solver.NumVar(0, solver.infinity(), "")
+        objective.SetCoefficient(w, -1)
+        row = solver.Constraint(-solver.infinity(), 0)
+        row.SetCoefficient(w, -1)
+        row.SetCoefficient(y[CARD], 1)
+        for r in ROWS[j]:
+            row.SetCoefficient(y[int(r)], 1)
+    objective.SetMaximization()
+    if solver.Solve() != pywraplp.Solver.OPTIMAL or objective.Value() <= 1e-7:
+        return None
+    values = {r: v.solution_value() for r, v in y.items()}
+    for bound in DENOMINATORS:
+        fractions = {r: Fraction(v).limit_denominator(bound) for r, v in values.items()}
+        fractions = {r: v for r, v in fractions.items() if v}
+        if not fractions:
+            continue
+        scale = lcm(*(v.denominator for v in fractions.values()))
+        # Python integers once scaled values could leave the int64 range.
+        dtype = np.int64 if scale < 2**40 else object
+        vector = np.zeros(CARD + 1, dtype=dtype)
+        for r, v in fractions.items():
+            vector[r] = int(v * scale)
+        if node.margin(vector) > 0:
+            return vector
+    return None
+
+
+def solve_profile(mu, deadline, log):
+    """Depth-first exhaustion; returns the census and writes one line per node."""
+    census = {"nodes": 0, "support": 0, "farkas": 0, "cached": 0, "lp_calls": 0, "open": 0}
+    cache = []
+    stack = [((), ())]
+    while stack:
+        if time.monotonic() > deadline:
+            census["open"] = len(stack)
+            return census, "incomplete"
+        ones, zeros = stack.pop()
+        census["nodes"] += 1
+        node = Node(mu, ones, zeros)
+        record = {"ones": list(ones), "zeros": list(zeros)}
+        require(not node.overfull(), "branching never overfills a row")
+        failure = node.support_failure()
+        if failure is not None:
+            census["support"] += 1
+            log.write(json.dumps({**record, "leaf": "support", "row": failure}) + "\n")
+            continue
+        found = None
+        for vector in cache:
+            if node.margin(vector) > 0:
+                found = vector
+                census["cached"] += 1
+                break
+        if found is None:
+            census["lp_calls"] += 1
+            found = propose(node)
+            if found is not None:
+                cache.insert(0, found)
+                del cache[24:]
+        if found is not None:
+            census["farkas"] += 1
+            nonzero = [[int(r), int(v)] for r, v in enumerate(found) if v]
+            log.write(
+                json.dumps({**record, "leaf": "farkas", "y": nonzero, "margin": node.margin(found)})
+                + "\n"
+            )
+            continue
+        row, candidates = node.branch_row()
+        if row is None:
+            log.write(json.dumps({**record, "leaf": "cover_candidate"}) + "\n")
+            return census, "cover_candidate"
+        log.write(json.dumps({**record, "branch_row": row, "candidates": candidates}) + "\n")
+        for i in reversed(range(len(candidates))):
+            stack.append((ones + (candidates[i],), zeros + tuple(candidates[:i])))
+    return census, "exhausted"
+
+
+def profile_mu(profile):
+    excess = {tuple(t) for t in profile["excess_triples"]}
+    require(len(excess) == 80, "eighty excess triples")
+    return np.array([1 + (t in excess) for t in TRIPLES], dtype=np.int64)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--profile", type=int, required=True)
+    parser.add_argument("--seconds", type=float, default=3600)
+    parser.add_argument("--out", required=True)
+    args = parser.parse_args()
+    require(sha256(PROFILES.read_bytes()).hexdigest() == PROFILES_SHA, "profile catalog pin")
+    profile = json.loads(PROFILES.read_text())[args.profile]
+    require(profile["profile_id"] == args.profile, "profile index")
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=False)
+    started = time.monotonic()
+    with gzip.open(out / "tree.jsonl.gz", "wt") as log:
+        census, status = solve_profile(profile_mu(profile), started + args.seconds, log)
+    result = {
+        "profile_id": args.profile,
+        "status": status,
+        "census": census,
+        "elapsed_seconds": time.monotonic() - started,
+        "source_sha256": sha256(Path(__file__).read_bytes()).hexdigest(),
+        "tree_sha256": sha256((out / "tree.jsonl.gz").read_bytes()).hexdigest(),
+    }
+    (out / "result.json").write_text(json.dumps(result, indent=1, sort_keys=True) + "\n")
+    print(json.dumps(result))
+
+
+if __name__ == "__main__":
+    sys.exit(main())

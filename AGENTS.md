@@ -1,10 +1,10 @@
 ```text
 Document:    Covering64 Research Workflow
-Version:     v1.2.0
+Version:     v1.3.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
 Date:        2026-10-04
-SHA256:      fba349665b3cdf9483105a6b7a0f0a1f7751f683264c1535bfeb7e0d463110a3
+SHA256:      da4f26cb221a6a51e86303b401b4893632663552380ce41c8a781c33cb8a60b8
 Chain:       n/a
 Tx:          [not anchored]
 License:     All Rights Reserved / Celaya Solutions
@@ -78,7 +78,7 @@ no API key, $0).
 
 ## Research checkpoint 2026-10-04
 
-Affine recipe closed: the full new-only support screen (6543904 pairs), exact bounded-LP Farkas certificates for all208570 remaining cases, and integer-only replays exclude every one of the6739200 profile/link pairs of the stated affine recipe in the circulant {±1,±3,8} branch. The four held CP cases are among them and are withdrawn. Report v1.40.0 has the hashes. For any new fixed-link screen, run the bounded LP certificate first: it subsumes row propagation and is far cheaper than the parity/prime chain. CP-SAT single-worker models of small prescribed groups usually stay UNKNOWN; regular order-16 actions need several workers.
+Affine recipe closed: the full new-only support screen (6543904 pairs), exact bounded-LP Farkas certificates for all208570 remaining cases, and integer-only replays exclude every one of the6739200 profile/link pairs of the stated affine recipe in the circulant {±1,±3,8} branch. The four held CP cases are among them and are withdrawn. Report v1.40.0 has the hashes. For any new fixed-link screen, run the bounded LP certificate first: it subsumes row propagation and is far cheaper than the parity/prime chain. CP-SAT single-worker models of small prescribed groups usually stay UNKNOWN; regular order-16 actions need several workers. The prescribed-group orbit search settled 579 of 665 groups with no 64-block invariant cover; 86 small groups (orders 3-20) stay UNKNOWN. An LP-certified link-tree pilot on circulant profile 0 needs about ten CPU hours per profile; find a cheaper node test before a full run.
 The H6 strict search excludes improvement through four replacements. Its complete neutral radius-three search finds only three one-swap alternatives, all with the same failing pair metrics. The fresh 300-second H6 native run retains raw H6; its best new weak record H11/D26 does not improve the separate H9/D19 fallback. The warm-star run retains its H9 input; all16 Clebsch recipe relaxations are fractional, not covers.
 All256 chosen affine point links now have independently checked finite exclusions. Under the Clebsch pair profile, fifteen neighbor pentads force sixteen, whose separate finite certificate gives a contradiction; at most fourteen can occur. Alternate local constructions remain open. Neutral exact-four is deferred after its large workload screen.
 The non-Clebsch circulant graph with steps ±1,±3,8 has exactly1300 admissible excess profiles after tight cuts, in52 orbits under its32 graph automorphisms; two independent finite enumerators agree. Eight30-second fixed-profile calls all returned UNKNOWN, checked independently.
