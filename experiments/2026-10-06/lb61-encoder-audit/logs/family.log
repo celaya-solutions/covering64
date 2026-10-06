@@ -1,0 +1,26 @@
+== shape-1-class-0.txt pool.top 144553 clauses 512424 sum vars 144553 sum clauses 512424 bad literals 0
+| fixed blocks through point 1 (x_B, 1 in B) | 1,365 | 1,365 |
+| free block variables (x_B, 1 not in B) | 3,003 | 0 |
+| per-triple: d_T | 560 | 0 |
+| per-triple: counter aux (K=3, 78 lits) | 131,040 | 476,560 |
+| per-triple: mu in {1,2}, d <-> mu=2 | 0 | 2,240 |
+| exactly-4 A among 3..16 (isA + seqcounter aux) | 94 | 160 |
+| matching vars m_uv (3<=u<v<=16) | 91 | 0 |
+| matching: exclusion m_uv -> not A_u, not A_v | 0 | 182 |
+| matching: at most one partner (pairwise) | 0 | 1,092 |
+| matching: A_v or some partner | 0 | 14 |
+| per-pair (1,2)  [1 pair, E]: counter (K=5, 14 lits) | 70 | 253 |
+| per-pair (1,2)  [1 pair, E]: output | 0 | 3 |
+| per-pair (1,v)  [14 pairs, non-E]: counter (K=5, 14 lits) | 980 | 3,542 |
+| per-pair (1,v)  [14 pairs, non-E]: output | 0 | 28 |
+| per-pair (2,v)  [14 pairs, E iff A_v]: counter (K=5, 14 lits) | 980 | 3,542 |
+| per-pair (2,v)  [14 pairs, E iff A_v]: output | 0 | 56 |
+| per-pair (u,v) in 3..16  [91 pairs, E iff m_uv]: counter (K=5, 14 lits) | 6,370 | 23,023 |
+| per-pair (u,v) in 3..16  [91 pairs, E iff m_uv]: output | 0 | 364 |
+{'tri': [(5034, 5267), '...', (135840, 136073)], 'ex4': [(136074, 136153)], 'pair_12': [(136154, 136223)], 'pair_1v': [(136224, 136293), '...', (137134, 137203)], 'pair_2v': [(137204, 137273), '...', (138114, 138183)], 'pair_in': [(138184, 138253), '...', (144484, 144553)]}
+== shape-4-class-0.txt pool.top 144553 clauses 512424 sum vars 144553 sum clauses 512424 bad literals 0
+== shape-44-class-0.txt pool.top 144553 clauses 512424 sum vars 144553 sum clauses 512424 bad literals 0
+== shape-47-class-0.txt pool.top 144553 clauses 512424 sum vars 144553 sum clauses 512424 bad literals 0
+real 4.27
+user 4.21
+sys 0.04

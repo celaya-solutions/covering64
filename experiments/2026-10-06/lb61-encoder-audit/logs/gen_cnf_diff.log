@@ -1,0 +1,9 @@
+$ diff <(sed -n 23,72p experiments/2026-10-05/lb61-certified/run_case.py) <(sed -n 34,83p experiments/2026-10-06/lb61-encoder-audit/gen_cnf.py)
+(no differences)
+$ diff <(sed -n 75,77p experiments/2026-10-05/lb61-certified/run_case.py) <(sed -n 85,87p experiments/2026-10-06/lb61-encoder-audit/gen_cnf.py)
+(no differences)
+$ diff <(sed -n 22p experiments/2026-10-05/lb61-certified/run_case.py) <(sed -n 33p experiments/2026-10-06/lb61-encoder-audit/gen_cnf.py)
+1c1
+< link=[tuple(map(int,l.split())) for l in open(f'experiments/2026-10-03/link-classification/{cls}') if l.strip()]
+---
+> link=[tuple(map(int,l.split())) for l in open(link_file) if l.strip()]
