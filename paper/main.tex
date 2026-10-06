@@ -1,0 +1,738 @@
+% Document:    The Covering Number C(16,5,3) Is at Least 62
+% Version:     v1.0.0
+% Author:      Celaya Solutions
+% Contact:     hello@celayasolutions.com
+% Date:        2026-10-06
+% SHA256:      f0a3469e6ebb3a93a4c26f2e9cff2ce44c7e795c3af20e01ee7f3aee73b59f56
+% Chain:       solana-mainnet
+% Tx:          3dtpsavTsSWLDbMvkQ6EfZvNXbYdpNBQisH1cFLnFwooy1Rs3KE3ShhoPZERQbyAB4Y7NH7iB8xokHfThhoTDHsw
+% License:     CC BY 4.0 / Celaya Solutions
+
+\documentclass[11pt]{amsart}
+
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xurl}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={The covering number C(16,5,3) is at least 62},
+  pdfauthor={Christopher B. Celaya}}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\cB}{\mathcal{B}}
+\newcommand{\cD}{\mathcal{D}}
+\newcommand{\cR}{\mathcal{R}}
+
+\begin{document}
+
+\title{The covering number \texorpdfstring{$C(16,5,3)$}{C(16,5,3)} is at least 62}
+
+\author{Christopher B. Celaya}
+\address{Celaya Solutions Research, El Paso, Texas, USA}
+\email{hello@celayasolutions.com}
+
+\subjclass[2020]{Primary 05B40; Secondary 05B05, 68V05, 68V15}
+\keywords{covering design, covering number, Sch\"onheim bound, Tur\'an number,
+SAT solving, DRAT proof, computer-assisted proof}
+
+\begin{abstract}
+A $(v,k,t)$ covering is a family of $k$-subsets (blocks) of a $v$-set such
+that every $t$-subset lies in at least one block, and the covering number
+$C(v,k,t)$ is the least number of blocks in such a family. The Sch\"onheim
+bound gives $C(16,5,3)\ge 61$, and a covering with 65 blocks has been known
+since 1997; these were the best recorded bounds. We prove that
+$C(16,5,3)\ge 62$. Counting shows that a 61-block covering would be very
+rigid: one point lies in 20 blocks and every other point in 19, every triple is
+covered once or twice, the pairs covered six times form a five-edge star plus a
+perfect matching of the remaining ten points, and the derived design at a point
+of degree 19 is a minimum $(15,4,2)$ covering. Minimum $(15,4,2)$ coverings
+fall into exactly four isomorphism classes, as Allston, Buskens and Stanton
+showed; we confirm this by two independent exhaustive computations. Fixing the
+derived design at a suitable point to each class in turn leaves four Boolean
+satisfiability instances, each with 144,553 variables and 512,424 clauses. All
+four are unsatisfiable: the SAT solver Lingeling refutes them with DRAT
+proofs of 13.0 to 15.6 million lines that the proof checker drat-trim
+verifies, and the solver CaDiCaL and a separately written constraint
+programming model agree. The encoder, the
+formulas, the proofs and the checking logs are publicly available.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}\label{sec:intro}
+
+Let $v\ge k\ge t\ge 1$ be integers. A \emph{$(v,k,t)$ covering} is a family
+$\cB$ of $k$-subsets, called \emph{blocks}, of a $v$-set $V$ such that every
+$t$-subset of $V$ is contained in at least one block. The \emph{covering
+number} $C(v,k,t)$ is the least size of a $(v,k,t)$ covering. We refer to the
+survey of Gordon and Stinson~\cite{handbook} for background, and to the La
+Jolla Covering Repository~\cite{ljcr}, now continued by the Covering
+Repository~\cite{coveringrepo}, for tables of bounds. Taking complements,
+$C(v,k,t)$ equals the Tur\'an number $T(v,v-t,v-k)$, the least number of
+$(v-k)$-subsets of a $v$-set such that every $(v-t)$-subset contains one of
+them~\cite{gordon1995,handbook}; for Tur\'an numbers in general see the
+survey~\cite{sidorenko1995}.
+
+The basic lower bound is due to Sch\"onheim~\cite{schonheim1964}:
+\[
+C(v,k,t)\ \ge\ L(v,k,t) := \left\lceil \frac{v}{k}\, L(v-1,k-1,t-1)\right\rceil,
+\qquad L(v,k,0)=1 .
+\]
+For $(v,k,t)=(16,5,3)$ it gives
+$L(16,5,3)=\lceil \tfrac{16}{5}\lceil \tfrac{15}{4}\lceil
+\tfrac{14}{3}\rceil\rceil\rceil=\lceil \tfrac{16}{5}\cdot 19\rceil=61$.
+A covering with 65 blocks was found by Rade Beli\'c in 1997~\cite{ljcr}, and Bluskov
+obtained the same bound by a construction from the Steiner system
+$S(3,5,17)$~\cite[Corollary~2.3.18]{bluskov1997}. The bounds
+$61\le C(16,5,3)\le 65$ are those recorded by the covering
+repositories~\cite{ljcr,coveringrepo}. General improvements of the
+Sch\"onheim bound give nothing more here: the hypotheses of the Mills--Mullin
+improvement~\cite{millsmullin1992} fail for these parameters, and the bounds
+of Horsley and Singh~\cite{horsley2018} do not exceed 61. We know of no
+earlier lower bound above 61 for $C(16,5,3)$ or, equivalently, for
+$T(16,13,11)$. Our main result improves the lower bound.
+
+\begin{theorem}\label{thm:main}
+There is no $(16,5,3)$ covering with $61$ blocks. Hence
+$62\le C(16,5,3)\le 65$.
+\end{theorem}
+
+The proof has a human part and a computer part. In
+Section~\ref{sec:structure}, elementary counting shows that a 61-block
+covering is extremely constrained: one point lies in 20 blocks and every
+other point in 19; the pairs covered six times rather than five form a graph
+consisting of a five-edge star at the point of degree 20 and a perfect
+matching of the remaining ten points; every triple is covered once or twice,
+with a prescribed number of doubly covered triples through each pair; and the
+derived design at a point of degree 19 is a minimum $(15,4,2)$ covering. Minimum $(15,4,2)$ coverings have 19 blocks and fall into
+four isomorphism classes (Section~\ref{sec:link}). This classification is due
+to Allston, Buskens and Stanton~\cite{allston1988}; since our argument
+depends on it, we confirm it by two independent exhaustive computations. In
+Section~\ref{sec:reduction} we fix the derived design at a suitable point to
+one of the four representatives. Each of the four resulting problems becomes a
+propositional formula in conjunctive normal form (CNF), constructed so that
+every 61-block covering yields a satisfying assignment of one of them. In
+Section~\ref{sec:computation} we report that all four formulas are
+unsatisfiable. The refutations were produced by the SAT solver
+Lingeling~\cite{lingeling} as DRAT proofs and verified by the proof checker
+drat-trim~\cite{wetzler2014}; the SAT solver CaDiCaL~\cite{cadical} and a
+separately written CP-SAT model~\cite{ortools} give the same answer.
+
+Computer-assisted proofs of this kind are common in combinatorics.
+The value $C(10,5,4)=51$ was determined by Margot~\cite{margot2003}, with
+branch-and-cut and isomorphism pruning, and independently by Applegate, Rains
+and Sloane~\cite{applegate2003}, who also determined several further
+covering numbers. SAT solvers with independently
+checkable proofs settled the Boolean Pythagorean triples
+problem~\cite{heule2016} and Keller's conjecture in dimension
+seven~\cite{brakensiek2022}. Closest to the present paper,
+Krug~\cite{krug2026} recently proved $C(12,6,4)=41$ by the same overall
+strategy: counting forces the structure of a putative smaller covering, every
+derived design is an optimal covering of smaller parameters, and the remaining
+cases are refuted by a SAT solver with certified proofs.
+
+All code, formulas, logs and proofs are public (Section~\ref{sec:data}).
+
+\section{Notation and basic counting}\label{sec:prelim}
+
+Throughout, $\cB$ is a family of 5-subsets of a 16-set $V$, a priori with
+repetitions. For a point $x$, a pair $\{x,y\}$ and a triple $T$ we write
+$r_x$, $\lambda_{xy}$ and $\mu_T$ for the numbers of blocks containing $x$,
+$\{x,y\}$ and $T$, counted with multiplicity, and call $r_x$ the
+\emph{degree} of $x$. The family
+$\cB$ is a $(16,5,3)$ covering if and only if $\mu_T\ge 1$ for every triple
+$T$. For a point $x$, the \emph{derived design} at $x$ is the family
+(with multiplicities)
+\[
+\cD_x=\{B\setminus\{x\}: x\in B\in\cB\}
+\]
+of $r_x$ quadruples on $V\setminus\{x\}$. A pair $\{u,w\}\subseteq
+V\setminus\{x\}$ lies in exactly $\mu_{xuw}$ members of $\cD_x$, and a point
+$u\ne x$ lies in exactly $\lambda_{xu}$ of them. In particular, if $\cB$ is a
+$(16,5,3)$ covering then $\cD_x$ is a $(15,4,2)$ covering. Two families are
+\emph{isomorphic} if a bijection between their point sets carries one onto the
+other.
+
+\begin{lemma}\label{lem:basic}
+Let $\cB$ be a $(16,5,3)$ covering. Then $\lambda_{xy}\ge 5$ for every pair
+and $r_x\ge 19$ for every point.
+\end{lemma}
+
+\begin{proof}
+Each of the 14 points $w\notin\{x,y\}$ needs a block containing
+$\{x,y,w\}$, and a block through $\{x,y\}$ contains only three further points,
+so $\lambda_{xy}\ge\lceil 14/3\rceil=5$. Each block through $x$ contains four
+pairs through $x$, so $4r_x=\sum_{y\ne x}\lambda_{xy}\ge 15\cdot 5=75$ and
+$r_x\ge 19$.
+\end{proof}
+
+Since $\sum_x r_x=5|\cB|$, Lemma~\ref{lem:basic} gives $5|\cB|\ge 16\cdot 19$,
+that is $|\cB|\ge 61$; this is the Sch\"onheim bound. In particular a 61-block
+covering has no repeated block, since deleting one copy of a repeated block
+would leave a covering with 60 blocks.
+
+\section{The structure of a 61-block covering}\label{sec:structure}
+
+In this section $\cB$ is a $(16,5,3)$ covering with exactly 61 blocks; by the
+remark above, its blocks are distinct.
+
+\begin{lemma}\label{lem:degrees}
+There is a point $z$ with $r_z=20$, and $r_x=19$ for every $x\ne z$.
+\end{lemma}
+
+\begin{proof}
+The degrees sum to $5\cdot 61=305=16\cdot 19+1$ and each is at least 19 by
+Lemma~\ref{lem:basic}.
+\end{proof}
+
+For a pair $\{x,y\}$ put $e_{xy}=\lambda_{xy}-5\ge 0$. Then
+\begin{equation}\label{eq:pairexcess}
+\sum_{y\ne x} e_{xy}=4r_x-75=
+\begin{cases} 1 & \text{if } r_x=19,\\ 5 & \text{if } x=z.\end{cases}
+\end{equation}
+
+\begin{lemma}\label{lem:pairs}
+Every pair has $\lambda_{xy}\in\{5,6\}$. Let $E$ be the graph on $V$ whose
+edges are the pairs with $\lambda_{xy}=6$. Then there are a $5$-set
+$A\subseteq V\setminus\{z\}$ and a perfect matching $P$ of
+$M=V\setminus(A\cup\{z\})$ such that
+\[
+E=\bigl\{\{z,a\}:a\in A\bigr\}\cup P .
+\]
+In particular every point other than $z$ has exactly one neighbour in $E$, and
+$E$ has ten edges and no triangle.
+\end{lemma}
+
+\begin{proof}
+By \eqref{eq:pairexcess}, a point $x\neq z$ has $e_{xy}=1$ for exactly one $y$
+and $e_{xy}=0$ for all other $y$. In particular $e_{zy}\le 1$ for every
+$y\ne z$, so the five units of excess at $z$ lie on five pairs $\{z,a\}$ with
+$a$ in a $5$-set $A$. Each $a\in A$ has used its single unit on $\{z,a\}$, so
+it has no other neighbour in $E$. Every $x\in M$ therefore has its unique
+neighbour in $M$, and these pairs form a perfect matching of $M$.
+\end{proof}
+
+For a pair $\{x,y\}$, each block through $\{x,y\}$ contains three triples
+through $\{x,y\}$, so $\sum_{w}\mu_{xyw}=3\lambda_{xy}$, where $w$ runs over
+the 14 other points. Hence
+\begin{equation}\label{eq:tripleexcess}
+\sum_{w\notin\{x,y\}}(\mu_{xyw}-1)=3\lambda_{xy}-14=
+\begin{cases} 1 & \text{if } \{x,y\}\notin E,\\ 4 & \text{if }
+\{x,y\}\in E.\end{cases}
+\end{equation}
+Call a triple \emph{doubled} if $\mu_T=2$.
+
+\begin{lemma}\label{lem:triples}
+Every triple $T$ has $\mu_T\in\{1,2\}$. Each pair outside $E$ lies in exactly
+one doubled triple, each pair in $E$ lies in exactly four doubled triples, and
+there are exactly $50$ doubled triples.
+\end{lemma}
+
+\begin{proof}
+If $\mu_T\ge 3$, then $T$ contributes at least $2$ to the left side of
+\eqref{eq:tripleexcess} for each of its three pairs. A pair outside $E$ has
+total $1$ there, so all three pairs of $T$ lie in $E$; but $E$ has no
+triangle. So $\mu_T\le 2$ for all $T$, and \eqref{eq:tripleexcess} counts the
+doubled triples through each pair. Let $D$ be the number of doubled
+triples. Counting incidences between pairs and doubled triples gives
+$3D=110\cdot 1+10\cdot 4$, so $D=50$. (As a check,
+$10\cdot 61=\binom{16}{3}+D$.)
+\end{proof}
+
+\begin{lemma}\label{lem:derived}
+Let $x\ne z$ and let $p$ be the neighbour of $x$ in $E$. Then $\cD_x$ is a
+$(15,4,2)$ covering with $19$ distinct blocks, in which $p$ lies in six blocks
+and every other point in five. The pairs that lie in two blocks of $\cD_x$ are
+the pairs $\{u,w\}$ for which $\{x,u,w\}$ is doubled; they form a star with
+centre $p$ and four leaves together with a perfect matching of the remaining
+ten points, and every other pair lies in exactly one block of $\cD_x$.
+\end{lemma}
+
+\begin{proof}
+$\cD_x$ has $r_x=19$ blocks, and they are distinct because the blocks of $\cB$
+are. The degree of $u$ in $\cD_x$ is $\lambda_{xu}$, which is $6$ for $u=p$
+and $5$ otherwise. The multiplicity of $\{u,w\}$ in $\cD_x$ is $\mu_{xuw}\in
+\{1,2\}$. By Lemma~\ref{lem:triples}, $\{x,p\}$ lies in four doubled triples
+and every other pair $\{x,u\}$ in exactly one, so in the graph of pairs
+covered twice by $\cD_x$ the point $p$ has degree four and every other point
+degree one. Such a graph is a star at $p$ with four leaves together with a
+perfect matching of the other ten points.
+\end{proof}
+
+We record what the reduction in Section~\ref{sec:reduction} uses.
+
+\begin{proposition}\label{prop:necessary}
+If $\cB$ is a $61$-block $(16,5,3)$ covering, then its blocks are distinct
+and, with $z$, $A$, $M$ and $E$ as above:
+\begin{enumerate}
+\item[(N1)] every triple $T$ satisfies $1\le\mu_T\le 2$;
+\item[(N2)] every pair outside $E$ lies in exactly one doubled triple, and
+every pair in $E$ in exactly four;
+\item[(N3)] $E$ consists of the five pairs $\{z,a\}$, $a\in A$, and a perfect
+matching of $M$;
+\item[(N4)] for every $a\in A$, the derived design $\cD_a$ is a $(15,4,2)$
+covering with $19$ blocks in which $z$ lies in six blocks.
+\end{enumerate}
+\end{proposition}
+
+\begin{remark}\label{rem:xz}
+The counting gives more, although we do not use it. The doubled triples
+through $z$ form a graph $X_z$ on $V\setminus\{z\}$ in which every point of
+$A$ has degree $4$ and every point of $M$ has degree $1$. If $X_z$ has $n_2$
+edges inside $A$, it has $20-2n_2$ edges between $A$ and $M$ and $n_2-5$ edges
+inside $M$, so $5\le n_2\le 10$.
+\end{remark}
+
+\section{Minimum \texorpdfstring{$(15,4,2)$}{(15,4,2)} coverings}\label{sec:link}
+
+It is classical that $C(15,4,2)=19$~\cite{mills1972,mills1973}; the
+Sch\"onheim bound is $\lceil \tfrac{15}{4}\lceil\tfrac{14}{3}\rceil\rceil=19$.
+The argument of Lemma~\ref{lem:derived} applies to every minimum
+$(15,4,2)$ covering.
+
+\begin{lemma}\label{lem:link-structure}
+Let $\cD$ be a $(15,4,2)$ covering with $19$ blocks, a priori with
+repetitions. Then one point $h$, the \emph{hub}, lies in six blocks and every
+other point in five. No pair lies in three blocks. The pairs lying in two
+blocks form a star with centre $h$ and four leaves together with a perfect
+matching of the other ten points, and every other pair lies in exactly one
+block. In particular the blocks of $\cD$ are distinct.
+\end{lemma}
+
+\begin{proof}
+Each point lies in at least $\lceil 14/3\rceil=5$ blocks, and the degrees sum
+to $76=15\cdot 5+1$, so there is exactly one point of degree $6$. For a point
+$u$ of degree $d_u$ we have $\sum_{w\ne u}(m_{uw}-1)=3d_u-14$, where $m_{uw}$
+is the number of blocks containing $\{u,w\}$; this is $4$ at the hub and $1$
+elsewhere. A pair in three blocks would contribute $2$ at each of its ends,
+which is impossible because at most one end is the hub. So all $m_{uw}\le 2$,
+and in the graph of pairs with $m_{uw}=2$ the hub has degree four and every
+other point degree one; such a graph is a star at the hub with four leaves
+together with a perfect matching of the other ten points. A repeated block would put
+all six of its pairs in two blocks, but the graph of such pairs has no
+triangle.
+\end{proof}
+
+We call the graph of pairs lying in two blocks the \emph{excess graph} of
+$\cD$; it is isomorphic to $K_{1,4}\cup 5K_2$. A 19-block $(15,4,2)$
+covering on $\{2,\dots,16\}$ is in \emph{standard form} if its hub is $2$, the
+leaves of its star are $3,4,5,6$, and its matching is
+$\{7,8\},\{9,10\},\{11,12\},\{13,14\},\{15,16\}$. Let $G$ be the group of
+permutations of $\{2,\dots,16\}$ that preserve this standard excess graph; it
+has order $4!\cdot 5!\cdot 2^5=92{,}160$. Every 19-block
+$(15,4,2)$ covering is isomorphic to one in standard form. An isomorphism
+between two coverings preserves pair multiplicities and hence excess graphs,
+so an isomorphism between two coverings in standard form is an element of $G$.
+Isomorphism classes of 19-block $(15,4,2)$ coverings therefore correspond to
+$G$-orbits of coverings in standard form.
+
+\begin{theorem}\label{thm:classification}
+There are exactly four isomorphism classes of $(15,4,2)$ coverings with $19$
+blocks. Representatives $\cR_1,\dots,\cR_4$ in standard form are listed in
+Table~\ref{tab:reps}; their automorphism groups have orders $4$, $2$, $2$
+and $4$.
+\end{theorem}
+
+That there are exactly four classes is due to Allston, Buskens and
+Stanton~\cite[Theorem~12]{allston1988}, who call these designs D2, D1, B4 and
+B3 and report the same automorphism group orders. Explicit isomorphisms from
+their published block lists onto $\cR_1,\dots,\cR_4$ are in the
+repository~\cite{covering64repo}. Their classification used computer
+isomorphism testing. Only the first assertion of
+Theorem~\ref{thm:classification}, that every 19-block $(15,4,2)$ covering is
+isomorphic to some $\cR_i$, is used in the proof of Theorem~\ref{thm:main}.
+Since the proof rests on it, we proved Theorem~\ref{thm:classification} again
+by two exhaustive computations, written separately and sharing no code; each
+of Computations~1 and~2 below is a complete proof.
+
+\subsection*{Computation 1: hub configurations}
+Let $\cD$ be in standard form. The hub lies in six \emph{hub blocks}, which
+have $18$ further slots. Each leaf fills two of them, in different hub blocks,
+and each of the ten matched points fills one. Regard the six hub blocks as
+vertices; each leaf gives an edge of a graph $\Gamma_L$ joining the two hub
+blocks containing it, and each matching pair $\{m,m'\}$ gives an edge of a
+multigraph $\Gamma_M$ joining the hub blocks containing $m$ and $m'$ (a loop if
+they are equal). Every vertex has total degree three, a loop counting twice,
+and $\Gamma_L$ is simple, since two leaves in the same two hub blocks would
+cover their pair twice. Two hub-block sets lie in the same $G$-orbit exactly
+when their coloured graphs $(\Gamma_L,\Gamma_M)$ are isomorphic. There are
+$1335$ labelled graphs $\Gamma_L$ in eight isomorphism classes, giving $206$
+classes of coloured graphs $(\Gamma_L,\Gamma_M)$. For a representative of each class,
+the remaining $13$ blocks avoid the hub and must cover a prescribed multigraph
+of residual pair demands exactly. A depth-first search that branches on the
+pair with fewest remaining candidate blocks enumerated every such
+decomposition; all $206$ searches completed, with $31{,}989$ nodes in total.
+Exactly four classes extend, with $12$, $4$, $2$ and $96$ completions; the
+other $202$ have none. A separate program replayed every search tree and
+verified each branching, forced move and dead end, and a CP-SAT enumeration of
+the four feasible cases returned the same $114$ completions. Within each
+feasible class, with hub-block set $H$, any isomorphism between completions
+lies in the stabilizer $G_H$ of $H$ in $G$; these stabilizers have orders $48$, $8$, $4$ and
+$384$, and in each class the completions form a single $G_H$-orbit. Hence
+there are exactly four isomorphism classes, with automorphism groups of orders
+$48/12=4$, $8/4=2$, $4/2=2$ and $384/96=4$.
+
+\subsection*{Computation 2: direct enumeration}
+A second program, written from scratch without reference to the first,
+enumerates all $19$-block coverings in standard form directly, as an exact
+cover problem in which the nine excess pairs must be covered twice and the
+other $96$ pairs once. Two depth-first searches with different branching rules
+both found the same $N=138{,}240$ coverings. As a third check, the program
+listed all $5{,}745{,}600$ labelled hub-block sets, which fall into $206$
+$G$-orbits, and for one representative $H$ of each orbit CP-SAT enumerated
+all completions of $H$; they were exactly the coverings with hub-block set $H$
+found by the depth-first searches. Since $G$ maps the completions of $H$ onto
+those of $gH$, this gives again $N=\sum_H |G\cdot H|\,c(H)=1920\cdot 12+
+11520\cdot 4+23040\cdot 2+240\cdot 96=138{,}240$, where $c(H)$ is the number
+of completions of $H$. Applying
+all $92{,}160$ elements of $G$ partitions these coverings into four orbits, of
+sizes $23{,}040$, $46{,}080$, $46{,}080$ and $23{,}040$, so the automorphism
+groups have orders $4$, $2$, $2$ and $4$, and
+$N=\sum_i |G|/|\mathrm{Aut}(\cR_i)|$. The four representatives in
+Table~\ref{tab:reps} lie in the four different orbits.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Representatives of the four classes of 19-block $(15,4,2)$
+coverings, in standard form (hub $2$, leaves $3,4,5,6$, matching
+$\{7,8\},\dots,\{15,16\}$); each entry is a block. In the notation of
+\cite{allston1988} these are D2, D1, B4 and B3, and in the accompanying
+repository \texttt{shape-1}, \texttt{shape-4}, \texttt{shape-44} and
+\texttt{shape-47}.}\label{tab:reps}
+\begin{tabular}{@{}llll@{}}
+\toprule
+$\cR_1$ & $\cR_2$ & $\cR_3$ & $\cR_4$\\
+\midrule
+2 3 4 5   & 2 3 4 5   & 2 3 4 5   & 2 3 4 5\\
+2 3 6 7   & 2 3 6 7   & 2 3 6 7   & 2 3 7 8\\
+2 4 6 8   & 2 4 6 8   & 2 4 9 11  & 2 4 9 10\\
+2 5 9 10  & 2 5 9 11  & 2 5 10 13 & 2 5 11 12\\
+2 11 13 15& 2 10 13 15& 2 6 15 16 & 2 6 13 14\\
+2 12 14 16& 2 12 14 16& 2 8 12 14 & 2 6 15 16\\
+3 8 11 12 & 3 8 13 14 & 3 8 9 10  & 3 6 9 10\\
+3 9 13 16 & 3 9 10 16 & 3 11 12 15& 3 11 13 14\\
+3 10 14 15& 3 11 12 15& 3 13 14 16& 3 12 15 16\\
+4 7 13 14 & 4 7 15 16 & 4 6 10 12 & 4 6 11 12\\
+4 9 12 15 & 4 9 12 13 & 4 7 8 16  & 4 7 13 15\\
+4 10 11 16& 4 10 11 14& 4 13 14 15& 4 8 14 16\\
+5 6 15 16 & 5 6 10 12 & 5 6 9 14  & 5 6 7 8\\
+5 7 11 12 & 5 7 13 14 & 5 7 8 15  & 5 9 13 16\\
+5 8 13 14 & 5 8 15 16 & 5 11 12 16& 5 10 14 15\\
+6 9 11 14 & 6 9 14 15 & 6 8 11 13 & 7 9 12 14\\
+6 10 12 13& 6 11 13 16& 7 9 12 13 & 7 10 11 16\\
+7 8 9 10  & 7 8 9 10  & 7 10 11 14& 8 9 11 15\\
+7 8 15 16 & 7 8 11 12 & 9 10 15 16& 8 10 12 13\\
+\midrule
+$|\mathrm{Aut}|=4$ & $|\mathrm{Aut}|=2$ & $|\mathrm{Aut}|=2$ &
+$|\mathrm{Aut}|=4$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Reduction to four satisfiability problems}\label{sec:reduction}
+
+Suppose that $\cB$ is a 61-block $(16,5,3)$ covering, and let $z$, $A$, $M$,
+$E$ be as in Section~\ref{sec:structure}. Choose $a\in A$. By
+Proposition~\ref{prop:necessary}(N4), $\cD_a$ is a 19-block $(15,4,2)$
+covering with hub $z$. By Theorem~\ref{thm:classification} there are an index
+$i\in\{1,2,3,4\}$ and a bijection $\sigma\colon V\setminus\{a\}\to
+\{2,\dots,16\}$ that carries $\cD_a$ onto $\cR_i$. It carries the hub $z$ to
+the hub $2$ of $\cR_i$. Extend $\sigma$ by $\sigma(a)=1$ and replace $\cB$ by
+its image. After this relabeling:
+\begin{itemize}
+\item $a=1$ and $z=2$, and the blocks through $1$ are exactly the 19 blocks
+$\{1\}\cup R$ with $R\in\cR_i$;
+\item $A=\{1\}\cup A'$ for a 4-subset $A'\subseteq\{3,\dots,16\}$, and $E$
+consists of $\{1,2\}$, the pairs $\{2,v\}$ with $v\in A'$, and a perfect
+matching of $\{3,\dots,16\}\setminus A'$;
+\item conditions (N1) and (N2) hold.
+\end{itemize}
+What is unknown is $A'$, the matching, and the 42 blocks that avoid the
+point $1$.
+
+\subsection*{The formula \texorpdfstring{$F_i$}{F\_i}}
+For each $i$ we define a CNF formula $F_i$ with the following variables:
+$x_B$ for each 5-subset $B$ of $\{1,\dots,16\}$ ($4368$ variables, meaning
+that $B$ is a block); $d_T$ for each 3-subset $T$ ($560$ variables, meaning
+that $T$ is doubled); $a_v$ for $v\in\{3,\dots,16\}$ ($14$ variables, meaning
+that $v\in A'$); and $m_{uv}$ for each pair $\{u,v\}\subseteq\{3,\dots,16\}$
+($91$ variables, meaning that $\{u,v\}$ is a matching edge). For a pair $Q$
+let $\varepsilon_Q$ be the constant or literal expressing $Q\in E$:
+\[
+\varepsilon_{\{1,2\}}=\top,\quad \varepsilon_{\{1,v\}}=\bot,\quad
+\varepsilon_{\{2,v\}}=a_v,\quad \varepsilon_{\{u,v\}}=m_{uv}
+\quad (3\le u,v\le 16).
+\]
+The constraints are:
+\begin{enumerate}
+\item[(C1)] $x_B$ is true for the 19 sets $B=\{1\}\cup R$ with $R\in\cR_i$,
+and false for every other 5-set containing $1$;
+\item[(C2)] for every triple $T$: $1\le\sum_{B\supseteq T}x_B\le 2$, and $d_T$
+is true if and only if $\sum_{B\supseteq T}x_B\ge 2$;
+\item[(C3)] exactly four of the variables $a_v$ are true;
+\item[(C4)] $m_{uv}\to\neg a_u$ and $m_{uv}\to\neg a_v$; every
+$v\in\{3,\dots,16\}$ has at most one $u$ with $m_{uv}$ true; and $a_v$ or
+some $m_{uv}$ is true;
+\item[(C5)] for every pair $Q$: $\sum_{T\supseteq Q}d_T\ge 1$; if
+$\varepsilon_Q$ holds then $\sum_{T\supseteq Q}d_T=4$, and otherwise
+$\sum_{T\supseteq Q}d_T=1$.
+\end{enumerate}
+The cardinality conditions in (C2) and (C5) are encoded with a two-sided
+variant of the sequential counter of Sinz~\cite{sinz2005}, in which each
+counter variable is equivalent to the statement that at least $j$ of the
+first $\ell$ inputs are true: for each triple $T$ a counter with three
+registers runs over the $78$ variables $x_B$, $B\supseteq T$, and for each
+pair $Q$ a counter with five registers runs over the $14$ variables $d_T$,
+$T\supseteq Q$. Condition (C3) uses the sequential-counter encoding of
+PySAT~\cite{ignatiev2018}, whose auxiliary variables we do not interpret, and
+the at-most-one conditions in (C4) use the pairwise encoding. In (C5), when
+$\varepsilon_Q$ is a literal, the two cases are implications guarded by
+$\varepsilon_Q$ and by $\neg\varepsilon_Q$. Each $F_i$ has $144{,}553$
+variables and $512{,}424$ clauses (Table~\ref{tab:families}). The four
+formulas differ only in the unit clauses of (C1).
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Variables and clauses of each formula $F_i$ by constraint family.
+All counter variables are auxiliary.}\label{tab:families}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Family & Variables & Clauses\\
+\midrule
+Block variables $x_B$; (C1) as unit clauses & 4{,}368 & 1{,}365\\
+Doubled-triple variables $d_T$ & 560 & 0\\
+(C2) triple counters and their outputs & 131{,}040 & 478{,}800\\
+Variables $a_v$; (C3) with 80 auxiliary variables & 94 & 160\\
+(C4) matching variables and clauses & 91 & 1{,}288\\
+(C5) pair counters and their outputs & 8{,}400 & 30{,}811\\
+\midrule
+Total & 144{,}553 & 512{,}424\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{proposition}\label{prop:reduction}
+If a $(16,5,3)$ covering with $61$ blocks exists, then at least one of the
+formulas $F_1,\dots,F_4$ is satisfiable.
+\end{proposition}
+
+\begin{proof}
+Relabel $\cB$ as above, with derived design $\cR_i$ at the point $1$. Set
+$x_B$ true exactly for the blocks of $\cB$, $d_T$ true exactly for the doubled
+triples, $a_v$ true exactly for $v\in A'$, $m_{uv}$ true exactly for the
+matching edges, every counter variable of (C2) and (C5) to the truth value
+of the statement it represents, and the auxiliary variables of (C3) to values
+satisfying its clauses, which exist because exactly four $a_v$ are true
+(checked exhaustively; Section~\ref{sec:computation}). Condition (C1) holds
+because the blocks of $\cB$ are distinct and the blocks through $1$ are the
+sets $\{1\}\cup R$, $R\in\cR_i$;
+(C2) is (N1) together with the definition of a doubled triple; (C3) holds
+because $|A'|=4$; (C4) holds because the points of $A'$ have no neighbour in
+$E$ other than $2$, while every point of $\{3,\dots,16\}\setminus A'$ has
+exactly one neighbour in $E$, and it lies in $\{3,\dots,16\}\setminus A'$.
+For (C5), the description of $E$ after relabeling shows that $\varepsilon_Q$
+is true exactly when $Q\in E$: the only neighbour of $1$ in $E$ is $2$, the
+neighbours of $2$ are $1$ and the points of $A'$, and the edges of $E$ inside
+$\{3,\dots,16\}$ are the matching edges. Then (C5) is (N2).
+\end{proof}
+
+\begin{remark}\label{rem:exact}
+Neither the number of blocks nor the pair multiplicities are written into
+$F_i$. They are implied, so the reduction loses nothing: in any satisfying
+assignment, (C3) and (C4) give a graph $E$ with $1+4+5=10$ edges, so (C5)
+gives $3D=110+40$ for the number $D$ of doubled triples, and (C2) gives
+$10|\cB|=\sum_T\mu_T=560+D=610$, where $\cB$ is the set of $B$ with $x_B$
+true. For a pair $Q$, (C2) and (C5) give $3\lambda_Q=\sum_{w\notin
+Q}\mu_{Q\cup\{w\}}=14+1+3[\varepsilon_Q]$, so $\lambda_Q=5+[\varepsilon_Q]$;
+hence $4r_2=15\cdot 5+5$ and $r_2=20$. Conversely, if a 61-block covering has
+the sets $\{1\}\cup R$, $R\in\cR_i$, as its blocks through $1$ and its point
+of degree 20 is $2$, then $\lambda_{12}=6$ because $2$ is the hub of $\cR_i$,
+so $1\in A$, and the proof of Proposition~\ref{prop:reduction} applies with
+$a=1$ and $\sigma$ the identity. Thus $F_i$ is satisfiable if and only if
+there is a 61-block covering whose blocks through $1$ are the sets $\{1\}\cup
+R$, $R\in\cR_i$, and whose point of degree 20 is $2$.
+\end{remark}
+
+\section{Computation and certification}\label{sec:computation}
+
+\begin{theorem}\label{thm:unsat}
+The formulas $F_1,F_2,F_3,F_4$ are unsatisfiable.
+\end{theorem}
+
+We recall the certification method. A DRAT proof of unsatisfiability of a
+CNF formula is a list of clause additions and deletions ending with the empty
+clause. Each added clause, or \emph{lemma}, must be a reverse unit
+propagation (RUP) consequence of the clauses present at that point (assigning
+all its literals false and applying unit propagation yields a conflict), or
+more generally a resolution asymmetric tautology (RAT). Both kinds of addition
+preserve satisfiability and deletions cannot make an unsatisfiable set
+satisfiable, so a valid proof that reaches the empty clause shows that the
+formula is unsatisfiable. In backward mode, drat-trim starts from the empty
+clause and checks only the lemmas needed to derive it; these lemmas and the
+original clauses they use form the \emph{core}. DIMACS is the standard text
+format for CNF formulas.
+
+The formulas were generated by a short Python script using PySAT
+(version 1.9.dev15)~\cite{ignatiev2018} and written in DIMACS format. Each was
+solved by Lingeling (version \texttt{bbc-9230380-\allowbreak 160707}, the SAT
+Competition 2016 version~\cite{lingeling}, as bundled with PySAT), which
+recorded a proof of unsatisfiability in the DRAT format. Each proof was then
+checked by drat-trim~\cite{wetzler2014} (commit \texttt{2e3b2dc}) in backward
+mode with the time limit raised (option \texttt{-t 1000000}), which reported
+\texttt{s VERIFIED} in all four cases. Table~\ref{tab:runs} gives the
+figures. drat-trim reports no RAT lemmas in any core, so every lemma in the
+verified cores is a RUP lemma. The runs were
+made on 5~October~2026 on one Apple M5 Max laptop with 18 cores and 128\,GB
+of memory; the four cases ran concurrently with other jobs, so the times are
+wall-clock times on a shared machine and are given only for orientation.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{Refutation of $F_1,\dots,F_4$ by Lingeling and verification of the
+DRAT proofs by drat-trim. Times in seconds; sizes in decimal gigabytes.
+Solve is the wall-clock time of the Lingeling call through PySAT, including
+loading the clauses and retrieving the proof; check times and core figures
+are as reported by drat-trim.}\label{tab:runs}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+ & Solve & Proof lines & Size & Check & Core clauses & Core lemmas\\
+\midrule
+$F_1$ & 14{,}714 & 13{,}065{,}165 & 7.04 & 5{,}269 & 223{,}884 & 1{,}914{,}196\\
+$F_2$ & 19{,}495 & 15{,}609{,}452 & 8.82 & 3{,}512 & 228{,}423 & 2{,}143{,}298\\
+$F_3$ & 19{,}640 & 15{,}471{,}588 & 8.48 & 3{,}439 & 235{,}146 & 2{,}179{,}394\\
+$F_4$ & 14{,}774 & 13{,}044{,}849 & 7.30 & 4{,}829 & 230{,}704 & 1{,}765{,}503\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Cross-checks}
+Two further computations agree with Theorem~\ref{thm:unsat}; neither is part
+of the proof. First, CaDiCaL~1.9.5~\cite{cadical}, also called through PySAT
+on the same formulas, reported unsatisfiability in $1{,}045$ to $1{,}255$
+seconds after $3.5$ to $4.2$ million conflicts; these runs produced no
+proofs. Second, a separately written CP-SAT model in Google OR-Tools
+9.15~\cite{ortools} states the same conditions directly as linear constraints
+($\sum_{B\supseteq T}x_B=1+d_T$ for every triple, $\sum_{T\supseteq Q}d_T=
+1+3\varepsilon_Q$ and, redundantly, $\sum_{B\supseteq Q}x_B=5+\varepsilon_Q$
+for every pair, and the conditions on $A'$ and the matching). It reported all
+four problems infeasible in $1{,}623$ to $2{,}089$ seconds. This model shares
+the reduction and the representatives with the CNF formulas, but none of the
+encoding: no counters, no cardinality encodings and no DIMACS output.
+
+\subsection*{Checks on the formulas}
+A proof checker certifies that a formula is unsatisfiable, not that the
+formula says what it is meant to say. We therefore checked the encoding
+separately. The DIMACS files are regenerated byte for byte from the
+representatives alone by the script \texttt{gen\_cnf.py} in the ancillary
+files, which consists of the encoding lines of the solve script without the
+solver call; their SHA256 checksums are listed with the data. That each
+counter variable is equivalent to its intended statement follows by induction
+on the number of inputs; we also tested the counter code exhaustively for up
+to $12$ inputs with bounds up to $6$, and for $14$ inputs with the bounds $3$,
+$5$ and $6$ (the bound $5$ on $14$ inputs is the case used in (C5)): in every
+case each assignment of the inputs extends uniquely, with every counter
+variable equal to its intended value. The clauses of (C3) and (C4) were checked
+exhaustively over all assignments of the $a_v$: the clauses of (C3), with
+their auxiliary variables, are satisfiable exactly for the $1001$ assignments
+with four $a_v$ true, and the solutions of (C4) on the $m_{uv}$ are exactly
+the $945$ perfect matchings of the complement of $A'$ for each of the $1001$
+choices of $A'$. Finally, for $1200$ random assignments of the main
+variables, extended to the auxiliary variables (the counters canonically, the
+auxiliary variables of (C3) by a satisfying extension), the violated
+constraint instances of each family were compared with the violated instances
+of (C1)--(C5); there were no mismatches. We also confirmed that every
+representative $\cR_i$ is a 19-block $(15,4,2)$ covering in standard form with
+hub $2$, as the definition of $\varepsilon_Q$ requires. The scripts for these
+checks, with their output, are in the directory
+\nolinkurl{experiments/2026-10-06/lb61-encoder-audit} of the
+repository~\cite{covering64repo}.
+
+\subsection*{What the proof relies on}
+Theorem~\ref{thm:main} rests on four things. First, the arguments proved in
+the text: Lemma~\ref{lem:basic}, the counting of Section~\ref{sec:structure},
+Lemma~\ref{lem:link-structure} and the reduction of
+Proposition~\ref{prop:reduction}. Second, the completeness part of
+Theorem~\ref{thm:classification}. It has been obtained three times, by
+Allston, Buskens and Stanton and by the two computations of
+Section~\ref{sec:link}, which agree; the search trees of Computation~1 were
+replayed by a separate program, but unlike the DRAT proofs they are not
+checked by an established proof checker. Third, the correctness of the short
+encoder that produces $F_1,\dots,F_4$, including the PySAT cardinality
+encoding it calls for (C3), checked as described above. Fourth, the
+correctness of drat-trim. The proof does not rely on the correctness of
+Lingeling, CaDiCaL or CP-SAT. The DRAT proofs could also be converted to the
+LRAT format, in which each lemma lists the clauses that justify it, and
+checked with a formally verified checker such as
+cake\_lpr~\cite{tan2021cakelpr}, as was done in~\cite{krug2026}; we have not
+yet done this.
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}]
+By Proposition~\ref{prop:reduction}, a 61-block covering would make one of
+$F_1,\dots,F_4$ satisfiable, contradicting Theorem~\ref{thm:unsat}. Hence
+$C(16,5,3)\ge 62$. The covering of Beli\'c~\cite{ljcr} gives
+$C(16,5,3)\le 65$; see also~\cite[Corollary~2.3.18]{bluskov1997}.
+\end{proof}
+
+\section{Concluding remarks}\label{sec:remarks}
+
+The value of $C(16,5,3)$ is now known to be $62$, $63$, $64$ or $65$. Part of
+the method carries over to more blocks. For any $(16,5,3)$ covering with $b$
+blocks, the identities of Section~\ref{sec:structure} give
+$\sum_{\{x,y\}}(\lambda_{xy}-5)=10b-600$ and $\sum_x(r_x-19)=5b-304$. At
+$b=62$ at most six points have degree greater than $19$, so at least ten
+points have degree $19$. The derived design at each of them is a $(15,4,2)$
+covering with $19$ blocks, so by Theorem~\ref{thm:classification} it is
+isomorphic to one of $\cR_1,\dots,\cR_4$. The difference is that the graph of
+pairs with $\lambda_{xy}>5$ is no longer forced: at $62$ blocks the counting
+allows many degree sequences and excess graphs, so an analogous case split
+would be considerably larger.
+
+\section{Data availability}\label{sec:data}
+
+The repository~\cite{covering64repo}, licensed CC BY 4.0, contains the
+structural argument; Computation~1 of Section~\ref{sec:link}
+(\nolinkurl{experiments/2026-10-03/link-hub-independent}) and Computation~2
+(\nolinkurl{experiments/2026-10-06/reclassify-15-4-2}) with their evidence; the
+isomorphisms from the designs of~\cite{allston1988} onto
+$\cR_1,\dots,\cR_4$ (\nolinkurl{experiments/2026-10-03/literature-and-novelty});
+the encoder (\nolinkurl{experiments/2026-10-05/lb61-certified}) and its audit
+(\nolinkurl{experiments/2026-10-06/lb61-encoder-audit}); the CaDiCaL and CP-SAT
+cross-checks; and the solver records and drat-trim logs. The SAT
+computations of Section~\ref{sec:computation} are those of commit
+\texttt{fd7adc2}, and the classification and encoder checks added for this
+paper are in commit \texttt{d490808}. The four CNF formulas and DRAT
+proofs (about $32$\,GB uncompressed), with SHA256 checksums, the search trees
+of Computation~1 and instructions for checking the proofs, are archived on
+Zenodo~\cite{zenodo}. The ancillary files of this arXiv submission contain
+the representatives $\cR_1,\dots,\cR_4$ (as the 19 blocks through the point
+$1$), the script \texttt{gen\_cnf.py} that writes the four formulas without
+solving them, the CP-SAT model and the SHA256 checksums of all formulas and
+proofs.
+
+\section*{Use of AI assistance}
+
+AI coding assistants (OpenAI Codex and Anthropic Claude Code), working under
+the author's direction, wrote the programs in the accompanying repository,
+including both classification programs of Section~\ref{sec:link}, the
+encoder and the CP-SAT model. They also helped develop the counting arguments
+of Section~\ref{sec:structure}, search the literature, draft this manuscript
+and check its references and numbers. In this paper, computations described
+as independent or separately written are separate programs that share no
+code; they were not written by different people. The author has checked the
+arguments and the references and takes full responsibility for the content.
+
+\bibliographystyle{amsplain}
+\bibliography{refs}
+
+\end{document}
