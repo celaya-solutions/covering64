@@ -1,12 +1,12 @@
 ```text
 Document:    covering64: Research on the Covering Number C(16,5,3)
-Version:     v2.0.0
+Version:     v2.1.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
-Date:        2026-10-05
-SHA256:      f6f4bfe0fb005b704abc38c6b5134a0bbcc4c1064129b78d5c8a0130802a4dc9
-Chain:       n/a
-Tx:          [not anchored]
+Date:        2026-10-06
+SHA256:      08265f2304fc18bf947774106a97461fb7fd5d9d4a1a98706621e3458115ec1f
+Chain:       solana-mainnet
+Tx:          3UGyXq8sne5vS74rBgk8WLNvEJPvb4ANpRiaSLFbTpwpVd2DepTVT5mojnatSnN641Kh3Dsk1vM9Qvkjrue1bdTj
 License:     CC BY 4.0 / Celaya Solutions
 ```
 
@@ -24,24 +24,28 @@ one block. This project studies **C(16,5,3)**: the fewest 5-element subsets of
 In plain words: sixteen people are split into teams of five. How few teams do
 you need so that every group of three people shares at least one team?
 
-**Known bounds: 61 <= C(16,5,3) <= 65.** The 65-block cover is due to Rade
-Belić (1997) and is archived in the La Jolla Covering Repository (Daniel M.
-Gordon). The lower bound 61 is the Schönheim bound. These are the values
-recorded by the Covering Repository as of October 2026.
+**Recorded bounds before this work: 61 <= C(16,5,3) <= 65.** The 65-block
+cover is due to Rade Belić (1997) and is archived in the La Jolla Covering
+Repository (Daniel M. Gordon). The lower bound 61 is the Schönheim bound; these
+are the values recorded by the Covering Repository as of October 2026.
+**With result 1 below: 62 <= C(16,5,3) <= 65.**
 
 ## Results so far (October 2026)
 
-1. **Preliminary: no 61-block cover exists, so C(16,5,3) >= 62.**
+1. **No 61-block cover exists, so C(16,5,3) >= 62.**
    [docs/lower-bound-61-structure.md](docs/lower-bound-61-structure.md) proves
    the rigid structure any 61-block cover must have: one point in 20 blocks and
    fifteen in 19, forced pair and triple multiplicities, and at every
    19-block point a minimum C(15,4,2) "link" from one of four known
    isomorphism classes (Allston, Buskens and Stanton, 1988). Fixing one link in
-   each of the four classes, the SAT solver CaDiCaL 1.9.5 found all four
-   remaining problems unsatisfiable (17 to 21 minutes each).
-   **Status: not yet certified.** DRAT proofs (Lingeling, checked with
-   drat-trim) and an independent CP-SAT re-formulation are running. Until those
-   results are published here, treat this bound as unverified.
+   each class leaves four SAT problems, and all four are unsatisfiable:
+   Lingeling refutations with DRAT proofs of 13 to 15.6 million lines each all
+   pass the independent proof checker drat-trim, CaDiCaL agrees, and a
+   separately written CP-SAT model is infeasible in every case
+   ([certificates](experiments/2026-10-05/lb61-certified/README.md)). To our
+   knowledge this improves the recorded lower bound of 61. It is a
+   computer-assisted proof that also relies on the published classification of
+   minimum C(15,4,2) covers, which this repository reconstructs independently.
 2. **A structured branch is closed.** Within the regular branch whose
    six-fold pairs form the circulant graph C16(+-1,+-3,8), every one of the
    6,739,200 cases with an affine point link is excluded by checked support,

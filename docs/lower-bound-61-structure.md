@@ -1,13 +1,13 @@
 ```text
 Document:    Forced Structure of a 61-Block C(16,5,3) Cover
-Version:     v1.0.0
+Version:     v2.0.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
-Date:        2026-10-05
-SHA256:      b2dd86c098485e26fb1a5d1d0164d1f612b817811b4105708460389193aa0d1c
-Chain:       n/a
-Tx:          [not anchored]
-License:     All Rights Reserved / Celaya Solutions
+Date:        2026-10-06
+SHA256:      194d7eff4f8dfa6654cbb57a3577e74e54be3ddf5103a4fb522a73934fb034f8
+Chain:       solana-mainnet
+Tx:          2ThLQVG4BJCgu5Q1gSSCTBM26eNMJPPJDzd6SnpthKgrXS89fi3hEg6ou2Y9G8ybh9XsqfPjMYprkx5gZC6VB79s
+License:     CC BY 4.0 / Celaya Solutions
 ```
 
 # Forced structure of a 61-block cover
@@ -16,7 +16,7 @@ The recorded bounds are 61 <= C(16,5,3) <= 65. The program now works upward
 from the lower bound: show that 61 blocks are impossible, then 62 and 63, and
 finally 64. Each step would raise the lower bound and needs a complete,
 independently checkable argument. This note proves the structure any 61-block
-cover must have. It does not yet exclude such a cover.
+cover must have and then excludes such a cover, so C(16,5,3) >= 62.
 
 ## Lemmas
 
@@ -65,29 +65,31 @@ Thus a 61-block cover exists exactly when there is a set of 61 blocks in which
 every triple is covered once or twice, each non-E pair lies in exactly one
 doubled triple and each E pair in exactly four, with E as in Lemma 3.
 
-## Computational status
+## Exclusion of 61 blocks
 
-Exploratory probes, recorded in `experiments/2026-10-05/lower-bound-61-probes/`,
-are all inconclusive. The plain LP relaxation is feasible, also with one
-classified link fixed and E fractional. Greedy LP dives fail only after about
-eleven fixed blocks. CP-SAT with twelve workers and symmetry detection
-returned UNKNOWN after 600 seconds. A compact SAT encoding (136,768 variables,
-490,520 clauses, counter logic checked exhaustively on small inputs) stayed
-open after 3 million CaDiCaL conflicts, both with X_z fixed at random and with
-each of the four link classes fixed and E left variable. A Python enumeration
-of z's twenty link quadruples for five random X_z found none in about a
-million nodes per case before its time limit, which suggests strong pruning but
-proves nothing.
+Take any A-point a. Its partner is z, so by Lemma 5 its link is one of the four
+classified covers with z as its center. Relabel the points so that a = 1 and the
+link equals one of the representatives in
+`experiments/2026-10-03/link-classification/`, with z = 2. What remains unknown
+is which four of the points 3..16 are the other points of A, and the perfect
+matching of pairs with multiplicity six on the other ten points.
 
-## Plan
+For each of the four representatives, a CNF with 144,553 variables and 512,424
+clauses states only necessary conditions: the 19 blocks through point 1 are
+the link blocks, every triple is covered once or twice, each pair outside E lies
+in exactly one doubled triple and each pair in E in exactly four, and E is the
+five-edge star at 2 (containing 1-2) plus a perfect matching of the remaining
+ten points, encoded with variables. All four CNFs are unsatisfiable:
 
-1. Enumerate the X_z graphs up to the 460,800 symmetries of E, with an
-   orbit-counting completeness check.
-2. For each, enumerate z's link (20 quadruples with the forced multiplicities and
-   the Lemma 5 hub rule) with a fast exact-cover engine, cross-checked by a
-   second implementation.
-3. Close every remaining case with exact LP certificates (E's matching as
-   fractional variables) or, where needed, SAT with DRAT proofs.
-4. Publish the lemmas, enumeration counts and all certificates with
-   independent checkers. Nothing is announced or submitted without the
-   project owner's explicit instruction.
+- Lingeling refutations with DRAT proofs (13.0 to 15.6 million lines), all
+  accepted by drat-trim (`experiments/2026-10-05/lb61-certified/`);
+- CaDiCaL 1.9.5 UNSAT on the same encoder (`experiments/2026-10-05/lb61-fixed-link-sat/`);
+- an independently written CP-SAT model, INFEASIBLE in all four cases
+  (`experiments/2026-10-05/lb61-crosscheck/`).
+
+Hence no 61-block cover exists and **C(16,5,3) >= 62**. The argument relies on
+the published four-class classification of minimum C(15,4,2) covers (Allston,
+Buskens and Stanton, 1988), reconstructed independently in this repository.
+
+Earlier exploratory probes, all inconclusive, are recorded in
+`experiments/2026-10-05/lower-bound-61-probes/`.

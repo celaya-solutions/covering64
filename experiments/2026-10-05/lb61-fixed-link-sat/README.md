@@ -1,13 +1,13 @@
 ```text
 Document:    Fixed-Link SAT Runs for the 61-Block Case
-Version:     v1.0.0
+Version:     v1.1.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
-Date:        2026-10-05
-SHA256:      0529d9c8f41e37dd05ee12927b65ccb9b112d1d762f61fcbc05eb7b617cfabf8
-Chain:       n/a
-Tx:          [not anchored]
-License:     All Rights Reserved / Celaya Solutions
+Date:        2026-10-06
+SHA256:      f1c955d9cffa49380a022c42d9cb663fe8637d78b9118ac4cda4b45c28c7ebf7
+Chain:       solana-mainnet
+Tx:          3y9b5fFQnUAx9GPyyJ8pzNQjvCn4gRkFXGPRSdMiyss6xv1UK6mzfRt2TdFj3Fqae2oUeN35poeNgt9dfcFoeJiz
+License:     CC BY 4.0 / Celaya Solutions
 ```
 
 # Fixed-link SAT runs: preliminary evidence that 61 blocks are impossible
@@ -34,6 +34,7 @@ CaDiCaL 1.9.5 (through PySAT) returned UNSAT for all four classes:
 | shape-44 | UNSAT | 1,045 s | 3,502,843 |
 | shape-47 | UNSAT | 1,169 s | 3,835,768 |
 
-The logs are saved beside this note. These runs produced no proof, so the
-result is **not certified**: see `../lb61-certified/` (DRAT proofs checked by
-drat-trim) and `../lb61-crosscheck/` (an independent CP-SAT formulation).
+The logs are saved beside this note. These runs produced no proof. The
+result was then certified with DRAT proofs checked by drat-trim in
+`../lb61-certified/` and confirmed by an independent CP-SAT formulation in
+`../lb61-crosscheck/`.

@@ -1,13 +1,13 @@
 ```text
 Document:    C(16,5,3) Continued Research Checkpoint
-Version:     v1.43.0
+Version:     v1.44.0
 Author:      Celaya Solutions
 Contact:     hello@celayasolutions.com
-Date:        2026-10-05
-SHA256:      aef119a3fadcd3a4b4c2c607889a3c820a2d77d5f466091742a03831d48d8413
-Chain:       n/a
-Tx:          [not anchored]
-License:     All Rights Reserved / Celaya Solutions
+Date:        2026-10-06
+SHA256:      3e91affebb20e341eaf4375d97e06544e035b2be770a1d22340276f0ba5a26df
+Chain:       solana-mainnet
+Tx:          2jBQiDYHm1eB4HCa4bRzAb6tnJDp2M8tb6c5PoNvgdxJ73C4ZJ4TtYaGkSQeq4k7LSrUa76jwFfurfUs1WUuR6Aq
+License:     CC BY 4.0 / Celaya Solutions
 ```
 
 # Research continuation
@@ -1383,3 +1383,7 @@ The program now works upward from the recorded lower bound of 61. `docs/lower-bo
 ## Preliminary: no 61-block cover (October 5)
 
 Fix an A-point link to each of the four classified C(15,4,2) covers and leave the rest of the forced pair structure variable. CaDiCaL 1.9.5 returned UNSAT for all four resulting CNFs (144,553 variables and 512,424 clauses each; 1,045 to 1,255 seconds). With the lemmas of `docs/lower-bound-61-structure.md` this implies C(16,5,3) >= 62. These runs produced no proofs. Certification with Lingeling DRAT proofs checked by drat-trim, and an independently written CP-SAT formulation, are in progress under `experiments/2026-10-05/lb61-*`. Until they finish the bound is unverified. The repository is released publicly under CC BY 4.0.
+
+## Certified: no 61-block cover (October 6)
+
+The four fixed-link CNFs were re-solved by Lingeling with DRAT proof logging. All four are UNSAT in 4.1 to 5.5 hours, and drat-trim reports `s VERIFIED` for every proof (13.0 to 15.6 million lines, 7.0 to 8.8 GB; checks of 57 to 88 minutes). An independently written CP-SAT model is INFEASIBLE in all four cases (1,623 to 2,089 seconds). With the lemmas of `docs/lower-bound-61-structure.md` and the classified C(15,4,2) links, no 61-block cover exists: **C(16,5,3) >= 62**. Receipts and hashes are in `experiments/2026-10-05/lb61-certified/`; the proofs themselves are kept outside Git.

@@ -14,12 +14,13 @@ authors:
     website: "https://celayasolutions.com"
 repository-code: "https://github.com/celaya-solutions/covering64"
 license: CC-BY-4.0
-version: "2026.10.05"
-date-released: 2026-10-05
+version: "2026.10.06"
+date-released: 2026-10-06
 abstract: >-
   Computer-assisted research on the covering number C(16,5,3), recorded as
   61 <= C(16,5,3) <= 65. Includes a structural analysis of 61-block covers,
-  a preliminary (not yet certified) proof that no 61-block cover exists,
+  a certified computer-assisted proof that no 61-block cover exists
+  (so C(16,5,3) >= 62, with DRAT proofs checked by drat-trim),
   checked exclusions of structured 64-block branches, a prescribed-symmetry
   search, and independent checkers for every certificate.
 keywords:
