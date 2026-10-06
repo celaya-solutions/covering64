@@ -1,11 +1,11 @@
 % Document:    The Covering Number C(16,5,3) Is at Least 62
-% Version:     v1.0.0
+% Version:     v1.0.1
 % Author:      Celaya Solutions
 % Contact:     hello@celayasolutions.com
 % Date:        2026-10-06
-% SHA256:      f0a3469e6ebb3a93a4c26f2e9cff2ce44c7e795c3af20e01ee7f3aee73b59f56
+% SHA256:      11635a90ae72265bf483f9e6d13b4fc3bbff64a167832aad40939b6db32b9628
 % Chain:       solana-mainnet
-% Tx:          3dtpsavTsSWLDbMvkQ6EfZvNXbYdpNBQisH1cFLnFwooy1Rs3KE3ShhoPZERQbyAB4Y7NH7iB8xokHfThhoTDHsw
+% Tx:          4SUk2RkFrqV8x9fJVBqpyTgRLyWD8r66Q4PRdUrBe3r5SymcGEh5HYzYGRByZGfuhHKzjqbR19uNVYks3Eyjq6uk
 % License:     CC BY 4.0 / Celaya Solutions
 
 \documentclass[11pt]{amsart}
@@ -575,8 +575,8 @@ clause. Each added clause, or \emph{lemma}, must be a reverse unit
 propagation (RUP) consequence of the clauses present at that point (assigning
 all its literals false and applying unit propagation yields a conflict), or
 more generally a resolution asymmetric tautology (RAT). Both kinds of addition
-preserve satisfiability and deletions cannot make an unsatisfiable set
-satisfiable, so a valid proof that reaches the empty clause shows that the
+preserve satisfiability and clause deletions also preserve satisfiability,
+so a valid proof that reaches the empty clause shows that the
 formula is unsatisfiable. In backward mode, drat-trim starts from the empty
 clause and checks only the lemmas needed to derive it; these lemmas and the
 original clauses they use form the \emph{core}. DIMACS is the standard text
@@ -649,7 +649,7 @@ with four $a_v$ true, and the solutions of (C4) on the $m_{uv}$ are exactly
 the $945$ perfect matchings of the complement of $A'$ for each of the $1001$
 choices of $A'$. Finally, for $1200$ random assignments of the main
 variables, extended to the auxiliary variables (the counters canonically, the
-auxiliary variables of (C3) by a satisfying extension), the violated
+auxiliary variables of (C3) by a satisfying extension when one exists), the violated
 constraint instances of each family were compared with the violated instances
 of (C1)--(C5); there were no mismatches. We also confirmed that every
 representative $\cR_i$ is a 19-block $(15,4,2)$ covering in standard form with
